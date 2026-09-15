@@ -25,6 +25,12 @@ def home():
     return render_template("index.html")
 
 
+@app.route("/present")
+def present():
+    # 한 줄씩 나타났다 사라지는 자동 재생 버전 (기존 index.html과 별개 페이지)
+    return render_template("present.html")
+
+
 @app.route("/api/script", methods=["GET"])
 def get_script():
     # 데이터베이스(JSON)에서 대본 읽어오기
