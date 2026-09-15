@@ -1,0 +1,9 @@
+name: presentation-avatar
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - flask
+      - pypdf

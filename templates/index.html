@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대본 텔레프롬프터</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <h1>대본 텔레프롬프터</h1>
+        <p class="desc">대본을 입력하고 저장하면 데이터베이스(JSON)에 저장되고, 저장된 문장이 아래 텔레프롬프터 화면에 나타납니다.</p>
+
+        <div class="upload">
+            <textarea id="script-input" rows="6" placeholder="발표 대본을 입력하세요. (문장 단위로 자동 분리됩니다)"></textarea>
+            <button type="button" onclick="saveScript()">텍스트 저장하고 보기</button>
+
+            <div class="divider">또는</div>
+
+            <div class="file-row">
+                <input type="file" id="pdf-input" accept="application/pdf">
+                <button type="button" onclick="uploadPdf()">PDF 업로드</button>
+            </div>
+            <p id="file-status" class="file-status"></p>
+        </div>
+
+        <div class="prompter-wrap">
+            <div class="prompter-controls">
+                <button type="button" onclick="prevLine()">이전</button>
+                <span id="line-status">0 / 0</span>
+                <button type="button" onclick="nextLine()">다음</button>
+            </div>
+            <div id="prompter"></div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
