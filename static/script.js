@@ -1,5 +1,7 @@
 let lines = [];
 let currentIndex = 0;
+let playing = false;
+let timer = null;
 
 async function loadScript() {
     try {
@@ -7,7 +9,7 @@ async function loadScript() {
         const data = await res.json();
         lines = data.lines || [];
         currentIndex = 0;
-        render();
+        renderLine(true);
     } catch (error) {
         console.error(error);
     }
@@ -28,9 +30,10 @@ async function saveScript() {
         }
 
         const data = await res.json();
+        stopPlay();
         lines = data.lines || [];
         currentIndex = 0;
-        render();
+        renderLine(true);
     } catch (error) {
         console.error(error);
         alert(`오류: ${error.message}`);
@@ -67,9 +70,10 @@ async function uploadPdf() {
             throw new Error(data.error || `서버 오류: ${res.status}`);
         }
 
+        stopPlay();
         lines = data.lines || [];
         currentIndex = 0;
-        render();
+        renderLine(true);
         updateFileStatus(`업로드 완료: ${file.name} (${lines.length}줄 인식됨)`);
     } catch (error) {
         console.error(error);
@@ -78,43 +82,77 @@ async function uploadPdf() {
     }
 }
 
-function nextLine() {
-    if (currentIndex < lines.length - 1) {
-        currentIndex++;
-        render();
-    }
-}
-
-function prevLine() {
-    if (currentIndex > 0) {
-        currentIndex--;
-        render();
-    }
-}
-
-function render() {
-    const prompter = document.getElementById("prompter");
-    const status = document.getElementById("line-status");
+// skipFade가 true면 페이드 없이 즉시 표시(최초 로드), false면 사라졌다가 다시 나타남
+function renderLine(skipFade) {
+    const stageLine = document.getElementById("stage-line");
+    const status = document.getElementById("stage-status");
 
     if (lines.length === 0) {
-        prompter.innerHTML = '<p class="empty">저장된 대본이 없습니다.</p>';
+        stageLine.classList.remove("visible");
+        stageLine.innerText = "저장된 대본이 없습니다.";
+        window.requestAnimationFrame(() => stageLine.classList.add("visible"));
         status.innerText = "0 / 0";
         return;
     }
 
-    prompter.innerHTML = lines
-        .map((line, i) => {
-            const cls = i === currentIndex ? "line current" : "line";
-            return `<p class="${cls}">${line}</p>`;
-        })
-        .join("");
-
     status.innerText = `${currentIndex + 1} / ${lines.length}`;
 
-    const currentEl = prompter.querySelector(".current");
-    if (currentEl) {
-        currentEl.scrollIntoView({block: "center", behavior: "smooth"});
+    if (skipFade) {
+        stageLine.innerText = lines[currentIndex];
+        stageLine.classList.add("visible");
+        return;
     }
+
+    stageLine.classList.remove("visible");
+    window.setTimeout(() => {
+        stageLine.innerText = lines[currentIndex];
+        stageLine.classList.add("visible");
+    }, 350);
+}
+
+function nextLine() {
+    if (lines.length === 0) return;
+    currentIndex = (currentIndex + 1) % lines.length;
+    renderLine(false);
+}
+
+function prevLine() {
+    if (lines.length === 0) return;
+    currentIndex = (currentIndex - 1 + lines.length) % lines.length;
+    renderLine(false);
+}
+
+function togglePlay() {
+    if (playing) {
+        stopPlay();
+    } else {
+        startPlay();
+    }
+}
+
+function startPlay() {
+    if (lines.length === 0) return;
+    playing = true;
+    document.getElementById("play-btn").innerText = "자동재생 정지";
+    scheduleNext();
+}
+
+function stopPlay() {
+    playing = false;
+    document.getElementById("play-btn").innerText = "자동재생 시작";
+    if (timer) {
+        clearTimeout(timer);
+        timer = null;
+    }
+}
+
+function scheduleNext() {
+    if (!playing) return;
+    const seconds = parseFloat(document.getElementById("interval-input").value) || 2.5;
+    timer = window.setTimeout(() => {
+        nextLine();
+        scheduleNext();
+    }, seconds * 1000);
 }
 
 window.addEventListener("DOMContentLoaded", () => {
