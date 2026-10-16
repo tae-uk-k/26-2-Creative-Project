@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>quarto-input204c930d6db68180</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="한눈_기획서_files/libs/clipboard/clipboard.min.js"></script>
+<script src="한눈_기획서_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="한눈_기획서_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="한눈_기획서_files/libs/quarto-html/popper.min.js"></script>
+<script src="한눈_기획서_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="한눈_기획서_files/libs/quarto-html/anchor.min.js"></script>
+<link href="한눈_기획서_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="한눈_기획서_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="한눈_기획서_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="한눈_기획서_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="한눈_기획서_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="한눈-서비스-기획서" class="level1">
+<h1>한눈 서비스 기획서</h1>
+<ul>
+<li>서비스명: 한눈(Hanoon)</li>
+<li>문서 역할: 왜 만들고, 누구에게 어떤 가치를 제공하며, 어떤 기능을 어디까지 개발할지 정의하는 기준 문서</li>
+<li>개발 완료 목표: 13주차 작동 베타</li>
+<li>1차 고객: 외국인 관광객을 유치하려는 음식점·카페·바 사장님</li>
+<li>기술 구현 기준: <a href="./한눈_명세서.md">한눈 명세서</a> (이 문서는 기능, 명세서는 기술을 다룬다)</li>
+</ul>
+<section id="서비스-정의" class="level2">
+<h2 class="anchored" data-anchor-id="서비스-정의">1. 서비스 정의</h2>
+<p>한눈은 가게의 온라인 정보를 수집해 ChatGPT·Gemini 추천 노출을 측정하고, AI가 가게를 더 정확히 이해하고 추천할 수 있도록 영문 정보와 채널별 개선안을 만들어 주는 GEO 웹 서비스다.</p>
+<section id="핵심-흐름" class="level3">
+<h3 class="anchored" data-anchor-id="핵심-흐름">핵심 흐름</h3>
+<pre class="text"><code>가게 이름·지도 링크 입력, 정보 수집
+→ 무료 AI 노출 진단
+→ 유료 AI 노출 최적화 보고서
+(미정) 자동 가게 정보 정비 → 일정 기간 뒤 재측정·전후 비교 안내</code></pre>
+</section>
+<section id="핵심-가치" class="level3">
+<h3 class="anchored" data-anchor-id="핵심-가치">핵심 가치</h3>
+<ul>
+<li>AI가 가게를 실제로 추천하는지 숫자로 확인한다.</li>
+<li>추천되지 않는 원인을 사용자가 이해할 수 있게 설명한다.</li>
+<li>영문 소개·메뉴·가격·이용 정보와 채널별 수정 문안을 직접 만들어 준다.</li>
+<li>(미정) 같은 질문으로 다시 측정해 정보 정비 전후의 변화를 보여 준다.</li>
+</ul>
+</section>
+</section>
+<section id="문제-정의" class="level2">
+<h2 class="anchored" data-anchor-id="문제-정의">2. 문제 정의</h2>
+<p>외국인 관광객을 유치하려는 소규모 가게는 AI가 가게를 얼마나 추천하는지 확인하기 어렵고, 추천에 필요한 온라인 정보와 외부 근거도 부족해 관광객에게 발견될 기회를 놓칠 수 있다.</p>
+<section id="확인된-배경" class="level3">
+<h3 class="anchored" data-anchor-id="확인된-배경">확인된 배경</h3>
+<ul>
+<li>미국 활동 여행자의 여행 계획 생성형 AI 이용률은 2025년 상반기 33%, 하반기 43%, 2026년 56%로 증가했다.</li>
+<li>Adobe 조사에서 AI 여행 이용자의 53%는 지역 명소·식당·숨은 장소를 찾는 데 AI를 사용했다.</li>
+<li>발리 음식점·카페·바 4,776곳과 AI 답변 2,208개를 분석한 연구에서는 전체 매장의 85.6%가 한 번도 추천되지 않았다.</li>
+</ul>
+</section>
+<section id="해석-범위" class="level3">
+<h3 class="anchored" data-anchor-id="해석-범위">해석 범위</h3>
+<ul>
+<li>AI는 지역의 모든 가게를 고르게 추천하지 않는다.</li>
+<li>영문 정보, 가격, 공식 페이지, 외부 언급 등 확인 가능한 근거가 적은 가게는 질문 조건과 연결되기 어려울 가능성이 있다.</li>
+<li>해외 조사 결과를 한국 방문 외국인 전체에 그대로 일반화하지 않는다.</li>
+<li>위 연구만으로 프랜차이즈가 소규모 가게보다 더 많이 추천된다고 단정하지 않는다.</li>
+</ul>
+</section>
+<section id="ux-인사이트" class="level3">
+<h3 class="anchored" data-anchor-id="ux-인사이트">UX 인사이트</h3>
+<p>소규모 가게 사장님에게는 AI 노출을 숫자로 확인하는 진단뿐 아니라, 부족한 정보를 실제로 정비하고 개선 전후를 확인할 수 있는 지원이 필요하다.</p>
+</section>
+</section>
+<section id="seo와-geo의-차이" class="level2">
+<h2 class="anchored" data-anchor-id="seo와-geo의-차이">3. SEO와 GEO의 차이</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>구분</th>
+<th>SEO</th>
+<th>GEO</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>사용자 행동</td>
+<td>검색어를 입력하고 결과 목록을 비교</td>
+<td>조건을 문장으로 말하고 AI가 고른 추천을 확인</td>
+</tr>
+<tr class="even">
+<td>목표</td>
+<td>검색 결과 상위 노출과 클릭 증가</td>
+<td>AI 답변에 선택·인용·추천될 가능성 향상</td>
+</tr>
+<tr class="odd">
+<td>주요 개선</td>
+<td>키워드, 링크, 페이지 구조, 지도 등록</td>
+<td>질문 조건과 연결되는 정보, 출처 일치, 구조화된 사실, 읽을 수 있는 텍스트</td>
+</tr>
+</tbody>
+</table>
+<p>한눈은 SEO를 대체하지 않는다. 기존 지도·검색 정보를 기반으로 생성형 AI가 관광객의 구체적인 질문과 가게를 연결할 수 있게 보완한다.</p>
+</section>
+<section id="목표-사용자" class="level2">
+<h2 class="anchored" data-anchor-id="목표-사용자">4. 목표 사용자</h2>
+<section id="차-사용자" class="level3">
+<h3 class="anchored" data-anchor-id="차-사용자">1차 사용자</h3>
+<ul>
+<li>외국인 관광객이 방문하는 음식점·카페·바 사장님</li>
+<li>영어 정보와 여러 온라인 채널을 직접 관리하기 어려운 1인·소규모 사업자</li>
+</ul>
+</section>
+<section id="후속-확장-대상" class="level3">
+<h3 class="anchored" data-anchor-id="후속-확장-대상">후속 확장 대상</h3>
+<ul>
+<li>소품샵·편집숍·공방·체험 매장 운영자</li>
+</ul>
+</section>
+<section id="최종-수혜자" class="level3">
+<h3 class="anchored" data-anchor-id="최종-수혜자">최종 수혜자</h3>
+<ul>
+<li>지역, 예산, 언어, 식단, 결제 조건에 맞는 로컬 가게를 찾는 외국인 관광객</li>
+</ul>
+</section>
+<section id="구매-단위" class="level3">
+<h3 class="anchored" data-anchor-id="구매-단위">구매 단위</h3>
+<ul>
+<li>가게별 개별 구매</li>
+<li>상인회·지자체 단체구매와 다점포 통합 관리는 초기 범위에서 제외</li>
+</ul>
+</section>
+</section>
+<section id="제공-상품" class="level2">
+<h2 class="anchored" data-anchor-id="제공-상품">5. 제공 상품</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>상품</th>
+<th>제공 가치</th>
+<th>과금</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI 노출 진단</td>
+<td>ChatGPT·Gemini별 추천 등장률·평균 등장 순서·출처, 주변 가게(AI 추천 상위 5곳) 대비 비교, 고쳐야 할 점 개수</td>
+<td>무료(계정당 1회)</td>
+</tr>
+<tr class="even">
+<td>AI 노출 최적화 보고서</td>
+<td>미노출 원인·개선 우선순위·영문 문안·채널별 수정안</td>
+<td>유료</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>무료 진단은 얼마나 노출되는지, 주변 가게 대비 비교, 고쳐야 할 점의 개수만 보여 준다. 고쳐야 할 점의 내용은 유료 보고서에서만 제공한다.</li>
+<li>가격과 실제 결제 방식은 아직 확정하지 않는다. 베타에서는 관리자가 유료 권한을 수동으로 부여한다.</li>
+</ul>
+</section>
+<section id="서비스-차별점" class="level2">
+<h2 class="anchored" data-anchor-id="서비스-차별점">6. 서비스 차별점</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>기존 방식</th>
+<th>남은 한계</th>
+<th>한눈의 개선 방향</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI 노출 측정 도구</td>
+<td>문제를 보여 주지만 수정은 사용자의 몫</td>
+<td>측정 후 영문 정보·채널 수정안까지 제작</td>
+</tr>
+<tr class="even">
+<td>매장 정보 관리 도구</td>
+<td>여러 채널의 기본정보 일치에 집중</td>
+<td>관광객형 질문과 AI 추천 답변을 기준으로 개선</td>
+</tr>
+<tr class="odd">
+<td>메뉴 번역</td>
+<td>번역 결과가 AI 추천에 반영되는지 확인하지 않음</td>
+<td>질문 조건에 필요한 정보를 보강하고 재측정(미정)</td>
+</tr>
+<tr class="even">
+<td>지도 등록 대행</td>
+<td>한 채널 등록에 집중</td>
+<td>여러 출처의 일치, 읽기 쉬운 공개 정보, AI 답변을 함께 확인</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="대표-사용자-여정" class="level2">
+<h2 class="anchored" data-anchor-id="대표-사용자-여정">7. 대표 사용자 여정</h2>
+<ol type="1">
+<li>사장님이 이메일·구글·카카오 중 하나로 회원가입 후 로그인한다. 이메일 가입은 인증 메일의 링크를 눌러야 완료된다. 같은 이메일이 다른 방식으로 이미 가입돼 있으면 “OO로 가입된 이메일”이라고 안내하고 가입을 막는다.</li>
+<li>사장님이 가게 이름과 Google 지도·카카오맵·네이버 지도 중 하나의 가게 링크를 입력한다. 사장님이 입력하는 가게 정보는 이 두 가지뿐이다.</li>
+<li>서비스가 링크로 가게를 식별하고, 나머지 두 지도에서 같은 가게를 찾아 세 곳의 기본정보를 수집한다. 공식 웹사이트·인스타그램·외부 사이트 정보도 함께 모은다. 가게를 찾지 못하면 비슷한 가게 후보 목록에서 고르게 하고, 후보가 없으면 다른 링크를 요청한다.</li>
+<li>수집이 끝나면 측정이 자동으로 시작된다. 가게의 지역·업종·특징을 바탕으로 관광객형 질문 3개(영어 2개, 한국어 1개)를 만들고 자동 검증을 통과하면 바로 확정한다.</li>
+<li>ChatGPT·Gemini에 질문마다 10회씩 반복 실행한다. 끝나면 화면과 이메일로 알린다.</li>
+<li>무료 진단에서 ChatGPT·Gemini별 추천 등장률·평균 등장 순서·출처, 주변 가게(AI 추천 상위 5곳) 대비 비교, 고쳐야 할 점 개수를 확인한다.</li>
+<li>유료 보고서를 신청하면 관리자가 권한을 부여하고, 보고서가 자동으로 만들어진다. 완료되면 이메일로 알린다.</li>
+<li>유료 보고서에서 미노출 원인과 개선 우선순위, 영문 문안, 채널별 수정안을 확인한다. 고치는 대상은 Google 지도와 인터넷 정보(공식 웹사이트·인스타그램·외부 사이트)이며, Google 지도에 비어 있는 정보도 고쳐야 할 점으로 포함된다. 네이버·카카오 지도는 고치는 대상이 아니다.</li>
+</ol>
+<p>(미정) 사장님 승인 → 자동 가게 정보 정비 → 일정 기간 뒤 재측정·전후 비교 안내</p>
+</section>
+<section id="범위" class="level2">
+<h2 class="anchored" data-anchor-id="범위">8. 범위</h2>
+<section id="p0-13주차까지-필수" class="level3">
+<h3 class="anchored" data-anchor-id="p0-13주차까지-필수">P0: 13주차까지 필수</h3>
+<ul>
+<li>회원가입·로그인(이메일·구글·카카오), 이메일 인증, 같은 이메일 중복 가입 차단</li>
+<li>비밀번호 재설정(이메일 링크), 회원 탈퇴</li>
+<li>계정당 가게 1곳 등록, 언제든 변경 가능</li>
+<li>가게 이름 + 지도 링크(Google·카카오·네이버) 판별, 가게 식별, 세 지도의 기본정보 수집</li>
+<li>인터넷 정보 수집: 공식 웹사이트, AI 웹 검색으로 외부 사이트·인스타그램 확인(인스타그램 Business Discovery는 8주차 PoC 결과에 따라 추가)</li>
+<li>가게 식별 실패 시 후보 선택 또는 다른 링크 입력</li>
+<li>질문 3개(영어 2개, 한국어 1개) 자동 생성·검증·확정</li>
+<li>ChatGPT·Gemini 반복 측정(질문마다 10회)</li>
+<li>추천 등장률·평균 등장 순서·출처 계산, 실패율은 내부 계산(사장님 화면 미표시)</li>
+<li>주변 가게 비교(AI 추천 상위 5곳)</li>
+<li>고쳐야 할 점 판정(무료 진단에는 개수만 표시)</li>
+<li>무료 진단 결과(계정당 1회)</li>
+<li>유료 보고서 신청, 관리자 신청 목록·권한 부여</li>
+<li>유료 최적화 보고서: 미노출 원인·개선 우선순위, 영문 소개·메뉴·가격·이용 정보 문안, 채널별 수정안(Google 지도·공식 웹사이트·인스타그램·외부 사이트), Google 지도에 비어 있는 정보</li>
+<li>이메일 알림(인증, 비밀번호 재설정, 진단 완료, 보고서 신청·완료)</li>
+<li>PostgreSQL 영구 저장</li>
+</ul>
+</section>
+<section id="p1-일정이-허용되면" class="level3">
+<h3 class="anchored" data-anchor-id="p1-일정이-허용되면">P1: 일정이 허용되면</h3>
+<ul>
+<li>메뉴판 이미지 OCR</li>
+<li>보고서 PDF 내려받기</li>
+<li>관리자용 사용자·가게·보고서 전체 조회(보고서 신청 관리는 P0)</li>
+</ul>
+</section>
+<section id="p2-후속-개발" class="level3">
+<h3 class="anchored" data-anchor-id="p2-후속-개발">P2: 후속 개발</h3>
+<ul>
+<li>실제 PG 결제와 구독</li>
+<li>다점포 관리</li>
+<li>영어 외 다국어</li>
+<li>외부 채널 변경 감지</li>
+<li>소품샵·편집숍·공방·체험 매장 업종 확장</li>
+</ul>
+</section>
+<section id="제외-범위" class="level3">
+<h3 class="anchored" data-anchor-id="제외-범위">제외 범위</h3>
+<ul>
+<li>추천 순위·노출 보장</li>
+<li>가짜 리뷰·리뷰 구매·광고 집행</li>
+<li>예약·주문 시스템 연동</li>
+<li>상인회·지자체용 통합 대시보드</li>
+</ul>
+</section>
+</section>
+<section id="화면-구성" class="level2">
+<h2 class="anchored" data-anchor-id="화면-구성">9. 화면 구성</h2>
+<section id="화면-목록" class="level3">
+<h3 class="anchored" data-anchor-id="화면-목록">9.1 화면 목록</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>화면</th>
+<th>누가 보나</th>
+<th>목적</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>S01</td>
+<td>랜딩</td>
+<td>누구나</td>
+<td>서비스 소개, 무료 진단 시작</td>
+</tr>
+<tr class="even">
+<td>S02</td>
+<td>회원가입</td>
+<td>비회원</td>
+<td>이메일·구글·카카오 가입</td>
+</tr>
+<tr class="odd">
+<td>S03</td>
+<td>이메일 인증 안내</td>
+<td>가입 직후</td>
+<td>인증 메일 확인 안내</td>
+</tr>
+<tr class="even">
+<td>S04</td>
+<td>카카오 이메일 입력</td>
+<td>카카오가 이메일을 주지 않은 가입자</td>
+<td>이메일 입력·인증</td>
+</tr>
+<tr class="odd">
+<td>S05</td>
+<td>로그인</td>
+<td>비회원</td>
+<td>로그인</td>
+</tr>
+<tr class="even">
+<td>S06</td>
+<td>비밀번호 재설정</td>
+<td>이메일 가입자</td>
+<td>재설정 메일 요청, 새 비밀번호 입력</td>
+</tr>
+<tr class="odd">
+<td>S07</td>
+<td>홈(내 가게)</td>
+<td>사장님</td>
+<td>현재 상태와 다음 행동 안내</td>
+</tr>
+<tr class="even">
+<td>S08</td>
+<td>가게 등록·변경</td>
+<td>사장님</td>
+<td>가게 이름·지도 링크 입력</td>
+</tr>
+<tr class="odd">
+<td>S09</td>
+<td>가게 후보 선택</td>
+<td>가게 식별이 애매할 때</td>
+<td>후보 중 내 가게 고르기</td>
+</tr>
+<tr class="even">
+<td>S10</td>
+<td>수집·측정 진행</td>
+<td>사장님</td>
+<td>진행 상황, 수집한 가게 정보</td>
+</tr>
+<tr class="odd">
+<td>S11</td>
+<td>무료 진단 결과</td>
+<td>사장님</td>
+<td>노출 정도, 주변 가게 비교, 고쳐야 할 점 개수</td>
+</tr>
+<tr class="even">
+<td>S12</td>
+<td>유료 보고서 신청·대기</td>
+<td>사장님</td>
+<td>신청, 진행 상태</td>
+</tr>
+<tr class="odd">
+<td>S13</td>
+<td>유료 보고서</td>
+<td>권한을 받은 사장님</td>
+<td>고쳐야 할 점, 영문 문안, 채널별 수정안</td>
+</tr>
+<tr class="even">
+<td>S14</td>
+<td>계정 설정</td>
+<td>사장님</td>
+<td>계정 정보, 비밀번호 변경, 로그아웃, 탈퇴</td>
+</tr>
+<tr class="odd">
+<td>A01</td>
+<td>보고서 신청 관리</td>
+<td>관리자</td>
+<td>신청 목록, 권한 부여·거절</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="화면-이동" class="level3">
+<h3 class="anchored" data-anchor-id="화면-이동">9.2 화면 이동</h3>
+<pre class="text"><code>S01 랜딩 → S02 회원가입 → (이메일 가입: S03 이메일 인증 / 카카오 이메일 없음: S04) → S07 홈
+S07 홈 → S08 가게 등록 → (애매하면 S09 후보 선택) → S10 수집·측정 진행 → S11 무료 진단 결과
+S11 무료 진단 결과 → S12 보고서 신청 → (A01 관리자 권한 부여) → S13 유료 보고서</code></pre>
+<p>로그인한 사장님이 랜딩이나 로그인 화면에 들어오면 S07 홈으로 보낸다. 로그인하지 않은 사람이 S07~S14에 들어오면 S05 로그인으로 보내고, 로그인 후 원래 화면으로 돌려보낸다.</p>
+</section>
+<section id="화면별-구성" class="level3">
+<h3 class="anchored" data-anchor-id="화면별-구성">9.3 화면별 구성</h3>
+<section id="s01-랜딩" class="level4">
+<h4 class="anchored" data-anchor-id="s01-랜딩">S01 랜딩</h4>
+<ul>
+<li>첫 화면: “외국인 관광객이 ChatGPT에 맛집을 물을 때, 우리 가게가 나올까요?” 문구와 <a href="로그인%20상태면%20S07,%20아니면%20S02로%20이동">무료로 확인하기</a> 버튼</li>
+<li>문제: AI는 지역의 일부 가게만 추천한다는 근거 수치 1개(2장 배경)</li>
+<li>이용 방법 3단계: 가게 링크 넣기 → 무료 진단 → 유료 보고서</li>
+<li>무료·유료 비교표: 무료(노출 정도, 주변 가게 비교, 고쳐야 할 점 개수) / 유료(고쳐야 할 점 내용과 우선순위, 영문 문안, 채널별 수정안)</li>
+<li>결과 화면 예시 이미지</li>
+<li>안내 문구: “추천 순위나 노출을 보장하지 않습니다.”</li>
+<li>하단: 이용약관, 개인정보처리방침</li>
+<li></li>
+</ul>
+</section>
+<section id="s02-회원가입" class="level4">
+<h4 class="anchored" data-anchor-id="s02-회원가입">S02 회원가입</h4>
+<ul>
+<li>[구글로 시작하기], [카카오로 시작하기] 버튼</li>
+<li>이메일 가입 입력: 이메일, 비밀번호, 비밀번호 확인</li>
+<li>약관 동의: 이용약관(필수), 개인정보 수집·이용(필수), 전체 동의</li>
+<li>[가입하기], “이미 계정이 있나요? 로그인”</li>
+<li>입력 규칙
+<ul>
+<li>이메일 형식이 아니면 “이메일 형식이 아니에요”</li>
+<li>비밀번호는 8자 이상, 영문과 숫자를 모두 포함. 아니면 “8자 이상, 영문과 숫자를 함께 써 주세요”</li>
+<li>비밀번호 확인이 다르면 “비밀번호가 서로 달라요”</li>
+<li>필수 약관에 동의하지 않으면 [가입하기] 비활성</li>
+</ul></li>
+<li>같은 이메일로 인증을 마친 계정이 있으면 “이 이메일은 [구글/카카오/이메일]로 가입되어 있어요”와 [그 방식으로 로그인] 버튼을 보여 주고 가입을 막는다. 소셜 가입도 같은 규칙을 따른다.</li>
+<li>소셜 가입은 제공자 동의 화면을 거쳐 돌아온 뒤, 처음 가입이면 약관 동의를 받고 S07로 이동</li>
+</ul>
+</section>
+<section id="s03-이메일-인증-안내" class="level4">
+<h4 class="anchored" data-anchor-id="s03-이메일-인증-안내">S03 이메일 인증 안내</h4>
+<ul>
+<li>“OO@OO.com으로 인증 메일을 보냈어요. 메일의 링크를 누르면 가입이 끝나요.”</li>
+<li></li>
+<li></li>
+<li>인증 링크는 24시간 동안 한 번만 쓸 수 있다. 만료된 링크는 “링크가 만료됐어요”와 [다시 보내기]</li>
+<li>인증하지 않은 계정은 24시간 뒤 삭제</li>
+<li>인증 전에 로그인하면 이 화면으로 보낸다.</li>
+</ul>
+</section>
+<section id="s04-카카오-이메일-입력" class="level4">
+<h4 class="anchored" data-anchor-id="s04-카카오-이메일-입력">S04 카카오 이메일 입력</h4>
+<ul>
+<li>카카오 로그인에서 이메일을 받지 못한 경우에만 보인다.</li>
+<li>이메일 입력 → 인증 메일 발송(S03과 같은 규칙) → 인증하면 가입 완료</li>
+<li>같은 이메일 가입 차단 규칙은 S02와 같다.</li>
+</ul>
+</section>
+<section id="s05-로그인" class="level4">
+<h4 class="anchored" data-anchor-id="s05-로그인">S05 로그인</h4>
+<ul>
+<li>[구글로 로그인], [카카오로 로그인], 이메일·비밀번호 입력, [로그인]</li>
+<li>[비밀번호를 잊으셨나요?] → S06, [회원가입] → S02</li>
+<li>틀리면 “이메일 또는 비밀번호가 맞지 않아요”(어느 쪽이 틀렸는지 알려 주지 않음)</li>
+<li>5회 연속 틀리면 10분 동안 로그인 잠금</li>
+<li>소셜로 가입한 이메일로 비밀번호 로그인을 시도하면 “이 이메일은 [구글/카카오]로 가입되어 있어요”</li>
+<li>로그인 유지 기간 14일</li>
+</ul>
+</section>
+<section id="s06-비밀번호-재설정" class="level4">
+<h4 class="anchored" data-anchor-id="s06-비밀번호-재설정">S06 비밀번호 재설정</h4>
+<ul>
+<li>1단계: 이메일 입력 → 가입 여부와 관계없이 “가입된 이메일이면 재설정 메일을 보냈어요”(가입 여부 노출 방지)</li>
+<li>2단계(메일 링크): 새 비밀번호, 확인 → 완료 후 S05로 이동</li>
+<li>링크는 1시간 동안 한 번만 쓸 수 있다.</li>
+<li>소셜 가입 계정이 요청하면 메일에 “[구글/카카오]로 로그인하세요”라고 안내한다.</li>
+</ul>
+</section>
+<section id="s07-홈내-가게" class="level4">
+<h4 class="anchored" data-anchor-id="s07-홈내-가게">S07 홈(내 가게)</h4>
+<ul>
+<li>상단: 로고, 계정 메뉴(계정 설정, 로그아웃)</li>
+<li>가게 정보 줄: 가게 이름, 주소, 찾은 출처(Google·카카오·네이버·공식 웹사이트·인스타그램 ✓/✕), [가게 변경]</li>
+<li>상태 카드: 상태별로 하나만 보인다.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>상태</th>
+<th>카드 내용</th>
+<th>버튼</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>가게 없음</td>
+<td>“가게를 등록하고 AI 노출을 확인해 보세요”</td>
+<td>가게 등록</td>
+</tr>
+<tr class="even">
+<td>수집·측정 중</td>
+<td>단계와 진행률</td>
+<td>진행 상황 보기(S10)</td>
+</tr>
+<tr class="odd">
+<td>측정 실패</td>
+<td>“측정을 끝내지 못했어요. 무료 횟수는 차감되지 않았어요”</td>
+<td>다시 시도</td>
+</tr>
+<tr class="even">
+<td>진단 완료</td>
+<td>ChatGPT·Gemini 등장률 요약, 고쳐야 할 점 N개</td>
+<td>결과 보기(S11), 유료 보고서 신청(S12)</td>
+</tr>
+<tr class="odd">
+<td>무료 사용 후 가게 변경</td>
+<td>“무료 진단은 계정당 1회예요”</td>
+<td>유료 보고서 신청(측정 포함)</td>
+</tr>
+<tr class="even">
+<td>보고서 신청됨</td>
+<td>“신청이 접수됐어요. 준비되면 이메일로 알려 드려요”</td>
+<td>없음</td>
+</tr>
+<tr class="odd">
+<td>보고서 거절됨</td>
+<td>거절 사유</td>
+<td>다시 신청</td>
+</tr>
+<tr class="even">
+<td>보고서 생성 중</td>
+<td>진행 표시</td>
+<td>없음</td>
+</tr>
+<tr class="odd">
+<td>보고서 완료</td>
+<td>고쳐야 할 점 요약</td>
+<td>보고서 보기(S13)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>지난 기록: 가게를 바꾼 적이 있으면 이전 가게의 진단 결과·보고서 목록(조회만 가능)</li>
+</ul>
+</section>
+<section id="s08-가게-등록변경" class="level4">
+<h4 class="anchored" data-anchor-id="s08-가게-등록변경">S08 가게 등록·변경</h4>
+<ul>
+<li>입력: 가게 이름(필수, 1~50자), 지도 링크(필수)</li>
+<li>링크 칸 안내: “Google 지도·카카오맵·네이버 지도에서 가게를 찾아 [공유 → 링크 복사]한 주소를 넣어 주세요.” 지도별 복사 방법은 펼치기로 보여 준다.</li>
+<li>공유 문구를 통째로 붙여넣어도 링크만 골라낸다.</li>
+<li>[등록하기] → 가게 식별(10장 F-03)
+<ul>
+<li>하나로 확정되면 S10</li>
+<li>후보가 여러 개면 S09</li>
+<li>찾지 못하면 “가게를 찾지 못했어요. 다른 지도 링크를 넣어 주세요”</li>
+</ul></li>
+<li>오류
+<ul>
+<li>지원하지 않는 링크: “Google 지도·카카오맵·네이버 지도 링크만 넣을 수 있어요”</li>
+<li>음식점·카페·바가 아닌 가게: “지금은 음식점·카페·바만 진단할 수 있어요”(등록하지 않음)</li>
+</ul></li>
+<li>변경 모드(이미 가게가 있을 때): “가게를 바꾸면 지금 가게의 결과는 지난 기록으로 옮겨져요”를 확인받는다. 무료 진단을 이미 썼다면 “무료 진단은 다시 할 수 없어요”도 함께 보여 준다. 진행 중인 측정은 중단한다.</li>
+</ul>
+</section>
+<section id="s09-가게-후보-선택" class="level4">
+<h4 class="anchored" data-anchor-id="s09-가게-후보-선택">S09 가게 후보 선택</h4>
+<ul>
+<li>“어느 가게인가요?”와 후보 최대 5개(가게 이름, 주소, 업종, 찾은 지도)</li>
+<li>후보를 고르면 S10으로 이동</li>
+<li>[여기에 없어요] → S08로 돌아가 “다른 지도 링크를 넣어 주세요”</li>
+</ul>
+</section>
+<section id="s10-수집측정-진행" class="level4">
+<h4 class="anchored" data-anchor-id="s10-수집측정-진행">S10 수집·측정 진행</h4>
+<ul>
+<li>단계 표시: ① 가게 정보 모으기(지도·공식 웹사이트·인스타그램·AI 웹 검색) ② 질문 만들기 ③ ChatGPT·Gemini에 물어보기(n/60) ④ 결과 정리</li>
+<li>안내: “약 5~15분 걸려요. 창을 닫아도 끝나면 이메일로 알려 드려요.”</li>
+<li>수집한 가게 정보: 항목 | Google | 카카오 | 네이버 | 공식 웹사이트 | 인스타그램 표. 값이 있는 항목만 보여 주고 빈 칸은 표시하지 않는다.</li>
+<li>[내 가게가 아니에요] → S08 변경 모드. 측정을 중단하고 무료 횟수는 차감하지 않는다.</li>
+<li>화면은 진행률을 자동으로 새로고침하고, 끝나면 S11로 이동한다.</li>
+</ul>
+</section>
+<section id="s11-무료-진단-결과" class="level4">
+<h4 class="anchored" data-anchor-id="s11-무료-진단-결과">S11 무료 진단 결과</h4>
+<ul>
+<li>요약
+<ul>
+<li>“ChatGPT 답변 m개 중 n개에서 추천됐어요(x%)”, Gemini도 같은 형식(m은 성공한 답변 수, 보통 30)</li>
+<li>평균 등장 순서: “추천될 때 평균 k번째”</li>
+<li>한 번도 나오지 않으면 “아직 한 번도 추천되지 않았어요”(오류가 아니라 정상 결과)</li>
+</ul></li>
+<li>주변 가게 비교: 우리 가게와 AI 추천 상위 5곳의 가게 이름, ChatGPT 등장률, Gemini 등장률, 평균 등장 순서. 우리 가게는 강조 표시</li>
+<li>질문별 결과: 질문 3개(원문, 한국어 질문이 아니면 번역 함께), 질문별 ChatGPT·Gemini 등장 횟수(n/10)</li>
+<li>출처
+<ul>
+<li>AI가 답변에 많이 쓴 사이트 상위 5개(사이트 이름, 인용 횟수)</li>
+<li>우리 가게를 추천할 때 쓴 사이트(등장이 없으면 표시하지 않음)</li>
+</ul></li>
+<li>유료 안내: “고쳐야 할 점 N개를 찾았어요”와 [유료 보고서 신청]. 내용은 보여 주지 않는다.</li>
+<li>측정 조건(작은 글씨): 측정일, 질문 3개 × 10회 × ChatGPT·Gemini</li>
+<li>무료 결과는 언제든 다시 볼 수 있다.</li>
+</ul>
+</section>
+<section id="s12-유료-보고서-신청대기" class="level4">
+<h4 class="anchored" data-anchor-id="s12-유료-보고서-신청대기">S12 유료 보고서 신청·대기</h4>
+<ul>
+<li>신청 전: 보고서에 들어가는 내용(고쳐야 할 점과 우선순위, 영문 문안, 채널별 수정안), “베타 기간에는 신청 후 승인되면 제공돼요”, [신청하기]</li>
+<li>진단 결과가 없는 가게(무료 사용 후 가게 변경)는 “신청이 승인되면 측정부터 다시 진행해요”라고 안내한다.</li>
+<li>신청 후: 신청 접수 → 승인 → 보고서 만드는 중 → 완료 단계 표시</li>
+<li>같은 가게로 중복 신청할 수 없다.</li>
+</ul>
+</section>
+<section id="s13-유료-보고서" class="level4">
+<h4 class="anchored" data-anchor-id="s13-유료-보고서">S13 유료 보고서</h4>
+<ul>
+<li>상단 요약: 무료 진단 숫자 3줄, 고쳐야 할 점 N개(높음 a·보통 b·낮음 c), 보고서 생성일·기준 진단일</li>
+<li>① 고쳐야 할 점: 우선순위 순 카드
+<ul>
+<li>우선순위(높음·보통·낮음), 제목(예: “Google 지도에 영업시간이 없어요”), 분류(10장 F-08)</li>
+<li>왜 중요한가: 관련 AI 답변, 주변 가게와의 차이</li>
+<li>어떻게 고치나: 해당 채널의 수정안(③)으로 이동</li>
+<li>난이도(쉬움·보통·어려움)</li>
+</ul></li>
+<li>② 영문 문안: 영문 가게명 표기, 한 줄 소개, 소개문, 메뉴·가격표, 이용 정보(영업시간·결제·예약·언어·식이 정보). 블록마다 [복사]</li>
+<li>③ 채널별 수정안: Google 지도 / 공식 웹사이트(있을 때) / 인스타그램(있을 때) / 외부 사이트 탭
+<ul>
+<li>고칠 칸 목록: 칸 이름, 현재 값(모르면 “확인 필요”), 바꿀 값, [복사]</li>
+<li>관리 페이지 바로가기(Google 비즈니스 프로필, 인스타그램 프로필 편집)와 짧은 수정 방법</li>
+<li>인스타그램 탭: 프로페셔널(비즈니스·크리에이터) 계정 전환, 공개 계정 유지, “검색 엔진 결과에 표시” 설정 켜기, 소개글·캡션·대체 텍스트에 영어·지역·업종 키워드 넣기</li>
+<li>외부 사이트(다이닝코드·트립어드바이저 등)는 우리가 고칠 수 없으므로, 사이트별 “업주 정보 수정 요청” 방법과 보낼 문구를 제공</li>
+<li>네이버 플레이스·카카오맵은 다루지 않는다.</li>
+</ul></li>
+<li>④ 진단 근거: 질문별 AI 답변 원문 60개, 우리 가게·주변 가게 이름 강조</li>
+<li>보고서는 언제든 다시 볼 수 있다.</li>
+</ul>
+</section>
+<section id="s14-계정-설정" class="level4">
+<h4 class="anchored" data-anchor-id="s14-계정-설정">S14 계정 설정</h4>
+<ul>
+<li>이메일, 가입 방식, 가입일</li>
+<li>비밀번호 변경(이메일 가입자만): 현재 비밀번호, 새 비밀번호, 확인</li>
+<li>로그아웃</li>
+<li>회원 탈퇴: “탈퇴하면 가게 정보와 모든 결과가 삭제되고 되돌릴 수 없어요”와 확인 문구 입력 후 즉시 삭제</li>
+</ul>
+</section>
+<section id="a01-보고서-신청-관리관리자" class="level4">
+<h4 class="anchored" data-anchor-id="a01-보고서-신청-관리관리자">A01 보고서 신청 관리(관리자)</h4>
+<ul>
+<li>관리자 계정만 접근</li>
+<li>목록: 신청일, 계정 이메일, 가게 이름, 진단 상태, 신청 상태(대기·부여·거절·생성 실패). 상태로 거르기</li>
+<li>[권한 부여] → 보고서 자동 생성 시작 → 사장님에게 승인 이메일</li>
+<li>[거절] → 사유 입력 → 사장님에게 거절 이메일</li>
+<li>보고서 생성 실패 건은 [다시 생성] 버튼</li>
+<li>새 신청이 들어오면 관리자에게 이메일</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="기능-상세" class="level2">
+<h2 class="anchored" data-anchor-id="기능-상세">10. 기능 상세</h2>
+<section id="f-01-계정" class="level3">
+<h3 class="anchored" data-anchor-id="f-01-계정">F-01 계정</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>항목</th>
+<th>규칙</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>가입 방식</td>
+<td>이메일, 구글, 카카오</td>
+</tr>
+<tr class="even">
+<td>계정 기준</td>
+<td>인증된 이메일 하나당 계정 하나</td>
+</tr>
+<tr class="odd">
+<td>중복 가입</td>
+<td>같은 이메일의 인증된 계정이 있으면 어떤 방식으로도 가입 차단, 기존 가입 방식 안내</td>
+</tr>
+<tr class="even">
+<td>이메일 인증</td>
+<td>이메일 가입과 카카오 이메일 직접 입력은 인증 필수. 링크 24시간·1회용, 미인증 계정은 24시간 뒤 삭제</td>
+</tr>
+<tr class="odd">
+<td>구글</td>
+<td>구글이 확인한 이메일 사용</td>
+</tr>
+<tr class="even">
+<td>카카오</td>
+<td>카카오가 이메일을 주면 사용, 주지 않으면 S04에서 입력·인증</td>
+</tr>
+<tr class="odd">
+<td>비밀번호</td>
+<td>8자 이상, 영문+숫자. 원문 저장 금지(단방향 해시)</td>
+</tr>
+<tr class="even">
+<td>로그인 잠금</td>
+<td>5회 연속 실패 시 10분</td>
+</tr>
+<tr class="odd">
+<td>재설정</td>
+<td>이메일 링크 1시간·1회용</td>
+</tr>
+<tr class="even">
+<td>탈퇴</td>
+<td>계정·가게·결과 즉시 삭제. 무료 진단을 다시 쓰지 못하도록 무료 사용 여부만 이메일을 복원할 수 없게 바꾼 값으로 남김</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="f-02-가게-등록변경" class="level3">
+<h3 class="anchored" data-anchor-id="f-02-가게-등록변경">F-02 가게 등록·변경</h3>
+<ul>
+<li>계정당 가게 1곳. 언제든 변경할 수 있다.</li>
+<li>변경하면 이전 가게의 진단·보고서는 지난 기록으로 옮기고(조회만), 진행 중인 측정은 중단한다.</li>
+<li>대상 업종은 음식점·카페·바다. 지도에서 받은 업종이 아니면 등록하지 않는다.</li>
+<li>무료 진단은 계정당 1회다. 진단이 정상적으로 끝났을 때 차감한다.</li>
+</ul>
+</section>
+<section id="f-03-링크-판별과-가게-식별" class="level3">
+<h3 class="anchored" data-anchor-id="f-03-링크-판별과-가게-식별">F-03 링크 판별과 가게 식별</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>지도</th>
+<th>받는 링크 형식</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Google</td>
+<td><code>google.com/maps/place/…</code>, <code>maps.app.goo.gl/…</code>, <code>goo.gl/maps/…</code></td>
+</tr>
+<tr class="even">
+<td>카카오</td>
+<td><code>place.map.kakao.com/{번호}</code>, <code>map.kakao.com/…</code>, <code>kko.to/…</code></td>
+</tr>
+<tr class="odd">
+<td>네이버</td>
+<td><code>map.naver.com/…/place/{번호}</code>, <code>m.place.naver.com/…/{번호}</code>, <code>naver.me/…</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>짧은 링크는 이동할 주소만 확인하고 지도 페이지 내용은 읽지 않는다.</li>
+<li>식별 순서
+<ol type="1">
+<li>링크에서 지도 종류와 가게 번호(Google은 이름·좌표도)를 얻는다.</li>
+<li>그 지도의 공식 API로 가게 이름을 검색해 링크의 가게 번호와 같은 결과를 찾는다. 번호로 맞출 수 없으면(네이버) 이름과 주소가 맞는 결과를 찾는다.</li>
+<li>나머지 두 지도에서 이름으로 검색해, 좌표가 100m 안에 있고 이름이 비슷한 가게를 같은 가게로 본다.</li>
+</ol></li>
+<li>확정 기준: 결과가 하나면 자동 확정, 여러 개면 S09 후보 선택, 없으면 다른 링크 요청</li>
+<li>다른 지도에서 찾지 못하면 그 지도는 “찾지 못함”으로 두고 진행한다. Google에서 찾지 못하면 유료 보고서에서 고쳐야 할 점(Google 지도 미등록)으로 다루고, 네이버·카카오는 표시만 한다.</li>
+</ul>
+</section>
+<section id="f-04-정보-수집" class="level3">
+<h3 class="anchored" data-anchor-id="f-04-정보-수집">F-04 정보 수집</h3>
+<p>공식 API, robots.txt가 허용한 공식 웹사이트, AI 웹 검색으로만 수집하고 크롤링은 하지 않는다.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>출처</th>
+<th>수집 항목</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Google Places API</td>
+<td>이름, 주소, 좌표, 전화, 웹사이트, 영업시간, 가격대, 평점·리뷰 수, 리뷰(최대 5개), 사진 목록, 업종, 소개 요약, 식사 방식(매장·포장·배달), 예약, 결제 수단, 채식 메뉴, 주류, 접근성, Google 지도 링크</td>
+</tr>
+<tr class="even">
+<td>카카오 로컬 API</td>
+<td>이름, 업종, 전화, 지번·도로명 주소, 좌표, 장소 링크</td>
+</tr>
+<tr class="odd">
+<td>네이버 지역 검색 API</td>
+<td>이름, 업종, 지번·도로명 주소, 좌표, 홈페이지 링크</td>
+</tr>
+<tr class="even">
+<td>공식 웹사이트</td>
+<td>Google·네이버에 웹사이트가 있고 그 사이트가 robots.txt로 허용할 때만 첫 페이지와 메뉴 페이지 1개의 글을 읽어 메뉴·가격·영업시간·소개·영문 페이지 여부를 추출</td>
+</tr>
+<tr class="odd">
+<td>인스타그램(기본: AI 웹 검색)</td>
+<td>2025-07-10부터 공개 비즈니스·크리에이터 계정의 게시물(2020년 이후)이 Google·Bing 검색에 노출된다. AI 웹 검색 결과에 잡힌 인스타그램 계정·게시물·소개글을 사용한다</td>
+</tr>
+<tr class="even">
+<td>인스타그램(추가: 공식 API Business Discovery)</td>
+<td>한눈의 인스타그램 비즈니스 계정 키로 공개 비즈니스·크리에이터 계정의 소개글, 웹사이트 링크, 게시물 수, 최근 게시물 글·게시일을 조회한다. 계정은 Google·공식 웹사이트·AI 웹 검색 결과에 나온 링크로 찾는다. 8주차 PoC에서 앱 심사·비즈니스 인증 없이 되는지 확인한 뒤 추가한다</td>
+</tr>
+<tr class="odd">
+<td>AI 웹 검색</td>
+<td>ChatGPT·Gemini에 웹 검색을 켜고 “이 가게(이름·주소)에 대한 정보”를 물어, AI가 찾은 사이트 목록과 사이트별 가게 정보(이름·주소·전화·영업시간·메뉴·가격)를 받는다. 우리가 그 사이트를 직접 읽지는 않는다</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>사진은 파일로 저장하지 않는다. 화면에 보여 줄 때만 Google API에서 불러오고, 분석에는 사진 수만 쓴다.</li>
+<li>수집은 30초 안에 끝내는 것을 목표로 한다. 일부 출처가 실패해도 받은 값은 유지하고 진행한다.</li>
+<li>로그인 세션으로 인스타그램을 자동 수집하는 도구(예: Agent-Reach의 인스타그램 기능)는 쓰지 않는다. 인스타그램 약관 위반이고 계정 정지 위험이 있다.</li>
+<li>카카오·네이버의 영업시간·메뉴·리뷰·사진은 수집하지 않는다. 공식 API로 제공되지 않고, 카카오는 크롤링 금지와 제휴로도 제공하지 않음을 공식 답변했으며(2026-09-21), 두 지도는 정비 대상이 아니다.</li>
+<li>카카오 API 데이터는 장소 ID와 장소 링크만 저장할 수 있다. 이름·주소 등 나머지는 필요할 때 다시 불러온다.</li>
+<li>네이버 지역 검색 API는 2026-07-31부터 NAVER API HUB(네이버 클라우드)에서만 새로 발급받을 수 있다.</li>
+</ul>
+</section>
+<section id="f-05-질문-생성" class="level3">
+<h3 class="anchored" data-anchor-id="f-05-질문-생성">F-05 질문 생성</h3>
+<ul>
+<li>입력: 지역(동·구 또는 관광지 이름), 업종, 특징(가격대, 채식 가능 여부, 대표 메뉴 종류 등 수집한 값)</li>
+<li>질문 3개
+<ul>
+<li>영어 1: 지역+업종 기본형. 예) “What are good Korean restaurants near Myeongdong?”</li>
+<li>영어 2: 지역+업종+특징 조건형. 예) “Where can I find affordable vegetarian-friendly Korean food in Myeongdong?”</li>
+<li>한국어 1: 지역+업종 기본형. 예) “명동 근처 맛있는 한식당 추천해줘”</li>
+</ul></li>
+<li>자동 검증: 가게 이름(한글·영문, 일부 포함)이 없을 것, 지역 이름과 업종이 들어 있을 것, 3개가 서로 다를 것</li>
+<li>검증에 실패하면 3번까지 다시 만든다. 그래도 실패하면 업종별 고정 문장에 지역·업종만 넣어 쓴다.</li>
+<li>질문은 측정 결과와 함께 저장한다.</li>
+</ul>
+</section>
+<section id="f-06-ai-측정" class="level3">
+<h3 class="anchored" data-anchor-id="f-06-ai-측정">F-06 AI 측정</h3>
+<ul>
+<li>ChatGPT는 OpenAI API, Gemini는 Gemini API로 실행하고, 둘 다 웹 검색을 켠다.</li>
+<li>질문은 관광객이 묻듯 그대로 보내고 다른 지시는 붙이지 않는다.</li>
+<li>3개 질문 × 2개 AI × 10회 = 60회</li>
+<li>호출 하나의 제한 시간은 60초. 실패하면 2번까지 다시 시도한다.</li>
+<li>저장: 질문, AI, 모델 이름, 회차, 시각, 답변 원문, 출처 링크</li>
+<li>실패한 호출은 미노출로 세지 않는다. 실패율이 30%를 넘으면 결과를 확정하지 않고 “측정 실패”로 처리하며 무료 횟수를 차감하지 않는다.</li>
+</ul>
+</section>
+<section id="f-07-추천-추출과-지표" class="level3">
+<h3 class="anchored" data-anchor-id="f-07-추천-추출과-지표">F-07 추천 추출과 지표</h3>
+<ul>
+<li>답변마다 추천한 가게 목록(이름, 순서, 함께 붙은 출처)을 뽑는다.</li>
+<li>우리 가게 판정: 이름만 맞아도 등장으로 센다.
+<ul>
+<li>비교할 이름: 세 지도의 한글·영문 이름</li>
+<li>대소문자·띄어쓰기·기호는 무시하고, “본점”, “○○점” 같은 지점 이름은 떼고 비교한다.</li>
+</ul></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>지표</th>
+<th>계산</th>
+<th>사장님 화면</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>추천 등장률</td>
+<td>우리 가게가 나온 답변 수 ÷ 성공한 답변 수(AI별·질문별)</td>
+<td>표시</td>
+</tr>
+<tr class="even">
+<td>평균 등장 순서</td>
+<td>우리 가게가 나온 답변에서의 순서 평균</td>
+<td>표시</td>
+</tr>
+<tr class="odd">
+<td>출처</td>
+<td>사이트별 인용 횟수, 우리 가게 추천에 붙은 사이트</td>
+<td>표시</td>
+</tr>
+<tr class="even">
+<td>실패율</td>
+<td>실패한 호출 ÷ 전체 호출</td>
+<td>표시 안 함</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>주변 가게 상위 5곳: 우리 가게를 뺀 나머지 중 60개 답변에서 가장 많이 나온 순서로 뽑는다. 같으면 평균 순서가 앞선 가게가 먼저다. 이름은 우리 가게와 같은 방식으로 묶는다.</li>
+<li>주변 가게도 우리 가게와 같은 방식으로 등장률·평균 순서를 계산한다.</li>
+</ul>
+</section>
+<section id="f-08-고쳐야-할-점-판정" class="level3">
+<h3 class="anchored" data-anchor-id="f-08-고쳐야-할-점-판정">F-08 고쳐야 할 점 판정</h3>
+<p>무료 진단 때 판정해 개수만 보여 주고, 내용은 유료 보고서에서 보여 준다.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>분류</th>
+<th>판정 규칙</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Google 지도에 정보 없음</td>
+<td>Google의 영업시간·가격대·웹사이트·전화·편의 정보 중 비어 있는 항목, Google에서 가게를 찾지 못함</td>
+<td>Google 지도에 영업시간이 없어요</td>
+</tr>
+<tr class="even">
+<td>출처끼리 정보 다름</td>
+<td>Google 지도·공식 웹사이트·인스타그램·외부 사이트(AI 웹 검색 결과)의 이름·주소·전화·영업시간이 서로 다름</td>
+<td>공식 웹사이트와 Google의 영업시간이 달라요</td>
+</tr>
+<tr class="odd">
+<td>영문 정보 부족</td>
+<td>Google 영문 이름·소개 없음, 공식 웹사이트에 영문 페이지 없음, 인스타그램 소개글에 영어 없음</td>
+<td>영어 소개가 없어요</td>
+</tr>
+<tr class="even">
+<td>인스타그램 검색 노출 부족</td>
+<td>AI 웹 검색에서 가게 인스타그램 계정·게시물이 잡히지 않음(개인·비공개 계정이거나 검색 노출 설정이 꺼진 경우), 소개글·캡션에 지역·업종 키워드 없음</td>
+<td>인스타그램이 검색에 나오지 않아요</td>
+</tr>
+<tr class="odd">
+<td>질문 조건 정보 부족</td>
+<td>질문 조건(채식, 가격 등)에 맞는 정보가 우리 가게에는 없고, 주변 가게 추천 이유에는 있음</td>
+<td>채식 가능 여부가 표시돼 있지 않아요</td>
+</tr>
+<tr class="even">
+<td>외부 근거 부족</td>
+<td>AI가 주변 가게를 추천할 때 쓴 사이트에 우리 가게 추천 근거가 없음</td>
+<td>AI가 많이 참고한 사이트에 우리 가게가 없어요</td>
+</tr>
+<tr class="odd">
+<td>AI가 틀리게 말함</td>
+<td>AI 답변 속 우리 가게 설명(영업시간·위치·가격)이 Google 지도·공식 웹사이트 값과 다름</td>
+<td>ChatGPT가 영업시간을 틀리게 말해요</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>우선순위 = 영향 점수(1~3) + 쉬움 점수(1~3)
+<ul>
+<li>영향: 주변 가게 5곳 중 그 정보를 갖춘 가게 수, 관련 질문 수</li>
+<li>쉬움: 사장님이 Google 비즈니스 프로필·공식 웹사이트·인스타그램에서 바로 고칠 수 있으면 높음, 외부 사이트에 수정 요청을 해야 하면 낮음</li>
+<li>합계 5~6은 높음, 4는 보통, 2~3은 낮음</li>
+</ul></li>
+<li>네이버·카카오 지도의 정보는 판정 대상에서 뺀다.</li>
+</ul>
+</section>
+<section id="f-09-유료-보고서-생성" class="level3">
+<h3 class="anchored" data-anchor-id="f-09-유료-보고서-생성">F-09 유료 보고서 생성</h3>
+<ul>
+<li>관리자가 권한을 부여하면 자동으로 만든다. 진단 결과가 없는 가게는 측정(F-05~F-08)부터 실행한다.</li>
+<li>입력: 수집한 값, 진단 결과, 고쳐야 할 점 목록</li>
+<li>작성 원칙
+<ul>
+<li>수집한 값에 없는 사실은 만들지 않는다. 모르는 값은 [ ]로 비워 두고 “확인 필요”로 표시한다.</li>
+<li>알레르기·할랄 같은 민감 정보는 수집한 값에 있을 때만 쓰고 “사장님 확인 필요”를 붙인다.</li>
+<li>채널별 수정안은 각 채널의 칸 이름과 글자 수 제한에 맞춘다.</li>
+<li>고쳐야 할 점마다 근거(관련 AI 답변, 수집한 값, 주변 가게 비교)를 연결한다.</li>
+</ul></li>
+<li>생성 목표 시간은 3분 이내다. 실패하면 1번 자동으로 다시 시도하고, 그래도 실패하면 A01에 “생성 실패”로 표시한다.</li>
+<li>보고서는 생성일과 기준 진단을 함께 저장하고 언제든 다시 볼 수 있다.</li>
+</ul>
+</section>
+<section id="f-10-이메일-알림" class="level3">
+<h3 class="anchored" data-anchor-id="f-10-이메일-알림">F-10 이메일 알림</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>언제</th>
+<th>받는 사람</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>이메일 가입·카카오 이메일 입력</td>
+<td>사장님</td>
+<td>인증 링크</td>
+</tr>
+<tr class="even">
+<td>비밀번호 재설정 요청</td>
+<td>사장님</td>
+<td>재설정 링크</td>
+</tr>
+<tr class="odd">
+<td>무료 진단 완료·실패</td>
+<td>사장님</td>
+<td>결과 요약과 바로가기, 실패 시 다시 시도 안내</td>
+</tr>
+<tr class="even">
+<td>보고서 신청</td>
+<td>관리자</td>
+<td>신청 알림</td>
+</tr>
+<tr class="odd">
+<td>권한 부여·거절</td>
+<td>사장님</td>
+<td>승인 또는 거절 사유</td>
+</tr>
+<tr class="even">
+<td>보고서 완료</td>
+<td>사장님</td>
+<td>보고서 바로가기</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="성공-지표" class="level2">
+<h2 class="anchored" data-anchor-id="성공-지표">11. 성공 지표</h2>
+<section id="서비스-지표" class="level3">
+<h3 class="anchored" data-anchor-id="서비스-지표">서비스 지표</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>지표</th>
+<th>측정 방법</th>
+<th>초기 목표</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>무료 진단 완료율</td>
+<td>가게 등록을 시작한 사용자 중 진단 결과 도달 비율</td>
+<td>실제 사용자 테스트 후 확정</td>
+</tr>
+<tr class="even">
+<td>보고서 이해도</td>
+<td>보고서를 본 사장님이 먼저 고칠 항목을 정확히 설명하는 비율</td>
+<td>80% 이상 가설</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="측정-원칙" class="level3">
+<h3 class="anchored" data-anchor-id="측정-원칙">측정 원칙</h3>
+<ul>
+<li>한 번의 답변이 아니라 반복 측정 결과를 사용한다.</li>
+<li>모델별 결과를 분리한다.</li>
+<li>API 오류·검색 실패·시간 초과를 미노출로 계산하지 않는다.</li>
+<li>질문·모델·반복 횟수·측정일을 기록한다.</li>
+</ul>
+</section>
+</section>
+<section id="일정과-역할" class="level2">
+<h2 class="anchored" data-anchor-id="일정과-역할">12. 일정과 역할</h2>
+<section id="주차-일정" class="level3">
+<h3 class="anchored" data-anchor-id="주차-일정">7~13주차 일정</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>주차</th>
+<th>개발·데이터</th>
+<th>기획·UI</th>
+<th>완료 산출물</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7주</td>
+<td>전체 구조·DB·API 기술검증 계획</td>
+<td>요구사항·무료/유료 경계·User Flow</td>
+<td>기획서·명세서, DB 초안, 실제 가게 모집안</td>
+</tr>
+<tr class="even">
+<td>8주</td>
+<td>로그인·가게 CRUD·수집 PoC(아래 확인 항목)</td>
+<td>로그인·대시보드·수집 확인 화면</td>
+<td>인증 흐름, 가게 저장, 수집 결과</td>
+</tr>
+<tr class="odd">
+<td>9주</td>
+<td>OpenAI·Gemini 실행·원본 저장·추천 추출</td>
+<td>무료 진단 정보 구조</td>
+<td>모델별 테스트 로그, 추출 정확도</td>
+</tr>
+<tr class="even">
+<td>10주</td>
+<td>비동기 측정·지표·주변 가게 비교</td>
+<td>무료 진단·오류 UX</td>
+<td>지도 입력부터 무료 진단까지 작동</td>
+</tr>
+<tr class="odd">
+<td>11주</td>
+<td>원인 분류·영문 문안·보고서 생성</td>
+<td>유료 보고서 화면</td>
+<td>최적화 보고서, 개선 문안, 근거 연결</td>
+</tr>
+<tr class="even">
+<td>12주</td>
+<td>미정</td>
+<td>실제 사장님 사용자 평가</td>
+<td>평가 기록, 개선 목록</td>
+</tr>
+<tr class="odd">
+<td>13주</td>
+<td>통합·권한·보안·배포 QA</td>
+<td>전체 UX 검수·시연 시나리오</td>
+<td>작동 베타, 테스트 로그, 오류 수정 기록</td>
+</tr>
+</tbody>
+</table>
+<p>14주차는 기능 개발이 아니라 최종 발표와 시연 준비에 사용한다.</p>
+</section>
+<section id="주차-poc-확인-항목" class="level3">
+<h3 class="anchored" data-anchor-id="주차-poc-확인-항목">8주차 PoC 확인 항목</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>확인 항목</th>
+<th>관련 기능</th>
+<th>안 될 때 대안</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Google·카카오·네이버 공유 링크의 실제 형식과 짧은 링크 이동</td>
+<td>F-03</td>
+<td>지원 링크 형식 목록 수정</td>
+</tr>
+<tr class="even">
+<td>네이버 지역 검색으로 이름·주소만으로 같은 가게를 찾는 정확도</td>
+<td>F-03</td>
+<td>네이버 링크는 후보 선택(S09)으로 처리</td>
+</tr>
+<tr class="odd">
+<td>NAVER API HUB 키 발급, 약관 원문(AI 활용·저장 조건)</td>
+<td>F-04, 14장 미정 2</td>
+<td>네이버는 가게 식별에만 사용</td>
+</tr>
+<tr class="even">
+<td>카카오 로그인에서 이메일을 필수로 받으려면 비즈 앱 전환이 필요한지</td>
+<td>F-01, S04</td>
+<td>이메일을 못 받으면 S04에서 직접 입력·인증</td>
+</tr>
+<tr class="odd">
+<td>인스타그램 Business Discovery를 한눈 계정 키로 앱 심사·비즈니스 인증 없이 쓸 수 있는지</td>
+<td>F-04</td>
+<td>AI 웹 검색만 사용</td>
+</tr>
+<tr class="even">
+<td>Google Places·인스타그램 데이터의 저장 가능 범위</td>
+<td>F-04, 14장 미정 3</td>
+<td>저장하지 않고 필요할 때 다시 불러오기</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="역할" class="level3">
+<h3 class="anchored" data-anchor-id="역할">역할</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>팀원</th>
+<th>책임</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>김태욱</td>
+<td>개발·데이터: DB, 인증, 지도 수집, AI 연동, 지표, 보고서 엔진, 배포, 통합 QA</td>
+</tr>
+<tr class="even">
+<td>강가힐</td>
+<td>기획·UI: 요구사항, User Flow, 화면 설계, 무료·유료 보고서 UX, 실제 사용자 평가, 발표자료</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="협업-규칙" class="level3">
+<h3 class="anchored" data-anchor-id="협업-규칙">협업 규칙</h3>
+<ul>
+<li>파일·디자인: <code>YYYYMMDD_화면명_v01</code></li>
+<li>코드·Git·API: <code>feature/기능명</code>, 상호 검토 후 병합, 필드명 <code>camelCase</code></li>
+<li>진행 공유: 수업 전날 <code>Done·Next·Blocker</code> 기록</li>
+<li>변경·이슈: 이유·영향·대안을 기록한 뒤 합의</li>
+</ul>
+</section>
+</section>
+<section id="핵심-리스크" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-리스크">13. 핵심 리스크</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>리스크</th>
+<th>대응</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI 답변 변동·모델 업데이트</td>
+<td>반복 측정, 질문 버전 고정, 모델·날짜 기록, 주변 가게 비교</td>
+</tr>
+<tr class="even">
+<td>지도 제공자별 정보 차이</td>
+<td>네이버·카카오는 가게 식별·기본정보 확인에만 쓰고 정비 대상에서 제외, Google 지도의 빈 정보는 유료 보고서에 고쳐야 할 점으로 보고</td>
+</tr>
+<tr class="odd">
+<td>인스타그램 Business Discovery 사용 불가</td>
+<td>앱 심사는 보통 2~4주이고 거절되면 다시 기다려야 하며, 고급 권한은 비즈니스 인증(사업자 서류)이 필요함. 8주차 PoC에서 우리 계정 키로 심사 없이 안 되면 AI 웹 검색만 사용</td>
+</tr>
+<tr class="even">
+<td>네이버 검색 API 약관(AI 활용 제한 보도)</td>
+<td>NAVER API HUB 약관 원문 확인 전까지 네이버 결과는 가게 식별에만 쓰고 AI 입력에 넣지 않음</td>
+</tr>
+<tr class="odd">
+<td>잘못된 개선 문안</td>
+<td>원본 근거 연결, 사장님 최종 승인(미정)</td>
+</tr>
+<tr class="even">
+<td>반복 호출 비용 증가</td>
+<td>질문 3개 × 10회로 고정</td>
+</tr>
+<tr class="odd">
+<td>노출 개선이 없을 수 있음</td>
+<td>순위 보장 금지, 정확도·정보 완성도·출처 개선도 함께 보고(미정: 재측정과 함께 결정)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="결정-사항과-미정-사항" class="level2">
+<h2 class="anchored" data-anchor-id="결정-사항과-미정-사항">14. 결정 사항과 미정 사항</h2>
+<section id="결정-사항" class="level3">
+<h3 class="anchored" data-anchor-id="결정-사항">결정 사항</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>항목</th>
+<th>결정</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>지도</td>
+<td>사장님은 가게 이름과 Google·카카오·네이버 중 가게 링크 1개를 입력하고, 서비스가 나머지 두 지도에서 같은 가게를 찾아 세 곳의 기본정보 수집</td>
+</tr>
+<tr class="even">
+<td>로그인</td>
+<td>이메일·구글·카카오 모두 P0, 같은 이메일이 다른 방식으로 가입돼 있으면 안내 후 가입 차단</td>
+</tr>
+<tr class="odd">
+<td>이메일 인증</td>
+<td>이메일 가입은 인증 필수. 카카오가 이메일을 주지 않으면 가입 후 이메일 직접 입력·인증</td>
+</tr>
+<tr class="even">
+<td>비밀번호 재설정</td>
+<td>P0(이메일 링크)</td>
+</tr>
+<tr class="odd">
+<td>가게 변경</td>
+<td>언제든 변경 가능, 무료 진단은 계정당 1회</td>
+</tr>
+<tr class="even">
+<td>측정 규모</td>
+<td>질문 3개(영어 2개, 한국어 1개) × 10회 × ChatGPT·Gemini, 질문은 자동 검증 후 확정</td>
+</tr>
+<tr class="odd">
+<td>우리 가게 판정</td>
+<td>이름만 맞아도 등장으로 셈</td>
+</tr>
+<tr class="even">
+<td>주변 가게</td>
+<td>같은 질문에서 AI가 가장 많이 추천한 주변 가게 상위 5곳</td>
+</tr>
+<tr class="odd">
+<td>수집 결과 화면</td>
+<td>수집한 값은 보여 주되 빈 칸은 표시하지 않음</td>
+</tr>
+<tr class="even">
+<td>무료 진단</td>
+<td>계정당 1회, 추천 등장률·평균 등장 순서·출처, 주변 가게 대비 비교, 고쳐야 할 점 개수만 제공</td>
+</tr>
+<tr class="odd">
+<td>유료 보고서</td>
+<td>미노출 원인·개선 우선순위, 영문 문안, 채널별 수정안</td>
+</tr>
+<tr class="even">
+<td>정비 대상</td>
+<td>Google 지도 + 인터넷 정보(공식 웹사이트·인스타그램·외부 사이트). 네이버·카카오 지도는 제외(가게 식별·기본정보 확인용). 유료 보고서도 같은 기준</td>
+</tr>
+<tr class="odd">
+<td>인터넷 정보 수집</td>
+<td>공식 웹사이트(robots.txt 허용 시), AI 웹 검색으로 외부 사이트·인스타그램 확인, 인스타그램 Business Discovery는 8주차 PoC 후 추가 여부 결정. 로그인 세션 기반 수집 도구(Agent-Reach 등)는 쓰지 않음</td>
+</tr>
+<tr class="even">
+<td>베타 유료 권한</td>
+<td>사장님 신청 → 관리자 화면에서 부여(PG 결제 없음). 신청 목록·부여 기능은 P0</td>
+</tr>
+<tr class="odd">
+<td>완료 알림</td>
+<td>화면 + 이메일</td>
+</tr>
+<tr class="even">
+<td>가게 식별 실패</td>
+<td>후보가 있으면 목록에서 선택, 없으면 다른 링크 요청</td>
+</tr>
+<tr class="odd">
+<td>베타 업종</td>
+<td>음식점·카페·바</td>
+</tr>
+<tr class="even">
+<td>사장님 화면 표기</td>
+<td>ChatGPT·Gemini</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="미정-사항" class="level3">
+<h3 class="anchored" data-anchor-id="미정-사항">미정 사항</h3>
+<ol type="1">
+<li>자동 가게 정보 정비 범위
+<ul>
+<li>정비 대상은 Google 지도와 인터넷 정보(공식 웹사이트·인스타그램·외부 사이트)로 정함. 어떻게 자동으로 고칠지는 미정</li>
+<li>참고: 한눈 영문 소개 페이지는 자동 생성 가능, Google 지도는 비즈니스 프로필 API로 수정 가능하지만 사장님 계정 권한 연결과 Google 승인이 필요, 외부 사이트(다이닝코드·블로그 등)는 우리가 직접 고칠 수 없음</li>
+<li>함께 미정: 사장님 승인, 재측정·전후 비교(정비 후 일정 기간 뒤 변화 안내, 수정 직후 재측정이면 “아직 반영되지 않았을 수 있음” 안내), 월간 재측정과 알림, 공개 영문 소개 페이지, LocalBusiness JSON-LD, 알레르기·할랄 정보 공개 전 확인, Google·SNS 계정 자동 수정 여부, 전후 비교 시 동일 질문 버전 사용</li>
+<li>함께 미정인 성공 지표: 정보 정비 완료율, 정보 정확도(90% 가설), 정비 전후 노출 변화</li>
+</ul></li>
+<li>네이버 검색 API(NAVER API HUB) 약관 확인
+<ul>
+<li>검색 결과를 AI 학습·요약에 쓰는 것을 금지했다는 보도가 있으나 원문 미확인. 확인 전까지 네이버 결과는 가게 식별에만 사용</li>
+</ul></li>
+<li>수집 데이터 보관 정책
+<ul>
+<li>Google 원본은 단기 보관하고 사장님 확인값만 영구 저장하기로 했으나, 수집 단계 확인이 없고 승인도 미정이라 영구 저장할 확인값이 없음</li>
+<li>카카오는 장소 ID·장소 링크만 저장 가능(나머지는 필요할 때 다시 불러오기). Google·인스타그램·네이버의 저장 조건도 함께 확인 필요</li>
+</ul></li>
+<li>실제 사용자 모집 지역·가게 수</li>
+<li>유료 보고서 가격</li>
+<li>구독·환불 정책</li>
+<li>다국어·다점포 범위</li>
+</ol>
+</section>
+</section>
+<section id="근거-출처" class="level2">
+<h2 class="anchored" data-anchor-id="근거-출처">15. 근거 출처</h2>
+<ul>
+<li>Phocuswright Research (2026), <em>The AI Surge</em></li>
+<li>Adobe Digital Insights (2025), <em>Generative AI Boosts Travel Planning</em></li>
+<li>Pitenin (2026), <em>Invisible to the Machine</em>, arXiv:2608.07069</li>
+<li><a href="https://developers.google.com/maps/documentation/places/web-service/data-fields">Google Places API 공식 문서</a></li>
+<li><a href="https://developers.kakao.com/docs/latest/ko/local/dev-guide">카카오 로컬 API 공식 문서</a></li>
+<li><a href="https://developers.naver.com/docs/serviceapi/search/local/local.md">네이버 지역 검색 API 공식 문서</a></li>
+<li><a href="https://guide.ncloud-docs.com/docs/apihub-overview">NAVER API HUB 개요</a></li>
+<li><a href="https://devtalk.kakao.com/t/api/151772">카카오 데브톡: 메뉴·가격·이미지 API 미제공, 크롤링 금지, 제휴 대상 아님(2026-09-21)</a></li>
+<li><a href="https://devtalk.kakao.com/t/api/150642">카카오 데브톡: 장소 ID·링크만 저장 가능</a></li>
+<li><a href="https://metricool.com/instagram-indexing-on-google/">인스타그램 공개 게시물 Google·Bing 검색 노출(2025-07)</a></li>
+<li><a href="https://developers.facebook.com/docs/graph-api/overview/access-levels/">Meta 접근 수준: 고급 권한은 앱 심사·비즈니스 인증 필요</a></li>
+<li>팀 실험: <code>03_실험/ai-visibility-experiment/cli_한국어_탐색/sources.csv</code> (AI 인용 출처 864건 중 네이버·카카오 장소 페이지 5건)</li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
