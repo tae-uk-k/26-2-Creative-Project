@@ -1,0 +1,59 @@
+/* 03: warm stone and copper. 04: porcelain and clay. 05: white and ink blue. */
+.city-page{--city-paper:#faf8f5;--city-ink:#302e2b;--city-muted:#716c65;background:#faf8f5;color:#302e2b}
+.city-page .city-nav{background:#faf8f5f5;color:#34312c}
+.city-page .city-brand,.city-page .city-hero h1,.city-page .city-chapter h2,.city-page .chapter-two .headline-line:last-child{color:#302e2b}
+.city-page .city-hero h1>.hero-focus{color:#a95e43}
+.city-page .city-kicker,.city-page .chapter-index,.city-page .chapter-two .chapter-index,.city-page .sample-model>strong,.city-page .new-value,.city-page .chapter-two .new-value{color:#a95e43}
+.city-page .city-lead,.city-page .city-chapter>p:not(.chapter-index),.city-page .sample-heading>strong,.city-page .sample-heading>span,.city-page .sample-model>small,.city-page .chapter-two .edit-row>span,.city-page .chapter-two .new-value>span,.city-page .city-chapter>p.sample-footnote{color:#777068}
+.city-page .city-chapter,.city-page .chapter-one,.city-page .chapter-two{background:#fffffff5;color:#302e2b;box-shadow:0 7px 30px #4d34260c}
+.city-page .city-wash{background:linear-gradient(180deg,#faf8f52e,transparent 40%)}
+.city-page .product-sample,.city-page .sample-model,.city-page .edit-row,.city-page .metric-delta{border-color:#eae5df}
+.city-page .sample-question{color:#47413a}
+.city-page .comparison-bar{background:#ece5de}
+.city-page .comparison-bar i{background:#b2a69a}
+.city-page .comparison-values>div+div strong,.city-page .metric-delta>strong{color:#a95e43}
+.city-page .comparison-values>div+div .comparison-bar i{background:#b66e50}
+.city-page .primary,.city-page .city-nav nav button{background:#a95e43;color:white}
+.city-page .primary:hover,.city-page .city-nav nav button:hover{background:#8d4c36}
+.city-page .city-nav nav a[aria-current=step]:after{background:#b66e50}
+.city-page .city-report{background:#f7f3ee;color:#302e2b}
+.city-page .city-report figcaption,.city-page .city-report-line{border-color:#e8e0d6}
+.city-page .city-report-metrics strong,.city-page .city-report-line b,.city-page .city-steps em{color:#a95e43}
+.city-page .city-closing{background:#f1eae2;color:#3d342b}
+.city-page .city-closing .city-kicker,.city-page .city-closing>p:last-child{color:#877261}
+.city-page .city-after,.city-page .city-faq,.city-page .city-footer{background:#fff;color:#34312d}
+.city-page .city-footer p,.city-page .city-free,.city-page .report-example-note,.city-page .city-report-metrics span,.city-page .city-report figcaption>span{color:#8d8276}
+.neo{--paper:#f6f4f1;--green:#a4604c;--muted:#79726a;--soft:5px 6px 14px #ded9d2,-5px -5px 12px #fff;--inset:inset 3px 3px 7px #dcd6ce,inset -3px -3px 7px #fff;background:#f6f4f1;color:#302d2a}
+.neo .brand,.neo .neo-line strong,.neo .section-title,.neo .neo-panel h3{color:#302d2a}
+.neo .neo-hero h1 span,.neo .neo-comparison>div+div strong,.neo .delta strong,.neo .edit-list b{color:#a4604c}
+.neo .body-copy,.neo .neo-process p,.neo .fine,.neo .sample-note,.neo .eyebrow,.neo .section-kicker,.neo .preview-label,.neo .geometry-caption,.neo .variant-jump,.neo .masthead nav>a,.neo .neo-line,.neo .neo-comparison span,.neo .delta{color:#81776d}
+.neo .button,.neo .masthead .nav-cta{background:#40362f;color:white}
+.neo .button:hover,.neo .masthead .nav-cta:hover{background:#a4604c}
+.neo .text-link{color:#8b5d49;border-color:#c7a692}
+.neo .masthead,.neo .neo-line,.neo .footer,.neo .edit-list>div,.neo .neo-process li{border-color:#ded8d0}
+.neo .geo-circle{background:linear-gradient(130deg,#7f6d60,#493e35 52%,#302922);box-shadow:inset 1px 1px 2px #ad9784,6px 9px 16px #d6ccc0}
+.neo .geo-circle:after{background:#f6f4f1;box-shadow:inset 4px 5px 9px #c4b7a7,0 1px 1px #b8a795}
+.neo .geo-arch{background:linear-gradient(135deg,#f0e1d5,#c8997c);box-shadow:inset 1px 1px 1px #fffaf5,5px 8px 16px #dcd1c6}
+.neo .geo-arch:after{background:#f6f4f1;box-shadow:inset 4px 4px 8px #bda38d}
+.neo .geo-square{background:#f0ece6;box-shadow:var(--inset)}
+.neo .geo-square i{background:linear-gradient(100deg,#fffdf8,#dfd1c3);box-shadow:3px 3px 6px #d0c1af,-2px -2px 5px #fff}
+.neo .geo-orbit{background:linear-gradient(135deg,#fcfaf7 8%,#e7ddd1 70%,#d7c8b5);box-shadow:inset 1px 1px 1px #fff,5px 8px 15px #d6c9b8}
+.neo .geo-orbit:after{background:radial-gradient(circle at 30% 22%,#d19c7e,#aa684c 58%,#7d4634 90%);box-shadow:7px 11px 14px #c6ae98}
+.neo .neo-workspace{background:#fbf9f6;box-shadow:0 1px 0 #fff,0 12px 30px #4b332a0a}
+.neo .neo-tabs{border-color:#e8e0d6}.neo .neo-tab,.neo .neo-tab span{color:#978676}
+.neo .neo-tab[aria-selected=true]{color:#875640;background:#efe7dd;box-shadow:inset 2px 2px 5px #ded2c2,inset -2px -2px 5px #fff}
+.neo .question-well{color:#796657;background:#f1ebe3;box-shadow:inset 2px 2px 5px #dfd1c1,inset -2px -2px 5px #fff}
+.neo .bar{background:#e9dfd4}.neo .bar i{background:#ad7657}
+.neo .neo-process li>span{color:#ad8b71}.neo .neo-closing{background:#eee5da;border-top-color:#e4d7c6}
+.neo .start-dialog{background:#fbf9f6;color:#39312b}.neo .dialog-close{background:#eee5da;color:#93745d}.neo .start-dialog input{border-color:#d9cbbd;color:#39312b}
+.orbit{--green:#396ca8;--paper:#fff;color:#27313d;background:#fff}
+.orbit .brand,.orbit .shop-caption strong{color:#2f4055}
+.orbit .button,.orbit .masthead .nav-cta{background:#2e4664;color:white}
+.orbit .button:hover,.orbit .masthead .nav-cta:hover{background:#396ca8}
+.orbit .text-link,.orbit .detail-card .detail-kicker,.orbit .detail-model>strong,.orbit .detail-edit strong,.orbit .detail-comparison>div+div strong,.orbit .detail-delta>strong{color:#396ca8}
+.orbit .bar i{background:#396ca8}
+.orbit .story-pager a[aria-current=step]{color:#396ca8;border-color:#396ca8}
+.orbit .preview-label,.orbit .sample-note,.orbit .eyebrow,.orbit .section-kicker,.orbit .fine,.orbit .body-copy,.orbit .brief-item p,.orbit .masthead nav>a,.orbit .variant-jump{color:#7a8594}
+.orbit .start-dialog{background:#fff;color:#27313d}.orbit .dialog-close{background:#edf1f7;color:#5f7696}.orbit .start-dialog input{border-color:#d5dfeb;color:#27313d}
+.orbit .detail-delta,.orbit .detail-sample,.orbit .detail-edit,.orbit .detail-model{border-color:#e9edf3}
+.neo :focus-visible{outline-color:#a4604c}.orbit :focus-visible{outline-color:#396ca8}.city-page :focus-visible{outline-color:#a95e43}

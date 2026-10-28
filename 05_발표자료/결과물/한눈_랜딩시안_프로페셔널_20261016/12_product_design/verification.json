@@ -1,0 +1,36 @@
+{
+  "screen_designs": 35,
+  "core_screen_ids": [
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "A01",
+    "DS"
+  ],
+  "groups": {
+    "가입 · 계정": 6,
+    "상태 · 보완": 17,
+    "가게 · 진단": 5,
+    "연결 · 정비": 4,
+    "관리자": 2,
+    "디자인 시스템": 1
+  },
+  "html_pages_http_200": 42,
+  "broken_links_or_ids": 0,
+  "service_scripts_or_forms": 0,
+  "free_result_details_leak": false,
+  "CSS_braces": "balanced",
+  "browser_visual_check": "unavailable: Work local browser disabled"
+}

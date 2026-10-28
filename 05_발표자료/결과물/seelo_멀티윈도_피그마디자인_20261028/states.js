@@ -1,0 +1,13 @@
+{
+ const q=await page('states','S10-E','측정 실패','diagnosis');title(q.body,'AI 추천 진단 / 다시 시도','측정을 끝내지 못했어요.','AI 답변을 충분히 받지 못했습니다. 무료 진단 횟수는 사용되지 않았어요.');const r=row(q.body,1160,40);const result=windowBox(r,'다시 시도할 수 있어요',760);icon(result.body,'info',44,'muted');T(result.body,'추천되지 않은 결과와는 달라요.',26,'ink','Bold',696);T(result.body,'이번 측정은 정상적으로 완료되지 않았습니다.\n이전 답변으로 결과를 대신 만들지 않습니다.',17,'muted','Regular',696);const actions=row(result.body,696,16);button(actions,'다시 시도',340);button(actions,'내 가게로 돌아가기',340,'neutral');T(result.body,'오늘 다시 시도 1 / 3회 사용 · 하루 3번까지 다시 시도할 수 있어요.',14,'muted','Regular',696);const side=windowBox(r,'확인한 가게 정보',360);store(side.body,200);T(side.body,'망원밥상',24,'ink','Bold');T(side.body,'서울 마포구 월드컵로 00',15,'muted','Regular',296);T(side.body,'내 가게가 아니에요 →',15,'blueDark','Medium');
+}
+{
+ const q=await page('states','S11-Z','추천 등장률 0%','diagnosis');title(q.body,'AI 추천 진단 / 망원밥상','아직 한 번도\n추천되지 않았어요.','측정은 정상적으로 완료됐습니다. 우리 가게의 정보를 정비해 보세요.');const metrics=row(q.body,1160,24);modelMetric(metrics,'ChatGPT 추천 등장률','0%','성공한 답변 30개 중 0개',568);modelMetric(metrics,'Gemini 추천 등장률','0%','성공한 답변 30개 중 0개',568);const r=row(q.body,1160,40);const neighbor=windowBox(r,'함께 측정한 주변 가게',760);comparison(neighbor.body,696,true);T(neighbor.body,'평균 등장 순서 — · 우리 가게를 추천한 답변이 없어 표시하지 않습니다.',14,'muted','Regular',696);const next=windowBox(r,'가게 정보 정비',360);T(next.body,'고쳐야 할 정보 7개',24,'ink','Bold',296);T(next.body,'Google·카카오에 있는 정보를\n확인하고 정비해 보세요.',16,'muted','Regular',296);button(next.body,'자동 정비 신청',296);T(next.body,'질문별 추천 횟수는 모두 0회입니다.\nAI가 참고한 전체 사이트는 확인할 수 있어요.',14,'muted','Regular',296);
+}
+{
+ const q=await page('states','S13-C','정비 승인 확인','fix');title(q.body,'가게 정보 정비 / 최종 확인','승인한 내용으로\n정비를 시작할까요?','확인한 정보만 지도에 반영합니다.');const c=windowBox(q.body,'정비 시작 전 마지막 확인',720);badge(c.body,'모든 필수 항목 확인 완료');T(c.body,'망원밥상 · 정비할 정보 7개',28,'ink','Bold',656);T(c.body,'Google 지도 4개\n카카오맵 3개',18,'muted','Regular',656);note(c.body,'승인하면 연결된 지도의 내용을 수정합니다.\n정비 전 정보는 seelo에 기록하며, 각 지도에서 직접 되돌릴 수 있어요.',656);check(c.body,'바꿀 내용을 확인하고 지도 정보 정비에 동의해요.',656,true);const r=row(c.body,656,16);button(r,'다시 확인',320,'neutral');button(r,'정비 시작',320);
+}
+{
+ const q=await page('states','S14-D','탈퇴 확인','account');title(q.body,'ACCOUNT / 회원 탈퇴','탈퇴하기 전에\n삭제할 정보를 확인하세요.','되돌릴 수 없는 정보가 있으니 내용을 확인해 주세요.');const c=windowBox(q.body,'회원 탈퇴',720);T(c.body,'가게 정보와 모든 결과가 삭제돼요.',26,'ink','Bold',656);T(c.body,'이미 고친 Google·카카오 정보는 지도에 그대로 남습니다.\nseelo 관리 계정은 각 지도에서 직접 지워 주세요.',17,'muted','Regular',656);field(c.body,'확인 문구','','계속하려면 ‘탈퇴합니다’를 입력해 주세요.',656);const r=row(c.body,656,16);button(r,'계정 유지',320,'secondary');button(r,'탈퇴하기',320,'disabled');
+}
+return finalize();

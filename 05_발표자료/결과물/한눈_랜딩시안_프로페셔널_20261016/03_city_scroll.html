@@ -5,9 +5,9 @@
   <meta name="description" content="우리 가게의 AI 추천 노출을 확인하고, Google·카카오 정보 정비와 전후 비교까지. seelo.">
   <title>seelo — AI가 찾는 가게로</title>
   <link rel="icon" href="data:,"><link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/city-scroll.css"><link rel="stylesheet" href="assets/seelo.css">
-  <script src="assets/three.global.js" defer></script><script src="assets/city-realistic.js" defer></script><script src="assets/city-scroll.js" defer></script><script src="assets/site.js" defer></script>
-</head>
+  <link rel="stylesheet" href="assets/site.css?v=smooth4"><link rel="stylesheet" href="assets/city-scroll.css?v=smooth4"><link rel="stylesheet" href="assets/seelo.css?v=smooth4">
+  <script defer src="assets/magnetic-scroll.js?v=direction13"></script><script defer src="assets/scroll-story.js?v=magnet8"></script><script src="assets/three.global.js?v=smooth4" defer></script><script src="assets/city-realistic.js?v=smooth4" defer></script><script src="assets/city-scroll.js?v=magnet8" defer></script><script src="assets/site.js?v=smooth4" defer></script>
+<link rel="stylesheet" href="assets/smooth-motion.css?v=smooth4"><link rel="stylesheet" href="assets/legacy-palette.css?v=smooth4"><link rel="stylesheet" href="assets/readable-type.css?v=gentle12"></head>
 <body class="city-page">
   <a class="skip" href="#main">본문으로 건너뛰기</a>
   <header class="city-nav"><a class="city-brand" href="#main" aria-label="seelo 홈">seelo<span>AI VISIBILITY FOR LOCAL</span></a><nav aria-label="주 메뉴"><a href="#diagnose">AI 노출 진단</a><a href="#optimize">자동 정비</a><a href="#impact">전후 비교</a><button data-start>무료로 확인하기 <span aria-hidden="true">↗</span></button></nav></header>
@@ -18,10 +18,10 @@
         <div class="city-world" aria-hidden="true"><canvas id="city-canvas"></canvas><div class="city-fallback" hidden><svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg"><g fill="#dddcd3" stroke="#c4c8bd"><path d="M60 600V370l110-40 100 32v238M300 600V270l110-40 100 32v338M750 600V220l130-40 110 32v388M1010 600V320l110-40 100 32v288"/><path fill="#b18a60" d="M530 600V420l110-30 100 32v178"/><path fill="#74877c" d="M553 470h160v130H553z"/></g></svg></div></div>
         <div class="city-wash" aria-hidden="true"></div>
         <div class="city-hero">
-          <p class="city-kicker"><i></i> AI가 찾는 가게로. seelo</p>
-          <h1>AI가 맛집을 추천할 때,<br><span>우리 가게도 보이도록.</span></h1>
+          <p class="city-kicker">AI가 찾는 가게로. seelo</p>
+          <h1><span class="hero-question">AI가 맛집을 추천할 때,</span><br><span class="hero-focus">우리 가게도 보이도록.</span></h1>
           <p class="city-lead">AI가 읽는 가게 정보, seelo가 직접 바꿉니다.<br>진단부터 Google·카카오 정보 정비, 전후 비교까지.</p>
-          <div class="city-hero-actions"><button class="primary" data-start>우리 가게 무료 진단 <span aria-hidden="true">↗</span></button><a href="#diagnose">어떻게 달라지는지 보기 <span aria-hidden="true">↓</span></a></div>
+          <div class="city-hero-actions"><button class="primary" data-start>우리 가게 무료 진단 <span aria-hidden="true">→</span></button><a href="#diagnose">어떻게 달라지는지 보기 <span aria-hidden="true">↓</span></a></div>
           <p class="city-free">가게 이름과 지도 링크로 시작 · 계정당 첫 진단 무료</p>
         </div>
         <div class="scene-coordinate" aria-hidden="true"><span>SEE THE DIFFERENCE</span><i></i><b>01 — THE NEIGHBORHOOD</b></div>
@@ -30,26 +30,35 @@
           <p class="chapter-index"><span>01 / DISCOVER</span> 추천에서 빠진 이유</p>
           <h2><span class="headline-line"><b>우리 가게는,</b></span><span class="headline-line"><b>왜 빠져 있을까요?</b></span></h2>
           <p>관광객처럼 묻고, AI의 답을 확인합니다.<br>얼마나 추천되는지. 어떤 정보를 읽었는지.</p>
-          <div class="query-preview" aria-label="가상 진단 질문 예시"><span>TO CHATGPT &amp; GEMINI</span><p>“Where can I get a Korean lunch<br>near Mangwon, under ₩15,000?”</p><div><i></i> 우리 가게의 추천 여부를 확인합니다</div></div>
+          <div class="product-sample" aria-label="가상 진단 예시">
+            <div class="sample-heading"><strong>망원밥상</strong><span>가상 진단 예시</span></div>
+            <p class="sample-question">“Where can I get a Korean lunch<br>near Mangwon, under ₩15,000?”</p>
+            <div class="sample-model"><span>ChatGPT</span><small>답변 30개 중 6개 추천</small><strong>20<small>%</small></strong></div>
+            <div class="sample-model"><span>Gemini</span><small>답변 30개 중 6개 추천</small><strong>20<small>%</small></strong></div>
+          </div>
+          <p class="sample-footnote">우리 가게의 추천 여부를 확인합니다</p>
         </article>
         <article class="city-chapter chapter-two" data-chapter="2">
           <p class="chapter-index"><span>02 / UPDATE</span> Google·카카오 실제 정비</p>
-          <h2><span class="headline-line"><b>AI가 찾을 수 있게.</b></span><span class="headline-line"><b>가게 정보를</b></span><span class="headline-line"><b>직접 바꿉니다.</b></span></h2>
+          <h2><span class="headline-line"><b>AI가 찾을 수 있게.</b></span><span class="headline-line"><b>가게 정보를 직접 바꿉니다.</b></span></h2>
           <p>영문 메뉴, 가격, 영업시간까지.<br>바꿀 내용을 승인하면 seelo가 반영합니다.</p>
-          <div class="info-preview" aria-label="정보 정비 시연 예시"><div><span>영문 메뉴</span><s>정보 없음</s><strong>메뉴·가격 추가 <i>✓</i></strong></div><div><span>영업시간</span><s>서로 다른 정보</s><strong>지도별 일치 <i>✓</i></strong></div></div>
-          <div class="chapter-note">계정 초대 한 번, 정비안 승인 한 번.</div>
+          <div class="product-sample edit-sample" aria-label="가상의 정보 수정 전후 예시">
+            <div class="sample-heading"><strong>정비안 미리보기</strong><span>가상 예시</span></div>
+            <div class="edit-row"><span>영문 메뉴</span><div><p class="old-value">영문 정보 없음</p><p class="new-value">Bibimbap <span>₩12,000</span></p></div></div>
+            <div class="edit-row"><span>영업시간</span><div><p class="old-value">채널마다 다른 마감 시간</p><p class="new-value">11:00–21:00 <span>동일하게 수정</span></p></div></div>
+          </div>
+          <p class="sample-footnote">계정 초대 한 번, 정비안 승인 한 번.</p>
         </article>
         <article class="city-chapter chapter-three" data-chapter="3">
           <p class="chapter-index"><span>03 / MEASURE</span> 2주 뒤, 같은 질문으로</p>
           <h2><span class="headline-line"><b>얼마나 달라졌는지,</b></span><span class="headline-line"><b>숫자로 확인하세요.</b></span></h2>
-          <div class="metric-demo">
-            <p class="demo-label">가상 비교 예시 · 실제 성과 아님</p>
-            <p class="metric-caption">두 AI 평균 추천 등장률</p>
-            <div class="metric-journey"><span>20<small>%</small></span><i>↗</i><strong><b data-after-rate>40</b><small>%</small></strong></div>
-            <div class="metric-bars" aria-hidden="true"><i></i><i data-after-bar></i></div>
-            <div class="metric-delta">정비 전보다 <strong>+<b data-rate-delta>20</b>%p</strong></div>
+          <p>2주 뒤, 같은 질문으로 다시 측정합니다.<br>정비 전후의 추천 등장률을 비교하세요.</p>
+          <div class="product-sample comparison-sample">
+            <div class="sample-heading"><strong>두 AI 평균 추천 등장률</strong><span>가상 예시</span></div>
+            <div class="comparison-values"><div><span>정비 전</span><strong>20<small>%</small></strong><div class="comparison-bar" aria-hidden="true"><i data-before-bar style="transform:scaleX(.2)"></i></div></div><div><span>2주 후</span><strong>40<small>%</small></strong><div class="comparison-bar" aria-hidden="true"><i data-after-bar style="transform:scaleX(.4)"></i></div></div></div>
+            <div class="metric-delta"><span>정비 전보다</span><strong>+20%p</strong></div>
           </div>
-          <p class="metric-disclaimer">수치는 전후 비교 화면을 보여 주기 위한 예시입니다.<br>실제 평균 상승 실적이나 추천 노출을 보장하지 않습니다.</p>
+          <p class="sample-footnote">수치는 전후 비교 화면을 보여 주기 위한 예시입니다.<br>실제 평균 상승 실적이나 추천 노출을 보장하지 않습니다.</p>
         </article>
         <div class="city-scroll-cue" aria-hidden="true"><span>SCROLL TO EXPLORE</span><i></i>내려서 변화를 확인하세요</div>
         <div class="city-chapter-progress" aria-hidden="true"><span class="current">01</span><div><i></i></div><span>03</span></div>
@@ -57,8 +66,15 @@
       </div>
     </section>
     <section class="city-after" id="service"><div class="city-container">
-      <div class="after-heading"><p class="city-kicker">가게 등록부터 정비까지, 이렇게.</p><h2>사장님은 한 번 확인하고,<br>가게 정보는 seelo가 바꿉니다.</h2></div>
-      <ol class="city-steps"><li><span>01</span><h3>가게 등록</h3><p>가게 이름과 지도 링크로<br>우리 가게를 알려주세요.</p></li><li><span>02</span><h3>무료 진단</h3><p>AI 추천 노출과 주변 가게,<br>참고 출처를 확인합니다.</p></li><li><span>03</span><h3>초대와 승인</h3><p>Google·카카오에 seelo를 초대하고<br>정비할 내용을 확인합니다.</p></li><li><span>04</span><h3>정비와 전후 비교</h3><p>seelo가 정보를 고친 뒤,<br>2주 후 변화를 다시 확인합니다.</p></li></ol>
+      <div class="onboarding-layout">
+        <div class="after-heading"><p class="city-kicker">가게 등록부터 정비까지, 이렇게.</p><h2>사장님은 한 번 확인하고,<br>가게 정보는 seelo가 바꿉니다.</h2><p class="section-intro">처음에는 가게 이름과 지도 링크만.<br>진단 결과를 확인한 뒤, 정비를 결정하세요.</p><button class="text-action" data-start>우리 가게 진단 시작 <span aria-hidden="true">→</span></button></div>
+        <ol class="city-steps">
+          <li><span>01</span><div><h3>가게 등록</h3><p>가게 이름과 지도 링크로 우리 가게를 알려주세요.</p></div><em>사장님</em></li>
+          <li><span>02</span><div><h3>무료 진단</h3><p>AI 추천 노출과 주변 가게, 참고 출처를 확인합니다.</p></div><em>seelo</em></li>
+          <li><span>03</span><div><h3>초대와 승인</h3><p>Google·카카오에 seelo를 초대하고 정비할 내용을 확인합니다.</p></div><em>사장님</em></li>
+          <li><span>04</span><div><h3>정비와 전후 비교</h3><p>seelo가 정보를 고친 뒤, 2주 후 변화를 다시 확인합니다.</p></div><em>seelo</em></li>
+        </ol>
+      </div>
       <div class="city-evidence-layout"><div><p class="city-kicker">숫자와 근거로 보는 우리 가게</p><h2>먼저, 현재를<br>정확하게 아는 일.</h2><p>무료 진단은 노출 정도와 주변 가게 비교,<br>고쳐야 할 점의 개수를 보여줍니다.<br>구체적인 정비안은 지도 연결 후 확인합니다.</p></div><figure class="city-report" id="report-preview" tabindex="-1" aria-label="가상 무료 진단 결과 예시"><figcaption><strong>망원밥상 · 무료 진단</strong><span>가상 결과 예시</span></figcaption><div class="city-report-metrics"><div><p>ChatGPT 추천 등장률</p><strong>20<small>%</small></strong><span>성공한 답변 30개 중 6개</span></div><div><p>Gemini 추천 등장률</p><strong>20<small>%</small></strong><span>성공한 답변 30개 중 6개</span></div></div><div class="city-report-line"><span>고쳐야 할 점</span><strong>7개</strong></div><p class="report-example-note">가게 이름과 모든 수치는 이해를 위한 가상 예시입니다.</p></figure></div>
     </div></section>
     <section class="city-faq"><div class="city-container"><h2>시작하기 전에.</h2><div><details><summary>사장님이 직접 해야 하는 일은 무엇인가요?</summary><p>가게 이름과 지도 링크를 등록하세요. 자동 정비를 신청하고 승인되면 Google·카카오 관리 화면에서 seelo 계정을 초대한 뒤, 정비안을 확인하고 한 번 승인하면 됩니다. 아이디와 비밀번호는 받지 않습니다.</p></details><details><summary>네이버 지도도 직접 고쳐주나요?</summary><p>seelo가 직접 정비하는 곳은 Google 지도와 카카오맵입니다. 네이버 지도·공식 웹사이트·인스타그램 등은 가게를 찾고 정보를 비교하는 데 사용합니다.</p></details><details><summary>진단하면 AI 추천이 늘어나나요?</summary><p>추천 순위나 노출을 보장하지 않습니다. 같은 질문으로 정비 전후를 비교하지만, AI 모델 업데이트나 다른 가게의 변화도 추천 결과에 영향을 줄 수 있습니다.</p></details></div></div></section>

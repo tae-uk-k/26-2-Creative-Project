@@ -39,8 +39,8 @@ window.SeeloCity = {
     const clearGlass = own(new T.MeshPhysicalMaterial({ color: '#c8d9d6', roughness: .08, metalness: .18, transparent: true, opacity: .34, depthWrite: false, envMapIntensity: 2.4, clearcoat: 1 }));
     const warmGlow = own(new T.MeshStandardMaterial({ color: '#f4d39a', emissive: '#eac086', emissiveIntensity: .5, roughness: .7 }));
     const shopAccent = material('#887057', .66, .08);
-    shopAccent.userData.destination = new T.Color('#335d3e');
-    const shopLight = material('#77867a', .7);
+    shopAccent.userData.destination = new T.Color('#b16e4e');
+    const shopLight = material('#877b71', .7);
     shopLight.userData.destination = new T.Color('#b5ac76');
     shopLight.emissive.set('#d4ac6e');
 
@@ -112,7 +112,7 @@ window.SeeloCity = {
     function box(w, h, d, x, y, z, mat, shadow = true, rotation = null) { instance(boxGeometry, mat, x, y, z, w, h, d, rotation, shadow); }
     function cylinder(radius, height, x, y, z, mat, rotation = null) { instance(cylinderGeometry, mat, x, y, z, radius, height, radius, rotation); }
     function ball(x, y, z, sx, sy, sz, mat, rotation = null) { instance(sphereGeometry, mat, x, y, z, sx, sy, sz, rotation); }
-    function label(text, w, h, x, y, z, foreground = '#e9e4d6', background = '#3e4d44', rotationY = 0) {
+    function label(text, w, h, x, y, z, foreground = '#e9e4d6', background = '#655247', rotationY = 0) {
       const canvas = document.createElement('canvas'); canvas.width = Math.min(2048,Math.max(256,Math.round(256*w/h))); canvas.height = 256;
       const texture = own(new T.CanvasTexture(canvas)); texture.colorSpace = T.SRGBColorSpace;
       const mat = own(new T.MeshStandardMaterial({ map: texture, roughness: .8 }));
@@ -220,7 +220,7 @@ window.SeeloCity = {
     [ .22, 2.63 ].forEach(y => box(4.5, .07, .11, sx, y, sz + 3.27, shopAccent));
     box(.04, .42, .07, sx + .47, 1.23, sz + 3.36, metal, false);
     box(4.45, .63, .19, sx, 3.37, sz + 3.29, timber);
-    label('망원밥상', 3.95, .55, sx, 3.37, sz + 3.4, '#e9e5d8', '#344b3b');
+    label('망원밥상', 3.95, .55, sx, 3.37, sz + 3.4, '#e9e5d8', '#75543f');
     label('KOREAN KITCHEN', 1.6, .16, sx, 2.86, sz + 3.25, '#635d4a', '#ddd6be');
     box(5.02, .12, 1.1, sx, 2.72, sz + 3.64, shopAccent);
     for (let n = 0; n < 12; n++) box(.405, .04, 1.08, sx - 2.23 + n * .405, 2.79, sz + 3.64, n % 2 ? cream : shopAccent, true, [ .13, 0, 0 ]);
@@ -238,7 +238,7 @@ window.SeeloCity = {
     }
     box(1.1, 1.0, 2.35, sx - 1.52, .68, sz - 1.52, timber);
     box(1.15,.08,2.4,sx-1.52,1.21,sz-1.52,cream);
-    label('오늘의 한식',1.2,.65,sx+.8,1.9,sz-2.96,'#e3d6b5','#34453b');
+    label('오늘의 한식',1.2,.65,sx+.8,1.9,sz-2.96,'#e3d6b5','#655247');
     const interiorLight = new T.PointLight('#ffdbab', 14, 8, 2); interiorLight.position.set(sx,2.55,sz+.5); scene.add(interiorLight);
     box(5.0, .08, 2.05, sx, .13, sz + 4.3, pavement, false);
     for (const x of [sx - 1.3, sx + 1.3]) {
@@ -246,7 +246,7 @@ window.SeeloCity = {
       for (const dx of [-.43,.43]) box(.07,.43,.38,x+dx,.31,sz+4.28,metal);
     }
     box(.6,.8,.16,sx+2.96,.73,sz+4.0,timber,true,[-.13,0,0]);
-    label('한식 · 점심',.52,.5,sx+2.96,.79,sz+4.13,'#ece4cf','#394536');
+    label('한식 · 점심',.52,.5,sx+2.96,.79,sz+4.13,'#ece4cf','#66513f');
 
     function tree(x, z, size = 1, pot = false) {
       if (pot) box(.62,.62,.62,x,.4,z,terracotta);

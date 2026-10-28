@@ -1,0 +1,121 @@
+/* Precision edition: sculpted surfaces, editorial contrast, architectural details. */
+:root{color:#1c2824;background:#f0f2ef;--paper:#f0f2ef;--green:#284a3e;--muted:#59635d;--soft:5px 5px 11px #d8dcd6,-5px -5px 11px #fff;--inset:inset 3px 3px 7px #d2d8d0,inset -3px -3px 7px #ffffff}
+body{color:#1c2824;-webkit-font-smoothing:antialiased}
+.masthead{height:86px;border-bottom:1px solid #26332c15}
+.brand{font-weight:780;letter-spacing:-2.2px;color:#20372c}
+.masthead nav{font-size:13px;gap:34px}
+.masthead nav>a{color:#4d5851}
+.masthead .nav-cta,.neo .masthead .nav-cta,.orbit .masthead .nav-cta{background:#223a30;color:#fff;border-radius:4px;box-shadow:none;font-size:13px;letter-spacing:-.01em;padding:13px 20px}
+.button{border-radius:4px;background:#223a30;padding:17px 23px;font-size:14px;letter-spacing:-.015em;box-shadow:none;transition:background .18s ease}
+.button:hover,.masthead .nav-cta:hover{background:#14291f}
+.button>span{font-size:21px;font-weight:350;line-height:1;transition:transform .18s ease}
+.button:hover>span{transform:translate(2px,-2px)}
+.eyebrow{font-size:11px;letter-spacing:.13em;color:#596c5e;font-weight:550}
+.body-copy{color:#56625a;font-size:16px;line-height:1.75}
+.fine{color:#657065}
+.text-link{font-size:13px;color:#2e4636;border-bottom-color:#9aaa9b}
+.section-title{font-size:clamp(34px,3.8vw,48px);font-weight:570;letter-spacing:-.065em;line-height:1.22}
+.section-kicker{font-size:12px;color:#637966;margin-bottom:22px}
+.preview-label{background:transparent;padding:0;color:#657265;border-radius:0;font-size:12px}
+.sample-note{color:#667264;font-size:12px}
+.bar,.bar i{border-radius:0;height:4px}
+.bar{background:#dae1d7}.bar i{background:#486951}
+.footer{border-top:1px solid #26332c14;padding:35px 0}
+/* Neumorphism becomes a precise relief, rather than a soft cushion. */
+.neo-hero{grid-template-columns:1.13fr 1fr;gap:55px;padding:64px 0 64px;min-height:calc(100svh - 86px)}
+.neo-hero h1{font-size:clamp(46px,5.1vw,73px);font-weight:590;line-height:1.12;letter-spacing:-.075em;margin:28px 0 28px}
+.neo-hero h1 span{color:#253e31}
+.neo-hero .body-copy{font-size:16px;line-height:1.8}
+.neo-hero .actions{margin-top:34px;gap:27px}
+.neo-hero .fine{margin-top:18px}
+.geometry{height:450px;gap:23px;padding:16px;transform:rotate(-4deg)}
+.geo{box-shadow:5px 7px 14px #cbd2c8,-4px -4px 12px #fff}
+.geo-circle{background:linear-gradient(130deg,#546259 0%,#273b31 42%,#192c23 100%);box-shadow:inset 1px 1px 2px #809086,6px 9px 16px #c7cfc3}
+.geo-circle:after{width:46%;height:46%;background:var(--paper);box-shadow:inset 4px 5px 9px #aeb8aa,0 1px 1px #7b8c7a}
+.geo-arch{border-radius:100px 100px 5px 5px;background:linear-gradient(135deg,#e4e9df,#a8baa0);box-shadow:inset 1px 1px 1px #fafff8,5px 8px 16px #cbd4c6}
+.geo-arch:after{box-shadow:inset 4px 4px 8px #a2b19b;width:42%;height:58%;margin-top:39%}
+.geo-square{border-radius:6px;box-shadow:var(--inset);background:#ecefe9}
+.geo-square i{border-radius:2px;width:17%;background:linear-gradient(100deg,#fdfefa,#dbe2d5);box-shadow:3px 3px 6px #c3cdbd,-2px -2px 5px #fff;margin:6px}
+.geo-orbit{background:linear-gradient(135deg,#f8faf6 8%,#dce3d5 70%,#cdd6c6);box-shadow:inset 1px 1px 1px #fff,5px 8px 15px #c9d2c2}
+.geo-orbit:after{width:46%;height:46%;background:radial-gradient(circle at 30% 22%,#8b9b85,#405a42 58%,#253c2a 90%);box-shadow:7px 11px 14px #aebda6;transform:translate(17px,-17px)}
+.geometry-caption{left:16px;right:16px;bottom:-18px;font-size:10px;letter-spacing:.13em;transform:rotate(4deg)}
+.neo-line{padding:24px 0;border-color:#cbd5c7;font-size:12px}
+.neo-line strong{font-size:14px;color:#2b4333}
+.neo-intro{margin-bottom:50px;gap:90px}
+.neo-intro .body-copy{font-size:16px}
+.neo-workspace{background:#f5f7f2;border-radius:8px;padding:38px;gap:45px;box-shadow:0 1px 0 #fff,0 12px 30px #364b3010;grid-template-columns:175px 1fr}
+.neo-tabs{gap:4px;padding-right:18px;border-right:1px solid #e0e6db}
+.neo-tab{border-radius:3px;padding:18px 16px;font-size:14px;color:#677564;gap:17px}
+.neo-tab span{font-size:11px}
+.neo-tab[aria-selected=true]{box-shadow:inset 2px 2px 5px #d7dfd0,inset -2px -2px 5px #fff;background:#ebefe6;color:#243f2a;font-weight:580}
+.neo-panel h3{font-size:29px;font-weight:550;letter-spacing:-.05em}
+.question-well{border-radius:3px;background:#eef2e9;box-shadow:inset 2px 2px 5px #d5decd,inset -2px -2px 5px #fcfff9;font-size:16px;line-height:1.55;padding:22px 25px}
+.model-rows>div{padding:17px 0}.model-rows strong{font-size:30px;font-weight:500}
+.neo-comparison strong{font-weight:480;letter-spacing:-.07em}
+.neo-process{gap:110px}
+.neo-process li>span{box-shadow:none;border-radius:0;display:block;width:auto;height:auto;font-size:13px;color:#78916e;padding-top:6px}
+.neo-process li{grid-template-columns:30px 1fr;gap:20px;border-color:#d1dbca}
+.neo-process h3{font-size:21px;font-weight:550;letter-spacing:-.04em}
+.neo-closing{background:#e7ede1;box-shadow:none;border-top:1px solid #dbe4d4}
+.neo-closing .closing-symbol{display:none}
+.closing h2{font-weight:560;letter-spacing:-.06em}
+/* Satellite windows take their cues from a restrained architectural presentation. */
+.orbit{background:#fbfcf9;--paper:#fbfcf9}
+.shop-pin{background:radial-gradient(ellipse at 50% 65%,#e6ece1 0,#f5f8f1 40%,#fbfcf9 73%)}
+.shop-intro{top:120px}
+.shop-intro h1{font-size:clamp(36px,4.3vw,58px);font-weight:570;line-height:1.16;letter-spacing:-.065em;margin:19px 0}
+.shop-intro .body-copy{font-size:15px;line-height:1.7}
+.shop-intro .eyebrow{font-size:10px;letter-spacing:.16em}
+.shop-caption{font-size:11px;letter-spacing:.01em;color:#718169}
+.shop-caption strong{font-size:14px;font-weight:550;color:#3c5338}
+.satellite{border-radius:5px;background:#ffffffed;border:0;box-shadow:0 1px 0 #ffffff,0 10px 24px #2d442b0b;padding:25px}
+.satellite h2{font-size:23px;line-height:1.3;font-weight:560;letter-spacing:-.045em;margin:17px 0 14px;color:#253b2a}
+.satellite p{font-size:14px;line-height:1.7;color:#5d6e58}
+.satellite .window-dot{display:none}
+.satellite .small-label{font-size:11px;color:#5b7751;letter-spacing:.055em}
+.satellite .mini-title{font-size:12px;color:#5b7052;padding-bottom:14px;border-bottom:1px solid #e7ecdf;margin-bottom:3px}
+.satellite .mini-row{border-color:#e7ecdf;padding:15px 0}
+.satellite .mini-row strong{font-size:23px;font-weight:500;color:#395b36}
+.satellite .mini-row b{font-weight:530;font-size:13px}
+.satellite .success{border-radius:0;background:transparent;padding:0;margin-top:20px;color:#456d3c;font-size:12px}
+.satellite .success:before{color:#456d3c}
+.satellite .sample-note{font-size:12px;color:#67765e;line-height:1.65}
+.satellite .before-after{gap:20px;margin:23px 0}
+.before-after strong{font-size:48px;font-weight:470;color:#365735}
+.before-after>span{font-weight:450;color:#87937d}
+.story-footer{bottom:24px}
+.story-pager{gap:28px}.story-pager a{font-size:12px;letter-spacing:.025em}
+.story-pager a[aria-current=step]{border-color:#8caa7d;color:#31572a}
+.brief-item h3{font-size:22px;font-weight:540;letter-spacing:-.045em}
+.orbit .closing{background:#edf2e6;border-top:1px solid #e0e8d8}
+.start-dialog{border-radius:8px;background:#fafcf6;padding:32px}
+.dialog-close{border-radius:3px;background:#eaf0e1;color:#5c7450}
+.start-dialog input{border-radius:3px;border-color:#ccd9c1;background:#fff}
+/* Directory reflects the new finish as well. */
+.concept-link{border-radius:6px;background:#f5f8ef;box-shadow:0 1px 0 #fff,0 10px 25px #364d2d0d}
+.concept-cover .orb{box-shadow:inset 1px 1px 1px #8b9d80,5px 8px 15px #d1dac9;background:linear-gradient(135deg,#6c8060,#243c20)}
+.concept-cover .arch{background:linear-gradient(135deg,#e4ecd9,#a9bc97);border-radius:60px 60px 3px 3px;box-shadow:4px 7px 14px #d1dbc7}
+.concept-cover .house{background:#f2f3e9;border-radius:3px;box-shadow:15px 18px 0 #d7dfcb}
+.house:before{background:repeating-linear-gradient(90deg,#4b6341 0 22px,#e9efdf 22px 44px)}
+.house:after{background:#4a6140}
+@media(min-width:1600px){.geometry{height:490px}.satellite{padding:28px}.satellite h2{font-size:25px}}
+@media(max-width:1050px){.neo-hero{gap:35px}.neo-hero h1{font-size:53px}.geometry{height:380px;gap:20px;padding:12px}.neo-workspace{grid-template-columns:160px 1fr;gap:28px;padding:30px}.neo-tabs{padding-right:12px}.neo-tab{gap:12px;padding:17px 12px}.satellite{padding:20px}.satellite h2{font-size:21px}}
+@media(max-width:760px){
+ .masthead{height:76px}.masthead nav{gap:16px}.masthead .nav-cta,.neo .masthead .nav-cta,.orbit .masthead .nav-cta{font-size:12px;padding:12px 15px}
+ .neo-hero{grid-template-columns:1fr;gap:46px;padding:44px 0 55px;min-height:auto}
+ .neo-hero h1{font-size:clamp(40px,10.3vw,63px);line-height:1.1;margin:24px 0}.neo-hero .body-copy{font-size:15px}
+ .neo-hero .actions{gap:22px;margin-top:28px}.button{padding:16px 20px;font-size:14px}
+ .geometry{height:320px;max-width:340px;gap:22px;transform:rotate(-3deg)}.geometry-caption{transform:rotate(3deg);font-size:9px}
+ .section-title{font-size:35px;line-height:1.24}.neo-intro{gap:24px;margin-bottom:38px}.neo-intro .body-copy{font-size:15px}
+ .neo-workspace{display:block;padding:24px;border-radius:5px}.neo-tabs{padding-right:0;border-right:0;border-bottom:1px solid #dce5d3;padding-bottom:18px;gap:5px}
+ .neo-tab{padding:12px 8px;font-size:13px}.neo-panel h3{font-size:25px;line-height:1.3}.question-well{font-size:15px;padding:18px}
+ .neo-process{gap:35px}.neo-process li{grid-template-columns:24px 1fr}.neo-process h3{font-size:20px}
+ .shop-intro{top:101px}.shop-intro h1{font-size:35px;line-height:1.17;margin:17px 0}.shop-intro .body-copy{font-size:14px}
+ .satellite{padding:17px;border-radius:4px}.satellite h2{font-size:18px;line-height:1.3;margin:12px 0}.satellite p{font-size:12px}
+ .satellite .mini-title{font-size:11px;padding-bottom:11px}.satellite .mini-row{padding:11px 0}.satellite .mini-row strong{font-size:19px}
+ .satellite .mini-row b{font-size:12px}.satellite .sample-note{font-size:11px;line-height:1.6}.satellite .success{font-size:11px;margin-top:12px}
+ .satellite .before-after{gap:12px;margin:18px 0}.before-after strong{font-size:37px}.story-pager{gap:17px}.story-footer{bottom:20px}
+ .closing{padding:70px 20px}.start-dialog{padding:26px}.brief-item h3{font-size:21px}
+}
+@media(max-width:390px){.neo-hero h1{font-size:40px}.geometry{height:285px;width:94%;gap:20px}.neo-workspace{padding:19px}.shop-intro h1{font-size:31px}.satellite{padding:14px}.satellite h2{font-size:16px}.story-pager{gap:12px}.before-after strong{font-size:32px}.satellite .before-after{gap:9px}}
+@media(prefers-reduced-motion:reduce){.button,.button>span{transition:none}}

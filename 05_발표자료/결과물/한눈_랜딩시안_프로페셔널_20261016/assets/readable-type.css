@@ -1,0 +1,124 @@
+/* Supporting copy is readable text, not decorative microtype. Loaded last. */
+.city-page .city-kicker,.city-page .city-free,.city-page .chapter-index,.city-page .chapter-index>span,.city-page .city-nav nav,.city-page .city-art-note,.city-page .city-footer p{font-size:13px;line-height:1.6}
+.city-page .city-lead,.city-page .city-chapter>p:not(.chapter-index),.city-page .chapter-two>p:not(.chapter-index){font-size:17px;line-height:1.75;color:#70675e}
+.city-page .sample-heading>strong,.city-page .sample-heading>span,.city-page .sample-model>small,.city-page .edit-row>span,.city-page .old-value,.city-page .new-value>span,.city-page .city-chapter>p.sample-footnote,.city-page .report-example-note{font-size:13px!important;line-height:1.7;color:#7e756b}
+.city-page .sample-model>span,.city-page .metric-delta,.city-page .comparison-values span{font-size:15px}
+.city-page .city-steps p,.city-page .section-intro,.city-page .city-faq details p,.city-page .city-evidence-layout>div>p:last-child{font-size:16px;line-height:1.8}
+.city-page .city-chapter{max-height:calc(100svh - 120px)}
+.orbit .eyebrow,.orbit .fine,.orbit .sample-note,.orbit .preview-label,.orbit .section-kicker,.orbit .shop-caption,.orbit .variant-jump,.orbit .motion-toggle,.orbit .story-pager a,.orbit .story-footer>.fine{font-size:13px;line-height:1.6}
+.orbit .body-copy,.orbit .detail-card .detail-description,.orbit .brief-item p{font-size:17px;line-height:1.75}
+.orbit .detail-card .detail-kicker,.orbit .detail-card .detail-kicker>span,.orbit .detail-meta strong,.orbit .detail-meta>span,.orbit .detail-model>small,.orbit .detail-edit>span,.orbit .detail-edit s,.orbit .detail-edit strong small,.orbit .detail-card .detail-note{font-size:13px;line-height:1.65}
+.orbit .detail-model>span,.orbit .detail-delta>span,.orbit .detail-comparison>div>span{font-size:15px}
+.orbit .detail-model strong small{font-size:15px}
+.orbit .detail-card .detail-note,.orbit .detail-model>small,.orbit .detail-meta>span{color:#7b8593}
+.kinetic .topbar nav>a,.window-stage .topbar nav>a,.kinetic .eyebrow,.window-stage .eyebrow,.kinetic .scene .eyebrow,.window-stage .narrative .eyebrow{font-size:13px;line-height:1.5}
+.kinetic .intro-copy .lead,.kinetic .scene .lead,.kinetic .scene-heading .lead,.kinetic .fix-top .lead,.kinetic .measure-top .lead{font-size:17px;line-height:1.75;color:#6e788b}
+.kinetic .intro-copy .eyebrow{font-size:13px}
+.kinetic .art-tag strong{font-size:13px;line-height:1.4}.kinetic .art-tag small{font-size:12px;line-height:1.4;color:#79869e}
+.kinetic .art-tag>i{font-size:12px;width:27px;height:27px}
+.kinetic .art-tag{padding:12px 14px;max-width:220px}
+.kinetic .art-sticker{font-size:13px;line-height:1.5}
+.kinetic .art-caption,.kinetic .process-rail-item small,.kinetic .scene-footnote,.kinetic .find-demo .micro,.kinetic .find-demo .source-row span,.kinetic .report-store small,.kinetic .sheet-index,.kinetic .measure-bottom p,.kinetic .kinetic-delta>span,.kinetic .bottom-bar>span,.kinetic .bottom-bar>a:nth-child(2),.kinetic .start-section .micro{font-size:13px;line-height:1.65}
+.kinetic .process-rail-item strong{font-size:15px}
+.kinetic .find-demo .demo-top,.kinetic .find-demo .demo-top small,.kinetic .sheet-line{font-size:14px;line-height:1.65}
+.kinetic .find-demo .source-row{gap:12px;flex-wrap:wrap}
+.kinetic .find-demo .answer-row,.kinetic .big-comparison>div>span:not(.metric-mask){font-size:15px}
+.kinetic .report-store strong{font-size:17px}
+.kinetic .chapter-nav button,.kinetic .scroll-note,.kinetic .motion-switch,.window-stage .motion-switch,.window-stage .chapter-nav button{font-size:12px}
+.kinetic .measure-bottom p{max-width:420px;color:#77849b}
+.kinetic .measure-bottom{gap:20px}.kinetic .measure-bottom .cta{font-size:13px}
+.kinetic .find-demo .query{font-size:18px}
+.kinetic .sheet-line{padding:16px 0}
+.kinetic .scene-footnote,.kinetic .find-demo .micro,.kinetic .report-store small{color:#7d879a}
+.kinetic .art-tag small,.kinetic .art-caption{color:#687b99}
+.kinetic .kinetic-process-rail{padding-top:16px}.kinetic .process-rail-item{align-items:center}
+.window-stage .window-intro>p:last-child,.window-stage .narrative>p:last-of-type,.window-stage .start-section .lead{font-size:17px;line-height:1.75;color:#6a788e}
+.window-stage .floating-window .window-chrome{font-size:11px;height:34px;letter-spacing:0;padding:0 12px}
+.window-stage .floating-window .card-eyebrow,.window-stage .floating-window small,.window-stage .floating-window .tiny-note,.window-stage .floating-window .menu-price,.window-stage .floating-window .channel-status,.window-stage .floating-window .channel-status b,.window-stage .floating-window .mini-model,.window-stage .floating-window .source-item>span,.window-stage .floating-window .source-item small{font-size:12px;line-height:1.55}
+.window-stage .floating-window .sample-tag{font-size:11px}
+.window-stage .fw-query p{font-size:19px;line-height:1.5}
+.window-stage .store-window .window-chrome{font-size:12px;height:35px;letter-spacing:0}
+.window-stage .store-label>span,.window-stage .store-label>small{font-size:12px;line-height:1.5;color:#77869b}.window-stage .store-label>b{font-size:17px}
+.window-stage .focus-context-name>small,.window-stage .focus-context-count{font-size:13px}
+.window-stage .focus-context-name>strong{font-size:18px}
+.window-stage .narrative-link{font-size:14px}
+.window-stage .focus-deck .focus-card .window-chrome{font-size:14px;height:48px}
+.window-stage .focus-deck .focus-card .window-content{padding:25px 28px}
+.window-stage .focus-deck .focus-card .card-eyebrow,.window-stage .focus-deck .focus-card .focus-subheading,.window-stage .focus-deck .focus-card .tiny-note,.window-stage .focus-deck .focus-card .sample-tag,.window-stage .focus-deck .focus-card .focus-detail>p{font-size:13px;line-height:1.65}
+.window-stage .focus-deck .focus-card .mini-model,.window-stage .focus-deck .focus-card .mini-comparison>div>span,.window-stage .focus-deck .focus-card .measure-difference{font-size:15px}
+.window-stage .focus-deck .focus-card .update-entry>span,.window-stage .focus-deck .focus-card .update-store small,.window-stage .focus-deck .focus-card .update-channels span{font-size:13px;line-height:1.6}
+.window-stage .focus-deck .focus-card .update-values,.window-stage .focus-deck .focus-card .update-store strong{font-size:15px;line-height:1.6}
+.window-stage .focus-deck .focus-card .tiny-note,.window-stage .focus-deck .focus-card .update-entry>span,.window-stage .focus-deck .focus-card .update-store small{color:#7f8ba0}
+.window-stage .bottom-bar>span,.window-stage .bottom-bar>a:nth-child(2){font-size:13px}
+.kinetic .start-dialog .dialog-desc,.window-stage .start-dialog .dialog-desc{font-size:15px}
+.kinetic .start-dialog label,.window-stage .start-dialog label{font-size:14px}
+@media(min-width:761px){.window-stage .focus-deck{top:8%;width:min(43%,610px)}.window-stage .focus-deck>.focus-card{max-height:calc(100svh - 170px);overflow:auto;overscroll-behavior:contain}.kinetic .scene{padding-top:3.5vh;padding-bottom:3vh}.kinetic .find-demo{max-height:calc(100svh - 100px);overflow-y:auto;overscroll-behavior:contain}.kinetic .scene-fix,.kinetic .scene-measure{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.kinetic .fix-sheets{margin-top:26px}.kinetic .measure-bottom{align-items:center}.kinetic .measure-bottom p{font-size:12px}.kinetic .big-comparison{margin:20px 0 17px}}
+@media(max-width:1000px) and (min-width:761px){.kinetic .intro-copy h1{font-size:4.5vw}.kinetic .scene h2{font-size:6.5vw}.kinetic .fix-top .lead,.kinetic .measure-top .lead{max-width:300px;font-size:16px}.kinetic .sheet-line{font-size:13px}.kinetic .measure-bottom{flex-wrap:wrap}.kinetic .measure-bottom p{max-width:310px}.kinetic .measure-bottom .cta{padding:14px 17px}}
+@media(max-width:760px){
+ .city-page .city-chapter>p:not(.chapter-index),.city-page .chapter-two>p:not(.chapter-index),.city-page .city-lead{font-size:16px;line-height:1.7}
+ .city-page .city-kicker,.city-page .city-free,.city-page .chapter-index,.city-page .chapter-index>span{font-size:12px}
+ .city-page .sample-heading>strong,.city-page .sample-heading>span,.city-page .sample-model>small,.city-page .edit-row>span,.city-page .old-value,.city-page .new-value>span,.city-page .city-chapter>p.sample-footnote{font-size:12px!important;line-height:1.65}
+ .orbit .body-copy,.orbit .detail-card .detail-description,.orbit .brief-item p{font-size:16px;line-height:1.7}
+ .orbit .detail-card .detail-kicker,.orbit .detail-card .detail-kicker>span,.orbit .detail-meta strong,.orbit .detail-meta>span,.orbit .detail-model>small,.orbit .detail-edit>span,.orbit .detail-edit s,.orbit .detail-edit strong small,.orbit .detail-card .detail-note{font-size:12px;line-height:1.7}
+ .orbit .story-pager a,.orbit .motion-toggle,.orbit .fine,.orbit .eyebrow{font-size:12px}
+ .kinetic .intro-copy h1{font-size:clamp(32px,8.5vw,48px)}
+ .kinetic .intro-copy .lead,.kinetic .scene .lead,.kinetic .scene-heading .lead,.kinetic .fix-top .lead,.kinetic .measure-top .lead{font-size:15px;line-height:1.65;margin-top:16px}
+ .kinetic .intro-copy .eyebrow,.kinetic .scene .eyebrow{font-size:12px;line-height:1.5}
+ .kinetic .intro-copy .cta{font-size:13px;padding:15px 18px}
+ .kinetic .kinetic-art{height:34%;bottom:14%;width:68%;left:22%}
+ .kinetic .art-tag strong{font-size:12px;line-height:1.45}.kinetic .art-tag small{font-size:11px;line-height:1.4}.kinetic .art-tag{padding:9px 11px;max-width:175px;gap:7px}
+ .kinetic .art-tag>i{width:23px;height:23px;font-size:11px}.kinetic .tag-diagnosis{top:5%;left:-21%}.kinetic .tag-update{top:65%;right:-3%}
+ .kinetic .art-sticker{font-size:11px;width:75px;height:75px;right:0}
+ .kinetic .art-caption{font-size:11px;bottom:-5%;left:9%;right:9%}
+ .kinetic .kinetic-process-rail{gap:10px;padding-top:13px}.kinetic .process-rail-item{display:block}
+ .kinetic .process-rail-item strong{font-size:12px;line-height:1.5;white-space:normal}
+ .kinetic .process-rail-item small{font-size:11px;line-height:1.5;margin-top:5px}.kinetic .rail-symbol{display:none}
+ .kinetic .find-demo .demo-top,.kinetic .find-demo .demo-top small{font-size:12px;line-height:1.5}
+ .kinetic .find-demo-body{padding:17px 18px}.kinetic .report-store{margin-bottom:15px}.kinetic .report-store strong{font-size:15px}.kinetic .report-store small{font-size:12px;line-height:1.5}
+ .kinetic .find-demo .query{font-size:14px;line-height:1.6;padding:13px;margin-bottom:15px}
+ .kinetic .find-demo .answer-row{font-size:13px;line-height:1.5;padding:12px 0}.kinetic .find-demo .answer-row>strong{font-size:29px}
+ .kinetic .find-demo .source-row{gap:8px;margin:15px 0 13px}.kinetic .find-demo .source-row span{font-size:11px;line-height:1.6}
+ .kinetic .find-demo .micro,.kinetic .scene-footnote{font-size:12px;line-height:1.65}
+ .kinetic .scene-find{gap:21px}.kinetic .scene-heading h2{font-size:11vw}
+ .kinetic .find-shapes{height:15%;bottom:-8%}
+ .kinetic .sheet-index{font-size:12px}.kinetic .sheet-line{font-size:12px;line-height:1.6;padding:12px 0}
+ .kinetic .edit-sheet h3{font-size:17px;line-height:1.4;margin:11px 0 15px}
+ .kinetic .scene-fix{justify-content:flex-start}.kinetic .fix-sheets{margin-top:21px}
+ .kinetic .scene-footnote{margin-top:20px;max-width:100%}
+ .kinetic .measure-bottom p{font-size:12px;line-height:1.65}.kinetic .kinetic-delta>span{font-size:12px}
+ .kinetic .measure-bottom .cta{font-size:12px;padding:14px 13px;white-space:normal;line-height:1.45}
+ .kinetic .big-comparison>div>span:not(.metric-mask){font-size:13px}.kinetic .big-comparison strong{font-size:21vw}
+ .kinetic .scroll-note{display:none}.kinetic .motion-switch,.kinetic .chapter-nav button{font-size:12px}
+ .kinetic .chapter-nav button{width:30px}.kinetic .start-section .eyebrow,.kinetic .start-section .micro{font-size:12px}
+ .kinetic .bottom-bar>span,.kinetic .bottom-bar>a:nth-child(2){font-size:12px}
+ .window-stage .window-intro>p:last-child,.window-stage .narrative>p:last-of-type{font-size:15px;line-height:1.65}
+ .window-stage .window-intro .eyebrow{font-size:12px}.window-stage .focus-context-name>small,.window-stage .focus-context-count{font-size:12px}.window-stage .focus-context-name>strong{font-size:16px}
+ .window-stage .focus-context{top:18px}.window-stage .stage-narrative{top:13%}
+ .window-stage .narrative h2{font-size:28px;margin:12px 0 13px}.window-stage .narrative[data-narrative="3"] h2{font-size:25px}
+ .window-stage .narrative .cta{position:static;font-size:12px;margin-top:13px;max-width:none;padding:13px 16px;gap:18px}
+ .window-stage .focus-deck .focus-card .window-chrome{font-size:13px;height:41px}
+ .window-stage .focus-deck .focus-card .window-content{padding:20px}
+ .window-stage .focus-deck .focus-card .card-eyebrow,.window-stage .focus-deck .focus-card .focus-subheading,.window-stage .focus-deck .focus-card .tiny-note,.window-stage .focus-deck .focus-card .sample-tag,.window-stage .focus-deck .focus-card .focus-detail>p{font-size:12px;line-height:1.6}
+ .window-stage .focus-deck .focus-card .mini-model,.window-stage .focus-deck .focus-card .mini-comparison>div>span,.window-stage .focus-deck .focus-card .measure-difference{font-size:14px}
+ .window-stage .focus-deck .focus-card .update-entry>span,.window-stage .focus-deck .focus-card .update-store small,.window-stage .focus-deck .focus-card .update-channels span{font-size:12px;line-height:1.6}
+ .window-stage .focus-deck .focus-card .update-values,.window-stage .focus-deck .focus-card .update-store strong{font-size:14px;line-height:1.6}
+ .window-stage .chapter-nav button{font-size:12px;padding:9px 8px}.window-stage .scene-bottom{left:14px;right:14px}
+ .window-stage .floating-window .window-chrome{font-size:10px}.window-stage .floating-window .window-content{padding:12px}.window-stage .fw-query p{font-size:16px}
+ .window-stage .store-label>span,.window-stage .store-label>small{font-size:11px}.window-stage .store-label>b{font-size:15px}
+ .window-stage .focus-deck>.focus-card{max-height:calc(100svh - 385px)}
+ .window-stage .focus-deck .focus-card .window-number{font-size:62px;margin:17px 0 20px}
+}
+@media(max-width:760px) and (max-height:740px){
+ .kinetic .scene{inset:0 0 67px;padding-top:20px;padding-bottom:20px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+ .kinetic .scene-intro{overflow:hidden;padding-bottom:95px}.kinetic .intro-copy h1{font-size:30px}.kinetic .intro-copy .eyebrow{margin-bottom:11px}.kinetic .intro-copy .lead{font-size:14px;line-height:1.6;margin:15px 0 16px}
+ .kinetic .kinetic-art{height:28%;bottom:17%;width:58%;left:31%}.kinetic .tag-update{display:none}.kinetic .art-caption{bottom:-9%}
+ .kinetic .kinetic-process-rail{bottom:0}.kinetic .process-rail-item strong{font-size:11px}.kinetic .process-rail-item small{font-size:11px}
+ .kinetic .art-sticker{width:65px;height:65px;font-size:10px}
+ .kinetic .scene-find{display:block}.kinetic .find-demo{margin-top:21px}.kinetic .find-shapes{display:none}
+ .kinetic .scene h2,.kinetic .fix-top h2,.kinetic .measure-top h2{font-size:42px}.kinetic .scene-heading h2{font-size:10.5vw}
+ .kinetic .fix-backdrop,.kinetic .measure-backdrop{display:none}.kinetic .scene-footnote{padding-bottom:5px}
+ .window-stage .focus-deck>.focus-card{max-height:calc(100svh - 330px)}
+ .window-stage .narrative h2,.window-stage .narrative[data-narrative="3"] h2{font-size:23px}
+ .window-stage .narrative>p:last-of-type{font-size:14px}.window-stage .narrative .cta{padding:10px 13px;margin-top:10px;font-size:11px}
+ .window-stage .focus-deck .focus-card .window-content{padding:17px}
+}

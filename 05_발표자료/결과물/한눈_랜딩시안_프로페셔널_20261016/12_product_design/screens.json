@@ -1,0 +1,247 @@
+[
+  {
+    "id": "S02",
+    "title": "회원가입",
+    "group": "가입 · 계정",
+    "description": "소셜 가입 · 이메일 · 약관",
+    "file": "S02.html"
+  },
+  {
+    "id": "S02-ready",
+    "title": "가입 입력 완료",
+    "group": "상태 · 보완",
+    "description": "필수 입력 · 약관 동의 후 활성 상태",
+    "file": "S02-ready.html"
+  },
+  {
+    "id": "S03",
+    "title": "이메일 인증",
+    "group": "가입 · 계정",
+    "description": "메일 발송 안내 · 재발송 · 주소 변경",
+    "file": "S03.html"
+  },
+  {
+    "id": "S04",
+    "title": "카카오 이메일 입력",
+    "group": "가입 · 계정",
+    "description": "이메일 미제공 계정의 가입 보완",
+    "file": "S04.html"
+  },
+  {
+    "id": "S05",
+    "title": "로그인",
+    "group": "가입 · 계정",
+    "description": "소셜 · 이메일 로그인",
+    "file": "S05.html"
+  },
+  {
+    "id": "S06",
+    "title": "비밀번호 재설정",
+    "group": "가입 · 계정",
+    "description": "재설정 메일 요청",
+    "file": "S06.html"
+  },
+  {
+    "id": "S06-sent",
+    "title": "재설정 메일 안내",
+    "group": "상태 · 보완",
+    "description": "계정 존재 여부를 드러내지 않는 안내",
+    "file": "S06-sent.html"
+  },
+  {
+    "id": "S06-new",
+    "title": "새 비밀번호",
+    "group": "상태 · 보완",
+    "description": "새 비밀번호 입력 · 확인",
+    "file": "S06-new.html"
+  },
+  {
+    "id": "S07",
+    "title": "내 가게",
+    "group": "가게 · 진단",
+    "description": "진단 현황 · 다음 할 일 · 지난 기록",
+    "file": "S07.html"
+  },
+  {
+    "id": "S07-empty",
+    "title": "가게 등록 전",
+    "group": "상태 · 보완",
+    "description": "첫 방문자의 시작 화면",
+    "file": "S07-empty.html"
+  },
+  {
+    "id": "S08",
+    "title": "가게 등록",
+    "group": "가게 · 진단",
+    "description": "이름 · 지도 링크 · 링크 복사 안내",
+    "file": "S08.html"
+  },
+  {
+    "id": "S08-change",
+    "title": "가게 변경",
+    "group": "상태 · 보완",
+    "description": "지난 기록 · 무료 사용 안내",
+    "file": "S08-change.html"
+  },
+  {
+    "id": "S09",
+    "title": "가게 후보 선택",
+    "group": "가게 · 진단",
+    "description": "동일 이름의 가게 중 선택",
+    "file": "S09.html"
+  },
+  {
+    "id": "S10",
+    "title": "진단 진행",
+    "group": "가게 · 진단",
+    "description": "정보 수집 · 측정 단계 · 수집 정보",
+    "file": "S10.html"
+  },
+  {
+    "id": "S10-error",
+    "title": "측정 실패",
+    "group": "상태 · 보완",
+    "description": "횟수 보존 · 재시도",
+    "file": "S10-error.html"
+  },
+  {
+    "id": "S11",
+    "title": "무료 진단 결과",
+    "group": "가게 · 진단",
+    "description": "모델별 지표 · 주변 5곳 · 질문 · 출처",
+    "file": "S11.html"
+  },
+  {
+    "id": "S11-zero",
+    "title": "추천 등장률 0%",
+    "group": "상태 · 보완",
+    "description": "정상 완료 · 추천 없음",
+    "file": "S11-zero.html"
+  },
+  {
+    "id": "S12",
+    "title": "자동 정비 신청",
+    "group": "연결 · 정비",
+    "description": "서비스 범위 · 역할 · 신청",
+    "file": "S12.html"
+  },
+  {
+    "id": "S12-status",
+    "title": "신청 진행",
+    "group": "상태 · 보완",
+    "description": "접수부터 보고서까지 단계",
+    "file": "S12-status.html"
+  },
+  {
+    "id": "S13",
+    "title": "정비안 확인",
+    "group": "연결 · 정비",
+    "description": "변경 전후 · 확인 필요 · 승인",
+    "file": "S13.html"
+  },
+  {
+    "id": "S13-ready",
+    "title": "정비 승인 준비 완료",
+    "group": "상태 · 보완",
+    "description": "필수 정보 확인과 동의 완료",
+    "file": "S13-ready.html"
+  },
+  {
+    "id": "S13-kakao",
+    "title": "카카오 정비안",
+    "group": "상태 · 보완",
+    "description": "지도별 탭과 확인 항목",
+    "file": "S13-kakao.html"
+  },
+  {
+    "id": "S13-confirm",
+    "title": "정비 승인 확인",
+    "group": "상태 · 보완",
+    "description": "정보 반영 전 최종 확인",
+    "file": "S13-confirm.html"
+  },
+  {
+    "id": "S13-running",
+    "title": "정비 진행",
+    "group": "상태 · 보완",
+    "description": "반영 결과 · 수동 처리 · 재측정 일정",
+    "file": "S13-running.html"
+  },
+  {
+    "id": "S14",
+    "title": "계정 설정",
+    "group": "가입 · 계정",
+    "description": "계정 정보 · 비밀번호 · 탈퇴",
+    "file": "S14.html"
+  },
+  {
+    "id": "S14-withdraw",
+    "title": "탈퇴 확인",
+    "group": "상태 · 보완",
+    "description": "삭제 범위 · 확인 입력",
+    "file": "S14-withdraw.html"
+  },
+  {
+    "id": "S15",
+    "title": "Google·카카오 연결",
+    "group": "연결 · 정비",
+    "description": "채널별 상태 · 초대 안내",
+    "file": "S15.html"
+  },
+  {
+    "id": "S15-google",
+    "title": "Google 초대 안내",
+    "group": "상태 · 보완",
+    "description": "관리자 권한 · 단계별 안내",
+    "file": "S15-google.html"
+  },
+  {
+    "id": "S15-kakao",
+    "title": "카카오 초대 안내",
+    "group": "상태 · 보완",
+    "description": "운영자 권한 · 단계별 안내",
+    "file": "S15-kakao.html"
+  },
+  {
+    "id": "S16",
+    "title": "전후 비교 보고서",
+    "group": "연결 · 정비",
+    "description": "모델별 전후 · 주변 가게 · 변경 기록",
+    "file": "S16.html"
+  },
+  {
+    "id": "S16-nochange",
+    "title": "변화 없는 보고서",
+    "group": "상태 · 보완",
+    "description": "변화 없음도 정상 결과",
+    "file": "S16-nochange.html"
+  },
+  {
+    "id": "A01",
+    "title": "정비 신청 관리",
+    "group": "관리자",
+    "description": "승인 · 연결 · 수동 처리 · 재측정",
+    "file": "A01.html"
+  },
+  {
+    "id": "A01-detail",
+    "title": "정비 신청 상세",
+    "group": "관리자",
+    "description": "연결 확인 · 수동 처리 · 작업 이력",
+    "file": "A01-detail.html"
+  },
+  {
+    "id": "A01-reject",
+    "title": "신청 거절 사유",
+    "group": "상태 · 보완",
+    "description": "관리자 결정 전 사유 입력",
+    "file": "A01-reject.html"
+  },
+  {
+    "id": "DS",
+    "title": "디자인 시스템",
+    "group": "디자인 시스템",
+    "description": "색상 · 서체 · 컴포넌트 · 상태",
+    "file": "DS.html"
+  }
+]
