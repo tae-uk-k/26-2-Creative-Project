@@ -1,0 +1,4 @@
+﻿model,brier,log_loss,pr_auc_average_precision,roc_auc,stores,train_rows,test_rows,interpretation
+history_shrinkage,0.10138611111111114,0.34824704995826067,0.9111897721832671,0.9579583577400288,30,300,300,"same-day measurement batches, not new-date causal validation"
+mixed_known_store,0.07241960063691454,0.22197859462511,0.9225143273797742,0.9668778955215933,30,300,300,"same-day measurement batches, not new-date causal validation"
+mixed_features_only,0.2011972079867441,0.5882565517893171,0.362564729609876,0.634991213589648,30,300,300,"same-day measurement batches, not new-date causal validation"

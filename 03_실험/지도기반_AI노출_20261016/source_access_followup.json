@@ -1,0 +1,18 @@
+{
+  "date_kst":"2026-10-16",
+  "http_checks":[
+    {"map":"naver","url":"https://m.place.naver.com/restaurant/1241532707/information","status":429,"action":"Stopped direct HTTP retries; no header, identity or proxy rotation."},
+    {"map":"kakao","url":"https://place.map.kakao.com/2125770186","status":200,"bytes_read":3550,"title":"오레노카츠 성수본점 | 카카오맵","scope":"Initial HTML shell, not rendered menu content."},
+    {"map":"google","url":"https://www.google.com/maps/search/?api=1&query=스케줄성수","status":200,"bytes_read":224349,"title":"Google 지도","scope":"HTML response received. Detailed body access not validated by this check."}
+  ],
+  "agy_interactive_check":{
+    "version_observed":"1.4.0",
+    "mode":"plan",
+    "url":"https://place.map.kakao.com/2125770186",
+    "permission":"Approved this one public URL read only, without persisting host permission or skipping general permission checks.",
+    "observed_answer":"Confirmed store name from title and og:title; explicitly reported no menu in initial SPA HTML.",
+    "natural_search_recommendation_trial":false,
+    "purpose":"Distinguish noninteractive permission denial from lack of rendered content."
+  },
+  "decision":"Continue a separate provided-information controlled arm using browser-captured Kakao facts. Do not count it as natural map retrieval."
+}

@@ -1,0 +1,16 @@
+﻿area,menu_family_external,independent_stores,mean_general_rate,mean_all_question_rate,warning
+mangwon,market_snacks,4,0.275,0.25625,descriptive; small purposive groups; some n=1; not feature causal effects
+mangwon,noodles_dumplings,3,0.5,0.39166666666666666,descriptive; small purposive groups; some n=1; not feature causal effects
+mangwon,other_meals,1,0.0,0.025,descriptive; small purposive groups; some n=1; not feature causal effects
+mangwon,soups_stews,2,0.225,0.18125000000000002,descriptive; small purposive groups; some n=1; not feature causal effects
+myeongdong,barbecue,2,0.15,0.1625,descriptive; small purposive groups; some n=1; not feature causal effects
+myeongdong,noodles_dumplings,2,0.75,0.66875,descriptive; small purposive groups; some n=1; not feature causal effects
+myeongdong,set_meals,1,0.0,0.125,descriptive; small purposive groups; some n=1; not feature causal effects
+myeongdong,soups_stews,4,0.3625,0.35000000000000003,descriptive; small purposive groups; some n=1; not feature causal effects
+myeongdong,western_dining,1,0.0,0.0,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,barbecue,1,0.0,0.0,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,jokbal,1,0.25,0.1375,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,other_meals,1,0.0,0.0,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,set_meals,2,0.0,0.10625000000000001,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,soups_stews,2,0.5,0.35,descriptive; small purposive groups; some n=1; not feature causal effects
+seongsu,western_dining,3,0.2833333333333333,0.07083333333333333,descriptive; small purposive groups; some n=1; not feature causal effects

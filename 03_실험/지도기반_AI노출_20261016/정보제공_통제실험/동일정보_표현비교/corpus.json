@@ -1,0 +1,278 @@
+[
+  {
+    "restaurant_id": "MD01",
+    "area_id": "MD",
+    "query": "명동 식당",
+    "rank": 1,
+    "name": "반포식스 서울시청점",
+    "url": "https://place.map.kakao.com/1402508894",
+    "address": "서울 중구 무교로 13 3층 301호",
+    "category": "베트남음식",
+    "observed_at_utc": "2026-10-16T07:27:52.297Z",
+    "menus": [
+      {
+        "name": "쉬림프 팟타이",
+        "price_display": "14,000원"
+      },
+      {
+        "name": "후라이드비프누들",
+        "price_display": "15,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MD02",
+    "area_id": "MD",
+    "query": "명동 식당",
+    "rank": 2,
+    "name": "장인닭갈비 명동점",
+    "url": "https://place.map.kakao.com/1903143175",
+    "address": "서울 중구 명동9길 15 1층",
+    "category": "닭요리",
+    "observed_at_utc": "2026-10-16T07:27:53.420Z",
+    "menus": [
+      {
+        "name": "치즈닭갈비",
+        "price_display": "15,000원"
+      },
+      {
+        "name": "장인볶음밥(김치+날치알)",
+        "price_display": "3,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MD03",
+    "area_id": "MD",
+    "query": "명동 식당",
+    "rank": 3,
+    "name": "명동피자 명동본점",
+    "url": "https://place.map.kakao.com/19409195",
+    "address": "서울 중구 명동10길 41 챔피언빌딩 4층",
+    "category": "피자",
+    "observed_at_utc": "2026-10-16T07:27:55.636Z",
+    "menus": [
+      {
+        "name": "파이브치즈 피자",
+        "price_display": "23,000원"
+      },
+      {
+        "name": "명동 파스타",
+        "price_display": "19,500원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MD04",
+    "area_id": "MD",
+    "query": "명동 식당",
+    "rank": 4,
+    "name": "육통령 명동본점",
+    "url": "https://place.map.kakao.com/21748255",
+    "address": "서울 중구 명동8나길 37-2 1층",
+    "category": "육류,고기",
+    "observed_at_utc": "2026-10-16T07:27:56.724Z",
+    "menus": [
+      {
+        "name": "소 양념왕갈비 (280g)",
+        "price_display": "48,000원"
+      },
+      {
+        "name": "한우육회 150g",
+        "price_display": "38,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "SS01",
+    "area_id": "SS",
+    "query": "성수 식당",
+    "rank": 1,
+    "name": "오레노카츠 성수본점",
+    "url": "https://place.map.kakao.com/2125770186",
+    "address": "서울 성동구 성수일로 47 1층 102호",
+    "category": "돈까스,우동",
+    "observed_at_utc": "2026-10-16T07:28:07.468Z",
+    "menus": [
+      {
+        "name": "체다크림치즈돈카츠",
+        "price_display": "14,000원"
+      },
+      {
+        "name": "매콤돈카츠",
+        "price_display": "14,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "SS02",
+    "area_id": "SS",
+    "query": "성수 식당",
+    "rank": 2,
+    "name": "빠오즈푸 서울숲점",
+    "url": "https://place.map.kakao.com/1483073499",
+    "address": "서울 성동구 왕십리로6길 13 1층",
+    "category": "중식",
+    "observed_at_utc": "2026-10-16T07:28:08.531Z",
+    "menus": [
+      {
+        "name": "고기빠오즈",
+        "price_display": "9,000원"
+      },
+      {
+        "name": "훈둔면",
+        "price_display": "9,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "SS03",
+    "area_id": "SS",
+    "query": "성수 식당",
+    "rank": 3,
+    "name": "차만다 성수",
+    "url": "https://place.map.kakao.com/1057053940",
+    "address": "서울 성동구 서울숲2길 28-12 1층",
+    "category": "양식",
+    "observed_at_utc": "2026-10-16T07:28:09.561Z",
+    "menus": [
+      {
+        "name": "비프 웰링턴",
+        "price_display": "48,000원"
+      },
+      {
+        "name": "셰퍼드파이",
+        "price_display": "24,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "SS04",
+    "area_id": "SS",
+    "query": "성수 식당",
+    "rank": 4,
+    "name": "눈꽃돼지",
+    "url": "https://place.map.kakao.com/1795368894",
+    "address": "서울 성동구 왕십리로8길 17-4 1층",
+    "category": "육류,고기",
+    "observed_at_utc": "2026-10-16T07:28:10.502Z",
+    "menus": [
+      {
+        "name": "눈꽃 통삼겹 (180g)",
+        "price_display": "19,000원"
+      },
+      {
+        "name": "눈꽃 특목살 (180g)",
+        "price_display": "19,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MW01",
+    "area_id": "MW",
+    "query": "망원 식당",
+    "rank": 1,
+    "name": "정각 서울망원본점",
+    "url": "https://place.map.kakao.com/889810020",
+    "address": "서울 마포구 망원로6길 57 2층",
+    "category": "삼겹살",
+    "observed_at_utc": "2026-10-16T07:28:20.745Z",
+    "menus": [
+      {
+        "name": "직화소갈비된장찌개",
+        "price_display": "8,000원"
+      },
+      {
+        "name": "눈꽃육회",
+        "price_display": "19,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MW02",
+    "area_id": "MW",
+    "query": "망원 식당",
+    "rank": 2,
+    "name": "산이네회무침",
+    "url": "https://place.map.kakao.com/13498159",
+    "address": "서울 마포구 동교로9길 97 1층",
+    "category": "회",
+    "observed_at_utc": "2026-10-16T07:28:21.848Z",
+    "menus": [
+      {
+        "name": "광어회무침",
+        "price_display": "50,000원"
+      },
+      {
+        "name": "우럭회",
+        "price_display": "53,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MW03",
+    "area_id": "MW",
+    "query": "망원 식당",
+    "rank": 3,
+    "name": "퍼줄래대박집",
+    "url": "https://place.map.kakao.com/1531690926",
+    "address": "서울 마포구 월드컵로11길 8 1층",
+    "category": "육류,고기",
+    "observed_at_utc": "2026-10-16T07:28:22.905Z",
+    "menus": [
+      {
+        "name": "대패삼겹살(1인분)",
+        "price_display": "4,500원"
+      },
+      {
+        "name": "생삼겹살(1인분)",
+        "price_display": "13,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  },
+  {
+    "restaurant_id": "MW04",
+    "area_id": "MW",
+    "query": "망원 식당",
+    "rank": 4,
+    "name": "망원돈까스 본점",
+    "url": "https://place.map.kakao.com/740043035",
+    "address": "서울 마포구 망원로8길 74 1층",
+    "category": "돈까스,우동",
+    "observed_at_utc": "2026-10-16T07:28:23.912Z",
+    "menus": [
+      {
+        "name": "성북동돈까스",
+        "price_display": "13,500원"
+      },
+      {
+        "name": "돈까스 비빔모밀정식",
+        "price_display": "13,000원"
+      }
+    ],
+    "author_type": "unknown",
+    "identity_check": "name_and_address_browser_matched"
+  }
+]

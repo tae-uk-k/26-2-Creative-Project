@@ -1,0 +1,157 @@
+{
+  "created_at_utc": "2026-10-13T19:18:53.742160+00:00",
+  "primary_stores": 30,
+  "primary_rows": 600,
+  "primary_responses": 60,
+  "all_query_rows": 2400,
+  "positive_primary_rows": 168,
+  "restaurant_predictors": [
+    "own_website",
+    "menu_family_external"
+  ],
+  "context_predictors": [
+    "prompt_id",
+    "backend"
+  ],
+  "random_intercepts": [
+    "restaurant",
+    "response"
+  ],
+  "feature_dates": "legacy website/menu snapshot and observation-era manual checks; not causal pre-treatment data",
+  "input_sha256": {
+    "exposure_trials.csv": "803cd4a494cc50c137351611eb3ac039403193494fbc414fb005664020dff155",
+    "restaurant_features.csv": "3687695ea1b4903948632bee5225e476cde973b74659873fc5b5c50ad866671d",
+    "restaurant_registry.csv": "4ea3ff96cb1dea4d7bf5762106e65c09c207132d1f22cba6161043127122dad6",
+    "category_codebook.csv": "10d3ce81ef461063d05fd3f6b5c9f9c637c5671371eef9c631dc7c3e18be8faf",
+    "frame_freeze.json": "f689dbc06635db7f30b8500d41769662c38e7471c9576b547fac6a343a5f9a5b"
+  },
+  "alternate_start_max_fe_difference": 4.204346156139183e-06,
+  "comparison": [
+    {
+      "model": "context_mean",
+      "brier": 0.2396234266082976,
+      "log_loss": 0.6918882684863303,
+      "pr_auc_average_precision": 0.19745088954160234,
+      "roc_auc": 0.26018242945326275,
+      "brier_bootstrap95_low": 0.17104879743467608,
+      "brier_bootstrap95_high": 0.3128894651485209,
+      "brier_minus_context": 0.0,
+      "paired_difference95_low": 0.0,
+      "paired_difference95_high": 0.0,
+      "independent_stores": 30,
+      "evaluation_rows": 600,
+      "split": "GroupKFold5 held-out restaurants",
+      "interval": "fixed OOF predictions, restaurant cluster bootstrap; exploratory"
+    },
+    {
+      "model": "logistic_l2",
+      "brier": 0.24977079088689316,
+      "log_loss": 0.7140597514838142,
+      "pr_auc_average_precision": 0.2237885005880023,
+      "roc_auc": 0.35869984567901236,
+      "brier_bootstrap95_low": 0.17743892449485105,
+      "brier_bootstrap95_high": 0.3256808610082799,
+      "brier_minus_context": 0.010147364278595507,
+      "paired_difference95_low": -0.019231783828984685,
+      "paired_difference95_high": 0.04098453890385841,
+      "independent_stores": 30,
+      "evaluation_rows": 600,
+      "split": "GroupKFold5 held-out restaurants",
+      "interval": "fixed OOF predictions, restaurant cluster bootstrap; exploratory"
+    },
+    {
+      "model": "mixed_logistic",
+      "brier": 0.22437736693330293,
+      "log_loss": 0.645971204019953,
+      "pr_auc_average_precision": 0.20582830751720874,
+      "roc_auc": 0.26872519841269843,
+      "brier_bootstrap95_low": 0.16958905636523577,
+      "brier_bootstrap95_high": 0.28185730898566475,
+      "brier_minus_context": -0.015246059674994754,
+      "paired_difference95_low": -0.03787626953566924,
+      "paired_difference95_high": 0.005194406148231808,
+      "independent_stores": 30,
+      "evaluation_rows": 600,
+      "split": "GroupKFold5 held-out restaurants",
+      "interval": "fixed OOF predictions, restaurant cluster bootstrap; exploratory"
+    },
+    {
+      "model": "ebm_main_effects",
+      "brier": 0.3245146896749882,
+      "log_loss": 1.4062786506920273,
+      "pr_auc_average_precision": 0.2337825224878807,
+      "roc_auc": 0.3923197751322752,
+      "brier_bootstrap95_low": 0.22477660818370127,
+      "brier_bootstrap95_high": 0.4266539550756744,
+      "brier_minus_context": 0.08489126306669055,
+      "paired_difference95_low": 0.015080112699252444,
+      "paired_difference95_high": 0.1584222649084718,
+      "independent_stores": 30,
+      "evaluation_rows": 600,
+      "split": "GroupKFold5 held-out restaurants",
+      "interval": "fixed OOF predictions, restaurant cluster bootstrap; exploratory"
+    },
+    {
+      "model": "xgboost_shallow",
+      "brier": 0.25929036864189414,
+      "log_loss": 0.7465716225026061,
+      "pr_auc_average_precision": 0.2209312521663007,
+      "roc_auc": 0.3361717372134039,
+      "brier_bootstrap95_low": 0.18200935128354942,
+      "brier_bootstrap95_high": 0.3414139448387324,
+      "brier_minus_context": 0.01966694203359643,
+      "paired_difference95_low": -0.014883956317532032,
+      "paired_difference95_high": 0.057174877154961355,
+      "independent_stores": 30,
+      "evaluation_rows": 600,
+      "split": "GroupKFold5 held-out restaurants",
+      "interval": "fixed OOF predictions, restaurant cluster bootstrap; exploratory"
+    }
+  ],
+  "phase_scores": [
+    {
+      "model": "history_shrinkage",
+      "brier": 0.10138611111111114,
+      "log_loss": 0.34824704995826067,
+      "pr_auc_average_precision": 0.9111897721832671,
+      "roc_auc": 0.9579583577400288,
+      "stores": 30,
+      "train_rows": 300,
+      "test_rows": 300,
+      "interpretation": "same-day measurement batches, not new-date causal validation"
+    },
+    {
+      "model": "mixed_known_store",
+      "brier": 0.07241960063691454,
+      "log_loss": 0.22197859462511,
+      "pr_auc_average_precision": 0.9225143273797742,
+      "roc_auc": 0.9668778955215933,
+      "stores": 30,
+      "train_rows": 300,
+      "test_rows": 300,
+      "interpretation": "same-day measurement batches, not new-date causal validation"
+    },
+    {
+      "model": "mixed_features_only",
+      "brier": 0.2011972079867441,
+      "log_loss": 0.5882565517893171,
+      "pr_auc_average_precision": 0.362564729609876,
+      "roc_auc": 0.634991213589648,
+      "stores": 30,
+      "train_rows": 300,
+      "test_rows": 300,
+      "interpretation": "same-day measurement batches, not new-date causal validation"
+    }
+  ],
+  "model_training_performed": true,
+  "scope": "exploratory original30 pilot only; not all162",
+  "causal_claim": false,
+  "potential_limitations": [
+    "small purposively selected sample",
+    "legacy identity references",
+    "unmeasured popularity/reviews/price",
+    "conditional dependence from recommendation list competition",
+    "mean-field VB intervals can understate uncertainty",
+    "random effects assumed independent of covariates"
+  ]
+}

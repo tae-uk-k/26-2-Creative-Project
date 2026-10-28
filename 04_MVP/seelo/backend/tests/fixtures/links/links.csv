@@ -1,0 +1,19 @@
+store_no,provider,kind,url,expected_external_id,expected_name
+0,kakao,long,https://place.map.kakao.com/10332413,10332413,
+0,kakao,long,https://place.map.kakao.com/m/10332413,10332413,
+0,kakao,long,https://map.kakao.com/?itemId=10332413,10332413,
+0,kakao,long,https://map.kakao.com/link/map/10332413,10332413,
+0,kakao,long,https://m.map.kakao.com/actions/detailMapView?id=10332413,10332413,
+0,kakao,short,https://kko.to/AbCd123,,
+0,naver,long,https://map.naver.com/p/entry/place/11679241?c=15.00,11679241,
+0,naver,long,https://map.naver.com/p/search/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90/place/11679241,11679241,
+0,naver,long,https://m.place.naver.com/restaurant/11679241/home,11679241,
+0,naver,long,https://pcmap.place.naver.com/restaurant/11679241/home,11679241,
+0,naver,long,https://place.naver.com/restaurant/11679241,11679241,
+0,naver,short,https://naver.me/5abcDEF,,
+0,google,long,"https://www.google.com/maps/place/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90/@37.5626,126.9856,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!8m2!3d37.5627!4d126.9858",,명동교자
+0,google,long,"https://www.google.co.kr/maps/place/Myeongdong+Kyoja/@37.5626,126.9856,17z",,Myeongdong Kyoja
+0,google,long,https://maps.google.com/maps/search/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90,,명동교자
+0,google,long,https://www.google.com/maps?q=%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90,,명동교자
+0,google,short,https://maps.app.goo.gl/AbCd123,,
+0,google,short,https://goo.gl/maps/AbCd123,,

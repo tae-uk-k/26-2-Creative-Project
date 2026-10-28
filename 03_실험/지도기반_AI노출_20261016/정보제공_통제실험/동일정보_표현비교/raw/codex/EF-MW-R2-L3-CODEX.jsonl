@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a7-ea1a-7f62-8645-4421ea89b40a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"나\",\"reason\":\"돈까스와 돈까스 비빔모밀정식이 명시되어 있어 한 끼 식사 메뉴를 고르기 좋다.\",\"evidence\":\"메뉴: 돈까스 비빔모밀정식 / 표시 가격: 13,000원\"},{\"rank\":2,\"code\":\"라\",\"reason\":\"돈까스와 다른 종류의 식사로 직화소갈비된장찌개를 선택할 수 있다. 표시 가격은 해당 메뉴 항목의 가격이다.\",\"evidence\":\"메뉴: 직화소갈비된장찌개 / 표시 가격: 8,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13393,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":148,"reasoning_output_tokens":0}}

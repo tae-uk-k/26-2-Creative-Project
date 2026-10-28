@@ -1,0 +1,39 @@
+﻿area_id,name_as_returned,responses_with_exact_name,completed_responses_in_area,descriptive_share,branches_as_returned,map_criteria,entity_verified,interpretation
+MD,명동교자,4,4,1.0,본점,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,하동관,4,4,1.0,명동본점,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,명동돈가스,3,4,0.75,,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,명동함흥면옥,2,4,0.5, | 본점,kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,미성옥,2,4,0.5,,google | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,왕비집,2,4,0.5,명동 본점 | 명동중앙점,google | kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,더식당,1,4,0.25,명동본점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,리정원,1,4,0.25,명동점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MD,혼고집,1,4,0.25,명동직영점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,헤키,3,5,0.6,,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,우이락,2,5,0.4,망원본점,google | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,일등식당,2,5,0.4,,google | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,청어람,2,5,0.4,망원본점 | 본점,google | kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,홍두깨손칼국수,2,5,0.4,,google | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,가원,1,5,0.2,망원본점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,만두란,1,5,0.2,,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,망원동 칼짬뽕,1,5,0.2,,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,망원동즉석우동 전문돈까스,1,5,0.2,본점,kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,소금집 델리,1,5,0.2,망원점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,소금집델리,1,5,0.2,망원점,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,소바식당,1,5,0.2,망원점,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,순대일번지,1,5,0.2,,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,오복식당,1,5,0.2,,kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,이치젠,1,5,0.2,망원 소재 매장,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,파동,1,5,0.2,,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,헤이로라,1,5,0.2,,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+MW,홍두깨 칼국수,1,5,0.2,,kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,성수다락,4,4,1.0,,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,대성갈비,3,4,0.75,,google | kakao | naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,소문난성수감자탕,3,4,0.75, | 연무장길 45 매장,google | kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,성수족발,2,4,0.5,,google | kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,소바식당,2,4,0.5,성수점,google | kakao,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,꿉당,1,4,0.25,성수점,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,난포,1,4,0.25,성수점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,성수우동,1,4,0.25,,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,소바마에,1,4,0.25,1호점,google,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,일상담미,1,4,0.25,성수점,naver,False,other_source_pilot_unequal_model_mix_not_writing_effect
+SS,탐광,1,4,0.25,,google,False,other_source_pilot_unequal_model_mix_not_writing_effect

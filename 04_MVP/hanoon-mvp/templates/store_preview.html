@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="English visitor information for {{ store.name }}">
+    <meta name="robots" content="noindex, nofollow">
+    <title>{{ store.name }} | Visitor Guide</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body class="store-page">
+    <header class="store-header">
+        <a class="brand" href="{{ url_for('index') }}" aria-label="Hanoon home">
+            <span class="brand-mark" aria-hidden="true"><span></span></span>
+            <span>Hanoon</span>
+        </a>
+        <span class="verified-label">Structured visitor information</span>
+    </header>
+
+    <main class="store-shell">
+        <div class="store-demo-notice">Demo page · Fictional store information</div>
+        <section class="store-hero">
+            <span class="eyebrow">{{ store.eyebrow }}</span>
+            <h1>{{ store.name }}</h1>
+            <p id="approved-description">{{ store.description }}</p>
+            <div class="store-quick-actions">
+                <a class="button button-primary" href="#visit">Plan your visit</a>
+                <a class="button button-secondary" href="#menu">View menu</a>
+            </div>
+        </section>
+
+        <section id="visit" class="store-info-grid" aria-label="Visitor information">
+            <article><span>Address</span><strong>{{ store.address }}</strong></article>
+            <article><span>Opening hours</span><strong>{{ store.hours }}</strong></article>
+            <article><span>Payment</span><strong>{{ store.payment }}</strong></article>
+            <article><span>Languages</span><strong>{{ store.languages }}</strong></article>
+            <article class="wide"><span>Dietary & allergy information</span><strong>{{ store.dietary }}</strong></article>
+        </section>
+
+        <section id="menu" class="store-menu">
+            <div class="store-section-heading"><span>Menu</span><h2>Popular dishes</h2></div>
+            <div class="menu-list">
+                {% for item in store.menu %}
+                <article>
+                    <div><h3>{{ item.name }}</h3><p>{{ item.description }}</p></div>
+                    <strong>{{ item.price }}</strong>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        <aside class="store-notice">
+            <strong>Before you visit</strong>
+            <p>Please confirm current opening hours with the store. AI recommendations and third-party listings may change over time.</p>
+        </aside>
+    </main>
+
+    <footer class="store-footer">
+        <p>{{ store.notice }}</p>
+        <a href="{{ url_for('demo') }}">Back to Hanoon demo</a>
+    </footer>
+    <script src="{{ url_for('static', filename='js/store-preview.js') }}" defer></script>
+</body>
+</html>

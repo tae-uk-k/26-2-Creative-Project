@@ -1,0 +1,3 @@
+지도 정보를 우선 검색하고, 확인 가능한 공개 출처로 운영 정보를 확인하겠습니다.
+
+{"access_note":"검색 질의 3개, 공개 페이지 열람 6회 사용. 네이버 플레이스 상세 본문은 확인했으나 카카오맵은 접근 제한, 구글 지도는 리디렉션 후 접근 불가. 현재 운영 정보를 지도 상세에서 직접 확인한 1곳만 추천.","restaurants":[{"rank":1,"name":"소문난성수감자탕","branch":null,"address":"서울 성동구 연무장길 45","cuisine":"한식·감자탕","reason":"성수역 4번 출구에서 240m로 접근하기 좋고, 감자탕으로 한 끼 식사하기 좋은 곳.","condition_status":"not_applicable","condition_evidence":"추가 조건 없는 일반 추천. 네이버 플레이스 본문에서 감자탕 전문점, 주소, 24시간·연중무휴 운영 안내를 확인. 당일 임시휴무 여부는 확인되지 않음.","evidence_level":"body","sources":[{"url":"https://m.place.naver.com/restaurant/11721256/home","source_type":"map"}]}]}

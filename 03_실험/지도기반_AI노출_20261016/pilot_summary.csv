@@ -1,0 +1,7 @@
+﻿map_id,backend,attempted_cells,completed,technical_unavailable,recommendations,map_body_access_verified
+naver,codex,3,3,0,14,0
+naver,agy,3,1,2,5,0
+kakao,codex,3,3,0,15,0
+kakao,agy,3,0,3,0,0
+google,codex,3,3,0,15,0
+google,agy,3,3,0,15,0

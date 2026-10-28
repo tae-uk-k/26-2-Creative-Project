@@ -1,0 +1,15 @@
+restaurant_id,name_ko,feature,value,source_url,checked_date,note
+MD-R01,명동교자,independent_guide_individual_page,yes,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,2026-10-13,가이드 개별 식당 페이지에서 주소와 대표 메뉴 확인
+MD-R01,명동교자,established_year,1966,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,2026-10-13,개업 연도 확인
+MD-R02,하동관,independent_guide_individual_page,yes,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,2026-10-13,곰탕과 명동9길 12 확인
+MD-R02,하동관,established_year,1939,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,2026-10-13,개업 연도 확인
+MD-R05,명동함흥면옥,official_tourism_individual_page,yes,https://english.visitseoul.net/restaurants/Myeongdong-Hamheung-Myeonok/ENP005228,2026-10-13,대표 메뉴와 주소 및 영업시간 확인
+MD-R05,명동함흥면옥,menu_price_text,14000,https://english.visitseoul.net/restaurants/Myeongdong-Hamheung-Myeonok/ENP005228,2026-10-13,관광 페이지의 냉면 가격이며 현장 가격은 검증하지 않음
+SS-R01,소문난성수감자탕,official_tourism_individual_page,yes,https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk,2026-10-13,혼밥 좌석과 주소 및 영업시간 확인
+SS-R01,소문난성수감자탕,solo_seating_disclosed,yes,https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk,2026-10-13,관광재단 페이지에 혼밥 좌석 설명
+SS-R02,성수족발,official_tourism_individual_page,yes,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=51924,2026-10-13,대표 메뉴 족발과 주소 아차산로7길 7 확인
+MD-R08,하수오곰탕 명동점,own_website_accessible,yes,https://www.myeongdong-restaurant.com/ko,2026-10-13,업체 자체 페이지에서 명동8나길 47과 영업시간 확인
+MD-R08,하수오곰탕 명동점,menu_price_text,13000,https://www.myeongdong-restaurant.com/ko/menu,2026-10-13,자체 메뉴 페이지의 곰탕 가격이며 현장 가격은 검증하지 않음
+MD-R09,고시레 명동본점,own_website_accessible,yes,https://www.myeongdongkoreanbbq.kr/ko,2026-10-13,업체 자체 페이지에서 메뉴 가격과 명동9길 21 확인
+MD-R09,고시레 명동본점,menu_price_text,yes,https://www.myeongdongkoreanbbq.kr/ko,2026-10-13,다수 메뉴의 원화 가격이 텍스트로 공개됨
+MW-R01,우이락 망원본점,official_tourism_feature_article,yes,https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836,2026-10-13,관광공사 기사에서 고추튀김 등 대표 메뉴와 포은로8길 22 확인

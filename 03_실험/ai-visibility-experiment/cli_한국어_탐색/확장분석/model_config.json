@@ -1,0 +1,56 @@
+{
+  "unit": "one_restaurant_per_backend_in_prospective_phase",
+  "target": "general_appearance_rate",
+  "alternative_target": "appearance_rate",
+  "numeric_predictors": [
+    "own_website_external",
+    "menu_price_public_external",
+    "signature_price_krw_external",
+    "solo_seating_external",
+    "tourism_individual_page_external",
+    "guide_individual_page_external",
+    "established_year_external",
+    "log1p_google_review_count",
+    "google_star_rating",
+    "log1p_naver_review_count",
+    "log1p_photo_count",
+    "recent_review_age_days",
+    "channel_address_consistent",
+    "schema_restaurant_external"
+  ],
+  "categorical_predictors": [
+    "area",
+    "menu_family_external"
+  ],
+  "context_only_predictors": [
+    "backend"
+  ],
+  "forbidden_predictors": [
+    "entity_id",
+    "name_ko",
+    "brand_group",
+    "sampling_cohort",
+    "selection_uses_outcome",
+    "prior_visibility_stratum",
+    "appearance_count",
+    "top3_rate",
+    "mean_reciprocal_rank",
+    "sources_raw_model_do_not_train",
+    "reason_raw_model_do_not_train",
+    "price_raw_model_do_not_train",
+    "cuisine_raw_model_do_not_train",
+    "category_external",
+    "identity_status",
+    "identity_prior_reference_checked",
+    "identity_reference_checked_external",
+    "minimal_website_category_documented",
+    "evidence_urls"
+  ],
+  "split_group": "brand_group",
+  "primary_cohort": "original30_preselected",
+  "expanded_cohort": "baseline_discovery_prospective_only_requires_identity_review",
+  "null_policy": "Unknown evidence remains null. No zero filling of missing numeric features. Fit imputation and encoders on training folds only.",
+  "rate_denominator": "successful_runs_in_same_area_and_phase",
+  "feature_timing": "Original listing is prior snapshot; checked feature values are observation-era data, not causal pre-treatment evidence.",
+  "interpretation": "SHAP describes predictive model associations, not restaurant exposure causes."
+}

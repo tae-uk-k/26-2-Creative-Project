@@ -1,0 +1,24 @@
+# Google 비즈니스 프로필 관리 화면 셀렉터(09 8.4). 모든 값은 [PoC]:
+# 지인 가게에서 scripts/capture_admin_html.py로 실제 화면을 저장한 뒤 채운다(17 3.1).
+# 비어 있으면 자동 정비는 화면을 열지 않고 수동 처리로 넘긴다(AutomationBlocked selectors_missing).
+# 셀렉터 형식은 Playwright 그대로: "css=...", "text=...", "role=button[name='저장']".
+version: 1
+login:
+  url: "https://accounts.google.com/"   # scripts/browser_login.py가 여는 주소
+  logged_in: ""                         # 로그인 뒤에만 보이는 요소
+pages:
+  store_list: { url: "https://business.google.com/locations", ready: "" }
+  info: { url_template: "", ready: "", not_found: "" }
+store_search:
+  row: ""            # 목록의 가게 행
+  name: ""           # 행 안의 가게 이름
+  link: ""           # 행 안에서 정보 화면으로 가는 링크
+  external_ref: ""   # 정보 화면 주소에서 위치 식별값을 뽑는 정규식(그룹 1)
+attention:           # 정보 화면에 이 표시가 있으면 needs_attention(사유)
+  verification_required: ""
+# 칸별(칸 사전 키). 입력 칸 하나로 고치는 칸(text·url·phone)만 이 형식으로 다룬다.
+# 영업시간·메뉴·편의 정보는 실제 화면을 본 뒤 google_admin.py에 칸별 함수로 더한다. 그 전에는 수동 처리.
+fields:
+  description: { read: "", open_editor: "", input: "", save: "", saved_ready: "", review_badge: "" }
+  website: { read: "", open_editor: "", input: "", save: "", saved_ready: "", review_badge: "" }
+  phone: { read: "", open_editor: "", input: "", save: "", saved_ready: "", review_badge: "" }

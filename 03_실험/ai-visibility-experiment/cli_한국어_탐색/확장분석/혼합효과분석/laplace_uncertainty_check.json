@@ -1,0 +1,15 @@
+{
+  "method": "Laplace posterior covariance",
+  "optimizer_success": false,
+  "max_abs_gradient": 0.07180887824400517,
+  "warnings": [
+    "Laplace fitting did not converge, |gradient|=0.284197"
+  ],
+  "website_log_odds_mean": -0.4019739756023009,
+  "website_sd": 0.7417248644115868,
+  "odds_ratio": 0.6689981557378676,
+  "credible95_low_approx": 0.15633491064378185,
+  "credible95_high_approx": 2.8628188709587477,
+  "usable_for_inference": false,
+  "included_in_report_estimates": false
+}

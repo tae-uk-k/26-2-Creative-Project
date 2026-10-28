@@ -9,6 +9,10 @@
 
 ## 열기
 
+[상단 메뉴부터 둘러보기 · 내 가게](https://www.figma.com/proto/M5WCPZN32W6PEeIaEvcRkC/창의프로젝트?page-id=223%3A541&node-id=223-1018&starting-point-node-id=223%3A2939&scaling=fit-width&content-scaling=fixed&hide-ui=1&hotspot-hints=true)
+
+브라우저 창을 최대화해서 본다. 위 링크는 화면 폭에 맞춰 열리고, Figma 도구 UI는 숨긴다. 상단 메뉴로 진단·정보 정비·전후 비교를 바로 둘러볼 수 있다. 처음부터 시작하려면 R을 누른다. 입력칸은 클릭으로 준비된 입력 완료 상태로 전환하며 자유 타이핑은 지원하지 않는다.
+
 [데스크톱 미리보기](https://www.figma.com/proto/M5WCPZN32W6PEeIaEvcRkC/창의프로젝트?page-id=223%3A541&node-id=223-2939&starting-point-node-id=223%3A2939&scaling=scale-down&content-scaling=fixed)
 
 [모바일 미리보기](https://www.figma.com/proto/M5WCPZN32W6PEeIaEvcRkC/창의프로젝트?page-id=223%3A541&node-id=223-2697&starting-point-node-id=223%3A2697&scaling=scale-down&content-scaling=fixed)
@@ -60,6 +64,8 @@ Figma의 지연 트리거는 밀리초, 전환 시간은 초 단위로 저장했
 이것은 입력과 처리 과정을 시연하는 디자인 프로토타입이다. 자유로운 키보드 입력이나 실제 가입·메일·AI 측정·지도 수정·데이터 저장은 연결하지 않았다. 일부 목록 필터나 후보별 데이터 변경은 실제 기능이 아니며, 주요 서비스 경로를 중심으로 구성했다.
 
 ## 변경 시 참고
+
+2026-10-28 사용성 보완: 데스크톱 35개 화면에 고정 헤더 래퍼와 투명 클릭 영역 163개를 추가했다. 글자 높이 21~23px에만 걸려 있던 메뉴를 높이 최소 56px, 좌우 여백 14px까지 클릭하도록 확장했다. 화면의 기존 디자인과 연결 목적지는 유지했다. 고정 위치·클릭 영역 경계·목적지 검증 오류는 0개이며, 실제 Figma 렌더링으로 내 가게 화면을 확인했다. 실제 플레이어 클릭 재생 검증은 미수행 상태다.
 
 `prototype-state.json`은 최초 복제 상태, `prototype-states-result.json`은 보완 상태, `prototype-verification.json`은 최종 캔버스에서 읽은 연결 증거다. 최신 연결은 최종 검수 파일을 기준으로 한다.
 

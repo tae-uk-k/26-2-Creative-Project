@@ -1,0 +1,7 @@
+{% if connected %}
+{{ provider_label }} 연결이 완료됐어요. 지금 정보를 읽고 바꿀 내용을 만들고 있어요. 준비되면 다시 알려 드릴게요.
+{{ link }}
+{% else %}
+{{ provider_label }}에서 보낸 초대가 아직 seelo에 도착하지 않았어요. 초대 방법을 다시 확인해 주세요.
+{{ link }}
+{% endif %}

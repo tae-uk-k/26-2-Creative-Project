@@ -1,0 +1,222 @@
+﻿restaurant_id,map_id,menu_position_within_priced_capture,name,price_display,price_won,explicit_gram_unit,explicit_person_unit,explicit_order_minimum,explicit_other_condition,author_type,source_url,observed_at_utc,price_is_total_meal_cost
+MN26-MD-01,kakao,1,쉬림프 팟타이,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/1402508894,2026-10-16T07:53:11.332Z,False
+MN26-MD-01,kakao,2,후라이드비프누들,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/1402508894,2026-10-16T07:53:11.332Z,False
+MN26-MD-01,kakao,3,타이칠리두들,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/1402508894,2026-10-16T07:53:11.332Z,False
+MN26-MD-01,kakao,4,치킨팟타이,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/1402508894,2026-10-16T07:53:11.332Z,False
+MN26-MD-02,kakao,1,치즈닭갈비,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/1903143175,2026-10-16T07:53:12.484Z,False
+MN26-MD-02,kakao,2,장인볶음밥(김치+날치알),"3,000원",3000,False,False,False,False,unknown,https://place.map.kakao.com/1903143175,2026-10-16T07:53:12.484Z,False
+MN26-MD-02,kakao,3,닭갈비점심세트 A(2인),"26,000원",26000,False,True,False,True,unknown,https://place.map.kakao.com/1903143175,2026-10-16T07:53:12.484Z,False
+MN26-MD-02,kakao,4,닭갈비점심세트 B(3인),"39,000원",39000,False,True,False,True,unknown,https://place.map.kakao.com/1903143175,2026-10-16T07:53:12.484Z,False
+MN26-MD-03,kakao,1,파이브치즈 피자,"23,000원",23000,False,False,False,False,unknown,https://place.map.kakao.com/19409195,2026-10-16T07:53:13.908Z,False
+MN26-MD-03,kakao,2,명동 파스타,"19,500원",19500,False,False,False,False,unknown,https://place.map.kakao.com/19409195,2026-10-16T07:53:13.908Z,False
+MN26-MD-03,kakao,3,[프리미엄]치폴레전드 피자,"24,000원",24000,False,False,False,False,unknown,https://place.map.kakao.com/19409195,2026-10-16T07:53:13.908Z,False
+MN26-MD-03,kakao,4,런치스페셜,"14,900원",14900,False,False,False,False,unknown,https://place.map.kakao.com/19409195,2026-10-16T07:53:13.908Z,False
+MN26-MD-04,kakao,1,소 양념왕갈비 (280g),"48,000원",48000,True,False,False,False,unknown,https://place.map.kakao.com/21748255,2026-10-16T07:53:14.854Z,False
+MN26-MD-04,kakao,2,한우육회 150g,"38,000원",38000,True,False,False,False,unknown,https://place.map.kakao.com/21748255,2026-10-16T07:53:14.854Z,False
+MN26-MD-04,kakao,3,장기름육회 비빔밥,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/21748255,2026-10-16T07:53:14.854Z,False
+MN26-MD-04,kakao,4,숙성김치찌개(공기밥별도),"8,000원",8000,False,False,False,True,unknown,https://place.map.kakao.com/21748255,2026-10-16T07:53:14.854Z,False
+MN26-MD-05,kakao,1,칼국수,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/1479300828,2026-10-16T07:53:16.676Z,False
+MN26-MD-05,kakao,2,만두,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/1479300828,2026-10-16T07:53:16.676Z,False
+MN26-MD-05,kakao,3,비빔국수,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/1479300828,2026-10-16T07:53:16.676Z,False
+MN26-MD-05,kakao,4,콩국수(4~10월),"13,000원",13000,False,False,False,True,unknown,https://place.map.kakao.com/1479300828,2026-10-16T07:53:16.676Z,False
+MN26-MD-06,kakao,1,도마수육정식,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/26853115,2026-10-16T07:53:17.753Z,False
+MN26-MD-06,kakao,2,소불고기정식,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/26853115,2026-10-16T07:53:17.753Z,False
+MN26-MD-06,kakao,3,3대시래기국,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/26853115,2026-10-16T07:53:17.753Z,False
+MN26-MD-06,kakao,4,얼큰시래기국,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/26853115,2026-10-16T07:53:17.753Z,False
+MN26-MD-07,kakao,1,곰탕,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/1822111964,2026-10-16T07:53:18.913Z,False
+MN26-MD-07,kakao,2,곰탕 (25공),"25,000원",25000,False,False,False,False,unknown,https://place.map.kakao.com/1822111964,2026-10-16T07:53:18.913Z,False
+MN26-MD-07,kakao,3,곰탕 (30공),"30,000원",30000,False,False,False,False,unknown,https://place.map.kakao.com/1822111964,2026-10-16T07:53:18.913Z,False
+MN26-MD-07,kakao,4,수육 (소),"40,000원",40000,False,False,False,False,unknown,https://place.map.kakao.com/1822111964,2026-10-16T07:53:18.913Z,False
+MN26-MD-08,kakao,1,야끼소바(특대),"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/21396812,2026-10-16T07:53:20.107Z,False
+MN26-MD-08,kakao,2,후게츠 오코노미야끼,"17,000원",17000,False,False,False,False,unknown,https://place.map.kakao.com/21396812,2026-10-16T07:53:20.107Z,False
+MN26-MD-08,kakao,3,후게츠세트 (2인),"41,500원",41500,False,True,False,False,unknown,https://place.map.kakao.com/21396812,2026-10-16T07:53:20.107Z,False
+MN26-MD-08,kakao,4,오사카세트 (2인),"39,500원",39500,False,True,False,False,unknown,https://place.map.kakao.com/21396812,2026-10-16T07:53:20.107Z,False
+MN26-MD-09,kakao,1,복소금구이 (1인분),"43,000원",43000,False,True,False,False,unknown,https://place.map.kakao.com/16268305,2026-10-16T07:53:21.383Z,False
+MN26-MD-09,kakao,2,복불고기 (1인분),"43,000원",43000,False,True,False,False,unknown,https://place.map.kakao.com/16268305,2026-10-16T07:53:21.383Z,False
+MN26-MD-09,kakao,3,복고니구이 (1인분),"43,000원",43000,False,True,False,False,unknown,https://place.map.kakao.com/16268305,2026-10-16T07:53:21.383Z,False
+MN26-MD-09,kakao,4,복매운탕 (1인분),"28,000원",28000,False,True,False,False,unknown,https://place.map.kakao.com/16268305,2026-10-16T07:53:21.383Z,False
+MN26-MD-10,kakao,1,유니짜장면,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/9410327,2026-10-16T07:53:22.395Z,False
+MN26-MD-10,kakao,2,짬뽕,"9,000원",9000,False,False,False,False,unknown,https://place.map.kakao.com/9410327,2026-10-16T07:53:22.395Z,False
+MN26-MD-10,kakao,3,잡채밥,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/9410327,2026-10-16T07:53:22.395Z,False
+MN26-MD-10,kakao,4,잡탕밥,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/9410327,2026-10-16T07:53:22.395Z,False
+MN26-MD-11,kakao,1,삼선해물볶음간자장도삭면,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/12793877,2026-10-16T07:53:32.381Z,False
+MN26-MD-11,kakao,2,삼선해물짬뽕도삭면,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/12793877,2026-10-16T07:53:32.381Z,False
+MN26-MD-11,kakao,3,사천탕수육(꿔바로우),"29,000원",29000,False,False,False,False,unknown,https://place.map.kakao.com/12793877,2026-10-16T07:53:32.381Z,False
+MN26-MD-11,kakao,4,수제탕수만두(점심메뉴),"13,000원",13000,False,False,False,True,unknown,https://place.map.kakao.com/12793877,2026-10-16T07:53:32.381Z,False
+MN26-MD-13,kakao,1,계란탕,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/16766423,2026-10-16T07:53:37.212Z,False
+MN26-MD-13,kakao,2,제육볶음,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/16766423,2026-10-16T07:53:37.212Z,False
+MN26-MD-13,kakao,3,오징어볶음,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/16766423,2026-10-16T07:53:37.212Z,False
+MN26-MD-13,kakao,4,생삼겹살,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/16766423,2026-10-16T07:53:37.212Z,False
+MN26-MD-14,kakao,1,하교,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/26404570,2026-10-16T07:53:38.499Z,False
+MN26-MD-14,kakao,2,구채교,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/26404570,2026-10-16T07:53:38.499Z,False
+MN26-MD-14,kakao,3,소매,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/26404570,2026-10-16T07:53:38.499Z,False
+MN26-MD-14,kakao,4,런치코스,"30,000원",30000,False,False,False,False,unknown,https://place.map.kakao.com/26404570,2026-10-16T07:53:38.499Z,False
+MN26-MD-15,kakao,1,평일 점심 (~15:00),"19,900원",19900,False,False,False,True,unknown,https://place.map.kakao.com/551910508,2026-10-16T07:53:39.773Z,False
+MN26-MD-15,kakao,2,평일 저녁 (15:00~),"23,900원",23900,False,False,False,True,unknown,https://place.map.kakao.com/551910508,2026-10-16T07:53:39.773Z,False
+MN26-MD-15,kakao,3,주말 및 공휴일,"23,900원",23900,False,False,False,True,unknown,https://place.map.kakao.com/551910508,2026-10-16T07:53:39.773Z,False
+MN26-MD-16,kakao,1,간짜장면,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/10130879,2026-10-16T07:53:40.855Z,False
+MN26-MD-16,kakao,2,유니짜장면,"7,000원",7000,False,False,False,False,unknown,https://place.map.kakao.com/10130879,2026-10-16T07:53:40.855Z,False
+MN26-MD-16,kakao,3,울면,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/10130879,2026-10-16T07:53:40.855Z,False
+MN26-MD-16,kakao,4,수소면,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/10130879,2026-10-16T07:53:40.855Z,False
+MN26-MD-17,kakao,1,마파두부,"27,000원",27000,False,False,False,False,unknown,https://place.map.kakao.com/8577709,2026-10-16T07:53:41.820Z,False
+MN26-MD-17,kakao,2,새우완자탕면,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/8577709,2026-10-16T07:53:41.820Z,False
+MN26-MD-17,kakao,3,대만식쇠고기탕면,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/8577709,2026-10-16T07:53:41.820Z,False
+MN26-MD-17,kakao,4,삼선간짜장,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/8577709,2026-10-16T07:53:41.820Z,False
+MN26-MD-18,kakao,1,수육,"61,000원",61000,False,False,False,False,unknown,https://place.map.kakao.com/13288123,2026-10-16T07:53:42.595Z,False
+MN26-MD-18,kakao,2,전골국수,"22,000원",22000,False,False,False,False,unknown,https://place.map.kakao.com/13288123,2026-10-16T07:53:42.595Z,False
+MN26-MD-18,kakao,3,곰국수,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/13288123,2026-10-16T07:53:42.595Z,False
+MN26-MD-18,kakao,4,꽃등심(150g),"51,000원",51000,True,False,False,False,unknown,https://place.map.kakao.com/13288123,2026-10-16T07:53:42.595Z,False
+MN26-MD-19,kakao,1,접시만두,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/21232315,2026-10-16T07:53:43.394Z,False
+MN26-MD-19,kakao,2,냉면,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/21232315,2026-10-16T07:53:43.394Z,False
+MN26-MD-19,kakao,3,온면,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/21232315,2026-10-16T07:53:43.394Z,False
+MN26-MD-19,kakao,4,비빔냉면,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/21232315,2026-10-16T07:53:43.394Z,False
+MN26-MD-20,kakao,1,깻순이들깨갈비탕,"32,000원",32000,False,False,False,False,unknown,https://place.map.kakao.com/901404875,2026-10-16T07:53:44.244Z,False
+MN26-MD-20,kakao,2,여름나물과차돌박이밀쌈,"38,000원",38000,False,False,False,False,unknown,https://place.map.kakao.com/901404875,2026-10-16T07:53:44.244Z,False
+MN26-MD-20,kakao,3,창고43 스페셜,"54,000원",54000,False,False,False,False,unknown,https://place.map.kakao.com/901404875,2026-10-16T07:53:44.244Z,False
+MN26-MD-20,kakao,4,육회,"35,000원",35000,False,False,False,False,unknown,https://place.map.kakao.com/901404875,2026-10-16T07:53:44.244Z,False
+MN26-SS-01,kakao,1,체다크림치즈돈카츠,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/2125770186,2026-10-16T07:53:50.105Z,False
+MN26-SS-01,kakao,2,매콤돈카츠,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/2125770186,2026-10-16T07:53:50.105Z,False
+MN26-SS-01,kakao,3,수제 생돈카츠,"11,500원",11500,False,False,False,False,unknown,https://place.map.kakao.com/2125770186,2026-10-16T07:53:50.105Z,False
+MN26-SS-01,kakao,4,오레노 정식 A,"17,500원",17500,False,False,False,False,unknown,https://place.map.kakao.com/2125770186,2026-10-16T07:53:50.105Z,False
+MN26-SS-02,kakao,1,고기빠오즈,"9,000원",9000,False,False,False,False,unknown,https://place.map.kakao.com/1483073499,2026-10-16T07:53:50.808Z,False
+MN26-SS-02,kakao,2,훈둔면,"9,000원",9000,False,False,False,False,unknown,https://place.map.kakao.com/1483073499,2026-10-16T07:53:50.808Z,False
+MN26-SS-02,kakao,3,새우지짐,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/1483073499,2026-10-16T07:53:50.808Z,False
+MN26-SS-02,kakao,4,매운훈둔면,"9,500원",9500,False,False,False,False,unknown,https://place.map.kakao.com/1483073499,2026-10-16T07:53:50.808Z,False
+MN26-SS-03,kakao,1,비프 웰링턴,"48,000원",48000,False,False,False,False,unknown,https://place.map.kakao.com/1057053940,2026-10-16T07:53:51.515Z,False
+MN26-SS-03,kakao,2,셰퍼드파이,"24,000원",24000,False,False,False,False,unknown,https://place.map.kakao.com/1057053940,2026-10-16T07:53:51.515Z,False
+MN26-SS-03,kakao,3,피쉬 앤 칩스,"32,000원",32000,False,False,False,False,unknown,https://place.map.kakao.com/1057053940,2026-10-16T07:53:51.515Z,False
+MN26-SS-03,kakao,4,하이드 파크 샐러드,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/1057053940,2026-10-16T07:53:51.515Z,False
+MN26-SS-04,kakao,1,눈꽃 통삼겹 (180g),"19,000원",19000,True,False,False,False,unknown,https://place.map.kakao.com/1795368894,2026-10-16T07:53:52.245Z,False
+MN26-SS-04,kakao,2,눈꽃 특목살 (180g),"19,000원",19000,True,False,False,False,unknown,https://place.map.kakao.com/1795368894,2026-10-16T07:53:52.245Z,False
+MN26-SS-04,kakao,3,이베리코 갈비살 (180g),"22,000원",22000,True,False,False,False,unknown,https://place.map.kakao.com/1795368894,2026-10-16T07:53:52.245Z,False
+MN26-SS-04,kakao,4,플루마골드 (150g),"25,000원",25000,True,False,False,False,unknown,https://place.map.kakao.com/1795368894,2026-10-16T07:53:52.245Z,False
+MN26-SS-05,kakao,1,토마토라멘,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/111033977,2026-10-16T07:53:53.058Z,False
+MN26-SS-06,kakao,1,반세오,"28,000원",28000,False,False,False,False,unknown,https://place.map.kakao.com/2021790703,2026-10-16T07:53:53.896Z,False
+MN26-SS-06,kakao,2,분짜,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/2021790703,2026-10-16T07:53:53.896Z,False
+MN26-SS-06,kakao,3,오리지널하노이직화쌀국수,"11,500원",11500,False,False,False,False,unknown,https://place.map.kakao.com/2021790703,2026-10-16T07:53:53.896Z,False
+MN26-SS-06,kakao,4,시그니처세트,"39,500원",39500,False,False,False,False,unknown,https://place.map.kakao.com/2021790703,2026-10-16T07:53:53.896Z,False
+MN26-SS-07,kakao,1,누룽지 통닭,"24,000원",24000,False,False,False,False,unknown,https://place.map.kakao.com/27417406,2026-10-16T07:53:54.762Z,False
+MN26-SS-07,kakao,2,누룽지 콘치즈,"28,000원",28000,False,False,False,False,unknown,https://place.map.kakao.com/27417406,2026-10-16T07:53:54.762Z,False
+MN26-SS-07,kakao,3,누룽지 파닭,"26,000원",26000,False,False,False,False,unknown,https://place.map.kakao.com/27417406,2026-10-16T07:53:54.762Z,False
+MN26-SS-07,kakao,4,누룽지 양파닭,"26,000원",26000,False,False,False,False,unknown,https://place.map.kakao.com/27417406,2026-10-16T07:53:54.762Z,False
+MN26-SS-08,kakao,1,보쌈정식,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/20746195,2026-10-16T07:53:55.430Z,False
+MN26-SS-08,kakao,2,접시만두,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/20746195,2026-10-16T07:53:55.430Z,False
+MN26-SS-08,kakao,3,손칼국수,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/20746195,2026-10-16T07:53:55.430Z,False
+MN26-SS-08,kakao,4,보쌈 (대),"48,000원",48000,False,False,False,False,unknown,https://place.map.kakao.com/20746195,2026-10-16T07:53:55.430Z,False
+MN26-SS-09,kakao,1,4cm 특!가츠동,"16,900원",16900,False,False,False,False,unknown,https://place.map.kakao.com/1261546915,2026-10-16T07:53:56.227Z,False
+MN26-SS-09,kakao,2,자이언트에비동,"16,900원",16900,False,False,False,False,unknown,https://place.map.kakao.com/1261546915,2026-10-16T07:53:56.227Z,False
+MN26-SS-09,kakao,3,사케동,"16,900원",16900,False,False,False,False,unknown,https://place.map.kakao.com/1261546915,2026-10-16T07:53:56.227Z,False
+MN26-SS-09,kakao,4,사바동(고등어덮밥),"14,900원",14900,False,False,False,False,unknown,https://place.map.kakao.com/1261546915,2026-10-16T07:53:56.227Z,False
+MN26-SS-10,kakao,1,닭갈비 (1인분),"13,000원",13000,False,True,False,False,unknown,https://place.map.kakao.com/9517312,2026-10-16T07:53:57.044Z,False
+MN26-SS-10,kakao,2,야채곱창 (1인분),"13,000원",13000,False,True,False,False,unknown,https://place.map.kakao.com/9517312,2026-10-16T07:53:57.044Z,False
+MN26-SS-10,kakao,3,오징어볶음 (1인분),"13,000원",13000,False,True,False,False,unknown,https://place.map.kakao.com/9517312,2026-10-16T07:53:57.044Z,False
+MN26-SS-10,kakao,4,닭발 (1인분),"13,000원",13000,False,True,False,False,unknown,https://place.map.kakao.com/9517312,2026-10-16T07:53:57.044Z,False
+MN26-SS-11,kakao,1,낫또소바(냉),"17,800원",17800,False,False,False,False,unknown,https://place.map.kakao.com/395031954,2026-10-16T07:54:05.380Z,False
+MN26-SS-11,kakao,2,"토로로소바,생마(냉/온)","17,800원",17800,False,False,False,False,unknown,https://place.map.kakao.com/395031954,2026-10-16T07:54:05.380Z,False
+MN26-SS-11,kakao,3,"니싱소바,청어(냉/온)","21,800원",21800,False,False,False,False,unknown,https://place.map.kakao.com/395031954,2026-10-16T07:54:05.380Z,False
+MN26-SS-11,kakao,4,규동,"13,800원",13800,False,False,False,False,unknown,https://place.map.kakao.com/395031954,2026-10-16T07:54:05.380Z,False
+MN26-SS-12,kakao,1,와사비 쉬림프,"11,300원",11300,False,False,False,False,unknown,https://place.map.kakao.com/1965582130,2026-10-16T07:54:06.084Z,False
+MN26-SS-12,kakao,2,할라피뇨 타르타르 쉬림프,"11,300원",11300,False,False,False,False,unknown,https://place.map.kakao.com/1965582130,2026-10-16T07:54:06.084Z,False
+MN26-SS-12,kakao,3,치즈 슬로 쉬림프,"11,800원",11800,False,False,False,False,unknown,https://place.map.kakao.com/1965582130,2026-10-16T07:54:06.084Z,False
+MN26-SS-12,kakao,4,레몬 바질 쉬림프,"11,800원",11800,False,False,False,False,unknown,https://place.map.kakao.com/1965582130,2026-10-16T07:54:06.084Z,False
+MN26-SS-13,kakao,1,연어 한마리 덮밥,"14,500원",14500,False,False,False,False,unknown,https://place.map.kakao.com/611079689,2026-10-16T07:54:06.852Z,False
+MN26-SS-13,kakao,2,스키샤브,"14,500원",14500,False,False,False,False,unknown,https://place.map.kakao.com/611079689,2026-10-16T07:54:06.852Z,False
+MN26-SS-13,kakao,3,명란크림우동,"11,500원",11500,False,False,False,False,unknown,https://place.map.kakao.com/611079689,2026-10-16T07:54:06.852Z,False
+MN26-SS-13,kakao,4,수제야끼모찌,"7,000원",7000,False,False,False,False,unknown,https://place.map.kakao.com/611079689,2026-10-16T07:54:06.852Z,False
+MN26-SS-14,kakao,1,파히타&타코 세트 (2인 추천),"42,000원",42000,False,True,False,False,unknown,https://place.map.kakao.com/797092302,2026-10-16T07:54:07.987Z,False
+MN26-SS-14,kakao,2,엔칠라다&타코 세트 (2인 추천),"43,000원",43000,False,True,False,False,unknown,https://place.map.kakao.com/797092302,2026-10-16T07:54:07.987Z,False
+MN26-SS-14,kakao,3,보울&타코 세트 (2인 추천),"39,000원",39000,False,True,False,False,unknown,https://place.map.kakao.com/797092302,2026-10-16T07:54:07.987Z,False
+MN26-SS-14,kakao,4,패밀리 세트 (4인 세트),"79,000원",79000,False,True,False,False,unknown,https://place.map.kakao.com/797092302,2026-10-16T07:54:07.987Z,False
+MN26-SS-15,kakao,1,해물짬뽕,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/74382442,2026-10-16T07:54:08.688Z,False
+MN26-SS-15,kakao,2,메이탄짜장,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/74382442,2026-10-16T07:54:08.688Z,False
+MN26-SS-15,kakao,3,고추잡채밥,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/74382442,2026-10-16T07:54:08.688Z,False
+MN26-SS-15,kakao,4,유산슬밥,"16,000원",16000,False,False,False,False,unknown,https://place.map.kakao.com/74382442,2026-10-16T07:54:08.688Z,False
+MN26-SS-16,kakao,1,아오내순댓국,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/75989539,2026-10-16T07:54:09.465Z,False
+MN26-SS-16,kakao,2,전통순댓국,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/75989539,2026-10-16T07:54:09.465Z,False
+MN26-SS-16,kakao,3,얼큰순댓국,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/75989539,2026-10-16T07:54:09.465Z,False
+MN26-SS-16,kakao,4,곱창전골,"34,000원",34000,False,False,False,False,unknown,https://place.map.kakao.com/75989539,2026-10-16T07:54:09.465Z,False
+MN26-SS-17,kakao,1,평양냉면,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/1164346957,2026-10-16T07:54:10.290Z,False
+MN26-SS-17,kakao,2,만두지짐이(8pc),"16,000원",16000,False,False,False,False,unknown,https://place.map.kakao.com/1164346957,2026-10-16T07:54:10.290Z,False
+MN26-SS-17,kakao,3,비빔냉면,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/1164346957,2026-10-16T07:54:10.290Z,False
+MN26-SS-17,kakao,4,들기름냉면,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/1164346957,2026-10-16T07:54:10.290Z,False
+MN26-SS-18,kakao,1,오리곰탕,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/715100262,2026-10-16T07:54:11.096Z,False
+MN26-SS-18,kakao,2,(펩시콤보/저녁한정) 오리 온면 + 펩시 제로 1캔,"15,000원",15000,False,False,False,True,unknown,https://place.map.kakao.com/715100262,2026-10-16T07:54:11.096Z,False
+MN26-SS-18,kakao,3,잔술세트(오리곰탕+녹파주 한 잔),"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/715100262,2026-10-16T07:54:11.096Z,False
+MN26-SS-18,kakao,4,오리안심 냉채,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/715100262,2026-10-16T07:54:11.096Z,False
+MN26-SS-19,kakao,1,버섯치즈 리조또,"20,800원",20800,False,False,False,False,unknown,https://place.map.kakao.com/465733251,2026-10-16T07:54:11.853Z,False
+MN26-SS-19,kakao,2,바질 크레마,"20,800원",20800,False,False,False,False,unknown,https://place.map.kakao.com/465733251,2026-10-16T07:54:11.853Z,False
+MN26-SS-19,kakao,3,해산물 리조또,"20,800원",20800,False,False,False,False,unknown,https://place.map.kakao.com/465733251,2026-10-16T07:54:11.853Z,False
+MN26-SS-19,kakao,4,풍기 샐러드,"20,000원",20000,False,False,False,False,unknown,https://place.map.kakao.com/465733251,2026-10-16T07:54:11.853Z,False
+MN26-MW-01,kakao,1,직화소갈비된장찌개,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/889810020,2026-10-16T07:54:18.630Z,False
+MN26-MW-01,kakao,2,눈꽃육회,"19,000원",19000,False,False,False,False,unknown,https://place.map.kakao.com/889810020,2026-10-16T07:54:18.630Z,False
+MN26-MW-01,kakao,3,숙성삼겹살,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/889810020,2026-10-16T07:54:18.630Z,False
+MN26-MW-01,kakao,4,꽃목살,"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/889810020,2026-10-16T07:54:18.630Z,False
+MN26-MW-02,kakao,1,광어회무침,"50,000원",50000,False,False,False,False,unknown,https://place.map.kakao.com/13498159,2026-10-16T07:54:19.481Z,False
+MN26-MW-02,kakao,2,우럭회,"53,000원",53000,False,False,False,False,unknown,https://place.map.kakao.com/13498159,2026-10-16T07:54:19.481Z,False
+MN26-MW-02,kakao,3,광어회,"50,000원",50000,False,False,False,False,unknown,https://place.map.kakao.com/13498159,2026-10-16T07:54:19.481Z,False
+MN26-MW-02,kakao,4,물회,"43,000원",43000,False,False,False,False,unknown,https://place.map.kakao.com/13498159,2026-10-16T07:54:19.481Z,False
+MN26-MW-03,kakao,1,대패삼겹살(1인분),"4,500원",4500,False,True,False,False,unknown,https://place.map.kakao.com/1531690926,2026-10-16T07:54:20.251Z,False
+MN26-MW-03,kakao,2,생삼겹살(1인분),"13,000원",13000,False,True,False,False,unknown,https://place.map.kakao.com/1531690926,2026-10-16T07:54:20.251Z,False
+MN26-MW-03,kakao,3,삼겹살(1인분),"8,900원",8900,False,True,False,False,unknown,https://place.map.kakao.com/1531690926,2026-10-16T07:54:20.251Z,False
+MN26-MW-03,kakao,4,목살(1인분),"8,900원",8900,False,True,False,False,unknown,https://place.map.kakao.com/1531690926,2026-10-16T07:54:20.251Z,False
+MN26-MW-04,kakao,1,성북동돈까스,"13,500원",13500,False,False,False,False,unknown,https://place.map.kakao.com/740043035,2026-10-16T07:54:21.205Z,False
+MN26-MW-04,kakao,2,돈까스 비빔모밀정식,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/740043035,2026-10-16T07:54:21.205Z,False
+MN26-MW-04,kakao,3,얼큰소우동정식,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/740043035,2026-10-16T07:54:21.205Z,False
+MN26-MW-05,kakao,1,곱창전골(소),"30,000원",30000,False,False,False,False,unknown,https://place.map.kakao.com/13292214,2026-10-16T07:54:22.033Z,False
+MN26-MW-05,kakao,2,양깃머리(1인분),"28,000원",28000,False,True,False,False,unknown,https://place.map.kakao.com/13292214,2026-10-16T07:54:22.033Z,False
+MN26-MW-05,kakao,3,곱창(1인분),"25,000원",25000,False,True,False,False,unknown,https://place.map.kakao.com/13292214,2026-10-16T07:54:22.033Z,False
+MN26-MW-05,kakao,4,막창(1인분),"25,000원",25000,False,True,False,False,unknown,https://place.map.kakao.com/13292214,2026-10-16T07:54:22.033Z,False
+MN26-MW-06,kakao,1,생삼겹갈비 (1인분),"18,000원",18000,False,True,False,False,unknown,https://place.map.kakao.com/18208683,2026-10-16T07:54:22.721Z,False
+MN26-MW-06,kakao,2,생삼겹살 (1인분),"18,000원",18000,False,True,False,False,unknown,https://place.map.kakao.com/18208683,2026-10-16T07:54:22.721Z,False
+MN26-MW-06,kakao,3,생목살 (1인분),"18,000원",18000,False,True,False,False,unknown,https://place.map.kakao.com/18208683,2026-10-16T07:54:22.721Z,False
+MN26-MW-06,kakao,4,김치말이 냉국수,"7,000원",7000,False,False,False,False,unknown,https://place.map.kakao.com/18208683,2026-10-16T07:54:22.721Z,False
+MN26-MW-07,kakao,1,후토마끼,"16,000원",16000,False,False,False,False,unknown,https://place.map.kakao.com/524925693,2026-10-16T07:54:23.496Z,False
+MN26-MW-07,kakao,2,마제소바,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/524925693,2026-10-16T07:54:23.496Z,False
+MN26-MW-07,kakao,3,스테이크덮밥,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/524925693,2026-10-16T07:54:23.496Z,False
+MN26-MW-07,kakao,4,참치덮밥,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/524925693,2026-10-16T07:54:23.496Z,False
+MN26-MW-08,kakao,1,해장국,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/16050121,2026-10-16T07:54:24.196Z,False
+MN26-MW-08,kakao,2,(특)해장국,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/16050121,2026-10-16T07:54:24.196Z,False
+MN26-MW-10,kakao,1,제육볶음,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/12059460,2026-10-16T07:54:26.626Z,False
+MN26-MW-10,kakao,2,오징어볶음,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/12059460,2026-10-16T07:54:26.626Z,False
+MN26-MW-10,kakao,3,된장찌개,"8,000원",8000,False,False,False,False,unknown,https://place.map.kakao.com/12059460,2026-10-16T07:54:26.626Z,False
+MN26-MW-10,kakao,4,김치찌개(2인이상),"9,000원",9000,False,True,True,False,unknown,https://place.map.kakao.com/12059460,2026-10-16T07:54:26.626Z,False
+MN26-MW-11,kakao,1,순대국 (특),"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/16931682,2026-10-16T07:54:32.278Z,False
+MN26-MW-11,kakao,2,곱창순대,"19,000원",19000,False,False,False,False,unknown,https://place.map.kakao.com/16931682,2026-10-16T07:54:32.278Z,False
+MN26-MW-11,kakao,3,순대국,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/16931682,2026-10-16T07:54:32.278Z,False
+MN26-MW-11,kakao,4,술국,"19,000원",19000,False,False,False,False,unknown,https://place.map.kakao.com/16931682,2026-10-16T07:54:32.278Z,False
+MN26-MW-12,kakao,1,양꼬치(1인),"15,000원",15000,False,True,False,False,unknown,https://place.map.kakao.com/17703669,2026-10-16T07:54:33.205Z,False
+MN26-MW-12,kakao,2,꿔바로우(탕수육),"18,000원",18000,False,False,False,False,unknown,https://place.map.kakao.com/17703669,2026-10-16T07:54:33.205Z,False
+MN26-MW-12,kakao,3,양갈비살(1인),"17,000원",17000,False,True,False,False,unknown,https://place.map.kakao.com/17703669,2026-10-16T07:54:33.205Z,False
+MN26-MW-12,kakao,4,양등갈비(1인),"18,000원",18000,False,True,False,False,unknown,https://place.map.kakao.com/17703669,2026-10-16T07:54:33.205Z,False
+MN26-MW-13,kakao,1,순대국밥,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/19011122,2026-10-16T07:54:34.127Z,False
+MN26-MW-13,kakao,2,편육,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/19011122,2026-10-16T07:54:34.127Z,False
+MN26-MW-13,kakao,3,따로순대국밥,"11,000원",11000,False,False,False,False,unknown,https://place.map.kakao.com/19011122,2026-10-16T07:54:34.127Z,False
+MN26-MW-13,kakao,4,술국,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/19011122,2026-10-16T07:54:34.127Z,False
+MN26-MW-14,kakao,1,고추장불백(200g),"11,000원",11000,True,False,False,False,unknown,https://place.map.kakao.com/11969069,2026-10-16T07:54:34.942Z,False
+MN26-MW-14,kakao,2,고등어조림,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/11969069,2026-10-16T07:54:34.942Z,False
+MN26-MW-14,kakao,3,삼겹살(200g),"13,000원",13000,True,False,False,False,unknown,https://place.map.kakao.com/11969069,2026-10-16T07:54:34.942Z,False
+MN26-MW-14,kakao,4,간장불백(200g),"11,000원",11000,True,False,False,False,unknown,https://place.map.kakao.com/11969069,2026-10-16T07:54:34.942Z,False
+MN26-MW-15,kakao,1,와사비참치 김밥,"4,600원",4600,False,False,False,False,unknown,https://place.map.kakao.com/597272081,2026-10-16T07:54:35.817Z,False
+MN26-MW-15,kakao,2,치즈프랑크 김밥,"5,200원",5200,False,False,False,False,unknown,https://place.map.kakao.com/597272081,2026-10-16T07:54:35.817Z,False
+MN26-MW-15,kakao,3,마요햄치즈 김밥,"4,700원",4700,False,False,False,False,unknown,https://place.map.kakao.com/597272081,2026-10-16T07:54:35.817Z,False
+MN26-MW-15,kakao,4,야채 김밥,"3,400원",3400,False,False,False,False,unknown,https://place.map.kakao.com/597272081,2026-10-16T07:54:35.817Z,False
+MN26-MW-16,kakao,1,이치젠텐동,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/132500108,2026-10-16T07:54:36.611Z,False
+MN26-MW-16,kakao,2,스페셜텐동,"17,000원",17000,False,False,False,False,unknown,https://place.map.kakao.com/132500108,2026-10-16T07:54:36.611Z,False
+MN26-MW-16,kakao,3,에비텐동,"13,000원",13000,False,False,False,False,unknown,https://place.map.kakao.com/132500108,2026-10-16T07:54:36.611Z,False
+MN26-MW-16,kakao,4,아와비텐동,"15,000원",15000,False,False,False,False,unknown,https://place.map.kakao.com/132500108,2026-10-16T07:54:36.611Z,False
+MN26-MW-17,kakao,1,잠봉뵈르,"10,800원",10800,False,False,False,False,unknown,https://place.map.kakao.com/256064588,2026-10-16T07:54:37.416Z,False
+MN26-MW-17,kakao,2,잠봉 선드라이드 토마토,"12,800원",12800,False,False,False,False,unknown,https://place.map.kakao.com/256064588,2026-10-16T07:54:37.416Z,False
+MN26-MW-17,kakao,3,루벤,"13,800원",13800,False,False,False,False,unknown,https://place.map.kakao.com/256064588,2026-10-16T07:54:37.416Z,False
+MN26-MW-17,kakao,4,잠봉 프로마쥬,"11,800원",11800,False,False,False,False,unknown,https://place.map.kakao.com/256064588,2026-10-16T07:54:37.416Z,False
+MN26-MW-18,kakao,1,감자탕(소),"33,000원",33000,False,False,False,False,unknown,https://place.map.kakao.com/19478261,2026-10-16T07:54:38.230Z,False
+MN26-MW-18,kakao,2,해물감자탕(소),"37,000원",37000,False,False,False,False,unknown,https://place.map.kakao.com/19478261,2026-10-16T07:54:38.230Z,False
+MN26-MW-18,kakao,3,낙지전골(2인),"40,000원",40000,False,True,False,False,unknown,https://place.map.kakao.com/19478261,2026-10-16T07:54:38.230Z,False
+MN26-MW-18,kakao,4,등뼈찜(중),"43,000원",43000,False,False,False,False,unknown,https://place.map.kakao.com/19478261,2026-10-16T07:54:38.230Z,False
+MN26-MW-19,kakao,1,텃만꿍,"6,000원",6000,False,False,False,False,unknown,https://place.map.kakao.com/1363548461,2026-10-16T07:54:39.058Z,False
+MN26-MW-19,kakao,2,팟타이꿍,"12,000원",12000,False,False,False,False,unknown,https://place.map.kakao.com/1363548461,2026-10-16T07:54:39.058Z,False
+MN26-MW-19,kakao,3,팟카파오무쌉,"10,000원",10000,False,False,False,False,unknown,https://place.map.kakao.com/1363548461,2026-10-16T07:54:39.058Z,False
+MN26-MW-19,kakao,4,뿌님팟퐁가리,"23,000원",23000,False,False,False,False,unknown,https://place.map.kakao.com/1363548461,2026-10-16T07:54:39.058Z,False
+MN26-MW-20,kakao,1,마르게리따 피자,"15,500원",15500,False,False,False,False,unknown,https://place.map.kakao.com/1181461605,2026-10-16T07:54:39.760Z,False
+MN26-MW-20,kakao,2,빼쉐,"14,000원",14000,False,False,False,False,unknown,https://place.map.kakao.com/1181461605,2026-10-16T07:54:39.760Z,False
+MN26-MW-20,kakao,3,알리오 올리오,"11,900원",11900,False,False,False,False,unknown,https://place.map.kakao.com/1181461605,2026-10-16T07:54:39.760Z,False
+MN26-MW-20,kakao,4,까르보나라,"11,900원",11900,False,False,False,False,unknown,https://place.map.kakao.com/1181461605,2026-10-16T07:54:39.760Z,False

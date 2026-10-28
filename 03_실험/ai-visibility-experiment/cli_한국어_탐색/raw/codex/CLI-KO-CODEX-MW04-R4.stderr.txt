@@ -1,0 +1,14 @@
+Reading additional input from stdin...
+2026-10-13T05:17:56.817612Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-13T05:28:21.980398Z ERROR codex_core::tools::router: error=Fatal error: connection failed: error sending request
+2026-10-13T05:28:22.428342Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: 알려진 호스트가 없습니다. (os error 11001), url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-13T05:28:22.429408Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 207ms)... turn_id=01a133b2-2b72-7eb0-8255-941a8b5e4d9b retries=1 max_retries=5 sampling_error=stream disconnected before completion: 알려진 호스트가 없습니다. (os error 11001)
+2026-10-13T05:28:22.834495Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: 알려진 호스트가 없습니다. (os error 11001), url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-13T05:28:22.835252Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (2/5 in 395ms)... turn_id=01a133b2-2b72-7eb0-8255-941a8b5e4d9b retries=2 max_retries=5 sampling_error=stream disconnected before completion: 알려진 호스트가 없습니다. (os error 11001)
+2026-10-13T05:28:23.357383Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: 알려진 호스트가 없습니다. (os error 11001), url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-13T05:28:23.358066Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (3/5 in 816ms)... turn_id=01a133b2-2b72-7eb0-8255-941a8b5e4d9b retries=3 max_retries=5 sampling_error=stream disconnected before completion: 알려진 호스트가 없습니다. (os error 11001)
+2026-10-13T05:28:24.203150Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: 알려진 호스트가 없습니다. (os error 11001), url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-13T05:28:24.203798Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (4/5 in 1.533s)... turn_id=01a133b2-2b72-7eb0-8255-941a8b5e4d9b retries=4 max_retries=5 sampling_error=stream disconnected before completion: 알려진 호스트가 없습니다. (os error 11001)
+2026-10-13T05:28:25.373066Z ERROR codex_models_manager::manager: failed to refresh available models: Connection failed: error sending request
+2026-10-13T05:28:25.900321Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: 알려진 호스트가 없습니다. (os error 11001), url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-13T05:28:25.901232Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (5/5 in 3.146s)... turn_id=01a133b2-2b72-7eb0-8255-941a8b5e4d9b retries=5 max_retries=5 sampling_error=stream disconnected before completion: 알려진 호스트가 없습니다. (os error 11001)

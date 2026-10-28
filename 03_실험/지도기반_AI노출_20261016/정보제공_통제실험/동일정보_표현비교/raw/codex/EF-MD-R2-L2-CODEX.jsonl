@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a9-ceab-7fe0-bbf5-039c954bd7b1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"라\",\"reason\":\"쉬림프 팟타이와 후라이드비프누들이 제시되어 있어 면 요리로 한 끼를 선택하기 좋다.\",\"evidence\":\"메뉴: 쉬림프 팟타이 / 표시 가격: 14,000원\"},{\"rank\":2,\"code\":\"가\",\"reason\":\"피자와 파스타가 제시되어 있어 첫 번째 추천과 다른 종류의 식사를 고를 수 있다.\",\"evidence\":\"메뉴: 명동 파스타 / 표시 가격: 19,500원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13390,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":128,"reasoning_output_tokens":0}}

@@ -1,0 +1,9 @@
+@charset "UTF-8";@media (prefers-color-scheme:dark){/* 다크모드 대응 */
+  .layer_socialshare .inner_layer{background-color:#1C1E21;}
+  .layer_socialshare .tit_layer{color:#fff;}
+  .layer_socialshare .ico_close{background-position:-260px -20px;}
+  .layer_socialshare .btn_share{color:#fff;}
+  .layer_socialshare .txt_url{border-color:#4c4c4c;color:#fff;}
+  .layer_socialshare .btn_copyurl{background-color:#2C2E33;}
+  .layer_socialshare .txt_copymessage{color:#000;background-color:#F2F4F7;}
+  .layer_socialshare .inner_layer{box-shadow:0 4px 32px 0 rgba(0,0,0,0.32);} }

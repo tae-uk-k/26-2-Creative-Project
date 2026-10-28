@@ -1,0 +1,8 @@
+{
+  "spearman_rho": 0.5984714650819749,
+  "area_blocked_permutation_p": 0.0005999400059994001,
+  "independent_stores": 28,
+  "permutations": 10000,
+  "causal": false,
+  "scope": "Descriptive purposive cohort; all counts from Diningcode; not Google"
+}

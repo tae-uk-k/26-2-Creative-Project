@@ -1,0 +1,487 @@
+﻿run_id,event_index,kind,action_json,results_count
+GEO26-codex-SS-vegan-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 비건 식당 포리스트키친 발우공양 마히나 비건 지도"", ""성수 비건 식당 몽크스부처 서울숲 플랜튜드 현재 영업"", ""서울숲 성수 비건 식당 지도 카무플라주 레이지파머스""]}",23
+GEO26-codex-SS-vegan-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/성수%20비건%20식당""}",3
+GEO26-agy-MW-general-R1,3,agy_search_web,"{""query"": ""서울 망원동 망원시장 맛집 식당""}",
+GEO26-agy-MW-general-R1,4,agy_search_web,"{""query"": ""서울 망원동 망원시장 맛집 식당""}",
+GEO26-agy-MW-general-R1,6,agy_search_web,"{""query"": ""\""망원동 즉석우동\"" \""일등식당\"" \""홍두깨손칼국수\"" \""청어람\"" 망원동 주소 영업시간""}",
+GEO26-agy-MW-general-R1,7,agy_search_web,"{""query"": ""\""망원동 즉석우동\"" \""일등식당\"" \""홍두깨손칼국수\"" \""청어람\"" 망원동 주소 영업시간""}",
+GEO26-agy-MW-general-R1,9,agy_search_web,"{""query"": ""\""소바식당\"" 망원동 주소 영업시간 메밀국수""}",
+GEO26-agy-MW-general-R1,10,agy_search_web,"{""query"": ""\""소바식당\"" 망원동 주소 영업시간 메밀국수""}",
+GEO26-agy-MD-general-R1,3,agy_search_web,"{""query"": ""서울 명동 맛집 식당 추천 미쉐린 칼국수 돈까스""}",
+GEO26-agy-MD-general-R1,4,agy_search_web,"{""query"": ""서울 명동 맛집 식당 추천 미쉐린 칼국수 돈까스""}",
+GEO26-agy-MD-general-R1,6,agy_search_web,"{""query"": ""서울 명동 미쉐린 가이드 빕구르망 식당""}",
+GEO26-agy-MD-general-R1,7,agy_search_web,"{""query"": ""서울 명동 미쉐린 가이드 빕구르망 식당""}",
+GEO26-agy-MD-general-R1,9,agy_search_web,"{""query"": ""명동 하동관 본점 주소 영업시간""}",
+GEO26-agy-MD-general-R1,10,agy_search_web,"{""query"": ""명동 하동관 본점 주소 영업시간""}",
+GEO26-agy-MD-general-R1,12,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc3yOKw_Bvk7sqaw8u4EsoXTY5C-H5ppM3OYWZ0MB3icHr301DLzSl-d9g1JT7lXhHW5AOW-nDA0LoViQJOddCCQezFLdL_QLgykGuS2Bxy96WP6DZBG2VjFUgQNY8vWg3b507h_M2xUFmRhj-tvQkCvWGLpmEz3GrqttYwCEHw59JJfNVSkZK""}",
+GEO26-agy-MD-general-R1,13,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc3yOKw_Bvk7sqaw8u4EsoXTY5C-H5ppM3OYWZ0MB3icHr301DLzSl-d9g1JT7lXhHW5AOW-nDA0LoViQJOddCCQezFLdL_QLgykGuS2Bxy96WP6DZBG2VjFUgQNY8vWg3b507h_M2xUFmRhj-tvQkCvWGLpmEz3GrqttYwCEHw59JJfNVSkZK""}",
+GEO26-codex-SS-vegan-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 비건 식당 플랜튜드 포리스트키친 네이버 지도"", ""성수 서울숲 비건 식당 푸드더즈매터 몽크스부처""]}",26
+GEO26-codex-SS-vegan-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""Seongsu vegan restaurant happycow Seoul Forest vegan""}",30
+GEO26-codex-SS-vegan-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-vegan-R1,10,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/코스모스상점%20성수""}",3
+GEO26-agy-SS-budget-R1,3,agy_search_web,"{""query"": ""성수 서울숲 1만원 이하 맛집 혼밥""}",
+GEO26-agy-SS-budget-R1,4,agy_search_web,"{""query"": ""성수 서울숲 1만원 이하 맛집 혼밥""}",
+GEO26-agy-SS-budget-R1,6,agy_search_web,"{""query"": ""성수동 서울숲 뚝섬 김밥 칼국수 국밥 10000원 이하""}",
+GEO26-agy-SS-budget-R1,7,agy_search_web,"{""query"": ""성수동 서울숲 뚝섬 김밥 칼국수 국밥 10000원 이하""}",
+GEO26-agy-SS-budget-R1,9,agy_search_web,"{""query"": ""\""이오김밥\"" \""서울숲\"" 가격 네이버 지도""}",
+GEO26-agy-SS-budget-R1,10,agy_search_web,"{""query"": ""\""이오김밥\"" \""서울숲\"" 가격 네이버 지도""}",
+GEO26-agy-SS-general-R1,3,agy_search_web,"{""query"": ""성수동 서울숲 맛집 식당 추천 2026 2025""}",
+GEO26-agy-SS-general-R1,4,agy_search_web,"{""query"": ""성수동 서울숲 맛집 식당 추천 2026 2025""}",
+GEO26-agy-SS-general-R1,6,agy_search_web,"{""query"": ""\""할머니의 레시피\"" 성수 주소 영업시간 네이버 지도""}",
+GEO26-agy-SS-general-R1,7,agy_search_web,"{""query"": ""\""할머니의 레시피\"" 성수 주소 영업시간 네이버 지도""}",
+GEO26-agy-SS-general-R1,9,agy_search_web,"{""query"": ""\""제스티살룬 성수\"" \""온량\"" 성수 주소 영업시간 네이버 지도""}",
+GEO26-agy-SS-general-R1,10,agy_search_web,"{""query"": ""\""제스티살룬 성수\"" \""온량\"" 성수 주소 영업시간 네이버 지도""}",
+GEO26-codex-MW-reservation-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 식당 예약 캐치테이블 네이버 지도"", ""망원시장 식당 예약 테이블링 예약 가능""]}",21
+GEO26-codex-MW-reservation-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""타코닷\"" \""예약\"" \""map.naver.com\""""}",10
+GEO26-codex-MW-reservation-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/entry/place/1703442977""}",2
+GEO26-codex-MD-general-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동교자 본점 구글 지도 영업시간 주소"", ""명동 하동관 미성옥 카카오맵 영업시간""]}",20
+GEO26-codex-MD-general-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""명동교자 하동관 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps""}",19
+GEO26-codex-MD-general-R1,8,codex_web_search,"{""type"": ""other""}",4
+GEO26-codex-SS-solo-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 혼밥 1인 바 좌석 라멘 네이버 지도"", ""성수 서울숲 혼밥 1인 주문 쵸리상경 면공방"", ""서울숲 혼밥 라멘 멘야코노하 영업시간 주소""]}",23
+GEO26-codex-SS-solo-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://pueee-everything.tistory.com/533""}",4
+GEO26-codex-SS-solo-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/멘야코노하%20성수""}",2
+GEO26-codex-MD-vegan-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 비건 식당 비건키친 지도"", ""Myeongdong vegan restaurant Osegyehyang Google Maps vegan"", ""명동 남산 비건 레스토랑 몽크스부처 플랜튜드""]}",32
+GEO26-codex-MD-vegan-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://spinach.guide/venues/osegye-hyang-215555/""}",3
+GEO26-codex-MD-vegan-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""http://www.go5.co.kr/default/""}",2
+GEO26-codex-MW-vegan-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원 비건 식당 지도 어라운드그린 비건키친"", ""Mangwon vegan restaurant Google Maps restaurant"", ""망원동 비건 식당 순수한둠 운영""]}",33
+GEO26-codex-MW-vegan-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://restaurantguru.com/amp/Around-Green-Seoul""}",5
+GEO26-codex-MW-vegan-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://pul.cargo.site""}",1
+GEO26-codex-MD-parking-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 식당 전용 주차 무료 주차 세종호텔 왕비집 일품향 주차"", ""명동 남산동 목멱산방 주차 남산돈까스 전용주차 네이버 지도"", ""명동 라연 도림 롯데호텔서울 주차 레스토랑 공식""]}",28
+GEO26-codex-MD-parking-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://yeogimeokja.com/c/4-1cf784df-1ojx""}",3
+GEO26-codex-MD-parking-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-SS-general-R2,3,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 추천 2026""}",
+GEO26-agy-SS-general-R2,4,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 추천 2026""}",
+GEO26-agy-SS-general-R2,6,agy_search_web,"{""query"": ""\""난포\"" \""할머니의 레시피\"" \""제스티살룬\"" 성수 영업 서울숲""}",
+GEO26-agy-SS-general-R2,7,agy_search_web,"{""query"": ""\""난포\"" \""할머니의 레시피\"" \""제스티살룬\"" 성수 영업 서울숲""}",
+GEO26-agy-SS-general-R2,9,agy_search_web,"{""query"": ""\""팩피\"" 성수동 서울숲 파스타 영업 주소""}",
+GEO26-agy-SS-general-R2,10,agy_search_web,"{""query"": ""\""팩피\"" 성수동 서울숲 파스타 영업 주소""}",
+GEO26-agy-MW-reservation-R1,3,agy_search_web,"{""query"": ""망원동 망원시장 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-MW-reservation-R1,4,agy_search_web,"{""query"": ""망원동 망원시장 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-MW-reservation-R1,6,agy_search_web,"{""query"": ""망원동 캐치테이블 예약 식당 파스타 와인바""}",
+GEO26-agy-MW-reservation-R1,7,agy_search_web,"{""query"": ""망원동 캐치테이블 예약 식당 파스타 와인바""}",
+GEO26-agy-MW-reservation-R1,9,agy_search_web,"{""query"": ""망원동 식당 네이버 예약 한식 일식 양식""}",
+GEO26-agy-MW-reservation-R1,10,agy_search_web,"{""query"": ""망원동 식당 네이버 예약 한식 일식 양식""}",
+GEO26-agy-MW-reservation-R1,12,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016""}",
+GEO26-agy-MW-reservation-R1,13,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016""}",
+GEO26-agy-MW-reservation-R1,15,agy_read_url_content,"{""Url"": ""https://tistory.com""}",
+GEO26-agy-MW-reservation-R1,16,agy_read_url_content,"{""Url"": ""https://tistory.com""}",
+GEO26-codex-MW-solo-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 혼밥 1인 바 좌석 헤키"", ""망원시장 혼밥 1인 식사 우이락"", ""망원동 혼밥 식당 바석 네이버 지도""]}",20
+GEO26-codex-MW-solo-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://wirbel.tistory.com/m/1254""}",3
+GEO26-codex-MW-solo-R1,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-MD-solo-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 혼밥 명동교자 미성옥 이남장 1인 바 좌석 영업시간"", ""명동 혼밥 혼자 바 좌석 1인 식사 구글 지도""]}",23
+GEO26-codex-MD-solo-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""혼고집 명동\"" (site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps)""}",4
+GEO26-codex-MD-solo-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://unicellular.tistory.com/m/2163""}",3
+GEO26-agy-MD-solo-R1,3,agy_search_web,"{""query"": ""서울 명동 혼밥 식당 1인 2026""}",
+GEO26-agy-MD-solo-R1,4,agy_search_web,"{""query"": ""서울 명동 혼밥 식당 1인 2026""}",
+GEO26-agy-MD-solo-R1,6,agy_search_web,"{""query"": ""\""혼고집\"" 명동 1인 불판 혼밥 네이버 플레이스""}",
+GEO26-agy-MD-solo-R1,7,agy_search_web,"{""query"": ""\""혼고집\"" 명동 1인 불판 혼밥 네이버 플레이스""}",
+GEO26-agy-MD-solo-R1,9,agy_search_web,"{""query"": ""\""명동돈가스\"" 주소 다찌 1인석""}",
+GEO26-agy-MD-solo-R1,10,agy_search_web,"{""query"": ""\""명동돈가스\"" 주소 다찌 1인석""}",
+GEO26-agy-MD-budget-R1,3,agy_search_web,"{""query"": ""서울 명동 1만원 이하 맛집 식당 혼밥 2026 OR 2025""}",
+GEO26-agy-MD-budget-R1,4,agy_search_web,"{""query"": ""서울 명동 1만원 이하 맛집 식당 혼밥 2026 OR 2025""}",
+GEO26-agy-MD-budget-R1,6,agy_search_web,"{""query"": ""명동 을지로입구 국밥 칼국수 백반 10000원 이하 혼밥""}",
+GEO26-agy-MD-budget-R1,7,agy_search_web,"{""query"": ""명동 을지로입구 국밥 칼국수 백반 10000원 이하 혼밥""}",
+GEO26-agy-MD-budget-R1,9,agy_search_web,"{""query"": ""명동 충무로 가성비 밥집 \""10,000원\"" 이하 혼밥 식당""}",
+GEO26-agy-MD-budget-R1,10,agy_search_web,"{""query"": ""명동 충무로 가성비 밥집 \""10,000원\"" 이하 혼밥 식당""}",
+GEO26-codex-SS-group-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 \""6인\"" \""테이블\"""", ""성수 서울숲 식당 \""6명\"" \""네이버\"" 예약""]}",18
+GEO26-codex-SS-group-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""어부가 성수 르베지왕 성수공간 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com""}",15
+GEO26-codex-SS-group-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.diningcode.com/profile.php?rid=mWEv9Eap9L7l""}",3
+GEO26-agy-MW-budget-R1,3,agy_search_web,"{""query"": ""망원시장 망원동 1만원 이하 식당 맛집 칼국수 국밥""}",
+GEO26-agy-MW-budget-R1,4,agy_search_web,"{""query"": ""망원시장 망원동 1만원 이하 식당 맛집 칼국수 국밥""}",
+GEO26-agy-MW-budget-R1,6,agy_search_web,"{""query"": ""망원 홍두깨손칼국수 고향집 네이버지도 카카오맵 메뉴 영업시간""}",
+GEO26-agy-MW-budget-R1,7,agy_search_web,"{""query"": ""망원 홍두깨손칼국수 고향집 네이버지도 카카오맵 메뉴 영업시간""}",
+GEO26-agy-MW-budget-R1,9,agy_search_web,"{""query"": ""망원시장 고향집 칼국수 주소 영업시간 네이버지도""}",
+GEO26-agy-MW-budget-R1,10,agy_search_web,"{""query"": ""망원시장 고향집 칼국수 주소 영업시간 네이버지도""}",
+GEO26-codex-MD-reservation-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 식당 예약 네이버지도 캐치테이블 명동교자 모도우 한우 다이닝"", ""Myeongdong restaurant reservations official Wangbijib La Yeon reservation""]}",26
+GEO26-codex-MD-reservation-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""왕비집 명동중앙점\"" (\""map.naver.com\"" OR \""place.map.kakao.com\"" OR \""google.com/maps\"")""}",2
+GEO26-codex-MD-reservation-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-MD-reservation-R1,3,agy_search_web,"{""query"": ""서울 명동 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-MD-reservation-R1,4,agy_search_web,"{""query"": ""서울 명동 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-MD-reservation-R1,6,agy_search_web,"{""query"": ""site:catchtable.co.kr 명동 맛집 예약""}",
+GEO26-agy-MD-reservation-R1,7,agy_search_web,"{""query"": ""site:catchtable.co.kr 명동 맛집 예약""}",
+GEO26-agy-MD-reservation-R1,9,agy_search_web,"{""query"": ""\""하이디라오 명동\"" 예약 OR \""룸식당\"" \""명동\"" 네이버예약""}",
+GEO26-agy-MD-reservation-R1,10,agy_search_web,"{""query"": ""\""하이디라오 명동\"" 예약 OR \""룸식당\"" \""명동\"" 네이버예약""}",
+GEO26-agy-MD-reservation-R1,12,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOwH1LN6nSQ2K4wMi2GOj-8OJ-pOiujpcMNeCe24Sen6sielHMnHUSrkQYwgvE23QMQdB5588X0Yg94Ms45NseINJTz_fUXniFPMOtVR1LGbPmxB3HsQ==""}",
+GEO26-agy-MD-reservation-R1,13,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOwH1LN6nSQ2K4wMi2GOj-8OJ-pOiujpcMNeCe24Sen6sielHMnHUSrkQYwgvE23QMQdB5588X0Yg94Ms45NseINJTz_fUXniFPMOtVR1LGbPmxB3HsQ==""}",
+GEO26-codex-MW-child-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 망원시장 아이랑 식당 우동 돈까스 네이버 지도"", ""망원동 헤키 우이락 아이 아기의자 영업시간"", ""망원동 망원시장 만두 칼국수 아이 식당 영업시간""]}",22
+GEO26-codex-MW-child-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://naver.me/IxD7weGU""}",4
+GEO26-codex-MW-child-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-budget-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""성수 서울숲 10000원 이하 혼밥 식당 국밥 김밥 2026 가격 네이버 지도""}",6
+GEO26-codex-SS-budget-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 행복한식당 홍보석 2026 메뉴 가격 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com"", ""성수 행복한식당 홍보석 2026 메뉴 가격 영업시간 혼밥""]}",24
+GEO26-codex-SS-budget-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-MD-budget-R2,3,agy_search_web,"{""query"": ""명동 가성비 맛집 1만원 이하 식당""}",
+GEO26-agy-MD-budget-R2,4,agy_search_web,"{""query"": ""명동 가성비 맛집 1만원 이하 식당""}",
+GEO26-agy-MD-budget-R2,6,agy_search_web,"{""query"": ""명동 틈새라면 본점 가격 1인 식사""}",
+GEO26-agy-MD-budget-R2,7,agy_search_web,"{""query"": ""명동 틈새라면 본점 가격 1인 식사""}",
+GEO26-agy-MD-budget-R2,9,agy_search_web,"{""query"": ""명동 야마야 가쓰돈 또는 가성비 국밥 10000원 이하""}",
+GEO26-agy-MD-budget-R2,10,agy_search_web,"{""query"": ""명동 야마야 가쓰돈 또는 가성비 국밥 10000원 이하""}",
+GEO26-agy-MD-budget-R2,12,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.gemini\\antigravity-cli\\builtin\\skills\\antigravity_guide\\SKILL.md""}",
+GEO26-agy-MD-budget-R2,13,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.gemini\\antigravity-cli\\builtin\\skills\\antigravity_guide\\SKILL.md""}",
+GEO26-agy-SS-budget-R2,3,agy_search_web,"{""query"": ""성수동 서울숲 혼밥 1만원 이하 식당""}",
+GEO26-agy-SS-budget-R2,4,agy_search_web,"{""query"": ""성수동 서울숲 혼밥 1만원 이하 식당""}",
+GEO26-agy-SS-budget-R2,6,agy_search_web,"{""query"": ""성수 서울숲 백반 국밥 분식 1만원 이하 식당""}",
+GEO26-agy-SS-budget-R2,7,agy_search_web,"{""query"": ""성수 서울숲 백반 국밥 분식 1만원 이하 식당""}",
+GEO26-agy-SS-budget-R2,9,agy_search_web,"{""query"": ""비사벌전주콩나물국밥 성수 가격 메뉴""}",
+GEO26-agy-SS-budget-R2,10,agy_search_web,"{""query"": ""비사벌전주콩나물국밥 성수 가격 메뉴""}",
+GEO26-agy-MW-solo-R1,3,agy_search_web,"{""query"": ""서울 망원동 망원시장 혼밥 1인 식당 추천 바 테이블 카운터석""}",
+GEO26-agy-MW-solo-R1,4,agy_search_web,"{""query"": ""서울 망원동 망원시장 혼밥 1인 식당 추천 바 테이블 카운터석""}",
+GEO26-agy-MW-solo-R1,6,agy_search_web,"{""query"": ""\""망원시장\"" 혼밥 식당 네이버 지도 카카오맵""}",
+GEO26-agy-MW-solo-R1,7,agy_search_web,"{""query"": ""\""망원시장\"" 혼밥 식당 네이버 지도 카카오맵""}",
+GEO26-agy-MW-solo-R1,9,agy_read_url_content,"{""Url"": ""https://iknowhere.co.kr/105""}",
+GEO26-agy-MW-solo-R1,10,agy_read_url_content,"{""Url"": ""https://iknowhere.co.kr/105""}",
+GEO26-codex-MW-parking-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 식당 주차 가능 전용 주차 망원시장"", ""망원동 식당 \""주차\"" \""제휴\"" "", ""망원동 식당 \""주차장\"" \""전용\""""]}",29
+GEO26-codex-MW-parking-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/마포밤바다""}",5
+GEO26-agy-MW-parking-R1,3,agy_search_web,"{""query"": ""\""망원동\"" OR \""망원시장\"" 식당 \""주차 가능\"" OR \""전용 주차\"" OR \""무료 주차\"" 맛집""}",
+GEO26-agy-MW-parking-R1,4,agy_search_web,"{""query"": ""\""망원동\"" OR \""망원시장\"" 식당 \""주차 가능\"" OR \""전용 주차\"" OR \""무료 주차\"" 맛집""}",
+GEO26-agy-MW-parking-R1,6,agy_search_web,"{""query"": ""site:blog.naver.com 망원동 식당 \""주차 가능\"" OR \""가게 앞 주차\"" OR \""발렛\""""}",
+GEO26-agy-MW-parking-R1,7,agy_search_web,"{""query"": ""site:blog.naver.com 망원동 식당 \""주차 가능\"" OR \""가게 앞 주차\"" OR \""발렛\""""}",
+GEO26-agy-MW-parking-R1,9,agy_search_web,"{""query"": ""망원동 맛집 \""전용주차장\"" OR \""무료주차\"" 식당""}",
+GEO26-agy-MW-parking-R1,10,agy_search_web,"{""query"": ""망원동 맛집 \""전용주차장\"" OR \""무료주차\"" 식당""}",
+GEO26-agy-MD-vegan-R1,3,agy_search_web,"{""query"": ""명동 비건 식당 채식 비건옵션""}",
+GEO26-agy-MD-vegan-R1,4,agy_search_web,"{""query"": ""명동 비건 식당 채식 비건옵션""}",
+GEO26-agy-MD-vegan-R1,6,agy_search_web,"{""query"": ""\""명동\"" \""비건키친\"" 주소 메뉴 영업""}",
+GEO26-agy-MD-vegan-R1,7,agy_search_web,"{""query"": ""\""명동\"" \""비건키친\"" 주소 메뉴 영업""}",
+GEO26-agy-MD-vegan-R1,9,agy_search_web,"{""query"": ""\""명동\"" \""채식\"" OR \""비건\"" 식당 네이버 플레이스 카카오맵""}",
+GEO26-agy-MD-vegan-R1,10,agy_search_web,"{""query"": ""\""명동\"" \""채식\"" OR \""비건\"" 식당 네이버 플레이스 카카오맵""}",
+GEO26-codex-SS-budget-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 혼밥 10000원 2026 뚝도농원 소문난성수감자탕 성수동 분식 가격"", ""서울숲 성수 식당 8000원 9000원 혼밥 메뉴 가격 2026 네이버 지도""]}",21
+GEO26-codex-SS-budget-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""성수옥\"" \""서울숲\"" \""네이버\"" 지도""}",4
+GEO26-codex-SS-budget-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-budget-R1,10,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/성수옥%20서울숲점""}",3
+GEO26-codex-SS-parking-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 전용 주차 제휴 주차 네이버 지도"", ""서울숲 한우 주차 발렛 성수 식당 주차 가능"", ""성수동 식당 전용주차 소문난성수감자탕 대성갈비 누메로도스""]}",22
+GEO26-codex-SS-parking-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://gajaseoul.com/ko/store/qua_seongsu""}",3
+GEO26-codex-SS-parking-R1,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-SS-child-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""서울숲 성수 가족 아이 동반 소바식당 온량 델리쎄 네이버 지도 메뉴""}",22
+GEO26-codex-SS-child-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""서울숲 온량 유아의자 아이 동반 돈까스 네이버 지도"", ""성수 서울숲 식당 \""유아의자\"" \""map.naver.com\""""]}",33
+GEO26-codex-SS-child-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/entry/place/1049183236""}",4
+GEO26-codex-MW-budget-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원시장 식당 혼밥 10000원 홍두깨손칼국수 고향집 메뉴 가격 지도"", ""망원동 망원시장 식당 1인 식사 메뉴 가격 2026 네이버 지도 카카오맵""]}",25
+GEO26-codex-MW-budget-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""망원\"" \""홍두깨손칼국수\"" 가격 영업시간""}",14
+GEO26-codex-MW-budget-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/홍두깨손칼국수""}",3
+GEO26-codex-MW-budget-R2,10,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-SS-general-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 네이버 지도 카카오맵 난포 쵸리상경"", ""성수 서울숲 식당 현재 영업 서울앵무새 소문난성수감자탕"", ""서울숲 식당 난포 쵸리상경 서울숲정원 영업시간 주소""]}",23
+GEO26-codex-SS-general-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com""}",4
+GEO26-codex-SS-general-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MD-budget-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 혼밥 10000원 미만 이삭토스트 명동성당점 김밥천국 명동역점 가격 영업"", ""명동 충무김밥 2026 가격 10000"", ""명동 할머니국수 2026 메뉴 가격 영업""]}",31
+GEO26-codex-MD-budget-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/명동충무김밥""}",3
+GEO26-codex-MD-budget-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://dinner.ambitstock.com/myeongdong/category/korean""}",1
+GEO26-codex-MD-budget-R1,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-agy-MD-child-R2,3,agy_search_web,"{""query"": ""명동 아이랑 식당 아이 동반 맛집 안매운 메뉴""}",
+GEO26-agy-MD-child-R2,4,agy_search_web,"{""query"": ""명동 아이랑 식당 아이 동반 맛집 안매운 메뉴""}",
+GEO26-agy-MD-child-R2,6,agy_search_web,"{""query"": ""\""딘타이펑 명동점\"" \""아기의자\"" OR \""아이\"" 서울 중구 명동""}",
+GEO26-agy-MD-child-R2,7,agy_search_web,"{""query"": ""\""딘타이펑 명동점\"" \""아기의자\"" OR \""아이\"" 서울 중구 명동""}",
+GEO26-agy-MD-child-R2,9,agy_search_web,"{""query"": ""\""하동관 명동본점\"" 주소 영업시간 아이 곰탕""}",
+GEO26-agy-MD-child-R2,10,agy_search_web,"{""query"": ""\""하동관 명동본점\"" 주소 영업시간 아이 곰탕""}",
+GEO26-agy-MW-group-R1,3,agy_search_web,"{""query"": ""망원동 망원시장 맛집 6인 테이블 식당 단체석""}",
+GEO26-agy-MW-group-R1,4,agy_search_web,"{""query"": ""망원동 망원시장 맛집 6인 테이블 식당 단체석""}",
+GEO26-agy-MW-group-R1,6,agy_search_web,"{""query"": ""망원동 \""청어람\"" 망원본점 6인 단체석 테이블 네이버 지도""}",
+GEO26-agy-MW-group-R1,7,agy_search_web,"{""query"": ""망원동 \""청어람\"" 망원본점 6인 단체석 테이블 네이버 지도""}",
+GEO26-agy-MW-group-R1,9,agy_search_web,"{""query"": ""망원동 식당 \""6인\"" \""한 테이블\"" OR \""6인석\"" 망원시장 네이버 플레이스""}",
+GEO26-agy-MW-group-R1,10,agy_search_web,"{""query"": ""망원동 식당 \""6인\"" \""한 테이블\"" OR \""6인석\"" 망원시장 네이버 플레이스""}",
+GEO26-agy-MW-reservation-R2,3,agy_search_web,"{""query"": ""망원동 식당 캐치테이블 예약 네이버예약""}",
+GEO26-agy-MW-reservation-R2,4,agy_search_web,"{""query"": ""망원동 식당 캐치테이블 예약 네이버예약""}",
+GEO26-agy-MW-reservation-R2,6,agy_search_web,"{""query"": ""망원동 망원시장 \""네이버 예약\"" 식당 맛집""}",
+GEO26-agy-MW-reservation-R2,7,agy_search_web,"{""query"": ""망원동 망원시장 \""네이버 예약\"" 식당 맛집""}",
+GEO26-agy-MW-reservation-R2,9,agy_search_web,"{""query"": ""망원동 \""레이키친\"" 네이버 지도""}",
+GEO26-agy-MW-reservation-R2,10,agy_search_web,"{""query"": ""망원동 \""레이키친\"" 네이버 지도""}",
+GEO26-agy-MW-reservation-R2,12,agy_read_url_content,"{""Url"": ""https://naver.me/5LQ1XmWk""}",
+GEO26-agy-MW-reservation-R2,13,agy_read_url_content,"{""Url"": ""https://naver.me/5LQ1XmWk""}",
+GEO26-agy-MW-vegan-R2,3,agy_search_web,"{""query"": ""서울 망원동 망원시장 비건 식당 채식""}",
+GEO26-agy-MW-vegan-R2,4,agy_search_web,"{""query"": ""서울 망원동 망원시장 비건 식당 채식""}",
+GEO26-agy-MW-vegan-R2,6,agy_search_web,"{""query"": ""망원동 어라운드그린 다이너재키 영업 여부 2025 2026""}",
+GEO26-agy-MW-vegan-R2,7,agy_search_web,"{""query"": ""망원동 어라운드그린 다이너재키 영업 여부 2025 2026""}",
+GEO26-agy-MW-vegan-R2,9,agy_search_web,"{""query"": ""망원동 비건 식당 네이버 지도 카카오맵 2025 2026""}",
+GEO26-agy-MW-vegan-R2,10,agy_search_web,"{""query"": ""망원동 비건 식당 네이버 지도 카카오맵 2025 2026""}",
+GEO26-agy-MW-vegan-R2,12,agy_read_url_content,"{""Url"": ""https://street-h.com/magazine/164741""}",
+GEO26-agy-MW-vegan-R2,13,agy_read_url_content,"{""Url"": ""https://street-h.com/magazine/164741""}",
+GEO26-agy-SS-reservation-R2,3,agy_search_web,"{""query"": ""서울 성수 서울숲 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-SS-reservation-R2,4,agy_search_web,"{""query"": ""서울 성수 서울숲 식당 예약 캐치테이블 네이버예약""}",
+GEO26-agy-SS-reservation-R2,6,agy_search_web,"{""query"": ""호호식당 성수 네이버 지도 네이버플레이스 서울 성동구 서울숲""}",
+GEO26-agy-SS-reservation-R2,7,agy_search_web,"{""query"": ""호호식당 성수 네이버 지도 네이버플레이스 서울 성동구 서울숲""}",
+GEO26-agy-SS-reservation-R2,9,agy_search_web,"{""query"": ""\""오레노카츠 성수본점\"" 네이버예약 서울 성동구 성수동""}",
+GEO26-agy-SS-reservation-R2,10,agy_search_web,"{""query"": ""\""오레노카츠 성수본점\"" 네이버예약 서울 성동구 성수동""}",
+GEO26-codex-MD-budget-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""명동 식당 2026 10000원 혼밥 김밥 라면 네이버지도 이삭토스트 명동교자""}",19
+GEO26-codex-MD-budget-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 충무김밥 가격 네이버 지도 식사"", ""명동 할머니국수 가격 영업시간 지도""]}",18
+GEO26-codex-MD-budget-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com""}",4
+GEO26-agy-SS-parking-R2,3,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 \""전용 주차\"" OR \""무료 주차\"" OR \""발렛\"" OR \""주차 지원\""""}",
+GEO26-agy-SS-parking-R2,4,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 \""전용 주차\"" OR \""무료 주차\"" OR \""발렛\"" OR \""주차 지원\""""}",
+GEO26-agy-SS-parking-R2,6,agy_search_web,"{""query"": ""\""고집132 성수본점\"" 주차""}",
+GEO26-agy-SS-parking-R2,7,agy_search_web,"{""query"": ""\""고집132 성수본점\"" 주차""}",
+GEO26-agy-SS-parking-R2,9,agy_search_web,"{""query"": ""\""살롱드호우섬\"" 디타워 주차 서울숲""}",
+GEO26-agy-SS-parking-R2,10,agy_search_web,"{""query"": ""\""살롱드호우섬\"" 디타워 주차 서울숲""}",
+GEO26-agy-MW-budget-R2,3,agy_search_web,"{""query"": ""서울 망원시장 망원동 가성비 맛집 혼밥 1만원 이하 식당 메뉴 가격""}",
+GEO26-agy-MW-budget-R2,4,agy_search_web,"{""query"": ""서울 망원시장 망원동 가성비 맛집 혼밥 1만원 이하 식당 메뉴 가격""}",
+GEO26-agy-MW-budget-R2,6,agy_search_web,"{""query"": ""망원시장 망원식당 고향집 홍두깨손칼국수 네이버 플레이스 메뉴 가격""}",
+GEO26-agy-MW-budget-R2,7,agy_search_web,"{""query"": ""망원시장 망원식당 고향집 홍두깨손칼국수 네이버 플레이스 메뉴 가격""}",
+GEO26-agy-MW-budget-R2,9,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\package.json""}",
+GEO26-agy-MW-budget-R2,10,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\package.json""}",
+GEO26-agy-MW-budget-R2,12,agy_search_web,"{""query"": ""망원시장 망원식당 주소 메뉴 가격""}",
+GEO26-agy-MW-budget-R2,13,agy_search_web,"{""query"": ""망원시장 망원식당 주소 메뉴 가격""}",
+GEO26-agy-SS-group-R1,3,agy_search_web,"{""query"": ""성수 서울숲 6명 한 테이블 식당 단체석 네이버 지도""}",
+GEO26-agy-SS-group-R1,4,agy_search_web,"{""query"": ""성수 서울숲 6명 한 테이블 식당 단체석 네이버 지도""}",
+GEO26-agy-SS-group-R1,6,agy_search_web,"{""query"": ""성수동 서울숲 \""6인\"" \""한 테이블\"" OR \""6명\"" 식당 단체석 예약 네이버 플레이스""}",
+GEO26-agy-SS-group-R1,7,agy_search_web,"{""query"": ""성수동 서울숲 \""6인\"" \""한 테이블\"" OR \""6명\"" 식당 단체석 예약 네이버 플레이스""}",
+GEO26-agy-SS-group-R1,9,agy_search_web,"{""query"": ""\""스케줄 성수\"" \""심퍼티쿠시 성수\"" 단체석 6인 네이버 지도""}",
+GEO26-agy-SS-group-R1,10,agy_search_web,"{""query"": ""\""스케줄 성수\"" \""심퍼티쿠시 성수\"" 단체석 6인 네이버 지도""}",
+GEO26-codex-MW-reservation-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""망원동 망원시장 식당 예약 네이버지도 캐치테이블 예약""}",24
+GEO26-codex-MW-reservation-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""망원 아벡재이 타코닷 예약 site:map.naver.com OR site:place.naver.com OR site:place.map.kakao.com OR site:google.com/maps""}",19
+GEO26-codex-MW-reservation-R1,8,codex_web_search,"{""type"": ""search"", ""query"": ""\""아벡재이\"" \""예약\"" \""2026\""""}",14
+GEO26-codex-MW-reservation-R1,10,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://superchart.com/ko/%40mealtime-calendar/mangwon-mexican-chimichanga-enchilada-lunch/""}",2
+GEO26-codex-SS-group-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 \""6인\"" \""예약\"" 네이버"", ""성수 서울숲 식당 \""6명\"" \""테이블\""""]}",18
+GEO26-codex-SS-group-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""호호식당 성수\"" \""map.naver.com\"" OR \""place.map.kakao.com\"" OR \""영업시간\"" \""룸\""""}",4
+GEO26-codex-SS-group-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MD-vegan-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""명동 비건 식당 비건키친 플랜튜드 남산 해방촌 지도 영업""}",24
+GEO26-codex-MD-vegan-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""Myeongdong vegan restaurant \""Vegan Kitchen\"" google maps"", ""명동 비건 키친 비건 인사동 오세계향 네이버 지도 영업시간""]}",30
+GEO26-codex-MD-vegan-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://gototravel.tw/seoul-vegan-kitchen/""}",2
+GEO26-codex-MD-vegan-R2,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MW-vegan-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""망원 비건 식당 비건식당 지도 우부래도 어라운드그린""}",27
+GEO26-codex-MW-vegan-R1,6,codex_web_search,"{""type"": ""search"", ""queries"": [""망원 어라운드그린 띵크비건 가원 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com"", ""망원 띵크비건 어라운드그린 2026 영업 비건""]}",16
+GEO26-codex-MW-vegan-R1,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-MW-vegan-R1,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MD-parking-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""명동 식당 주차 가능 전용주차 네이버 지도 일품향 동보성 세종호텔""}",19
+GEO26-codex-MD-parking-R1,6,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 주차 식당 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps"", ""명동 롯데호텔 도림 라세느 주차 3시간 레스토랑""]}",22
+GEO26-codex-MD-parking-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.lottehotel.com/seoul-hotel/ko/dining/restaurant-la-seine""}",2
+GEO26-agy-SS-parking-R1,3,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 \""전용 주차\"" OR \""무료 주차\"" OR \""제휴 주차\"" OR \""주차 지원\"" -카페""}",
+GEO26-agy-SS-parking-R1,4,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 \""전용 주차\"" OR \""무료 주차\"" OR \""제휴 주차\"" OR \""주차 지원\"" -카페""}",
+GEO26-agy-SS-parking-R1,6,agy_search_web,"{""query"": ""\""디타워 서울숲\"" OR \""디타워 서울포레스트\"" 맛집 식당 주차 지원 \""보일링랍스터\"" OR \""살롱드호우섬\"" OR \""중화가정\"" OR \""정돈성수\""""}",
+GEO26-agy-SS-parking-R1,7,agy_search_web,"{""query"": ""\""디타워 서울숲\"" OR \""디타워 서울포레스트\"" 맛집 식당 주차 지원 \""보일링랍스터\"" OR \""살롱드호우섬\"" OR \""중화가정\"" OR \""정돈성수\""""}",
+GEO26-agy-SS-parking-R1,9,agy_search_web,"{""query"": ""성수 식당 \""전용 주차장\"" OR \""발렛파킹\"" OR \""발렛\"" \""소문난성수감자탕\"" OR \""대성갈비\"" OR \""할머니의레시피\"" OR \""난포\""""}",
+GEO26-agy-SS-parking-R1,10,agy_search_web,"{""query"": ""성수 식당 \""전용 주차장\"" OR \""발렛파킹\"" OR \""발렛\"" \""소문난성수감자탕\"" OR \""대성갈비\"" OR \""할머니의레시피\"" OR \""난포\""""}",
+GEO26-agy-SS-parking-R1,12,agy_read_url_content,"{""Url"": ""https://www.visitseoul.net/restaurants/%EC%86%8C%EB%AC%B8%EB%82%9C%EC%84%B1%EC%88%98%EA%B0%90%EC%9E%90%ED%83%95_/25946""}",
+GEO26-agy-SS-parking-R1,13,agy_read_url_content,"{""Url"": ""https://www.visitseoul.net/restaurants/%EC%86%8C%EB%AC%B8%EB%82%9C%EC%84%B1%EC%88%98%EA%B0%90%EC%9E%90%ED%83%95_/25946""}",
+GEO26-agy-MD-general-R2,3,agy_search_web,"{""query"": ""서울 명동 맛집 식당 2026""}",
+GEO26-agy-MD-general-R2,4,agy_search_web,"{""query"": ""서울 명동 맛집 식당 2026""}",
+GEO26-agy-MD-general-R2,6,agy_search_web,"{""query"": ""네이버 지도 명동교자 본점 서울 중구 명동10길 29""}",
+GEO26-agy-MD-general-R2,7,agy_search_web,"{""query"": ""네이버 지도 명동교자 본점 서울 중구 명동10길 29""}",
+GEO26-agy-MD-general-R2,9,agy_search_web,"{""query"": ""하동관 명동본점 서울 중구 명동9길 12 미성옥 서울 중구 명동길 25-11""}",
+GEO26-agy-MD-general-R2,10,agy_search_web,"{""query"": ""하동관 명동본점 서울 중구 명동9길 12 미성옥 서울 중구 명동길 25-11""}",
+GEO26-agy-SS-vegan-R2,3,agy_search_web,"{""query"": ""서울 성수 서울숲 비건 식당 채식""}",
+GEO26-agy-SS-vegan-R2,4,agy_search_web,"{""query"": ""서울 성수 서울숲 비건 식당 채식""}",
+GEO26-agy-SS-vegan-R2,6,agy_search_web,"{""query"": ""성수 서울숲 비건 옵션 식당 칙피스 카나비""}",
+GEO26-agy-SS-vegan-R2,7,agy_search_web,"{""query"": ""성수 서울숲 비건 옵션 식당 칙피스 카나비""}",
+GEO26-agy-SS-vegan-R2,9,agy_search_web,"{""query"": ""칙피스 성수점 네이버 지도 영업""}",
+GEO26-agy-SS-vegan-R2,10,agy_search_web,"{""query"": ""칙피스 성수점 네이버 지도 영업""}",
+GEO26-agy-SS-vegan-R2,12,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtrTNOr_6M3WxSPIF12iWbJ2Ql4Ao26y-YiBPtE-IW6fwCNLZJyRh2CuEhudsTSl--wZMDJdb9vwHMA5bceRwh5jSj56uJ9CbzlE8tS6PoLnlWlEUYXgOFYxjlgEGkiKkdvQ==""}",
+GEO26-agy-SS-vegan-R2,13,agy_read_url_content,"{""Url"": ""https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtrTNOr_6M3WxSPIF12iWbJ2Ql4Ao26y-YiBPtE-IW6fwCNLZJyRh2CuEhudsTSl--wZMDJdb9vwHMA5bceRwh5jSj56uJ9CbzlE8tS6PoLnlWlEUYXgOFYxjlgEGkiKkdvQ==""}",
+GEO26-agy-SS-group-R2,3,agy_search_web,"{""query"": ""성수 서울숲 6인 단체 식당 한 테이블""}",
+GEO26-agy-SS-group-R2,4,agy_search_web,"{""query"": ""성수 서울숲 6인 단체 식당 한 테이블""}",
+GEO26-agy-SS-group-R2,6,agy_search_web,"{""query"": ""스케줄 성수 네이버 지도 6인 테이블 예약""}",
+GEO26-agy-SS-group-R2,7,agy_search_web,"{""query"": ""스케줄 성수 네이버 지도 6인 테이블 예약""}",
+GEO26-agy-SS-group-R2,9,agy_search_web,"{""query"": ""서우 서울숲 중식 네이버 지도 단체 룸""}",
+GEO26-agy-SS-group-R2,10,agy_search_web,"{""query"": ""서우 서울숲 중식 네이버 지도 단체 룸""}",
+GEO26-agy-SS-group-R2,12,agy_read_url_content,"{""Url"": ""https://naver.me/xFLsYvtK""}",
+GEO26-agy-SS-group-R2,13,agy_read_url_content,"{""Url"": ""https://naver.me/xFLsYvtK""}",
+GEO26-agy-MD-vegan-R2,3,agy_search_web,"{""query"": ""서울 명동 비건 식당 채식 비건옵션""}",
+GEO26-agy-MD-vegan-R2,4,agy_search_web,"{""query"": ""서울 명동 비건 식당 채식 비건옵션""}",
+GEO26-agy-MD-vegan-R2,6,agy_search_web,"{""query"": ""명동 비건 식당 \""비건키친\"" OR \""Korea Vegan Kitchen\""""}",
+GEO26-agy-MD-vegan-R2,7,agy_search_web,"{""query"": ""명동 비건 식당 \""비건키친\"" OR \""Korea Vegan Kitchen\""""}",
+GEO26-agy-MD-vegan-R2,9,agy_search_web,"{""query"": ""서울 중구 종로 비건 식당 \""오세계향\"" OR \""산촌\"" OR \""마지\"" 채식""}",
+GEO26-agy-MD-vegan-R2,10,agy_search_web,"{""query"": ""서울 중구 종로 비건 식당 \""오세계향\"" OR \""산촌\"" OR \""마지\"" 채식""}",
+GEO26-codex-MW-solo-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원 혼밥 식당 1인 바 좌석 헤키"", ""망원시장 혼밥 우이락 만두란 1인 식사"", ""망원동 혼밥 헤키 소금집 델리 카카오맵 영업""]}",25
+GEO26-codex-MW-solo-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://wirbel.tistory.com/m/1254""}",4
+GEO26-codex-MW-solo-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://app.catchtable.co.kr/ct/shop/haruheki""}",2
+GEO26-agy-SS-reservation-R1,3,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 네이버 예약 캐치테이블 예약""}",
+GEO26-agy-SS-reservation-R1,4,agy_search_web,"{""query"": ""성수 서울숲 맛집 식당 네이버 예약 캐치테이블 예약""}",
+GEO26-agy-SS-reservation-R1,6,agy_search_web,"{""query"": ""성수 \""호호식당\"" 네이버 예약 서울 성동구 서울숲""}",
+GEO26-agy-SS-reservation-R1,7,agy_search_web,"{""query"": ""성수 \""호호식당\"" 네이버 예약 서울 성동구 서울숲""}",
+GEO26-agy-SS-reservation-R1,9,agy_search_web,"{""query"": ""성수 \""미테이블\"" 네이버 예약 성동구 서울숲""}",
+GEO26-agy-SS-reservation-R1,10,agy_search_web,"{""query"": ""성수 \""미테이블\"" 네이버 예약 성동구 서울숲""}",
+GEO26-codex-MW-budget-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원시장 식당 홍두깨손칼국수 만원 가격 네이버 지도"", ""망원동 망원시장 혼밥 10000원 우이락 망원동즉석우동 가격"", ""망원시장 망원동 맛집 한끼 가격 2026 2025 칼국수 국밥""]}",20
+GEO26-codex-MW-budget-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/망원시장손칼국수""}",4
+GEO26-codex-MW-budget-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-agy-MW-group-R2,3,agy_search_web,"{""query"": ""망원동 망원시장 맛집 6명 단체 테이블 한테이블 식당""}",
+GEO26-agy-MW-group-R2,4,agy_search_web,"{""query"": ""망원동 망원시장 맛집 6명 단체 테이블 한테이블 식당""}",
+GEO26-agy-MW-group-R2,6,agy_search_web,"{""query"": ""망원동 망원시장 6인 한 테이블 식당 네이버 지도 단체석""}",
+GEO26-agy-MW-group-R2,7,agy_search_web,"{""query"": ""망원동 망원시장 6인 한 테이블 식당 네이버 지도 단체석""}",
+GEO26-agy-MW-group-R2,9,agy_search_web,"{""query"": ""site:map.naver.com 망원동 식당 6인 단체 이용 가능""}",
+GEO26-agy-MW-group-R2,10,agy_search_web,"{""query"": ""site:map.naver.com 망원동 식당 6인 단체 이용 가능""}",
+GEO26-agy-MW-group-R2,12,agy_read_url_content,"{""Url"": ""https://esquirekorea.co.kr""}",
+GEO26-agy-MW-group-R2,13,agy_read_url_content,"{""Url"": ""https://esquirekorea.co.kr""}",
+GEO26-agy-MD-parking-R1,3,agy_search_web,"{""query"": ""서울 명동 맛집 식당 전용 주차 무료주차 발렛 제휴 주차""}",
+GEO26-agy-MD-parking-R1,4,agy_search_web,"{""query"": ""서울 명동 맛집 식당 전용 주차 무료주차 발렛 제휴 주차""}",
+GEO26-agy-MD-parking-R1,6,agy_search_web,"{""query"": ""명동정 주차 네이버 플레이스 카카오맵""}",
+GEO26-agy-MD-parking-R1,7,agy_search_web,"{""query"": ""명동정 주차 네이버 플레이스 카카오맵""}",
+GEO26-agy-MD-parking-R1,9,agy_search_web,"{""query"": ""\""주차 가능\"" 식당 명동 \""무료주차\"" OR \""주차 지원\"" -카페""}",
+GEO26-agy-MD-parking-R1,10,agy_search_web,"{""query"": ""\""주차 가능\"" 식당 명동 \""무료주차\"" OR \""주차 지원\"" -카페""}",
+GEO26-agy-SS-child-R1,3,agy_search_web,"{""query"": ""성수 서울숲 아이랑 식당 아기의자 안매운 메뉴""}",
+GEO26-agy-SS-child-R1,4,agy_search_web,"{""query"": ""성수 서울숲 아이랑 식당 아기의자 안매운 메뉴""}",
+GEO26-agy-SS-child-R1,6,agy_search_web,"{""query"": ""서울로인 서울숲점 네이버지도 위치 메뉴 운영""}",
+GEO26-agy-SS-child-R1,7,agy_search_web,"{""query"": ""서울로인 서울숲점 네이버지도 위치 메뉴 운영""}",
+GEO26-agy-SS-child-R1,9,agy_search_web,"{""query"": ""소녀방앗간 서울숲 정돈 성수점 주소 운영 메뉴""}",
+GEO26-agy-SS-child-R1,10,agy_search_web,"{""query"": ""소녀방앗간 서울숲 정돈 성수점 주소 운영 메뉴""}",
+GEO26-agy-SS-child-R1,12,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\dummy.txt""}",
+GEO26-agy-SS-child-R1,13,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\dummy.txt""}",
+GEO26-codex-SS-reservation-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""서울숲 성수 레스토랑 예약 네이버지도 캐치테이블"", ""성수 서울숲 식당 예약 카카오맵 구글맵 목금 세스크멘슬 란주쿠""]}",21
+GEO26-codex-SS-reservation-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""미테이블 성수 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com""}",17
+GEO26-codex-SS-reservation-R2,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-reservation-R2,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-agy-MD-parking-R2,3,agy_search_web,"{""query"": ""서울 명동 맛집 식당 무료 주차 전용주차 제휴주차""}",
+GEO26-agy-MD-parking-R2,4,agy_search_web,"{""query"": ""서울 명동 맛집 식당 무료 주차 전용주차 제휴주차""}",
+GEO26-agy-MD-parking-R2,6,agy_search_web,"{""query"": ""\""명동정\"" 주차 서울 중구 삼일대로""}",
+GEO26-agy-MD-parking-R2,7,agy_search_web,"{""query"": ""\""명동정\"" 주차 서울 중구 삼일대로""}",
+GEO26-agy-MD-parking-R2,9,agy_search_web,"{""query"": ""\""딘타이펑 명동점\"" 주차 증빙 지원""}",
+GEO26-agy-MD-parking-R2,10,agy_search_web,"{""query"": ""\""딘타이펑 명동점\"" 주차 증빙 지원""}",
+GEO26-agy-MD-parking-R2,12,agy_read_url_content,"{""Url"": ""https://korean.visitseoul.net/restaurants/%EB%AA%85%EB%8F%99%EC%A0%95_/25265""}",
+GEO26-agy-MD-parking-R2,13,agy_read_url_content,"{""Url"": ""https://korean.visitseoul.net/restaurants/%EB%AA%85%EB%8F%99%EC%A0%95_/25265""}",
+GEO26-agy-MW-solo-R2,3,agy_search_web,"{""query"": ""망원동 망원시장 혼밥 1인 식당""}",
+GEO26-agy-MW-solo-R2,4,agy_search_web,"{""query"": ""망원동 망원시장 혼밥 1인 식당""}",
+GEO26-agy-MW-solo-R2,6,agy_search_web,"{""query"": ""망원동 이치젠 텐동 망원시장 혼밥""}",
+GEO26-agy-MW-solo-R2,7,agy_search_web,"{""query"": ""망원동 이치젠 텐동 망원시장 혼밥""}",
+GEO26-agy-MW-solo-R2,9,agy_search_web,"{""query"": ""망원시장 고향집 칼국수 혼밥""}",
+GEO26-agy-MW-solo-R2,10,agy_search_web,"{""query"": ""망원시장 고향집 칼국수 혼밥""}",
+GEO26-agy-MW-solo-R2,12,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\test.txt""}",
+GEO26-agy-MW-solo-R2,13,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016\\test.txt""}",
+GEO26-agy-MW-child-R1,3,agy_search_web,"{""query"": ""망원동 망원시장 맛집 아이랑 식당 아이 메뉴""}",
+GEO26-agy-MW-child-R1,4,agy_search_web,"{""query"": ""망원동 망원시장 맛집 아이랑 식당 아이 메뉴""}",
+GEO26-agy-MW-child-R1,6,agy_search_web,"{""query"": ""망원동 아이랑 식당 돈까스 파스타 한식 망원시장""}",
+GEO26-agy-MW-child-R1,7,agy_search_web,"{""query"": ""망원동 아이랑 식당 돈까스 파스타 한식 망원시장""}",
+GEO26-agy-MW-child-R1,9,agy_search_web,"{""query"": ""망원동 즉석우동 홍두깨손칼국수 네이버 지도 주소 영업시간""}",
+GEO26-agy-MW-child-R1,10,agy_search_web,"{""query"": ""망원동 즉석우동 홍두깨손칼국수 네이버 지도 주소 영업시간""}",
+GEO26-agy-MD-solo-R2,3,agy_search_web,"{""query"": ""서울 명동 혼밥 1인 식당 추천""}",
+GEO26-agy-MD-solo-R2,4,agy_search_web,"{""query"": ""서울 명동 혼밥 1인 식당 추천""}",
+GEO26-agy-MD-solo-R2,6,agy_search_web,"{""query"": ""명동 혼고집 명동교자 명동돈가스 혼밥 카카오맵 네이버 지도""}",
+GEO26-agy-MD-solo-R2,7,agy_search_web,"{""query"": ""명동 혼고집 명동교자 명동돈가스 혼밥 카카오맵 네이버 지도""}",
+GEO26-agy-MD-solo-R2,9,agy_search_web,"{""query"": ""하동관 명동본점 혼밥 카카오맵 네이버 지도""}",
+GEO26-agy-MD-solo-R2,10,agy_search_web,"{""query"": ""하동관 명동본점 혼밥 카카오맵 네이버 지도""}",
+GEO26-codex-SS-general-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 네이버지도 카카오맵 난포 쵸리상경"", ""성수 서울숲 맛집 운영시간 주소 2026""]}",34
+GEO26-codex-SS-general-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""\""소문난성수감자탕\"" \""map.naver.com\"" \""place.map.kakao.com\"" 영업시간""}",2
+GEO26-codex-SS-general-R2,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-general-R2,10,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-SS-reservation-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 예약 네이버 지도 캐치테이블"", ""성수 서울숲 식당 예약 카카오맵 구글 지도""]}",32
+GEO26-codex-SS-reservation-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""스케줄 성수 서울숲 예약 영업시간 주소 캐치테이블""}",19
+GEO26-codex-SS-reservation-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-SS-reservation-R1,10,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-SS-solo-R1,3,agy_search_web,"{""query"": ""성수 서울숲 혼밥 식당 1인석""}",
+GEO26-agy-SS-solo-R1,4,agy_search_web,"{""query"": ""성수 서울숲 혼밥 식당 1인석""}",
+GEO26-agy-SS-solo-R1,6,agy_search_web,"{""query"": ""성수 멘야하나비 죠죠 카린지 혼밥 1인석""}",
+GEO26-agy-SS-solo-R1,7,agy_search_web,"{""query"": ""성수 멘야하나비 죠죠 카린지 혼밥 1인석""}",
+GEO26-agy-SS-solo-R1,9,agy_search_web,"{""query"": ""\""성수고등어\"" 서울 성동구 혼밥""}",
+GEO26-agy-SS-solo-R1,10,agy_search_web,"{""query"": ""\""성수고등어\"" 서울 성동구 혼밥""}",
+GEO26-agy-SS-solo-R1,12,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016""}",
+GEO26-agy-SS-solo-R1,13,agy_view_file,"{""AbsolutePath"": ""C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_geo_intents_20261016""}",
+GEO26-agy-SS-solo-R1,15,agy_read_url_content,"{""Url"": ""https://www.siksinhot.com/P/1517409""}",
+GEO26-agy-SS-solo-R1,16,agy_read_url_content,"{""Url"": ""https://www.siksinhot.com/P/1517409""}",
+GEO26-agy-SS-solo-R2,3,agy_search_web,"{""query"": ""성수 서울숲 혼밥 식당 바테이블 1인""}",
+GEO26-agy-SS-solo-R2,4,agy_search_web,"{""query"": ""성수 서울숲 혼밥 식당 바테이블 1인""}",
+GEO26-agy-SS-solo-R2,6,agy_search_web,"{""query"": ""\""도가 성수본점\"" 혼밥 바테이블 위치""}",
+GEO26-agy-SS-solo-R2,7,agy_search_web,"{""query"": ""\""도가 성수본점\"" 혼밥 바테이블 위치""}",
+GEO26-agy-SS-solo-R2,9,agy_search_web,"{""query"": ""\""멘야코노하 성수\"" OR \""윤경양식당\"" 성수 서울숲 혼밥 바테이블""}",
+GEO26-agy-SS-solo-R2,10,agy_search_web,"{""query"": ""\""멘야코노하 성수\"" OR \""윤경양식당\"" 성수 서울숲 혼밥 바테이블""}",
+GEO26-codex-MD-general-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동교자 명동본점 구글 지도 영업시간"", ""명동 하동관 미성옥 네이버 지도 영업시간"", ""명동 왕비집 본점 목멱산방 영업시간 공식""]}",20
+GEO26-codex-MD-general-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://naver.me/xhs0RpPw""}",5
+GEO26-codex-MD-general-R2,8,codex_web_search,"{""type"": ""other""}",1
+GEO26-agy-MD-child-R1,3,agy_search_web,"{""query"": ""서울 명동 아이랑 식당 불고기 칼국수 곰탕 덜 매운""}",
+GEO26-agy-MD-child-R1,4,agy_search_web,"{""query"": ""서울 명동 아이랑 식당 불고기 칼국수 곰탕 덜 매운""}",
+GEO26-agy-MD-child-R1,6,agy_search_web,"{""query"": ""하동관 본점 명동 영업시간 주소 메뉴""}",
+GEO26-agy-MD-child-R1,7,agy_search_web,"{""query"": ""하동관 본점 명동 영업시간 주소 메뉴""}",
+GEO26-agy-MD-child-R1,9,agy_search_web,"{""query"": ""명동교자 본점 서울 중구 명동10길 29 영업시간 칼국수 만두""}",
+GEO26-agy-MD-child-R1,10,agy_search_web,"{""query"": ""명동교자 본점 서울 중구 명동10길 29 영업시간 칼국수 만두""}",
+GEO26-agy-MD-child-R1,12,agy_read_url_content,"{""Url"": ""http://www.mdkj.co.kr""}",
+GEO26-agy-MD-child-R1,13,agy_read_url_content,"{""Url"": ""http://www.mdkj.co.kr""}",
+GEO26-codex-SS-parking-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 전용 주차 제휴 주차 네이버 지도"", ""성수동 서울숲 식당 주차 가능 발렛 전용주차"", ""서울숲 갤러리아포레 식당 주차 매드포갈릭 메종파이프""]}",24
+GEO26-codex-SS-parking-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/""}",3
+GEO26-codex-SS-parking-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-MD-reservation-R2,3,agy_search_web,"{""query"": ""서울 명동 식당 네이버 예약 캐치테이블 예약""}",
+GEO26-agy-MD-reservation-R2,4,agy_search_web,"{""query"": ""서울 명동 식당 네이버 예약 캐치테이블 예약""}",
+GEO26-agy-MD-reservation-R2,6,agy_search_web,"{""query"": ""명동 맛집 \""네이버 예약\"" site:map.naver.com OR site:catchtable.co.kr""}",
+GEO26-agy-MD-reservation-R2,7,agy_search_web,"{""query"": ""명동 맛집 \""네이버 예약\"" site:map.naver.com OR site:catchtable.co.kr""}",
+GEO26-agy-MD-reservation-R2,9,agy_search_web,"{""query"": ""\""강남면옥 명동점\"" \""명동정\"" \""왕비집 명동본점\"" 주소 네이버 예약""}",
+GEO26-agy-MD-reservation-R2,10,agy_search_web,"{""query"": ""\""강남면옥 명동점\"" \""명동정\"" \""왕비집 명동본점\"" 주소 네이버 예약""}",
+GEO26-agy-MD-reservation-R2,12,agy_read_url_content,"{""Url"": ""https://m.booking.naver.com/booking/6/bizes/76239""}",
+GEO26-agy-MD-reservation-R2,13,agy_read_url_content,"{""Url"": ""https://m.booking.naver.com/booking/6/bizes/76239""}",
+GEO26-codex-MD-solo-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 혼밥 1인석 이치란 라멘 명동교자 네이버 지도"", ""명동 혼밥 혼자 좌석 1인 주문 미성옥 하동관""]}",30
+GEO26-codex-MD-solo-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""명동교자 본점 영업시간 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps""}",20
+GEO26-codex-MD-solo-R1,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-codex-MW-general-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""망원동 망원시장 맛집 식당 네이버지도 카카오맵 영업시간 소금집 델리 헤키 청어람""}",19
+GEO26-codex-MW-general-R1,6,codex_web_search,"{""type"": ""search"", ""queries"": [""site.place.naver.com restaurant 망원 \""소금집\"""", ""site:place.map.kakao.com 망원 식당 타코닷 헤키 청어람""]}",18
+GEO26-codex-MW-general-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/entry/place/1956949040""}",3
+GEO26-agy-MW-general-R2,3,agy_search_web,"{""query"": ""망원동 망원시장 맛집 식당 추천""}",
+GEO26-agy-MW-general-R2,4,agy_search_web,"{""query"": ""망원동 망원시장 맛집 식당 추천""}",
+GEO26-agy-MW-general-R2,6,agy_search_web,"{""query"": ""망원동 \""일등식당\"" \""홍두깨손칼국수\"" \""우이락\"" 네이버 지도""}",
+GEO26-agy-MW-general-R2,7,agy_search_web,"{""query"": ""망원동 \""일등식당\"" \""홍두깨손칼국수\"" \""우이락\"" 네이버 지도""}",
+GEO26-agy-MW-general-R2,9,agy_search_web,"{""query"": ""망원동 식당 \""헤이로지\"" OR \""진진\"" OR \""태양식당\"" OR \""망원동즉석우동\"" 지도 주소""}",
+GEO26-agy-MW-general-R2,10,agy_search_web,"{""query"": ""망원동 식당 \""헤이로지\"" OR \""진진\"" OR \""태양식당\"" OR \""망원동즉석우동\"" 지도 주소""}",
+GEO26-agy-SS-vegan-R1,3,agy_search_web,"{""query"": ""성수 서울숲 비건 식당 식사""}",
+GEO26-agy-SS-vegan-R1,4,agy_search_web,"{""query"": ""성수 서울숲 비건 식당 식사""}",
+GEO26-agy-SS-vegan-R1,6,agy_search_web,"{""query"": ""성수동 비건 칡넝쿨식당 도토리묵""}",
+GEO26-agy-SS-vegan-R1,7,agy_search_web,"{""query"": ""성수동 비건 칡넝쿨식당 도토리묵""}",
+GEO26-agy-SS-vegan-R1,9,agy_search_web,"{""query"": ""\""코스모스상점\"" 성수 비건 버거""}",
+GEO26-agy-SS-vegan-R1,10,agy_search_web,"{""query"": ""\""코스모스상점\"" 성수 비건 버거""}",
+GEO26-agy-SS-vegan-R1,12,agy_read_url_content,"{""Url"": ""https://visitseoul.net""}",
+GEO26-agy-SS-vegan-R1,13,agy_read_url_content,"{""Url"": ""https://visitseoul.net""}",
+GEO26-codex-SS-solo-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 혼밥 라멘 바 좌석 1인 네이버 지도"", ""서울숲 혼밥 쵸리상경 1인 메뉴 영업"", ""성수 혼밥 멘야코노하 혼자 카운터 영업""]}",23
+GEO26-codex-SS-solo-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://peskiness.tistory.com/36""}",3
+GEO26-codex-SS-solo-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-SS-child-R2,3,agy_search_web,"{""query"": ""서울숲 성수 아이랑 식당 아기랑 덜매운 어린이 메뉴""}",
+GEO26-agy-SS-child-R2,4,agy_search_web,"{""query"": ""서울숲 성수 아이랑 식당 아기랑 덜매운 어린이 메뉴""}",
+GEO26-agy-SS-child-R2,6,agy_search_web,"{""query"": ""\""서울로인 서울숲점\"" \""호호식당 성수\"" 주소 지도""}",
+GEO26-agy-SS-child-R2,7,agy_search_web,"{""query"": ""\""서울로인 서울숲점\"" \""호호식당 성수\"" 주소 지도""}",
+GEO26-agy-SS-child-R2,9,agy_search_web,"{""query"": ""\""소녀방앗간 서울숲\"" 주소 메뉴""}",
+GEO26-agy-SS-child-R2,10,agy_search_web,"{""query"": ""\""소녀방앗간 서울숲\"" 주소 메뉴""}",
+GEO26-codex-MD-group-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 식당 \""6인\"" \""테이블\"" 명동교자 왕비집"", ""명동 \""6명\"" \""한 테이블\"" 식당 네이버"", ""명동 왕비집 6인 테이블 영업시간 구글 지도""]}",18
+GEO26-codex-MD-group-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.ntck.or.kr/ko/information/discount""}",2
+GEO26-codex-MD-group-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MD-child-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""명동 가족 아이 명동교자 하동관 미성옥 구글 지도 메뉴 영업시간""}",24
+GEO26-codex-MD-child-R1,6,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 식당 유아의자 아기 돈까스 네이버 지도"", ""명동교자 본점 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps""]}",27
+GEO26-codex-MD-child-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.diningcode.com/profile.php?rid=602FYYAVGQyJ""}",3
+GEO26-codex-MD-child-R1,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MD-reservation-R1,4,codex_web_search,"{""type"": ""search"", ""query"": ""명동 식당 예약 네이버 지도 캐치테이블 한식 명동교자 모담""}",29
+GEO26-codex-MD-reservation-R1,6,codex_web_search,"{""type"": ""search"", ""queries"": [""site.lottehotel.com 서울 무궁화 도림 라세느 예약 명동"", ""명동 예약 식당 site.map.naver.com OR site.place.map.kakao.com OR site.google.com""]}",20
+GEO26-codex-MD-reservation-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/""}",6
+GEO26-agy-MW-child-R2,3,agy_search_web,"{""query"": ""망원동 망원시장 아이랑 식당 아기랑 맛집""}",
+GEO26-agy-MW-child-R2,4,agy_search_web,"{""query"": ""망원동 망원시장 아이랑 식당 아기랑 맛집""}",
+GEO26-agy-MW-child-R2,6,agy_search_web,"{""query"": ""망원동 헤키 망원동즉석우동 주소 영업시간""}",
+GEO26-agy-MW-child-R2,7,agy_search_web,"{""query"": ""망원동 헤키 망원동즉석우동 주소 영업시간""}",
+GEO26-agy-MW-child-R2,9,agy_search_web,"{""query"": ""망원동 소바식당 성미골 주소 메뉴""}",
+GEO26-agy-MW-child-R2,10,agy_search_web,"{""query"": ""망원동 소바식당 성미골 주소 메뉴""}",
+GEO26-codex-MW-parking-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 식당 전용주차 주차 가능 망원시장"", ""망원동 식당 제휴주차 주차장 네이버 지도""]}",26
+GEO26-codex-MW-parking-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""망원동 맛집 \""주차\"" \""전용\"" 식당 -site:reddit.com -부동산""}",23
+GEO26-codex-MW-parking-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://superchart.com/ko/%40food-drink-place/mapo-bambada-live-squid-sashimi-sekoshi/""}",1
+GEO26-codex-MW-group-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 망원시장 식당 \""6인\"" \""테이블\"" 네이버"", ""망원동 식당 \""6명\"" \""한 테이블\""""]}",15
+GEO26-codex-MW-group-R2,6,codex_web_search,"{""type"": ""search"", ""query"": ""헤키 망원 영업시간 네이버 지도 카카오맵 6인""}",19
+GEO26-codex-MW-group-R2,8,codex_web_search,"{""type"": ""other""}",4
+GEO26-codex-MW-child-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""망원동 망원시장 아이 동반 식당 우동 돈까스 네이버 지도""}",24
+GEO26-codex-MW-child-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""\""망원돈까스\"" \""유아\"" 네이버"", ""\""망원동즉석우동\"" \""place.naver.com\""""]}",2
+GEO26-codex-MW-child-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://mko0506.tistory.com/72""}",2
+GEO26-codex-MW-child-R2,10,codex_web_search,"{""type"": ""find_in_page"", ""pattern"": ""m.place.naver.com""}",1
+GEO26-codex-MW-child-R2,12,codex_web_search,"{""type"": ""other""}",1
+GEO26-codex-SS-child-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""성수 서울숲 식당 어린이 동반 가능 아기의자 돈까스 파스타 네이버 지도"", ""서울숲 온량 어린이 동반 메뉴 영업시간"", ""성수동 소년식당 어린이 동반 메뉴 영업시간""]}",24
+GEO26-codex-SS-child-R1,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://superchart.com/ko/stores/seongsu-darak/""}",3
+GEO26-codex-SS-child-R1,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://odega.kr/p/788-naver-1130497590""}",3
+GEO26-codex-MW-general-R2,4,codex_web_search,"{""type"": ""search"", ""query"": ""망원동 망원시장 식당 네이버지도 카카오맵 소금집 델리 헤키 정돈""}",25
+GEO26-codex-MW-general-R2,6,codex_web_search,"{""type"": ""search"", ""queries"": [""\""망원\"" \""식당\"" site:place.map.kakao.com"", ""\""망원\"" \""소금집\"" \""헤키\"" 영업시간""]}",12
+GEO26-codex-MW-general-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/entry/place/1956949040""}",5
+GEO26-codex-MD-group-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 식당 \""6인\"" \""테이블\"" 명동교자 왕비집"", ""명동 회현 식당 \""6명\"" \""테이블\"" 예약"", ""명동 왕비집 명동본점 영업시간 주소 네이버 지도""]}",20
+GEO26-codex-MD-group-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://map.naver.com/p/search/왕비집%20명동중앙점""}",3
+GEO26-codex-MD-group-R2,8,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.tabling.co.kr/place/677cc7bd66de5f0698754b37""}",3
+GEO26-agy-MD-group-R1,3,agy_search_web,"{""query"": ""명동 맛집 6인 테이블 식당 룸 식사""}",
+GEO26-agy-MD-group-R1,4,agy_search_web,"{""query"": ""명동 맛집 6인 테이블 식당 룸 식사""}",
+GEO26-agy-MD-group-R1,6,agy_search_web,"{""query"": ""명동정 네이버 지도 매장 정보 단체석 룸""}",
+GEO26-agy-MD-group-R1,7,agy_search_web,"{""query"": ""명동정 네이버 지도 매장 정보 단체석 룸""}",
+GEO26-agy-MD-group-R1,9,agy_search_web,"{""query"": ""사유의서재 남산 단체석 6인 테이블 예약 네이버 지도""}",
+GEO26-agy-MD-group-R1,10,agy_search_web,"{""query"": ""사유의서재 남산 단체석 6인 테이블 예약 네이버 지도""}",
+GEO26-codex-MW-group-R1,4,codex_web_search,"{""type"": ""search"", ""queries"": [""망원동 망원시장 식당 \""6인\"" \""테이블\"""", ""망원동 식당 \""단체\"" \""네이버\"" 6명""]}",18
+GEO26-codex-MW-group-R1,6,codex_web_search,"{""type"": ""search"", ""query"": ""망원 식당 \""6인\"" \""테이블\"" (site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps OR \""고기\"" OR \""식당\"")""}",14
+GEO26-codex-MW-group-R1,8,codex_web_search,"{""type"": ""other""}",2
+GEO26-codex-MW-group-R1,10,codex_web_search,"{""type"": ""other""}",2
+GEO26-agy-MW-parking-R2,3,agy_search_web,"{""query"": ""망원동 망원시장 맛집 전용주차 제휴주차 주차 가능 식당""}",
+GEO26-agy-MW-parking-R2,4,agy_search_web,"{""query"": ""망원동 망원시장 맛집 전용주차 제휴주차 주차 가능 식당""}",
+GEO26-agy-MW-parking-R2,6,agy_search_web,"{""query"": ""망원동 식당 \""전용 주차장\"" OR \""주차 지원\"" OR \""무료 주차\""""}",
+GEO26-agy-MW-parking-R2,7,agy_search_web,"{""query"": ""망원동 식당 \""전용 주차장\"" OR \""주차 지원\"" OR \""무료 주차\""""}",
+GEO26-agy-MW-parking-R2,9,agy_search_web,"{""query"": ""site:map.naver.com 망원동 식당 \""주차 가능\"" OR \""무료주차\"" OR \""전용주차\""""}",
+GEO26-agy-MW-parking-R2,10,agy_search_web,"{""query"": ""site:map.naver.com 망원동 식당 \""주차 가능\"" OR \""무료주차\"" OR \""전용주차\""""}",
+GEO26-agy-MD-group-R2,3,agy_search_web,"{""query"": ""서울 명동 식당 6인 단체 테이블 네이버 지도""}",
+GEO26-agy-MD-group-R2,4,agy_search_web,"{""query"": ""서울 명동 식당 6인 단체 테이블 네이버 지도""}",
+GEO26-agy-MD-group-R2,6,agy_search_web,"{""query"": ""청기와타운 을지로점 네이버 플레이스 단체석 6인""}",
+GEO26-agy-MD-group-R2,7,agy_search_web,"{""query"": ""청기와타운 을지로점 네이버 플레이스 단체석 6인""}",
+GEO26-agy-MD-group-R2,9,agy_search_web,"{""query"": ""왕비집 명동본점 단체석 6인 네이버 지도""}",
+GEO26-agy-MD-group-R2,10,agy_search_web,"{""query"": ""왕비집 명동본점 단체석 6인 네이버 지도""}",
+GEO26-agy-MD-group-R2,12,agy_read_url_content,"{""Url"": ""https://wangbijib.com""}",
+GEO26-agy-MD-group-R2,13,agy_read_url_content,"{""Url"": ""https://wangbijib.com""}",
+GEO26-codex-MD-child-R2,4,codex_web_search,"{""type"": ""search"", ""queries"": [""명동 가족 아이 식당 명동교자 하동관 미성옥 구글 지도 메뉴 영업시간"", ""명동 아이 동반 식당 돈까스 명동돈가스 네이버 지도 영업시간"", ""명동교자 하동관 미성옥 어린이 동반 맵 영업시간 메뉴""]}",19
+GEO26-codex-MD-child-R2,6,codex_web_search,"{""type"": ""open_page"", ""url"": ""https://www.tel-co.net/food/spot/5391""}",3
+GEO26-codex-MD-child-R2,8,codex_web_search,"{""type"": ""other""}",3
+GEO26-agy-MW-vegan-R1,3,agy_search_web,"{""query"": ""망원동 망원시장 비건 식당 채식""}",
+GEO26-agy-MW-vegan-R1,4,agy_search_web,"{""query"": ""망원동 망원시장 비건 식당 채식""}",
+GEO26-agy-MW-vegan-R1,6,agy_search_web,"{""query"": ""망원동 어라운드그린 샐러마리 다이너재키 영업 여부 2024 2025""}",
+GEO26-agy-MW-vegan-R1,7,agy_search_web,"{""query"": ""망원동 어라운드그린 샐러마리 다이너재키 영업 여부 2024 2025""}",
+GEO26-agy-MW-vegan-R1,9,agy_search_web,"{""query"": ""망원동 대안부엌 풀 카카오맵 네이버 플레이스 위치 메뉴 비건""}",
+GEO26-agy-MW-vegan-R1,10,agy_search_web,"{""query"": ""망원동 대안부엌 풀 카카오맵 네이버 플레이스 위치 메뉴 비건""}",

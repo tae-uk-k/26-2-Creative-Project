@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a0-165e-7672-9cbb-bae04f87ab0d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"가\",\"reason\":\"고기빠오즈와 훈둔면의 메뉴 및 표시 가격이 제공되어 식사 메뉴를 구체적으로 고를 수 있어 추천한다.\",\"evidence\":\"메뉴: 훈둔면 / 표시 가격: 9,000원\"},{\"rank\":2,\"code\":\"라\",\"reason\":\"삼겹과 목살의 중량 및 표시 가격이 제공되어 고기 식사를 선택할 때 비교하기 좋아 추천한다.\",\"evidence\":\"메뉴: 눈꽃 통삼겹 (180g) / 표시 가격: 19,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13362,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":137,"reasoning_output_tokens":0}}

@@ -1,0 +1,5 @@
+신청 {{ request_id }}에서 직접 처리할 칸이 생겼어요.
+{% for i in items %}
+· {{ i.provider_label }} {{ i.field_label }} — {{ i.reason_label }}
+{% endfor %}
+{{ link }}

@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-10-13T10:07:20.379729+00:00",
+  "baseline_run_count": 120,
+  "original_store_count": 30,
+  "registry_count": 162,
+  "registry_sha256": "4ea3ff96cb1dea4d7bf5762106e65c09c207132d1f22cba6161043127122dad6",
+  "new_cohort_analysis_period": "repeat_6_to_10_only",
+  "selection_warning": "Discovery candidates were selected from baseline recommendations; not a random population sample."
+}

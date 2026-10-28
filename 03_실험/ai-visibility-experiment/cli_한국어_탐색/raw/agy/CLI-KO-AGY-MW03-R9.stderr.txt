@@ -1,0 +1,1 @@
+error: Eligibility check failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": read tcp 10.14.22.85:57200->172.217.118.4:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.

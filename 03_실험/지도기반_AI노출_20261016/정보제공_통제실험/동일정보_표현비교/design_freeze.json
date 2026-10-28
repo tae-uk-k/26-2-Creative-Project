@@ -1,0 +1,18 @@
+{
+  "study_id": "equal-map-facts-layout-repetition-v1",
+  "created_at_utc": "2026-10-16T07:39:08Z",
+  "status": "Exploratory follow-up designed after information-availability arm, before this arm responses.",
+  "corpus_sha256": "42eaf658138443337b5b67c466e62e20300fe2686f5e002881daa8127cf039fb",
+  "prompts_sha256": "680abb579defc3d61c58f11ae268d3bf6d30b0c3a4e2b2e1883e8e7e6ec01d5c",
+  "assignments_sha256": "c753d91686128efd60d0566e10b684565f2d8761c6ea09e1c4ec719588dfe961",
+  "planned_runs": 48,
+  "independent_stores": 12,
+  "factors": [
+    "structured_layout",
+    "keyword_repetition"
+  ],
+  "menu_facts_identical_in_every_condition": true,
+  "primary_analysis": "Model-specific selection counts and within-store differences; no confirmatory p-value or held-out generalization claim.",
+  "natural_map_exposure_measured": false,
+  "empty_working_directory": "C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_map_equal_facts_20261016"
+}

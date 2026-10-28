@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+
+{% block title %}AI 노출 진단 | 한눈{% endblock %}
+{% block body_class %}demo-page{% endblock %}
+
+{% block content %}
+<div class="diagnostic-shell shell">
+    <aside class="flow-rail" aria-label="진단 진행 단계">
+        <div class="flow-rail-heading">
+            <span class="flow-overline">무료 진단 체험</span>
+            <h1>AI 노출 점검</h1>
+            <p>가게가 왜 추천에서 빠지는지 찾고, 바로 적용할 수정안까지 만듭니다.</p>
+        </div>
+
+        <ol class="flow-steps">
+            <li class="active" data-step-indicator="1" aria-current="step">
+                <span class="flow-step-number">1</span>
+                <span class="flow-step-copy">
+                    <strong>진단 정보 입력</strong>
+                    <small>가게와 공개 채널 확인</small>
+                </span>
+            </li>
+            <li data-step-indicator="2">
+                <span class="flow-step-number">2</span>
+                <span class="flow-step-copy">
+                    <strong>문제·수정안 검토</strong>
+                    <small>원인과 개선안을 한 번에 확인</small>
+                </span>
+            </li>
+            <li data-step-indicator="3">
+                <span class="flow-step-number">3</span>
+                <span class="flow-step-copy">
+                    <strong>개선 결과 확인</strong>
+                    <small>같은 조건으로 전후 비교</small>
+                </span>
+            </li>
+        </ol>
+
+        <div class="flow-rail-note">
+            <span>DEMO</span>
+            <p>이 화면의 가게와 수치는 서비스 흐름을 보여주기 위한 가상 데이터입니다.</p>
+        </div>
+    </aside>
+
+    <section class="diagnostic-workspace" aria-live="polite">
+        <header class="workspace-header">
+            <div>
+                <span class="workspace-eyebrow" id="workspace-eyebrow">STEP 1 / 3</span>
+                <h2 id="workspace-title">어느 가게를 진단할까요?</h2>
+                <p id="workspace-description">기본 정보와 현재 운영 중인 공개 채널을 입력해 주세요.</p>
+            </div>
+            <span class="demo-pill">가상 데이터</span>
+        </header>
+
+        <section id="input-panel" class="workspace-stage" aria-labelledby="workspace-title">
+            <form id="store-form" novalidate>
+                <div class="input-layout">
+                    <div class="form-section">
+                        <div class="form-section-heading">
+                            <span>가게 기본 정보</span>
+                            <button class="text-button" type="button" id="reset-example">예시 값 복원</button>
+                        </div>
+
+                        <div class="form-grid compact-form-grid">
+                            <div class="field field-wide">
+                                <label for="storeName">가게명 <span>필수</span></label>
+                                <input id="storeName" name="storeName" value="{{ example.nameKo }}" autocomplete="organization" required>
+                                <p class="field-error" id="storeName-error"></p>
+                            </div>
+                            <div class="field">
+                                <label for="category">업종 <span>필수</span></label>
+                                <input id="category" name="category" value="{{ example.categoryKo }}" required>
+                                <p class="field-error" id="category-error"></p>
+                            </div>
+                            <div class="field">
+                                <label for="area">지역 <span>필수</span></label>
+                                <input id="area" name="area" value="{{ example.areaKo }}" autocomplete="address-level2" required>
+                                <p class="field-error" id="area-error"></p>
+                            </div>
+                            <div class="field field-wide">
+                                <label for="primaryUrl">대표 채널 링크 <span>필수</span></label>
+                                <input id="primaryUrl" name="primaryUrl" type="url" value="{{ example.primaryUrl }}" inputmode="url" required>
+                                <p class="field-help">Google Maps, 홈페이지, 네이버 플레이스 중 하나</p>
+                                <p class="field-error" id="primaryUrl-error"></p>
+                            </div>
+                        </div>
+
+                        <details class="optional-channels">
+                            <summary>비교할 채널 더 추가하기 <span>선택</span></summary>
+                            <div class="form-grid compact-form-grid optional-channel-fields">
+                                <div class="field">
+                                    <label for="naverUrl">네이버 플레이스</label>
+                                    <input id="naverUrl" name="naverUrl" type="url" placeholder="https://..." inputmode="url">
+                                    <p class="field-error" id="naverUrl-error"></p>
+                                </div>
+                                <div class="field">
+                                    <label for="instagramUrl">Instagram</label>
+                                    <input id="instagramUrl" name="instagramUrl" type="url" placeholder="https://..." inputmode="url">
+                                    <p class="field-error" id="instagramUrl-error"></p>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <aside class="diagnosis-scope" aria-label="진단 범위">
+                        <span class="scope-label">이번 진단에서 확인하는 것</span>
+                        <ul>
+                            <li>
+                                <span>01</span>
+                                <div><strong>추천 여부</strong><p>관광객 질문에 가게가 등장하는지</p></div>
+                            </li>
+                            <li>
+                                <span>02</span>
+                                <div><strong>정보 정확도</strong><p>주소·영업시간·메뉴가 맞는지</p></div>
+                            </li>
+                            <li>
+                                <span>03</span>
+                                <div><strong>누락 원인</strong><p>AI가 추천 근거로 쓸 정보가 있는지</p></div>
+                            </li>
+                        </ul>
+                        <p class="scope-method">질문 20개 × 5회 · ChatGPT·Gemini · 영문 기준</p>
+                    </aside>
+                </div>
+
+                <div class="workspace-actions">
+                    <p>입력 내용은 저장되지 않으며, 약 10초가 걸립니다.</p>
+                    <button class="button button-primary button-large" type="submit">진단 시작</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="loading-panel" class="workspace-stage loading-workspace" hidden aria-live="polite">
+            <div class="analysis-status">
+                <div class="loader" aria-hidden="true"></div>
+                <span class="status-label">분석 중</span>
+                <h3>추천을 막는 원인을 찾고 있습니다</h3>
+                <p id="loading-message">대표 채널의 영문 정보와 영업시간을 비교하는 중...</p>
+                <div class="loading-track"><span id="loading-progress"></span></div>
+            </div>
+            <div class="analysis-checklist" aria-hidden="true">
+                <span>관광객 질문 구성</span>
+                <span>채널 정보 교차 확인</span>
+                <span>추천 근거 점검</span>
+            </div>
+        </section>
+
+        <section id="review-panel" class="workspace-stage" hidden aria-labelledby="workspace-title">
+            <div class="review-summary-row">
+                <p id="review-summary"></p>
+                <span class="result-count"><strong>3</strong>개 개선 항목</span>
+            </div>
+
+            <div id="metric-grid" class="metric-strip" aria-label="정비 전 진단 지표"></div>
+
+            <section class="review-section">
+                <div class="review-section-heading">
+                    <div>
+                        <span class="section-number">01</span>
+                        <div><h3>발견된 문제와 수정안</h3><p>문제의 근거와 한눈이 준비한 개선안을 같은 행에서 확인하세요.</p></div>
+                    </div>
+                </div>
+                <div class="audit-table" role="table" aria-label="문제와 수정안">
+                    <div class="audit-table-head" role="row">
+                        <span role="columnheader">발견된 문제</span>
+                        <span role="columnheader">한눈의 수정안</span>
+                    </div>
+                    <div id="audit-list"></div>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <div class="review-section-heading">
+                    <div>
+                        <span class="section-number">02</span>
+                        <div><h3>공개할 영문 정보</h3><p>단순 번역이 아니라 메뉴·가격·이용 조건을 검색 가능한 문장으로 정리했습니다.</p></div>
+                    </div>
+                    <button type="button" class="text-button" id="copy-description">영문 문안 복사</button>
+                </div>
+
+                <div class="content-review-grid">
+                    <div class="description-editor">
+                        <label for="english-description">영문 소개 문안</label>
+                        <textarea id="english-description" rows="7"></textarea>
+                        <p>실제 공개 전 사장님의 사실 확인과 승인이 필요합니다.</p>
+                    </div>
+                    <div class="structured-facts">
+                        <span class="structured-facts-label">추가된 핵심 정보</span>
+                        <div id="fact-list" class="fact-list compact-fact-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="review-section channel-review-section">
+                <div class="review-section-heading">
+                    <div>
+                        <span class="section-number">03</span>
+                        <div><h3>채널별 반영 계획</h3><p>각 채널에서 무엇을 바꿀지 실행 단위로 나눴습니다.</p></div>
+                    </div>
+                </div>
+                <div id="channel-list" class="channel-list clean-channel-list"></div>
+            </section>
+
+            <div class="measurement-note" id="measurement-note"></div>
+            <div class="workspace-actions review-actions">
+                <button class="button button-secondary" type="button" data-action="restart">가게 정보 수정</button>
+                <div>
+                    <p>수정안을 승인하면 같은 조건으로 전후를 비교합니다.</p>
+                    <button class="button button-primary" type="button" id="approve-improvement">수정안 승인 후 결과 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison-panel" class="workspace-stage" hidden aria-labelledby="workspace-title">
+            <div class="result-hero">
+                <span class="result-hero-label">추천 등장률</span>
+                <div class="result-hero-value"><span id="hero-before-rate">9%</span><b aria-hidden="true">→</b><strong id="hero-after-rate">26%</strong></div>
+                <p>영문 이용 정보와 외부 근거를 보강한 뒤, 동일한 질문 조건으로 다시 측정한 시연 결과입니다.</p>
+            </div>
+
+            <section class="review-section result-review-section">
+                <div class="review-section-heading">
+                    <div>
+                        <span class="section-number">RESULT</span>
+                        <div><h3>정비 전후 비교</h3><p>질문·언어·모델·반복 횟수를 동일하게 유지했습니다.</p></div>
+                    </div>
+                </div>
+                <div id="comparison-list" class="comparison-list professional-comparison"></div>
+            </section>
+
+            <div class="result-summary-box professional-result-box">
+                <div class="result-check" aria-hidden="true">✓</div>
+                <div>
+                    <h3>추천을 보장한 것이 아니라, AI가 선택할 근거를 늘렸습니다.</h3>
+                    <p>영문 메뉴·가격·이용 조건, 채널 간 일관성, 텍스트 기반 공식 소개가 보강됐습니다. 실제 결과는 모델과 시점에 따라 달라질 수 있습니다.</p>
+                </div>
+            </div>
+
+            <div class="workspace-actions final-actions">
+                <button class="button button-secondary" type="button" data-action="restart">다른 가게 진단</button>
+                <a class="button button-primary" href="{{ url_for('store_preview') }}" target="_blank" rel="noopener">영문 소개 페이지 보기</a>
+            </div>
+        </section>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    window.HANOON_EXAMPLE = {{ example | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/demo.js') }}" defer></script>
+{% endblock %}

@@ -1,0 +1,7 @@
+﻿backend,factor,absent_rate,present_rate,delta,independent_stores
+codex,structured_layout,0.4583333333333333,0.5416666666666666,0.08333333333333331,12
+codex,keyword_repetition,0.5,0.5,0.0,12
+agy,structured_layout,0.4375,0.5625,0.125,12
+agy,keyword_repetition,0.5625,0.4375,-0.125,12
+ALL,structured_layout,0.4479166666666667,0.5520833333333334,0.10416666666666669,12
+ALL,keyword_repetition,0.53125,0.46875,-0.0625,12

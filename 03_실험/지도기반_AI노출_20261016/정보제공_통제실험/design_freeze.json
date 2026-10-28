@@ -1,0 +1,20 @@
+{
+  "study_id": "provided-map-information-2x2-v1",
+  "frozen_before_model_responses": true,
+  "corpus_sha256": "42eaf658138443337b5b67c466e62e20300fe2686f5e002881daa8127cf039fb",
+  "prompts_sha256": "9b164205b28b19bd9c35919127db9d14c16603ad2445df6125d1f1948b91a2ff",
+  "assignments_sha256": "29d097e6b8a942a0e66ccfeb264899f36daf7dc3d700b181e803bccae0352b4b",
+  "planned_runs": 48,
+  "independent_stores": 12,
+  "unique_prompts": 24,
+  "selected_per_response": 2,
+  "map_source": "kakao",
+  "natural_search_experiment": false,
+  "model_requested": {
+    "codex": "gpt-6.1-sol",
+    "agy": "Gemini 3.8 Flash (Low)"
+  },
+  "agy_version_observed": "1.4.0",
+  "empty_working_directory": "C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_map_provided_20261016",
+  "randomization_unit": "area_repeat_block; four rotations; condition labels randomly permuted; identical prompts across backends"
+}

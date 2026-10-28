@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a0-592f-7e92-981e-1a1a03830df3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"다\",\"reason\":\"돈까스와 모밀 정식의 메뉴·표시 가격이 구체적으로 있어 한 끼 메뉴를 고르기 좋습니다.\",\"evidence\":\"메뉴: 돈까스 비빔모밀정식 / 표시 가격: 13,000원\"},{\"rank\":2,\"code\":\"나\",\"reason\":\"첫 추천과 다른 회 요리를 선택할 수 있고, 구체적인 메뉴·표시 가격이 제공되어 있습니다. 최소 주문과 1인 식사 총액은 알 수 없습니다.\",\"evidence\":\"메뉴: 우럭회 / 표시 가격: 53,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13314,"cached_input_tokens":12544,"cache_write_input_tokens":0,"output_tokens":192,"reasoning_output_tokens":46}}

@@ -1,0 +1,2427 @@
+[
+  {
+    "repetition": 0,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.657730638815399,
+          "sd": 1.0807632881618052
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.657730638815399,
+          "sd": 1.0807632881618052
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.1625000000000005,
+          "sd": 0.26741431649533404
+        },
+        "log_photo_count": {
+          "median": 5.036868264047907,
+          "mean": 4.918852896087441,
+          "sd": 1.0133417787519832
+        },
+        "log_price_krw": {
+          "median": 9.6136452669434,
+          "mean": 9.492547644469013,
+          "sd": 0.6828203615051812
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.3050859785768734,
+          "sd": 1.2040494597090163
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.3050859785768734,
+          "sd": 1.2040494597090163
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.2375,
+          "sd": 0.3119995993587172
+        },
+        "log_photo_count": {
+          "median": 4.867534450455582,
+          "mean": 4.553224155564774,
+          "sd": 1.2366231772079685
+        },
+        "log_price_krw": {
+          "median": 9.680406499268877,
+          "mean": 9.518949383520242,
+          "sd": 0.662621200557001
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.5670468605964327,
+          "mean": 3.3154386112239145,
+          "sd": 1.1222380556341103
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.5670468605964327,
+          "mean": 3.3154386112239145,
+          "sd": 1.1222380556341103
+        },
+        "diningcode_rating": {
+          "median": 4.2,
+          "mean": 4.179166666666666,
+          "sd": 0.34275740530131354
+        },
+        "log_photo_count": {
+          "median": 4.875168186520977,
+          "mean": 4.535259676648223,
+          "sd": 1.1807969193667516
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.472039185059728,
+          "sd": 0.5121384143650349
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.558798773174225,
+          "sd": 1.2015215895109446
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.558798773174225,
+          "sd": 1.2015215895109446
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.2250000000000005,
+          "sd": 0.31258332222518426
+        },
+        "log_photo_count": {
+          "median": 4.9533412217163235,
+          "mean": 4.768092759858659,
+          "sd": 1.2246447235393596
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.357161261400028,
+          "sd": 0.6112698516453969
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6635616461296463,
+          "mean": 3.508323389820139,
+          "sd": 1.258170660094669
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 0,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6635616461296463,
+          "mean": 3.508323389820139,
+          "sd": 1.258170660094669
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.2375,
+          "sd": 0.32379584617471546
+        },
+        "log_photo_count": {
+          "median": 5.0238805208462765,
+          "mean": 4.746820375702538,
+          "sd": 1.2890721371232692
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.430284559787022,
+          "sd": 0.6481356247030281
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.777690972120136,
+          "mean": 3.625017215936492,
+          "sd": 1.052826987401847
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.777690972120136,
+          "mean": 3.625017215936492,
+          "sd": 1.052826987401847
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.266666666666667,
+          "sd": 0.2409472049133494
+        },
+        "log_photo_count": {
+          "median": 5.056225520138252,
+          "mean": 4.848580033631992,
+          "sd": 1.1039132942170038
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.4928009925288,
+          "sd": 0.6332803165604294
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6635616461296463,
+          "mean": 3.546735336377567,
+          "sd": 1.189564996631032
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6635616461296463,
+          "mean": 3.546735336377567,
+          "sd": 1.189564996631032
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.170833333333333,
+          "sd": 0.3034237502606252
+        },
+        "log_photo_count": {
+          "median": 5.0238805208462765,
+          "mean": 4.812647109938424,
+          "sd": 1.1768439967257778
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.364544192230579,
+          "sd": 0.612024140155428
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R01",
+      "SS-R02",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.423605636615179,
+          "sd": 1.1977384536616162
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R01",
+      "SS-R02",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.423605636615179,
+          "sd": 1.1977384536616162
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.208333333333333,
+          "sd": 0.332812092461931
+        },
+        "log_photo_count": {
+          "median": 4.875168186520977,
+          "mean": 4.660121975033371,
+          "sd": 1.1944155803284286
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.419257026329056,
+          "sd": 0.6665403161884439
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.3886871225178616,
+          "sd": 1.280227527241421
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.3886871225178616,
+          "sd": 1.280227527241421
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.220833333333333,
+          "sd": 0.3366243785322481
+        },
+        "log_photo_count": {
+          "median": 4.882801922586371,
+          "mean": 4.6145519481441495,
+          "sd": 1.3034646590266195
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.511691766204764,
+          "sd": 0.5384359777662687
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6733275815882687,
+          "mean": 3.361986130580007,
+          "sd": 1.1624497293418128
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 1,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6733275815882687,
+          "mean": 3.361986130580007,
+          "sd": 1.1624497293418128
+        },
+        "diningcode_rating": {
+          "median": 4.2,
+          "mean": 4.175,
+          "sd": 0.33695944365259556
+        },
+        "log_photo_count": {
+          "median": 4.875168186520977,
+          "mean": 4.582083626860396,
+          "sd": 1.194572069028181
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.468473581636266,
+          "sd": 0.6704344668137203
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.4865737792557887,
+          "sd": 1.2765574904976809
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.756854623919852,
+          "mean": 3.4865737792557887,
+          "sd": 1.2765574904976809
+        },
+        "diningcode_rating": {
+          "median": 4.25,
+          "mean": 4.2124999999999995,
+          "sd": 0.3189337705543269
+        },
+        "log_photo_count": {
+          "median": 4.972698477806668,
+          "mean": 4.726116203883572,
+          "sd": 1.3030202634639976
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.422242167348834,
+          "sd": 0.6728271621819937
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.446901756101994,
+          "sd": 1.2487764044975724
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.446901756101994,
+          "sd": 1.2487764044975724
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.2250000000000005,
+          "sd": 0.3467107343785787
+        },
+        "log_photo_count": {
+          "median": 4.882801922586371,
+          "mean": 4.670771058904093,
+          "sd": 1.2679522733722774
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.368228884928383,
+          "sd": 0.6409510809714809
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.5376844734551405,
+          "sd": 0.9894982086987184
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.5376844734551405,
+          "sd": 0.9894982086987184
+        },
+        "diningcode_rating": {
+          "median": 4.25,
+          "mean": 4.179166666666666,
+          "sd": 0.28972568443654123
+        },
+        "log_photo_count": {
+          "median": 4.9533412217163235,
+          "mean": 4.7847982451293225,
+          "sd": 0.9620097292770304
+        },
+        "log_price_krw": {
+          "median": 9.6136452669434,
+          "mean": 9.581940089707548,
+          "sd": 0.515529258473796
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.8501476017100575,
+          "mean": 3.512803045565095,
+          "sd": 1.2472685593426331
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.8501476017100575,
+          "mean": 3.512803045565095,
+          "sd": 1.2472685593426331
+        },
+        "diningcode_rating": {
+          "median": 4.2,
+          "mean": 4.1625000000000005,
+          "sd": 0.32379584617471546
+        },
+        "log_photo_count": {
+          "median": 5.0238805208462765,
+          "mean": 4.755261538845916,
+          "sd": 1.2509683013804926
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.405102447473453,
+          "sd": 0.6564734820457095
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.36621030022656,
+          "sd": 1.1223135829178892
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 2,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.36621030022656,
+          "sd": 1.1223135829178892
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.258333333333333,
+          "sd": 0.276762031756927
+        },
+        "log_photo_count": {
+          "median": 4.94570748565093,
+          "mean": 4.5864697545115725,
+          "sd": 1.1807062874680663
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.490992612003017,
+          "sd": 0.6220133125315336
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.30361709247205,
+          "sd": 1.1300395305424478
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.30361709247205,
+          "sd": 1.1300395305424478
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.204166666666667,
+          "sd": 0.32974632505744306
+        },
+        "log_photo_count": {
+          "median": 4.867534450455582,
+          "mean": 4.548178360451694,
+          "sd": 1.1783632811736648
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.462860105651908,
+          "sd": 0.6693923431512498
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.921532008346027,
+          "mean": 3.7071863846445545,
+          "sd": 1.1570284321122197
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.921532008346027,
+          "mean": 3.7071863846445545,
+          "sd": 1.1570284321122197
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.220833333333333,
+          "sd": 0.30954155168930425
+        },
+        "log_photo_count": {
+          "median": 5.138765395317977,
+          "mean": 4.937648335219529,
+          "sd": 1.1570132995138669
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.451321059324682,
+          "sd": 0.6620693926214942
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4678820194888424,
+          "sd": 1.2304623440700766
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4678820194888424,
+          "sd": 1.2304623440700766
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.204166666666667,
+          "sd": 0.3445760277339225
+        },
+        "log_photo_count": {
+          "median": 4.9533412217163235,
+          "mean": 4.69936271099954,
+          "sd": 1.2304634118751452
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.390837838668592,
+          "sd": 0.6376745985875023
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.4237297137538625,
+          "sd": 1.2022758830542573
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.4237297137538625,
+          "sd": 1.2022758830542573
+        },
+        "diningcode_rating": {
+          "median": 4.2,
+          "mean": 4.145833333333333,
+          "sd": 0.2985788096224439
+        },
+        "log_photo_count": {
+          "median": 4.867534450455582,
+          "mean": 4.6751817776017015,
+          "sd": 1.182077737862773
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.42675036154976,
+          "sd": 0.6669931510467848
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4537068447982673,
+          "sd": 1.1599598199476642
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 3,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4537068447982673,
+          "sd": 1.1599598199476642
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.270833333333333,
+          "sd": 0.2715375460021853
+        },
+        "log_photo_count": {
+          "median": 5.036868264047907,
+          "mean": 4.677330694055973,
+          "sd": 1.227317986790585
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.5219105904822,
+          "sd": 0.4753433284365838
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R02",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.49650756146648,
+          "mean": 3.159141850279987,
+          "sd": 1.041397491944723
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 0,
+    "training_entity_ids": [
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R02",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R02",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.49650756146648,
+          "mean": 3.159141850279987,
+          "sd": 1.041397491944723
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.2124999999999995,
+          "sd": 0.3467858368888019
+        },
+        "log_photo_count": {
+          "median": 4.61512051684126,
+          "mean": 4.388723974088204,
+          "sd": 1.078640697274813
+        },
+        "log_price_krw": {
+          "median": 9.546884034617923,
+          "mean": 9.446367927447845,
+          "sd": 0.6997326008853471
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.7438668807182216,
+          "mean": 3.644042094321788,
+          "sd": 1.0976997417446095
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 1,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R09",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R07",
+      "SS-R08",
+      "SS-R09"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.7438668807182216,
+          "mean": 3.644042094321788,
+          "sd": 1.0976997417446095
+        },
+        "diningcode_rating": {
+          "median": 4.2,
+          "mean": 4.154166666666667,
+          "sd": 0.2798499101701165
+        },
+        "log_photo_count": {
+          "median": 4.9533412217163235,
+          "mean": 4.892151135116356,
+          "sd": 1.0428497999654966
+        },
+        "log_price_krw": {
+          "median": 9.509832795590047,
+          "mean": 9.459175702254724,
+          "sd": 0.6474770567385736
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4233241104476684,
+          "sd": 1.2585361346108392
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 2,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R03",
+      "MD-R04",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "SS-R01",
+      "SS-R03",
+      "SS-R04",
+      "SS-R05",
+      "SS-R06",
+      "SS-R08",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.650573902928016,
+          "mean": 3.4233241104476684,
+          "sd": 1.2585361346108392
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.220833333333333,
+          "sd": 0.31222209865557066
+        },
+        "log_photo_count": {
+          "median": 4.9533412217163235,
+          "mean": 4.688187208842888,
+          "sd": 1.2893248279811609
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.398772184596897,
+          "sd": 0.5991939725498571
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.447326612947767,
+          "sd": 1.2423243720096464
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 3,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R04",
+      "MD-R05",
+      "MD-R06",
+      "MD-R08",
+      "MD-R09",
+      "MD-R10",
+      "MW-R01",
+      "MW-R03",
+      "MW-R05",
+      "MW-R06",
+      "MW-R07",
+      "MW-R08",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R04",
+      "SS-R06",
+      "SS-R07",
+      "SS-R09",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.6375861597263857,
+          "mean": 3.447326612947767,
+          "sd": 1.2423243720096464
+        },
+        "diningcode_rating": {
+          "median": 4.3,
+          "mean": 4.229166666666667,
+          "sd": 0.3115541240655021
+        },
+        "log_photo_count": {
+          "median": 5.0238805208462765,
+          "mean": 4.7046142612127575,
+          "sd": 1.2473756242267293
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.538302294765343,
+          "sd": 0.4969499207682062
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "reviews",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.921532008346027,
+          "mean": 3.68418352704872,
+          "sd": 1.1904756047287568
+        }
+      },
+      "unit_mode": "meal"
+    }
+  },
+  {
+    "repetition": 4,
+    "fold": 4,
+    "training_entity_ids": [
+      "MD-R01",
+      "MD-R02",
+      "MD-R03",
+      "MD-R05",
+      "MD-R06",
+      "MD-R07",
+      "MD-R08",
+      "MD-R10",
+      "MW-R01",
+      "MW-R02",
+      "MW-R03",
+      "MW-R04",
+      "MW-R06",
+      "MW-R07",
+      "MW-R09",
+      "MW-R10",
+      "SS-R01",
+      "SS-R02",
+      "SS-R03",
+      "SS-R05",
+      "SS-R06",
+      "SS-R07",
+      "SS-R08",
+      "SS-R10"
+    ],
+    "state": {
+      "variant": "full",
+      "numeric": {
+        "log_review_count": {
+          "median": 3.921532008346027,
+          "mean": 3.68418352704872,
+          "sd": 1.1904756047287568
+        },
+        "diningcode_rating": {
+          "median": 4.25,
+          "mean": 4.220833333333333,
+          "sd": 0.31054946823690144
+        },
+        "log_photo_count": {
+          "median": 5.138765395317977,
+          "mean": 4.853061884572949,
+          "sd": 1.2637437533112286
+        },
+        "log_price_krw": {
+          "median": 9.472781556562168,
+          "mean": 9.414149449864656,
+          "sd": 0.6685666386267115
+        }
+      },
+      "unit_mode": "meal"
+    }
+  }
+]

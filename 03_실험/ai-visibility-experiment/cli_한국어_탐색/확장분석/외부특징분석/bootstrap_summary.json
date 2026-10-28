@@ -1,0 +1,12 @@
+{
+  "resamples": 200,
+  "independent_stores": 30,
+  "all_optimizer_success": true,
+  "or_doubling_median": 3.546488088092672,
+  "or_doubling_percentile95": [
+    2.1724492003153064,
+    6.262634105048117
+  ],
+  "resampling": "stores within area; duplicated stores get fresh IDs; whole response repeats preserved",
+  "scope": "sampling sensitivity in a purposive cohort, not population or causal confidence"
+}

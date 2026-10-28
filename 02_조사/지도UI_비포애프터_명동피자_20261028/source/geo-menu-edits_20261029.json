@@ -1,0 +1,73 @@
+{
+  "kind": "승인 전 지도 콘텐츠 정비 시안",
+  "observedAt": "2026-10-28",
+  "createdAt": "2026-10-29",
+  "sourceUrl": "https://place.map.kakao.com/19409195#menuInfo",
+  "scope": "메뉴 8개의 이름에 영어 표현 병기 및 설명 정비. 가격·사진·AI 요약·추천 표시·소개·UI 스타일 유지.",
+  "verification": "공개 페이지의 기존 메뉴 사실을 사용한 예시. 현재 운영·실제 관리자 칸·업주 승인·지도 반영·AI 효과는 확인 전.",
+  "edits": [
+    {
+      "name": "파이브치즈 피자",
+      "proposedName": "파이브치즈 피자 · Five cheese pizza",
+      "originalDescription": "5가지 치즈가 듬뿍 올라가 고소하고 짭조름한 피자",
+      "proposedDescription": ["5가지 치즈가 듬뿍 올라가 고소하고 짭조름한 피자", "Pizza topped with five cheeses."],
+      "purpose": "영문 음식 종류와 확인된 구성 전달"
+    },
+    {
+      "name": "명동 파스타",
+      "proposedName": "명동 파스타 · Myeongdong pasta",
+      "originalDescription": "매콤한 크림소스와 펜네면, 새우가 어우러진 파스타",
+      "proposedDescription": ["매콤한 크림소스와 펜네면, 새우가 어우러진 파스타", "Spicy cream penne with shrimp."],
+      "purpose": "맵기·주재료·면 종류를 기존 사실에 근거해 영어로 전달"
+    },
+    {
+      "name": "[프리미엄]치폴레전드 피자",
+      "proposedName": "[프리미엄]치폴레전드 피자 · Chipotle pizza",
+      "originalDescription": "치폴레소스와 닭다리살, 치즈가 어우러진 피자",
+      "proposedDescription": ["치폴레소스와 닭다리살, 치즈가 어우러진 피자", "Pizza with chipotle sauce, chicken thigh and cheese."],
+      "purpose": "이름만으로 알기 어려운 재료·음식 종류 전달"
+    },
+    {
+      "name": "런치스페셜",
+      "proposedName": "런치스페셜 · Lunch special",
+      "originalDescription": "파스타 3종 중 택1 + 탄산 택1 평일 오후 2시까지 주문 가능한 명동피자 런치 메뉴",
+      "proposedDescription": ["평일 14:00까지 주문 · 파스타 3종 택1 + 탄산 택1", "Weekdays, order by 2pm. Choose 1 of 3 pastas + 1 soda."],
+      "purpose": "주문 시간·선택 수·포함 구성을 한 항목에서 이해"
+    },
+    {
+      "name": "결정장애세트(2인)",
+      "proposedName": "결정장애세트(2인) · Set for 2",
+      "originalDescription": "반반피자(페퍼로니+고르곤졸라) + 명동 파스타 + 탄산 택2",
+      "proposedDescription": ["2인 세트 총액 · 반반피자 + 명동파스타 + 탄산 택2", "Pepperoni/gorgonzola half & half, Myeongdong pasta + 2 sodas."],
+      "purpose": "세트 판매 단위·전체 구성·피자 맛 전달. 가격을 계산한 1인 가격으로 변경하지 않음"
+    },
+    {
+      "name": "플레엑스세트(2인)",
+      "proposedName": "플레엑스세트(2인) · Set for 2",
+      "originalDescription": "피자 택1 + 파스타 택1 + 명동 샐러드 + 탄산 택2",
+      "proposedDescription": ["2인 세트 총액 · 피자 택1 + 파스타 택1 + 명동샐러드 + 탄산 택2", "Choose 1 pizza + 1 pasta, Myeongdong salad + 2 sodas."],
+      "purpose": "가격의 적용 인원과 메뉴별 선택 수·포함 수량 전달"
+    },
+    {
+      "name": "킹갓성비세트(3인)",
+      "proposedName": "킹갓성비세트(3인) · Set for 3",
+      "originalDescription": "피자 택1 + 파스타 택2 + 명동 샐러드 + 탄산 택3",
+      "proposedDescription": ["3인 세트 총액 · 피자 택1 + 파스타 택2 + 명동샐러드 + 탄산 택3", "Choose 1 pizza + 2 pastas, Myeongdong salad + 3 sodas."],
+      "purpose": "3인 세트와 2인 세트 구성 차이를 명확하게 전달"
+    },
+    {
+      "name": "다다익선세트(4인)",
+      "proposedName": "다다익선세트(4인) · Set for 4",
+      "originalDescription": "피자 택2 + 파스타 택2 + 명동 샐러드 + 탄산 택4",
+      "proposedDescription": ["4인 세트 총액 · 피자 택2 + 파스타 택2 + 명동샐러드 + 탄산 택4", "Choose 2 pizzas + 2 pastas, Myeongdong salad + 4 sodas."],
+      "purpose": "4인 세트 총액과 선택·포함 수량 전달"
+    }
+  ],
+  "excluded": [
+    "게딱지 밥의 실제 맵기·재료: 현재 사실 미확인",
+    "알레르기·할랄·채식·영어 직원 응대: 추가 근거 미확인",
+    "인위적인 리뷰·별점·AI 요약·추천 표시 변경",
+    "새 메뉴·가격·추가금·최소 주문량 창작",
+    "공식 페이지를 새로 발행했거나 AI가 더 추천했다고 주장"
+  ]
+}

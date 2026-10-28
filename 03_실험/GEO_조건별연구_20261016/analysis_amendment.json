@@ -1,0 +1,9 @@
+{
+  "date_kst": "2026-10-16",
+  "timing": "After collection and during raw tool-trace validation; not preregistered as a separate exclusion label.",
+  "finding": "Some Antigravity runs attempted view_file despite the no-local-files instruction. Returned file content is not visible in the stream. Paths include the empty working directory, nonexistent-looking test files, and a CLI bundled guide.",
+  "decision": "Keep raw attempts unchanged. A provider-completed response with any non-web tool attempt is marked protocol_deviation and excluded from primary recommendation counts and denominators. Failed runs stay failures. Do not infer that experiment data was actually read.",
+  "web_tool_name_correction": "read_url_content is an allowed web URL tool, not an unrequested local tool. Count ACTIVE calls once; retain ACTIVE and DONE trace rows.",
+  "sensitivity": "Raw provider-completed outcomes remain in attempts.jsonl for inclusive sensitivity analysis. The primary report uses protocol-eligible responses only.",
+  "authorization": "No extra permissions or persistent CLI settings were granted, and denied URL reads were not bypassed."
+}

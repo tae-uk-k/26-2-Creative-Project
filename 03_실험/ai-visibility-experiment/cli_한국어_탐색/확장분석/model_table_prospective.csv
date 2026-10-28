@@ -1,0 +1,325 @@
+﻿entity_id,name_ko,area,backend,phase,sampling_cohort,runs,appearance_count,appearance_rate,general_runs,general_appearance_count,general_appearance_rate,top3_rate,mean_reciprocal_rank,wilson_low_descriptive,wilson_high_descriptive,original_address_count,address_unknown_mentions,own_website_external,menu_price_public_external,signature_price_krw_external,solo_seating_external,tourism_individual_page_external,guide_individual_page_external,established_year_external,log1p_google_review_count,google_star_rating,log1p_naver_review_count,log1p_photo_count,recent_review_age_days,channel_address_consistent,schema_restaurant_external,category_external,menu_family_external,brand_group,feature_snapshot_date,identity_prior_reference_checked,identity_reference_checked_external,minimal_website_category_documented
+MD-R01,명동교자,myeongdong,codex,prospective,original30_preselected,20,18,0.9,5,5,1,0.8,0.75,0.6989663547715196,0.9721335187862309,6,1,1,,,,,1,1966,,,,,,,,Kalguksu and dumplings,noodles_dumplings,명동교자,2026-10-13,1,0,1
+MD-R02,하동관,myeongdong,codex,prospective,original30_preselected,20,15,0.75,5,5,1,0.75,0.36666666666666664,0.5312991223812622,0.8881382985923318,15,0,1,,,,,1,1939,,,,,,,,Gomtang,soups_stews,하동관,2026-10-13,1,0,1
+MD-R03,왕비집 명동본점,myeongdong,codex,prospective,original30_preselected,20,7,0.35,5,2,0.4,0.1,0.09083333333333334,0.1811918241010855,0.5671457233147581,4,0,1,,,,,,,,,,,,,,Korean charcoal barbecue,barbecue,왕비집,2026-10-13,1,0,1
+MD-R04,명동정,myeongdong,codex,prospective,original30_preselected,20,5,0.25,5,0,0,0,0.055,0.11186170140766816,0.4687008776187378,5,0,1,,,,,,,,,,,,,,Royal Korean set meals,set_meals,명동정,2026-10-13,1,0,1
+MD-R05,명동함흥면옥,myeongdong,codex,prospective,original30_preselected,20,15,0.75,5,5,1,0.45,0.22,0.5312991223812622,0.8881382985923318,15,0,0,1,14000,,1,,,,,,,,,,Hamheung-style naengmyeon,noodles_dumplings,명동함흥면옥,2026-10-13,1,0,1
+MD-R06,미성옥,myeongdong,codex,prospective,original30_preselected,20,12,0.6,5,3,0.6,0.35,0.26,0.3865815007622585,0.7811934676271791,12,0,0,,,,,,,,,,,,,,Seolleongtang and suyuk,soups_stews,미성옥,2026-10-13,1,0,1
+MD-R07,세븐티포 명동성당본점,myeongdong,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Italian pizza and pasta,western_dining,세븐티포명동성당,2026-10-13,1,0,1
+MD-R08,하수오곰탕 명동점,myeongdong,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,1,13000,,,,,,,,,,,,Gomtang and Korean dishes,soups_stews,하수오곰탕,2026-10-13,0,0,1
+MD-R09,고시레 명동본점,myeongdong,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,1,,,,,,,,,,,,,Korean charcoal barbecue,barbecue,고시레,2026-10-13,0,0,1
+MD-R10,성원전주콩나물국밥,myeongdong,codex,prospective,original30_preselected,20,3,0.15,5,0,0,0,0.030000000000000002,0.05236874589621804,0.3604188647407503,3,0,0,,,,,,,,,,,,,,Bean-sprout gukbap,soups_stews,성원전주콩나물국밥,2026-10-13,1,0,1
+SS-R01,소문난성수감자탕,seongsu,codex,prospective,original30_preselected,20,15,0.75,5,5,1,0.7,0.4458333333333333,0.5312991223812622,0.8881382985923318,14,0,0,,,1,1,,,,,,,,,,Korean pork-bone stew,soups_stews,소문난성수감자탕,2026-10-13,1,0,1
+SS-R02,성수족발,seongsu,codex,prospective,original30_preselected,20,3,0.15,5,0,0,0,0.0325,0.05236874589621804,0.3604188647407503,3,0,0,,,,1,,,,,,,,,,Korean braised pig feet,jokbal,성수족발,2026-10-13,1,0,1
+SS-R03,성수다락,seongsu,codex,prospective,original30_preselected,20,5,0.25,5,5,1,0.2,0.12083333333333333,0.11186170140766816,0.4687008776187378,5,0,0,,,,,,,,,,,,,,Omurice and pasta,western_dining,성수다락,2026-10-13,1,0,1
+SS-R04,칙피스 성수점,seongsu,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Mediterranean and Middle Eastern,other_meals,칙피스,2026-10-13,1,0,1
+SS-R05,퀴버 서울숲점,seongsu,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Brunch steak and wine bar,western_dining,퀴버,2026-10-13,1,0,1
+SS-R06,잠수교집 성수 직영점,seongsu,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Frozen pork belly barbecue,barbecue,잠수교집,2026-10-13,1,0,1
+SS-R07,유어네이키드치즈,seongsu,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Cheese dining and wine bar,western_dining,유어네이키드치즈,2026-10-13,1,0,1
+SS-R08,할머니의 레시피,seongsu,codex,prospective,original30_preselected,20,2,0.1,5,0,0,0.05,0.06,0.027866481213769084,0.3010336452284804,2,0,0,,,,,,,,,,,,,,Korean home-style set meals,set_meals,할머니의레시피,2026-10-13,1,0,1
+SS-R09,선채 성수,seongsu,codex,prospective,original30_preselected,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,1,0,0,,,,,,,,,,,,,,Seasonal Korean dining,set_meals,선채성수,2026-10-13,1,0,1
+SS-R10,돼지곰탕 하우 성수본점,seongsu,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Pork gomtang and cold noodles,soups_stews,돼지곰탕하우,2026-10-13,1,0,1
+MW-R01,우이락 망원본점,mangwon,codex,prospective,original30_preselected,20,15,0.75,5,5,1,0.3,0.28583333333333333,0.5312991223812622,0.8881382985923318,15,0,0,,,,,,,,,,,,,,Stuffed chili fritters and makgeolli,market_snacks,우이락,2026-10-13,1,0,1
+MW-R02,큐스닭강정,mangwon,codex,prospective,original30_preselected,20,2,0.1,5,1,0.2,0,0.0225,0.027866481213769084,0.3010336452284804,2,0,0,,,,,,,,,,,,,,Sweet crispy chicken,market_snacks,큐스닭강정,2026-10-13,0,0,1
+MW-R03,황인호 크로켓,mangwon,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Croquettes and doughnuts,market_snacks,황인호크로켓,2026-10-13,0,0,1
+MW-R04,흥흥호떡,mangwon,codex,prospective,original30_preselected,20,5,0.25,5,0,0,0.1,0.07083333333333333,0.11186170140766816,0.4687008776187378,5,0,0,,,,,,,,,,,,,,Hotteok,market_snacks,흥흥호떡,2026-10-13,1,0,1
+MW-R05,발리인망원,mangwon,codex,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Indonesian,other_meals,발리인망원,2026-10-13,1,0,1
+MW-R06,청어람 망원점,mangwon,codex,prospective,original30_preselected,20,4,0.2,5,0,0,0.1,0.08916666666666667,0.08065766257979998,0.41601743225188714,3,0,0,,,,,,,,,,,,,,Gopchang hot pot,soups_stews,청어람,2026-10-13,0,0,1
+MW-R07,홍두깨손칼국수,mangwon,codex,prospective,original30_preselected,20,13,0.65,5,3,0.6,0.65,0.5916666666666667,0.4328542766852419,0.8188081758989145,13,0,0,,,,,,,,,,,,,,Handmade noodles and sujebi,noodles_dumplings,홍두깨손칼국수,2026-10-13,0,0,1
+MW-R08,일등식당,mangwon,codex,prospective,original30_preselected,20,3,0.15,5,3,0.6,0.15,0.1,0.05236874589621804,0.3604188647407503,3,0,0,,,,,,,,,,,,,,Pork-bone hangover soup,soups_stews,일등식당,2026-10-13,0,0,1
+MW-R09,진성만두 망원시장점,mangwon,codex,prospective,original30_preselected,20,2,0.1,5,0,0,0.1,0.03333333333333333,0.027866481213769084,0.3010336452284804,2,0,0,,,,,,,,,,,,,,Large steamed dumplings,noodles_dumplings,진성만두,2026-10-13,0,0,1
+MW-R10,망원동즉석우동 본점,mangwon,codex,prospective,original30_preselected,20,9,0.45,5,4,0.8,0.4,0.16833333333333333,0.25819785825562847,0.6579146575496526,9,0,0,,,,,,,,,,,,,,Udon and pork cutlet,noodles_dumplings,망원동즉석우동,2026-10-13,0,0,1
+DISC-f89be5e9d4,명동돈가스,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,6,0.3,5,2,0.4,0.25,0.17083333333333334,0.1454772448676072,0.5189728183535174,0,6,,,,,1,,,,,,,,,,Japanese pork cutlet,cutlet,명동돈가스,2026-10-13,0,1,0
+DISC-f9c862234a,영양센터,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,1,0.2,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,영양센터,2026-10-13,0,0,0
+DISC-e773f45b13,을지돈가스,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,을지돈가스,2026-10-13,0,0,0
+DISC-6a8f75e5f7,명화당,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.1,0.07666666666666666,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,명화당,2026-10-13,0,0,0
+DISC-a8cc6fc325,멘텐,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0,0.030000000000000002,0.05236874589621804,0.3604188647407503,0,3,,1,12500,,,,,,,,,,,,Japanese ramen,noodles_dumplings,멘텐,2026-10-13,0,1,0
+DISC-42f9b3d0cb,훼미리손칼국수보쌈,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,훼미리손칼국수보쌈,2026-10-13,0,0,0
+DISC-aa44484f82,풍조미역,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,풍조미역,2026-10-13,0,0,0
+DISC-e7ee89ab11,제주국수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,제주국수,2026-10-13,0,0,0
+DISC-68eb7dd1c3,더반푸드,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,더반푸드,2026-10-13,0,0,0
+DISC-fd0fdea2ec,헤키,mangwon,codex,prospective,baseline_discovery_prospective_only,20,6,0.3,5,2,0.4,0.2,0.13666666666666666,0.1454772448676072,0.5189728183535174,0,6,,1,15500,,,,,,,,,,,,Japanese pork cutlet,cutlet,헤키,2026-10-13,0,1,0
+DISC-7affbed9b7,저집,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,저집,2026-10-13,0,0,0
+DISC-79176a11c5,만두란,mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.1,0.05416666666666667,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,만두란,2026-10-13,0,0,0
+DISC-232074bb6e,스키야,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,스키야,2026-10-13,0,0,0
+DISC-7662262bc6,미분당,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.05,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,미분당,2026-10-13,0,0,0
+DISC-1f01e74053,멘야코노하,seongsu,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.15,0.15,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,멘야코노하,2026-10-13,0,0,0
+DISC-1032d7c226,면화손칼국수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.05,0.026666666666666665,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,면화손칼국수,2026-10-13,0,0,0
+DISC-32e21d836e,멘츠루,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,멘츠루,2026-10-13,0,0,0
+DISC-84954f3215,솔솥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,솔솥,2026-10-13,0,0,0
+DISC-dadb8b93af,송이네,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,송이네,2026-10-13,0,0,0
+DISC-03c249a8ad,망원떡갈비,mangwon,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.05,0.035,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,망원떡갈비,2026-10-13,0,0,0
+DISC-88e1149bcb,난포,seongsu,codex,prospective,baseline_discovery_prospective_only,20,10,0.5,5,4,0.8,0.5,0.3833333333333333,0.29929800819821695,0.700701991801783,0,10,,,,,1,,,,,,,,,,Korean contemporary,set_meals,난포,2026-10-13,0,1,0
+DISC-005c65cbb3,능동미나리,seongsu,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.15,0.1,0.05236874589621804,0.3604188647407503,0,3,,1,15000,,,,,,,,,,,,Korean gomtang and beef,soups_stews,능동미나리,2026-10-13,0,1,0
+DISC-b6cac48741,다로베,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,다로베,2026-10-13,0,0,0
+DISC-8e55025c3f,마하차이,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,마하차이,2026-10-13,0,0,0
+DISC-67901345ba,말방국밥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,말방국밥,2026-10-13,0,0,0
+DISC-ecef678225,망원식당(못난이만두),mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,1,0.2,0.15,0.06666666666666667,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,망원식당못난이만두,2026-10-13,0,0,0
+DISC-41a12b19ca,고손수제군만두,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,고손수제군만두,2026-10-13,0,0,0
+DISC-887f02137d,망원식당,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,망원식당,2026-10-13,0,0,0
+DISC-da5894deb0,틈새라면,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,틈새라면,2026-10-13,0,0,0
+DISC-c85d804cdb,명동채움 한정식,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,명동채움한정식,2026-10-13,0,0,0
+DISC-d053f6c1d1,호호식당,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,호호식당,2026-10-13,0,0,0
+DISC-4663c628dc,멘야포모,seongsu,codex,prospective,baseline_discovery_prospective_only,20,5,0.25,5,3,0.6,0.05,0.0725,0.11186170140766816,0.4687008776187378,0,5,,,,,,,,,,,,,,,,,멘야포모,2026-10-13,0,0,0
+DISC-f6e217f002,할머니 빈대떡,mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.05,0.041666666666666664,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,할머니빈대떡,2026-10-13,0,0,0
+DISC-be6c55e3e0,가가호호,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,가가호호,2026-10-13,0,0,0
+DISC-5ebf3dde2e,온센,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,온센,2026-10-13,0,0,0
+DISC-65941169e3,강동원,mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,1,0.2,0.1,0.0875,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,강동원,2026-10-13,0,0,0
+DISC-1dfeafd4a8,순대일번지,mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.15,0.1,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,순대일번지,2026-10-13,0,0,0
+DISC-1a5a8d1301,진국당성수국밥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,진국당성수국밥,2026-10-13,0,0,0
+DISC-579a422e31,고향집,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.025,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,고향집,2026-10-13,0,0,0
+DISC-8e18142b72,록멘,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.05,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,록멘,2026-10-13,0,0,0
+DISC-1b8fb0e244,밀본,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,밀본,2026-10-13,0,0,0
+DISC-65ada2d9c4,미도인,seongsu,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0,0.025,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,미도인,2026-10-13,0,0,0
+DISC-36e891b809,소바식당,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,소바식당,2026-10-13,0,0,0
+DISC-24d3ea39d9,광장동가온,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,광장동가온,2026-10-13,0,0,0
+DISC-e302e1638a,전설의왕만두,mangwon,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,1,0.2,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,전설의왕만두,2026-10-13,0,0,0
+DISC-c3cdbab506,명동할머니국수,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,1,6000,,,,,,,,,,,,Korean noodles,noodles_dumplings,명동할머니국수,2026-10-13,0,0,0
+DISC-2fbb887804,멘야마쯔리,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,멘야마쯔리,2026-10-13,0,0,0
+DISC-abf00474b7,핵밥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,핵밥,2026-10-13,0,0,0
+DISC-2e62bac1b6,금산제면소,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,1,0.2,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,금산제면소,2026-10-13,0,0,0
+DISC-c585d78169,육통령,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,육통령,2026-10-13,0,0,0
+DISC-464769a7bb,파동,mangwon,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.05,0.075,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,파동,2026-10-13,0,0,0
+DISC-8d11a225da,가원,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,가원,2026-10-13,0,0,0
+DISC-7fc849a64d,타코닷,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,타코닷,2026-10-13,0,0,0
+DISC-fbbc8f59f8,바삭마차,mangwon,codex,prospective,baseline_discovery_prospective_only,20,4,0.2,5,0,0,0,0.04,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,바삭마차,2026-10-13,0,0,0
+DISC-3c45714a9e,오하루 수육국밥,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,오하루수육국밥,2026-10-13,0,0,0
+DISC-8c13ca1613,소금집델리,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.01,0.008881448800795763,0.236131193446735,0,1,1,,,,,,,,,,,,,,,,소금집델리,2026-10-13,0,0,0
+DISC-6ac62b39c3,인생제육,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,인생제육,2026-10-13,0,0,0
+DISC-02912b1b0f,성수막국수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,성수막국수,2026-10-13,0,0,0
+DISC-bc4a7f4557,담솥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.05,0.06,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,담솥,2026-10-13,0,0,0
+DISC-69596ab441,성수온실,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,성수온실,2026-10-13,0,0,0
+DISC-b6a4785ae9,대성갈비,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,대성갈비,2026-10-13,0,0,0
+DISC-4e6d57698f,부우이,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,부우이,2026-10-13,0,0,0
+DISC-40d290e0fe,비스트로성수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,비스트로성수,2026-10-13,0,0,0
+DISC-b6e40ed79b,훼미리손칼국수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,훼미리손칼국수,2026-10-13,0,0,0
+DISC-a98ae2803b,숯골,seongsu,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.05,0.026666666666666665,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,숯골,2026-10-13,0,0,0
+DISC-43e10f06fe,등촌샤브칼국수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,등촌샤브칼국수,2026-10-13,0,0,0
+DISC-b155e65c5a,쏘옥,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,쏘옥,2026-10-13,0,0,0
+DISC-6fa196805d,제제,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,제제,2026-10-13,0,0,0
+DISC-f8fce9749f,팩피,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,팩피,2026-10-13,0,0,0
+DISC-5dfaee3ea4,망원시장손칼국수,mangwon,codex,prospective,baseline_discovery_prospective_only,20,2,0.1,5,2,0.4,0.1,0.06666666666666667,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,망원시장손칼국수,2026-10-13,0,0,0
+DISC-4434234066,맛있는집,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,맛있는집,2026-10-13,0,0,0
+DISC-743b287101,키친 갈매기,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,키친갈매기,2026-10-13,0,0,0
+DISC-88cb34fcf1,목멱산방,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,목멱산방,2026-10-13,0,0,0
+DISC-e7e3b82ebb,강남면옥,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,강남면옥,2026-10-13,0,0,0
+DISC-e67bbaf4ee,르프리크,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,르프리크,2026-10-13,0,0,0
+DISC-d0bd56f7b4,대엽,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,대엽,2026-10-13,0,0,0
+DISC-ebe2bde8f5,만복기사식당,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,만복기사식당,2026-10-13,0,0,0
+DISC-509b44a973,포썸,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.025,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,포썸,2026-10-13,0,0,0
+DISC-409629d0fc,초한초마,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,초한초마,2026-10-13,0,0,0
+DISC-fac6b13ee4,쵸리상경,seongsu,codex,prospective,baseline_discovery_prospective_only,20,4,0.2,5,1,0.2,0.15,0.0875,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,쵸리상경,2026-10-13,0,0,0
+DISC-00d84f8fad,중앙가속기,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,중앙가속기,2026-10-13,0,0,0
+DISC-9c63947978,온량,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,온량,2026-10-13,0,0,0
+DISC-3165bb61f5,망원수제고로케,mangwon,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,망원수제고로케,2026-10-13,0,0,0
+DISC-464828a963,딘타이펑,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,딘타이펑,2026-10-13,0,0,0
+DISC-845c7929aa,멘노아지,seongsu,codex,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.1,0.0625,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,멘노아지,2026-10-13,0,0,0
+DISC-2b9d7aebda,일미락,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,일미락,2026-10-13,0,0,0
+DISC-98ea1e2cee,한성식당,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,한성식당,2026-10-13,0,0,0
+DISC-561a84fa41,병아리김밥,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,병아리김밥,2026-10-13,0,0,0
+DISC-68dacbd4d4,이남장,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,이남장,2026-10-13,0,0,0
+DISC-ab0dc39604,심퍼티쿠시,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.025,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,심퍼티쿠시,2026-10-13,0,0,0
+DISC-0ad647f159,초이다이닝,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,초이다이닝,2026-10-13,0,0,0
+DISC-fc002efe16,남포면옥,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,남포면옥,2026-10-13,0,0,0
+DISC-3cec462395,혼고집,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.05,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,혼고집,2026-10-13,0,0,0
+DISC-ed2dfe29ee,스시로,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,스시로,2026-10-13,0,0,0
+DISC-4950f38fc7,고우성수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,고우성수,2026-10-13,0,0,0
+DISC-28418610f0,계월곰탕,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,계월곰탕,2026-10-13,0,0,0
+DISC-a8d93f7fed,금금,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,금금,2026-10-13,0,0,0
+DISC-1b17e22de9,가정식고바우식당,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,가정식고바우식당,2026-10-13,0,0,0
+DISC-8eb4ac1d6e,헤비스테이크,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,헤비스테이크,2026-10-13,0,0,0
+DISC-a68849c700,카카모루,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,카카모루,2026-10-13,0,0,0
+DISC-7415e068dd,텐동식당,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,텐동식당,2026-10-13,0,0,0
+DISC-af6c41fc47,곰국시집,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,곰국시집,2026-10-13,0,0,0
+DISC-ad28315c90,고향손칼국수,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,고향손칼국수,2026-10-13,0,0,0
+DISC-6251adf1f3,다반,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.025,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,다반,2026-10-13,0,0,0
+DISC-7cd3794a5b,중앙감속기,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,중앙감속기,2026-10-13,0,0,0
+DISC-bea8e72a31,이태리국시,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,이태리국시,2026-10-13,0,0,0
+DISC-e9ad74128f,죠죠,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,죠죠,2026-10-13,0,0,0
+DISC-87a9034c81,연만두,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,연만두,2026-10-13,0,0,0
+DISC-712e4ee333,1992덮밥&짜글이,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,1992덮밥짜글이,2026-10-13,0,0,0
+DISC-bf5a114cbd,란주칼면,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,란주칼면,2026-10-13,0,0,0
+DISC-c46738176d,원조한치,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,원조한치,2026-10-13,0,0,0
+DISC-7a14a97e6b,남산도담,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,남산도담,2026-10-13,0,0,0
+DISC-609d2e9d52,제스티살룬,seongsu,codex,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,제스티살룬,2026-10-13,0,0,0
+DISC-14ddddd61d,황금옥순대,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,황금옥순대,2026-10-13,0,0,0
+DISC-3b4dc505a5,소바식당,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,소바식당,2026-10-13,0,0,0
+DISC-ac3e340e14,아미소,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,아미소,2026-10-13,0,0,0
+DISC-16e6480b19,원조청기와숯불갈비,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,원조청기와숯불갈비,2026-10-13,0,0,0
+DISC-f1039e127a,백제삼계탕,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,백제삼계탕,2026-10-13,0,0,0
+DISC-8e1ab1ef6f,란주라미엔,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,란주라미엔,2026-10-13,0,0,0
+DISC-dd0e9b18dc,라무라,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,라무라,2026-10-13,0,0,0
+DISC-f9a324ab6a,정선부뚜막,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,정선부뚜막,2026-10-13,0,0,0
+DISC-d2e5706d62,진평925,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,진평925,2026-10-13,0,0,0
+DISC-c640fb73dd,망원동막국수,mangwon,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,망원동막국수,2026-10-13,0,0,0
+DISC-a9657a2a81,진사댁,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,진사댁,2026-10-13,0,0,0
+DISC-d30ab44910,소와나,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,소와나,2026-10-13,0,0,0
+DISC-9425aa6870,움 성수,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,움성수,2026-10-13,0,0,0
+DISC-c9b376434d,기엔탄,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,기엔탄,2026-10-13,0,0,0
+DISC-ebeb3aea94,도믹스,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,도믹스,2026-10-13,0,0,0
+DISC-aab2ed4964,리파인,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,리파인,2026-10-13,0,0,0
+DISC-d0aa4aaf7b,매튜,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,매튜,2026-10-13,0,0,0
+DISC-74cb1ee7eb,대취,seongsu,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,대취,2026-10-13,0,0,0
+DISC-08dc83243f,남산골산채집,myeongdong,codex,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,남산골산채집,2026-10-13,0,0,0
+MD-R01,명동교자,myeongdong,agy,prospective,original30_preselected,20,20,1.0,5,5,1,1,0.9,0.838874841947188,0.9999999999999999,17,0,1,,,,,1,1966,,,,,,,,Kalguksu and dumplings,noodles_dumplings,명동교자,2026-10-13,1,0,1
+MD-R02,하동관,myeongdong,agy,prospective,original30_preselected,20,15,0.75,5,5,1,0.75,0.375,0.5312991223812622,0.8881382985923318,15,0,1,,,,,1,1939,,,,,,,,Gomtang,soups_stews,하동관,2026-10-13,1,0,1
+MD-R03,왕비집 명동본점,myeongdong,agy,prospective,original30_preselected,20,8,0.4,5,3,0.6,0.1,0.10333333333333333,0.2188065323728209,0.6134184992377415,8,0,1,,,,,,,,,,,,,,Korean charcoal barbecue,barbecue,왕비집,2026-10-13,1,0,1
+MD-R04,명동정,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Royal Korean set meals,set_meals,명동정,2026-10-13,1,0,1
+MD-R05,명동함흥면옥,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,1,14000,,1,,,,,,,,,,Hamheung-style naengmyeon,noodles_dumplings,명동함흥면옥,2026-10-13,1,0,1
+MD-R06,미성옥,myeongdong,agy,prospective,original30_preselected,20,16,0.8,5,3,0.6,0.6,0.2475,0.5839825677481129,0.9193423374202,16,0,0,,,,,,,,,,,,,,Seolleongtang and suyuk,soups_stews,미성옥,2026-10-13,1,0,1
+MD-R07,세븐티포 명동성당본점,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Italian pizza and pasta,western_dining,세븐티포명동성당,2026-10-13,1,0,1
+MD-R08,하수오곰탕 명동점,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,1,13000,,,,,,,,,,,,Gomtang and Korean dishes,soups_stews,하수오곰탕,2026-10-13,0,0,1
+MD-R09,고시레 명동본점,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,1,,,,,,,,,,,,,Korean charcoal barbecue,barbecue,고시레,2026-10-13,0,0,1
+MD-R10,성원전주콩나물국밥,myeongdong,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Bean-sprout gukbap,soups_stews,성원전주콩나물국밥,2026-10-13,1,0,1
+SS-R01,소문난성수감자탕,seongsu,agy,prospective,original30_preselected,20,15,0.75,5,5,1,0.7,0.6516666666666666,0.5312991223812622,0.8881382985923318,15,0,0,,,1,1,,,,,,,,,,Korean pork-bone stew,soups_stews,소문난성수감자탕,2026-10-13,1,0,1
+SS-R02,성수족발,seongsu,agy,prospective,original30_preselected,20,1,0.05,5,1,0.2,0.05,0.025,0.008881448800795763,0.236131193446735,1,0,0,,,,1,,,,,,,,,,Korean braised pig feet,jokbal,성수족발,2026-10-13,1,0,1
+SS-R03,성수다락,seongsu,agy,prospective,original30_preselected,20,5,0.25,5,5,1,0.15,0.0725,0.11186170140766816,0.4687008776187378,5,0,0,,,,,,,,,,,,,,Omurice and pasta,western_dining,성수다락,2026-10-13,1,0,1
+SS-R04,칙피스 성수점,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Mediterranean and Middle Eastern,other_meals,칙피스,2026-10-13,1,0,1
+SS-R05,퀴버 서울숲점,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Brunch steak and wine bar,western_dining,퀴버,2026-10-13,1,0,1
+SS-R06,잠수교집 성수 직영점,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Frozen pork belly barbecue,barbecue,잠수교집,2026-10-13,1,0,1
+SS-R07,유어네이키드치즈,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,1,,,,,,,,,,,,,,Cheese dining and wine bar,western_dining,유어네이키드치즈,2026-10-13,1,0,1
+SS-R08,할머니의 레시피,seongsu,agy,prospective,original30_preselected,20,6,0.3,5,0,0,0.2,0.10583333333333333,0.1454772448676072,0.5189728183535174,6,0,0,,,,,,,,,,,,,,Korean home-style set meals,set_meals,할머니의레시피,2026-10-13,1,0,1
+SS-R09,선채 성수,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Seasonal Korean dining,set_meals,선채성수,2026-10-13,1,0,1
+SS-R10,돼지곰탕 하우 성수본점,seongsu,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Pork gomtang and cold noodles,soups_stews,돼지곰탕하우,2026-10-13,1,0,1
+MW-R01,우이락 망원본점,mangwon,agy,prospective,original30_preselected,20,13,0.65,5,5,1,0.5,0.4325,0.4328542766852419,0.8188081758989145,13,0,0,,,,,,,,,,,,,,Stuffed chili fritters and makgeolli,market_snacks,우이락,2026-10-13,1,0,1
+MW-R02,큐스닭강정,mangwon,agy,prospective,original30_preselected,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,1,0,0,,,,,,,,,,,,,,Sweet crispy chicken,market_snacks,큐스닭강정,2026-10-13,0,0,1
+MW-R03,황인호 크로켓,mangwon,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Croquettes and doughnuts,market_snacks,황인호크로켓,2026-10-13,0,0,1
+MW-R04,흥흥호떡,mangwon,agy,prospective,original30_preselected,20,5,0.25,5,0,0,0.25,0.09999999999999999,0.11186170140766816,0.4687008776187378,5,0,0,,,,,,,,,,,,,,Hotteok,market_snacks,흥흥호떡,2026-10-13,1,0,1
+MW-R05,발리인망원,mangwon,agy,prospective,original30_preselected,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,1,0,0,,,,,,,,,,,,,,Indonesian,other_meals,발리인망원,2026-10-13,1,0,1
+MW-R06,청어람 망원점,mangwon,agy,prospective,original30_preselected,20,1,0.05,5,0,0,0.05,0.025,0.008881448800795763,0.236131193446735,1,0,0,,,,,,,,,,,,,,Gopchang hot pot,soups_stews,청어람,2026-10-13,0,0,1
+MW-R07,홍두깨손칼국수,mangwon,agy,prospective,original30_preselected,20,15,0.75,5,5,1,0.75,0.475,0.5312991223812622,0.8881382985923318,15,0,0,,,,,,,,,,,,,,Handmade noodles and sujebi,noodles_dumplings,홍두깨손칼국수,2026-10-13,0,0,1
+MW-R08,일등식당,mangwon,agy,prospective,original30_preselected,20,6,0.3,5,2,0.4,0.25,0.1625,0.1454772448676072,0.5189728183535174,6,0,0,,,,,,,,,,,,,,Pork-bone hangover soup,soups_stews,일등식당,2026-10-13,0,0,1
+MW-R09,진성만두 망원시장점,mangwon,agy,prospective,original30_preselected,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,0,,,,,,,,,,,,,,Large steamed dumplings,noodles_dumplings,진성만두,2026-10-13,0,0,1
+MW-R10,망원동즉석우동 본점,mangwon,agy,prospective,original30_preselected,20,11,0.55,5,4,0.8,0.5,0.335,0.3420853424503473,0.7418021417443715,11,0,0,,,,,,,,,,,,,,Udon and pork cutlet,noodles_dumplings,망원동즉석우동,2026-10-13,0,0,1
+DISC-f89be5e9d4,명동돈가스,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,7,0.35,5,4,0.8,0.25,0.10583333333333333,0.1811918241010855,0.5671457233147581,0,7,,,,,1,,,,,,,,,,Japanese pork cutlet,cutlet,명동돈가스,2026-10-13,0,1,0
+DISC-f9c862234a,영양센터,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,영양센터,2026-10-13,0,0,0
+DISC-e773f45b13,을지돈가스,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,을지돈가스,2026-10-13,0,0,0
+DISC-6a8f75e5f7,명화당,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,명화당,2026-10-13,0,0,0
+DISC-a8cc6fc325,멘텐,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,1,12500,,,,,,,,,,,,Japanese ramen,noodles_dumplings,멘텐,2026-10-13,0,1,0
+DISC-42f9b3d0cb,훼미리손칼국수보쌈,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,훼미리손칼국수보쌈,2026-10-13,0,0,0
+DISC-aa44484f82,풍조미역,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,풍조미역,2026-10-13,0,0,0
+DISC-e7ee89ab11,제주국수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,제주국수,2026-10-13,0,0,0
+DISC-68eb7dd1c3,더반푸드,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,더반푸드,2026-10-13,0,0,0
+DISC-fd0fdea2ec,헤키,mangwon,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.1,0.1,0.027866481213769084,0.3010336452284804,0,2,,1,15500,,,,,,,,,,,,Japanese pork cutlet,cutlet,헤키,2026-10-13,0,1,0
+DISC-7affbed9b7,저집,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,저집,2026-10-13,0,0,0
+DISC-79176a11c5,만두란,mangwon,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,1,0.2,0.05,0.05416666666666667,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,만두란,2026-10-13,0,0,0
+DISC-232074bb6e,스키야,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,스키야,2026-10-13,0,0,0
+DISC-7662262bc6,미분당,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,미분당,2026-10-13,0,0,0
+DISC-1f01e74053,멘야코노하,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,멘야코노하,2026-10-13,0,0,0
+DISC-1032d7c226,면화손칼국수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,면화손칼국수,2026-10-13,0,0,0
+DISC-32e21d836e,멘츠루,seongsu,agy,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.15,0.09166666666666666,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,멘츠루,2026-10-13,0,0,0
+DISC-84954f3215,솔솥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,솔솥,2026-10-13,0,0,0
+DISC-dadb8b93af,송이네,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,송이네,2026-10-13,0,0,0
+DISC-03c249a8ad,망원떡갈비,mangwon,agy,prospective,baseline_discovery_prospective_only,20,5,0.25,5,4,0.8,0,0.0575,0.11186170140766816,0.4687008776187378,0,5,,,,,,,,,,,,,,,,,망원떡갈비,2026-10-13,0,0,0
+DISC-88e1149bcb,난포,seongsu,agy,prospective,baseline_discovery_prospective_only,20,15,0.75,5,5,1,0.7,0.49583333333333335,0.5312991223812622,0.8881382985923318,0,15,,,,,1,,,,,,,,,,Korean contemporary,set_meals,난포,2026-10-13,0,1,0
+DISC-005c65cbb3,능동미나리,seongsu,agy,prospective,baseline_discovery_prospective_only,20,5,0.25,5,1,0.2,0.2,0.09583333333333333,0.11186170140766816,0.4687008776187378,0,5,,1,15000,,,,,,,,,,,,Korean gomtang and beef,soups_stews,능동미나리,2026-10-13,0,1,0
+DISC-b6cac48741,다로베,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,다로베,2026-10-13,0,0,0
+DISC-8e55025c3f,마하차이,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,마하차이,2026-10-13,0,0,0
+DISC-67901345ba,말방국밥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,말방국밥,2026-10-13,0,0,0
+DISC-ecef678225,망원식당(못난이만두),mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,망원식당못난이만두,2026-10-13,0,0,0
+DISC-41a12b19ca,고손수제군만두,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,고손수제군만두,2026-10-13,0,0,0
+DISC-887f02137d,망원식당,mangwon,agy,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0,0.035,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,망원식당,2026-10-13,0,0,0
+DISC-da5894deb0,틈새라면,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,틈새라면,2026-10-13,0,0,0
+DISC-c85d804cdb,명동채움 한정식,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,명동채움한정식,2026-10-13,0,0,0
+DISC-d053f6c1d1,호호식당,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,호호식당,2026-10-13,0,0,0
+DISC-4663c628dc,멘야포모,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,멘야포모,2026-10-13,0,0,0
+DISC-f6e217f002,할머니 빈대떡,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,할머니빈대떡,2026-10-13,0,0,0
+DISC-be6c55e3e0,가가호호,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,가가호호,2026-10-13,0,0,0
+DISC-5ebf3dde2e,온센,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,온센,2026-10-13,0,0,0
+DISC-65941169e3,강동원,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,강동원,2026-10-13,0,0,0
+DISC-1dfeafd4a8,순대일번지,mangwon,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,1,0.2,0.05,0.035,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,순대일번지,2026-10-13,0,0,0
+DISC-1a5a8d1301,진국당성수국밥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,진국당성수국밥,2026-10-13,0,0,0
+DISC-579a422e31,고향집,mangwon,agy,prospective,baseline_discovery_prospective_only,20,5,0.25,5,0,0,0.2,0.09583333333333333,0.11186170140766816,0.4687008776187378,0,5,,,,,,,,,,,,,,,,,고향집,2026-10-13,0,0,0
+DISC-8e18142b72,록멘,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,록멘,2026-10-13,0,0,0
+DISC-1b8fb0e244,밀본,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,밀본,2026-10-13,0,0,0
+DISC-65ada2d9c4,미도인,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,미도인,2026-10-13,0,0,0
+DISC-36e891b809,소바식당,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,소바식당,2026-10-13,0,0,0
+DISC-24d3ea39d9,광장동가온,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,광장동가온,2026-10-13,0,0,0
+DISC-e302e1638a,전설의왕만두,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,전설의왕만두,2026-10-13,0,0,0
+DISC-c3cdbab506,명동할머니국수,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0,0.035,0.05236874589621804,0.3604188647407503,0,3,,1,6000,,,,,,,,,,,,Korean noodles,noodles_dumplings,명동할머니국수,2026-10-13,0,0,0
+DISC-2fbb887804,멘야마쯔리,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,멘야마쯔리,2026-10-13,0,0,0
+DISC-abf00474b7,핵밥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,핵밥,2026-10-13,0,0,0
+DISC-2e62bac1b6,금산제면소,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,금산제면소,2026-10-13,0,0,0
+DISC-c585d78169,육통령,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,육통령,2026-10-13,0,0,0
+DISC-464769a7bb,파동,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,파동,2026-10-13,0,0,0
+DISC-8d11a225da,가원,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,가원,2026-10-13,0,0,0
+DISC-7fc849a64d,타코닷,mangwon,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0,0.0225,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,타코닷,2026-10-13,0,0,0
+DISC-fbbc8f59f8,바삭마차,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,바삭마차,2026-10-13,0,0,0
+DISC-3c45714a9e,오하루 수육국밥,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,오하루수육국밥,2026-10-13,0,0,0
+DISC-8c13ca1613,소금집델리,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,1,,,,,,,,,,,,,,,,소금집델리,2026-10-13,0,0,0
+DISC-6ac62b39c3,인생제육,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,인생제육,2026-10-13,0,0,0
+DISC-02912b1b0f,성수막국수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,성수막국수,2026-10-13,0,0,0
+DISC-bc4a7f4557,담솥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,담솥,2026-10-13,0,0,0
+DISC-69596ab441,성수온실,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,성수온실,2026-10-13,0,0,0
+DISC-b6a4785ae9,대성갈비,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,대성갈비,2026-10-13,0,0,0
+DISC-4e6d57698f,부우이,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,부우이,2026-10-13,0,0,0
+DISC-40d290e0fe,비스트로성수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,비스트로성수,2026-10-13,0,0,0
+DISC-b6e40ed79b,훼미리손칼국수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,훼미리손칼국수,2026-10-13,0,0,0
+DISC-a98ae2803b,숯골,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,숯골,2026-10-13,0,0,0
+DISC-43e10f06fe,등촌샤브칼국수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,등촌샤브칼국수,2026-10-13,0,0,0
+DISC-b155e65c5a,쏘옥,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,쏘옥,2026-10-13,0,0,0
+DISC-6fa196805d,제제,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,제제,2026-10-13,0,0,0
+DISC-f8fce9749f,팩피,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,팩피,2026-10-13,0,0,0
+DISC-5dfaee3ea4,망원시장손칼국수,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,망원시장손칼국수,2026-10-13,0,0,0
+DISC-4434234066,맛있는집,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,맛있는집,2026-10-13,0,0,0
+DISC-743b287101,키친 갈매기,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,키친갈매기,2026-10-13,0,0,0
+DISC-88cb34fcf1,목멱산방,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,0,0,0.05,0.029166666666666667,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,목멱산방,2026-10-13,0,0,0
+DISC-e7e3b82ebb,강남면옥,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,강남면옥,2026-10-13,0,0,0
+DISC-e67bbaf4ee,르프리크,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,르프리크,2026-10-13,0,0,0
+DISC-d0bd56f7b4,대엽,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,대엽,2026-10-13,0,0,0
+DISC-ebe2bde8f5,만복기사식당,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,만복기사식당,2026-10-13,0,0,0
+DISC-509b44a973,포썸,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,포썸,2026-10-13,0,0,0
+DISC-409629d0fc,초한초마,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,초한초마,2026-10-13,0,0,0
+DISC-fac6b13ee4,쵸리상경,seongsu,agy,prospective,baseline_discovery_prospective_only,20,3,0.15,5,0,0,0.1,0.06,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,쵸리상경,2026-10-13,0,0,0
+DISC-00d84f8fad,중앙가속기,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,중앙가속기,2026-10-13,0,0,0
+DISC-9c63947978,온량,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,온량,2026-10-13,0,0,0
+DISC-3165bb61f5,망원수제고로케,mangwon,agy,prospective,baseline_discovery_prospective_only,20,6,0.3,5,0,0,0.05,0.06666666666666667,0.1454772448676072,0.5189728183535174,0,6,,,,,,,,,,,,,,,,,망원수제고로케,2026-10-13,0,0,0
+DISC-464828a963,딘타이펑,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,딘타이펑,2026-10-13,0,0,0
+DISC-845c7929aa,멘노아지,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,멘노아지,2026-10-13,0,0,0
+DISC-2b9d7aebda,일미락,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,일미락,2026-10-13,0,0,0
+DISC-98ea1e2cee,한성식당,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,한성식당,2026-10-13,0,0,0
+DISC-561a84fa41,병아리김밥,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,병아리김밥,2026-10-13,0,0,0
+DISC-68dacbd4d4,이남장,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,이남장,2026-10-13,0,0,0
+DISC-ab0dc39604,심퍼티쿠시,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,심퍼티쿠시,2026-10-13,0,0,0
+DISC-0ad647f159,초이다이닝,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,초이다이닝,2026-10-13,0,0,0
+DISC-fc002efe16,남포면옥,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,남포면옥,2026-10-13,0,0,0
+DISC-3cec462395,혼고집,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,5,0.25,5,0,0,0.25,0.225,0.11186170140766816,0.4687008776187378,0,5,,,,,,,,,,,,,,,,,혼고집,2026-10-13,0,0,0
+DISC-ed2dfe29ee,스시로,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,스시로,2026-10-13,0,0,0
+DISC-4950f38fc7,고우성수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,5,0.25,5,0,0,0,0.055,0.11186170140766816,0.4687008776187378,0,5,,,,,,,,,,,,,,,,,고우성수,2026-10-13,0,0,0
+DISC-28418610f0,계월곰탕,seongsu,agy,prospective,baseline_discovery_prospective_only,20,9,0.45,5,0,0,0.2,0.1575,0.25819785825562847,0.6579146575496526,0,9,,,,,,,,,,,,,,,,,계월곰탕,2026-10-13,0,0,0
+DISC-a8d93f7fed,금금,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,금금,2026-10-13,0,0,0
+DISC-1b17e22de9,가정식고바우식당,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,가정식고바우식당,2026-10-13,0,0,0
+DISC-8eb4ac1d6e,헤비스테이크,seongsu,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,0,0,0.15,0.06,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,헤비스테이크,2026-10-13,0,0,0
+DISC-a68849c700,카카모루,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,카카모루,2026-10-13,0,0,0
+DISC-7415e068dd,텐동식당,seongsu,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,0,0,0.1,0.09166666666666666,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,텐동식당,2026-10-13,0,0,0
+DISC-af6c41fc47,곰국시집,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,곰국시집,2026-10-13,0,0,0
+DISC-ad28315c90,고향손칼국수,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,고향손칼국수,2026-10-13,0,0,0
+DISC-6251adf1f3,다반,seongsu,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,0,0,0.15,0.07083333333333333,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,다반,2026-10-13,0,0,0
+DISC-7cd3794a5b,중앙감속기,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,1,0.2,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,중앙감속기,2026-10-13,0,0,0
+DISC-bea8e72a31,이태리국시,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,이태리국시,2026-10-13,0,0,0
+DISC-e9ad74128f,죠죠,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,죠죠,2026-10-13,0,0,0
+DISC-87a9034c81,연만두,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.0125,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,연만두,2026-10-13,0,0,0
+DISC-712e4ee333,1992덮밥&짜글이,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,1992덮밥짜글이,2026-10-13,0,0,0
+DISC-bf5a114cbd,란주칼면,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,2,0.4,0,0.045,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,란주칼면,2026-10-13,0,0,0
+DISC-c46738176d,원조한치,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,원조한치,2026-10-13,0,0,0
+DISC-7a14a97e6b,남산도담,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,남산도담,2026-10-13,0,0,0
+DISC-609d2e9d52,제스티살룬,seongsu,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,4,0.8,0.05,0.05416666666666667,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,제스티살룬,2026-10-13,0,0,0
+DISC-14ddddd61d,황금옥순대,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,황금옥순대,2026-10-13,0,0,0
+DISC-3b4dc505a5,소바식당,mangwon,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,2,0.4,0.1,0.0725,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,소바식당,2026-10-13,0,0,0
+DISC-ac3e340e14,아미소,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,4,0.2,5,0,0,0,0.045,0.08065766257979998,0.41601743225188714,0,4,,,,,,,,,,,,,,,,,아미소,2026-10-13,0,0,0
+DISC-16e6480b19,원조청기와숯불갈비,mangwon,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,원조청기와숯불갈비,2026-10-13,0,0,0
+DISC-f1039e127a,백제삼계탕,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,백제삼계탕,2026-10-13,0,0,0
+DISC-8e1ab1ef6f,란주라미엔,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,3,0.15,5,1,0.2,0,0.0325,0.05236874589621804,0.3604188647407503,0,3,,,,,,,,,,,,,,,,,란주라미엔,2026-10-13,0,0,0
+DISC-dd0e9b18dc,라무라,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,라무라,2026-10-13,0,0,0
+DISC-f9a324ab6a,정선부뚜막,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,정선부뚜막,2026-10-13,0,0,0
+DISC-d2e5706d62,진평925,mangwon,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,진평925,2026-10-13,0,0,0
+DISC-c640fb73dd,망원동막국수,mangwon,agy,prospective,baseline_discovery_prospective_only,20,2,0.1,5,1,0.2,0.05,0.026666666666666665,0.027866481213769084,0.3010336452284804,0,2,,,,,,,,,,,,,,,,,망원동막국수,2026-10-13,0,0,0
+DISC-a9657a2a81,진사댁,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,진사댁,2026-10-13,0,0,0
+DISC-d30ab44910,소와나,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,소와나,2026-10-13,0,0,0
+DISC-9425aa6870,움 성수,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,움성수,2026-10-13,0,0,0
+DISC-c9b376434d,기엔탄,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0.05,0.016666666666666666,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,기엔탄,2026-10-13,0,0,0
+DISC-ebeb3aea94,도믹스,seongsu,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,도믹스,2026-10-13,0,0,0
+DISC-aab2ed4964,리파인,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,리파인,2026-10-13,0,0,0
+DISC-d0aa4aaf7b,매튜,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,매튜,2026-10-13,0,0,0
+DISC-74cb1ee7eb,대취,seongsu,agy,prospective,baseline_discovery_prospective_only,20,0,0.0,5,0,0,0,0,1.3877787807814457e-17,0.1611251580528119,0,0,,,,,,,,,,,,,,,,,대취,2026-10-13,0,0,0
+DISC-08dc83243f,남산골산채집,myeongdong,agy,prospective,baseline_discovery_prospective_only,20,1,0.05,5,0,0,0,0.01,0.008881448800795763,0.236131193446735,0,1,,,,,,,,,,,,,,,,,남산골산채집,2026-10-13,0,0,0

@@ -1,0 +1,40 @@
+{
+  "note": "우리 가게가 한 번도 안 나옴(등장률 0, 평균 순서 None). 주변 가게 7곳 중 5곳: 등장 수 → 평균 순위 → 이름순. 가람·나무는 등장 2회·평균 1.5로 같아 이름순, 라온·바다(1회·4위)는 잘림. 위치는 6곳 중 6번째.",
+  "providers": ["openai"],
+  "question_ids": [1],
+  "failed": 0,
+  "total": 3,
+  "responses": [
+    {"id": 1, "provider": "openai", "question_id": 1, "ok": true, "sources": ["a.com"],
+     "recs": [{"name": "가람식당", "rank": 1}, {"name": "나무식당", "rank": 2}, {"name": "다온식당", "rank": 3}, {"name": "라온식당", "rank": 4}]},
+    {"id": 2, "provider": "openai", "question_id": 1, "ok": true, "sources": ["b.com"],
+     "recs": [{"name": "나무식당", "rank": 1}, {"name": "가람식당", "rank": 2}, {"name": "마루식당", "rank": 3}, {"name": "바다식당", "rank": 4}]},
+    {"id": 3, "provider": "openai", "question_id": 1, "ok": true, "sources": ["a.com"],
+     "recs": [{"name": "사랑식당", "rank": 1}, {"name": "다온식당", "rank": 2}]}
+  ],
+  "expected": {
+    "failure_rate": 0.0,
+    "target": {
+      "openai": {
+        "all": [[3, null], [0, 3], [0.0, 3], [null, 0]],
+        "1": [[3, null], [0, 3], [0.0, 3], [null, 0]]
+      }
+    },
+    "competitors": [
+      {"name": "가람식당", "display": "가람식당", "openai": [[3, null], [2, 3], [0.6666666666666666, 3], [1.5, 2]]},
+      {"name": "나무식당", "display": "나무식당", "openai": [[3, null], [2, 3], [0.6666666666666666, 3], [1.5, 2]]},
+      {"name": "다온식당", "display": "다온식당", "openai": [[3, null], [2, 3], [0.6666666666666666, 3], [2.5, 2]]},
+      {"name": "사랑식당", "display": "사랑식당", "openai": [[3, null], [1, 3], [0.3333333333333333, 3], [1.0, 1]]},
+      {"name": "마루식당", "display": "마루식당", "openai": [[3, null], [1, 3], [0.3333333333333333, 3], [3.0, 1]]}
+    ],
+    "sources": {
+      "openai": {
+        "a.com": [[2, 3], [0, 0]],
+        "b.com": [[1, 3], [0, 0]]
+      }
+    },
+    "position": [6, 6],
+    "top_sources": [["a.com", 2], ["b.com", 1]],
+    "target_sources": []
+  }
+}

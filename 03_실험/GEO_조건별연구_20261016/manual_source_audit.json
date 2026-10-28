@@ -1,0 +1,44 @@
+{
+  "checked_date_kst": "2026-10-16",
+  "selection": "Purposive checks of four citations; not a random accuracy sample and not used to estimate the population error rate.",
+  "audits": [
+    {
+      "name": "코스모스상점 성수",
+      "source_url": "https://english.visitseoul.net/restaurants/CosmosgrocerySeongsu/ENPstf3z3",
+      "source_author": "Seoul Tourism Organization",
+      "source_updated_date": "2026-08-29",
+      "claim_checked": "비건 브런치와 한 끼 메뉴 소개",
+      "verdict": "supported_at_source_description_level",
+      "observation": "본문은 비건 브런치와 식물성 상품을 소개하고 두부 랩 가격 및 도로명 주소를 제공한다. 개별 소스와 육수의 전체 성분을 이 페이지에서 확인한 것은 아니다.",
+      "source_fact_vs_real_operation": "Source statement only; ingredients and current in-store practice not independently tested."
+    },
+    {
+      "name": "비건 키친",
+      "source_url": "https://english.visitseoul.net/area/VeganKitchen/ENP4uv0kz",
+      "source_author": "Seoul Tourism Organization",
+      "source_updated_date": "2026-08-29",
+      "claim_checked": "비건 식당 소개와 모든 재료 조건의 구분",
+      "verdict": "vegan_framing_supported_but_ingredient_scope_ambiguous",
+      "observation": "소개 문장은 비건 식당으로 설명한다. 대표 메뉴에는 Chicken Poke라는 명칭도 표시되지만 대체육 여부는 설명되지 않아 이를 동물성 메뉴라고 단정할 수 없다. 소개의 비건 표기만으로 모든 재료의 배제를 직접 확인했다고 코딩하지 않는다.",
+      "source_fact_vs_real_operation": "Ambiguous menu label is retained, not resolved by guesswork."
+    },
+    {
+      "name": "딘타이펑 명동 추천",
+      "source_url": "https://www.dintaifung.co.kr/",
+      "source_author": "DINTAIFUNG KOREA",
+      "claim_checked": "특정 지점 유아 식탁의자 제공",
+      "verdict": "not_established_by_cited_homepage_body",
+      "observation": "열람한 홈페이지 본문에는 가족 동반 메뉴 선택과 음식 분류가 보이지만 명동 지점 유아 의자 제공의 직접 근거는 확인되지 않는다. 홈페이지 URL을 제시한 것과 이 시설 주장이 검증된 것을 구분한다. 웹사이트 전체에 정보가 없다는 뜻은 아니다.",
+      "source_fact_vs_real_operation": "Do not label the claim false; classify unsupported by the audited page."
+    },
+    {
+      "name": "왕비집 명동중앙점",
+      "source_url": "https://wangbijib-myeongdong.orwst.com/ko",
+      "source_author": "Restaurant-branded page built with AutoReserve; owner authorization not independently established",
+      "claim_checked": "예약 링크·주소·주차 안내의 적용 지점",
+      "verdict": "booking_link_observed_actual_bookability_not_verified",
+      "observation": "상세명은 명동중앙점이고 명동8나길 45 2층, 전화, 영업시간, AutoReserve 예약 링크, 주차장 없음 안내가 보인다. 예약 링크의 존재는 실제 특정 날짜 좌석 예약 가능과 다르며, 과거 왕비집 명동본점 통계와 이 지점을 이름만으로 합치면 안 된다.",
+      "source_fact_vs_real_operation": "No booking was submitted."
+    }
+  ]
+}

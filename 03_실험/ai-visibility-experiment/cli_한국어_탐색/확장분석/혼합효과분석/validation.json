@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "primary_rows": 600,
+  "independent_stores": 30,
+  "cv_brand_overlap": 0,
+  "input_files_unchanged": true,
+  "all_predictions_finite": true,
+  "alternate_start_fe_difference": 4.204346156139183e-06,
+  "feature_leakage_allowlist": [
+    "own_website",
+    "menu_family_external",
+    "prompt_id",
+    "backend"
+  ],
+  "pipeline_training_folds_only": true,
+  "model_training_performed": true,
+  "causal_validation": false
+}

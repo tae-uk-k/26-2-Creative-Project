@@ -1,0 +1,16 @@
+{
+  "planned": 96,
+  "attempts": 100,
+  "status_counts": {
+    "completed": 80,
+    "tool_permission_denied": 16
+  },
+  "recommendations": 157,
+  "queries": 287,
+  "sources": 186,
+  "domain_only_citations": 88,
+  "query_budget_violations": 0,
+  "identity": "name level only; branch not verified",
+  "all_condition_and_source_labels": "self-report unless separately audited",
+  "journal_sha256": "ee116a6dec58fffff4e021bf2823d8723430ff1639a71ebb98b2e01c855446b1"
+}

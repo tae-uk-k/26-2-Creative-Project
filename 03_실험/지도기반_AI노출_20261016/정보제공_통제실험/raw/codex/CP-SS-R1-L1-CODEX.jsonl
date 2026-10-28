@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a0-e51a-7b21-b407-96defacfc7fe"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"라\",\"reason\":\"비프 웰링턴과 셰퍼드파이의 메뉴별 가격이 명시되어 있어 식사 선택을 구체적으로 검토할 수 있어 추천해요.\",\"evidence\":\"메뉴: 셰퍼드파이 / 표시 가격: 24,000원\"},{\"rank\":2,\"code\":\"다\",\"reason\":\"삼겹살과 목살의 중량과 가격이 명시되어 있고, 첫 번째 추천과 다른 고기 요리 선택지라 추천해요. 최소 주문과 1인 식사 총액은 알 수 없어요.\",\"evidence\":\"메뉴: 눈꽃 통삼겹 (180g) / 표시 가격: 19,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13364,"cached_input_tokens":10112,"cache_write_input_tokens":0,"output_tokens":165,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a0-7541-76b0-b7cf-874509571092"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"나\",\"reason\":\"피자와 파스타의 메뉴명과 항목별 가격이 제공되어 식사 선택을 구체적으로 검토할 수 있어 추천한다.\",\"evidence\":\"메뉴: 파이브치즈 피자 / 표시 가격: 23,000원\"},{\"rank\":2,\"code\":\"다\",\"reason\":\"고기 요리의 메뉴명과 중량, 항목별 가격이 명시되어 주문할 음식을 구체적으로 검토할 수 있어 추천한다.\",\"evidence\":\"메뉴: 소 양념왕갈비 (280g) / 표시 가격: 48,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13310,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":143,"reasoning_output_tokens":0}}

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BEFORE / AFTER · 명동피자 명동본점</title>
+<style>
+*{box-sizing:border-box}html,body{height:100%;margin:0;background:#fff}body{display:flex;flex-direction:column;font-family:Arial,"Malgun Gothic",sans-serif}.switch{height:40px;min-height:40px;display:flex;justify-content:center;align-items:stretch;gap:28px;border-bottom:1px solid #dedede;background:#fff}.switch button{padding:0 5px;border:0;border-bottom:2px solid transparent;background:none;color:#888;font-size:12px;font-weight:600;letter-spacing:.7px;cursor:pointer}.switch button[aria-selected=true]{border-bottom-color:#202020;color:#202020}.switch button:focus-visible{outline:2px solid #222;outline-offset:-3px}.pages{position:relative;flex:1;min-height:0}.pages iframe{border:0;display:block;position:absolute;inset:0;width:100%;height:100%;background:#fff}.pages iframe[hidden]{display:none}
+</style></head><body>
+<nav class="switch" role="tablist"><button type="button" id="before-tab" role="tab" aria-selected="true" aria-controls="before-page">BEFORE</button><button type="button" id="after-tab" role="tab" aria-selected="false" aria-controls="after-page">AFTER</button></nav>
+<main class="pages"><iframe src="before.html" title="BEFORE" id="before-page" role="tabpanel"></iframe><iframe src="after.html" title="AFTER" id="after-page" role="tabpanel" hidden></iframe></main>
+<script>
+const tabs=[...document.querySelectorAll('[role=tab]')];
+let current=0,position=949.5;
+window.addEventListener('message',event=>{const active=document.getElementById(tabs[current].getAttribute('aria-controls'));if(event.source===active.contentWindow&&event.data&&event.data.type==='seelo-position')position=event.data.top;});
+function select(index){let next=document.getElementById(tabs[index].getAttribute('aria-controls'));tabs.forEach((tab,i)=>tab.setAttribute('aria-selected',String(i===index)));document.querySelectorAll('iframe').forEach(frame=>frame.hidden=frame!==next);current=index;requestAnimationFrame(()=>next.contentWindow.postMessage({type:'seelo-scroll',top:position},'*'));}
+tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>select(index));tab.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();const i=1-current;select(i);tabs[i].focus();}})});
+</script></body></html>

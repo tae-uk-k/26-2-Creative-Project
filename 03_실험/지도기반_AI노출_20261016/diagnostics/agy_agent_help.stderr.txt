@@ -1,0 +1,7 @@
+Usage: agy.EXE agent [flags]
+
+List available agents
+
+Flags:
+  -h      Show help
+  --help  Show help

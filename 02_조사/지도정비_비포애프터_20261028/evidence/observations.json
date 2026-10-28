@@ -1,0 +1,158 @@
+[
+  {
+    "store": "힛사츠와자",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%ED%9E%9B%EC%82%AC%EC%B8%A0%EC%99%80%EC%9E%90(Hissatsuwaza)/data=!3m1!4b1!4m4!3m3!1s0x357c990006a61961:0x93b46c4afa816b00!16s%2Fg%2F11xsrqylhh!20s8Q98HW43%2B8W7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:25:37.095Z"
+  },
+  {
+    "store": "힛사츠와자",
+    "provider": "kakao",
+    "view": "menu",
+    "url": "https://place.map.kakao.com/1582808897#menuInfo",
+    "observedAt": "2026-10-28T06:26:18.966Z"
+  },
+  {
+    "store": "힛사츠와자",
+    "provider": "google",
+    "view": "menu-chashumen",
+    "url": "https://www.google.co.kr/maps/place/%ED%9E%9B%EC%82%AC%EC%B8%A0%EC%99%80%EC%9E%90(Hissatsuwaza)/data=!4m5!3m4!1s0x357c990006a61961:0x93b46c4afa816b00!10e9!16s%2Fg%2F11xsrqylhh!20s8Q98HW43%2B8W7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:26:58.188Z"
+  },
+  {
+    "store": "힛사츠와자",
+    "provider": "kakao",
+    "view": "menuboard-photo",
+    "url": "https://place.map.kakao.com/1582808897#photoList?type=menuboard&pidx=0",
+    "observedAt": "2026-10-28T06:26:58.413Z",
+    "note": "블로그 사진. 매운츠케멘 13,000 / 차슈멘 15,500 / 매운차슈멘 16,500 표시 판독. 새우츠케멘 SOLD OUT 표시. 촬영·적용 시점과 업주 확인 없음."
+  },
+  {
+    "store": "힛사츠와자",
+    "provider": "kakao",
+    "view": "hours-home",
+    "url": "https://place.map.kakao.com/1582808897#home",
+    "observedAt": "2026-10-28T06:27:28.140Z"
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "kakao",
+    "view": "home",
+    "url": "https://place.map.kakao.com/21748255",
+    "observedAt": "2026-10-28T06:28:09.843Z"
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%EC%9C%A1%ED%86%B5%EB%A0%B9+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f13d626cc5:0x7b842b6071e6ad06!16s%2Fg%2F11c6ts4sr0!20s8Q98HX6M%2BF48?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:28:44.375Z"
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "kakao",
+    "view": "menu",
+    "url": "https://place.map.kakao.com/21748255#menuInfo",
+    "observedAt": "2026-10-28T06:29:17.331Z"
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "google",
+    "view": "info",
+    "url": "https://www.google.co.kr/maps/place/%EC%9C%A1%ED%86%B5%EB%A0%B9+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca2f13d626cc5:0x7b842b6071e6ad06!10e1!16s%2Fg%2F11c6ts4sr0!20s8Q98HX6M%2BF48?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:29:17.370Z"
+  },
+  {
+    "store": "오레노카츠 성수본점",
+    "provider": "kakao",
+    "view": "home",
+    "url": "https://place.map.kakao.com/2125770186",
+    "observedAt": "2026-10-28T06:29:54.618Z"
+  },
+  {
+    "store": "오레노카츠 성수본점",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%EC%98%A4%EB%A0%88%EB%85%B8%EC%B9%B4%EC%B8%A0+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca55eff3146bd:0xce498ffba233d690!16s%2Fg%2F11fll7h0qr!20s8Q99G2VX%2BVQQ?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:29:54.628Z"
+  },
+  {
+    "store": "오레노카츠 성수본점",
+    "provider": "google",
+    "view": "info",
+    "url": "https://www.google.co.kr/maps/place/%EC%98%A4%EB%A0%88%EB%85%B8%EC%B9%B4%EC%B8%A0+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca55eff3146bd:0xce498ffba233d690!10e1!16s%2Fg%2F11fll7h0qr!20s8Q99G2VX%2BVQQ?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:30:20.885Z"
+  },
+  {
+    "store": "정각 서울망원본점",
+    "provider": "kakao",
+    "view": "home",
+    "url": "https://place.map.kakao.com/889810020",
+    "observedAt": "2026-10-28T06:30:30.533Z"
+  },
+  {
+    "store": "정각 서울망원본점",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%EC%A0%95%EA%B0%81+%EB%A7%9D%EC%9B%90%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99b205f3f7c5:0x16a93c36a090f0a3!16s%2Fg%2F11vc7jg6r3!20s8Q98HW33%2BQJR?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:31:20.910Z"
+  },
+  {
+    "store": "명동피자 명동본점",
+    "provider": "kakao",
+    "view": "home",
+    "url": "https://place.map.kakao.com/19409195",
+    "observedAt": "2026-10-28T06:31:36.406Z"
+  },
+  {
+    "store": "명동피자 명동본점",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%EB%AA%85%EB%8F%99%ED%94%BC%EC%9E%90+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f0fea87c87:0xb4e431567bb0fd3!16s%2Fg%2F1yg6nr1lq!20s8Q98HX6P%2BR89?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:31:36.411Z"
+  },
+  {
+    "store": "명동피자 명동본점",
+    "provider": "kakao",
+    "view": "menu",
+    "url": "https://place.map.kakao.com/19409195#menuInfo",
+    "observedAt": "2026-10-28T06:33:08.281Z"
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "kakao",
+    "view": "home",
+    "url": "https://place.map.kakao.com/1684571578",
+    "observedAt": "2026-10-28T06:34:16.812Z"
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "google",
+    "view": "overview",
+    "url": "https://www.google.co.kr/maps/place/%ED%94%8C%EB%9E%9C%ED%8A%B8+%EC%97%B0%EB%82%A8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99191a9f8ddd:0x5b462cfdac369895!16s%2Fg%2F11q4m1l0g6!20s8Q98HW5F%2BV7J?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:34:16.818Z"
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "google",
+    "view": "info",
+    "url": "https://www.google.co.kr/maps/place/%ED%94%8C%EB%9E%9C%ED%8A%B8+%EC%97%B0%EB%82%A8%EC%A0%90/data=!4m5!3m4!1s0x357c99191a9f8ddd:0x5b462cfdac369895!10e1!16s%2Fg%2F11q4m1l0g6!20s8Q98HW5F%2BV7J?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:35:32.248Z"
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "official",
+    "view": "branch",
+    "url": "https://plantcafeseoul.com/plant-yeonnam/",
+    "observedAt": "2026-10-28T06:35:33.769Z"
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "official",
+    "view": "menu-photo",
+    "url": "https://plantcafeseoul.com/plant-yeonnam-menu/",
+    "observedAt": "2026-10-28T06:37:24.902Z",
+    "note": "공식 2026/09 메뉴 이미지. HUMMUS TEMPEH BOWL, TOFU CAESAR WRAP, LENTIL VEGGIE BOWL에 15.0 표기. 가격 통화·단위는 별도 확인 필요. EVERYTHING IS VEGAN과 메뉴별 GF/NF/SF 표시는 전체 무알레르기 보장을 뜻하지 않음."
+  }
+]

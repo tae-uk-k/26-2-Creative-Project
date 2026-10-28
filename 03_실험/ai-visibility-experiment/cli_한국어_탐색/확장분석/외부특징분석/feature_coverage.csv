@@ -1,0 +1,12 @@
+﻿feature,collected_stores,total_stores,missing_stores,unique_observed_values
+own_website,30,30,0,2
+menu_family_external,30,30,0,8
+diningcode_review_count,28,30,2,25
+diningcode_rating,28,30,2,11
+display_photo_count,28,30,2,27
+price_krw,28,30,2,17
+michelin_listing_current,30,30,0,2
+tourism_individual_page_verified,11,30,19,1
+reported_established_year,5,30,25,4
+google_review_count,0,30,30,0
+recent_review_age_days,0,30,30,0

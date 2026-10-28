@@ -1,0 +1,193 @@
+﻿prompt_id,restaurant_id,area_id,repeat,rotation,condition,structured_layout,keyword_repetition,alias,position,run_id,backend,name,selected,selected_rank,evidence_exact_match
+EF-MD-R1-L0,MD01,MD,1,0,2,0,1,가,1,EF-MD-R1-L0-AGY,agy,반포식스 서울시청점,0,0,True
+EF-MD-R1-L0,MD02,MD,1,0,1,1,0,다,2,EF-MD-R1-L0-AGY,agy,장인닭갈비 명동점,1,1,True
+EF-MD-R1-L0,MD03,MD,1,0,0,0,0,라,3,EF-MD-R1-L0-AGY,agy,명동피자 명동본점,1,2,True
+EF-MD-R1-L0,MD04,MD,1,0,3,1,1,나,4,EF-MD-R1-L0-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R1-L0,MD01,MD,1,0,2,0,1,가,1,EF-MD-R1-L0-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R1-L0,MD02,MD,1,0,1,1,0,다,2,EF-MD-R1-L0-CODEX,codex,장인닭갈비 명동점,1,2,True
+EF-MD-R1-L0,MD03,MD,1,0,0,0,0,라,3,EF-MD-R1-L0-CODEX,codex,명동피자 명동본점,0,0,True
+EF-MD-R1-L0,MD04,MD,1,0,3,1,1,나,4,EF-MD-R1-L0-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R1-L1,MD01,MD,1,1,1,1,0,가,3,EF-MD-R1-L1-AGY,agy,반포식스 서울시청점,1,1,True
+EF-MD-R1-L1,MD02,MD,1,1,2,0,1,다,4,EF-MD-R1-L1-AGY,agy,장인닭갈비 명동점,0,0,True
+EF-MD-R1-L1,MD03,MD,1,1,3,1,1,라,1,EF-MD-R1-L1-AGY,agy,명동피자 명동본점,1,2,True
+EF-MD-R1-L1,MD04,MD,1,1,0,0,0,나,2,EF-MD-R1-L1-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R1-L1,MD01,MD,1,1,1,1,0,가,3,EF-MD-R1-L1-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R1-L1,MD02,MD,1,1,2,0,1,다,4,EF-MD-R1-L1-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R1-L1,MD03,MD,1,1,3,1,1,라,1,EF-MD-R1-L1-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R1-L1,MD04,MD,1,1,0,0,0,나,2,EF-MD-R1-L1-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R1-L2,MD01,MD,1,2,0,0,0,가,4,EF-MD-R1-L2-AGY,agy,반포식스 서울시청점,1,1,True
+EF-MD-R1-L2,MD02,MD,1,2,3,1,1,다,3,EF-MD-R1-L2-AGY,agy,장인닭갈비 명동점,1,2,True
+EF-MD-R1-L2,MD03,MD,1,2,2,0,1,라,2,EF-MD-R1-L2-AGY,agy,명동피자 명동본점,0,0,True
+EF-MD-R1-L2,MD04,MD,1,2,1,1,0,나,1,EF-MD-R1-L2-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R1-L2,MD01,MD,1,2,0,0,0,가,4,EF-MD-R1-L2-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R1-L2,MD02,MD,1,2,3,1,1,다,3,EF-MD-R1-L2-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R1-L2,MD03,MD,1,2,2,0,1,라,2,EF-MD-R1-L2-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R1-L2,MD04,MD,1,2,1,1,0,나,1,EF-MD-R1-L2-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R1-L3,MD01,MD,1,3,3,1,1,가,2,EF-MD-R1-L3-AGY,agy,반포식스 서울시청점,0,0,True
+EF-MD-R1-L3,MD02,MD,1,3,0,0,0,다,1,EF-MD-R1-L3-AGY,agy,장인닭갈비 명동점,1,1,True
+EF-MD-R1-L3,MD03,MD,1,3,1,1,0,라,4,EF-MD-R1-L3-AGY,agy,명동피자 명동본점,1,2,True
+EF-MD-R1-L3,MD04,MD,1,3,2,0,1,나,3,EF-MD-R1-L3-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R1-L3,MD01,MD,1,3,3,1,1,가,2,EF-MD-R1-L3-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R1-L3,MD02,MD,1,3,0,0,0,다,1,EF-MD-R1-L3-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R1-L3,MD03,MD,1,3,1,1,0,라,4,EF-MD-R1-L3-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R1-L3,MD04,MD,1,3,2,0,1,나,3,EF-MD-R1-L3-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R2-L0,MD03,MD,2,0,3,1,1,가,1,EF-MD-R2-L0-AGY,agy,명동피자 명동본점,1,1,True
+EF-MD-R2-L0,MD01,MD,2,0,0,0,0,라,2,EF-MD-R2-L0-AGY,agy,반포식스 서울시청점,1,2,True
+EF-MD-R2-L0,MD02,MD,2,0,2,0,1,나,3,EF-MD-R2-L0-AGY,agy,장인닭갈비 명동점,0,0,True
+EF-MD-R2-L0,MD04,MD,2,0,1,1,0,다,4,EF-MD-R2-L0-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R2-L0,MD03,MD,2,0,3,1,1,가,1,EF-MD-R2-L0-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R2-L0,MD01,MD,2,0,0,0,0,라,2,EF-MD-R2-L0-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R2-L0,MD02,MD,2,0,2,0,1,나,3,EF-MD-R2-L0-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R2-L0,MD04,MD,2,0,1,1,0,다,4,EF-MD-R2-L0-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R2-L1,MD03,MD,2,1,0,0,0,가,3,EF-MD-R2-L1-AGY,agy,명동피자 명동본점,0,0,True
+EF-MD-R2-L1,MD01,MD,2,1,3,1,1,라,4,EF-MD-R2-L1-AGY,agy,반포식스 서울시청점,1,2,True
+EF-MD-R2-L1,MD02,MD,2,1,1,1,0,나,1,EF-MD-R2-L1-AGY,agy,장인닭갈비 명동점,1,1,True
+EF-MD-R2-L1,MD04,MD,2,1,2,0,1,다,2,EF-MD-R2-L1-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R2-L1,MD03,MD,2,1,0,0,0,가,3,EF-MD-R2-L1-CODEX,codex,명동피자 명동본점,0,0,True
+EF-MD-R2-L1,MD01,MD,2,1,3,1,1,라,4,EF-MD-R2-L1-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R2-L1,MD02,MD,2,1,1,1,0,나,1,EF-MD-R2-L1-CODEX,codex,장인닭갈비 명동점,1,2,True
+EF-MD-R2-L1,MD04,MD,2,1,2,0,1,다,2,EF-MD-R2-L1-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R2-L2,MD03,MD,2,2,2,0,1,가,4,EF-MD-R2-L2-AGY,agy,명동피자 명동본점,0,0,True
+EF-MD-R2-L2,MD01,MD,2,2,1,1,0,라,3,EF-MD-R2-L2-AGY,agy,반포식스 서울시청점,1,2,True
+EF-MD-R2-L2,MD02,MD,2,2,3,1,1,나,2,EF-MD-R2-L2-AGY,agy,장인닭갈비 명동점,1,1,True
+EF-MD-R2-L2,MD04,MD,2,2,0,0,0,다,1,EF-MD-R2-L2-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R2-L2,MD03,MD,2,2,2,0,1,가,4,EF-MD-R2-L2-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R2-L2,MD01,MD,2,2,1,1,0,라,3,EF-MD-R2-L2-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R2-L2,MD02,MD,2,2,3,1,1,나,2,EF-MD-R2-L2-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R2-L2,MD04,MD,2,2,0,0,0,다,1,EF-MD-R2-L2-CODEX,codex,육통령 명동본점,0,0,True
+EF-MD-R2-L3,MD03,MD,2,3,1,1,0,가,2,EF-MD-R2-L3-AGY,agy,명동피자 명동본점,1,1,True
+EF-MD-R2-L3,MD01,MD,2,3,2,0,1,라,1,EF-MD-R2-L3-AGY,agy,반포식스 서울시청점,0,0,True
+EF-MD-R2-L3,MD02,MD,2,3,0,0,0,나,4,EF-MD-R2-L3-AGY,agy,장인닭갈비 명동점,1,2,True
+EF-MD-R2-L3,MD04,MD,2,3,3,1,1,다,3,EF-MD-R2-L3-AGY,agy,육통령 명동본점,0,0,True
+EF-MD-R2-L3,MD03,MD,2,3,1,1,0,가,2,EF-MD-R2-L3-CODEX,codex,명동피자 명동본점,1,2,True
+EF-MD-R2-L3,MD01,MD,2,3,2,0,1,라,1,EF-MD-R2-L3-CODEX,codex,반포식스 서울시청점,1,1,True
+EF-MD-R2-L3,MD02,MD,2,3,0,0,0,나,4,EF-MD-R2-L3-CODEX,codex,장인닭갈비 명동점,0,0,True
+EF-MD-R2-L3,MD04,MD,2,3,3,1,1,다,3,EF-MD-R2-L3-CODEX,codex,육통령 명동본점,0,0,True
+EF-MW-R1-L0,MW03,MW,1,0,1,1,0,다,1,EF-MW-R1-L0-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R1-L0,MW02,MW,1,0,3,1,1,나,2,EF-MW-R1-L0-AGY,agy,산이네회무침,0,0,True
+EF-MW-R1-L0,MW01,MW,1,0,2,0,1,가,3,EF-MW-R1-L0-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R1-L0,MW04,MW,1,0,0,0,0,라,4,EF-MW-R1-L0-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R1-L0,MW03,MW,1,0,1,1,0,다,1,EF-MW-R1-L0-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R1-L0,MW02,MW,1,0,3,1,1,나,2,EF-MW-R1-L0-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R1-L0,MW01,MW,1,0,2,0,1,가,3,EF-MW-R1-L0-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R1-L0,MW04,MW,1,0,0,0,0,라,4,EF-MW-R1-L0-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R1-L1,MW03,MW,1,1,3,1,1,다,3,EF-MW-R1-L1-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R1-L1,MW02,MW,1,1,1,1,0,나,4,EF-MW-R1-L1-AGY,agy,산이네회무침,0,0,True
+EF-MW-R1-L1,MW01,MW,1,1,0,0,0,가,1,EF-MW-R1-L1-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R1-L1,MW04,MW,1,1,2,0,1,라,2,EF-MW-R1-L1-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R1-L1,MW03,MW,1,1,3,1,1,다,3,EF-MW-R1-L1-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R1-L1,MW02,MW,1,1,1,1,0,나,4,EF-MW-R1-L1-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R1-L1,MW01,MW,1,1,0,0,0,가,1,EF-MW-R1-L1-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R1-L1,MW04,MW,1,1,2,0,1,라,2,EF-MW-R1-L1-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R1-L2,MW03,MW,1,2,2,0,1,다,4,EF-MW-R1-L2-AGY,agy,퍼줄래대박집,1,2,True
+EF-MW-R1-L2,MW02,MW,1,2,0,0,0,나,3,EF-MW-R1-L2-AGY,agy,산이네회무침,0,0,True
+EF-MW-R1-L2,MW01,MW,1,2,1,1,0,가,2,EF-MW-R1-L2-AGY,agy,정각 서울망원본점,0,0,True
+EF-MW-R1-L2,MW04,MW,1,2,3,1,1,라,1,EF-MW-R1-L2-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R1-L2,MW03,MW,1,2,2,0,1,다,4,EF-MW-R1-L2-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R1-L2,MW02,MW,1,2,0,0,0,나,3,EF-MW-R1-L2-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R1-L2,MW01,MW,1,2,1,1,0,가,2,EF-MW-R1-L2-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R1-L2,MW04,MW,1,2,3,1,1,라,1,EF-MW-R1-L2-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R1-L3,MW03,MW,1,3,0,0,0,다,2,EF-MW-R1-L3-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R1-L3,MW02,MW,1,3,2,0,1,나,1,EF-MW-R1-L3-AGY,agy,산이네회무침,0,0,True
+EF-MW-R1-L3,MW01,MW,1,3,3,1,1,가,4,EF-MW-R1-L3-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R1-L3,MW04,MW,1,3,1,1,0,라,3,EF-MW-R1-L3-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R1-L3,MW03,MW,1,3,0,0,0,다,2,EF-MW-R1-L3-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R1-L3,MW02,MW,1,3,2,0,1,나,1,EF-MW-R1-L3-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R1-L3,MW01,MW,1,3,3,1,1,가,4,EF-MW-R1-L3-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R1-L3,MW04,MW,1,3,1,1,0,라,3,EF-MW-R1-L3-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R2-L0,MW03,MW,2,0,0,0,0,다,1,EF-MW-R2-L0-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R2-L0,MW02,MW,2,0,2,0,1,가,2,EF-MW-R2-L0-AGY,agy,산이네회무침,0,0,True
+EF-MW-R2-L0,MW01,MW,2,0,3,1,1,라,3,EF-MW-R2-L0-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R2-L0,MW04,MW,2,0,1,1,0,나,4,EF-MW-R2-L0-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R2-L0,MW03,MW,2,0,0,0,0,다,1,EF-MW-R2-L0-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R2-L0,MW02,MW,2,0,2,0,1,가,2,EF-MW-R2-L0-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R2-L0,MW01,MW,2,0,3,1,1,라,3,EF-MW-R2-L0-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R2-L0,MW04,MW,2,0,1,1,0,나,4,EF-MW-R2-L0-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R2-L1,MW03,MW,2,1,2,0,1,다,3,EF-MW-R2-L1-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R2-L1,MW02,MW,2,1,0,0,0,가,4,EF-MW-R2-L1-AGY,agy,산이네회무침,0,0,True
+EF-MW-R2-L1,MW01,MW,2,1,1,1,0,라,1,EF-MW-R2-L1-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R2-L1,MW04,MW,2,1,3,1,1,나,2,EF-MW-R2-L1-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R2-L1,MW03,MW,2,1,2,0,1,다,3,EF-MW-R2-L1-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R2-L1,MW02,MW,2,1,0,0,0,가,4,EF-MW-R2-L1-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R2-L1,MW01,MW,2,1,1,1,0,라,1,EF-MW-R2-L1-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R2-L1,MW04,MW,2,1,3,1,1,나,2,EF-MW-R2-L1-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R2-L2,MW03,MW,2,2,3,1,1,다,4,EF-MW-R2-L2-AGY,agy,퍼줄래대박집,0,0,True
+EF-MW-R2-L2,MW02,MW,2,2,1,1,0,가,3,EF-MW-R2-L2-AGY,agy,산이네회무침,0,0,True
+EF-MW-R2-L2,MW01,MW,2,2,0,0,0,라,2,EF-MW-R2-L2-AGY,agy,정각 서울망원본점,1,2,True
+EF-MW-R2-L2,MW04,MW,2,2,2,0,1,나,1,EF-MW-R2-L2-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R2-L2,MW03,MW,2,2,3,1,1,다,4,EF-MW-R2-L2-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R2-L2,MW02,MW,2,2,1,1,0,가,3,EF-MW-R2-L2-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R2-L2,MW01,MW,2,2,0,0,0,라,2,EF-MW-R2-L2-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R2-L2,MW04,MW,2,2,2,0,1,나,1,EF-MW-R2-L2-CODEX,codex,망원돈까스 본점,1,1,True
+EF-MW-R2-L3,MW03,MW,2,3,1,1,0,다,2,EF-MW-R2-L3-AGY,agy,퍼줄래대박집,1,2,True
+EF-MW-R2-L3,MW02,MW,2,3,3,1,1,가,1,EF-MW-R2-L3-AGY,agy,산이네회무침,0,0,True
+EF-MW-R2-L3,MW01,MW,2,3,2,0,1,라,4,EF-MW-R2-L3-AGY,agy,정각 서울망원본점,0,0,True
+EF-MW-R2-L3,MW04,MW,2,3,0,0,0,나,3,EF-MW-R2-L3-AGY,agy,망원돈까스 본점,1,1,True
+EF-MW-R2-L3,MW03,MW,2,3,1,1,0,다,2,EF-MW-R2-L3-CODEX,codex,퍼줄래대박집,0,0,True
+EF-MW-R2-L3,MW02,MW,2,3,3,1,1,가,1,EF-MW-R2-L3-CODEX,codex,산이네회무침,0,0,True
+EF-MW-R2-L3,MW01,MW,2,3,2,0,1,라,4,EF-MW-R2-L3-CODEX,codex,정각 서울망원본점,1,2,True
+EF-MW-R2-L3,MW04,MW,2,3,0,0,0,나,3,EF-MW-R2-L3-CODEX,codex,망원돈까스 본점,1,1,True
+EF-SS-R1-L0,SS02,SS,1,0,0,0,0,가,1,EF-SS-R1-L0-AGY,agy,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L0,SS04,SS,1,0,1,1,0,라,2,EF-SS-R1-L0-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R1-L0,SS01,SS,1,0,3,1,1,다,3,EF-SS-R1-L0-AGY,agy,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L0,SS03,SS,1,0,2,0,1,나,4,EF-SS-R1-L0-AGY,agy,차만다 성수,0,0,True
+EF-SS-R1-L0,SS02,SS,1,0,0,0,0,가,1,EF-SS-R1-L0-CODEX,codex,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L0,SS04,SS,1,0,1,1,0,라,2,EF-SS-R1-L0-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R1-L0,SS01,SS,1,0,3,1,1,다,3,EF-SS-R1-L0-CODEX,codex,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L0,SS03,SS,1,0,2,0,1,나,4,EF-SS-R1-L0-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R1-L1,SS02,SS,1,1,1,1,0,가,3,EF-SS-R1-L1-AGY,agy,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L1,SS04,SS,1,1,0,0,0,라,4,EF-SS-R1-L1-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R1-L1,SS01,SS,1,1,2,0,1,다,1,EF-SS-R1-L1-AGY,agy,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L1,SS03,SS,1,1,3,1,1,나,2,EF-SS-R1-L1-AGY,agy,차만다 성수,0,0,True
+EF-SS-R1-L1,SS02,SS,1,1,1,1,0,가,3,EF-SS-R1-L1-CODEX,codex,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L1,SS04,SS,1,1,0,0,0,라,4,EF-SS-R1-L1-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R1-L1,SS01,SS,1,1,2,0,1,다,1,EF-SS-R1-L1-CODEX,codex,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L1,SS03,SS,1,1,3,1,1,나,2,EF-SS-R1-L1-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R1-L2,SS02,SS,1,2,3,1,1,가,4,EF-SS-R1-L2-AGY,agy,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L2,SS04,SS,1,2,2,0,1,라,3,EF-SS-R1-L2-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R1-L2,SS01,SS,1,2,0,0,0,다,2,EF-SS-R1-L2-AGY,agy,오레노카츠 성수본점,0,0,True
+EF-SS-R1-L2,SS03,SS,1,2,1,1,0,나,1,EF-SS-R1-L2-AGY,agy,차만다 성수,1,2,True
+EF-SS-R1-L2,SS02,SS,1,2,3,1,1,가,4,EF-SS-R1-L2-CODEX,codex,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L2,SS04,SS,1,2,2,0,1,라,3,EF-SS-R1-L2-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R1-L2,SS01,SS,1,2,0,0,0,다,2,EF-SS-R1-L2-CODEX,codex,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L2,SS03,SS,1,2,1,1,0,나,1,EF-SS-R1-L2-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R1-L3,SS02,SS,1,3,2,0,1,가,2,EF-SS-R1-L3-AGY,agy,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L3,SS04,SS,1,3,3,1,1,라,1,EF-SS-R1-L3-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R1-L3,SS01,SS,1,3,1,1,0,다,4,EF-SS-R1-L3-AGY,agy,오레노카츠 성수본점,0,0,True
+EF-SS-R1-L3,SS03,SS,1,3,0,0,0,나,3,EF-SS-R1-L3-AGY,agy,차만다 성수,1,2,True
+EF-SS-R1-L3,SS02,SS,1,3,2,0,1,가,2,EF-SS-R1-L3-CODEX,codex,빠오즈푸 서울숲점,1,1,True
+EF-SS-R1-L3,SS04,SS,1,3,3,1,1,라,1,EF-SS-R1-L3-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R1-L3,SS01,SS,1,3,1,1,0,다,4,EF-SS-R1-L3-CODEX,codex,오레노카츠 성수본점,1,2,True
+EF-SS-R1-L3,SS03,SS,1,3,0,0,0,나,3,EF-SS-R1-L3-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R2-L0,SS02,SS,2,0,3,1,1,라,1,EF-SS-R2-L0-AGY,agy,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L0,SS01,SS,2,0,0,0,0,가,2,EF-SS-R2-L0-AGY,agy,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L0,SS03,SS,2,0,1,1,0,나,3,EF-SS-R2-L0-AGY,agy,차만다 성수,0,0,True
+EF-SS-R2-L0,SS04,SS,2,0,2,0,1,다,4,EF-SS-R2-L0-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R2-L0,SS02,SS,2,0,3,1,1,라,1,EF-SS-R2-L0-CODEX,codex,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L0,SS01,SS,2,0,0,0,0,가,2,EF-SS-R2-L0-CODEX,codex,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L0,SS03,SS,2,0,1,1,0,나,3,EF-SS-R2-L0-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R2-L0,SS04,SS,2,0,2,0,1,다,4,EF-SS-R2-L0-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R2-L1,SS02,SS,2,1,0,0,0,라,3,EF-SS-R2-L1-AGY,agy,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L1,SS01,SS,2,1,3,1,1,가,4,EF-SS-R2-L1-AGY,agy,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L1,SS03,SS,2,1,2,0,1,나,1,EF-SS-R2-L1-AGY,agy,차만다 성수,0,0,True
+EF-SS-R2-L1,SS04,SS,2,1,1,1,0,다,2,EF-SS-R2-L1-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R2-L1,SS02,SS,2,1,0,0,0,라,3,EF-SS-R2-L1-CODEX,codex,빠오즈푸 서울숲점,1,1,True
+EF-SS-R2-L1,SS01,SS,2,1,3,1,1,가,4,EF-SS-R2-L1-CODEX,codex,오레노카츠 성수본점,1,2,True
+EF-SS-R2-L1,SS03,SS,2,1,2,0,1,나,1,EF-SS-R2-L1-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R2-L1,SS04,SS,2,1,1,1,0,다,2,EF-SS-R2-L1-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R2-L2,SS02,SS,2,2,1,1,0,라,4,EF-SS-R2-L2-AGY,agy,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L2,SS01,SS,2,2,2,0,1,가,3,EF-SS-R2-L2-AGY,agy,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L2,SS03,SS,2,2,3,1,1,나,2,EF-SS-R2-L2-AGY,agy,차만다 성수,0,0,True
+EF-SS-R2-L2,SS04,SS,2,2,0,0,0,다,1,EF-SS-R2-L2-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R2-L2,SS02,SS,2,2,1,1,0,라,4,EF-SS-R2-L2-CODEX,codex,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L2,SS01,SS,2,2,2,0,1,가,3,EF-SS-R2-L2-CODEX,codex,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L2,SS03,SS,2,2,3,1,1,나,2,EF-SS-R2-L2-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R2-L2,SS04,SS,2,2,0,0,0,다,1,EF-SS-R2-L2-CODEX,codex,눈꽃돼지,0,0,True
+EF-SS-R2-L3,SS02,SS,2,3,2,0,1,라,2,EF-SS-R2-L3-AGY,agy,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L3,SS01,SS,2,3,1,1,0,가,1,EF-SS-R2-L3-AGY,agy,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L3,SS03,SS,2,3,0,0,0,나,4,EF-SS-R2-L3-AGY,agy,차만다 성수,0,0,True
+EF-SS-R2-L3,SS04,SS,2,3,3,1,1,다,3,EF-SS-R2-L3-AGY,agy,눈꽃돼지,0,0,True
+EF-SS-R2-L3,SS02,SS,2,3,2,0,1,라,2,EF-SS-R2-L3-CODEX,codex,빠오즈푸 서울숲점,1,2,True
+EF-SS-R2-L3,SS01,SS,2,3,1,1,0,가,1,EF-SS-R2-L3-CODEX,codex,오레노카츠 성수본점,1,1,True
+EF-SS-R2-L3,SS03,SS,2,3,0,0,0,나,4,EF-SS-R2-L3-CODEX,codex,차만다 성수,0,0,True
+EF-SS-R2-L3,SS04,SS,2,3,3,1,1,다,3,EF-SS-R2-L3-CODEX,codex,눈꽃돼지,0,0,True

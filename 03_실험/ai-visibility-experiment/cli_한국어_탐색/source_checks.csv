@@ -1,0 +1,13 @@
+url,check_date,access_result,claim_support,note
+https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,2026-10-13,accessible,restaurant_identity_and_specialty,주소와 대표 메뉴 및 개업 연도 확인
+https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,2026-10-13,accessible,restaurant_identity_and_specialty,주소와 대표 메뉴 및 개업 연도 확인
+https://english.visitseoul.net/restaurants/Myeongdong-Hamheung-Myeonok/ENP005228,2026-10-13,accessible,restaurant_identity_and_menu_price,주소와 냉면 14000원 및 영업시간 확인
+https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk,2026-10-13,accessible,restaurant_identity_and_solo_seating,혼밥 좌석과 주소 확인
+https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=51924,2026-10-13,accessible,restaurant_identity_and_specialty,성수족발 주소와 대표 메뉴 확인
+https://www.myeongdong-restaurant.com/ko,2026-10-13,accessible,restaurant_identity,업체 자체 페이지
+https://www.myeongdong-restaurant.com/ko/menu,2026-10-13,accessible,menu_price,업체 자체 메뉴 페이지
+https://www.myeongdongkoreanbbq.kr/ko,2026-10-13,accessible,restaurant_identity_and_menu_price,업체 자체 페이지
+https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836,2026-10-13,accessible,restaurant_identity_and_specialty,우이락 망원본점의 대표 메뉴와 주소 확인
+http://www.mdkj.co.kr,2026-10-13,web_tool_could_not_access,unverified,접근 오류만 확인했으며 사이트 폐쇄라고 판단하지 않음
+https://korean.visitseoul.net/restaurants/명동교자본점_/685,2026-10-13,web_tool_could_not_access,unverified,모델 반환 URL을 점검했으나 도구에서 접근 불가
+https://korean.visitseoul.net/restaurants/하동관명동본점_/593,2026-10-13,web_tool_could_not_access,unverified,모델 반환 URL을 점검했으나 도구에서 접근 불가

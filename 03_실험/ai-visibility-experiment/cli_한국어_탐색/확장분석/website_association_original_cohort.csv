@@ -1,0 +1,4 @@
+﻿area,stores_yes,stores_no,mean_general_rate_yes,mean_general_rate_no,difference_pp,interpretation
+mangwon,0,10,,0.305,,legacy website data; general questions; descriptive not causal
+myeongdong,7,3,0.3214285714285714,0.33333333333333337,-1.1904761904761973,legacy website data; general questions; descriptive not causal
+seongsu,2,8,0.0,0.2625,-26.25,legacy website data; general questions; descriptive not causal

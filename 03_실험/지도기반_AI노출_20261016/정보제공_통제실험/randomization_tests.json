@@ -1,0 +1,20 @@
+[
+  {
+    "factor": "menu_price_detail",
+    "randomization_blocks": 6,
+    "absolute_observed_delta": 0.9375,
+    "two_sided_exact_p": 0.03125,
+    "enumerated_flips": 64,
+    "analysis_status": "supplemental_specified_after_collection_started_before_effect_inspection",
+    "holm_p_two_factor_tests": 0.0625
+  },
+  {
+    "factor": "keyword_repetition",
+    "randomization_blocks": 6,
+    "absolute_observed_delta": 0.020833333333333332,
+    "two_sided_exact_p": 1.0,
+    "enumerated_flips": 64,
+    "analysis_status": "supplemental_specified_after_collection_started_before_effect_inspection",
+    "holm_p_two_factor_tests": 1
+  }
+]

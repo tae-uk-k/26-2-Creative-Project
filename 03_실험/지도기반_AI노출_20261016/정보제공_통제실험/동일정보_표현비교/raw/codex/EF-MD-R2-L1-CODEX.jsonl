@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143aa-94fd-7e83-9fb7-b3f339d66ec4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"라\",\"reason\":\"팟타이와 비프누들이 제시되어 있어 면 요리 한 끼를 고르기 좋습니다.\",\"evidence\":\"메뉴: 쉬림프 팟타이 / 표시 가격: 14,000원\"},{\"rank\":2,\"code\":\"나\",\"reason\":\"치즈닭갈비를 먹고 싶을 때 선택할 수 있고, 볶음밥도 메뉴에 제시되어 있습니다.\",\"evidence\":\"메뉴: 치즈닭갈비 / 표시 가격: 15,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13402,"cached_input_tokens":10112,"cache_write_input_tokens":0,"output_tokens":167,"reasoning_output_tokens":35}}

@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 flask_err.log
 flask_out.log
+**/.venv/
+**/.pytest_cache/
+**/.test-tmp/
+**/node_modules/
+05_발표자료/검수자료/
+99_보관/이전_제출본_격리/

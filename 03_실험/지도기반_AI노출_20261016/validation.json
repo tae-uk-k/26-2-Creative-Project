@@ -1,0 +1,31 @@
+{
+  "attempt_count": 18,
+  "unique_cells": 18,
+  "planned_cells": 18,
+  "all_pilot_cells_attempted": true,
+  "no_duplicate_pilot_attempts": true,
+  "raw_journal_sha256": "31845ede3c3f60498757456b4d4107cdf13f313ca6788cc785ea8264a9998f12",
+  "raw_journal_unchanged_by_audit": true,
+  "prompt_hash_matches_freeze": true,
+  "audited_status_counts": {
+    "completed": 13,
+    "tool_permission_denied": 5
+  },
+  "recommendation_rows": 64,
+  "recommendation_count_matches_runs": true,
+  "self_report_source_levels": {
+    "other_sources": 64
+  },
+  "verified_map_body_runs": 0,
+  "field_attribution_conflict_rows": 5,
+  "direct_body_exposure_rate": null,
+  "direct_body_exposure_rate_reason": "No verified map-body trials; undefined, not zero restaurant exposure.",
+  "predictive_model_fit": false,
+  "causal_claim": false,
+  "consumer_data_combined": false,
+  "protected_consumer_hash_matches_prior_baseline": {
+    "consumer_results.csv": true,
+    "consumer_failures.csv": true
+  },
+  "audit_rule": "No source-body excerpts delivered in auditable target-map results; metadata, final claims, and browser-side reads cannot verify CLI body access."
+}

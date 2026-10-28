@@ -1,0 +1,31 @@
+entity_id,menu_name,price_krw,unit,source_type,note
+MD-R01,칼국수,12000,meal,diningcode,
+MD-R02,곰탕 일반,18000,meal,diningcode,
+MD-R03,돼지갈비정식,17000,meal,diningcode,일반 식사 가격 대표값 고기 단품과 별도
+MD-R04,영란상,29000,meal,diningcode,한정식 기본 구성
+MD-R05,회냉면,14000,meal,diningcode,
+MD-R06,설렁탕,13000,meal,diningcode,
+MD-R07,바질 페스토 파스타,18000,meal,diningcode,
+MD-R08,하수오곰탕,13000,meal,diningcode,
+MD-R09,생삼겹살,18000,meat_portion,diningcode,1인 식사 총액이 아님
+MD-R10,콩나물국밥,9000,meal,diningcode,
+SS-R01,감자국식사 일반,12000,meal,diningcode,
+SS-R02,족발 (중),45000,sharing,diningcode,공유 요리 가격 1인 식사 총액이 아님
+SS-R03,다락 오므라이스,17000,meal,diningcode,
+SS-R04,피타 볼+셀프 바,11500,meal,diningcode,
+SS-R05,,,unknown,unresolved,
+SS-R06,급랭삼겹살,16000,meat_portion,diningcode,1인 식사 총액이 아님
+SS-R07,네이키드 치즈플래터,28000,sharing,diningcode,공식 관광페이지와 가격 일치
+SS-R08,쌈밥정식,17000,meal,diningcode,
+SS-R09,갈치·곤드레솥밥,16000,meal,diningcode,쉼표 포함 명칭은 정규화하여 대조
+SS-R10,하우 곰탕(보통),13000,meal,diningcode,
+MW-R01,오리지널 고추튀김,12000,sharing,diningcode,여러 개 세트 가격 1인 식사 총액이 아님
+MW-R02,닭강정 컵,5000,snack,diningcode,
+MW-R03,,,unknown,unresolved,원당수제고로케로 추정되지만 현재 지점 신원 미확정
+MW-R04,옥수수호떡,1500,snack,diningcode,원본 흥흥호떡 라벨 보존 이름 수정 민감도 분석
+MW-R05,Nasi Goreng 나시고랭,13000,meal,diningcode,
+MW-R06,곱창전골(소) 2인,30000,sharing,diningcode,2인 공유요리 단가로 임의 나누지 않음
+MW-R07,손칼국수,5000,meal,diningcode,
+MW-R08,해장국,8000,meal,diningcode,
+MW-R09,피가 얇은 고기왕만두 4개,6500,snack,diningcode,
+MW-R10,즉석우동,7000,meal,diningcode,

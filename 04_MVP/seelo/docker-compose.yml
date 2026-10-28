@@ -1,0 +1,114 @@
+# seelo 개발·운영 공용 Compose(01 5장).
+# 개발: docker compose up -d   (메일 확인까지: docker compose --profile dev up -d)
+# 정비 워커(Playwright)까지: docker compose --profile fix up -d
+name: seelo
+
+x-backend: &backend
+  build:
+    context: ./backend
+    dockerfile: Dockerfile
+  image: seelo-backend:dev
+  env_file:
+    - path: .env
+      required: false
+  environment:
+    DATABASE_URL: postgresql+psycopg://seelo:seelo@db:5432/seelo
+    QUEUE_DATABASE_DSN: postgresql://seelo:seelo@db:5432/seelo
+    SMTP_HOST: ${SMTP_HOST:-mailpit}
+  restart: unless-stopped
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: seelo
+      POSTGRES_PASSWORD: seelo
+      POSTGRES_DB: seelo
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U seelo -d seelo"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+
+  migrate:
+    <<: *backend
+    command: ["sh", "-c", "alembic upgrade head && python scripts/init_queue_schema.py"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    <<: *backend
+    command:
+      - sh
+      - -c
+      - >-
+        uvicorn seelo.main:app --host 0.0.0.0 --port 8000 --proxy-headers --no-access-log
+        --forwarded-allow-ips="$${TRUSTED_PROXY_IPS:-127.0.0.1}"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  worker-main:
+    <<: *backend
+    command: ["python", "-m", "seelo.worker.run", "--queues", "collect,measure,plan,report,email,periodic",
+              "--concurrency", "4", "--name", "main"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  worker-ai-openai:
+    <<: *backend
+    command: ["sh", "-c", "python -m seelo.worker.run --queues ai_openai --concurrency $${AI_CONCURRENCY_PER_PROVIDER:-5} --name ai-openai"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  worker-ai-gemini:
+    <<: *backend
+    command: ["sh", "-c", "python -m seelo.worker.run --queues ai_gemini --concurrency $${AI_CONCURRENCY_PER_PROVIDER:-5} --name ai-gemini"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  worker-fix:
+    <<: *backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.fix
+    image: seelo-backend-fix:dev
+    command: ["python", "-m", "seelo.worker.run", "--queues", "fix", "--concurrency", "2", "--name", "fix"]
+    volumes:
+      - browser:/data/browser
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    profiles: ["fix"]
+
+  web:
+    image: nginx:1.27
+    volumes:
+      - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./infra/nginx/html:/usr/share/nginx/html:ro
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit:v1.27
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    profiles: ["dev"]
+
+volumes:
+  pgdata:
+  browser:

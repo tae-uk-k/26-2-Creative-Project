@@ -1,0 +1,29 @@
+{
+  "planned_runs": 48,
+  "attempts": 48,
+  "unique_cells": 48,
+  "status_counts": {
+    "completed": 48
+  },
+  "independent_stores": 12,
+  "candidate_outcome_rows": 192,
+  "selected_rows": 96,
+  "every_quote_matches_supplied_card": true,
+  "no_external_tools_in_eligible_runs": true,
+  "input_hash_checks": {
+    "corpus.json": true,
+    "prompts.json": true,
+    "assignments.json": true
+  },
+  "protected_prior_file_hash_checks": {
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\attempts.jsonl": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\data\\consumer_results.csv": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\data\\consumer_failures.csv": true
+  },
+  "original_journal_unchanged": true,
+  "conditional_optimizers_converged": true,
+  "natural_map_exposure_measured": false,
+  "xgboost_fit": false,
+  "population_causal_claim": false,
+  "raw_journal_sha256": "c87a344a8ef3ace1d2b3c9efdf9a9dda36f7f9c4299c8b0608074dd701fa6bea"
+}

@@ -1,0 +1,11 @@
+{% if completed %}
+ChatGPT와 Gemini에 여러 번 물어본 결과가 나왔어요.
+· ChatGPT 추천 등장률: {{ openai_rate_text }}
+· Gemini 추천 등장률: {{ gemini_rate_text }}
+
+결과 보기: {{ link }}
+{% else %}
+이번 측정을 끝내지 못했어요. 무료 진단 횟수는 차감되지 않았어요.
+홈에서 다시 시도할 수 있어요(하루 3번까지).
+{{ link }}
+{% endif %}

@@ -1,0 +1,105 @@
+{
+  "collected_date_kst": "2026-10-16",
+  "collection_method": "CUA in-app browser, live rendered public map pages",
+  "purpose": "Field attribution and collection feasibility examples only; not a fixed candidate frame or exposure-effect dataset.",
+  "full_original_text_archived": false,
+  "original_text_note": "Only short excerpts and DOM-derived counts retained here. Long descriptions must be recaptured and versioned before main analysis.",
+  "profiles": [
+    {
+      "profile_id": "EX-NAVER-1241532707",
+      "map_id": "naver",
+      "area_id": "SS",
+      "name": "성수다락",
+      "source_url": "https://m.place.naver.com/restaurant/1241532707/information",
+      "selection_method": "Detail link encountered in CLI fallback answer, then independently opened and verified in browser. Not an AI-independent sample.",
+      "address": "서울 성동구 뚝섬로9길 20 2층",
+      "category": "양식",
+      "rating": 4.74,
+      "review_count_display": "1.9만",
+      "review_count_exact": null,
+      "description": {
+        "status": "observed",
+        "author_type": "owner",
+        "author_evidence": "소개 section immediately followed by image label 업주; expanded with 접기 button verified.",
+        "excerpt": "[오므라이스 & 파스타 성수동맛집 성수다락]",
+        "chars_including_spaces": 1962,
+        "count_scope": "Decoded description generic in rendered DOM; Unicode code points; no line breaks were exposed.",
+        "bracket_section_count": 5,
+        "exact_phrase_counts": {"성수동 핫플": 8, "성수 아이랑": 11, "성수 가성비": 7, "성수 기념일": 6, "오므라이스": 10, "파스타": 10},
+        "numeric_won_price_mentions": 0,
+        "numeric_price_scope": "Owner introduction only. Does not mean menu prices are absent elsewhere."
+      },
+      "owner_post": {"status": "not_observed", "author_type": null},
+      "other_fields": [
+        {"field": "group_capacity", "value": "최소 4명 ~ 최대 15명", "author_type": "unknown", "evidence": "좌석·공간"},
+        {"field": "amenities", "value": "단체 이용 가능|포장|배달|예약|무선 인터넷|유아의자|대기공간", "author_type": "unknown", "evidence": "편의시설 및 서비스"},
+        {"field": "parking", "value": "주차 불가; 인근 유료주차장 별도 안내", "author_type": "owner", "evidence": "주차 section with owner-signed explanatory text"},
+        {"field": "platform_summary_present", "value": true, "author_type": "platform_ai", "evidence": "AI 요약 label on home; not owner introduction"}
+      ]
+    },
+    {
+      "profile_id": "EX-KAKAO-2125770186",
+      "map_id": "kakao",
+      "area_id": "SS",
+      "name": "오레노카츠 성수본점",
+      "source_url": "https://place.map.kakao.com/2125770186",
+      "selection_method": "First visible organic Kakao restaurant search result; collection feasibility only. Query heading and input differed during loading, so not an eligible frozen search-rank record.",
+      "address": "서울 성동구 성수일로 47 1층 102호",
+      "category": "돈까스,우동",
+      "rating": 3.7,
+      "review_count_display": "164",
+      "review_count_exact": 164,
+      "description": {"status": "not_observed", "author_type": null, "reason": "Home page inspected; owner-authored introduction not identified. Not coded as empty or unsupported."},
+      "owner_post": {"status": "not_observed", "author_type": null},
+      "other_fields": [
+        {"field": "business_verified", "value": true, "author_type": "platform", "evidence": "사업자 정보가 확인된 장소; does not attribute all text to owner"},
+        {"field": "platform_summary_excerpt", "value": "정성 가득한 수제 생돈까스 맛집", "author_type": "platform_ai", "evidence": "kanana 장소요약"},
+        {"field": "parking_summary", "value": "무료 주차", "author_type": "platform_ai", "evidence": "주차 field followed by kanana 활용 label"},
+        {"field": "parking_blog_excerpt", "value": "주차불가", "author_type": "user_blog", "evidence": "Embedded blog preview, 추억하기 위한 기록, displayed date 2026.10.10."},
+        {"field": "parking_conflict", "value": true, "author_type": "research_audit", "evidence": "Displayed AI-derived parking field and blog preview disagree; actual parking status unresolved."},
+        {"field": "tag", "value": "#혼밥", "author_type": "unknown", "evidence": "태그 section; no owner authorship label"},
+        {"field": "text_menu_price", "value": "체다크림치즈돈카츠 14000원|매콤돈카츠 14000원|수제 생돈카츠 11500원|오레노 정식 A 17500원", "author_type": "unknown", "evidence": "메뉴 목록; displayed descriptions include AI 추천 badges, owner authorship not verified"},
+        {"field": "menu_count_tab", "value": 20, "author_type": "platform", "evidence": "메뉴 총 목록 개수 20"},
+        {"field": "menu_count_registered", "value": 25, "author_type": "platform", "evidence": "등록된 메뉴 개수 25; distinct display metric, do not overwrite tab count"},
+        {"field": "photo_count_display", "value": "999+", "author_type": "platform", "evidence": "업로드 된 사진 수; exact count unknown"},
+        {"field": "blog_count", "value": 204, "author_type": "platform", "evidence": "블로그 204 개"},
+        {"field": "directions", "value": "뚝섬역 5번 출구에서 316m 도보 5분", "author_type": "unknown", "evidence": "장소 기본 정보"}
+      ]
+    },
+    {
+      "profile_id": "EX-GOOGLE-ChIJD502OU6lfDURetD_VMLkRnA",
+      "map_id": "google",
+      "area_id": "SS",
+      "name": "스케줄성수",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%EC%BC%80%EC%A4%84%EC%84%B1%EC%88%98/data=!4m5!3m4!1s0x357ca54e39369d0f:0x7046e4c254ffd07a!16s%2Fg%2F11syr2z2t5!19sChIJD502OU6lfDURetD_VMLkRnA!20s8Q99G3V4%2BQ5M?authuser=0&hl=ko&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+      "selection_method": "First visible organic result in 성수 맛집 search, after two sponsored results. Not a completed independent candidate frame.",
+      "address": "서울특별시 성동구 아차산로 104 2층",
+      "category": "이탈리아 음식점",
+      "rating": 4.8,
+      "review_count_display": "2,784",
+      "review_count_exact": 2784,
+      "description": {"status": "not_observed_limited_view", "author_type": null, "reason": "Overview and information inspected. Limited-view banner; owner post observed but business description not identified."},
+      "owner_post": {
+        "status": "observed",
+        "author_type": "owner",
+        "author_evidence": "소유자 제공 immediately before 지역 게시물 보기",
+        "excerpt": "[Limited Time] Strawberry Moment",
+        "language": "en",
+        "chars_including_spaces": 1221,
+        "numeric_menu_price_mentions": 7,
+        "includes_address": true,
+        "includes_exit_directions": true,
+        "includes_parking_duration": true,
+        "includes_reservation_channels": true,
+        "relative_date_display": "4일 전",
+        "exact_post_date": null,
+        "note": "Seasonal dessert post, not whole restaurant description; do not use as representative main-meal price or replace owner-description length."
+      },
+      "other_fields": [
+        {"field": "photo_count_display", "value": "4241", "author_type": "platform", "evidence": "사진 4241장"},
+        {"field": "owner_website", "value": "https://litt.ly/schedule_seongsu", "author_type": "unknown", "evidence": "웹사이트 link; query tracking parameters omitted from field value"},
+        {"field": "limited_view_banner", "value": true, "author_type": "platform", "evidence": "Google 지도가 제한된 뷰로 표시되고 있습니다."}
+      ]
+    }
+  ]
+}

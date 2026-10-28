@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "independent_stores": 30,
+  "unique_trials": 600,
+  "oof_rows_including_repeats": 3000,
+  "repeated_partitions": 5,
+  "folds_per_partition": 5,
+  "brands_cross_train_test": 0,
+  "held_out_stores_per_area": 2,
+  "all_probabilities_finite": true,
+  "data_sha256": {
+    "exposure_trials.csv": "803cd4a494cc50c137351611eb3ac039403193494fbc414fb005664020dff155",
+    "restaurant_features.csv": "3687695ea1b4903948632bee5225e476cde973b74659873fc5b5c50ad866671d",
+    "restaurant_registry.csv": "4ea3ff96cb1dea4d7bf5762106e65c09c207132d1f22cba6161043127122dad6",
+    "category_codebook.csv": "10d3ce81ef461063d05fd3f6b5c9f9c637c5671371eef9c631dc7c3e18be8faf",
+    "frame_freeze.json": "f689dbc06635db7f30b8500d41769662c38e7471c9576b547fac6a343a5f9a5b"
+  },
+  "code_sha256": {
+    "run_analysis.py": "193a1cec81c221d1f202a02fcf0bb2f5f4a4764bb8ad48b897bd44bb807011e9",
+    "robust_cv.py": "daa22e4741bb5b2bef7bb57e6008fb93c8ed2eb0870c922f1abdb5dd160816bd"
+  },
+  "all_optimizer_success": true,
+  "source_recipe": "Fixed parameters, no hyperparameter search or choice of favorable seed",
+  "ebm_outer_bags": 1,
+  "causal_validation": false
+}

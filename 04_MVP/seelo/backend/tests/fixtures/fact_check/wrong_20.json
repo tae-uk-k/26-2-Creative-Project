@@ -1,0 +1,31 @@
+{
+  "note": "09 6.6 6번: 일부러 틀린 값을 넣은 문장 20개. 모두 [ ]로 바뀌거나 지워져야 한다. 사실은 영업시간 11:00~21:00, 칼국수 11000원, 전화 02-776-0000, 포장 가능뿐.",
+  "facts": [
+    {"id": "f1", "kind": "hours", "source": "website", "text": "매일 11:00~21:00"},
+    {"id": "f2", "kind": "menu_item", "source": "website", "text": "칼국수 11000원"},
+    {"id": "f3", "kind": "phone", "source": "website", "text": "02-776-0000"},
+    {"id": "f4", "kind": "attribute", "source": "google", "text": "포장 가능", "value": "takeout"}
+  ],
+  "cases": [
+    {"text": "Open daily 10:00–22:00.", "wrong": "10:00", "expect": "placeholder"},
+    {"text": "Open until 23:00 on weekends.", "wrong": "23:00", "expect": "placeholder"},
+    {"text": "Kalguksu costs 9,000 won.", "wrong": "9,000", "expect": "placeholder"},
+    {"text": "Dumplings are ₩8,000.", "wrong": "8,000", "expect": "placeholder"},
+    {"text": "Call us at 02-123-4567.", "wrong": "02-123-4567", "expect": "placeholder"},
+    {"text": "Since 1966, we have served noodles.", "wrong": "1966", "expect": "placeholder"},
+    {"text": "Ranked No. 1 in Seoul.", "wrong": "No. 1", "expect": "placeholder"},
+    {"text": "Over 30 years of tradition.", "wrong": "30", "expect": "placeholder"},
+    {"text": "Open from 9am.", "wrong": "9am", "expect": "placeholder"},
+    {"text": "칼국수는 9000원이에요.", "wrong": "9000", "expect": "placeholder"},
+    {"text": "All dishes are halal.", "wrong": "halal", "expect": "removed"},
+    {"text": "Our broth is gluten-free.", "wrong": "gluten", "expect": "removed"},
+    {"text": "Free of peanuts and tree nuts.", "wrong": "peanut", "expect": "removed"},
+    {"text": "Allergy-friendly kitchen.", "wrong": "Allergy", "expect": "removed"},
+    {"text": "Vegetarian options available.", "wrong": "Vegetarian", "expect": "removed"},
+    {"text": "We accept credit cards.", "wrong": "credit cards", "expect": "removed"},
+    {"text": "Reservations recommended.", "wrong": "Reservations", "expect": "removed"},
+    {"text": "Great for large groups.", "wrong": "large groups", "expect": "removed"},
+    {"text": "채식 메뉴가 있어요.", "wrong": "채식", "expect": "removed"},
+    {"text": "할랄 인증을 받았어요.", "wrong": "할랄", "expect": "removed"}
+  ]
+}

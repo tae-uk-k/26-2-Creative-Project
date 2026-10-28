@@ -1,0 +1,19 @@
+﻿run_id,backend,requested_model,prompt_id,map_id,area_id,repeat,phase
+MAP-20261016-AGY-kakao_MD-R1,agy,Gemini 3.8 Flash (Low),kakao_MD,kakao,MD,1,access_pilot
+MAP-20261016-CODEX-google_MD-R1,codex,gpt-6.1-sol,google_MD,google,MD,1,access_pilot
+MAP-20261016-CODEX-kakao_MW-R1,codex,gpt-6.1-sol,kakao_MW,kakao,MW,1,access_pilot
+MAP-20261016-AGY-naver_SS-R1,agy,Gemini 3.8 Flash (Low),naver_SS,naver,SS,1,access_pilot
+MAP-20261016-CODEX-naver_MD-R1,codex,gpt-6.1-sol,naver_MD,naver,MD,1,access_pilot
+MAP-20261016-AGY-naver_MW-R1,agy,Gemini 3.8 Flash (Low),naver_MW,naver,MW,1,access_pilot
+MAP-20261016-AGY-google_MD-R1,agy,Gemini 3.8 Flash (Low),google_MD,google,MD,1,access_pilot
+MAP-20261016-CODEX-kakao_MD-R1,codex,gpt-6.1-sol,kakao_MD,kakao,MD,1,access_pilot
+MAP-20261016-AGY-kakao_MW-R1,agy,Gemini 3.8 Flash (Low),kakao_MW,kakao,MW,1,access_pilot
+MAP-20261016-AGY-naver_MD-R1,agy,Gemini 3.8 Flash (Low),naver_MD,naver,MD,1,access_pilot
+MAP-20261016-CODEX-naver_SS-R1,codex,gpt-6.1-sol,naver_SS,naver,SS,1,access_pilot
+MAP-20261016-CODEX-naver_MW-R1,codex,gpt-6.1-sol,naver_MW,naver,MW,1,access_pilot
+MAP-20261016-CODEX-google_SS-R1,codex,gpt-6.1-sol,google_SS,google,SS,1,access_pilot
+MAP-20261016-AGY-google_MW-R1,agy,Gemini 3.8 Flash (Low),google_MW,google,MW,1,access_pilot
+MAP-20261016-CODEX-google_MW-R1,codex,gpt-6.1-sol,google_MW,google,MW,1,access_pilot
+MAP-20261016-AGY-kakao_SS-R1,agy,Gemini 3.8 Flash (Low),kakao_SS,kakao,SS,1,access_pilot
+MAP-20261016-AGY-google_SS-R1,agy,Gemini 3.8 Flash (Low),google_SS,google,SS,1,access_pilot
+MAP-20261016-CODEX-kakao_SS-R1,codex,gpt-6.1-sol,kakao_SS,kakao,SS,1,access_pilot

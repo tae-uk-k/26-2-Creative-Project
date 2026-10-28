@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1439f-e191-74c1-8972-f2390a55a8a0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"가\",\"reason\":\"치즈닭갈비와 볶음밥의 메뉴·표시 가격이 있어 식사 선택을 구체적으로 검토할 수 있습니다. 최소 주문과 1인 식사 총액은 알 수 없습니다.\",\"evidence\":\"메뉴: 치즈닭갈비 / 표시 가격: 15,000원\"},{\"rank\":2,\"code\":\"나\",\"reason\":\"피자와 파스타의 메뉴·표시 가격이 확인되며, 첫 번째 추천과 다른 음식 종류를 선택할 수 있습니다. 최소 주문과 1인 식사 총액은 알 수 없습니다.\",\"evidence\":\"메뉴: 명동 파스타 / 표시 가격: 19,500원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13320,"cached_input_tokens":10112,"cache_write_input_tokens":0,"output_tokens":163,"reasoning_output_tokens":0}}

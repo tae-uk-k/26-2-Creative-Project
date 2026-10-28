@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143a9-3759-7b10-80b1-2ade40b9333c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"가\",\"reason\":\"체다크림치즈돈카츠와 매콤돈카츠 중 선택할 수 있어 돈카츠 식사 후보로 추천해요.\",\"evidence\":\"메뉴: 체다크림치즈돈카츠 / 표시 가격: 14,000원\"},{\"rank\":2,\"code\":\"라\",\"reason\":\"고기빠오즈와 훈둔면이 있어, 첫 번째 추천과 다른 중식 메뉴를 선택할 수 있어요.\",\"evidence\":\"메뉴: 훈둔면 / 표시 가격: 9,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13437,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":166,"reasoning_output_tokens":28}}

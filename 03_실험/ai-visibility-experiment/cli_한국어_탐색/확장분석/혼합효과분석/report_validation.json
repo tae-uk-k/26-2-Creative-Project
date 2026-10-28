@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "original_stores": 30,
+  "unique_primary_trials": 600,
+  "repeated_oof_rows": 3000,
+  "group_fold_overlap": 0,
+  "area_holdout_stores_per_fold": 2,
+  "input_hashes_unchanged": true,
+  "bootstrap_optimizers_all_success": true,
+  "cv_optimizers_all_success": true,
+  "uncertain_laplace_fit_excluded": true,
+  "best_model_by_mean_brier": "global_mean",
+  "predictor_count_restaurant": 2,
+  "scope": "preliminary original30 association and prediction comparison; no causal test"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "target": "appearance in general recommendation responses only",
+  "feature_sets": {
+    "reviews": ["own_website_legacy", "menu_family", "log1p_diningcode_review_count"],
+    "full": ["own_website_legacy", "menu_family", "log1p_diningcode_review_count", "diningcode_rating", "log1p_display_photo_count", "log1p_representative_menu_price", "price_unit", "current_michelin_listing"]
+  },
+  "excluded_predictors": ["restaurant_name", "prior_visibility_stratum", "AI_response_citation_counts", "unverified_google_metrics", "daco_score", "missingness_indicators", "sparse_tourism_evidence", "sparse_established_year"],
+  "folds": "Reuse 5 existing fixed seeds times 5 restaurant folds from the prior pilot",
+  "imputation": "Unique training restaurants only; numeric median and price-unit mode; no test-label use",
+  "glmm": {"fixed_prior_sd": 1, "random_log_sd_prior_sd": 0.5, "random_intercepts": ["restaurant", "response"], "prediction": "Integrate unseen restaurant and response intercepts"},
+  "logistic": {"C": 0.1, "max_iter": 2000},
+  "xgboost": {"trees": 120, "max_depth": 2, "learning_rate": 0.03, "min_child_weight": 5, "reg_lambda": 10},
+  "ebm": {"interactions": 0, "max_bins": 16, "outer_bags": 1, "validation_size": 0, "max_rounds": 1000},
+  "tuning": "None. All variants are reported, no favorable seed or feature subset is selected for the main conclusion.",
+  "sensitivity": "Fixed folds restricted to complete profiles, then also omit MD-R01 and MW-R04 identity/branch concerns",
+  "scope": "Exploratory associations in purpose-selected original 30; not prospective causal or population inference"
+}

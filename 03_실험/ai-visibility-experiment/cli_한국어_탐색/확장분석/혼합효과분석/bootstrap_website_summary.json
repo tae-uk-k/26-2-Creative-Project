@@ -1,0 +1,11 @@
+{
+  "repetitions": 200,
+  "unit": "restaurant, within area, with replacement",
+  "independent_source_stores": 30,
+  "resampled_slots_not_new_stores": true,
+  "website_odds_ratio_median": 0.5734070114991425,
+  "website_odds_ratio_percentile95_low": 0.18560006195590925,
+  "website_odds_ratio_percentile95_high": 1.780993195971146,
+  "all_optimizer_success": true,
+  "interpretation": "resampling sensitivity of fitted posterior means in a purposive cohort; not a causal confidence interval"
+}

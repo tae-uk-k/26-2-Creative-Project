@@ -1,0 +1,61 @@
+﻿backend,restaurant_id,area,name_ko,regional_successful_runs,appeared_runs_name_match,appeared_runs_original_address_match,regional_appearance_rate,general_prompt_runs,general_prompt_appeared_runs,general_prompt_appearance_rate,top3_runs,mean_reciprocal_rank_including_nonappearance,own_website_prior_snapshot,prior_stratum_not_outcome,branch_review,scope
+agy,MD-R01,myeongdong,명동교자,20,20,17,1.0,5,5,1.0,20,0.925,yes,high,pending,selected_30_restaurants_only
+agy,MD-R02,myeongdong,하동관,20,15,15,0.75,5,5,1.0,15,0.375,yes,high,pending,selected_30_restaurants_only
+agy,MD-R03,myeongdong,왕비집 명동본점,20,6,5,0.3,5,1,0.2,4,0.0892,yes,high,pending,selected_30_restaurants_only
+agy,MD-R04,myeongdong,명동정,20,1,1,0.05,5,0,0.0,0,0.01,yes,mid,pending,selected_30_restaurants_only
+agy,MD-R05,myeongdong,명동함흥면옥,20,2,2,0.1,5,1,0.2,0,0.0225,no,mid,pending,selected_30_restaurants_only
+agy,MD-R06,myeongdong,미성옥,20,13,13,0.65,5,2,0.4,9,0.1975,no,mid,pending,selected_30_restaurants_only
+agy,MD-R07,myeongdong,세븐티포 명동성당본점,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+agy,MD-R08,myeongdong,하수오곰탕 명동점,20,0,0,0.0,5,0,0.0,0,0.0,yes,low,pending,selected_30_restaurants_only
+agy,MD-R09,myeongdong,고시레 명동본점,20,0,0,0.0,5,0,0.0,0,0.0,yes,low,pending,selected_30_restaurants_only
+agy,MD-R10,myeongdong,성원전주콩나물국밥,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+agy,SS-R01,seongsu,소문난성수감자탕,20,13,13,0.65,5,5,1.0,11,0.4808,no,high,pending,selected_30_restaurants_only
+agy,SS-R02,seongsu,성수족발,20,2,2,0.1,5,2,0.4,2,0.0417,no,high,pending,selected_30_restaurants_only
+agy,SS-R03,seongsu,성수다락,20,5,5,0.25,5,5,1.0,1,0.0642,no,high,pending,selected_30_restaurants_only
+agy,SS-R04,seongsu,칙피스 성수점,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+agy,SS-R05,seongsu,퀴버 서울숲점,20,0,0,0.0,5,0,0.0,0,0.0,no,mid,pending,selected_30_restaurants_only
+agy,SS-R06,seongsu,잠수교집 성수 직영점,20,0,0,0.0,5,0,0.0,0,0.0,no,mid,pending,selected_30_restaurants_only
+agy,SS-R07,seongsu,유어네이키드치즈,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+agy,SS-R08,seongsu,할머니의 레시피,20,5,5,0.25,5,0,0.0,5,0.1333,no,low,pending,selected_30_restaurants_only
+agy,SS-R09,seongsu,선채 성수,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+agy,SS-R10,seongsu,돼지곰탕 하우 성수본점,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+agy,MW-R01,mangwon,우이락 망원본점,20,14,14,0.7,5,5,1.0,12,0.4308,no,high,pending,selected_30_restaurants_only
+agy,MW-R02,mangwon,큐스닭강정,20,1,1,0.05,5,1,0.2,0,0.01,no,high,pending,selected_30_restaurants_only
+agy,MW-R03,mangwon,황인호 크로켓,20,0,0,0.0,5,0,0.0,0,0.0,no,high,pending,selected_30_restaurants_only
+agy,MW-R04,mangwon,흥흥호떡,20,5,5,0.25,5,0,0.0,5,0.1083,no,mid,pending,selected_30_restaurants_only
+agy,MW-R05,mangwon,발리인망원,20,1,1,0.05,5,0,0.0,0,0.0125,no,mid,pending,selected_30_restaurants_only
+agy,MW-R06,mangwon,청어람 망원점,20,2,2,0.1,5,0,0.0,2,0.05,no,mid,pending,selected_30_restaurants_only
+agy,MW-R07,mangwon,홍두깨손칼국수,20,12,12,0.6,5,5,1.0,12,0.4917,no,mid,pending,selected_30_restaurants_only
+agy,MW-R08,mangwon,일등식당,20,8,7,0.4,5,3,0.6,4,0.1808,no,low,pending,selected_30_restaurants_only
+agy,MW-R09,mangwon,진성만두 망원시장점,20,1,1,0.05,5,0,0.0,0,0.0125,no,low,pending,selected_30_restaurants_only
+agy,MW-R10,mangwon,망원동즉석우동 본점,20,8,8,0.4,5,2,0.4,7,0.1875,no,low,pending,selected_30_restaurants_only
+codex,MD-R01,myeongdong,명동교자,20,17,4,0.85,5,4,0.8,14,0.635,yes,high,pending,selected_30_restaurants_only
+codex,MD-R02,myeongdong,하동관,20,14,14,0.7,5,5,1.0,14,0.375,yes,high,pending,selected_30_restaurants_only
+codex,MD-R03,myeongdong,왕비집 명동본점,20,5,5,0.25,5,0,0.0,4,0.0792,yes,high,pending,selected_30_restaurants_only
+codex,MD-R04,myeongdong,명동정,20,4,3,0.2,5,0,0.0,0,0.0475,yes,mid,pending,selected_30_restaurants_only
+codex,MD-R05,myeongdong,명동함흥면옥,20,15,15,0.75,5,5,1.0,7,0.2258,no,mid,pending,selected_30_restaurants_only
+codex,MD-R06,myeongdong,미성옥,20,9,9,0.45,5,1,0.2,9,0.3,no,mid,pending,selected_30_restaurants_only
+codex,MD-R07,myeongdong,세븐티포 명동성당본점,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+codex,MD-R08,myeongdong,하수오곰탕 명동점,20,0,0,0.0,5,0,0.0,0,0.0,yes,low,pending,selected_30_restaurants_only
+codex,MD-R09,myeongdong,고시레 명동본점,20,0,0,0.0,5,0,0.0,0,0.0,yes,low,pending,selected_30_restaurants_only
+codex,MD-R10,myeongdong,성원전주콩나물국밥,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+codex,SS-R01,seongsu,소문난성수감자탕,20,13,13,0.65,5,5,1.0,12,0.3708,no,high,pending,selected_30_restaurants_only
+codex,SS-R02,seongsu,성수족발,20,5,5,0.25,5,2,0.4,0,0.055,no,high,pending,selected_30_restaurants_only
+codex,SS-R03,seongsu,성수다락,20,2,2,0.1,5,2,0.4,2,0.0417,no,high,pending,selected_30_restaurants_only
+codex,SS-R04,seongsu,칙피스 성수점,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+codex,SS-R05,seongsu,퀴버 서울숲점,20,0,0,0.0,5,0,0.0,0,0.0,no,mid,pending,selected_30_restaurants_only
+codex,SS-R06,seongsu,잠수교집 성수 직영점,20,0,0,0.0,5,0,0.0,0,0.0,no,mid,pending,selected_30_restaurants_only
+codex,SS-R07,seongsu,유어네이키드치즈,20,0,0,0.0,5,0,0.0,0,0.0,yes,mid,pending,selected_30_restaurants_only
+codex,SS-R08,seongsu,할머니의 레시피,20,3,3,0.15,5,0,0.0,1,0.0417,no,low,pending,selected_30_restaurants_only
+codex,SS-R09,seongsu,선채 성수,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+codex,SS-R10,seongsu,돼지곰탕 하우 성수본점,20,0,0,0.0,5,0,0.0,0,0.0,no,low,pending,selected_30_restaurants_only
+codex,MW-R01,mangwon,우이락 망원본점,20,14,14,0.7,5,5,1.0,5,0.3025,no,high,pending,selected_30_restaurants_only
+codex,MW-R02,mangwon,큐스닭강정,20,2,2,0.1,5,0,0.0,1,0.0267,no,high,pending,selected_30_restaurants_only
+codex,MW-R03,mangwon,황인호 크로켓,20,0,0,0.0,5,0,0.0,0,0.0,no,high,pending,selected_30_restaurants_only
+codex,MW-R04,mangwon,흥흥호떡,20,5,5,0.25,5,0,0.0,2,0.0708,no,mid,pending,selected_30_restaurants_only
+codex,MW-R05,mangwon,발리인망원,20,0,0,0.0,5,0,0.0,0,0.0,no,mid,pending,selected_30_restaurants_only
+codex,MW-R06,mangwon,청어람 망원점,20,4,4,0.2,5,0,0.0,1,0.0492,no,mid,pending,selected_30_restaurants_only
+codex,MW-R07,mangwon,홍두깨손칼국수,20,13,13,0.65,5,4,0.8,13,0.5083,no,mid,pending,selected_30_restaurants_only
+codex,MW-R08,mangwon,일등식당,20,1,1,0.05,5,1,0.2,1,0.05,no,low,pending,selected_30_restaurants_only
+codex,MW-R09,mangwon,진성만두 망원시장점,20,3,3,0.15,5,0,0.0,3,0.075,no,low,pending,selected_30_restaurants_only
+codex,MW-R10,mangwon,망원동즉석우동 본점,20,6,6,0.3,5,3,0.6,5,0.1125,no,low,pending,selected_30_restaurants_only

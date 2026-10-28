@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="소규모 가게를 위한 외국인 관광객 AI 추천 노출 진단·정보 정비 서비스">
+    <meta name="theme-color" content="#ffffff">
+    <title>{% block title %}한눈{% endblock %}</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <a class="skip-link" href="#main-content">본문으로 이동</a>
+    <header class="site-header" aria-label="주요 메뉴">
+        <div class="header-inner">
+            <a class="brand" href="{{ url_for('index') }}" aria-label="한눈 홈">
+                <span class="brand-mark" aria-hidden="true"><span></span></span>
+                <span>한눈</span>
+            </a>
+            <nav class="site-nav" aria-label="페이지 메뉴">
+                <a href="{{ url_for('index') }}#how-it-works">진행 방식</a>
+                <a href="{{ url_for('index') }}#difference">SEO와 GEO</a>
+                <a class="button button-small button-primary" href="{{ url_for('demo') }}">무료 진단 체험</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <strong>한눈</strong>
+                <p>AI가 가게를 이해할 수 있도록 정보를 정비합니다.</p>
+            </div>
+            <p class="footer-note">특정 AI 추천 순위나 노출을 보장하지 않습니다.</p>
+        </div>
+    </footer>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
