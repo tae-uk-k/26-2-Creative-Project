@@ -35,7 +35,8 @@ KAKAO = Endpoints(
     authorize="https://kauth.kakao.com/oauth/authorize",
     token="https://kauth.kakao.com/oauth/token",
     userinfo="https://kapi.kakao.com/v2/user/me",
-    scope="account_email",
+    # 앱의 동의항목 설정을 따른다. 비즈 앱 전용 이메일 권한을 강제로 요구하지 않는다.
+    scope="",
 )
 ENDPOINTS = {"google": GOOGLE, "kakao": KAKAO}
 
@@ -83,9 +84,10 @@ class AuthlibOAuth:
             "response_type": "code",
             "client_id": cid,
             "redirect_uri": redirect_uri,
-            "scope": ep.scope,
             "state": state,
         }
+        if ep.scope:
+            params["scope"] = ep.scope
         return f"{ep.authorize}?{urlencode(params)}"
 
     async def fetch_profile(self, provider: str, *, code: str, redirect_uri: str) -> OAuthProfile:

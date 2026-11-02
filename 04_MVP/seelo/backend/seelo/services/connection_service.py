@@ -371,8 +371,13 @@ async def verify(
 async def _blocked(
     connection_id: int, request_id: int, provider: str, actor_id: int | None, reason: str
 ) -> None:
-    """연결 상태는 그대로. 감사 기록 blocked + 관리자 메일(브라우저 로그인을 다시 한 뒤 다시 확인)."""
+    """연결 상태는 그대로. 같은 초대의 차단 메일은 한 통(10 4장)."""
     async with session_scope() as s:
+        try:
+            conn, _ = await _locked(s, connection_id)
+        except AppError:
+            return
+        event_at = conn.invited_at or conn.created_at
         audit.record(
             s,
             actor_id=actor_id,
@@ -388,7 +393,7 @@ async def _blocked(
                 "request_id": request_id,
                 "items": [{"provider": provider, "field_label": "연결 확인", "reason": "automation_blocked"}],
             },
-            dedupe_key=f"manual_required:verify:{connection_id}:{now_utc().isoformat()}",
+            dedupe_key=f"manual_required:verify:{connection_id}:{event_at.isoformat()}",
         )
         await s.commit()
     log.warning("verify_connection_blocked", connection_id=connection_id, reason=reason)

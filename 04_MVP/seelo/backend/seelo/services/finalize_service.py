@@ -180,6 +180,7 @@ async def response_views(s: AsyncSession, run_id: int, names: set[str] | None = 
             extraction_ok=status == ExtractionStatus.SUCCEEDED,
             recs=recs.get(rid, []),
             source_domains=list(dict.fromkeys(u.get("domain") or "unknown" for u in sources or [])),
+            source_urls=[u["url"] for u in sources or [] if u.get("url")],
         )
         for rid, provider, qid, status, sources in rows
     ]
@@ -370,7 +371,9 @@ async def finalize(run_id: int, *, clients: Clients | None = None) -> None:
         if run.kind == RunKind.DIAGNOSIS:
             await _diagnosis_completed(s, run, result.rows)
         else:
-            log.info("remeasure_completed", run_id=run_id, next="compareFixValues(14단계)")  # E6
+            from seelo.services.remeasure_service import defer_compare
+
+            await defer_compare(s, run.fix_request_id, run_id, run.store_id)  # E6
         await s.commit()
     log.info(
         "run_completed",

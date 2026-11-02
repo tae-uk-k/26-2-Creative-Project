@@ -1,0 +1,10 @@
+[Unit]
+Description=seelo daily backup at 04:00 Asia/Seoul
+
+[Timer]
+OnCalendar=*-*-* 19:00:00 UTC
+Persistent=true
+Unit=seelo-backup.service
+
+[Install]
+WantedBy=timers.target

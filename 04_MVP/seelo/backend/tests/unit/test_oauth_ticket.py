@@ -5,7 +5,7 @@ from urllib.parse import parse_qs, urlsplit
 import pytest
 
 from seelo.errors import AppError
-from seelo.integrations.oauth import KAKAO, AuthlibOAuth, parse_google, parse_kakao
+from seelo.integrations.oauth import GOOGLE, KAKAO, AuthlibOAuth, parse_google, parse_kakao
 from seelo.services.auth_service import make_mail_ticket, read_mail_ticket
 
 
@@ -38,28 +38,33 @@ def test_parse_kakao(account: dict, email: str | None, verified: bool) -> None:
     assert (p.email, p.email_verified) == (email, verified)
 
 
-def test_kakao_authorize_url(monkeypatch: pytest.MonkeyPatch) -> None:
+@pytest.mark.parametrize(
+    ("provider", "endpoint", "scope"),
+    [("google", GOOGLE, "openid email profile"), ("kakao", KAKAO, None)],
+)
+def test_authorize_url_uses_only_supported_scopes(monkeypatch, provider, endpoint, scope) -> None:
     from seelo.config import get_settings
 
-    monkeypatch.setenv("KAKAO_OAUTH_CLIENT_ID", "rest-key")
-    monkeypatch.setenv("KAKAO_OAUTH_CLIENT_SECRET", "secret")
+    monkeypatch.setenv(f"{provider.upper()}_OAUTH_CLIENT_ID", "client-id")
+    monkeypatch.setenv(f"{provider.upper()}_OAUTH_CLIENT_SECRET", "secret")
     get_settings.cache_clear()
+    redirect_uri = f"https://x.kr/api/oauth/{provider}/callback"
     try:
-        url = AuthlibOAuth().authorize_url(
-            "kakao", redirect_uri="https://x.kr/api/oauth/kakao/callback", state="S"
-        )
+        url = AuthlibOAuth().authorize_url(provider, redirect_uri=redirect_uri, state="S +&=")
     finally:
         get_settings.cache_clear()
     parts = urlsplit(url)
-    assert f"{parts.scheme}://{parts.netloc}{parts.path}" == KAKAO.authorize
-    q = {k: v[0] for k, v in parse_qs(parts.query).items()}
-    assert q == {
+    assert f"{parts.scheme}://{parts.netloc}{parts.path}" == endpoint.authorize
+    q = {k: v[0] for k, v in parse_qs(parts.query, keep_blank_values=True).items()}
+    expected = {
         "response_type": "code",
-        "client_id": "rest-key",
-        "redirect_uri": "https://x.kr/api/oauth/kakao/callback",
-        "scope": "account_email",
-        "state": "S",
+        "client_id": "client-id",
+        "redirect_uri": redirect_uri,
+        "state": "S +&=",
     }
+    if scope is not None:
+        expected["scope"] = scope
+    assert q == expected
     assert "secret" not in url
 
 

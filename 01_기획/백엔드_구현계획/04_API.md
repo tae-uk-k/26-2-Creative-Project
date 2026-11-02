@@ -364,6 +364,12 @@ ApproveRequest {
 ReportResponse { reportId, fixRequestId, version, createdAt, content: ReportContent }   # ReportContent는 10 3장
 ```
 
+구현 메모(2026-10-29, 14단계)
+- `api/fix_report.py`, `api/reports.py`, `schemas/report.py`. 현재 가게의 완료 보고서가 없으면 404 `REPORT_NOT_READY`. 개별 ID는 완료 상태·소유권을 함께 검사하며 없는 것·남의 것·생성 중·실패는 모두 404 `NOT_FOUND`. 관리자는 개별 ID로 조회한다. 보관된 가게도 소유자는 개별 ID 조회 가능.
+- 관리자 `remeasure-now`는 예약·신청을 잠그고 측정·큐·감사 기록(`remeasure.now`)을 함께 커밋한다. 중복 호출 409. E24는 최신 실패 보고서만 새 버전으로 만들고 `report.regenerate`를 기록한다.
+
+구현 메모(2026-10-29, 16단계): 카카오 칸 값은 보고서에 중복 저장하지 않고, 권한 검사 뒤 `fix_logs`에서 채워 응답한다(10 3.4). API의 `beforeValue`·`appliedValue` 형식은 같다. 저장 JSON만 카카오 두 값이 null이다.
+
 ## 8. 관리자(A01)
 
 모두 권한 `admin`. 처리할 수 없는 상태면 409 `INVALID_STATE`.

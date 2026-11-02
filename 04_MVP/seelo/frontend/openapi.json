@@ -1,0 +1,5440 @@
+{
+  "components": {
+    "schemas": {
+      "AccountResponse": {
+        "properties": {
+          "canChangePassword": {
+            "title": "Canchangepassword",
+            "type": "boolean"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "provider": {
+            "enum": [
+              "email",
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "provider",
+          "createdAt",
+          "canChangePassword"
+        ],
+        "title": "AccountResponse",
+        "type": "object"
+      },
+      "AdminConnection": {
+        "properties": {
+          "attentionReason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attentionreason"
+          },
+          "connectedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Connectedat"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "inviteReminderSentAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Inviteremindersentat"
+          },
+          "invitedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Invitedat"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "revokedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Revokedat"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "provider",
+          "status",
+          "attentionReason",
+          "invitedAt",
+          "inviteReminderSentAt",
+          "connectedAt",
+          "revokedAt"
+        ],
+        "title": "AdminConnection",
+        "type": "object"
+      },
+      "AdminListItem": {
+        "properties": {
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "diagnosisStatus": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Diagnosisstatus"
+          },
+          "displayStatus": {
+            "enum": [
+              "requested",
+              "approved",
+              "connect_waiting",
+              "plan_waiting",
+              "fixing",
+              "manual_required",
+              "remeasure_waiting",
+              "report_ready",
+              "rejected",
+              "failed"
+            ],
+            "title": "Displaystatus",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "ownerEmail": {
+            "title": "Owneremail",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "storeName": {
+            "title": "Storename",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "createdAt",
+          "ownerEmail",
+          "storeName",
+          "diagnosisStatus",
+          "status",
+          "displayStatus"
+        ],
+        "title": "AdminListItem",
+        "type": "object"
+      },
+      "AdminOwner": {
+        "properties": {
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "userId": {
+            "title": "Userid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "userId",
+          "email"
+        ],
+        "title": "AdminOwner",
+        "type": "object"
+      },
+      "AdminPlan": {
+        "properties": {
+          "approvedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approvedat"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "lastError": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lasterror"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "version": {
+            "title": "Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "provider",
+          "version",
+          "status",
+          "lastError",
+          "createdAt",
+          "approvedAt"
+        ],
+        "title": "AdminPlan",
+        "type": "object"
+      },
+      "AdminReport": {
+        "properties": {
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "lastError": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lasterror"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "version": {
+            "title": "Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "version",
+          "status",
+          "lastError",
+          "createdAt"
+        ],
+        "title": "AdminReport",
+        "type": "object"
+      },
+      "AdminRequestDetail": {
+        "properties": {
+          "baseRun": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AdminRunRef"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "connections": {
+            "items": {
+              "$ref": "#/components/schemas/AdminConnection"
+            },
+            "title": "Connections",
+            "type": "array"
+          },
+          "manualItems": {
+            "items": {
+              "$ref": "#/components/schemas/ManualItem"
+            },
+            "title": "Manualitems",
+            "type": "array"
+          },
+          "owner": {
+            "$ref": "#/components/schemas/AdminOwner"
+          },
+          "plans": {
+            "items": {
+              "$ref": "#/components/schemas/AdminPlan"
+            },
+            "title": "Plans",
+            "type": "array"
+          },
+          "reports": {
+            "items": {
+              "$ref": "#/components/schemas/AdminReport"
+            },
+            "title": "Reports",
+            "type": "array"
+          },
+          "request": {
+            "$ref": "#/components/schemas/AdminRequestInfo"
+          },
+          "runs": {
+            "items": {
+              "$ref": "#/components/schemas/AdminRun"
+            },
+            "title": "Runs",
+            "type": "array"
+          },
+          "schedule": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AdminSchedule"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "store": {
+            "$ref": "#/components/schemas/AdminStore"
+          }
+        },
+        "required": [
+          "request",
+          "owner",
+          "store",
+          "baseRun",
+          "runs",
+          "connections",
+          "plans",
+          "manualItems",
+          "schedule",
+          "reports"
+        ],
+        "title": "AdminRequestDetail",
+        "type": "object"
+      },
+      "AdminRequestInfo": {
+        "properties": {
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "decidedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Decidedat"
+          },
+          "displayStatus": {
+            "enum": [
+              "requested",
+              "approved",
+              "connect_waiting",
+              "plan_waiting",
+              "fixing",
+              "manual_required",
+              "remeasure_waiting",
+              "report_ready",
+              "rejected",
+              "failed"
+            ],
+            "title": "Displaystatus",
+            "type": "string"
+          },
+          "fixCompletedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fixcompletedat"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "rejectReason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rejectreason"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "displayStatus",
+          "createdAt",
+          "rejectReason",
+          "decidedAt",
+          "fixCompletedAt"
+        ],
+        "title": "AdminRequestInfo",
+        "type": "object"
+      },
+      "AdminRun": {
+        "properties": {
+          "completedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Completedat"
+          },
+          "costUsd": {
+            "title": "Costusd",
+            "type": "number"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "failureRate": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Failurerate"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "kind": {
+            "title": "Kind",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "trigger": {
+            "title": "Trigger",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "status",
+          "trigger",
+          "createdAt",
+          "completedAt",
+          "failureRate",
+          "costUsd"
+        ],
+        "title": "AdminRun",
+        "type": "object"
+      },
+      "AdminRunRef": {
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "status"
+        ],
+        "title": "AdminRunRef",
+        "type": "object"
+      },
+      "AdminSchedule": {
+        "properties": {
+          "dueAt": {
+            "format": "date-time",
+            "title": "Dueat",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "triggeredBy": {
+            "title": "Triggeredby",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "dueAt",
+          "status",
+          "triggeredBy"
+        ],
+        "title": "AdminSchedule",
+        "type": "object"
+      },
+      "AdminStore": {
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "sources": {
+            "$ref": "#/components/schemas/StoreSources"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "status",
+          "sources"
+        ],
+        "title": "AdminStore",
+        "type": "object"
+      },
+      "ApproveItem": {
+        "properties": {
+          "approvedValue": {
+            "title": "Approvedvalue"
+          },
+          "excluded": {
+            "title": "Excluded",
+            "type": "boolean"
+          },
+          "itemId": {
+            "title": "Itemid",
+            "type": "integer"
+          },
+          "ownerConfirmed": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ownerconfirmed"
+          }
+        },
+        "required": [
+          "itemId",
+          "excluded"
+        ],
+        "title": "ApproveItem",
+        "type": "object"
+      },
+      "ApproveRequest": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ApproveItem"
+            },
+            "maxItems": 200,
+            "title": "Items",
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "title": "ApproveRequest",
+        "type": "object"
+      },
+      "ApproveResponse": {
+        "properties": {
+          "planId": {
+            "title": "Planid",
+            "type": "integer"
+          },
+          "status": {
+            "const": "approved",
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "planId",
+          "status"
+        ],
+        "title": "ApproveResponse",
+        "type": "object"
+      },
+      "Candidate": {
+        "properties": {
+          "address": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Address"
+          },
+          "candidateId": {
+            "title": "Candidateid",
+            "type": "string"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "providers": {
+            "items": {
+              "enum": [
+                "google",
+                "kakao",
+                "naver"
+              ],
+              "type": "string"
+            },
+            "title": "Providers",
+            "type": "array"
+          }
+        },
+        "required": [
+          "candidateId",
+          "name",
+          "address",
+          "category",
+          "providers"
+        ],
+        "title": "Candidate",
+        "type": "object"
+      },
+      "ChangePasswordRequest": {
+        "properties": {
+          "currentPassword": {
+            "maxLength": 128,
+            "title": "Currentpassword",
+            "type": "string"
+          },
+          "newPassword": {
+            "maxLength": 128,
+            "title": "Newpassword",
+            "type": "string"
+          },
+          "newPasswordConfirm": {
+            "maxLength": 128,
+            "title": "Newpasswordconfirm",
+            "type": "string"
+          }
+        },
+        "required": [
+          "currentPassword",
+          "newPassword",
+          "newPasswordConfirm"
+        ],
+        "title": "ChangePasswordRequest",
+        "type": "object"
+      },
+      "ChangeView": {
+        "properties": {
+          "appliedValue": {
+            "title": "Appliedvalue"
+          },
+          "beforeValue": {
+            "title": "Beforevalue"
+          },
+          "field": {
+            "title": "Field",
+            "type": "string"
+          },
+          "fieldLabel": {
+            "title": "Fieldlabel",
+            "type": "string"
+          },
+          "method": {
+            "title": "Method",
+            "type": "string"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "remeasureMatch": {
+            "enum": [
+              "match",
+              "differs",
+              "unknown"
+            ],
+            "title": "Remeasurematch",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "verifiedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Verifiedat"
+          }
+        },
+        "required": [
+          "provider",
+          "field",
+          "fieldLabel",
+          "beforeValue",
+          "appliedValue",
+          "status",
+          "method",
+          "verifiedAt",
+          "remeasureMatch"
+        ],
+        "title": "ChangeView",
+        "type": "object"
+      },
+      "CollectedInfo": {
+        "properties": {
+          "rows": {
+            "items": {
+              "$ref": "#/components/schemas/CollectedRow"
+            },
+            "title": "Rows",
+            "type": "array"
+          }
+        },
+        "required": [
+          "rows"
+        ],
+        "title": "CollectedInfo",
+        "type": "object"
+      },
+      "CollectedRow": {
+        "properties": {
+          "key": {
+            "title": "Key",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "values": {
+            "$ref": "#/components/schemas/CollectedValues"
+          }
+        },
+        "required": [
+          "key",
+          "label",
+          "values"
+        ],
+        "title": "CollectedRow",
+        "type": "object"
+      },
+      "CollectedValues": {
+        "properties": {
+          "google": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Google"
+          },
+          "instagram": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Instagram"
+          },
+          "kakao": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Kakao"
+          },
+          "naver": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Naver"
+          },
+          "website": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Website"
+          }
+        },
+        "title": "CollectedValues",
+        "type": "object"
+      },
+      "ComparedCompetitor": {
+        "properties": {
+          "after": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "before": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "before",
+          "after"
+        ],
+        "title": "ComparedCompetitor",
+        "type": "object"
+      },
+      "ComparedTarget": {
+        "properties": {
+          "after": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "before": {
+            "$ref": "#/components/schemas/ProviderRates"
+          }
+        },
+        "required": [
+          "before",
+          "after"
+        ],
+        "title": "ComparedTarget",
+        "type": "object"
+      },
+      "Competitor": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "rankOrder": {
+            "title": "Rankorder",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "name",
+          "providers",
+          "rankOrder"
+        ],
+        "title": "Competitor",
+        "type": "object"
+      },
+      "ConnectState": {
+        "properties": {
+          "google": {
+            "$ref": "#/components/schemas/ConnectionView"
+          },
+          "kakao": {
+            "$ref": "#/components/schemas/ConnectionView"
+          },
+          "requestId": {
+            "title": "Requestid",
+            "type": "integer"
+          },
+          "seeloAccounts": {
+            "$ref": "#/components/schemas/SeeloAccounts"
+          }
+        },
+        "required": [
+          "requestId",
+          "seeloAccounts",
+          "google",
+          "kakao"
+        ],
+        "title": "ConnectState",
+        "type": "object"
+      },
+      "ConnectionView": {
+        "properties": {
+          "attentionReason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attentionreason"
+          },
+          "canInvite": {
+            "title": "Caninvite",
+            "type": "boolean"
+          },
+          "inviteNotArrived": {
+            "title": "Invitenotarrived",
+            "type": "boolean"
+          },
+          "invitedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Invitedat"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "not_connected",
+              "invited",
+              "connected",
+              "needs_attention",
+              "revoked"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "storeFoundOnMap": {
+            "title": "Storefoundonmap",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "provider",
+          "status",
+          "attentionReason",
+          "invitedAt",
+          "inviteNotArrived",
+          "storeFoundOnMap",
+          "canInvite"
+        ],
+        "title": "ConnectionView",
+        "type": "object"
+      },
+      "CreatedRequest": {
+        "properties": {
+          "requestId": {
+            "title": "Requestid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "requestId"
+        ],
+        "title": "CreatedRequest",
+        "type": "object"
+      },
+      "CurrentStoreResponse": {
+        "properties": {
+          "store": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/StoreSummary"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "store"
+        ],
+        "title": "CurrentStoreResponse",
+        "type": "object"
+      },
+      "DeleteAccountRequest": {
+        "properties": {
+          "confirmText": {
+            "maxLength": 50,
+            "title": "Confirmtext",
+            "type": "string"
+          }
+        },
+        "required": [
+          "confirmText"
+        ],
+        "title": "DeleteAccountRequest",
+        "type": "object"
+      },
+      "DiagnosisQuestion": {
+        "properties": {
+          "lang": {
+            "enum": [
+              "en",
+              "ko"
+            ],
+            "title": "Lang",
+            "type": "string"
+          },
+          "orderNo": {
+            "title": "Orderno",
+            "type": "integer"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/QuestionProviders"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "textKo": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Textko"
+          }
+        },
+        "required": [
+          "orderNo",
+          "lang",
+          "text",
+          "textKo",
+          "providers"
+        ],
+        "title": "DiagnosisQuestion",
+        "type": "object"
+      },
+      "DiagnosisResponse": {
+        "properties": {
+          "competitors": {
+            "items": {
+              "$ref": "#/components/schemas/Competitor"
+            },
+            "title": "Competitors",
+            "type": "array"
+          },
+          "conditions": {
+            "$ref": "#/components/schemas/MeasureConditions"
+          },
+          "findingsCount": {
+            "title": "Findingscount",
+            "type": "integer"
+          },
+          "measuredAt": {
+            "format": "date-time",
+            "title": "Measuredat",
+            "type": "string"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/DiagnosisQuestion"
+            },
+            "title": "Questions",
+            "type": "array"
+          },
+          "runId": {
+            "title": "Runid",
+            "type": "integer"
+          },
+          "sources": {
+            "$ref": "#/components/schemas/DiagnosisSources"
+          },
+          "storeId": {
+            "title": "Storeid",
+            "type": "integer"
+          },
+          "storeName": {
+            "title": "Storename",
+            "type": "string"
+          },
+          "target": {
+            "$ref": "#/components/schemas/NamedRates"
+          }
+        },
+        "required": [
+          "runId",
+          "storeId",
+          "storeName",
+          "measuredAt",
+          "providers",
+          "target",
+          "competitors",
+          "questions",
+          "sources",
+          "findingsCount",
+          "conditions"
+        ],
+        "title": "DiagnosisResponse",
+        "type": "object"
+      },
+      "DiagnosisSources": {
+        "properties": {
+          "targetSources": {
+            "items": {
+              "$ref": "#/components/schemas/DomainCount"
+            },
+            "title": "Targetsources",
+            "type": "array"
+          },
+          "top": {
+            "items": {
+              "$ref": "#/components/schemas/DomainCount"
+            },
+            "title": "Top",
+            "type": "array"
+          }
+        },
+        "required": [
+          "top",
+          "targetSources"
+        ],
+        "title": "DiagnosisSources",
+        "type": "object"
+      },
+      "DomainCount": {
+        "properties": {
+          "count": {
+            "title": "Count",
+            "type": "integer"
+          },
+          "domain": {
+            "title": "Domain",
+            "type": "string"
+          }
+        },
+        "required": [
+          "domain",
+          "count"
+        ],
+        "title": "DomainCount",
+        "type": "object"
+      },
+      "EmailRequest": {
+        "properties": {
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "title": "EmailRequest",
+        "type": "object"
+      },
+      "EvidenceAnswer": {
+        "properties": {
+          "highlightNames": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Highlightnames",
+            "type": "array"
+          },
+          "provider": {
+            "enum": [
+              "openai",
+              "gemini"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "rawText": {
+            "title": "Rawtext",
+            "type": "string"
+          },
+          "repeatNo": {
+            "title": "Repeatno",
+            "type": "integer"
+          },
+          "responseId": {
+            "title": "Responseid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "responseId",
+          "provider",
+          "repeatNo",
+          "rawText",
+          "highlightNames"
+        ],
+        "title": "EvidenceAnswer",
+        "type": "object"
+      },
+      "EvidenceQuestion": {
+        "properties": {
+          "answers": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceAnswer"
+            },
+            "title": "Answers",
+            "type": "array"
+          },
+          "orderNo": {
+            "title": "Orderno",
+            "type": "integer"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "orderNo",
+          "text",
+          "answers"
+        ],
+        "title": "EvidenceQuestion",
+        "type": "object"
+      },
+      "FixRequestState": {
+        "properties": {
+          "canRequest": {
+            "title": "Canrequest",
+            "type": "boolean"
+          },
+          "needsMeasurementFirst": {
+            "title": "Needsmeasurementfirst",
+            "type": "boolean"
+          },
+          "request": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FixRequestView"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "request",
+          "canRequest",
+          "needsMeasurementFirst"
+        ],
+        "title": "FixRequestState",
+        "type": "object"
+      },
+      "FixRequestView": {
+        "properties": {
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "hasBaseRun": {
+            "title": "Hasbaserun",
+            "type": "boolean"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "rejectReason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rejectreason"
+          },
+          "remeasureDueDate": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Remeasureduedate"
+          },
+          "reportId": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reportid"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "steps": {
+            "items": {
+              "$ref": "#/components/schemas/FixStep"
+            },
+            "title": "Steps",
+            "type": "array"
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "createdAt",
+          "rejectReason",
+          "hasBaseRun",
+          "steps",
+          "remeasureDueDate",
+          "reportId"
+        ],
+        "title": "FixRequestView",
+        "type": "object"
+      },
+      "FixStep": {
+        "properties": {
+          "actionPath": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actionpath"
+          },
+          "key": {
+            "enum": [
+              "received",
+              "approved",
+              "connect",
+              "review",
+              "fixing",
+              "remeasure_waiting",
+              "report"
+            ],
+            "title": "Key",
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "done",
+              "current",
+              "todo"
+            ],
+            "title": "State",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "state",
+          "actionPath"
+        ],
+        "title": "FixStep",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "HealthResponse": {
+        "properties": {
+          "db": {
+            "title": "Db",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "db"
+        ],
+        "title": "HealthResponse",
+        "type": "object"
+      },
+      "HistoryItem": {
+        "properties": {
+          "archivedAt": {
+            "format": "date-time",
+            "title": "Archivedat",
+            "type": "string"
+          },
+          "diagnosisRunId": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Diagnosisrunid"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "reportId": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reportid"
+          },
+          "storeId": {
+            "title": "Storeid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "storeId",
+          "name",
+          "archivedAt",
+          "diagnosisRunId",
+          "reportId"
+        ],
+        "title": "HistoryItem",
+        "type": "object"
+      },
+      "HistoryResponse": {
+        "properties": {
+          "stores": {
+            "items": {
+              "$ref": "#/components/schemas/HistoryItem"
+            },
+            "title": "Stores",
+            "type": "array"
+          }
+        },
+        "required": [
+          "stores"
+        ],
+        "title": "HistoryResponse",
+        "type": "object"
+      },
+      "HomeResponse": {
+        "properties": {
+          "card": {
+            "enum": [
+              "no_store",
+              "fix_requested",
+              "fix_rejected",
+              "measuring",
+              "measure_failed",
+              "diagnosed",
+              "free_used_store_changed",
+              "plan_needs_approval",
+              "plan_preparing",
+              "connect_needed",
+              "fixing",
+              "remeasure_waiting",
+              "remeasuring",
+              "remeasure_failed",
+              "report_ready",
+              "unknown"
+            ],
+            "title": "Card",
+            "type": "string"
+          },
+          "data": {
+            "additionalProperties": true,
+            "title": "Data",
+            "type": "object"
+          },
+          "hasHistory": {
+            "title": "Hashistory",
+            "type": "boolean"
+          },
+          "manualInProgress": {
+            "title": "Manualinprogress",
+            "type": "boolean"
+          },
+          "retriesLeftToday": {
+            "title": "Retrieslefttoday",
+            "type": "integer"
+          },
+          "revokedProviders": {
+            "items": {
+              "enum": [
+                "google",
+                "kakao"
+              ],
+              "type": "string"
+            },
+            "title": "Revokedproviders",
+            "type": "array"
+          },
+          "store": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/StoreSummary"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "storeChangeBlocked": {
+            "title": "Storechangeblocked",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "card",
+          "store",
+          "storeChangeBlocked",
+          "revokedProviders",
+          "manualInProgress",
+          "retriesLeftToday",
+          "hasHistory",
+          "data"
+        ],
+        "title": "HomeResponse",
+        "type": "object"
+      },
+      "IdentifyCandidates": {
+        "properties": {
+          "candidateToken": {
+            "title": "Candidatetoken",
+            "type": "string"
+          },
+          "candidates": {
+            "items": {
+              "$ref": "#/components/schemas/Candidate"
+            },
+            "title": "Candidates",
+            "type": "array"
+          },
+          "result": {
+            "const": "candidates",
+            "default": "candidates",
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidateToken",
+          "candidates"
+        ],
+        "title": "IdentifyCandidates",
+        "type": "object"
+      },
+      "IdentifyConfirmed": {
+        "properties": {
+          "next": {
+            "title": "Next",
+            "type": "string"
+          },
+          "result": {
+            "const": "confirmed",
+            "default": "confirmed",
+            "title": "Result",
+            "type": "string"
+          },
+          "runId": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Runid"
+          },
+          "storeId": {
+            "title": "Storeid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "storeId",
+          "runId",
+          "next"
+        ],
+        "title": "IdentifyConfirmed",
+        "type": "object"
+      },
+      "IdentifyRequest": {
+        "properties": {
+          "confirmReplace": {
+            "default": false,
+            "title": "Confirmreplace",
+            "type": "boolean"
+          },
+          "link": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Link",
+            "type": "string"
+          },
+          "mode": {
+            "enum": [
+              "new",
+              "change"
+            ],
+            "title": "Mode",
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 50,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "link",
+          "mode"
+        ],
+        "title": "IdentifyRequest",
+        "type": "object"
+      },
+      "IdentifySelectRequest": {
+        "properties": {
+          "candidateId": {
+            "maxLength": 200,
+            "title": "Candidateid",
+            "type": "string"
+          },
+          "candidateToken": {
+            "maxLength": 200,
+            "title": "Candidatetoken",
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidateToken",
+          "candidateId"
+        ],
+        "title": "IdentifySelectRequest",
+        "type": "object"
+      },
+      "ItemConstraints": {
+        "properties": {
+          "maxItems": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maxitems"
+          },
+          "maxLength": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maxlength"
+          },
+          "type": {
+            "enum": [
+              "text",
+              "hours",
+              "url",
+              "phone",
+              "menu",
+              "attributes",
+              "links",
+              "services",
+              "tags"
+            ],
+            "title": "Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "title": "ItemConstraints",
+        "type": "object"
+      },
+      "ItemResult": {
+        "properties": {
+          "appliedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Appliedat"
+          },
+          "status": {
+            "enum": [
+              "queued",
+              "applied",
+              "pending_reflection",
+              "manual_required",
+              "manual_done",
+              "disconnected"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "statusLabel": {
+            "title": "Statuslabel",
+            "type": "string"
+          },
+          "verifiedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Verifiedat"
+          }
+        },
+        "required": [
+          "status",
+          "statusLabel",
+          "appliedAt",
+          "verifiedAt"
+        ],
+        "title": "ItemResult",
+        "type": "object"
+      },
+      "LoginRequest": {
+        "properties": {
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          },
+          "password": {
+            "maxLength": 128,
+            "minLength": 1,
+            "title": "Password",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "LoginRequest",
+        "type": "object"
+      },
+      "MailStatusResponse": {
+        "properties": {
+          "status": {
+            "enum": [
+              "queued",
+              "sent",
+              "failed"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status"
+        ],
+        "title": "MailStatusResponse",
+        "type": "object"
+      },
+      "MailTicketResponse": {
+        "properties": {
+          "mailTicket": {
+            "title": "Mailticket",
+            "type": "string"
+          }
+        },
+        "required": [
+          "mailTicket"
+        ],
+        "title": "MailTicketResponse",
+        "type": "object"
+      },
+      "ManualDoneRequest": {
+        "description": "E30. beforeValue는 자동으로 읽지 못해 before_value가 비었을 때만 저장한다.",
+        "properties": {
+          "beforeValue": {
+            "title": "Beforevalue"
+          }
+        },
+        "title": "ManualDoneRequest",
+        "type": "object"
+      },
+      "ManualItem": {
+        "properties": {
+          "adminUrl": {
+            "title": "Adminurl",
+            "type": "string"
+          },
+          "approvedValue": {
+            "title": "Approvedvalue"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "field": {
+            "title": "Field",
+            "type": "string"
+          },
+          "fieldLabel": {
+            "title": "Fieldlabel",
+            "type": "string"
+          },
+          "fixLogId": {
+            "title": "Fixlogid",
+            "type": "integer"
+          },
+          "fixRequestId": {
+            "title": "Fixrequestid",
+            "type": "integer"
+          },
+          "manualReason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Manualreason"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "storeName": {
+            "title": "Storename",
+            "type": "string"
+          }
+        },
+        "required": [
+          "fixLogId",
+          "fixRequestId",
+          "storeName",
+          "provider",
+          "field",
+          "fieldLabel",
+          "approvedValue",
+          "manualReason",
+          "adminUrl",
+          "createdAt"
+        ],
+        "title": "ManualItem",
+        "type": "object"
+      },
+      "Me": {
+        "properties": {
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "hasStore": {
+            "title": "Hasstore",
+            "type": "boolean"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "provider": {
+            "enum": [
+              "email",
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "owner",
+              "admin"
+            ],
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "role",
+          "provider",
+          "hasStore"
+        ],
+        "title": "Me",
+        "type": "object"
+      },
+      "MeasureConditions": {
+        "properties": {
+          "measuredAt": {
+            "format": "date-time",
+            "title": "Measuredat",
+            "type": "string"
+          },
+          "providers": {
+            "items": {
+              "enum": [
+                "openai",
+                "gemini"
+              ],
+              "type": "string"
+            },
+            "title": "Providers",
+            "type": "array"
+          },
+          "questionCount": {
+            "title": "Questioncount",
+            "type": "integer"
+          },
+          "repeatCount": {
+            "title": "Repeatcount",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "questionCount",
+          "repeatCount",
+          "providers",
+          "measuredAt"
+        ],
+        "title": "MeasureConditions",
+        "type": "object"
+      },
+      "NamedRates": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/ProviderRates"
+          }
+        },
+        "required": [
+          "name",
+          "providers"
+        ],
+        "title": "NamedRates",
+        "type": "object"
+      },
+      "NewCompetitor": {
+        "properties": {
+          "after": {
+            "$ref": "#/components/schemas/ProviderRates"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "after"
+        ],
+        "title": "NewCompetitor",
+        "type": "object"
+      },
+      "NotMineRequest": {
+        "properties": {
+          "runId": {
+            "title": "Runid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "runId"
+        ],
+        "title": "NotMineRequest",
+        "type": "object"
+      },
+      "OwnerOnlyField": {
+        "properties": {
+          "field": {
+            "enum": [
+              "name",
+              "address",
+              "category",
+              "phone"
+            ],
+            "title": "Field",
+            "type": "string"
+          },
+          "guide": {
+            "title": "Guide",
+            "type": "string"
+          }
+        },
+        "required": [
+          "field",
+          "guide"
+        ],
+        "title": "OwnerOnlyField",
+        "type": "object"
+      },
+      "Page_AdminListItem_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/AdminListItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "pageSize": {
+            "title": "Pagesize",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "pageSize",
+          "total"
+        ],
+        "title": "Page[AdminListItem]",
+        "type": "object"
+      },
+      "PendingCompleteRequest": {
+        "properties": {
+          "agreePrivacy": {
+            "title": "Agreeprivacy",
+            "type": "boolean"
+          },
+          "agreeTerms": {
+            "title": "Agreeterms",
+            "type": "boolean"
+          },
+          "email": {
+            "anyOf": [
+              {
+                "format": "email",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Email"
+          }
+        },
+        "required": [
+          "agreeTerms",
+          "agreePrivacy"
+        ],
+        "title": "PendingCompleteRequest",
+        "type": "object"
+      },
+      "PendingCompleteResponse": {
+        "properties": {
+          "mailTicket": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mailticket"
+          },
+          "next": {
+            "title": "Next",
+            "type": "string"
+          },
+          "user": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Me"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "next"
+        ],
+        "title": "PendingCompleteResponse",
+        "type": "object"
+      },
+      "PendingSignupResponse": {
+        "properties": {
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Email"
+          },
+          "needsEmail": {
+            "title": "Needsemail",
+            "type": "boolean"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          }
+        },
+        "required": [
+          "provider",
+          "email",
+          "needsEmail"
+        ],
+        "title": "PendingSignupResponse",
+        "type": "object"
+      },
+      "PlanDetail": {
+        "properties": {
+          "approvedAt": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approvedat"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "findings": {
+            "items": {
+              "$ref": "#/components/schemas/PlanFinding"
+            },
+            "title": "Findings",
+            "type": "array"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PlanItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "mapNotFound": {
+            "title": "Mapnotfound",
+            "type": "boolean"
+          },
+          "ownerOnlyFields": {
+            "items": {
+              "$ref": "#/components/schemas/OwnerOnlyField"
+            },
+            "title": "Owneronlyfields",
+            "type": "array"
+          },
+          "planId": {
+            "title": "Planid",
+            "type": "integer"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "readOnly": {
+            "title": "Readonly",
+            "type": "boolean"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "summary": {
+            "$ref": "#/components/schemas/PlanSummary"
+          },
+          "version": {
+            "title": "Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "planId",
+          "provider",
+          "status",
+          "version",
+          "createdAt",
+          "approvedAt",
+          "readOnly",
+          "summary",
+          "findings",
+          "items",
+          "ownerOnlyFields",
+          "mapNotFound"
+        ],
+        "title": "PlanDetail",
+        "type": "object"
+      },
+      "PlanEvidence": {
+        "properties": {
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/EvidenceQuestion"
+            },
+            "title": "Questions",
+            "type": "array"
+          }
+        },
+        "required": [
+          "questions"
+        ],
+        "title": "PlanEvidence",
+        "type": "object"
+      },
+      "PlanFinding": {
+        "properties": {
+          "category": {
+            "title": "Category",
+            "type": "string"
+          },
+          "categoryLabel": {
+            "title": "Categorylabel",
+            "type": "string"
+          },
+          "competitorCount": {
+            "title": "Competitorcount",
+            "type": "integer"
+          },
+          "field": {
+            "title": "Field",
+            "type": "string"
+          },
+          "findingId": {
+            "title": "Findingid",
+            "type": "integer"
+          },
+          "itemId": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Itemid"
+          },
+          "priority": {
+            "title": "Priority",
+            "type": "integer"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "questionCount": {
+            "title": "Questioncount",
+            "type": "integer"
+          },
+          "relatedResponseIds": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Relatedresponseids",
+            "type": "array"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "findingId",
+          "category",
+          "categoryLabel",
+          "title",
+          "provider",
+          "field",
+          "questionCount",
+          "competitorCount",
+          "priority",
+          "relatedResponseIds",
+          "itemId"
+        ],
+        "title": "PlanFinding",
+        "type": "object"
+      },
+      "PlanItem": {
+        "properties": {
+          "approvedValue": {
+            "title": "Approvedvalue"
+          },
+          "constraints": {
+            "$ref": "#/components/schemas/ItemConstraints"
+          },
+          "currentValue": {
+            "title": "Currentvalue"
+          },
+          "excluded": {
+            "title": "Excluded",
+            "type": "boolean"
+          },
+          "field": {
+            "title": "Field",
+            "type": "string"
+          },
+          "fieldLabel": {
+            "title": "Fieldlabel",
+            "type": "string"
+          },
+          "findingIds": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Findingids",
+            "type": "array"
+          },
+          "itemId": {
+            "title": "Itemid",
+            "type": "integer"
+          },
+          "needsOwnerInput": {
+            "title": "Needsownerinput",
+            "type": "boolean"
+          },
+          "orderNo": {
+            "title": "Orderno",
+            "type": "integer"
+          },
+          "ownerConfirmed": {
+            "title": "Ownerconfirmed",
+            "type": "boolean"
+          },
+          "ownerEdited": {
+            "title": "Owneredited",
+            "type": "boolean"
+          },
+          "proposedValue": {
+            "title": "Proposedvalue"
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reason"
+          },
+          "result": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ItemResult"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sensitive": {
+            "title": "Sensitive",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "itemId",
+          "orderNo",
+          "field",
+          "fieldLabel",
+          "currentValue",
+          "proposedValue",
+          "approvedValue",
+          "reason",
+          "findingIds",
+          "needsOwnerInput",
+          "sensitive",
+          "ownerConfirmed",
+          "ownerEdited",
+          "excluded",
+          "constraints",
+          "result"
+        ],
+        "title": "PlanItem",
+        "type": "object"
+      },
+      "PlanList": {
+        "properties": {
+          "plans": {
+            "items": {
+              "$ref": "#/components/schemas/PlanListItem"
+            },
+            "title": "Plans",
+            "type": "array"
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "title": "PlanList",
+        "type": "object"
+      },
+      "PlanListItem": {
+        "properties": {
+          "planId": {
+            "title": "Planid",
+            "type": "integer"
+          },
+          "provider": {
+            "enum": [
+              "google",
+              "kakao"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "generating",
+              "generation_failed",
+              "awaiting_approval",
+              "approved"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "version": {
+            "title": "Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "planId",
+          "provider",
+          "status",
+          "version"
+        ],
+        "title": "PlanListItem",
+        "type": "object"
+      },
+      "PlanSummary": {
+        "properties": {
+          "competitorPosition": {
+            "$ref": "#/components/schemas/Position"
+          },
+          "connections": {
+            "additionalProperties": {
+              "enum": [
+                "not_connected",
+                "invited",
+                "connected",
+                "needs_attention",
+                "revoked"
+              ],
+              "type": "string"
+            },
+            "propertyNames": {
+              "enum": [
+                "google",
+                "kakao"
+              ]
+            },
+            "title": "Connections",
+            "type": "object"
+          },
+          "itemCounts": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "propertyNames": {
+              "enum": [
+                "google",
+                "kakao"
+              ]
+            },
+            "title": "Itemcounts",
+            "type": "object"
+          },
+          "providers": {
+            "$ref": "#/components/schemas/ProviderRates"
+          }
+        },
+        "required": [
+          "providers",
+          "competitorPosition",
+          "itemCounts",
+          "connections"
+        ],
+        "title": "PlanSummary",
+        "type": "object"
+      },
+      "Position": {
+        "properties": {
+          "position": {
+            "title": "Position",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "position",
+          "total"
+        ],
+        "title": "Position",
+        "type": "object"
+      },
+      "ProviderRates": {
+        "properties": {
+          "gemini": {
+            "$ref": "#/components/schemas/RateSummary"
+          },
+          "openai": {
+            "$ref": "#/components/schemas/RateSummary"
+          }
+        },
+        "required": [
+          "openai",
+          "gemini"
+        ],
+        "title": "ProviderRates",
+        "type": "object"
+      },
+      "QuestionCount": {
+        "properties": {
+          "appearanceCount": {
+            "title": "Appearancecount",
+            "type": "integer"
+          },
+          "successCount": {
+            "title": "Successcount",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "appearanceCount",
+          "successCount"
+        ],
+        "title": "QuestionCount",
+        "type": "object"
+      },
+      "QuestionProviders": {
+        "properties": {
+          "gemini": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/QuestionCount"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "openai": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/QuestionCount"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "openai",
+          "gemini"
+        ],
+        "title": "QuestionProviders",
+        "type": "object"
+      },
+      "RateComparison": {
+        "properties": {
+          "after": {
+            "$ref": "#/components/schemas/RateSummary"
+          },
+          "before": {
+            "$ref": "#/components/schemas/RateSummary"
+          },
+          "rateDeltaPp": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ratedeltapp"
+          }
+        },
+        "required": [
+          "before",
+          "after",
+          "rateDeltaPp"
+        ],
+        "title": "RateComparison",
+        "type": "object"
+      },
+      "RateSummary": {
+        "properties": {
+          "appearanceCount": {
+            "title": "Appearancecount",
+            "type": "integer"
+          },
+          "avgRank": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avgrank"
+          },
+          "rate": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rate"
+          },
+          "successCount": {
+            "title": "Successcount",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "successCount",
+          "appearanceCount",
+          "rate",
+          "avgRank"
+        ],
+        "title": "RateSummary",
+        "type": "object"
+      },
+      "RejectRequest": {
+        "properties": {
+          "reason": {
+            "maxLength": 500,
+            "title": "Reason",
+            "type": "string"
+          }
+        },
+        "required": [
+          "reason"
+        ],
+        "title": "RejectRequest",
+        "type": "object"
+      },
+      "ReportCompetitors": {
+        "properties": {
+          "beforeTop5": {
+            "items": {
+              "$ref": "#/components/schemas/ComparedCompetitor"
+            },
+            "title": "Beforetop5",
+            "type": "array"
+          },
+          "newTop5After": {
+            "items": {
+              "$ref": "#/components/schemas/NewCompetitor"
+            },
+            "title": "Newtop5After",
+            "type": "array"
+          },
+          "target": {
+            "$ref": "#/components/schemas/ComparedTarget"
+          }
+        },
+        "required": [
+          "beforeTop5",
+          "newTop5After",
+          "target"
+        ],
+        "title": "ReportCompetitors",
+        "type": "object"
+      },
+      "ReportConditions": {
+        "properties": {
+          "models": {
+            "additionalProperties": {
+              "additionalProperties": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "type": "object"
+            },
+            "title": "Models",
+            "type": "object"
+          },
+          "providers": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Providers",
+            "type": "array"
+          },
+          "questionSetId": {
+            "title": "Questionsetid",
+            "type": "integer"
+          },
+          "repeatCount": {
+            "title": "Repeatcount",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "questionSetId",
+          "repeatCount",
+          "providers",
+          "models"
+        ],
+        "title": "ReportConditions",
+        "type": "object"
+      },
+      "ReportContent": {
+        "properties": {
+          "changes": {
+            "items": {
+              "$ref": "#/components/schemas/ChangeView"
+            },
+            "title": "Changes",
+            "type": "array"
+          },
+          "competitors": {
+            "$ref": "#/components/schemas/ReportCompetitors"
+          },
+          "conditions": {
+            "$ref": "#/components/schemas/ReportConditions"
+          },
+          "earlyRemeasure": {
+            "title": "Earlyremeasure",
+            "type": "boolean"
+          },
+          "fixCompletedAt": {
+            "format": "date-time",
+            "title": "Fixcompletedat",
+            "type": "string"
+          },
+          "intervalDays": {
+            "title": "Intervaldays",
+            "type": "integer"
+          },
+          "measuredAt": {
+            "additionalProperties": {
+              "format": "date-time",
+              "type": "string"
+            },
+            "title": "Measuredat",
+            "type": "object"
+          },
+          "notices": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Notices",
+            "type": "array"
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/ReportQuestion"
+            },
+            "title": "Questions",
+            "type": "array"
+          },
+          "schemaVersion": {
+            "const": 1,
+            "default": 1,
+            "title": "Schemaversion",
+            "type": "integer"
+          },
+          "sources": {
+            "additionalProperties": true,
+            "title": "Sources",
+            "type": "object"
+          },
+          "summary": {
+            "$ref": "#/components/schemas/ReportSummary"
+          }
+        },
+        "required": [
+          "measuredAt",
+          "fixCompletedAt",
+          "intervalDays",
+          "earlyRemeasure",
+          "summary",
+          "competitors",
+          "questions",
+          "sources",
+          "changes",
+          "conditions",
+          "notices"
+        ],
+        "title": "ReportContent",
+        "type": "object"
+      },
+      "ReportQuestion": {
+        "properties": {
+          "after": {
+            "$ref": "#/components/schemas/QuestionProviders"
+          },
+          "before": {
+            "$ref": "#/components/schemas/QuestionProviders"
+          },
+          "excludedProviders": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Excludedproviders",
+            "type": "array"
+          },
+          "lang": {
+            "enum": [
+              "en",
+              "ko"
+            ],
+            "title": "Lang",
+            "type": "string"
+          },
+          "orderNo": {
+            "title": "Orderno",
+            "type": "integer"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "textKo": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Textko"
+          }
+        },
+        "required": [
+          "orderNo",
+          "lang",
+          "text",
+          "textKo",
+          "before",
+          "after",
+          "excludedProviders"
+        ],
+        "title": "ReportQuestion",
+        "type": "object"
+      },
+      "ReportResponse": {
+        "properties": {
+          "content": {
+            "$ref": "#/components/schemas/ReportContent"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "title": "Createdat",
+            "type": "string"
+          },
+          "fixRequestId": {
+            "title": "Fixrequestid",
+            "type": "integer"
+          },
+          "reportId": {
+            "title": "Reportid",
+            "type": "integer"
+          },
+          "version": {
+            "title": "Version",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "reportId",
+          "fixRequestId",
+          "version",
+          "createdAt",
+          "content"
+        ],
+        "title": "ReportResponse",
+        "type": "object"
+      },
+      "ReportSummary": {
+        "properties": {
+          "competitorPosition": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Position"
+            },
+            "title": "Competitorposition",
+            "type": "object"
+          },
+          "headline": {
+            "title": "Headline",
+            "type": "string"
+          },
+          "noChange": {
+            "title": "Nochange",
+            "type": "boolean"
+          },
+          "providers": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/RateComparison"
+            },
+            "title": "Providers",
+            "type": "object"
+          }
+        },
+        "required": [
+          "providers",
+          "competitorPosition",
+          "noChange",
+          "headline"
+        ],
+        "title": "ReportSummary",
+        "type": "object"
+      },
+      "ResetRequest": {
+        "properties": {
+          "password": {
+            "maxLength": 128,
+            "title": "Password",
+            "type": "string"
+          },
+          "passwordConfirm": {
+            "maxLength": 128,
+            "title": "Passwordconfirm",
+            "type": "string"
+          },
+          "token": {
+            "maxLength": 200,
+            "minLength": 10,
+            "title": "Token",
+            "type": "string"
+          }
+        },
+        "required": [
+          "token",
+          "password",
+          "passwordConfirm"
+        ],
+        "title": "ResetRequest",
+        "type": "object"
+      },
+      "RunIdResponse": {
+        "properties": {
+          "runId": {
+            "title": "Runid",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "runId"
+        ],
+        "title": "RunIdResponse",
+        "type": "object"
+      },
+      "RunProgress": {
+        "properties": {
+          "canCancel": {
+            "title": "Cancancel",
+            "type": "boolean"
+          },
+          "failureReason": {
+            "anyOf": [
+              {
+                "enum": [
+                  "failure_rate",
+                  "collect_insufficient",
+                  "enqueue_failed",
+                  "stuck"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Failurereason"
+          },
+          "kind": {
+            "enum": [
+              "diagnosis",
+              "remeasure"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next"
+          },
+          "progressDone": {
+            "title": "Progressdone",
+            "type": "integer"
+          },
+          "progressTotal": {
+            "title": "Progresstotal",
+            "type": "integer"
+          },
+          "runId": {
+            "title": "Runid",
+            "type": "integer"
+          },
+          "stage": {
+            "enum": [
+              "collecting",
+              "generating_questions",
+              "calling_ai",
+              "finalizing",
+              "done"
+            ],
+            "title": "Stage",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "queued",
+              "running",
+              "parsing",
+              "completed",
+              "failed",
+              "canceled"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "waitingReason": {
+            "anyOf": [
+              {
+                "const": "cost_limit",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Waitingreason"
+          }
+        },
+        "required": [
+          "runId",
+          "kind",
+          "status",
+          "stage",
+          "progressDone",
+          "progressTotal",
+          "waitingReason",
+          "failureReason",
+          "canCancel",
+          "next"
+        ],
+        "title": "RunProgress",
+        "type": "object"
+      },
+      "SeeloAccounts": {
+        "properties": {
+          "google": {
+            "title": "Google",
+            "type": "string"
+          },
+          "kakao": {
+            "title": "Kakao",
+            "type": "string"
+          }
+        },
+        "required": [
+          "google",
+          "kakao"
+        ],
+        "title": "SeeloAccounts",
+        "type": "object"
+      },
+      "SignupRequest": {
+        "properties": {
+          "agreePrivacy": {
+            "title": "Agreeprivacy",
+            "type": "boolean"
+          },
+          "agreeTerms": {
+            "title": "Agreeterms",
+            "type": "boolean"
+          },
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          },
+          "password": {
+            "maxLength": 128,
+            "title": "Password",
+            "type": "string"
+          },
+          "passwordConfirm": {
+            "maxLength": 128,
+            "title": "Passwordconfirm",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "password",
+          "passwordConfirm",
+          "agreeTerms",
+          "agreePrivacy"
+        ],
+        "title": "SignupRequest",
+        "type": "object"
+      },
+      "SignupResponse": {
+        "properties": {
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "mailTicket": {
+            "title": "Mailticket",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "mailTicket"
+        ],
+        "title": "SignupResponse",
+        "type": "object"
+      },
+      "StatusResponse": {
+        "properties": {
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status"
+        ],
+        "title": "StatusResponse",
+        "type": "object"
+      },
+      "StoreSources": {
+        "properties": {
+          "google": {
+            "enum": [
+              "found",
+              "not_found",
+              "candidate"
+            ],
+            "title": "Google",
+            "type": "string"
+          },
+          "instagram": {
+            "enum": [
+              "found",
+              "not_found",
+              "candidate"
+            ],
+            "title": "Instagram",
+            "type": "string"
+          },
+          "kakao": {
+            "enum": [
+              "found",
+              "not_found",
+              "candidate"
+            ],
+            "title": "Kakao",
+            "type": "string"
+          },
+          "naver": {
+            "enum": [
+              "found",
+              "not_found",
+              "candidate"
+            ],
+            "title": "Naver",
+            "type": "string"
+          },
+          "website": {
+            "enum": [
+              "found",
+              "not_found",
+              "candidate"
+            ],
+            "title": "Website",
+            "type": "string"
+          }
+        },
+        "required": [
+          "google",
+          "kakao",
+          "naver",
+          "website",
+          "instagram"
+        ],
+        "title": "StoreSources",
+        "type": "object"
+      },
+      "StoreSummary": {
+        "properties": {
+          "address": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Address"
+          },
+          "category": {
+            "enum": [
+              "restaurant",
+              "cafe",
+              "bar"
+            ],
+            "title": "Category",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "sources": {
+            "$ref": "#/components/schemas/StoreSources"
+          },
+          "status": {
+            "enum": [
+              "collecting",
+              "collected",
+              "measuring",
+              "diagnosed",
+              "measure_failed",
+              "archived"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "address",
+          "category",
+          "status",
+          "sources"
+        ],
+        "title": "StoreSummary",
+        "type": "object"
+      },
+      "TokenRequest": {
+        "properties": {
+          "token": {
+            "maxLength": 200,
+            "minLength": 10,
+            "title": "Token",
+            "type": "string"
+          }
+        },
+        "required": [
+          "token"
+        ],
+        "title": "TokenRequest",
+        "type": "object"
+      },
+      "UserResponse": {
+        "properties": {
+          "user": {
+            "$ref": "#/components/schemas/Me"
+          }
+        },
+        "required": [
+          "user"
+        ],
+        "title": "UserResponse",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "ctx": {
+            "title": "Context",
+            "type": "object"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "VerifyConnectionRequest": {
+        "description": "수동 확인 모드(09 5장): manualResult가 있으면 API 안에서 바로 처리. 없으면 verifyConnection 작업.",
+        "properties": {
+          "attentionReason": {
+            "anyOf": [
+              {
+                "enum": [
+                  "verification_required",
+                  "under_review",
+                  "duplicate_profile",
+                  "no_owner_authority",
+                  "guideline_violation",
+                  "store_not_visible",
+                  "other"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attentionreason"
+          },
+          "externalRef": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Externalref"
+          },
+          "manualResult": {
+            "anyOf": [
+              {
+                "enum": [
+                  "connected",
+                  "needs_attention"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Manualresult"
+          }
+        },
+        "title": "VerifyConnectionRequest",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "title": "seelo API",
+    "version": "0.1.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/api/account": {
+      "delete": {
+        "operationId": "delete_account_api_account_delete",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteAccountRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete Account",
+        "tags": [
+          "account"
+        ]
+      },
+      "get": {
+        "operationId": "get_account_api_account_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccountResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Account",
+        "tags": [
+          "account"
+        ]
+      }
+    },
+    "/api/account/password": {
+      "post": {
+        "operationId": "change_password_api_account_password_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Change Password",
+        "tags": [
+          "account"
+        ]
+      }
+    },
+    "/api/admin/connections/{connection_id}/verify": {
+      "post": {
+        "description": "09 5장. 본문 manualResult가 있으면 바로 처리(200 {status}, 수동 확인 모드).\n없으면 verifyConnection 작업 등록(202 {}). AUTO_FIX_ENABLED=false인데 본문이 없으면 422.",
+        "operationId": "verify_connection_api_admin_connections__connection_id__verify_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "connection_id",
+            "required": true,
+            "schema": {
+              "title": "Connection Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/VerifyConnectionRequest"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "202": {
+            "description": "Accepted"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Verify Connection",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-logs/{fix_log_id}/manual-done": {
+      "post": {
+        "description": "E30. 관리자가 직접 고친 뒤 누른다. manual_required가 아니면 409, 없으면 404.",
+        "operationId": "manual_done_api_admin_fix_logs__fix_log_id__manual_done_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "fix_log_id",
+            "required": true,
+            "schema": {
+              "title": "Fix Log Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/ManualDoneRequest"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Manual Done",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-plans/{plan_id}/regenerate": {
+      "post": {
+        "description": "E23. generation_failed 정비안만(아니면 409). 칸이 없으면 지금 값 읽기부터.",
+        "operationId": "regenerate_plan_api_admin_fix_plans__plan_id__regenerate_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Regenerate Plan Api Admin Fix Plans  Plan Id  Regenerate Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Regenerate Plan",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests": {
+      "get": {
+        "operationId": "list_requests_api_admin_fix_requests_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "filter",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "requested",
+                    "approved",
+                    "connect_waiting",
+                    "plan_waiting",
+                    "fixing",
+                    "manual_required",
+                    "remeasure_waiting",
+                    "report_ready",
+                    "rejected",
+                    "failed"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Filter"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Pagesize",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_AdminListItem_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "List Requests",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests/{request_id}": {
+      "get": {
+        "operationId": "detail_api_admin_fix_requests__request_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminRequestDetail"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Detail",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests/{request_id}/approve": {
+      "post": {
+        "description": "E9. 처리된 신청이면 409 INVALID_STATE.",
+        "operationId": "approve_api_admin_fix_requests__request_id__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Approve",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests/{request_id}/reject": {
+      "post": {
+        "description": "E10. 빈 사유는 422 REJECT_REASON_REQUIRED.",
+        "operationId": "reject_api_admin_fix_requests__request_id__reject_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RejectRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Reject",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests/{request_id}/remeasure-now": {
+      "post": {
+        "description": "E20. 예약을 바로 시작하고 같은 트랜잭션에 측정·감사·작업을 등록한다.",
+        "operationId": "remeasure_now_api_admin_fix_requests__request_id__remeasure_now_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunIdResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Remeasure Now",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/fix-requests/{request_id}/report/regenerate": {
+      "post": {
+        "description": "E24. 최근 실패 보고서를 새 버전으로 만든다.",
+        "operationId": "regenerate_report_api_admin_fix_requests__request_id__report_regenerate_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Regenerate Report Api Admin Fix Requests  Request Id  Report Regenerate Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Regenerate Report",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/admin/manual-items": {
+      "get": {
+        "description": "manual_required 칸 전체(오래된 것 먼저).",
+        "operationId": "manual_items_api_admin_manual_items_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ManualItem"
+                  },
+                  "title": "Response Manual Items Api Admin Manual Items Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Manual Items",
+        "tags": [
+          "admin"
+        ]
+      }
+    },
+    "/api/auth/csrf": {
+      "get": {
+        "description": "로그인 전에는 새 값을 준다. 로그인 중이면 세션에 묶인 값을 유지하고, 없거나 다르면 새로 묶는다.",
+        "operationId": "csrf_api_auth_csrf_get",
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Csrf",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "operationId": "login_api_auth_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Login",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/logout": {
+      "post": {
+        "operationId": "logout_api_auth_logout_post",
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Logout",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/me": {
+      "get": {
+        "operationId": "me_api_auth_me_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Me"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Me",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/password/forgot": {
+      "post": {
+        "operationId": "forgot_password_api_auth_password_forgot_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Forgot Password Api Auth Password Forgot Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Forgot Password",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/password/reset": {
+      "post": {
+        "operationId": "reset_password_api_auth_password_reset_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Reset Password",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/pending-signup": {
+      "get": {
+        "operationId": "pending_signup_api_auth_pending_signup_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PendingSignupResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Pending Signup",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/pending-signup/complete": {
+      "post": {
+        "description": "제공자 인증 이메일이면 200 + 세션, 사장님이 입력한 이메일이면 202 + 인증 메일.",
+        "operationId": "pending_complete_api_auth_pending_signup_complete_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PendingCompleteRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PendingCompleteResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Pending Complete",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/signup": {
+      "post": {
+        "operationId": "signup_api_auth_signup_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignupRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SignupResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Signup",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/signup/mail-status": {
+      "get": {
+        "operationId": "mail_status_api_auth_signup_mail_status_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "ticket",
+            "required": true,
+            "schema": {
+              "title": "Ticket",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MailStatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Mail Status",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/verify-email": {
+      "post": {
+        "operationId": "verify_email_api_auth_verify_email_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Verify Email",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/auth/verify-email/resend": {
+      "post": {
+        "operationId": "resend_verify_api_auth_verify_email_resend_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MailTicketResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Resend Verify",
+        "tags": [
+          "auth"
+        ]
+      }
+    },
+    "/api/diagnosis/{run_id}": {
+      "get": {
+        "description": "진단이고 completed인 측정만. 고쳐야 할 점은 개수(findingsCount)만 내려준다.",
+        "operationId": "get_api_diagnosis__run_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "run_id",
+            "required": true,
+            "schema": {
+              "title": "Run Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DiagnosisResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get",
+        "tags": [
+          "diagnosis"
+        ]
+      }
+    },
+    "/api/fix/connect": {
+      "get": {
+        "description": "승인된 신청(approved~report_ready)이 없으면 404.",
+        "operationId": "state_api_fix_connect_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConnectState"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "State",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/connect/{provider}/invited": {
+      "post": {
+        "description": "E11 [초대했어요]. 이미 invited면 그대로 200, connected 등은 409.",
+        "operationId": "invited_api_fix_connect__provider__invited_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "provider",
+            "required": true,
+            "schema": {
+              "enum": [
+                "google",
+                "kakao"
+              ],
+              "title": "Provider",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConnectionView"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Invited",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/plans": {
+      "get": {
+        "description": "지도별 최신 버전만.",
+        "operationId": "plans_api_fix_plans_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanList"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Plans",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/plans/{plan_id}": {
+      "get": {
+        "description": "사장님(그 가게)·관리자. 그 지도가 한 번이라도 연결됐을 때만, 아니면 404.",
+        "operationId": "detail_api_fix_plans__plan_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanDetail"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Detail",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/plans/{plan_id}/approve": {
+      "post": {
+        "description": "E15 [정비 시작]. 오류가 하나라도 있으면 아무것도 저장하지 않는다(09 7장).",
+        "operationId": "approve_api_fix_plans__plan_id__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApproveResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Approve",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/plans/{plan_id}/evidence": {
+      "get": {
+        "operationId": "evidence_api_fix_plans__plan_id__evidence_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanEvidence"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Evidence",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/report": {
+      "get": {
+        "operationId": "current_api_fix_report_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReportResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Current",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/requests": {
+      "post": {
+        "description": "E8. 관리자에게 메일. 동시 신청은 하나만 성공(나머지 409 ALREADY_REQUESTED).",
+        "operationId": "create_api_fix_requests_post",
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreatedRequest"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Create",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/requests/current": {
+      "get": {
+        "operationId": "current_api_fix_requests_current_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FixRequestState"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Current",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/fix/requests/current/remeasure/retry": {
+      "post": {
+        "description": "E26. 재측정 실패 뒤 다시 시도(하루 3번, 진단 다시 시도와 합산).",
+        "operationId": "retry_remeasure_api_fix_requests_current_remeasure_retry_post",
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunIdResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Retry Remeasure",
+        "tags": [
+          "fix"
+        ]
+      }
+    },
+    "/api/health": {
+      "get": {
+        "operationId": "health_api_health_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Health",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/api/home": {
+      "get": {
+        "description": "카드 하나와 공통 표시. 가게 요약 주소가 Google에 없으면 카카오를 다시 부른다(외부 호출).",
+        "operationId": "home_api_home_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HomeResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Home",
+        "tags": [
+          "home"
+        ]
+      }
+    },
+    "/api/oauth/{provider}/callback": {
+      "get": {
+        "operationId": "callback_api_oauth__provider__callback_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "provider",
+            "required": true,
+            "schema": {
+              "title": "Provider",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Callback",
+        "tags": [
+          "oauth"
+        ]
+      }
+    },
+    "/api/oauth/{provider}/start": {
+      "get": {
+        "operationId": "start_api_oauth__provider__start_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "provider",
+            "required": true,
+            "schema": {
+              "title": "Provider",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "intent",
+            "required": false,
+            "schema": {
+              "default": "login",
+              "title": "Intent",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Start",
+        "tags": [
+          "oauth"
+        ]
+      }
+    },
+    "/api/reports/{report_id}": {
+      "get": {
+        "operationId": "get_api_reports__report_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "report_id",
+            "required": true,
+            "schema": {
+              "title": "Report Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReportResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/api/runs/{run_id}/collected": {
+      "get": {
+        "description": "카카오·네이버 열은 요청 때마다 다시 불러온 값(저장하지 않음). 외부 호출이 있어 진행률과 따로 둔다.",
+        "operationId": "collected_api_runs__run_id__collected_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "run_id",
+            "required": true,
+            "schema": {
+              "title": "Run Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CollectedInfo"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Collected",
+        "tags": [
+          "runs"
+        ]
+      }
+    },
+    "/api/runs/{run_id}/progress": {
+      "get": {
+        "description": "S10이 3초마다 부른다. DB 조회 1번, 외부 호출 없음(200ms 이내).",
+        "operationId": "progress_api_runs__run_id__progress_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "run_id",
+            "required": true,
+            "schema": {
+              "title": "Run Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunProgress"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Progress",
+        "tags": [
+          "runs"
+        ]
+      }
+    },
+    "/api/stores/current": {
+      "get": {
+        "operationId": "current_api_stores_current_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CurrentStoreResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Current",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/stores/current/not-mine": {
+      "post": {
+        "operationId": "not_mine_api_stores_current_not_mine_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NotMineRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Not Mine",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/stores/current/retry": {
+      "post": {
+        "operationId": "retry_api_stores_current_retry_post",
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunIdResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Retry",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/stores/history": {
+      "get": {
+        "operationId": "history_api_stores_history_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HistoryResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "History",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/stores/identify": {
+      "post": {
+        "operationId": "identify_api_stores_identify_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdentifyRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "discriminator": {
+                    "mapping": {
+                      "candidates": "#/components/schemas/IdentifyCandidates",
+                      "confirmed": "#/components/schemas/IdentifyConfirmed"
+                    },
+                    "propertyName": "result"
+                  },
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/IdentifyConfirmed"
+                    },
+                    {
+                      "$ref": "#/components/schemas/IdentifyCandidates"
+                    }
+                  ],
+                  "title": "Response Identify Api Stores Identify Post"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Identify",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/stores/identify/select": {
+      "post": {
+        "operationId": "identify_select_api_stores_identify_select_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdentifySelectRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentifyConfirmed"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Identify Select",
+        "tags": [
+          "stores"
+        ]
+      }
+    },
+    "/api/webhooks/kakao/unlink": {
+      "get": {
+        "operationId": "unlink_api_webhooks_kakao_unlink_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Unlink",
+        "tags": [
+          "webhooks"
+        ]
+      }
+    }
+  }
+}

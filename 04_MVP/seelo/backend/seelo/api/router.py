@@ -9,20 +9,23 @@ from seelo.api import (
     diagnosis,
     fix_connect,
     fix_plans,
+    fix_report,
     fix_requests,
     health,
     home,
+    kakao_webhook,
     oauth,
+    reports,
     runs,
     stores,
 )
 from seelo.api.deps import load_session, verify_csrf
 
-# 단계가 진행되면 fix_report, reports 순서로 더한다(12 작업순서).
 ROUTERS = [
     health.router,
     auth.router,
     oauth.router,
+    kakao_webhook.router,
     account.router,
     home.router,
     stores.router,
@@ -31,6 +34,8 @@ ROUTERS = [
     fix_requests.router,
     fix_connect.router,
     fix_plans.router,
+    fix_report.router,
+    reports.router,
     admin.router,
 ]
 

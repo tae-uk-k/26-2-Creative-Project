@@ -1,0 +1,127 @@
+# 운영 전용. 개발 compose와 합치지 않는다(10 6장, D-07).
+# docker compose --env-file /절대경로/운영.env -f docker-compose.prod.yml config --quiet
+name: seelo-prod
+
+x-backend: &backend
+  image: seelo-backend:${SEELO_IMAGE_TAG:?SEELO_IMAGE_TAG required}
+  build:
+    context: ./backend
+    dockerfile: Dockerfile
+  env_file: ${SEELO_ENV_FILE:?absolute production env file required}
+  environment: &environment
+    APP_ENV: prod
+    APP_BASE_URL: https://${PUBLIC_HOST:?PUBLIC_HOST required}
+    COOKIE_SECURE: "true"
+    FAKE_EXTERNALS: "false"
+    DATABASE_URL: ${DATABASE_URL:?production DATABASE_URL required}
+    QUEUE_DATABASE_DSN: ${QUEUE_DATABASE_DSN:?production QUEUE_DATABASE_DSN required}
+    SECRET_KEY: ${SECRET_KEY:?new SECRET_KEY required}
+    EMAIL_HMAC_KEY: ${EMAIL_HMAC_KEY:?new EMAIL_HMAC_KEY required}
+    MAIL_TOKEN_FERNET_KEY: ${MAIL_TOKEN_FERNET_KEY:?MAIL_TOKEN_FERNET_KEY required}
+    SMTP_HOST: ${SMTP_HOST:?real SMTP_HOST required}
+    SMTP_PORT: ${SMTP_PORT:?SMTP_PORT required}
+    SMTP_STARTTLS: ${SMTP_STARTTLS:?SMTP_STARTTLS required}
+    MAIL_FROM: ${MAIL_FROM:?MAIL_FROM required}
+    ADMIN_NOTIFY_EMAILS: ${ADMIN_NOTIFY_EMAILS:?ADMIN_NOTIFY_EMAILS required}
+    TRUSTED_PROXY_IPS: ${SEELO_PROXY_SUBNET:?dedicated proxy subnet required}
+    AUTO_FIX_ENABLED: ${AUTO_FIX_ENABLED:-false}
+  restart: unless-stopped
+  stop_grace_period: 75s
+  security_opt: ["no-new-privileges:true"]
+  logging: &logging
+    driver: json-file
+    options: {max-size: "10m", max-file: "5"}
+  networks: [backend]
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: seelo
+      POSTGRES_DB: seelo
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?new database password required}
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U seelo -d seelo"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+    logging: *logging
+    networks: [backend]
+
+  migrate:
+    <<: *backend
+    command: ["sh", "-c", "alembic upgrade head && python scripts/init_queue_schema.py"]
+    depends_on:
+      db: {condition: service_healthy}
+    restart: "no"
+
+  api:
+    <<: *backend
+    command: ["sh", "-c", "exec uvicorn seelo.main:app --host 0.0.0.0 --port 8000 --proxy-headers --no-access-log --forwarded-allow-ips=\"$$TRUSTED_PROXY_IPS\""]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    networks: [backend, proxy]
+
+  worker-main:
+    <<: *backend
+    command: ["python", "-m", "seelo.worker.run", "--queues", "collect,measure,plan,report,email,periodic", "--concurrency", "4", "--name", "main"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+
+  worker-ai-openai:
+    <<: *backend
+    command: ["sh", "-c", "exec python -m seelo.worker.run --queues ai_openai --concurrency $${AI_CONCURRENCY_PER_PROVIDER:-5} --name ai-openai"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+
+  worker-ai-gemini:
+    <<: *backend
+    command: ["sh", "-c", "exec python -m seelo.worker.run --queues ai_gemini --concurrency $${AI_CONCURRENCY_PER_PROVIDER:-5} --name ai-gemini"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+
+  worker-fix:
+    <<: *backend
+    image: seelo-backend-fix:${SEELO_IMAGE_TAG:?SEELO_IMAGE_TAG required}
+    build: {context: ./backend, dockerfile: Dockerfile.fix}
+    command: ["python", "-m", "seelo.worker.run", "--queues", "fix", "--concurrency", "2", "--name", "fix"]
+    volumes: ["browser:/data/browser"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    profiles: ["fix"]
+
+  web:
+    image: nginx:1.30.6
+    environment:
+      PUBLIC_HOST: ${PUBLIC_HOST:?PUBLIC_HOST required}
+      NGINX_ENVSUBST_FILTER: ^PUBLIC_HOST$$
+    volumes:
+      - ./infra/nginx/production.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ./infra/nginx/html:/usr/share/nginx/html:ro
+      - ${ACME_WEBROOT_DIR:-/var/lib/seelo/acme}:/var/www/acme:ro
+      - ${TLS_CERT_DIR:?TLS_CERT_DIR required}:/etc/nginx/tls:ro
+    ports: ["80:80", "443:443"]
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+    logging: *logging
+    networks: [proxy]
+
+volumes:
+  pgdata:
+  browser:
+
+networks:
+  backend:
+  proxy:
+    ipam:
+      config:
+        - subnet: ${SEELO_PROXY_SUBNET:?dedicated proxy subnet required}

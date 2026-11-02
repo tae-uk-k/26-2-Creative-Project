@@ -152,7 +152,9 @@ async def call_ai(execution_id: int, *, clients: Clients | None = None) -> None:
             await s.execute(update(AiExecution).where(AiExecution.id == execution_id).values(attempt=attempt))
             await s.commit()
         try:
-            async with asyncio.timeout(AI_CALL_TIMEOUT_S):
+            settings = get_settings()
+            timeout = settings.local_ai_timeout_s if settings.ai_backend == "local_cli" else AI_CALL_TIMEOUT_S
+            async with asyncio.timeout(timeout):
                 result = await client.web_answer(text, model=model)  # 질문 문장만
             break
         except TimeoutError:

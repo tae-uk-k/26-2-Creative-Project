@@ -61,6 +61,9 @@ def cost_usd(
 
     표에 없으면 0과 경고(06 6장).
     """
+    if model.startswith(("codex-cli/", "gemini-cli/")):
+        # 별도 API 청구액은 계산하지 않는다. CLI 구독/무료 쿼터 사용은 PC 브리지에서 제한한다.
+        return 0.0
     price = _pricing(get_settings().pricing_file).get(provider, {}).get(model)
     if not price:
         log.warning("llm_price_missing", provider=provider, model=model)

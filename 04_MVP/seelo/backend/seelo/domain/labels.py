@@ -89,9 +89,6 @@ GUIDE_ADDRESS = (
 GUIDE_CATEGORY = "업종은 seelo가 바꾸지 않아요. {map} 관리 화면에서 직접 고쳐 주세요."
 GUIDE_KAKAO_PHONE = "카카오맵 전화번호는 파트너센터에서 직접 고쳐 주세요."
 NOTE_DIFFERS = "지금 지도 값이 달라요(사장님이 바꿨거나 아직 반영 전)"
-NOTICE_NO_GUARANTEE = (
-    "추천 순위나 노출을 보장하지 않습니다. AI 답변은 모델 업데이트나 다른 가게의 변화로도 달라질 수 있어요."
-)
 HEADLINE_CHANGE = "{ai} 추천 등장률이 {before}%에서 {after}%로 바뀌었어요."
 HEADLINE_NO_CHANGE = "이번 측정에서는 큰 변화가 없었어요."
 ACCOUNT_DELETE_CONFIRM_TEXT = "탈퇴합니다"

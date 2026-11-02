@@ -36,6 +36,8 @@ class Settings(BaseSettings):
     google_oauth_client_secret: SecretStr = SecretStr("")
     kakao_oauth_client_id: str = ""
     kakao_oauth_client_secret: SecretStr = SecretStr("")
+    kakao_app_id: str = ""
+    kakao_unlink_admin_key_sha256: SecretStr = SecretStr("")
 
     # 지도·검색
     google_places_api_key: SecretStr = SecretStr("")
@@ -47,7 +49,12 @@ class Settings(BaseSettings):
     competitor_facts_enabled: bool = True
     website_user_agent: str = "SeeloBot/1.0"
 
-    # AI
+    # AI. local_cli는 API 키로 자동 대체하지 않는다.
+    ai_backend: Literal["api", "local_cli"] = "api"
+    local_ai_socket: str = ""
+    local_ai_url: str = "http://127.0.0.1:18765"
+    local_ai_token: SecretStr = SecretStr("")
+    local_ai_timeout_s: float = 240.0
     openai_api_key: SecretStr = SecretStr("")
     gemini_api_key: SecretStr = SecretStr("")
     openai_measure_model: str = ""
@@ -104,6 +111,10 @@ class Settings(BaseSettings):
                 raise ValueError("APP_BASE_URL must be https in prod")
             if not self.mail_token_fernet_key.get_secret_value():
                 raise ValueError("MAIL_TOKEN_FERNET_KEY must be set in prod")
+            if self.ai_backend == "local_cli" and (
+                not self.local_ai_socket.startswith("/") or not self.local_ai_token.get_secret_value()
+            ):
+                raise ValueError("local_cli in prod requires a private Unix socket and token")
         return self
 
 

@@ -1,7 +1,7 @@
 """/api/admin(04 8장, A01). 모두 관리자만(아니면 403 FORBIDDEN).
 
 신청 목록·상세·승인·거절(9단계), 연결 확인(10단계), 정비안 다시 생성(11단계), 처리 완료·수동 칸 목록(12단계).
-보고서 다시 생성·지금 재측정(14)은 해당 단계에서 더한다.
+보고서 다시 생성·지금 재측정(14단계).
 """
 
 from typing import Annotated
@@ -24,12 +24,15 @@ from seelo.schemas.admin import (
     VerifyConnectionRequest,
 )
 from seelo.schemas.common import Page
+from seelo.schemas.run import RunIdResponse
 from seelo.services import (
     admin_service,
     connection_service,
     fix_apply_service,
     fix_plan_service,
     fix_request_service,
+    remeasure_service,
+    report_service,
 )
 
 router = APIRouter(prefix="/admin", tags=["admin"], dependencies=[Depends(require_admin)])
@@ -108,3 +111,19 @@ async def manual_done(
 ) -> StatusResponse:
     """E30. 관리자가 직접 고친 뒤 누른다. manual_required가 아니면 409, 없으면 404."""
     return await fix_apply_service.manual_done(db, admin, fix_log_id, body or ManualDoneRequest())
+
+
+@router.post("/fix-requests/{request_id}/remeasure-now", status_code=202, response_model=RunIdResponse)
+async def remeasure_now(
+    request_id: int, admin: User = Depends(require_admin), db: AsyncSession = Depends(get_db)
+) -> RunIdResponse:
+    """E20. 예약을 바로 시작하고 같은 트랜잭션에 측정·감사·작업을 등록한다."""
+    return await remeasure_service.remeasure_now(db, admin, request_id)
+
+
+@router.post("/fix-requests/{request_id}/report/regenerate", status_code=202)
+async def regenerate_report(
+    request_id: int, admin: User = Depends(require_admin), db: AsyncSession = Depends(get_db)
+) -> dict:
+    """E24. 최근 실패 보고서를 새 버전으로 만든다."""
+    return await report_service.regenerate(db, admin, request_id)

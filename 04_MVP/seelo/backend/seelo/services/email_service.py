@@ -75,6 +75,7 @@ async def queue(
         args={"email_log_id": log_id},
         links=jobs.JobLinks(),
         queueing_lock=f"email:{log_id}",
+        lock=f"email:{log_id}",
     )
     return log_id
 
@@ -100,7 +101,7 @@ async def send(email_log_id: int, *, clients: Clients | None = None) -> str:
     try:
         rendered = render_email(type_, params, secret)
     except Exception as e:
-        await _finish(email_log_id, ok=False, error=f"render: {type(e).__name__}: {e}")
+        await _finish(email_log_id, ok=False, error=f"render: {type(e).__name__}")
         log.error("email_render_failed", email_log_id=email_log_id, type=type_, error_type=type(e).__name__)
         return "failed"
 
@@ -111,7 +112,7 @@ async def send(email_log_id: int, *, clients: Clients | None = None) -> str:
             to=to_list, subject=rendered.subject, text=rendered.text, html=rendered.html
         )
     except Exception as e:
-        error = f"{type(e).__name__}: {e}"
+        error = type(e).__name__
         if attempt >= MAX_ATTEMPTS:
             await _finish(email_log_id, ok=False, error=error)
             log.error("email_failed", email_log_id=email_log_id, type=type_, attempt=attempt)
@@ -122,7 +123,8 @@ async def send(email_log_id: int, *, clients: Clients | None = None) -> str:
                 row.error = mask_text(error)[:500]
                 await s.commit()
         log.warning("email_retry", email_log_id=email_log_id, type=type_, attempt=attempt)
-        raise
+        # SMTP 서버가 오류에 본문·인증 값을 돌려줘도 작업 로그에는 남기지 않는다(10 4장).
+        raise ConnectionError(f"smtp: {type(e).__name__}") from None
 
     await _finish(email_log_id, ok=True, error=None)
     log.info("email_sent", email_log_id=email_log_id, type=type_, attempt=attempt)

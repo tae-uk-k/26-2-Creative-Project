@@ -8,7 +8,7 @@
 import math
 from collections import Counter, defaultdict
 from collections.abc import Callable, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from seelo.domain.states import MetricName, SubjectType
 
@@ -45,7 +45,8 @@ class ResponseView:
     question_id: int
     extraction_ok: bool
     recs: list[RecView]
-    source_domains: list[str]  # 응답 전체 출처(중복 제거)
+    source_domains: list[str]
+    source_urls: list[str] = field(default_factory=list)  # 응답 전체 출처(중복 제거)
 
 
 @dataclass

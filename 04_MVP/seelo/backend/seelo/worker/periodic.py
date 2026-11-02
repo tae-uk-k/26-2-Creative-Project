@@ -84,3 +84,13 @@ async def recheck_pending_fixes(timestamp: int) -> None:
         await s.commit()
     if any(counts.values()):
         log.info("recheck_pending_fixes", **counts)
+
+
+@app.periodic(cron="*/10 * * * *")
+@app.task(name="dispatchRemeasures", queue="periodic", queueing_lock="dispatchRemeasures")
+async def dispatch_remeasures(timestamp: int) -> None:
+    """지난 예약을 DB에서 다시 읽으므로 워커 재시작과 무관하다(10 1장)."""
+    from seelo.services import remeasure_service
+
+    runs = await remeasure_service.dispatch()
+    log.info("remeasures_dispatched", count=len(runs))
