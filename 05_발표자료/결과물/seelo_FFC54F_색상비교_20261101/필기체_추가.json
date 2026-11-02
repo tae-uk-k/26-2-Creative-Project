@@ -1,0 +1,433 @@
+{
+  "variants": [
+    {
+      "key": "S01",
+      "label": "앰버 단색",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F"
+      ]
+    },
+    {
+      "key": "S02",
+      "label": "앰버 + 차콜",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#242424"
+      ],
+      "split": 3
+    },
+    {
+      "key": "S03",
+      "label": "앰버 + 네이비",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#243B68"
+      ],
+      "split": 3
+    },
+    {
+      "key": "S04",
+      "label": "앰버 + 테라코타",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#C96343"
+      ],
+      "split": 3
+    },
+    {
+      "key": "S05",
+      "label": "차콜 s + 앰버",
+      "source": "366:125",
+      "colors": [
+        "#242424",
+        "#FFC54F"
+      ],
+      "split": 1
+    },
+    {
+      "key": "S06",
+      "label": "앰버 + 브라운",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#795230"
+      ],
+      "split": 3
+    },
+    {
+      "key": "S07",
+      "label": "앰버 + 바이올렛",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#7258B5"
+      ],
+      "split": 3
+    },
+    {
+      "key": "S08",
+      "label": "앰버 se + 차콜",
+      "source": "366:125",
+      "colors": [
+        "#FFC54F",
+        "#242424"
+      ],
+      "split": 2
+    },
+    {
+      "key": "G01",
+      "label": "크림 → 앰버 → 골드",
+      "source": "366:135",
+      "colors": [
+        "#FFEAC1",
+        "#FFC54F",
+        "#EDA52A"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G02",
+      "label": "밝은 앰버",
+      "source": "366:135",
+      "colors": [
+        "#FFE2A0",
+        "#FFC54F"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G03",
+      "label": "앰버 → 코럴",
+      "source": "366:135",
+      "colors": [
+        "#FFC54F",
+        "#F57B5D"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G04",
+      "label": "앰버 → 라일락",
+      "source": "366:135",
+      "colors": [
+        "#FFC54F",
+        "#B09AE0"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G05",
+      "label": "세로 골드",
+      "source": "366:135",
+      "colors": [
+        "#FFE8B1",
+        "#FFC54F",
+        "#C47B1A"
+      ],
+      "gradient": true,
+      "vertical": true
+    },
+    {
+      "key": "G06",
+      "label": "앰버 → 차콜",
+      "source": "366:135",
+      "colors": [
+        "#FFC54F",
+        "#242424"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G07",
+      "label": "앰버 → 테라코타",
+      "source": "366:135",
+      "colors": [
+        "#FFC54F",
+        "#C96343"
+      ],
+      "gradient": true
+    },
+    {
+      "key": "G08",
+      "label": "브라운 → 앰버 → 크림",
+      "source": "366:135",
+      "colors": [
+        "#795230",
+        "#FFC54F",
+        "#FFEAC1"
+      ],
+      "gradient": true
+    }
+  ],
+  "state": {
+    "createdNodeIds": [
+      "460:2",
+      "460:3",
+      "460:4",
+      "460:5",
+      "460:6",
+      "460:7",
+      "460:8",
+      "460:9",
+      "460:10",
+      "460:11",
+      "460:12",
+      "460:13",
+      "460:14",
+      "460:15",
+      "460:16",
+      "460:17",
+      "460:18",
+      "460:19",
+      "460:20",
+      "460:21",
+      "460:22",
+      "460:23",
+      "460:24",
+      "460:25",
+      "460:26",
+      "460:27",
+      "460:28",
+      "460:29",
+      "460:30",
+      "460:31",
+      "460:32",
+      "460:33",
+      "460:34",
+      "460:35",
+      "460:36",
+      "460:37",
+      "460:38",
+      "460:39",
+      "460:40",
+      "460:41",
+      "460:42",
+      "460:43",
+      "460:44",
+      "460:45",
+      "460:46",
+      "460:47",
+      "460:48",
+      "460:49",
+      "460:50",
+      "460:51",
+      "460:52",
+      "460:53",
+      "460:54",
+      "460:55",
+      "460:56",
+      "460:57",
+      "460:58",
+      "460:59",
+      "460:60",
+      "460:61",
+      "460:62",
+      "460:63",
+      "460:64",
+      "460:65",
+      "460:66",
+      "460:67",
+      "460:68",
+      "460:69",
+      "460:70",
+      "460:71",
+      "460:72",
+      "460:73"
+    ],
+    "boardId": "460:2",
+    "items": [
+      {
+        "key": "S01",
+        "id": "460:10",
+        "cardId": "460:7",
+        "artId": "460:9",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S02",
+        "id": "460:14",
+        "cardId": "460:11",
+        "artId": "460:13",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S03",
+        "id": "460:18",
+        "cardId": "460:15",
+        "artId": "460:17",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S04",
+        "id": "460:22",
+        "cardId": "460:19",
+        "artId": "460:21",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S05",
+        "id": "460:27",
+        "cardId": "460:24",
+        "artId": "460:26",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S06",
+        "id": "460:31",
+        "cardId": "460:28",
+        "artId": "460:30",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S07",
+        "id": "460:35",
+        "cardId": "460:32",
+        "artId": "460:34",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "S08",
+        "id": "460:39",
+        "cardId": "460:36",
+        "artId": "460:38",
+        "sourceId": "366:125",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G01",
+        "id": "460:44",
+        "cardId": "460:41",
+        "artId": "460:43",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G02",
+        "id": "460:48",
+        "cardId": "460:45",
+        "artId": "460:47",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G03",
+        "id": "460:52",
+        "cardId": "460:49",
+        "artId": "460:51",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G04",
+        "id": "460:56",
+        "cardId": "460:53",
+        "artId": "460:55",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G05",
+        "id": "460:61",
+        "cardId": "460:58",
+        "artId": "460:60",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G06",
+        "id": "460:65",
+        "cardId": "460:62",
+        "artId": "460:64",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G07",
+        "id": "460:69",
+        "cardId": "460:66",
+        "artId": "460:68",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      },
+      {
+        "key": "G08",
+        "id": "460:73",
+        "cardId": "460:70",
+        "artId": "460:72",
+        "sourceId": "366:135",
+        "font": {
+          "family": "Pacifico",
+          "style": "Regular"
+        }
+      }
+    ],
+    "total": 16,
+    "position": {
+      "x": 2500,
+      "y": 900,
+      "w": 1340,
+      "h": 1200
+    }
+  },
+  "verification": {
+    "changedOriginals": [],
+    "total": 16,
+    "errors": []
+  }
+}
