@@ -3,4 +3,10 @@
 .pytest_cache
 .ruff_cache
 .env
+.env.*
+*.key
+*.pem
+*.dump
+gha-creds-*.json
+.test-tmp
 tests/fixtures/browser
