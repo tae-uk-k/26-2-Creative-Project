@@ -340,6 +340,8 @@ async def recheck_pending(s: AsyncSession, now: datetime | None = None) -> dict[
             .join(FixRequest, FixRequest.id == FixLog.fix_request_id)
             .where(FixLog.status == FixLogStatus.PENDING_REFLECTION)
             .order_by(FixLog.id)
+            # 별도 확인 워커가 갱신한 verify_count/last_checked_at을 캐시 대신 다시 읽는다.
+            .execution_options(populate_existing=True)
         )
     ).all()
     counts = {"expired": 0, "verify": 0}
