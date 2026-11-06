@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>seelo · AI가 추천할 때 우리 가게도</title>
+  <meta name="description" content="AI가 읽는 가게 정보, seelo가 직접 바꿉니다.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 배경 안개: script.js 가 채웁니다 -->
+  <div class="mist" id="mist" aria-hidden="true"></div>
+
+  <!-- ===== 히어로 ===== -->
+  <header class="hero">
+    <svg class="hero-map" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="1440" height="900" fill="#ebe5ff"/>
+      <rect x="55" y="108" width="210" height="137" rx="30" fill="#e0d6ff"/>
+      <rect x="430" y="640" width="150" height="90" rx="26" fill="#e0d6ff" opacity=".7"/>
+      <rect x="1140" y="650" width="300" height="130" rx="30" fill="#e0d6ff" opacity=".8"/>
+      <path d="M-20 470 C 260 430, 520 560, 860 520 S 1200 420, 1460 470" stroke="#d6caff" stroke-width="90" fill="none" stroke-linecap="round" opacity=".75"/>
+      <g stroke="#fff" fill="none" stroke-linecap="round">
+        <path d="M-20 270 C 300 255, 700 300, 1460 285" stroke-width="30" opacity=".8"/>
+        <path d="M-20 660 C 400 690, 900 700, 1460 640" stroke-width="40" opacity=".85"/>
+        <path d="M74 -20 V 920" stroke-width="12" opacity=".85"/>
+        <path d="M210 -20 C 230 300, 250 600, 270 920" stroke-width="22" opacity=".9"/>
+        <path d="M500 -20 C 510 300, 500 600, 520 920" stroke-width="10" opacity=".7"/>
+        <path d="M910 -20 C 930 300, 950 600, 990 920" stroke-width="26" opacity=".9"/>
+        <path d="M1150 -20 V 920" stroke-width="12" opacity=".85"/>
+        <path d="M1320 -20 V 920" stroke-width="10" opacity=".7"/>
+      </g>
+    </svg>
+    <div class="hero-fade"></div>
+
+    <nav class="nav" aria-label="주 메뉴">
+      <div class="nav-bar">
+        <a class="logo" href="#top">seelo</a>
+        <div class="nav-links">
+          <a href="#how">이용 방법</a>
+          <a href="#plan">무료와 유료 안내</a>
+        </div>
+        <div class="nav-actions">
+          <a class="btn-text" href="#">로그인</a>
+          <a class="btn btn-primary btn-sm" href="#start">우리 가게 무료 진단</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-stage" id="top">
+      <!-- 지도 핀 -->
+      <div class="pin" style="left:161px;top:229px"><span class="pin-chip"><b>1</b>소담한상</span><i class="pin-halo" style="left:67px;top:79px"></i><i class="pin-stem" style="left:87px;top:67px"></i><i class="pin-dot" style="left:81px;top:93px"></i></div>
+      <div class="pin" style="left:1091px;top:184px"><span class="pin-chip"><b>2</b>마포식탁</span><i class="pin-halo" style="left:67px;top:79px"></i><i class="pin-stem" style="left:87px;top:67px"></i><i class="pin-dot" style="left:81px;top:93px"></i></div>
+      <div class="pin" style="left:1111px;top:609px"><span class="pin-chip"><b>3</b>합정밥상</span><i class="pin-halo" style="left:67px;top:79px"></i><i class="pin-stem" style="left:87px;top:67px"></i><i class="pin-dot" style="left:81px;top:93px"></i></div>
+      <div class="pin mine" style="left:140px;top:660px"><span class="pin-chip"><b>?</b>우리 가게</span><i class="pin-halo" style="left:58px;top:66px"></i><i class="pin-stem" style="left:88px;top:66px"></i><i class="pin-dot" style="left:82px;top:92px"></i></div>
+
+      <div class="hero-center">
+        <h1>AI가 추천할 때<br><em>우리 가게도</em></h1>
+        <p class="lead">AI가 읽는 가게 정보, seelo가 직접 바꿉니다.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#start">우리 가게 무료 진단</a>
+          <a class="btn btn-secondary btn-lg" href="#how">어떻게 달라지는지 보기</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 이용 방법 ===== -->
+    <section class="sec sec-narrow" id="how">
+      <div class="sec-head">
+        <h2>사장님은 확인만 하세요.</h2>
+        <p class="sec-lead">등록부터 정비까지, 나머지는 seelo가 합니다.</p>
+      </div>
+      <ol class="timeline">
+        <li class="step left"><div class="glass card"><h3>가게 등록</h3><p>가게 이름과 지도 링크로 우리 가게를 알려주세요.</p></div><span class="num glass">1</span></li>
+        <li class="step right"><div class="glass card"><h3>무료 진단</h3><p>AI 추천 노출과 주변 가게, 참고 출처를 확인합니다.</p></div><span class="num glass">2</span></li>
+        <li class="step left"><div class="glass card"><h3>초대와 승인</h3><p>Google과 카카오에 seelo를 초대하고 정비할 내용을 확인합니다. 아이디와 비밀번호는 받지 않아요.</p></div><span class="num glass">3</span></li>
+        <li class="step right"><div class="glass card"><h3>정비와 전후 비교</h3><p>seelo가 정보를 고친 뒤, 2주 후 변화를 다시 확인합니다.</p></div><span class="num glass">4</span></li>
+      </ol>
+    </section>
+
+    <!-- ===== 사장님이 하지 않아도 되는 일 ===== -->
+    <section class="sec sec-wide">
+      <h2>사장님이 하지 않아도 되는 일</h2>
+      <div class="features">
+        <article class="glass feature">
+          <div class="panel">
+            <div class="row pill"><span>ChatGPT</span><strong>40%</strong></div>
+            <div class="row pill"><span>Gemini</span><strong>17%</strong></div>
+          </div>
+          <h3>질문은 seelo가 여러 번 물어요</h3>
+          <p>ChatGPT와 Gemini에 관광객 질문을<br>반복해 묻고, 추천에 나온 비율을<br>계산합니다.</p>
+        </article>
+        <article class="glass feature">
+          <div class="panel">
+            <div class="row box"><span class="muted">영문 메뉴</span><b>Bibimbap ₩12,000</b></div>
+            <div class="row box"><span class="muted">영업시간</span><b>11:00부터 21:00까지</b></div>
+          </div>
+          <h3>정보는 seelo가 고쳐요</h3>
+          <p>승인한 영문 메뉴와 영업시간을<br>Google 지도와 카카오맵에<br>직접 반영합니다.</p>
+        </article>
+        <article class="glass feature">
+          <div class="panel bars">
+            <div class="bar-col"><i class="bar before"></i><small>정비 전</small></div>
+            <div class="bar-col"><i class="bar after"></i><small>2주 후</small></div>
+          </div>
+          <h3>변화는 숫자로 보여 드려요</h3>
+          <p>2주 뒤 같은 질문으로 다시 측정해<br>정비 전후를 비교합니다.</p>
+        </article>
+      </div>
+      <p class="notice">추천 순위나 노출을 보장하지 않습니다. 가게 이름과 정보는 이해를 위한 가상 예시입니다.</p>
+    </section>
+
+    <!-- ===== 진단 리포트 ===== -->
+    <section class="sec sec-narrow">
+      <h2>느낌이 아니라<br>숫자와 근거로 판단하세요.</h2>
+      <div class="knobs">
+        <div class="knob">
+          <div class="knob-ring"><div class="knob-well"><div class="icon icon-bars"><i></i><i></i><i></i></div></div></div>
+          <h3>추천 등장률</h3>
+          <p>ChatGPT와 Gemini 각각,<br>성공한 답변 중 우리 가게가<br>나온 비율</p>
+        </div>
+        <div class="knob">
+          <div class="knob-ring"><div class="knob-well"><div class="icon icon-list"><i></i><i></i><i></i></div></div></div>
+          <h3>질문별 결과</h3>
+          <p>관광객 질문 하나하나에<br>우리 가게가 나왔는지 확인</p>
+        </div>
+        <div class="knob">
+          <div class="knob-ring"><div class="knob-well"><div class="icon icon-overlap"><i></i><i></i></div></div></div>
+          <h3>주변 가게 비교</h3>
+          <p>같은 질문에서 함께 추천된<br>가게와 비율을 비교</p>
+        </div>
+        <div class="knob">
+          <div class="knob-ring"><div class="knob-well"><div class="icon icon-doc"><div><i></i><i></i><i class="short"></i></div></div></div></div>
+          <h3>참고 출처</h3>
+          <p>AI가 참고한 지도와<br>웹 출처를 링크로 확인</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 무료 안내 ===== -->
+    <section class="sec sec-narrow" id="plan">
+      <h2>먼저 무료로 확인해 보세요.</h2>
+      <div class="plans">
+        <div class="glass plan plan-free">
+          <div>
+            <h3>첫 진단 1회 무료</h3>
+            <p>AI 추천 현황과 주변 가게 비교, 고쳐야 할 정보까지 확인합니다.</p>
+          </div>
+          <a class="btn btn-primary btn-sm" href="#start">우리 가게 무료 진단</a>
+        </div>
+        <div class="plan plan-next">
+          <h3>이어서 정비하고 싶다면</h3>
+          <p>Google과 카카오 정보를 정비하고, 2주 뒤 전후 비교 보고서를 받습니다. 현재 베타에서는 신청 후 승인이 필요합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="sec sec-narrow" id="faq">
+      <h2>FAQ</h2>
+      <div class="glass faq">
+        <details class="faq-item" open>
+          <summary>사장님이 직접 해야 하는 일은 무엇인가요?</summary>
+          <div class="faq-answer">
+            <p>가게 이름과 지도 링크를 등록하세요.<br>자동 정비를 신청하고 승인되면 Google과 카카오 관리 화면에서<br>seelo 계정을 초대한 뒤, 정비안을 확인하고 한 번 승인하면 됩니다.<br>아이디와 비밀번호는 받지 않습니다.</p>
+          </div>
+        </details>
+        <!-- TODO: 아래 5개 질문의 답변 문구는 피그마 시안에 아직 없습니다. 답변이 정해지면 <details>로 바꿔 넣어 주세요. -->
+        <div class="faq-item"><div class="faq-q">네이버 지도도 직접 고쳐주나요?</div></div>
+        <div class="faq-item"><div class="faq-q">진단하면 AI 추천이 늘어나나요?</div></div>
+        <div class="faq-item"><div class="faq-q">AI가 우리 가게를 꼭 추천해 주나요?</div></div>
+        <div class="faq-item"><div class="faq-q">진단은 얼마나 걸리나요?</div></div>
+        <div class="faq-item"><div class="faq-q">지도 계정의 아이디와 비밀번호가 필요한가요?</div></div>
+      </div>
+    </section>
+
+    <!-- ===== 마무리 ===== -->
+    <section class="sec sec-narrow closing" id="start">
+      <h2 class="h-xl">AI는 우리 가게를<br>얼마나 알고 있을까요?</h2>
+      <a class="orb" href="#"><span>무료로 확인하기</span></a>
+      <p class="sec-lead">가게 이름과 지도 링크, 두 가지만 준비하세요.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-body">
+        <p class="b">(주)seelo &nbsp;|&nbsp; 숭실대학교 창의프로젝트1 5조 &nbsp;|&nbsp; 대표 김태욱, 강가힐</p>
+        <p>개인정보보호책임자 김태욱 &nbsp;|&nbsp; 사업자 번호 281-90-03228 &nbsp;|&nbsp; 문의 rkglf010@naver.com</p>
+        <p>주소 경기도 수원시 영통구</p>
+        <p class="links b"><a href="#">이용약관</a><a href="#">개인정보 처리방침</a></p>
+      </div>
+      <span class="logo">seelo</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
