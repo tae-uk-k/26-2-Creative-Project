@@ -1,0 +1,148 @@
+{
+  "frames": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 1,
+        "TEXT": 6,
+        "FRAME": 4,
+        "ELLIPSE": 2,
+        "VECTOR": 3,
+        "RECTANGLE": 14
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [
+        "5팀  김태욱 · 강가힐   ·  2026.11.4"
+      ],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 1,
+        "TEXT": 18,
+        "FRAME": 13,
+        "RECTANGLE": 12,
+        "VECTOR": 5
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 1,
+        "TEXT": 10,
+        "FRAME": 9,
+        "VECTOR": 5
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 6,
+        "TEXT": 20,
+        "FRAME": 14,
+        "VECTOR": 4
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    },
+    {
+      "id": "580:179",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 1,
+        "TEXT": 19,
+        "FRAME": 9
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    },
+    {
+      "id": "580:210",
+      "name": "07 · 시스템 아키텍처 · 데이터 흐름",
+      "size": [
+        1920,
+        1080
+      ],
+      "nodeCounts": {
+        "INSTANCE": 1,
+        "TEXT": 24,
+        "FRAME": 25,
+        "VECTOR": 8
+      },
+      "overlap": [],
+      "missingFonts": 0,
+      "authorNames": [],
+      "automatedLabel": [],
+      "imageFilledNodes": 0
+    }
+  ],
+  "sourceChanges": [],
+  "mappingMismatches": [],
+  "sourceMapped": 39,
+  "sourceOriginalCount": 269,
+  "page2": {
+    "text": "53%",
+    "size": 174,
+    "parent": "562:226",
+    "ringVisible": false
+  },
+  "page3": {
+    "insightSize": 38,
+    "valueSize": 40
+  },
+  "sources": [
+    "468:42",
+    "468:100",
+    "468:127"
+  ],
+  "wireframes": [
+    "213:917",
+    "214:544",
+    "214:634",
+    "215:285",
+    "213:805"
+  ]
+}

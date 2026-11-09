@@ -1,0 +1,156 @@
+{
+  "frames": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 1,
+        "TEXT": 6,
+        "FRAME": 4,
+        "ELLIPSE": 2,
+        "VECTOR": 3,
+        "RECTANGLE": 14
+      },
+      "minFont": 28,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [
+        "5팀  김태욱 · 강가힐   ·  2026.11.4"
+      ],
+      "imageNodes": []
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 1,
+        "TEXT": 18,
+        "FRAME": 15,
+        "ELLIPSE": 2,
+        "RECTANGLE": 12,
+        "VECTOR": 5
+      },
+      "minFont": 21,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [],
+      "imageNodes": []
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 1,
+        "TEXT": 10,
+        "FRAME": 10,
+        "VECTOR": 6
+      },
+      "minFont": 30,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [],
+      "imageNodes": []
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 자동정비",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 12,
+        "TEXT": 30,
+        "FRAME": 20,
+        "VECTOR": 11
+      },
+      "minFont": 28,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [],
+      "imageNodes": []
+    },
+    {
+      "id": "575:139",
+      "name": "A · 글라스 가게",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 1,
+        "TEXT": 6,
+        "FRAME": 4,
+        "ELLIPSE": 2,
+        "VECTOR": 3,
+        "RECTANGLE": 14
+      },
+      "minFont": 28,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [
+        "5팀  김태욱 · 강가힐   ·  2026.11.4"
+      ],
+      "imageNodes": []
+    },
+    {
+      "id": "575:171",
+      "name": "B · 솔리드 가게",
+      "w": 1920,
+      "h": 1080,
+      "counts": {
+        "INSTANCE": 1,
+        "TEXT": 6,
+        "FRAME": 4,
+        "ELLIPSE": 2,
+        "VECTOR": 3,
+        "RECTANGLE": 14
+      },
+      "minFont": 28,
+      "missingFonts": [],
+      "overlaps": [],
+      "parentOverflow": [],
+      "authorNames": [
+        "5팀  김태욱 · 강가힐   ·  2026.11.4"
+      ],
+      "imageNodes": []
+    }
+  ],
+  "copyMismatch": [],
+  "originalCount": 269,
+  "glassSurfaces": [
+    {
+      "id": "575:31",
+      "name": "가게 정면 · 재질"
+    },
+    {
+      "id": "575:35",
+      "name": "차양"
+    },
+    {
+      "id": "575:44",
+      "name": "쇼윈도"
+    },
+    {
+      "id": "575:46",
+      "name": "출입문"
+    }
+  ],
+  "originalPage4": "468:42",
+  "copyReduction": {
+    "before": 121,
+    "after": 96,
+    "reductionPercent": 21
+  },
+  "previewFiles": [
+    "4pages-composition.png",
+    "covers-composition.png"
+  ]
+}

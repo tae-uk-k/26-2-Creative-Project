@@ -1,0 +1,1365 @@
+{
+  "design": {
+    "slides": [
+      {
+        "id": "620:12",
+        "name": "01 · 서비스 소개",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 서비스 소개"
+        ],
+        "inactiveColor": [
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:67",
+        "name": "02 · 문제 정의",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 문제 정의"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:146",
+        "name": "03 · UX 인사이트 · 가치제안",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 인사이트"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:200",
+        "name": "04 · 서비스 개념과 핵심 기능",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 핵심 기능"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:339",
+        "name": "05 · 개발 범위 · 후속 개발",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 개발 범위"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:393",
+        "name": "06 · 시스템 아키텍처 · 데이터 흐름",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 시스템 구조"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:479",
+        "name": "07 · UI/UX 설계 · 프로토타입",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 화면 설계"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:759",
+        "name": "08 · 데이터베이스 설계",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 데이터 설계"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 계획",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      },
+      {
+        "id": "620:831",
+        "name": "09 · 개발 계획 · 역할 분담",
+        "bodyPreserved": true,
+        "selected": [
+          "내비게이션 / 개발 계획"
+        ],
+        "inactiveColor": [
+          {
+            "text": "서비스 소개",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "문제 정의",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "인사이트",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "핵심 기능",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "개발 범위",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "시스템 구조",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "화면 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "text": "데이터 설계",
+            "color": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.545098066329956,
+                  "g": 0.5843137502670288,
+                  "b": 0.6313725709915161
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ],
+        "overflow": [],
+        "autoLayout": 0,
+        "missingFont": []
+      }
+    ],
+    "references": [
+      {
+        "id": "562:189",
+        "unchanged": true
+      },
+      {
+        "id": "613:53",
+        "unchanged": true
+      },
+      {
+        "id": "613:926",
+        "unchanged": true
+      }
+    ]
+  },
+  "links": {
+    "menuLinks": 72,
+    "errors": []
+  }
+}

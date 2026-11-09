@@ -1,0 +1,100 @@
+[
+  {
+    "success": true,
+    "imageHash": "a3e67483b0abdd6396acfdddfea7a7148ea7497e",
+    "sizeBytes": 199671,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:120"
+  },
+  {
+    "success": true,
+    "imageHash": "dfdf012b767dfc0745015bde73b8fde893c3acb5",
+    "sizeBytes": 191442,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:129"
+  },
+  {
+    "success": true,
+    "imageHash": "52656aa4553245597b33cb4f42d16d471904672a",
+    "sizeBytes": 233317,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:136"
+  },
+  {
+    "success": true,
+    "imageHash": "b6642c2b856caeb315c696270dd487ee63abd9cd",
+    "sizeBytes": 200173,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:144"
+  },
+  {
+    "success": true,
+    "imageHash": "dfdf012b767dfc0745015bde73b8fde893c3acb5",
+    "sizeBytes": 191442,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:151"
+  },
+  {
+    "success": true,
+    "imageHash": "c2e7794cafb19770d49e275d8d7db6243214797a",
+    "sizeBytes": 145666,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:287"
+  },
+  {
+    "success": true,
+    "imageHash": "857cd90d0fc9e994f2fba228e1b3664caf39c401",
+    "sizeBytes": 176643,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:305"
+  },
+  {
+    "success": true,
+    "imageHash": "4350ab9676cfce3f913b561784db2fcaaff364ba",
+    "sizeBytes": 143389,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1134:322"
+  },
+  {
+    "success": true,
+    "imageHash": "730306a69bae46cf8dd38a16ef34a5009e1a8604",
+    "sizeBytes": 214723,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:43"
+  },
+  {
+    "success": true,
+    "imageHash": "231eba11aa73cff730fb85268f89e2bf5397748d",
+    "sizeBytes": 146087,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:266"
+  },
+  {
+    "success": true,
+    "imageHash": "c58dea6899aa9fb1e70bf81e736dce5d70fd9327",
+    "sizeBytes": 162500,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:272"
+  },
+  {
+    "success": true,
+    "imageHash": "ed4e53a8385d28454821587b3ac9552e69628cc9",
+    "sizeBytes": 126749,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:299"
+  },
+  {
+    "success": true,
+    "imageHash": "231eba11aa73cff730fb85268f89e2bf5397748d",
+    "sizeBytes": 146087,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:331"
+  },
+  {
+    "success": true,
+    "imageHash": "ed4e53a8385d28454821587b3ac9552e69628cc9",
+    "sizeBytes": 126749,
+    "contentType": "image/jpeg",
+    "placedOnNodeId": "1135:339"
+  }
+]

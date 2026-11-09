@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "id": "562:189",
+      "autoLayout": 0,
+      "instances": 0,
+      "hugOrFill": 0,
+      "autoText": 0,
+      "missingFonts": [],
+      "fontFamilies": [
+        "Pacifico",
+        "IBM Plex Sans KR",
+        "Plus Jakarta Sans"
+      ]
+    },
+    {
+      "id": "575:138",
+      "autoLayout": 0,
+      "instances": 0,
+      "hugOrFill": 0,
+      "autoText": 0,
+      "missingFonts": [],
+      "fontFamilies": [
+        "Pacifico",
+        "IBM Plex Sans KR",
+        "Plus Jakarta Sans"
+      ]
+    }
+  ],
+  "originalCount": 269
+}

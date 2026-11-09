@@ -1,0 +1,14 @@
+.orbit{--green:#267cf2;color:#202c3b;background:#fff}
+.orbit .shop-pin,.orbit .closing,.orbit .footer{background:#fff}
+.orbit .button,.orbit .masthead .nav-cta{background:#ffc54f;color:#253347;border-radius:11px}
+.orbit .button:hover,.orbit .masthead .nav-cta:hover{background:#ffb930}
+.orbit .body-copy,.orbit .eyebrow,.orbit .section-kicker,.orbit .fine,.orbit .brief-item p,.orbit .masthead nav>a{color:#5c6d7f}
+.orbit .detail-card .detail-kicker,.orbit .detail-model>strong,.orbit .detail-edit strong,.orbit .detail-comparison>div+div strong,.orbit .detail-delta>strong{color:#267cf2}
+.orbit .bar i{background:#3489fa}
+.orbit .story-pager a[aria-current=step]{color:#267cf2;border-color:#267cf2}
+.orbit .shop-caption strong{color:#293a4e;font-size:18px;font-weight:650}
+.orbit .shop-caption span{font-size:14px;color:#63778a}
+.orbit .detail-card{box-shadow:0 12px 40px #233a5810,0 1px 4px #233a5805}
+.orbit .shop-intro h1{color:#202c3b}
+.orbit .shop-stage{top:37%;bottom:3%}
+@media(max-width:760px){.orbit .shop-stage{top:38%;bottom:8%}.orbit .masthead nav>a{display:none}.orbit .satellite.detail-card{max-height:calc(100svh - 335px)}}

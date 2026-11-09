@@ -1,0 +1,41 @@
+{
+  "sectionId": "713:635",
+  "collectionId": "VariableCollectionId:713:636",
+  "modeId": "713:3",
+  "variables": {
+    "signedIn": "VariableID:713:637",
+    "accountKnown": "VariableID:713:638",
+    "hasStore": "VariableID:713:639",
+    "diagnosisIntent": "VariableID:713:640",
+    "google": "VariableID:713:641",
+    "kakao": "VariableID:713:642",
+    "zeroResult": "VariableID:713:643",
+    "failMeasure": "VariableID:713:644",
+    "phase": "VariableID:713:645",
+    "storeName": "VariableID:713:646",
+    "storeAddress": "VariableID:713:647",
+    "choice1": "VariableID:717:11",
+    "choice2": "VariableID:717:12",
+    "choice3": "VariableID:717:13",
+    "connectedMaps": "VariableID:717:14",
+    "planSummary": "VariableID:717:15",
+    "planBreakdown": "VariableID:717:16",
+    "fixCount": "VariableID:717:17"
+  },
+  "createdVariableIds": [
+    "VariableID:713:637",
+    "VariableID:713:638",
+    "VariableID:713:639",
+    "VariableID:713:640",
+    "VariableID:713:641",
+    "VariableID:713:642",
+    "VariableID:713:643",
+    "VariableID:713:644",
+    "VariableID:713:645",
+    "VariableID:713:646",
+    "VariableID:713:647"
+  ],
+  "createdNodeIds": [
+    "713:635"
+  ]
+}

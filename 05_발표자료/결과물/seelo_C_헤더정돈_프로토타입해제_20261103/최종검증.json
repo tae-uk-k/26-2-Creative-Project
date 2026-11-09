@@ -1,0 +1,135 @@
+{
+  "slides": [
+    {
+      "id": "620:12",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 서비스 소개"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:67",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 문제 정의"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:146",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 인사이트"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:200",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 핵심 기능"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:339",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 개발 범위"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:393",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 시스템 구조"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:479",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 화면 설계"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:759",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 데이터 설계"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    },
+    {
+      "id": "620:831",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "headerWithinSlide": true,
+      "visibleOverflow": [],
+      "activeMenu": [
+        "내비게이션 / 개발 계획"
+      ],
+      "visibleUnderline": 0,
+      "autoLayout": 0,
+      "missingFonts": 0
+    }
+  ],
+  "references": [
+    {
+      "id": "562:189",
+      "unchanged": true
+    },
+    {
+      "id": "613:53",
+      "unchanged": true
+    },
+    {
+      "id": "613:926",
+      "unchanged": true
+    }
+  ]
+}

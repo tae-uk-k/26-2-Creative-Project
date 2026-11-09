@@ -1,0 +1,366 @@
+{
+  "store_id": "SS-465733251",
+  "name": "파르코 서울숲점",
+  "address": "서울 성동구 서울숲2길 44 1층",
+  "same_branch_evidence": "두 지도 도로명·건물번호 일치. 지도 지점명 생략/별칭을 주소와 함께 대조.",
+  "kakao_phone": "02-467-8588",
+  "google_phone": null,
+  "current_operation_basis": "2026-11-03 네이티브 검색의 영업중 표시, 당일 지점 상세의 영업 안내. 현장 방문 검증은 수행하지 않음.",
+  "menu_count_reported": 19,
+  "basic_fields_present": [
+    "name",
+    "address",
+    "phone_in_at_least_one_public_channel",
+    "hours",
+    "cuisine",
+    "priced_meal",
+    "official_link"
+  ],
+  "official_authorship_verified": false,
+  "menu_photos": [
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "7d1a35aba48f08a4",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMTQ3%2FMDAxNzg3MTE0Njg0NzQz.etyzEFSlhq6NRaOpQpDXARtYx2--I51xcofDHhoN9AAg.4CfRjcNdb9k3Np0veytpu_VnY6tRwzK2lwWcLfP2AAUg.JPEG%2F900_20260817_191113.jpg%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_7d1a35aba48f08a4.jpg",
+      "sha256": "748af8d30d20bcb5c70a85f5e567d305c1e8ce3c774df529dc1987cb3979bc61",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "1ab31335c6620ad7",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDRfMjg0%2FMDAxNzkxMTAwNTQ4NTQy.doiI3UhW004YncjOqO7NwBVNxqtcdvQ2wxuAxqOgJXAg.RQ1OMxGtHvjBkTP7cdUSw4jlUHCPBLcdXX7U4cWqJoMg.JPEG%2F900_20261003_164159.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_1ab31335c6620ad7.jpg",
+      "sha256": "f63e6e2fc34337fdd01f30e1e8c35a0239db63139384b26c572b69e45fa0e243",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "e5cfa044bed38b1e",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMjEg%2FMDAxNzg3MTE0NjgyOTE0.iag-SWRpcIBAez4LNjD6FbANP49FhCVeKGBsNiMCKMgg.B2YAoQRh4q9v_kZ4_OhHdY4t6JyOUsKdE6KcqAwxLZsg.JPEG%2F900_20260817_191127.jpg%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_e5cfa044bed38b1e.jpg",
+      "sha256": "54a782a0f872c21db1a3fc57d2375bbab663fd2457e8e329215fbea10c40c3f1",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "046f614fbd41abaa",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDVfMTkg%2FMDAxNzkxMTkzMjExMDE5.pQ09MHwQV51hG609D7F1JymsJMZrzEmFa1Wr7pT5Wy8g.41W8qKNTxbKD3RhvzFZ1ZmFn1LTqhI0hyItonvysV8Qg.JPEG%2FSE-757C2D64-A6FA-4039-9E0F-03D86F42E945.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_046f614fbd41abaa.jpg",
+      "sha256": "de2d59799ce2ee141083999974c74922ed6045036e6a2670b8d3892430b99bb1",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "5771ca02ec49e5c2",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMjAx%2FMDAxNzg4NzU1NzE0MjQx.VsDi-0T-aQy2m72SgKsFxzte-4zzkS4TZOXlEXSmzI4g.Fm1_xrWeUex1-tbP9iNQKWE5ZxriZskBZ5wjatR9IxUg.JPEG%2F900_20260905_120150.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_5771ca02ec49e5c2.jpg",
+      "sha256": "417bdb8b7aa6a46b7c09a4500d41c49d82370651fda3c6c20272e67c1052ff3a",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "d84864c5598e43b7",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMTY5%2FMDAxNzg4NzU1NzE1MjQw.RpDJffQTNp0V7zUVDWMSH9T3TsTBWMjg_WQZo_FuOmEg.Dfc75qDR_mBrdQobhLPGXiQ5-vnJW6Os7GpXONzADB8g.JPEG%2F900_20260905_120159.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_d84864c5598e43b7.jpg",
+      "sha256": "17745681c83cfe04d9a327b671d49cc6413d1316b56fae21f6377b72b50da212",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "98badf3f49c1df01",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F5dfbdce8e0d79951c2997715dc86eeb8ae4a72b6%3Foriginal",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_98badf3f49c1df01.jpg",
+      "sha256": "41f8a6e65958ecd35841d190c4f020060b10f2d1a48b305d91a0dbc941fef392",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "cdc39051f83cb792",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fc97838b02aa760c8e18250c09c32e117d7966767%3Foriginal",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_cdc39051f83cb792.jpg",
+      "sha256": "575dd93a45dd80046af2ebb031bf50e320c54e2a9c764216c792daf7a7007608",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "7c37cdbff9cbd15c",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMjg1%2FMDAxNzg4NzU1NzE2MjU5.Y-7iaDVVykoyWAzi1gK842ONxNE5O33nvqLStOupFs0g.cyqEqT7lybIcTL-3ZYFH4LLBs8Eirfphyjb6hWahXKog.JPEG%2F900_20260905_120204.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_7c37cdbff9cbd15c.jpg",
+      "sha256": "31f150fd59474a8b160c2a9192752b0671e15c16324939a1c5d18abe8bfd2972",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "b089100b24247d6f",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMjc3%2FMDAxNzg3NTc3NjI3NDcz.kcQEiGqz1xDdpRLncL04HiHy-AMpYHf27SW2phVSCNYg.HlCjY4KOEIRiTlnNFaAEEHU7b4EU_ZMr_Aa4gx9QZK0g.JPEG%2FIMG%25EF%25BC%25BF6481.jpg%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_b089100b24247d6f.jpg",
+      "sha256": "12aeb5f2c64ed637c87ff83b50e88b3708ab2ecf12fbfefc09eebbe3cbb1070e",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "5272d8f76403c26b",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMTMg%2FMDAxNzg3NTc3NjI3NDcy.JTNwn4gFS67EbVfmHBvCZBGN3M-r0Kuk1JAmK3Ae5_Yg.gxXPPbpgl2E8I7XQ9aVktwi8xQrUCkDwDVVkuoTEu5og.JPEG%2FIMG%25EF%25BC%25BF6480.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_5272d8f76403c26b.jpg",
+      "sha256": "f6f6e01dfadfc20ecbcb0be486c0c37705378d43a61a0a6bead79f032fafa86d",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "1bd64e9b2902227b",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMTY4%2FMDAxNzg3NTc3NjI4MDEw.afLfSEaeYwRcuLP_bdHiQ_AepxYvrZj7DY8TwGWV0ukg.4I_TGxEgfWbftls_UaXjqCAfTtNv_dDifzmfxb5OVwEg.JPEG%2FIMG%25EF%25BC%25BF6479.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_1bd64e9b2902227b.jpg",
+      "sha256": "76a65521b0498130390f9ef347251fb05679f8224b868aab96eb7c19a56d3f3d",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "6eb5c61f5a7a92b4",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjVfMjA1%2FMDAxNzg3NjYyMDAwOTAw.cJFL5aiJRhOsS-lNiIA-ZiFsf0vrPaPSHFWBwL2ixX4g.dhVr8YyeQLRVzn0zsEOV3uStL0IinLQNBCkO-9hwIEQg.JPEG%2FSE-01E68BCC-30A0-4C36-8416-F44218CC9392.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_6eb5c61f5a7a92b4.jpg",
+      "sha256": "ee4c70edb56ba7422d0bba28cca01f9804c9ddebc8c3f630c0b75f122f58208c",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "3375695744943516",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTVfNzAg%2FMDAxNzg2NzYzNTc4NDU0.IN2fzNrrGzM2HS3Gcp40oMRPTpHyrENQgezbSvftOIcg.LSgbfdfOb9N1xYdYd-djcY85iBBFnmJiOH9rKfTAZsgg.JPEG%2FSE-68d89387-c691-4922-9c19-8486ddce5ab7.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_3375695744943516.jpg",
+      "sha256": "418dffd2f4cf400c4f46e7fdef772dac19ca7e70ae48a43ce2b9fab6aedf597c",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "d78efbe065b5ac38",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTVfNjgg%2FMDAxNzg2NzYzNTgwNzY5.6-18PnNHfVbSEb5MTV7ef9vrBOxsCCVFvLcs37RnKf0g.8ts7RUgM33Zzgs6QQfSZhsPuFxKFtxhKpaoPeShLezMg.JPEG%2FSE-50a55e68-e9f8-4200-8167-5a7cad5be3a6.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_d78efbe065b5ac38.jpg",
+      "sha256": "1611cb3207cd31c372a169635728c5a36170964088fed848be990f0e1f48d14d",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "5928ab15046ef5ac",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MTJfMTA5%2FMDAxNzgzODQxNDY5OTU0.-cPLXQUP6W9WOEvXP-06So2ly2PGclsi_7CTgXrV5J8g.chf9sbq8lLVy83yW_EVr0W_m7xasvn8qqfNAWF2sAUgg.JPEG%2F900_20260711_170949.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_5928ab15046ef5ac.jpg",
+      "sha256": "4f91942f25177df16589a55cdb038460380b9c1bdefb29d28501fb8591635a82",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "109dd64278976c96",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MDdfMTU4%2FMDAxNzgzMzk3ODI5NTU4.kJ4LA3GfFwnmWF1ZPmOGXLRt_R0PQPFjwsii9gpfsCAg.xVcdJwlzCspJDrr1wVqvuO20_3LmujQm83C9Y7awlhgg.JPEG%2FIMG%25EF%25BC%25BF8898.JPG%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_109dd64278976c96.jpg",
+      "sha256": "c4f8cbc3dec83e1aa186a9e49e5b2227c4f153c459612254c66ea998afc445e9",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-465733251",
+      "asset_id": "14fba46dc9a7fde6",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTJfMTUz%2FMDAxNzg2NTE0NTAxNjk5.evUmc8uz9_b8MOsIDZv6rg0pHz71jXIUu_0l0wZb4_Yg.AYRQxIx5PPN-M4pg6ncpKiuGtha4gEVECiFFfQCk-lMg.JPEG%2FSE-8c773a65-7e9c-461f-8426-ee284ae18356.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-465733251_14fba46dc9a7fde6.jpg",
+      "sha256": "2dd8fe3c69855104f42c7c0e7a220c98e6964358c8306a29cdf1fe32a22f454f",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "789e1db03132672b",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA3MDhfMjc4%2FMDAxNzUxOTM3MjQ0NDQ5.cpRxkBlcOrrqHhWN73mQSgyiY7zRBcm-_F6BOaPShtYg.VKof6h0F0f5pZhhzzPKOH0lYmYBVfknxKHNEwORu5vUg.JPEG%2FSE-f5d46777-562f-434b-b32e-43c2734d003e.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_789e1db03132672b.jpg",
+      "sha256": "88b1c95c7c20350e98c9ebce3074d48e99543961a4324ea22895027eb7aa9625",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "759d1f6398578da9",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA2MjFfMjc4%2FMDAxNzUwNDkyMjc3NjI3.yivwEo7sbOP0n4lD371Q8P6JfOad9_Yw43pYujiz4Nsg.VJCxQ8GXbjPDzEP0RShmFSAcs2sSG5TJSEkHpc6k7U0g.JPEG%2FIMG%25EF%25BC%25BF4813.JPG%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_759d1f6398578da9.jpg",
+      "sha256": "badfedd6a0dfb4f9c1ffdfaf78abe61a82123baac22142e40c2855e35b174f6a",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "5fddfe013aac6b08",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA0MDdfMjI4%2FMDAxNzQ0MDMxNDAzOTI1.lVMtV56HyvRIaivIide1ncVCKXHmkFKsu8PN5OF5-VMg.CUaW4bcGqNKEZy_TpVnk3t_H-sBawXgi8vmBZt5Z2Zwg.JPEG%2F11.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_5fddfe013aac6b08.jpg",
+      "sha256": "3924e56750675ad046b565e34b43a64fc0ffa9b76646d31240b4fb09b6ca8aa5",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "e3eb12b974e7d04b",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA0MDRfMTgx%2FMDAxNzQzNzc3NTQ2MDU5.oSrmjaGmx27otUn_ZjYDMXq5PjwhSNNl3Q6fg2mImrIg.UPvpLeLG0rH5jpsNxMHyP9YSsMvAGyze_W5J5it6PXgg.JPEG%2FSE-F7DE91D3-4DB7-4E55-836C-4FF5553E479E.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_e3eb12b974e7d04b.jpg",
+      "sha256": "b6a5f76f80a1623b0fa074e191ee190808dd4c426c5a84630881fe2011b494d0",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "d50fea98fb8ae271",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA0MDdfMzUg%2FMDAxNzQ0MDMxNDA0MDQ2.BDO2ANlrkWzNACxGIBJ1TOf-YGD0cG1PP6-ctEk32ZUg.qK5CjgrHqR_z5J9Jm0rCI-6_AGLOr-rq1XAhqZ1P_SYg.JPEG%2F9.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_d50fea98fb8ae271.jpg",
+      "sha256": "6b3f39040188f26fbc005d219edf4015f040751e238cfbbb8bf59b092f7cbb59",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "321f26c7a95337d5",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDAxMDRfMjIw%2FMDAxNzA0Mjk0NzEzNDY4.qdg1ICMWJQSTyOpbZOjKR4RblZKKdXaNqW0zDMiqjwsg.d9ncndj8WIEPXhvidXdIQhvy5SZCVVBnNIylgWTeDnQg.JPEG.jhkim9562%2FIMG_6998.jpg%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_321f26c7a95337d5.jpg",
+      "sha256": "2d8290606ac5a66cbb5224e4e90cc3f75cd77cdf4a3d1f7b51d1bd9a0c2ca126",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "e31595a182688d84",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMjhfOTkg%2FMDAxNzM1MzU2NjYxMDcx.zl8cRAMuCISnBvfJc_O9zbua_NtuxHzseAXAd1nOFZcg.vQMomZ22EiVqzYHTifJda7i91fyAYDCk4bLVSmMxFcwg.JPEG%2FIMG_5440.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_e31595a182688d84.jpg",
+      "sha256": "6b881c7acf34f42b3ba4c6f648da6558a8f440032ca6b01a60ed0847ec805b8f",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "22e8dda03161058f",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMjhfMTUz%2FMDAxNzM1MzU3NzM5MzEw.LiQDynw9x5Vo-u-7MaURguWP19lerLLOMZ1uFyJXk-0g.ByBhfDWo3E1LrAJdiPV1tw46fthynxf7YxOu9SOIuNYg.JPEG%2Foutput_1042020514.jpg%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_22e8dda03161058f.jpg",
+      "sha256": "cab422397e6c4a88610e72de84e52619d4847b3067e5ab956300b5d7d9a37dd3",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "45c08e02e4c970e9",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMThfMjcw%2FMDAxNzM0NTI3ODkwMTE5.gDkO269K96BlWwyUmm8vI9u6GpxrKMutDAGr2nTbzi0g.jymUm0THEx9sbD9Z2rUa5FDFZAq_wfsu5Fg7zD-POiEg.JPEG%2FIMG_4571.jpg%3Ftype%3Dw580",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_45c08e02e4c970e9.jpg",
+      "sha256": "3b01aa5faca69d79614253e0471876eb18952c2caab3489b4f8a20014009cde9",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "e22d4dac83f42c77",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMjNfMTcw%2FMDAxNzM0OTYwODg5OTE2.PkMxb2ouUudyDZ1W3AHfVLQPyjm00YSADe0Nad5Xrhkg.UC3cAUoTcYnZhzAb3xDgGLruC9a9oQqp2BsxWJv-GNgg.JPEG%2F900%25EF%25BC%25BF20241223%25EF%25BC%25BF190647.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_e22d4dac83f42c77.jpg",
+      "sha256": "8486b9e21a6e5abd2eb10236998218f508334582ad7354f01c53be19d2a047bf",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "b84b5af8b71a3f98",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMTBfMTQ1%2FMDAxNzMzNzYzNzI5NDA4.l_dRscNDkNxiXd13zmx8aOrH4r3fDqFi9Ir68paif58g.KXt7ALorO9mGxnIDkCC9AUFaq932ULYaLMHB9GntAi8g.JPEG%2FSE-941f7fbe-7ca6-4e98-83e3-4363df5635d5.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_b84b5af8b71a3f98.jpg",
+      "sha256": "15413ef0330d610a832b2b94662448973a24b399f31b8fa242bae19c138bd084",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "2327e2af7a3f4900",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMTBfMjA3%2FMDAxNzMzNzYzNzMyNTEw.OyZzGQIzsnThQXIMEimMH-Fh3BGDTxBA94jWJ6aAzPgg.1vMftsgmMbJ-UhIBEk9_e6JdFRWKn2vMX2cedn8F97Yg.JPEG%2FSE-4d640290-03b2-4837-b49b-13d7cbf9e7ab.jpg%3Ftype%3Dw773",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_2327e2af7a3f4900.jpg",
+      "sha256": "8ce46c5032d18589095f98b67a69357da24ced835b0ad907cf52b7d9625199b3",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "8ffec66375b53c0c",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDExMjlfMTM5%2FMDAxNzMyODYyNjQyMjUx._ZCEYpJdhSfPWLSUFaGcEovSOEJ8BmETElZ2pBkPXdEg.5Q_47fp0SXd50pKC55xXMb3CXwRw-LEQ2epnLT0SZcIg.JPEG%2FSE-082779C9-8EFD-4DF0-B26C-C85B1C1AC8AA.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_8ffec66375b53c0c.jpg",
+      "sha256": "39e30cd38134a0652da49bdd01137b69780b3cc6611dfc810b450162a8f50853",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "8e7365b6d1730ec3",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMTBfOTkg%2FMDAxNzMzNzU2NjYyNTI2.NvwoSv2sV-s1jyVN1tB-kxCg0tKDOkiIZat1Eb09NwQg.AsiMOF2YYFjHDvTtU1aZ6LXw6a8_VrQ-oSBnsObXPoEg.JPEG%2FIMG_6211.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_8e7365b6d1730ec3.jpg",
+      "sha256": "36ce586173a19452e0899b8d3748fe8409cdac036fbec88ff4d9987f40404a37",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "c99feb0942b17f1f",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMTBfMjI4%2FMDAxNzMzNzU2NjYwMzI3.mRea9Oooq7j3Tne13v8AieEXgdi8o1iczXcLzt6jr1Ug.RsbnVfgzVBn-NRtK-fBYqIVlk9dqX3cl-khwlJxQz0Yg.JPEG%2FIMG_6207.jpg%3Ftype%3Dw966",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_c99feb0942b17f1f.jpg",
+      "sha256": "b7a09c6afd2b8e0564046a69e72ffeea16419fb0a46bee9d6b4166861bcfdead",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "3a80d101640792f6",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDExMjlfMTE2%2FMDAxNzMyODYyNjI2Njg1.xuA_qvQRXVnB8LH6Gqa73mGYmfSKGmsl27FhYvY__0Ag.72EFf8_OHdp5h2faS7dk4jmkWmtDi1zKShdeRoC3G90g.JPEG%2FSE-825A3884-CC76-4897-93ED-A90747D846B7.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_3a80d101640792f6.jpg",
+      "sha256": "c6ad90e85e0e5468110e51bfb79429615c33fbad708d9adbc14ca7a86a6d2ee8",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "09c0948085b50e56",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMDRfMTM3%2FMDAxNzMzMjcxMDk5MTYy.1gIbrKmyYHIFCVX9omrdmf4KymRqd7g74CD1uGhJCcMg.SQaqO63sbDydn33glAncvlpbLKKu0OAFH-evEiN8A0cg.JPEG%2FIMG_9399.JPG%3Ftype%3Dw386",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_09c0948085b50e56.jpg",
+      "sha256": "e3dff3dceda8345f59b044137944189a27bc60473fff1695fb23652338461b17",
+      "visually_read": true,
+      "writer_verified": false
+    },
+    {
+      "store_id": "SS-487665317",
+      "asset_id": "b2510b9baace4fee",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDExMjlfMjM0%2FMDAxNzMyODYyNjI0MzMy.zTlj-AMVzHMm1lCS2GIikkmRyh8TC6wbr0hwxPT3wksg.UYy7Y-5C5hiVE9r1wLiGlsEoq6AGCBBgkGiDvdcI28sg.JPEG%2FSE-F881CAFC-A1D4-437D-ADBD-C97933CB3316.jpg%3Ftype%3Dw466",
+      "evidence_file": "analysis\\확정표본_20261103_01\\menu_photos\\SS-487665317_b2510b9baace4fee.jpg",
+      "sha256": "7b0267dc88e4e19e5121f0502c612f4d349162e83c6f14e97cde4c933a6c0ef6",
+      "visually_read": true,
+      "writer_verified": false
+    }
+  ],
+  "observation_records": [
+    {
+      "body": "본문 바로가기\n메뉴 바로가기\n파르코 서울숲점\n지도 검색\n검색\n로그인\n카카오맵 본문\n장소명\n파르코 서울숲점\n장소 카테고리\n피자\n별점\n4.4\n후기\n298\n개\n블로그330\n개\n영업 전11:30 오픈\n성동구 피자 인기 맛집\n로드뷰공유지도즐겨찾기\n출발\n도착\n업로드 된 사진 수\n999+\n홈\n메뉴\n사진\n후기\n블로그\n랭킹\nkanana\n장소요약\n화덕향 가득한 감성 나폴리피자\n단체석\n콜키지 부과\n장소 기본 정보\n영업정보\n접기\n영업 전11:30 오픈\n화(11/3)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n수(11/4)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n목(11/5)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n금(11/6)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n토(11/7)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n일(11/8)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n월(11/9)\n11:30 ~ 21:30\n15:00 ~ 17:00 브레이크타임\n수정제안\nURL\nhttp://www.instagram.com/parco_seoulforest\n수정제안\n주소\n서울 성동구 서울숲2길 44 1층 (우)04768복사펼치기\n출구정보\n수인분당\n서울숲역 5번 출구에서 364m도보 6분\n전화\n02-467-8588복사\n수정제안\n인증 매장\n이 장소의 사장님이라면?\n매장관리\n정보 수정 제안하기\n최대 5점\n장소 기본 정보\n매장 정보\n펼치기\n시설정보\n단체석\n반려동물 동반\n콜키지 부과\n주차\n인근 공영·유료 주차장 이용 권장, 인근 성동구민종합체육센터 공영주차장 이용 권장, 서울숲 공원 주차장 이용 가능\nkanana 활용\n안내\n태그\n#피맥\n메뉴\n등록된 메뉴 개수\n19\n메뉴판 목록\n등록된 메뉴 개수\n30\n메뉴 목록\n버섯치즈 리조또\n\n20,800원\n\n바질 크레마\n\n20,800원\n\n해산물 리조또\n\n20,800원\n\n풍기 샐러드\n\n20,000원\n\n메뉴 수정 제안하기\n최대 5점\n메뉴 더보기\n",
+      "kind": "detail",
+      "observed_at": "2026-11-02T19:46:21.841Z",
+      "platform": "kakao",
+      "section": "home_hours",
+      "store_id": "SS-465733251",
+      "url": "https://place.map.kakao.com/465733251"
+    },
+    {
+      "body": "\n\n\n\n저장됨\n\n최근 항목\n\n앱 설치\n\n사진 보기\n파르코\n4.5\n(205)\n이탈리아 음식점·\n개요\n리뷰\n정보\n\n경로\n\n저장\n\n주변\n\n휴대전화로 보내기\n\n공유\n \n\n서울특별시 성동구 서울숲2길 44\n\n\n영업 종료\n\n화요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n수요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n목요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n금요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n토요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n일요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~8:00\n\t\n\n\n월요일\n\t\n오전 11:30~오후 3:00\n오후 5:00~10:30\n\t\n\n새로운 영업시간 제안\n\nG2WV+G9 서울특별시\n\n\n\n비즈니스에 대한 소유권 주장\n\n \n\n수정 제안하기\n \n누락된 정보 추가\n\n\n장소의 전화번호 추가\n\n웹사이트 추가\n \n사진\n사진 419장\n \n\n사진 및 동영상 추가\n \n",
+      "kind": "detail",
+      "observed_at": "2026-11-02T19:46:41.119Z",
+      "platform": "google",
+      "section": "overview_hours",
+      "store_id": "SS-465733251",
+      "url": "https://www.google.com/maps/place/%ED%8C%8C%EB%A5%B4%EC%BD%94/data=!4m5!3m4!1s0x357ca541aeb27643:0xa4f093a0d1257ce!16s%2Fg%2F11jn4yw8wq!19sChIJQ3ayrkGlfDURzlcSDToJTwo!20s8Q99G2WV%2BG97"
+    }
+  ]
+}

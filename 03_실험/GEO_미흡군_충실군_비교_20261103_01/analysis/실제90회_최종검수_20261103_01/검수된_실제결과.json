@@ -1,0 +1,50 @@
+{
+  "target_pairs": 12,
+  "actual_pairs": 1,
+  "target_stores": 24,
+  "actual_stores": 2,
+  "cohort_counts": {
+    "stores": 2,
+    "pairs": 1,
+    "by_area": {
+      "MD": 0,
+      "SS": 1,
+      "MW": 0
+    }
+  },
+  "actual_attempts": 90,
+  "generated_recommendation_responses": 15,
+  "usage_limit_failures": 75,
+  "map_requirement_failures": 15,
+  "valid_responses": 0,
+  "exposure_A_pct": null,
+  "exposure_B_pct": null,
+  "difference_B_minus_A_pp": null,
+  "source_or_branch_review_completed_for_valid_responses": 0,
+  "failed_answer_recommendation_rows": 75,
+  "failed_answer_facts_fully_audited": false,
+  "response_map_link_counts": {
+    "kakao": 5,
+    "google": 7
+  },
+  "search_only_logs_among_generated": 5,
+  "neutral_probe_count": 8,
+  "neutral_included_in_90": false,
+  "preserved_previous_files": 85,
+  "all_raw_hashes_unchanged": true,
+  "all_90_thread_ids_unique": true,
+  "local_file_tool_events": 0,
+  "cohort_frozen_before_first_attempt": true,
+  "cohort_hashes_unchanged": true,
+  "execution_started_kst": "2026-11-03 15:08:06",
+  "execution_ended_kst": "2026-11-03 15:17:54",
+  "sample_target_complete": false,
+  "initial_90_attempts_complete": true,
+  "comparative_study_complete": false,
+  "next_blockers": [
+    "CLI usage limit",
+    "two-map detail verification unavailable in generated CLI responses",
+    "11 target pairs not secured"
+  ],
+  "metadata_correction": "동결 매장근거 JSON의 미테이블 menu_count_reported=19는 메뉴판 사진 수와 혼동한 기술 오류. 실제 카카오 텍스트 메뉴2/메뉴판사진19를 별도 정정표에 기록. 동결 파일·점수·표본을 변경하지 않음."
+}

@@ -1,0 +1,23 @@
+{
+  "promptId": "d2a4d477-c492-4ff7-b6a7-3e87e852f870",
+  "files": [
+    {
+      "name": "kakao",
+      "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\02_조사\\geo_native_pages_20261109\\figma_import_20261109\\kakao-self-contained.html",
+      "bytes": 38484008,
+      "width": 1280,
+      "height": 1522
+    },
+    {
+      "name": "google",
+      "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\02_조사\\geo_native_pages_20261109\\figma_import_20261109\\google-self-contained.html",
+      "bytes": 25872016,
+      "width": 1280,
+      "height": 765
+    }
+  ],
+  "missing_resources": [
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\02_조사\\geo_native_pages_20261109\\images\\ico_sns.png",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\02_조사\\geo_native_pages_20261109\\images\\ico_sns_3x.png"
+  ]
+}

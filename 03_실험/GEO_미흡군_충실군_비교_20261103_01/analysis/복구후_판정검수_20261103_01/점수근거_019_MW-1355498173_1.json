@@ -1,0 +1,19 @@
+{
+  "store_id": "MW-1355498173",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "2인 세트는 있으나 주요 단품 파스타·리조또 전반에는 판매 단위가 없어 일부 명확1점.",
+  "sources": [
+    {
+      "quote": "2인",
+      "source_url": "https://place.map.kakao.com/1355498173#menuInfo",
+      "observed_at": "2026-11-02T18:54:31.124Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\075_MW-1355498173_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

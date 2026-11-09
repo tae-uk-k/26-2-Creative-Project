@@ -1,0 +1,45 @@
+{
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/jpeg",
+        "id": "5b4f6d33f6df0d9c",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/5e6b6c49-d2ed-45dc-8be9-d179bf834129/5b4f6d33f6df0d9c",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA4MDdfMTI0%2FMDAxNzU0NTY1OTg2NzQy.jqJxRQkjlhJjFbwtcF_4QcAX-bHP3WFr8MCipsdGbvIg.FodiMLR8gaC-WMhLuGAA0Qw4QutGdeyNVgFgWsh4hTIg.JPEG%2FSE-176278c1-6186-4327-aec3-a71a3ed8db31.jpg%3Ftype%3Dw966"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "dd7ed2b632da5b20",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/5e6b6c49-d2ed-45dc-8be9-d179bf834129/dd7ed2b632da5b20",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDA4MTVfMTM0%2FMDAxNzIzNzEzNjY0MzAy.19NBSUsC8Bqc7Z2K8QCxJbQHKrEvnPbVdfPLDDXjP6Mg.qvSQlLZ2boGS_y1nBkKqik1cecNs52yzIm7zY0oHxwIg.JPEG%2FIMG_9310.jpg%3Ftype%3Dw773"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "56ffe8c9acd436b9",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/5e6b6c49-d2ed-45dc-8be9-d179bf834129/56ffe8c9acd436b9",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Ffiy_reboot%2Fplace%2F0C5042992AB34209AFA0116623A94904"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/5e6b6c49-d2ed-45dc-8be9-d179bf834129",
+    "failures": [],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/5e6b6c49-d2ed-45dc-8be9-d179bf834129/manifest.json",
+    "summary": {
+      "downloadedCount": 3,
+      "elapsedMs": 106.87159999998404,
+      "failedCount": 0,
+      "requestedCount": 3
+    }
+  },
+  "kind": "detail",
+  "observed_at": "2026-11-03T01:50:50.537Z",
+  "platform": "kakao",
+  "section": "menu_photo_bundle",
+  "store_id": "SS-16879903",
+  "url": "https://place.map.kakao.com/16879903#photoList?type=menuboard&pidx=0"
+}

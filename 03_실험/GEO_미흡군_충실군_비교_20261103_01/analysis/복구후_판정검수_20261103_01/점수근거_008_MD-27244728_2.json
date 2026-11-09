@@ -1,0 +1,27 @@
+{
+  "store_id": "MD-27244728",
+  "item": 2,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "반반 구성·셀프 제공 안내는 일부 명확하나 일반 영업시간과 개별 메뉴 주문 조건의 연결은 부분적. 존재가 확인되지 않은 제한을 가정하지 않음.",
+  "sources": [
+    {
+      "quote": "돈까스와 바삭하고 부드러운 생선까스가 함께 나오는 메뉴",
+      "source_url": "https://place.map.kakao.com/27244728#menuInfo",
+      "observed_at": "2026-11-03T02:07:40.701Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\221_MD-27244728_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "고추와 깍두기는 셀프 제공",
+      "source_url": "https://place.map.kakao.com/27244728#menuInfo",
+      "observed_at": "2026-11-03T02:07:40.701Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\221_MD-27244728_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

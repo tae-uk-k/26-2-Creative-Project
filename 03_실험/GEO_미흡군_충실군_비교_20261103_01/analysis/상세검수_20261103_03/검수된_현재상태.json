@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-03T01:38:16.941314+00:00",
+  "observation_records": 183,
+  "native_search_cards": 1208,
+  "unique_candidate_kakao_ids": 157,
+  "candidate_links": 279,
+  "detail_records": 118,
+  "detail_stores": 36,
+  "stores_with_both_map_details": 19,
+  "archived_photos": 85,
+  "visually_read_photos": 40,
+  "finalized_stores": 0,
+  "finalized_pairs": 0,
+  "target_pairs": 12,
+  "target_stores": 24,
+  "scheduled_cells": 90,
+  "actual_restaurant_attempts": 0,
+  "neutral_probe_attempts": 5,
+  "neutral_probe_outcomes": {
+    "model_failure": 1,
+    "map_access_failure": 4
+  },
+  "previous_study_files_unchanged": 85,
+  "exposure_A_pct": null,
+  "exposure_B_pct": null,
+  "difference_B_minus_A_pp": null,
+  "study_complete": false,
+  "browser_access": "disabled_in_work_settings_after_prior_success",
+  "note": "Unstarted restaurant cells are neither failed calls nor nonappearance. No A/B rate can be estimated before cohort freeze and valid responses."
+}

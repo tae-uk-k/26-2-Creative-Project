@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-142054376",
+  "item": 3,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "양 지도 주말 휴게시간 표기 차이를 병기. 공식 지점 링크로 Dos/Tres 분리 확인.",
+  "sources": [
+    {
+      "quote": "15:00 ~ 17:00",
+      "source_url": "https://place.map.kakao.com/142054376",
+      "observed_at": "2026-11-02T19:46:23.360Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\157_SS-142054376_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "오전 11:00~오후 9:00",
+      "source_url": "https://www.google.com/maps/place/%EB%88%84%EB%A9%94%EB%A1%9C%EB%8F%84%EC%8A%A4/data=!4m5!3m4!1s0x357ca55bac9c0b1f:0xfaa19b9e1ae3b764!16s%2Fg%2F11gt__367j!19sChIJHwucrFulfDURZLfjGp6bofo!20s8Q99G2WW%2BGWG",
+      "observed_at": "2026-11-02T19:46:42.547Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\160_SS-142054376_google_overview_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

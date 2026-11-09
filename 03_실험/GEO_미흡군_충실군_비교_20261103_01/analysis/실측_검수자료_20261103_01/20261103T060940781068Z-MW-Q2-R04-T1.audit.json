@@ -1,0 +1,901 @@
+{
+  "attempt_id": "20261103T060940781068Z-MW-Q2-R04-T1",
+  "cell_id": "MW-Q2-R04",
+  "raw_sha256": "f1c5bc66905204b497fdcd62a8143b9bcdba1e9d85a9bca986bbae1c8f4e1fc4",
+  "process_status": "process_completed_requires_audit",
+  "returncode": 0,
+  "started_at": "2026-11-03T06:09:40.782076+00:00",
+  "ended_at": "2026-11-03T06:10:44.185132+00:00",
+  "thread_ids": [
+    "01a1a007-1547-7b81-99a4-33ad37d1b0fc"
+  ],
+  "invalid_json_lines": [],
+  "provider_errors": [],
+  "forbidden_tool_items": [],
+  "search_event_count": 7,
+  "tool_actions": [
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action": {
+        "type": "search",
+        "queries": [
+          "망원 맛집 카카오맵 구글지도 소금집 델리 망원",
+          "망원 헤키 우이락 청어람 메뉴 가격"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-9b120d62-4a63-40bb-be7a-85d35a652a30",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:place.map.kakao.com \"소금집\" \"망원\"",
+          "site:google.com/maps \"망원\" \"우이락\"",
+          "site:place.map.kakao.com \"망원\" \"헤키\"",
+          "site:google.com/maps \"망원\" \"청어람\""
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"소금집델리 망원\" \"map.kakao.com\"",
+          "\"우이락 망원본점\" \"google\"",
+          "\"헤키\" \"maps\" \"망원\"",
+          "\"청어람\" \"map.kakao.com\""
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action": {
+        "type": "search",
+        "queries": [
+          "망원동 맛집 망원동즉석우동 메뉴 가격 2026",
+          "망원 소금집델리 잠봉뵈르 14000 2026",
+          "망원 청어람 본점 곱창전골 가격 2026"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-4a5b7691-4ace-43fa-8444-36da702915c1",
+      "action": {
+        "type": "other"
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action": {
+        "type": "open_page",
+        "url": "https://map.kakao.com/"
+      },
+      "request_map": "kakao"
+    },
+    {
+      "event_id": "exec-3fd87ea6-1cc3-4ddf-a6ba-fdeacb777da6",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC"
+      },
+      "request_map": ""
+    }
+  ],
+  "source_events": [
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://5739572.tistory.com/m/100",
+      "ref_id": "turn0search0",
+      "title": "망원 잠봉뵈르 맛집 소금집델리 웨이팅 없이 포장하기 메뉴 추천 샤퀴테리 보드",
+      "snippet": "### 망원 잠봉뵈르 맛집 소금집델리 웨이팅 없이 포장하기 메뉴 추천 샤퀴테리 보드 ... 소금집델리 망원점 건물 1층에는 요즘 망원에서 핫한 태국음식점 코랏이 위치한다. 서울 마포구",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/list.dc?query=%EB%A7%9D%EC%9B%90+%EB%B0%B0%EB%8B%AC%EA%B0%80%EB%8A%A5",
+      "ref_id": "turn0search1",
+      "title": "망원 배달가능 맛집 Top100 - 다이닝코드",
+      "snippet": "레이지오프 망원동 69점 3.7(7명)수제버거 배달혼밥캐주얼한테이크아웃 영업 중\"*맛 요즘 버거 잘 하는 집이 참 많다. 빵 고소하고 바삭하게 잘 구웠음 패티와 재료 신선하고 육즙 살아있음. ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gftr.tistory.com/534",
+      "ref_id": "turn0search2",
+      "title": "망원 맛집 베스트 5 추천, 모두를 위한 맛집",
+      "snippet": "망원 맛집 [헤키] 메뉴 및 가격: 히레카츠 정식 - 14,500원- YLD 돼지의 소량 나오는 근육이 없는 안심살은 부드러우며 쫀득한 식감을 제공/ 상로스카츠정식 - 17,500원- 등심덧살(가브리살)이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://hotel-iu.tistory.com/2695",
+      "ref_id": "turn0search3",
+      "title": "망원시장 맛집 베스트 추천 top 10",
+      "snippet": "청어람 망원점의 곱창전골은 푸짐한 양의 곱창과 신선한 채소가 가득 담겨 나옵니다. ... 뼈와 채소로 우려낸 국물은 잡내가 전혀 없어 곱창과 채소의 맛을 한껏 즐길 수",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=_m6QirRBHUE",
+      "ref_id": "turn0youtube12",
+      "title": "[ VLOG ] 평소에 뭐하고 사냐고요? 미니 GRWM를 곁들인 브이로그✌️( 연말맞이 네일 바꾸고 경락 갔다가 망원 맛집 뿌수는 일상🎄) - YouTube",
+      "snippet": "미니 GRWM를 곁들인 브이로그✌️( 연말맞이 네일 바꾸고 경락 갔다가 망원 맛집 뿌수는 일상🎄) By: 오션 OCEAN (296000 followers) ... 오늘은 제가 평소에 어떻게 사는지 저의",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://naejari.com/restaurant/%EC%84%9C%EC%9A%B8/%EB%A7%88%ED%8F%AC%EA%B5%AC/%EB%A7%9D%EC%9B%901%EB%8F%99",
+      "ref_id": "turn0search4",
+      "title": "마포구 망원1동 맛집 추천 88곳 지도 | 내 자리",
+      "snippet": "전국 맛집/서울 맛집/마포구 맛집/망원1동 맛집 ... * 정각 서울망원본점 · 월~금 16:00~23:00, 토·일 12:00~22:00 후기 200+ · 망원역 도보 8분 · 직화소갈비된장찌개 8,000원 / 눈꽃육회",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/list.dc?query=%EB%A7%88%ED%8F%AC%EA%B5%AC+%EC%9B%94%EB%93%9C%EC%BB%B5%EB%A1%9C42%EA%B8%B8",
+      "ref_id": "turn0search5",
+      "title": "마포구 월드컵로 맛집 Top100 - 다이닝코드",
+      "snippet": "소금집 델리 망원동 84점 4.2(75명)샌드위치잠봉뵈르 수요미식회데이트배달캐주얼한 오늘 휴무\"줄서기: 는 계단 피해서 해달라고 하더라구여. ... 최강금돈까스 합정 82점 4.4(62명)돈까스등심돈까스 다코숨은맛집데이트깔끔한바자리 영업 전\"웨이팅 지옥이라고 해서 걱정했지만 케치테이블",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kaneda789.tistory.com/entry/%EB%A7%9D%EC%9B%90%EC%97%AD-%EB%A7%9B%EC%A7%91-%EC%B6%94%EC%B2%9C",
+      "ref_id": "turn0search6",
+      "title": "망원역 맛집 추천, 근처 7곳 맛집 라무라 합정점 | 청어람 망원점 | 우이락 | 소금집델리 망원 | 연교 | 디어리스트 연남 | 헤키",
+      "snippet": "# 망원역 맛집 추천, 근처 7곳 맛집 라무라 합정점 | 청어람 망원점 | 우이락 | 소금집델리 망원 | 연교 | 디어리스트 연남 | 헤키 ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://food.issue-economy.com/station/%EC%84%9C%EC%9A%B8/%EB%A7%9D%EC%9B%90%EC%97%AD",
+      "ref_id": "turn0search7",
+      "title": "망원역 맛집 734곳 · 망원역 근처 맛집 · 망원 맛집 추천",
+      "snippet": "1신규 오픈 기타 · 마포구 타코벨 망원역점🚇 망원역 도보 1분약 48평 2신규 오픈 한식 · 마포구 해달밥술🚇 망원역 도보 1분약 15평 315년째 영업 카페 ·",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://dailydaylee.tistory.com/36",
+      "ref_id": "turn0search8",
+      "title": "맛집리뷰) 수요미식회 냉동삼겹살맛집 망원 “행진”",
+      "snippet": "# 맛집리뷰) 수요미식회 냉동삼겹살맛집 망원 “행진” ... 지난 주말 가족들과 서울 나들이를 가서 고기집을 찾다 저희가 항상 눈여겨보던 줄서서 먹는 망원동 맛집 행진으로 가게되었습니다. ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://wirbel.tistory.com/944",
+      "ref_id": "turn0search9",
+      "title": "[망원역] 헤키 - 망원동에서 웨이팅 있는 돈카츠 맛집!",
+      "snippet": "캐치테이블 현장대기는 런치는 08:40, 평일 디너는 15:00, 주말 디너는 16:00부터 가능하다고 합니다. ... 망원동 돈카츠 헤키 메뉴 가격. ... 들기름냉우동 7,000원. ... 망원 헤키 음료",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://m.menupan.com/restaurant/onepage.asp?acode=D103706",
+      "ref_id": "turn0search10",
+      "title": "카카오다다(cacaodada) 모바일웹 - 마포구 망원동 지역맛집",
+      "snippet": "망원역 2번출구에서 15분 도보이동망원역 6호선>> 월드컵로 270m 직진>> 망원로 망원동 방면으로 좌회전 후 355m 이동>> 포은로 좌회전 후 552m 이동>> 동교로 망원제2빗물펌프장 방면으로 우회전 후",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://pf.kakao.com/_klYxoG",
+      "ref_id": "turn0search11",
+      "title": "카카오톡채널 - 바삭마차",
+      "snippet": "카카오톡 채널 ... ▫ 고객 분들의 꾸준한 사랑으로 2025 블루리본서베이에도 등재되어 7년 연속 획득하게되었습니다! ... 감사합니다~ 😉 ▫ [금일 #바삭마차 수제까스 라인업] ✅무안양파 카츠산도⭐ ✅통모짜렐라치즈롤까스⭐",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=YxIbQbBH0V8",
+      "ref_id": "turn0youtube13",
+      "title": "망원 브런치 | 잠봉뵈르 맛집 | 소금집 델리 망원 | SALT HOUSE - YouTube",
+      "snippet": "# 망원 브런치 | 잠봉뵈르 맛집 | 소금집 델리 망원 | SALT HOUSE",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.changwon.go.kr/cwportal/_res/cwportal/data/character_2022/character_menu.pdf",
+      "ref_id": "turn0search14",
+      "title": "창원시청_피우미_매뉴얼_0513",
+      "snippet": "",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_OkCoat5031/comments/xw2rmk",
+      "ref_id": "turn0reddit15",
+      "title": "횡성맛집 오픈채팅↘BCGAME77.COM□ 성남 맛집 동호회 안국 맛집 접속",
+      "snippet": "COM▣ 장교 맛집 투어 망원 맛집 하는곳 \\[본사문의 텔레 JBOX7\\]사근 맛집 방송 수유 맛집 총판 횡성맛집 \\[총판문의 카톡 JBOX7\\]용두 맛집 야동 하남 맛집 최신주소 횡성맛집",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://ekara.org/file/getBlob/39898/%3C%EB%8F%99%EB%AC%BC%EA%B6%8C%ED%96%89%EB%8F%99%20%EC%B9%B4%EB%9D%BC%3E%202022%20KARA%20%EC%A0%95%EA%B8%B0%EC%B4%9D%ED%9A%8C%20%EC%9E%90%EB%A3%8C%EC%A7%91.pdf",
+      "ref_id": "turn0search16",
+      "title": "116  벌점자료\n\n# 2021 구조개체 목록\n\n<visual_element id=\"e1\"",
+      "snippet": "신복 레곤 린다 비룡 오호 몽실(파니) 코점 윙크 하나 조아 광주유기견 포획4 화성 고양이 구리 고양이 망원 옥상 고양이 ... 칠호 망원 미야 양평 떠돌이견",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_Commercial-Garage465/comments/z7mqd2",
+      "ref_id": "turn0reddit17",
+      "title": "풍납맛집 사이트◑JBOX5.COM▤ 반포 맛집 최신주소 영등포 맛집 동영상",
+      "snippet": "COM← 압구정 맛집 라인 청담 맛집 최신주소 \\[본사문의 텔레 JBOX7\\]신림 맛집 틱톡 망원 맛집 리조트 풍납맛집 \\[총판문의 카톡 JBOX7\\]산방 맛집 하는곳 노량진 맛집 지도 풍납맛집",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_didoxec124/comments/y0eu5n",
+      "ref_id": "turn0reddit18",
+      "title": "가리봉맛집 ‡‡‡bcgame8.com‡‡‡ □ 운니 오픈채팅 맛집",
+      "snippet": "CoM 망원 맛집 동호회 삼성 맛집 최신주소 \\[본사문의 텔레 @JBOX7\\]태평로 맛집 리조트 김천 맛집 야동 가리봉맛집 \\[총판문의 카톡 JBOX7\\]무교 맛집 링크 시흥 맛집 오픈채팅 가리봉맛집",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_Willing_Toe_3912/comments/yfgdkj",
+      "ref_id": "turn0reddit19",
+      "title": "양화맛집 텔레그램♥BCGAME5.COM™ 용문 맛집 여행 창원 맛집 틱톡",
+      "snippet": "COM＠ 진천 맛집 텔레그램 녹번 맛집 검증 \\[본사문의 텔레 JBOX7\\]보광 맛집 트위터 망원 맛집 모임 정보 양화맛집 \\[총판문의 카톡 JBOX7\\]하계 맛집 위치 강일 맛집 인스타그램",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_vibesar633/comments/xrr55y",
+      "ref_id": "turn0reddit20",
+      "title": "권농맛집위치 ↑BCGAME8.COM↑ ☆수서맛집스토리",
+      "snippet": "COM§ 누하 맛집 카카오톡 안산 맛집 유투브 \\[본사문의 텔레 @JBOX7\\]장교 맛집 시스템 내곡 맛집 총판 권농맛집 \\[총판문의 카톡 JBOX7\\]만리 맛집 틱톡 자양 맛집 지도 권농맛집",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_votribiydi/comments/y1j1yh",
+      "ref_id": "turn0reddit21",
+      "title": "고척맛집 리조트 ↑↑BCGAME2.COM↑↑ 신대방 맛집 추천 포항 맛집 검증",
+      "snippet": "COM↑↑ 소공 맛집 동영상 안동 맛집 모임 정보 \\[본사문의 텔레 u/JBOX7\\]장안 맛집 인스타그램 망원 맛집 하는곳 고척맛집 \\[총판문의 카톡 JBOX7\\]하월곡 맛집 이야기 안암 맛집 모임",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7512d9bc-74ca-4d5c-8362-48ab918f1865",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/LivinginSeoul/comments/1whr0sh/living_in_seoul%EC%97%90%EC%84%9C_%ED%85%8C%EB%A7%88%EC%A7%80%EB%8F%84%EB%A5%BC_%EC%98%A4%ED%94%88%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4/",
+      "ref_id": "turn0reddit22",
+      "title": "🗺️ Living in Seoul에서 테마지도를 오픈했습니다!",
+      "snippet": "성시경의 먹을텐데, 미친맛집 등에 소개된 음식점 리스트를 정리해 지도로 보여주고 그외에 다른방송에 나온 다양한 맛집 콘텐츠를 테마별로 정리하고 있습니다. ... 앞으로는 맛집과 행사뿐 아니라 숙박,",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/",
+      "ref_id": "turn2search0",
+      "title": "Mangwon Market Food: Wooyirak Fried Chili Peppers",
+      "snippet": "On this visit, I went to Wooyirak Mangwon Main Branch (우이락 망원본점), a popular restaurant inside Mangwon Market known for its oversized Korean fried chili",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://moggo.co.kr/mangwon/",
+      "ref_id": "turn2search1",
+      "title": "마포구 망원동 음식점 지도 — 모꼬 MOGGO",
+      "snippet": "No.279 비에이치씨(BHC)망원점 호프/통닭 · 이 자리 인허가 9년째 · 영업 9년 ... No.272 키친 갈매기 한식 · 이 자리 인허가 9년째 · 영업 9년 ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.kotourlive.com/en/travel-guide/seoul/mangwon-dong",
+      "ref_id": "turn2search2",
+      "title": "A Half-Day Course in Mangwon-dong, Seoul | Mangwon Market · Poeun-ro · Han River Walk",
+      "snippet": "서울특별시 마포구 포은로8길 22 우이락 망원본점 Google",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://dualego93.tistory.com/entry/21%EB%85%84-04%EC%9B%94-%EC%84%9C%EC%82%B0%ED%83%9C%EC%95%88-%EC%97%AC%ED%96%89-04",
+      "ref_id": "turn2search3",
+      "title": "감성충만 서산,태안 여행 완전정복 04 - 태안성당, 신두리 해안사구, 파도리 해안경관, 모항항",
+      "snippet": "인근 모항항의 '청어람'이라는 곳을 급 검색해서 늦은 점심을 했는데 식당 내 많은 이들이 옹기종기 모여 앉아 항에서 산 해산물을 여기에 맡겨 요리를 해먹는 분위기네요. ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://goun0000.tistory.com/165",
+      "ref_id": "turn2search4",
+      "title": "[망원 맛집] 망원 시장 곱창전골 찐 맛집 청어람 2호점 추천!!",
+      "snippet": "## [망원 맛집] 망원 시장 곱창전골 찐 맛집 청어람 2호점 추천!! ... 청어람 서울 마포구 망원로11길 7 map.kakao.com",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://place.udanax.org/p/903223/%EC%84%B1%EB%AF%B8%EB%8B%B4",
+      "ref_id": "turn2search5",
+      "title": "[마포구 성산동] 성미담 | 맛집 | 업체창고",
+      "snippet": "민영활어공장 💳 온누리 📍 서울특별시 마포구 포은로8길 21 🏘️ 서울특별시 마포구 망원동 📏 0.53 km ... 우이락 망원본점 💳 온누리 📍 서울특별시 마포구 망원동 411-21",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.lemon8-app.com/%40151cms/7463000007776420368?region=jp",
+      "ref_id": "turn2search6",
+      "title": "Uirak (Wooyirak/우이락) สาขา Mangwon Market รีวิวพริกทอดเจ้าดัง + วิธีจองคิว",
+      "snippet": "もっと見るถ้าใครกำลังเสิร์ชหา Uirak Mangwon Main Branch / Wooyirak / 우이락 แล้วลังเลว่าจะไปสาขาตลาด Mangwon ดีไหม บอกเลยว่าสาขานี้เหมาะกับคนที่อยากกิน “พริกทอด (พริกทอง)” แบบต้นตำรับและแวะเดินตลาดต่อได้ในทริ",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.lemon8-app.com/%40151cms/7463000007776420368?region=th",
+      "ref_id": "turn2search7",
+      "title": "Uirak (Wooyirak/우이락) สาขา Mangwon Market รีวิวพริกทอดเจ้าดัง + วิธีจองคิว",
+      "snippet": "อ่านเพิ่มเติมถ้าใครกำลังเสิร์ชหา Uirak Mangwon Main Branch / Wooyirak / 우이락 แล้วลังเลว่าจะไปสาขาตลาด Mangwon ดีไหม บอกเลยว่าสาขานี้เหมาะกับคนที่อยากกิน “พริกทอด (พริกทอง)” แบบต้นตำรับและแวะเดินตลาดต่อ",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://goun0000.tistory.com/?page=3",
+      "ref_id": "turn2search8",
+      "title": "고우니 일상",
+      "snippet": "세상에나 여러분ㅋㅋㅋ 벼르고 벼르던 청어람 곱창전골을 드디어 먹어보았습니당ㅎㅎ 일요일 4시 오픈이라 생애최초 오픈런? ... [카카오맵] 청어람 2호점 서울 마포구 망원로11길 7 1층 (망원동) http://kko.to/9Xpj-bV5m 청어람",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://goun0000.tistory.com/category/%EB%A7%9B%EB%82%9C%20%EC%84%B8%EC%83%81/%EB%A7%9B%EC%A7%91%20%ED%88%AC%EC%96%B4?page=3",
+      "ref_id": "turn2search9",
+      "title": "'맛난 세상/맛집 투어' 카테고리의 글 목록 (3 Page)",
+      "snippet": "세상에나 여러분ㅋㅋㅋ 벼르고 벼르던 청어람 곱창전골을 드디어 먹어보았습니당ㅎㅎ 일요일 4시 오픈이라 생애최초 오픈런? ... [카카오맵] 청어람 2호점 서울 마포구 망원로11길 7 1층 (망원동) http://kko.to/9Xpj-bV5m 청어람",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://alinalife.tw/wooyirak/",
+      "ref_id": "turn2search10",
+      "title": "雨耳樂辣椒鑲肉｜望遠市場特色小吃，炸糯米椒配馬格利酒好夠味 @Alina 愛琳娜",
+      "snippet": "《雨耳樂 우이락》是一家以「辣椒鑲肉 망원본점」著名的特色美食，另外也有賣韓式大腸雞煲、個是煎餅及韓式傳統小吃，餐點口味很多樣化，可以從早餐一路吃到晚餐跟宵夜，而且價格大多算平價，不論是自己一個人吃或是跟朋友聚餐一起吃都蠻適合；雨耳樂本店就開在首爾的望遠市場裡，有輕鬆的內用座位空間也提供外帶，想要現炸現吃或是買回民宿、飯店慢慢吃都不錯。 ... Naver map 地圖定位點、韓巢中文地圖、Goo",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-3b74d7e8-eb77-4b80-8ba3-7868f74f646f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://vocus.cc/article/67f23d29fd897800017853e4",
+      "ref_id": "turn2search11",
+      "title": "〖韓國首爾〗初訪望遠市場 探索道地傳統市場美食｜51 share life♥",
+      "snippet": "店名：우이락 망원본점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://emmaru.com/matzip/matzip.do?code=M200214162553879216D",
+      "ref_id": "turn3search0",
+      "title": "청어람 2호점 소개",
+      "snippet": "청어람 2호점 일반식당 > 곱창·막창·양 [Input] 바로가기 [Input] [Input] [Input] [Input] [Input] ... 서울 곱창전골 맛집 망원동 청어람! ... 코루코다 2020-02-08 말티즈 루다와 포메라니안 코코와",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://k-coolplace.lyjfsimonero.chatgpt.site/places/real-salt-house-deli-mangwon?lang=ko",
+      "ref_id": "turn3search1",
+      "title": "소금집델리 망원 — 서울 · 합정/망원 | K-Coolplace",
+      "snippet": "HOT PLACE · 잠봉뵈르·델리 샌드위치 # 소금집델리 망원 ... * 다이닝코드 망원동 검색 8위 ↗자료 확인 2026-09-27",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC",
+      "ref_id": "turn3search2",
+      "title": "소금집 델리 - 망원동 샌드위치, 잠봉뵈르 맛집 - 다이닝코드",
+      "snippet": "이런 곳이에요 항목 정보 가게명 소금집 델리 망원점 대표메뉴 잠봉뵈르(10,800원), 잠봉 선드라이드 토마토(12,800원), 루벤(13,800원) 위치 서울 마포구 월드컵로19길 14 2층 영업시간 매일 11:00~21:00 (라스트오더 20:30)",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://ralralramj.tistory.com/21",
+      "ref_id": "turn3search3",
+      "title": "🔥 청어람 망원본점 – 얼큰한 국물과 묵직한 한 끼, 서울 3대 곱창전골 맛집 :: 랄랄라매점",
+      "snippet": "## 🔥 청어람 망원본점 – 얼큰한 국물과 묵직한 한 끼, 서울 3대 곱창전골 맛집 ... > “서울 곱창전골 맛집은 청어람이 정답이야.” ... 메뉴가격 (1인분 기준)특징",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://tvmap.co.kr/%EC%98%A4%EB%8A%98n-%EC%86%8C-%EA%B3%B1%EC%B0%BD-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
+      "ref_id": "turn3search4",
+      "title": "오늘N 소 곱창 이야기 - tvmap.co.kr",
+      "snippet": "2026년 4월 20일 MBC 오늘N [식(食)큐멘터리] – 외면받던 부산물의 신분 상승! ... 방송에서 나오는 마포구 소곱창전골 맛집 상세정보 (가격, 메뉴, 주소, 상호, 홈페이지) 등의 정보를",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://meatmanstory.tistory.com/299",
+      "ref_id": "turn3search5",
+      "title": "[맛있는 녀석들]282회 전골노래자랑 곱창전골 망원 청어람 위치 가격",
+      "snippet": "맛있는 녀석들 282회 전골노래자랑 곱창전골 청어람 망원점 위치 가격 알아보기 ... 곱창전골은 소 25000원, 중 30000, 대 35000원에 판매중이며 우동사리와 볶음밥도 함께 먹으면 맛있는 조합인",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://superchart.com/ko/stores/padong/",
+      "ref_id": "turn3search6",
+      "title": "파동 — 망원역 일식당 | 메뉴·가격·후기 150편 · Superchart",
+      "snippet": "파동은 후토마끼와 소바, 일식 덮밥을 주메뉴로 내는 망원동 일식당입니다. ... ### 파동 후토마끼·덮밥 가격은 얼마인가요? ... 냉모밀(13,000원)과 새우튀김우동(12,000원)이 계절메뉴입니다. ... Superchart에 파동 방문 후기 94편이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gajagoapp.com/place/596/%EB%8D%94%EB%A9%B4%EC%83%81-%EB%94%B0%EB%A6%89%EB%A7%A8-%EB%B0%9C%EA%B2%AC-%EB%A7%88%ED%8F%AC-%EB%A7%9B%EC%A7%91-%EC%86%8C%EB%AC%B8%EB%82%9C%EC%88%9C%EB%8C%80%EA%B5%AD%EC%99%95%EC%A1%B1%EB%B0%9C",
+      "ref_id": "turn3search7",
+      "title": "망원동 맛집 소문난순대국왕족발 — 더면상 따릉맨 방문 | 가자고",
+      "snippet": "가장 가까운 역은 마포구청역, 걸어서 약 8분(512m) 거리의 망원동 맛집이에요. ... 더면상 따릉맨이 찾아간 망원동 맛집 소문난순대국왕족발, 그 장면을 바로 볼 수 있어요. ... [따릉맨]",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://pirin8pirin.tistory.com/1157",
+      "ref_id": "turn3search8",
+      "title": "생생정보 장사의 신 연 매출 10억 곱창전골 비밀 서울 마포 맛집<청어람> 미스터Lee의 사진 한 컷 무주 진안 마이산 등갈비<초가정담> 714회 :: 8",
+      "snippet": "## 생생정보 장사의 신 연 매출 10억 곱창전골 비밀 서울 마포 맛집<청어람> 미스터Lee의 사진 한 컷 무주 진안 마이산 등갈비<초가정담> 714회 ... - 주소 :",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://matjibs.com/ddoganjib-ep91-mangwon-dong-restaurants/",
+      "ref_id": "turn3search9",
+      "title": "[또간집 EP.91] 망원 편: 웨이팅 지옥 속에서 찾아낸 로컬 찐맛집 - 맛집스",
+      "snippet": "1등으로 선정된 화덕피자 ‘정각’, 웨이팅 필수 ‘망원동즉석우동’, 텐동 맛집 ‘이치젠’, 가성비 해장국 ‘일등식당’의 최신 메뉴 가격, 위치, 웨이팅 팁을 정리했습니다. Published on 2026-01-08 ... 망원동에는",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://view.mk.co.kr/trip-food/article/269238/amp/",
+      "ref_id": "turn3search10",
+      "title": "언제 찾아도 매력적인 동네 망원동의 찐맛집 5곳 | 핫식신",
+      "snippet": "태양초 고춧가루와 매운 청량고추 양념으로 매우 매운 우동을 맛볼 수 있는 서울 망원동 ‘망원동즉석우동’. ... 양념으로 매운맛을 조절할 수 있는 이 집의 우동은 기본 국물도",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://epicure.co.kr/detail?shopId=5880",
+      "ref_id": "turn3search11",
+      "title": "망원동즉석우동 - 에피큐어",
+      "snippet": "즉석우동, 어묵 (각 6천원), 어묵우동 (7천원), 돈가스 (8천원), 소주, 맥주 (각 4천원) ... 망원동즉석우동 - 맛있게 매운, 즉석 우동의 성지. 1994년 망원동 기업은행의 주차장에서 포장마차로",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=wAhyVJk0uvo",
+      "ref_id": "turn3youtube12",
+      "title": "지옥의 술먹방🔥 쉴틈이 없어요‼️ 망원동 찐주민 맛집😎 먹방 브이로그 혼술 망원동즉석우동 키오스크 셀픽스 사우어 소주 맥주 위스키 럼 Alcohol mukbang vlog - YouTube",
+      "snippet": "망원동 찐주민 맛집😎 먹방 브이로그 혼술 망원동즉석우동 키오스크 셀픽스 사우어 소주 맥주 위스키 럼 Alcohol mukbang vlog ... 📍망원동즉석우동 : 서울특별시 마포구 동교로 83",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.navercorp.com/navercorp_/research/2023/20230330140100_2.pdf",
+      "ref_id": "turn3search13",
+      "title": "PART 1: 로컬이 강한 도시와 동네",
+      "snippet": "1인 가구가 많은 망원동에서는 ‘가족처럼’ 이웃과 서로 도우며 함께 살아가는 길을 도모한다. ... 줄지어 선 맛집, 가게를 ... 거주하는 청년들 중 망원시장에 반해 이 동네에",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://campus.megastudy.net/ebook/bucheon_boast/web/bucheon_201902_m.pdf",
+      "ref_id": "turn3search14",
+      "title": "부천메가 2020 자랑사전 본문-수정.pdf, page 1-64 @ Normalize",
+      "snippet": "- 망원동 맛집 따라하기 ... 재원생을 위한 각종 EVENT 메뉴 ... - 9월 21일 석식",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.yongin.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20260227_091734",
+      "ref_id": "turn3search15",
+      "title": "2026년 서비스가격(정부지원금 및 본인부담금)",
+      "snippet": "2026년 서비스가격(정부지원금 및 본인부담금) ... <th>단축</th><th>표준</th><th>연장</th> ... <td>A-가-①형</td> ... <th colspan=\"3\">건강보험료 본인부담금(원)</th> ... 기초생활보장(생계급여, 의료급여, 주거급여, 교육급여) - 수급자증명서(주민센터, 인터넷발급 가능) ... ※ 증명서·확인서의 ",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=6Q0KUm8zXXo",
+      "ref_id": "turn3youtube16",
+      "title": "(Full Focused) Stray Kids '神메뉴(God's Menu)' 4K | [BE ORIGINAL] - YouTube",
+      "snippet": "Published: 2020-06-27, 10234338 views, 369000 likes ... ☎웰컴투 신메뉴 군무 맛집🍽 ... 스춤 원테이크 버전 볼 스테이😎",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://lib.ice.go.kr/board/boardFile/download/548/1444114/2026%EB%85%84%205%EC%9B%94%20%EC%8B%A0%EA%B0%84%EB%8F%84%EC%84%9C%20%EA%B5%AC%EC%9E%85%EC%98%88%EC%A0%95%20%EB%AA%A9%EB%A1%9D.pdf.do",
+      "ref_id": "turn3search17",
+      "title": "2026년 5월 신간도서 구입 목록",
+      "snippet": "연번 1 | 구분 일반 | 서명 1938 타이완 여행기 | 저자 양솽쯔 | 발행자 마티스블루 | 발행년 2025 | 책수 1 | 가격 1",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://sitescorechecker.com/genpdf/fnews.co.kr",
+      "ref_id": "turn3search18",
+      "title": "48      \nYour Website Score",
+      "snippet": "육회한상 촬영 맛집 식당 위치 메뉴 가격 어디 생방송 투데이 2835회 맛의 승부사 육회 육회김밥 55년 ... 8시 40분 ▶ 출연진 : 유재석 조세호 신승건",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.hansae.com/ko/pr/Hansaein_Vol018.pdf",
+      "ref_id": "turn3search19",
+      "title": "업무도 식후경\n\n글_한세엠케이 바꾸는 디자인실 김아라 대리\n\n맛집 소개,  \n우리 동네 이",
+      "snippet": "즉석떡볶이가 2인분에 이천원이라니 믿을 수 없는 가격이에요. ... 2명이서 즉석떡볶이 2인분, 라면사리, 쫄면사리, 튀김, 계란, 공기밥을 맛있게 먹고 8300원을 계산했습니다. ... 오른쪽 상단의 손글씨 메뉴판",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_Dry_Loss3686/comments/wgqld2",
+      "ref_id": "turn3reddit20",
+      "title": "토요일은 밥이 좋아 인도 커리 치킨 마크니 | 정지선 쉐프 딤섬 바질 샤오마이 | 냉동 삼겹살 냉삼 꿀돼지집 종로 마포 6미 판매 가격 파는곳 연락처 예약 홈페이지 | 토밥 E채널 32회 예고 재방송 다시보기 보러가기",
+      "snippet": "이 글에서 마포&종로 6미 2탄 맛집 정보를 확인할 수 있습니다. * 토요일은 밥이 좋아 마포 종로 삼선 누룽지탕 유자 탕수육 중화요리 | 망원동 오므라이스 |",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/",
+      "ref_id": "turn3view0",
+      "title": "Mangwon Market Food: Wooyirak Fried Chili Peppers",
+      "snippet": "Total lines: 182",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://wirbel.tistory.com/944",
+      "ref_id": "turn3view1",
+      "title": "[망원역] 헤키 - 망원동에서 웨이팅 있는 돈카츠 맛집!",
+      "snippet": "Total lines: 602",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a9780cb0-6ee8-4ae9-ae3b-9f4e3846af0b",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://5739572.tistory.com/m/100",
+      "ref_id": "turn3view2",
+      "title": "망원 잠봉뵈르 맛집 소금집델리 웨이팅 없이 포장하기 메뉴 추천 샤퀴테리 보드",
+      "snippet": "Total lines: 92",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-4a5b7691-4ace-43fa-8444-36da702915c1",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/",
+      "ref_id": "turn4view0",
+      "title": "Mangwon Market Food: Wooyirak Fried Chili Peppers",
+      "snippet": "Total lines: 183",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-4a5b7691-4ace-43fa-8444-36da702915c1",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn4view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-4a5b7691-4ace-43fa-8444-36da702915c1",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "https://view.mk.co.kr/trip-food/article/269238/amp/",
+      "ref_id": "turn4view2",
+      "title": "언제 찾아도 매력적인 동네 망원동의 찐맛집 5곳 | 핫식신",
+      "snippet": "Total lines: 376",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/",
+      "result_url": "",
+      "ref_id": "turn5view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/",
+      "result_url": "",
+      "ref_id": "turn5view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/",
+      "result_url": "https://www.google.com/maps/search/?api=1&query=Wooyirak+Mangwon+Main+Branch+22+Poeun-ro+8-gil+Mapo-gu+Seoul",
+      "ref_id": "turn5view2",
+      "title": "www.google.com",
+      "snippet": "Total lines: 5",
+      "result_map": "google",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3fd87ea6-1cc3-4ddf-a6ba-fdeacb777da6",
+      "action_type": "open_page",
+      "requested_url": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC",
+      "result_url": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC",
+      "ref_id": "turn6view0",
+      "title": "소금집 델리 - 망원동 샌드위치, 잠봉뵈르 맛집 - 다이닝코드",
+      "snippet": "Total lines: 676",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    }
+  ],
+  "error_results": [
+    {
+      "event_id": "exec-4a5b7691-4ace-43fa-8444-36da702915c1",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn4view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/",
+      "result_url": "",
+      "ref_id": "turn5view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-3dc4c7bb-bcc4-4b5c-9ac6-310f4132ebda",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/",
+      "result_url": "",
+      "ref_id": "turn5view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    }
+  ],
+  "final_text": "**망원 첫 방문이라면 우이락 망원본점, 소금집델리 망원점, 헤키, 망원동즉석우동, 육장을 추천합니다.**\n\n다만 **요청하신 두 지도에서의 직접 검증은 완료하지 못했습니다.** 카카오맵은 자동 열람이 차단됐고, 구글 지도는 자바스크립트 안내만 표시됐습니다. 아래는 실제로 읽은 다른 공개 자료에 근거한 추천이며, 가격은 **출처에 기재된 금액**으로 현재 매장 가격까지 확인된 것은 아닙니다.\n\n| 정확한 상호·지점 및 주소 | 첫 방문자에게 추천하는 이유 | 대표 메뉴·출처 표기 가격 | 실제 확인한 출처 |\n|---|---|---|---|\n| **우이락 망원본점** — 마포구 포은로8길 22 | 망원시장 안에서 고추튀김을 먹고 시장 구경을 이어가기 좋은 선택 | 고추튀김 **3개 12,000원** | [방문기·지점명·메뉴 가격](https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/) |\n| **소금집델리 망원점** — 마포구 월드컵로19길 14, 2층 | 잠봉과 버터를 넣은 대표 샌드위치를 맛보고 싶은 사람에게 추천 | 잠봉뵈르 **10,800원**, 잠봉 프로마쥬 **11,800원** | [다이닝코드 매장·메뉴 정보](https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC) |\n| **헤키** — 마포구 동교로9길 33, 1층 | 돈카츠 중심의 식사를 원한다면 추천. 공개 기사에서 콜드 스모크 숙성 카츠를 소개 | 히레카츠정식 **15,500원**, 특히레카츠정식 **18,000원** | [2026년 9월 4일 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |\n| **망원동즉석우동** — 마포구 동교로 83 | 얼큰한 국물과 단순한 메뉴 구성을 선호하는 사람에게 추천 | 즉석우동 **7,000원**, 돈까스 **10,000원** | [메뉴·주소 소개 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |\n| **육장** — 마포구 포은로 75 | 육개장 계열의 든든한 한 끼를 원하는 사람에게 추천 | 육개장 **10,000원**, 육갈탕 **15,000원**, 육라면 **11,000원** | [메뉴·주소 소개 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |\n\n헤키·망원동즉석우동·육장은 확인한 자료에 별도 지점명이 없어 상호 그대로 적었습니다. 지도 평점, 현재 영업 여부, 대기시간은 직접 확인하지 못해 기재하지 않았습니다.",
+  "final_urls": [
+    "https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/",
+    "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC",
+    "https://view.mk.co.kr/trip-food/article/269238/amp/",
+    "https://view.mk.co.kr/trip-food/article/269238/amp/",
+    "https://view.mk.co.kr/trip-food/article/269238/amp/"
+  ],
+  "self_report_failure_lines": [
+    "다만 **요청하신 두 지도에서의 직접 검증은 완료하지 못했습니다.** 카카오맵은 자동 열람이 차단됐고, 구글 지도는 자바스크립트 안내만 표시됐습니다. 아래는 실제로 읽은 다른 공개 자료에 근거한 추천이며, 가격은 **출처에 기재된 금액**으로 현재 매장 가격까지 확인된 것은 아닙니다.",
+    "헤키·망원동즉석우동·육장은 확인한 자료에 별도 지점명이 없어 상호 그대로 적었습니다. 지도 평점, 현재 영업 여부, 대기시간은 직접 확인하지 못해 기재하지 않았습니다."
+  ],
+  "recommendation_rows": [
+    {
+      "rank": 1,
+      "name": "우이락 망원본점",
+      "raw_row": "| **우이락 망원본점** — 마포구 포은로8길 22 | 망원시장 안에서 고추튀김을 먹고 시장 구경을 이어가기 좋은 선택 | 고추튀김 **3개 12,000원** | [방문기·지점명·메뉴 가격](https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/) |",
+      "source_urls": "https://koreabychoi.com/mangwon-market-food-wooyirak-fried-chili-peppers/"
+    },
+    {
+      "rank": 2,
+      "name": "소금집델리 망원점",
+      "raw_row": "| **소금집델리 망원점** — 마포구 월드컵로19길 14, 2층 | 잠봉과 버터를 넣은 대표 샌드위치를 맛보고 싶은 사람에게 추천 | 잠봉뵈르 **10,800원**, 잠봉 프로마쥬 **11,800원** | [다이닝코드 매장·메뉴 정보](https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC) |",
+      "source_urls": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC"
+    },
+    {
+      "rank": 3,
+      "name": "헤키",
+      "raw_row": "| **헤키** — 마포구 동교로9길 33, 1층 | 돈카츠 중심의 식사를 원한다면 추천. 공개 기사에서 콜드 스모크 숙성 카츠를 소개 | 히레카츠정식 **15,500원**, 특히레카츠정식 **18,000원** | [2026년 9월 4일 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |",
+      "source_urls": "https://view.mk.co.kr/trip-food/article/269238/amp/"
+    },
+    {
+      "rank": 4,
+      "name": "망원동즉석우동",
+      "raw_row": "| **망원동즉석우동** — 마포구 동교로 83 | 얼큰한 국물과 단순한 메뉴 구성을 선호하는 사람에게 추천 | 즉석우동 **7,000원**, 돈까스 **10,000원** | [메뉴·주소 소개 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |",
+      "source_urls": "https://view.mk.co.kr/trip-food/article/269238/amp/"
+    },
+    {
+      "rank": 5,
+      "name": "육장",
+      "raw_row": "| **육장** — 마포구 포은로 75 | 육개장 계열의 든든한 한 끼를 원하는 사람에게 추천 | 육개장 **10,000원**, 육갈탕 **15,000원**, 육라면 **11,000원** | [메뉴·주소 소개 기사](https://view.mk.co.kr/trip-food/article/269238/amp/) |",
+      "source_urls": "https://view.mk.co.kr/trip-food/article/269238/amp/"
+    }
+  ],
+  "extraction_method": "first_recommendation_table",
+  "automatic_valid": false,
+  "body_access_judgement": "requires_manual_review",
+  "note": "도구 메타데이터와 검색 스니펫은 지도 상세 본문 검증으로 대체하지 않음. 대체 출처 추천은 유효 지도 비교 결과가 아님."
+}

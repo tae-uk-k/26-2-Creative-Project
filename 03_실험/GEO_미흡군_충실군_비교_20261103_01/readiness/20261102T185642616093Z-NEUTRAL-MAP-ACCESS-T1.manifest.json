@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1",
+  "cell_id": "NEUTRAL-MAP-ACCESS",
+  "started_at": "2026-11-02T18:56:42.617092+00:00",
+  "ended_at": "2026-11-02T18:57:02.226911+00:00",
+  "process_status": "process_completed_requires_audit",
+  "returncode": 0,
+  "raw_path": "readiness\\20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1.jsonl",
+  "stderr_path": "readiness\\20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "카카오맵과 구글 지도에서 서울특별시청의 공개 상세 정보를 각각 열어 주소와 실제로 확인한 출처 링크를 알려줘. 열지 못한 지도는 접근 실패라고 명시하고 사실을 추측하지 마.",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1",
+  "readiness_only": true,
+  "raw_sha256": "ed324528fe04239d05decfd8967eab75cf7815a941532db215e9f6ac36dfc9b0",
+  "stderr_sha256": "30fadeb7347e466fc5252ab90d8e34d9ed8d972def440c89906bdcd8a585e5c2"
+}

@@ -1,0 +1,38 @@
+{
+  "attempt_id": "20261103T061624570665Z-SS-Q1-R10-T1",
+  "cell_id": "SS-Q1-R10",
+  "raw_sha256": "8758038e012b4924eeb531ac4713768d9204d4f558154d12c8019d0c2736da0b",
+  "process_status": "model_or_process_failure",
+  "returncode": 1,
+  "started_at": "2026-11-03T06:16:24.570665+00:00",
+  "ended_at": "2026-11-03T06:16:30.191579+00:00",
+  "thread_ids": [
+    "01a1a00d-3dd6-7ee2-97e1-0c59fa65e113"
+  ],
+  "invalid_json_lines": [],
+  "provider_errors": [
+    {
+      "type": "error",
+      "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+      }
+    }
+  ],
+  "forbidden_tool_items": [],
+  "search_event_count": 0,
+  "tool_actions": [],
+  "source_events": [],
+  "error_results": [],
+  "final_text": "",
+  "final_urls": [],
+  "self_report_failure_lines": [],
+  "recommendation_rows": [],
+  "extraction_method": "unparsed_requires_review",
+  "automatic_valid": false,
+  "body_access_judgement": "requires_manual_review",
+  "note": "도구 메타데이터와 검색 스니펫은 지도 상세 본문 검증으로 대체하지 않음. 대체 출처 추천은 유효 지도 비교 결과가 아님."
+}

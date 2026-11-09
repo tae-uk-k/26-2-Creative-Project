@@ -1,0 +1,99 @@
+{
+  "slides": [
+    {
+      "id": "620:12",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:67",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:146",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:200",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:339",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:393",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:479",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:759",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    },
+    {
+      "id": "620:831",
+      "bodyUnchanged": true,
+      "prototypeConnections": 0,
+      "containerInsideFrame": true,
+      "visibleOverflow": [],
+      "cornerRadius": 24,
+      "autoLayout": 0
+    }
+  ],
+  "references": [
+    {
+      "id": "562:189",
+      "unchanged": true
+    },
+    {
+      "id": "613:53",
+      "unchanged": true
+    },
+    {
+      "id": "613:926",
+      "unchanged": true
+    }
+  ]
+}

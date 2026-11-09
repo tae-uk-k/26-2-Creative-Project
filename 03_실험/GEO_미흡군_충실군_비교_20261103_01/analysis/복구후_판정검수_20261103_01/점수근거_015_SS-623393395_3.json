@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-623393395",
+  "item": 3,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "카카오11:30과Google11시 개점 차이. 동일 지점 소스 간 차이를 병기.",
+  "sources": [
+    {
+      "quote": "11:30",
+      "source_url": "https://place.map.kakao.com/623393395#menuInfo",
+      "observed_at": "2026-11-02T19:47:47.335Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\165_SS-623393395_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "오전 11:00",
+      "source_url": "https://www.google.com/maps/place/SZIMPATIKUS+Restaurant+Seongsu+(%EC%8B%AC%ED%8D%BC%ED%8B%B0%EC%BF%A0%EC%8B%9C+%EC%84%B1%EC%88%98%EC%A0%90)/data=!4m5!3m4!1s0x357ca59d69650fa5:0xe30b2b8e798c2358!16s%2Fg%2F11l5zbyf5q!19sChIJpQ9laZ2lfDURWCOMeY4rC-M!20s8Q99G2XW%2B428",
+      "observed_at": "2026-11-02T19:48:41.238Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\167_SS-623393395_google_overview_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

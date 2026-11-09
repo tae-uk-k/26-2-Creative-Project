@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "비회원 무료 진단 → 이메일 가입 → 인증 → 가게 입력",
+      "pass": true,
+      "end": "storeInput",
+      "phase": 0
+    },
+    {
+      "name": "일반 가입 → 가게 등록 전 홈",
+      "pass": true,
+      "end": "storeEmpty",
+      "phase": 0
+    },
+    {
+      "name": "카카오 추가 이메일 → 인증 → 가게 입력",
+      "pass": true,
+      "end": "storeInput",
+      "phase": 0
+    },
+    {
+      "name": "기존 회원 로그인 → 내 가게",
+      "pass": true,
+      "end": "dashboard",
+      "phase": 4
+    },
+    {
+      "name": "비밀번호 재설정 → 메일 → 새 비밀번호 → 로그인",
+      "pass": true,
+      "end": "login",
+      "phase": 0
+    },
+    {
+      "name": "다른 가게 선택과 진단 정상 완료",
+      "pass": true,
+      "end": "result",
+      "phase": 3
+    },
+    {
+      "name": "진단 실패 → 횟수 보존 → 재시도 성공",
+      "pass": true,
+      "end": "result",
+      "phase": 3
+    },
+    {
+      "name": "등장률 0%도 정상 결과",
+      "pass": true,
+      "end": "resultZero",
+      "phase": 3
+    },
+    {
+      "name": "신청 → Google·카카오 연결 → 승인 → 정비 → 보고서",
+      "pass": true,
+      "end": "report",
+      "phase": 8
+    },
+    {
+      "name": "Google만 연결해 정비·보고서 완료",
+      "pass": true,
+      "end": "report",
+      "phase": 8
+    },
+    {
+      "name": "카카오만 연결해 정비·보고서 완료",
+      "pass": true,
+      "end": "report",
+      "phase": 8
+    },
+    {
+      "name": "승인 팝업 취소 → 정비안 유지",
+      "pass": true,
+      "end": "planReady",
+      "phase": 0
+    },
+    {
+      "name": "정비 항목 제외 → 다시 포함",
+      "pass": true,
+      "end": "planReady",
+      "phase": 0
+    },
+    {
+      "name": "계정 비밀번호 변경 팝업 닫기",
+      "pass": true,
+      "end": "accountReady",
+      "phase": 0
+    },
+    {
+      "name": "탈퇴 취소와 확인 입력 후 탈퇴",
+      "pass": true,
+      "end": "landing",
+      "phase": 0
+    },
+    {
+      "name": "로그아웃 후 CTA는 가입으로",
+      "pass": true,
+      "end": "signup",
+      "phase": 0
+    }
+  ],
+  "total": 16,
+  "passed": 16,
+  "failed": []
+}

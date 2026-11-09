@@ -1,0 +1,61 @@
+{
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/jpeg",
+        "id": "a71bfefb4a4c26b4",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/a71bfefb4a4c26b4",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MThfNDEg%2FMDAxNzg0Mzg0NTcyNjU4.UlOYAqHQZrRTwSd6RLl1EnTP2dKXeIXXYGcfcDgql5sg.JYl4pF2c2QhtabB-A3r_K1eR3rgcCx_P9xr6W_q1rLIg.JPEG%2F900_20260717_115752.jpg%3Ftype%3Dw466"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "c8f9aff99305e6aa",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/c8f9aff99305e6aa",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTBfMjUy%2FMDAxNzkxNjA0MTU5Mzgy.71X0PnRvajr6VyUVGO2714LwqxQjk7sq_PJjunooVaMg.Lp1qQu_z13xs-HS19NVNj8MnhPnmd1yN6xeJyiXlShIg.JPEG%2FIMG%25EF%25BC%25BF4501.jpg%3Ftype%3Dw966"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "702380e81e8a37df",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/702380e81e8a37df",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fsearch.pstatic.net%2Fcommon%2F%3Fsrc%3Dhttps%253A%252F%252Fldb-phinf.pstatic.net%252F20260204_210%252F1770210641970bFHei_JPEG%252F008.jpg"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "edcb1ee653eee9ab",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/edcb1ee653eee9ab",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA1MjFfODEg%2FMDAxNzc5MzM1MzQ2MjA2.fnnjQ5_KHMmIzZ0OxEgn_mnwtZCAzKvuCrK-FMpxL5Yg.r68sWoDqIQFIzYBCK-Z8jbY9dTzFXwS1oXSFn65oiIcg.JPEG%2FKakaoTalk_20260408_143720156_11.jpg%3Ftype%3Dw966"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "7a900e9b4444ddb7",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/7a900e9b4444ddb7",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjAyMjFfMTUx%2FMDAxNzcxNjY2MzEwMzk0.0aRp1oOj283829WjEmVUvQeAQLHZGzwTdRTGFcsCKq4g.y1LmBZZIKdXFgYe1B1fFWhNaJuVfpruhhWY-6WaRK0wg.JPEG%2F900%25EF%25BC%25BF20260215%25EF%25BC%25BF123337.jpg%3Ftype%3Dw773"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be",
+    "failures": [],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/e5fede64-584d-4f77-a418-16c4bd0367be/manifest.json",
+    "summary": {
+      "downloadedCount": 5,
+      "elapsedMs": 88.10580000001937,
+      "failedCount": 0,
+      "requestedCount": 5
+    }
+  },
+  "kind": "detail",
+  "observed_at": "2026-11-02T18:55:13.188Z",
+  "platform": "kakao",
+  "section": "menu_photo_bundle",
+  "store_id": "MW-1355498173",
+  "url": "https://place.map.kakao.com/1355498173#photoList?type=menuboard&pidx=0"
+}

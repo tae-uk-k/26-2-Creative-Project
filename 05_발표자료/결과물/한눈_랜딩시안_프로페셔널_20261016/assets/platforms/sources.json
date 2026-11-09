@@ -1,0 +1,165 @@
+{
+  "downloaded_on": "2026-11-09",
+  "method": "Original published brand artwork downloaded without screenshot or redrawing",
+  "assets": [
+    {
+      "key": "google-maps",
+      "file": "google-maps.jpg",
+      "name": "Google Maps",
+      "publisher": "Google LLC",
+      "source_page": "https://apps.apple.com/kr/app/google-maps/id585027354?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/a7/0f/95a70f0b-2bf2-d364-43b0-5c808c66b8ed/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+      "sha256": "ff186966f6c83d51cdc60c5daadddaa34d20873de5eae32c8231d2495049e2f9",
+      "bytes": 23350
+    },
+    {
+      "key": "kakao-map",
+      "file": "kakao-map.jpg",
+      "name": "카카오맵 - 대한민국 No.1 지도앱",
+      "publisher": "Kakao Corp.",
+      "source_page": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-no-1-%EC%A7%80%EB%8F%84%EC%95%B1/id304608425?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/5d/54/e65d54b2-6682-679f-2bf6-f017a58d5ffa/AppIconStore-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "sha256": "1428e3544ee1ae5bc475ab429751696be94a0ac673b0b54b429f050d5a54f88a",
+      "bytes": 21637
+    },
+    {
+      "key": "bing",
+      "file": "bing.jpg",
+      "name": "Microsoft Bing Search",
+      "publisher": "Microsoft Corporation",
+      "source_page": "https://apps.apple.com/kr/app/microsoft-bing-search/id345323231?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/d7/c9/90d7c952-6aab-de61-14df-86a0fa3a329c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "sha256": "8da4f12e3f4087004017c75d1a1863e42c7e8c2dae16e0c614940805bea3e3bd",
+      "bytes": 15803
+    },
+    {
+      "key": "tripadvisor",
+      "file": "tripadvisor.jpg",
+      "name": "트립어드바이저: 여행 계획 및 예약하기",
+      "publisher": "Tripadvisor",
+      "source_page": "https://apps.apple.com/kr/app/%ED%8A%B8%EB%A6%BD%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80-%EC%97%AC%ED%96%89-%EA%B3%84%ED%9A%8D-%EB%B0%8F-%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0/id284876795?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/69/ba/f969ba85-2b3b-bef1-d8d6-92fe341e99ed/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "sha256": "05d068c430f15834432412f283918720a06837eec0a5d0a193bfc8e6660d2a34",
+      "bytes": 29716
+    },
+    {
+      "key": "diningcode",
+      "file": "diningcode.jpg",
+      "name": "다이닝코드",
+      "publisher": "Diningcode",
+      "source_page": "https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EB%8B%9D%EC%BD%94%EB%93%9C/id1042893804?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/b8/62/3fb862ff-91ff-0f51-f602-0cb11fd4bc05/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "sha256": "2d4651d57c548aa39fe8358bfb63f5c4aaebc34f7523bd6f27a6abf36863d65c",
+      "bytes": 19965
+    },
+    {
+      "key": "siksin",
+      "file": "siksin.jpg",
+      "name": "국민맛집 식신 - 1등 맛집검색",
+      "publisher": "SIKSIN Co., Ltd.",
+      "source_page": "https://apps.apple.com/kr/app/%EA%B5%AD%EB%AF%BC%EB%A7%9B%EC%A7%91-%EC%8B%9D%EC%8B%A0-1%EB%93%B1-%EB%A7%9B%EC%A7%91%EA%B2%80%EC%83%89/id709111029?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/18/55/7118554e-ceaf-25af-551f-4e47e1fa2257/v2_AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "sha256": "2aed0a67af14d287a7b42a4db1e6707633e1354e257ccbe310bb9d9f8cfccf46",
+      "bytes": 26199
+    },
+    {
+      "key": "polle",
+      "file": "polle.jpg",
+      "name": "뽈레 - 맛잘알이 되는 지름길",
+      "publisher": "Polle Inc.",
+      "source_page": "https://apps.apple.com/kr/app/%EB%BD%88%EB%A0%88-%EB%A7%9B%EC%9E%98%EC%95%8C%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%A7%80%EB%A6%84%EA%B8%B8/id1025468765?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/74/91/4174913b-e4bd-77fe-55cd-efd5da06675c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "sha256": "fabca989449fb18191df91d381ad7389ec1d35ff51747128210de87060893710",
+      "bytes": 20773
+    },
+    {
+      "key": "tabling",
+      "file": "tabling.jpg",
+      "name": "테이블링",
+      "publisher": "Tabling.inc",
+      "source_page": "https://apps.apple.com/kr/app/%ED%85%8C%EC%9D%B4%EB%B8%94%EB%A7%81/id1388891287?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/e7/d1/40e7d16a-e015-d3f9-affd-6e4223cf9f9f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "sha256": "59207c37de1d8766bb72718f5d5a8cacd765255cfae9b7ccc8b36b2ab1cdca9d",
+      "bytes": 18056
+    },
+    {
+      "key": "catchtable",
+      "file": "catchtable.jpg",
+      "name": "캐치테이블",
+      "publisher": "WAD corp",
+      "source_page": "https://apps.apple.com/kr/app/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94/id1485193566?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/92/73/38927377-56ae-eaea-a91c-0fa9dcd286d1/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "sha256": "982be51071b7ae201f119c263e3a262b7b3f13532810c350d9a8ad538ed50529",
+      "bytes": 16572
+    },
+    {
+      "key": "instagram",
+      "file": "instagram.jpg",
+      "name": "Instagram",
+      "publisher": "Instagram, Inc.",
+      "source_page": "https://apps.apple.com/kr/app/instagram/id389801252?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/91/85/b09185ca-7b74-87a4-adaf-1755d434ee22/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "sha256": "23ada99f99776932e3ff30a590e208e27b5d139db8536d1245c96901e6f924e0",
+      "bytes": 46217
+    },
+    {
+      "key": "facebook",
+      "file": "facebook.jpg",
+      "name": "Facebook",
+      "publisher": "Meta Platforms, Inc.",
+      "source_page": "https://apps.apple.com/kr/app/facebook/id284882215?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/fe/ae/4efeae89-e950-1030-417b-f904101c1b1a/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "sha256": "9f252fe6cc915d02cee4556d25161cc92c9b340b19bef3ca095e1f5f0d0a7f4c",
+      "bytes": 11563
+    },
+    {
+      "key": "daangn",
+      "file": "daangn.jpg",
+      "name": "당근",
+      "publisher": "Danggeun Market Inc.",
+      "source_page": "https://apps.apple.com/kr/app/%EB%8B%B9%EA%B7%BC/id1018769995?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/f6/c3/cbf6c32f-e853-96d4-446d-0be70e928b01/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "sha256": "75fea54e1a9e7562c5f1550394df26f6180cfbdab5ee543bbd92afee4dffd2df",
+      "bytes": 23423
+    },
+    {
+      "key": "xiaohongshu",
+      "file": "xiaohongshu.jpg",
+      "name": "rednote",
+      "publisher": "Xingin Information Technology (Shanghai) Co., Ltd",
+      "source_page": "https://apps.apple.com/kr/app/rednote/id741292507?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/73/d5/6b73d59a-7966-530d-dbaa-8d2f7e9c6923/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "sha256": "a220c8a3508fe0aba78abb3279664fb18f1fd58aa525a52dd3f076cfc1da954d",
+      "bytes": 19031
+    },
+    {
+      "key": "apple-maps",
+      "file": "apple-maps.jpg",
+      "name": "Apple 지도",
+      "publisher": "Apple Services Pte. Ltd.",
+      "source_page": "https://apps.apple.com/kr/app/apple-%EC%A7%80%EB%8F%84/id915056765?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/53/2e/98532ed4-879d-02f7-5021-84082f28593e/mapsCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "sha256": "d30b05b015753b97fa304fe203096fdf9f2205327da4f9c6175a5b89856b7f19",
+      "bytes": 39697
+    },
+    {
+      "key": "kakao-channel",
+      "file": "kakao-channel.jpg",
+      "name": "카카오비즈니스 파트너센터",
+      "publisher": "Kakao Corp.",
+      "source_page": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%84%BC%ED%84%B0/id990571676?uo=4",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/c6/c5/25c6c5ab-2c75-2659-ad80-e3ec601b7849/partner_Real-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "sha256": "eb39e731f8cf3c5adfc3b1ef9d8f614f610a51c2d08eade73bbb14aca855f24c",
+      "bytes": 32205
+    },
+    {
+      "key": "naver-map",
+      "file": "naver-map.png",
+      "publisher": "NAVER",
+      "source_page": "https://map.naver.com/",
+      "original_url": "https://ssl.pstatic.net/static/maps/assets/icons/android-icon-512x512.png",
+      "sha256": "d86fd72592ca1b5930d4cc55555fec7e3c8a7b139920b56015530870368dfd99",
+      "bytes": 51345
+    }
+  ]
+}

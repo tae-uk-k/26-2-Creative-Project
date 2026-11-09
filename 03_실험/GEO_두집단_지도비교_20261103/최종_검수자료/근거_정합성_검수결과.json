@@ -1,0 +1,402 @@
+{
+  "passed": true,
+  "check_count": 79,
+  "findings": [
+    {
+      "check": "정식 지도 검색 틀",
+      "passed": true,
+      "detail": "{('kakao', 'MD'): 60, ('google', 'MW'): 60, ('kakao', 'SS'): 60, ('google', 'MD'): 60, ('kakao', 'MW'): 60, ('google', 'SS'): 60}"
+    },
+    {
+      "check": "장소 ID 중복",
+      "passed": true,
+      "detail": "광고 별도, 지역·지도 내 장소 ID 중복 없음"
+    },
+    {
+      "check": "자연 검색 순위 ('kakao', 'MD')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "자연 검색 순위 ('google', 'MW')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "자연 검색 순위 ('kakao', 'SS')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "자연 검색 순위 ('google', 'MD')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "자연 검색 순위 ('kakao', 'MW')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "자연 검색 순위 ('google', 'SS')",
+      "passed": true,
+      "detail": "1~60 표시 순위 유지"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-11610281 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/11610281"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-11610281 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/11610281#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-17103484 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/17103484"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-17103484 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/17103484#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-917289719 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/917289719"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-917289719 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/917289719#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-17531780 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/17531780"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-17531780 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/17531780#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-8995971 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/8995971"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-8995971 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/8995971#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-7872029 home_hours",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/7872029"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-7872029 menu",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/7872029#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-21396812 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/21396812"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-21396812 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/21396812#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1820258951 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1820258951"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1820258951 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1820258951#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-7871208 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/7871208"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-7871208 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/7871208#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-25733230 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/25733230"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-25733230 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/25733230#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-19409195 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/19409195"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-19409195 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/19409195#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-22906526 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/22906526"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-22906526 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/22906526#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-13050974 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/13050974"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-13050974 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/13050974#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-21748255 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/21748255"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-21748255 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/21748255#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1783472748 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1783472748"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1783472748 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1783472748#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1497729693 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1497729693"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-1497729693 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1497729693#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-64633006 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/64633006"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-64633006 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/64633006#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-26055687 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/26055687"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-26055687 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/26055687#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1463550532 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1463550532"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1463550532 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1463550532#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-132500108 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/132500108"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-132500108 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/132500108#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1592693649 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1592693649"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1592693649 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1592693649#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1707192274 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1707192274"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MW-1707192274 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/1707192274#menuInfo"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-26853115 home_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/26853115"
+    },
+    {
+      "check": "카카오 상세 지점 헤더 MD-26853115 menu_screening",
+      "passed": true,
+      "detail": "https://place.map.kakao.com/26853115#menuInfo"
+    },
+    {
+      "check": "후보·점수 셀 수",
+      "passed": true,
+      "detail": "36후보 × 3항목"
+    },
+    {
+      "check": "점수 근거 MD-7872029-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-7872029-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-7872029-3",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-8995971-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-8995971-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-11610281-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-11610281-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-11610281-3",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17103484-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17103484-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17103484-3",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-917289719-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-917289719-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-917289719-3",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17531780-1",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17531780-2",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "점수 근거 MD-17531780-3",
+      "passed": true,
+      "detail": "실제 상세 원문 행과 URL·후보 ID 연결"
+    },
+    {
+      "check": "미확인을 0으로 대체하지 않음",
+      "passed": true,
+      "detail": "Counter({'unknown': 91, 'confirmed_observed_scope': 17})"
+    },
+    {
+      "check": "21개 후보 쌍 제외 근거",
+      "passed": true,
+      "detail": "가까운 3쌍 수동 검수, 나머지 실제 메뉴 음식군 검수"
+    },
+    {
+      "check": "확정 집단 부재를 명시",
+      "passed": true,
+      "detail": "집단 A/B 모두 0개, 임의 배정 없음"
+    },
+    {
+      "check": "90셀 중복·배정",
+      "passed": true,
+      "detail": "지역3 × 질문3 × 반복10"
+    },
+    {
+      "check": "미실행과 실패 구분",
+      "passed": true,
+      "detail": "추천 시도0, 미실행90; 준비성 점검은 별도"
+    },
+    {
+      "check": "노출 0% 조작 방지",
+      "passed": true,
+      "detail": "분모0을 노출0%로 변환하지 않음"
+    },
+    {
+      "check": "원문·판정 해시",
+      "passed": true,
+      "detail": "현재 근거와 잠금 해시 일치; cohort_ready=false"
+    }
+  ],
+  "methodological_limits": "저장 자료 정합성 검수다. Google 메뉴 사진 전체 판독, 조사자 간 일치도, 현장 영업 또는 실제 추천 측정 완료를 증명하지 않음."
+}

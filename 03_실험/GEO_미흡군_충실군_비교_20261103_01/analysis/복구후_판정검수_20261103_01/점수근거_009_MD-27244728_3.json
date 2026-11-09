@@ -1,0 +1,27 @@
+{
+  "store_id": "MD-27244728",
+  "item": 3,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "동일 주소·전화·공식 사이트 연결은 일치하지만 카카오22시와Google21:30 마감이 다름.",
+  "sources": [
+    {
+      "quote": "09:00 ~ 22:00",
+      "source_url": "https://place.map.kakao.com/27244728",
+      "observed_at": "2026-11-03T02:07:36.885Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\220_MD-27244728_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "오전 9:00~오후 9:30",
+      "source_url": "https://www.google.com/maps/place/23%EB%B2%88%EC%A7%80+%EB%82%A8%EC%82%B0%EB%8F%88%EA%B9%8C%EC%8A%A4/data=!3m1!4b1!4m4!3m3!1s0x357ca387f5b8f501:0x9da5391cef7a7d54!16s%2Fg%2F11nm_yw6hx!20s8Q98HX4H%2BCVV?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "observed_at": "2026-11-03T04:13:27.073Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\255_MD-27244728_google_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

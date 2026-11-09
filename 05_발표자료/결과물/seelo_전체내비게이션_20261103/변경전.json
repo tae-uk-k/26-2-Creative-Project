@@ -1,0 +1,3417 @@
+{
+  "frames": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:79",
+          "name": "seelo / Toss / Header",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "585:83",
+          "name": "seelo / Toss / Footer",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44
+        },
+        {
+          "id": "582:836",
+          "name": "Ellipse 1",
+          "type": "ELLIPSE",
+          "visible": true,
+          "x": 94,
+          "y": 387,
+          "w": 970,
+          "h": 454
+        },
+        {
+          "id": "562:201",
+          "name": "01 / 03",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "562:202",
+          "name": "서비스 소개",
+          "type": "FRAME",
+          "visible": true,
+          "x": 224,
+          "y": 435,
+          "w": 940,
+          "h": 510
+        },
+        {
+          "id": "575:26",
+          "name": "유리 가게 · 편집 가능한 입체 도형",
+          "type": "FRAME",
+          "visible": true,
+          "x": 1090,
+          "y": 188,
+          "w": 700,
+          "h": 700
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:80",
+          "parent": "585:79",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        },
+        {
+          "id": "585:81",
+          "parent": "585:79",
+          "text": "5팀  김태욱 · 강가힐   ·  2026.11.4",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:84",
+          "parent": "585:83",
+          "text": "",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 1,
+          "w": 500,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "562:201",
+          "parent": "562:195",
+          "text": "01",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:204",
+          "parent": "562:202",
+          "text": "AI 추천을 진단하고,\n가게 정보를 고칩니다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Bold"
+          },
+          "size": 84,
+          "x": 0,
+          "y": 0,
+          "w": 940,
+          "h": 224,
+          "visible": true
+        },
+        {
+          "id": "562:205",
+          "parent": "562:202",
+          "text": "Google·카카오 정보 정비부터  AI 추천 변화 확인까지.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 34,
+          "x": 0,
+          "y": 260,
+          "w": 840,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "575:43",
+          "parent": "575:26",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 34,
+          "x": 210,
+          "y": 322,
+          "w": 224,
+          "h": 46,
+          "visible": true
+        }
+      ],
+      "lines": []
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:85",
+          "name": "seelo / Toss / Header",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "585:89",
+          "name": "seelo / Toss / Footer",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44
+        },
+        {
+          "id": "562:224",
+          "name": "02 / 03",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "562:225",
+          "name": "문제 정의",
+          "type": "TEXT",
+          "visible": true,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "562:226",
+          "name": "문제 1 · AI 탐색",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 269,
+          "w": 528,
+          "h": 620
+        },
+        {
+          "id": "562:231",
+          "name": "문제 2 · 채널 관리",
+          "type": "FRAME",
+          "visible": true,
+          "x": 656,
+          "y": 269,
+          "w": 1168,
+          "h": 272
+        },
+        {
+          "id": "562:256",
+          "name": "문제 3 · GEO 차이",
+          "type": "FRAME",
+          "visible": true,
+          "x": 656,
+          "y": 573,
+          "w": 1168,
+          "h": 316
+        },
+        {
+          "id": "562:270",
+          "name": "Adobe 2025.09.03 · 미국 소비자 5천여 명 조사 중 AI 여행계획 이용자 기준",
+          "type": "TEXT",
+          "visible": true,
+          "x": 96,
+          "y": 908,
+          "w": 1728,
+          "h": 40
+        },
+        {
+          "id": "587:842",
+          "name": "Line 1",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "587:846",
+          "name": "Line 3",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "587:848",
+          "name": "seelo",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:87",
+          "parent": "585:85",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "585:90",
+          "parent": "585:89",
+          "text": "김태욱 · 강가힐",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 1,
+          "w": 500,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "562:224",
+          "parent": "562:218",
+          "text": "02",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:225",
+          "parent": "562:218",
+          "text": "문제 정의",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 50,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "562:227",
+          "parent": "562:226",
+          "text": "01",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "size": 30,
+          "x": 36,
+          "y": 36,
+          "w": 456,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:228",
+          "parent": "562:226",
+          "text": "가게 탐색의\n새 경로가 된 AI",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 40,
+          "x": 36,
+          "y": 103,
+          "w": 456,
+          "h": 108,
+          "visible": true
+        },
+        {
+          "id": "562:229",
+          "parent": "562:226",
+          "text": "53%",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 174,
+          "x": 36,
+          "y": 233,
+          "w": 456,
+          "h": 192,
+          "visible": true
+        },
+        {
+          "id": "562:230",
+          "parent": "562:226",
+          "text": "미국 AI 여행계획 이용자\n장소·방문 시기 탐색에 활용",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 30,
+          "x": 36,
+          "y": 447,
+          "w": 456,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "562:233",
+          "parent": "562:232",
+          "text": "02",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "size": 30,
+          "x": 0,
+          "y": 0,
+          "w": 650,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:234",
+          "parent": "562:232",
+          "text": "여러 채널 정보를\n직접 점검·수정하기 어렵다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 38,
+          "x": 0,
+          "y": 65,
+          "w": 650,
+          "h": 114,
+          "visible": true
+        },
+        {
+          "id": "562:258",
+          "parent": "562:257",
+          "text": "03",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "size": 30,
+          "x": 0,
+          "y": 0,
+          "w": 564,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:259",
+          "parent": "562:257",
+          "text": "검색 노출이 비슷해도\nGEO 정보 상태에 따라\nAI 추천 수는 다르다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 0,
+          "y": 61,
+          "w": 564,
+          "h": 162,
+          "visible": true
+        },
+        {
+          "id": "562:261",
+          "parent": "562:260",
+          "text": "정보 상태별 AI 추천 등장률",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "562:264",
+          "parent": "562:263",
+          "text": "GEO 정보\n미흡군",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 14,
+          "y": 14,
+          "w": 180,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:265",
+          "parent": "562:263",
+          "text": "___%",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 60,
+          "x": 14,
+          "y": 94,
+          "w": 180,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:266",
+          "parent": "562:262",
+          "text": "VS",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 224,
+          "y": 70,
+          "w": 48,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "562:268",
+          "parent": "562:267",
+          "text": "GEO 정보\n충실군",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 14,
+          "y": 14,
+          "w": 180,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:269",
+          "parent": "562:267",
+          "text": "___%",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 60,
+          "x": 14,
+          "y": 94,
+          "w": 180,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:270",
+          "parent": "562:218",
+          "text": "Adobe 2025.09.03 · 미국 소비자 5천여 명 조사 중 AI 여행계획 이용자 기준",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 21,
+          "x": 96,
+          "y": 908,
+          "w": 1728,
+          "h": 40,
+          "visible": true
+        },
+        {
+          "id": "587:848",
+          "parent": "562:218",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "587:842",
+          "parent": "562:218",
+          "name": "Line 1",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        },
+        {
+          "id": "587:846",
+          "parent": "562:218",
+          "name": "Line 3",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:91",
+          "name": "seelo / Toss / Header",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "585:92",
+          "name": "seelo",
+          "type": "TEXT",
+          "visible": false,
+          "x": 136,
+          "y": 932,
+          "w": 210,
+          "h": 66
+        },
+        {
+          "id": "585:95",
+          "name": "seelo / Toss / Footer",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44
+        },
+        {
+          "id": "562:277",
+          "name": "03 / 03",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "562:278",
+          "name": "UX 인사이트 · 가치제안",
+          "type": "TEXT",
+          "visible": true,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "562:279",
+          "name": "UX 인사이트",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 269,
+          "w": 688,
+          "h": 624
+        },
+        {
+          "id": "562:282",
+          "name": "가치제안",
+          "type": "FRAME",
+          "visible": true,
+          "x": 816,
+          "y": 269,
+          "w": 1008,
+          "h": 624
+        },
+        {
+          "id": "575:53",
+          "name": "도식 / arrow",
+          "type": "FRAME",
+          "visible": false,
+          "x": 723,
+          "y": 559,
+          "w": 28,
+          "h": 28
+        },
+        {
+          "id": "591:53",
+          "name": "공통 형식 / 상단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:54",
+          "name": "공통 형식 / 하단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:55",
+          "name": "공통 형식 / 하단 로고",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:93",
+          "parent": "585:91",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "585:92",
+          "parent": "562:271",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 136,
+          "y": 932,
+          "w": 210,
+          "h": 66,
+          "visible": false
+        },
+        {
+          "id": "585:96",
+          "parent": "585:95",
+          "text": "김태욱 · 강가힐",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 1,
+          "w": 500,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "562:277",
+          "parent": "562:271",
+          "text": "03",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:278",
+          "parent": "562:271",
+          "text": "UX 인사이트 · 가치제안",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 50,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "562:280",
+          "parent": "562:279",
+          "text": "UX 인사이트",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 40,
+          "y": 40,
+          "w": 544,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:281",
+          "parent": "562:279",
+          "text": "영업에 집중하며 AI로 가게를 찾는 관광객에게 발견되고 싶다.\n복잡한 노출 관리는 맡기고 결과만 쉽게 확인하고 싶다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 38,
+          "x": 40,
+          "y": 115,
+          "w": 608,
+          "h": 240,
+          "visible": true
+        },
+        {
+          "id": "562:283",
+          "parent": "562:282",
+          "text": "가치제안",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 40,
+          "y": 40,
+          "w": 928,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:284",
+          "parent": "562:282",
+          "text": "seelo는 AI가 가게를 잘 찾고 소개하도록,\n구글·카카오의 메뉴·가격·영업시간 등을 대신 고치고\nAI 추천의 변화까지 확인한다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 40,
+          "x": 40,
+          "y": 115,
+          "w": 928,
+          "h": 186,
+          "visible": true
+        },
+        {
+          "id": "562:290",
+          "parent": "562:286",
+          "text": "진단",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "562:295",
+          "parent": "562:291",
+          "text": "정보 정비",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "562:299",
+          "parent": "562:296",
+          "text": "전후 비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "591:55",
+          "parent": "562:271",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "591:53",
+          "parent": "562:271",
+          "name": "공통 형식 / 상단선",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        },
+        {
+          "id": "591:54",
+          "parent": "562:271",
+          "name": "공통 형식 / 하단선",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:97",
+          "name": "seelo / Toss / Header",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "575:67",
+          "name": "04 / 04",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "575:68",
+          "name": "자동정비",
+          "type": "TEXT",
+          "visible": false,
+          "x": 96,
+          "y": 144,
+          "w": 1728,
+          "h": 96
+        },
+        {
+          "id": "575:69",
+          "name": "승인한 항목 반영 · 반영 확인 · 변경 이력 기록",
+          "type": "TEXT",
+          "visible": false,
+          "x": 96,
+          "y": 250,
+          "w": 1728,
+          "h": 51
+        },
+        {
+          "id": "575:70",
+          "name": "정비안 확인·승인",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 330,
+          "w": 840,
+          "h": 376
+        },
+        {
+          "id": "575:88",
+          "name": "정비 진행·반영 결과",
+          "type": "FRAME",
+          "visible": false,
+          "x": 984,
+          "y": 330,
+          "w": 840,
+          "h": 376
+        },
+        {
+          "id": "575:106",
+          "name": "도식 / arrow",
+          "type": "FRAME",
+          "visible": false,
+          "x": 949,
+          "y": 502,
+          "w": 30,
+          "h": 30
+        },
+        {
+          "id": "575:108",
+          "name": "사용 흐름",
+          "type": "TEXT",
+          "visible": false,
+          "x": 96,
+          "y": 730,
+          "w": 1728,
+          "h": 45
+        },
+        {
+          "id": "575:109",
+          "name": "가게 등록부터 결과 확인까지",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 786,
+          "w": 1728,
+          "h": 156
+        },
+        {
+          "id": "575:137",
+          "name": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "type": "TEXT",
+          "visible": false,
+          "x": 96,
+          "y": 966,
+          "w": 1510,
+          "h": 42
+        },
+        {
+          "id": "580:138",
+          "name": "서비스 개념과 핵심 기능",
+          "type": "TEXT",
+          "visible": true,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "580:139",
+          "name": "핵심 기능 · 지도 정보 대신 수정",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 269,
+          "w": 1728,
+          "h": 326
+        },
+        {
+          "id": "580:149",
+          "name": "사용 흐름",
+          "type": "TEXT",
+          "visible": true,
+          "x": 96,
+          "y": 637,
+          "w": 1728,
+          "h": 48
+        },
+        {
+          "id": "580:150",
+          "name": "가게 등록부터 결과 확인까지",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 705,
+          "w": 1728,
+          "h": 156
+        },
+        {
+          "id": "580:178",
+          "name": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "type": "TEXT",
+          "visible": true,
+          "x": 96,
+          "y": 909,
+          "w": 1728,
+          "h": 42
+        },
+        {
+          "id": "591:56",
+          "name": "공통 형식 / 상단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:57",
+          "name": "공통 형식 / 하단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:58",
+          "name": "공통 형식 / 하단 로고",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:98",
+          "parent": "585:97",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        },
+        {
+          "id": "585:99",
+          "parent": "585:97",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "575:67",
+          "parent": "575:63",
+          "text": "04",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "575:68",
+          "parent": "575:63",
+          "text": "자동정비",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Bold"
+          },
+          "size": 76,
+          "x": 96,
+          "y": 144,
+          "w": 1728,
+          "h": 96,
+          "visible": false
+        },
+        {
+          "id": "575:69",
+          "parent": "575:63",
+          "text": "승인한 항목 반영 · 반영 확인 · 변경 이력 기록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 34,
+          "x": 96,
+          "y": 250,
+          "w": 1728,
+          "h": 51,
+          "visible": false
+        },
+        {
+          "id": "575:71",
+          "parent": "575:70",
+          "text": "정비안 확인·승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 34,
+          "x": 32,
+          "y": 22,
+          "w": 776,
+          "h": 51,
+          "visible": true
+        },
+        {
+          "id": "585:107",
+          "parent": "585:104",
+          "text": "영문 메뉴·가격",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:108",
+          "parent": "585:104",
+          "text": "확인·승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:116",
+          "parent": "585:113",
+          "text": "실제 영업시간",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:117",
+          "parent": "585:113",
+          "text": "확인·승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:125",
+          "parent": "585:122",
+          "text": "영문 가게 소개",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:126",
+          "parent": "585:122",
+          "text": "확인·승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "575:89",
+          "parent": "575:88",
+          "text": "정비 진행·반영 결과",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 34,
+          "x": 32,
+          "y": 22,
+          "w": 776,
+          "h": 51,
+          "visible": true
+        },
+        {
+          "id": "585:134",
+          "parent": "585:131",
+          "text": "Google · 영문 소개",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:135",
+          "parent": "585:131",
+          "text": "완료",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:143",
+          "parent": "585:140",
+          "text": "Google · 영문 메뉴",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:144",
+          "parent": "585:140",
+          "text": "완료",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:152",
+          "parent": "585:149",
+          "text": "카카오 · 영업시간",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:153",
+          "parent": "585:149",
+          "text": "완료",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "575:108",
+          "parent": "575:63",
+          "text": "사용 흐름",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 96,
+          "y": 730,
+          "w": 1728,
+          "h": 45,
+          "visible": false
+        },
+        {
+          "id": "585:157",
+          "parent": "585:156",
+          "text": "가게 등록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:158",
+          "parent": "585:156",
+          "text": "이름·지도 링크",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:162",
+          "parent": "585:161",
+          "text": "AI 추천 현황 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:163",
+          "parent": "585:161",
+          "text": "결과 확인·정비 신청",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:167",
+          "parent": "585:166",
+          "text": "연결·정비안 승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:168",
+          "parent": "585:166",
+          "text": "사장님 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:172",
+          "parent": "585:171",
+          "text": "자동정비",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:173",
+          "parent": "585:171",
+          "text": "Google·카카오 반영",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:177",
+          "parent": "585:176",
+          "text": "결과 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:178",
+          "parent": "585:176",
+          "text": "반영 이력·전후 비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "575:137",
+          "parent": "575:63",
+          "text": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 96,
+          "y": 966,
+          "w": 1510,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "580:138",
+          "parent": "575:63",
+          "text": "서비스 개념과 핵심 기능",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 50,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "580:141",
+          "parent": "580:140",
+          "text": "핵심 기능",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 0,
+          "y": 0,
+          "w": 1136,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:142",
+          "parent": "580:140",
+          "text": "구글·카카오의 메뉴·가격·영업시간 등을\n대신 고쳐주기",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 46,
+          "x": 0,
+          "y": 61,
+          "w": 1136,
+          "h": 128,
+          "visible": true
+        },
+        {
+          "id": "580:143",
+          "parent": "580:140",
+          "text": "승인한 정보를 반영하고, 반영 결과와 변경 이력을 남깁니다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 30,
+          "x": 0,
+          "y": 205,
+          "w": 1136,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:146",
+          "parent": "580:145",
+          "text": "정비안 확인·승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 24,
+          "y": 19.5,
+          "w": 408,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:148",
+          "parent": "580:147",
+          "text": "지도 반영·변경 이력",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 24,
+          "y": 19.5,
+          "w": 408,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:149",
+          "parent": "575:63",
+          "text": "사용 흐름",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 96,
+          "y": 637,
+          "w": 1728,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "585:180",
+          "parent": "585:179",
+          "text": "가게 등록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:181",
+          "parent": "585:179",
+          "text": "이름·지도 링크",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:183",
+          "parent": "585:182",
+          "text": "AI 추천 현황 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:184",
+          "parent": "585:182",
+          "text": "결과 확인·정비 신청",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:186",
+          "parent": "585:185",
+          "text": "연결·정비안 승인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:187",
+          "parent": "585:185",
+          "text": "사장님 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:189",
+          "parent": "585:188",
+          "text": "정보 대신 수정",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:190",
+          "parent": "585:188",
+          "text": "Google·카카오 반영",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "585:192",
+          "parent": "585:191",
+          "text": "결과 확인",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "585:193",
+          "parent": "585:191",
+          "text": "반영 이력·전후 비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:178",
+          "parent": "575:63",
+          "text": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 96,
+          "y": 909,
+          "w": 1728,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:58",
+          "parent": "575:63",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "591:56",
+          "parent": "575:63",
+          "name": "공통 형식 / 상단선",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        },
+        {
+          "id": "591:57",
+          "parent": "575:63",
+          "name": "공통 형식 / 하단선",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "580:179",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:194",
+          "name": "seelo / 발표 머리말",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "580:183",
+          "name": "05",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "580:184",
+          "name": "개발 범위 · 후속 개발",
+          "type": "TEXT",
+          "visible": true,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "580:185",
+          "name": "베타 범위",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 269,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "580:188",
+          "name": "구현 범위",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 373,
+          "w": 1728,
+          "h": 330
+        },
+        {
+          "id": "580:198",
+          "name": "후속 개발안",
+          "type": "TEXT",
+          "visible": true,
+          "x": 96,
+          "y": 735,
+          "w": 1728,
+          "h": 48
+        },
+        {
+          "id": "580:199",
+          "name": "후속 개발안",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 801,
+          "w": 1728,
+          "h": 96
+        },
+        {
+          "id": "580:209",
+          "name": "Google 공식 수정 API 연동: 프로젝트 접근 승인·업주 권한 동의 후",
+          "type": "TEXT",
+          "visible": false,
+          "x": 96,
+          "y": 973,
+          "w": 1500,
+          "h": 36
+        },
+        {
+          "id": "591:59",
+          "name": "공통 형식 / 상단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:60",
+          "name": "공통 형식 / 하단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:61",
+          "name": "공통 형식 / 하단 로고",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:195",
+          "parent": "585:194",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        },
+        {
+          "id": "585:196",
+          "parent": "585:194",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "580:183",
+          "parent": "580:179",
+          "text": "05",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:184",
+          "parent": "580:179",
+          "text": "개발 범위 · 후속 개발",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 50,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "580:186",
+          "parent": "580:185",
+          "text": "베타 범위",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 16,
+          "y": 13.5,
+          "w": 180,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:187",
+          "parent": "580:185",
+          "text": "계정당 가게 1곳 / ChatGPT·Gemini / Google·카카오 정비",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 30,
+          "x": 220,
+          "y": 13.5,
+          "w": 1448,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:190",
+          "parent": "580:189",
+          "text": "AI 추천 현황 분석",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 32,
+          "y": 32,
+          "w": 488,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:191",
+          "parent": "580:189",
+          "text": "AI별 등장률·등장 순서\n참고 출처\n주변 가게 비교\n수정 필요 항목",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 30,
+          "x": 32,
+          "y": 108,
+          "w": 488,
+          "h": 184,
+          "visible": true
+        },
+        {
+          "id": "580:193",
+          "parent": "580:192",
+          "text": "구글·카카오 정보 수정",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 32,
+          "y": 32,
+          "w": 488,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:194",
+          "parent": "580:192",
+          "text": "기존 정보와 출처 대조\n정비안 확인·승인\nGoogle·카카오 정보 수정\n반영 확인·변경 이력",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 30,
+          "x": 32,
+          "y": 108,
+          "w": 488,
+          "h": 184,
+          "visible": true
+        },
+        {
+          "id": "580:196",
+          "parent": "580:195",
+          "text": "AI 추천 변화 비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 32,
+          "y": 32,
+          "w": 488,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:197",
+          "parent": "580:195",
+          "text": "정비 후 2주 재측정\n동일 질문·반복 횟수\nAI별 전후 비교\n수정 항목 반영 상태",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 30,
+          "x": 32,
+          "y": 108,
+          "w": 488,
+          "h": 184,
+          "visible": true
+        },
+        {
+          "id": "580:198",
+          "parent": "580:179",
+          "text": "후속 개발안",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 96,
+          "y": 735,
+          "w": 1728,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "580:201",
+          "parent": "580:200",
+          "text": "간편한 Google 연결",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 0,
+          "y": 0,
+          "w": 552,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "580:202",
+          "parent": "580:200",
+          "text": "Google 계정으로 권한 승인\n공식 API로 지원 항목 수정",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 58,
+          "w": 552,
+          "h": 84,
+          "visible": false
+        },
+        {
+          "id": "580:204",
+          "parent": "580:203",
+          "text": "정기 분석·변화 알림",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 0,
+          "y": 0,
+          "w": 552,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "580:205",
+          "parent": "580:203",
+          "text": "추천 추이 자동 확인\n변화 발생 시 알림",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 58,
+          "w": 552,
+          "h": 84,
+          "visible": false
+        },
+        {
+          "id": "580:207",
+          "parent": "580:206",
+          "text": "여러 가게 통합 관리",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 0,
+          "y": 0,
+          "w": 552,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "580:208",
+          "parent": "580:206",
+          "text": "지점별 상태 한눈에 확인\n가게 전환·비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 58,
+          "w": 552,
+          "h": 84,
+          "visible": false
+        },
+        {
+          "id": "580:209",
+          "parent": "580:179",
+          "text": "Google 공식 수정 API 연동: 프로젝트 접근 승인·업주 권한 동의 후",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 24,
+          "x": 96,
+          "y": 973,
+          "w": 1500,
+          "h": 36,
+          "visible": false
+        },
+        {
+          "id": "591:61",
+          "parent": "580:179",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "591:59",
+          "parent": "580:179",
+          "name": "공통 형식 / 상단선",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        },
+        {
+          "id": "591:60",
+          "parent": "580:179",
+          "name": "공통 형식 / 하단선",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "580:210",
+      "name": "07 · 시스템 아키텍처 · 데이터 흐름",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "585:197",
+          "name": "seelo / 발표 머리말",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "580:214",
+          "name": "07",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "580:215",
+          "name": "시스템 아키텍처 · 데이터 흐름",
+          "type": "TEXT",
+          "visible": true,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "580:216",
+          "name": "시스템 구성",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 269,
+          "w": 1728,
+          "h": 418
+        },
+        {
+          "id": "580:243",
+          "name": "데이터 흐름",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 727,
+          "w": 1728,
+          "h": 90
+        },
+        {
+          "id": "580:266",
+          "name": "측정 조건과 진행 처리",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 851,
+          "w": 1728,
+          "h": 64
+        },
+        {
+          "id": "580:269",
+          "name": "POST /api/stores/identify    GET /api/runs/{runId}/progress    GET /api/diagnosis/{runId}",
+          "type": "TEXT",
+          "visible": true,
+          "x": 96,
+          "y": 936,
+          "w": 1510,
+          "h": 36
+        },
+        {
+          "id": "591:62",
+          "name": "공통 형식 / 상단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:63",
+          "name": "공통 형식 / 하단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:64",
+          "name": "공통 형식 / 하단 로고",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        }
+      ],
+      "texts": [
+        {
+          "id": "585:198",
+          "parent": "585:197",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        },
+        {
+          "id": "585:199",
+          "parent": "585:197",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "580:214",
+          "parent": "580:210",
+          "text": "07",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:215",
+          "parent": "580:210",
+          "text": "시스템 아키텍처 · 데이터 흐름",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 50,
+          "x": 156,
+          "y": 29,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "580:226",
+          "parent": "580:225",
+          "text": "Frontend",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 24,
+          "y": 24,
+          "w": 272,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:227",
+          "parent": "580:225",
+          "text": "React · TypeScript",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 24,
+          "y": 88,
+          "w": 272,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:229",
+          "parent": "580:228",
+          "text": "Backend",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 24,
+          "y": 24,
+          "w": 312,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:230",
+          "parent": "580:228",
+          "text": "FastAPI / 인증·API",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 24,
+          "y": 88,
+          "w": 312,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:232",
+          "parent": "580:231",
+          "text": "PostgreSQL",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 24,
+          "y": 24,
+          "w": 632,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:233",
+          "parent": "580:231",
+          "text": "서비스 데이터 / 작업 큐",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 24,
+          "y": 88,
+          "w": 632,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:235",
+          "parent": "580:234",
+          "text": "Worker",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 24,
+          "y": 24,
+          "w": 312,
+          "h": 54,
+          "visible": true
+        },
+        {
+          "id": "580:236",
+          "parent": "580:234",
+          "text": "Procrastinate",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 24,
+          "y": 88,
+          "w": 312,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:238",
+          "parent": "580:237",
+          "text": "외부 연동",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 36,
+          "x": 18,
+          "y": 18,
+          "w": 644,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "580:239",
+          "parent": "580:237",
+          "text": "지도 API / OpenAI · Gemini\nGoogle·카카오 관리 화면\n이메일 서비스",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 18,
+          "y": 74,
+          "w": 644,
+          "h": 114,
+          "visible": true
+        },
+        {
+          "id": "580:240",
+          "parent": "580:216",
+          "text": "요청 · 결과",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 320,
+          "y": 12,
+          "w": 168,
+          "h": 39,
+          "visible": true
+        },
+        {
+          "id": "580:241",
+          "parent": "580:216",
+          "text": "저장 · 조회",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 848,
+          "y": 12,
+          "w": 200,
+          "h": 39,
+          "visible": true
+        },
+        {
+          "id": "580:242",
+          "parent": "580:216",
+          "text": "작업 · 처리 결과",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 770,
+          "y": 145,
+          "w": 360,
+          "h": 39,
+          "visible": true
+        },
+        {
+          "id": "580:245",
+          "parent": "580:244",
+          "text": "가게 등록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 22.5,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:250",
+          "parent": "580:249",
+          "text": "정보 수집",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 22.5,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:255",
+          "parent": "580:254",
+          "text": "질문·AI 측정",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 22.5,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:260",
+          "parent": "580:259",
+          "text": "추천 추출·지표",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 22.5,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:265",
+          "parent": "580:264",
+          "text": "저장·화면 표시",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 20,
+          "y": 22.5,
+          "w": 280,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:267",
+          "parent": "580:266",
+          "text": "질문 3개 × AI 2종 × 10회 = 60회",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 0,
+          "y": 0,
+          "w": 840,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "580:268",
+          "parent": "580:266",
+          "text": "3초마다 진행 조회 / 실패 호출 별도 기록",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 888,
+          "y": 0,
+          "w": 840,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "580:269",
+          "parent": "580:210",
+          "text": "POST /api/stores/identify    GET /api/runs/{runId}/progress    GET /api/diagnosis/{runId}",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 24,
+          "x": 96,
+          "y": 936,
+          "w": 1510,
+          "h": 36,
+          "visible": true
+        },
+        {
+          "id": "591:64",
+          "parent": "580:210",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "591:62",
+          "parent": "580:210",
+          "name": "공통 형식 / 상단선",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        },
+        {
+          "id": "591:63",
+          "parent": "580:210",
+          "name": "공통 형식 / 하단선",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "591:66",
+      "name": "03 · 내비게이션바 비교안",
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "591:67",
+          "name": "seelo / Toss / Header",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72
+        },
+        {
+          "id": "591:69",
+          "name": "seelo",
+          "type": "TEXT",
+          "visible": false,
+          "x": 136,
+          "y": 932,
+          "w": 210,
+          "h": 66
+        },
+        {
+          "id": "591:70",
+          "name": "seelo / Toss / Footer",
+          "type": "FRAME",
+          "visible": false,
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44
+        },
+        {
+          "id": "591:72",
+          "name": "03 / 03",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "id": "591:73",
+          "name": "UX 인사이트 · 가치제안",
+          "type": "TEXT",
+          "visible": true,
+          "x": 114,
+          "y": 166,
+          "w": 1696,
+          "h": 76
+        },
+        {
+          "id": "591:74",
+          "name": "UX 인사이트",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 306,
+          "w": 688,
+          "h": 624
+        },
+        {
+          "id": "591:77",
+          "name": "가치제안",
+          "type": "FRAME",
+          "visible": true,
+          "x": 816,
+          "y": 306,
+          "w": 1008,
+          "h": 624
+        },
+        {
+          "id": "591:95",
+          "name": "도식 / arrow",
+          "type": "FRAME",
+          "visible": false,
+          "x": 723,
+          "y": 559,
+          "w": 28,
+          "h": 28
+        },
+        {
+          "id": "591:97",
+          "name": "공통 형식 / 상단선",
+          "type": "VECTOR",
+          "visible": false,
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:98",
+          "name": "공통 형식 / 하단선",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0
+        },
+        {
+          "id": "591:99",
+          "name": "공통 형식 / 하단 로고",
+          "type": "TEXT",
+          "visible": false,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66
+        },
+        {
+          "id": "591:100",
+          "name": "상단 내비게이션 · 수동편집",
+          "type": "FRAME",
+          "visible": true,
+          "x": 96,
+          "y": 28,
+          "w": 1728,
+          "h": 88
+        }
+      ],
+      "texts": [
+        {
+          "id": "591:68",
+          "parent": "591:67",
+          "text": "중간점검  ·  2026.11",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 28,
+          "x": 1308,
+          "y": 15,
+          "w": 420,
+          "h": 42,
+          "visible": false
+        },
+        {
+          "id": "591:69",
+          "parent": "591:66",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 136,
+          "y": 932,
+          "w": 210,
+          "h": 66,
+          "visible": false
+        },
+        {
+          "id": "591:71",
+          "parent": "591:70",
+          "text": "김태욱 · 강가힐",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Regular"
+          },
+          "size": 28,
+          "x": 0,
+          "y": 1,
+          "w": 500,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:72",
+          "parent": "591:66",
+          "text": "03",
+          "font": {
+            "family": "Plus Jakarta Sans",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 30,
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "591:73",
+          "parent": "591:66",
+          "text": "UX 인사이트 · 가치제안",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 56,
+          "x": 114,
+          "y": 166,
+          "w": 1696,
+          "h": 76,
+          "visible": true
+        },
+        {
+          "id": "591:75",
+          "parent": "591:74",
+          "text": "UX 인사이트",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 40,
+          "y": 40,
+          "w": 544,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "591:76",
+          "parent": "591:74",
+          "text": "영업에 집중하며 AI로 가게를 찾는 관광객에게 발견되고 싶다.\n복잡한 노출 관리는 맡기고 결과만 쉽게 확인하고 싶다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 38,
+          "x": 40,
+          "y": 115,
+          "w": 608,
+          "h": 240,
+          "visible": true
+        },
+        {
+          "id": "591:78",
+          "parent": "591:77",
+          "text": "가치제안",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 30,
+          "x": 40,
+          "y": 40,
+          "w": 928,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "591:79",
+          "parent": "591:77",
+          "text": "seelo는 AI가 가게를 잘 찾고 소개하도록,\n구글·카카오의 메뉴·가격·영업시간 등을 대신 고치고\nAI 추천의 변화까지 확인한다.",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 40,
+          "x": 40,
+          "y": 115,
+          "w": 928,
+          "h": 186,
+          "visible": true
+        },
+        {
+          "id": "591:85",
+          "parent": "591:81",
+          "text": "진단",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "591:90",
+          "parent": "591:86",
+          "text": "정보 정비",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "591:94",
+          "parent": "591:91",
+          "text": "전후 비교",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 32,
+          "x": 8.666671752929688,
+          "y": 100,
+          "w": 266.6666564941406,
+          "h": 48,
+          "visible": true
+        },
+        {
+          "id": "591:99",
+          "parent": "591:66",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 44,
+          "x": 114,
+          "y": 996,
+          "w": 210,
+          "h": 66,
+          "visible": false
+        },
+        {
+          "id": "591:101",
+          "parent": "591:100",
+          "text": "seelo",
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "size": 38,
+          "x": 18,
+          "y": 8,
+          "w": 180,
+          "h": 60,
+          "visible": true
+        },
+        {
+          "id": "591:103",
+          "parent": "591:102",
+          "text": "서비스 소개",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 180,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:105",
+          "parent": "591:104",
+          "text": "문제 정의",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 180,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:107",
+          "parent": "591:106",
+          "text": "인사이트",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "SemiBold"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 200,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:109",
+          "parent": "591:108",
+          "text": "핵심 기능",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 180,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:111",
+          "parent": "591:110",
+          "text": "개발 범위",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 180,
+          "h": 42,
+          "visible": true
+        },
+        {
+          "id": "591:113",
+          "parent": "591:112",
+          "text": "시스템 구조",
+          "font": {
+            "family": "IBM Plex Sans KR",
+            "style": "Medium"
+          },
+          "size": 26,
+          "x": 0,
+          "y": 11,
+          "w": 200,
+          "h": 42,
+          "visible": true
+        }
+      ],
+      "lines": [
+        {
+          "id": "591:97",
+          "parent": "591:66",
+          "name": "공통 형식 / 상단선",
+          "x": 114,
+          "y": 129,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": false
+        },
+        {
+          "id": "591:98",
+          "parent": "591:66",
+          "name": "공통 형식 / 하단선",
+          "x": 104,
+          "y": 986,
+          "w": 1720.0142822265625,
+          "h": 0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "outerLines": [
+    {
+      "id": "582:837",
+      "x": 177.9921875,
+      "y": 252,
+      "w": 1720.0142822265625,
+      "h": 0,
+      "visible": true
+    },
+    {
+      "id": "582:841",
+      "x": 178,
+      "y": 1108,
+      "w": 1720.0142822265625,
+      "h": 0,
+      "visible": true
+    },
+    {
+      "id": "587:844",
+      "x": 178,
+      "y": 1108,
+      "w": 1720.0142822265625,
+      "h": 0,
+      "visible": true
+    }
+  ]
+}

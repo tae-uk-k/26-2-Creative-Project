@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "google_maps",
+    "name": "Google Maps",
+    "publisher": "Google LLC",
+    "metadata_url": "https://itunes.apple.com/lookup?id=585027354&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/a7/0f/95a70f0b-2bf2-d364-43b0-5c808c66b8ed/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\google_maps.jpg",
+    "bytes": 23350,
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "kakao_map",
+    "name": "카카오맵 - 대한민국 No.1 지도앱",
+    "publisher": "Kakao Corp.",
+    "metadata_url": "https://itunes.apple.com/lookup?id=304608425&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/5d/54/e65d54b2-6682-679f-2bf6-f017a58d5ffa/AppIconStore-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\kakao_map.jpg",
+    "bytes": 21637,
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "naver_map",
+    "name": "네이버지도 - 장소의 발견과 예약, 내비게이션",
+    "publisher": "NAVER Corp.",
+    "metadata_url": "https://itunes.apple.com/lookup?id=311867728&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/5a/aa/095aaabe-d3ce-cb18-ebd0-f2d6483946c9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\naver_map.jpg",
+    "bytes": 23964,
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "bing",
+    "name": "Microsoft Bing Search",
+    "publisher": "Microsoft Corporation",
+    "metadata_url": "https://itunes.apple.com/lookup?id=345323231&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/d7/c9/90d7c952-6aab-de61-14df-86a0fa3a329c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\bing.jpg",
+    "bytes": 15803,
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "tripadvisor",
+    "name": "트립어드바이저: 여행 계획 및 예약하기",
+    "publisher": "Tripadvisor",
+    "metadata_url": "https://itunes.apple.com/lookup?id=284876795&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/69/ba/f969ba85-2b3b-bef1-d8d6-92fe341e99ed/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\tripadvisor.jpg",
+    "bytes": 29716,
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "publisher": "Instagram, Inc.",
+    "metadata_url": "https://itunes.apple.com/lookup?id=389801252&country=kr",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/91/85/b09185ca-7b74-87a4-adaf-1755d434ee22/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\05_발표자료\\결과물\\seelo_블루그린_20261109\\assets\\instagram.jpg",
+    "bytes": 46217,
+    "mime": "image/jpeg"
+  }
+]

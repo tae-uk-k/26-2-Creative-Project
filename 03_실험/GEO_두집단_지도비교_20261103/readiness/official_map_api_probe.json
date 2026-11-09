@@ -1,0 +1,40 @@
+[
+  {
+    "platform": "google",
+    "checked_at_utc": "2026-11-02T16:14:02.119988+00:00",
+    "http_status": 403,
+    "public_response": {
+      "error": {
+        "code": 403,
+        "message": "The provided API key has an IP address restriction. The originating IP address of the call (125.133.80.9) violates this restriction.",
+        "status": "PERMISSION_DENIED",
+        "details": [
+          {
+            "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+            "reason": "API_KEY_IP_ADDRESS_BLOCKED",
+            "domain": "googleapis.com",
+            "metadata": {
+              "callerIp": "125.133.80.9",
+              "service": "places.googleapis.com",
+              "consumer": "projects/861524040523"
+            }
+          },
+          {
+            "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+            "locale": "en-US",
+            "message": "The provided API key has an IP address restriction. The originating IP address of the call (125.133.80.9) violates this restriction."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "platform": "kakao",
+    "checked_at_utc": "2026-11-02T16:14:02.156211+00:00",
+    "http_status": 401,
+    "public_response": {
+      "errorType": "AccessDeniedError",
+      "message": "cannot find Authorization : KakaoAK header"
+    }
+  }
+]

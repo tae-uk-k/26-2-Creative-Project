@@ -1,0 +1,1326 @@
+{
+  "originalHash": "b60f5a62",
+  "shop": [
+    {
+      "id": "620:23",
+      "name": "유리 가게 · 편집 가능한 입체 도형",
+      "type": "FRAME",
+      "visible": true,
+      "x": 1090,
+      "y": 188,
+      "w": 700,
+      "h": 700,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    {
+      "id": "620:24",
+      "name": "바닥 그림자",
+      "type": "ELLIPSE",
+      "visible": true,
+      "x": 70,
+      "y": 590,
+      "w": 560,
+      "h": 42,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10000000149011612,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7843137383460999,
+            "g": 0.5490196347236633,
+            "b": 0.07058823853731155
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 18,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    {
+      "id": "620:25",
+      "name": "유리 뒤쪽의 푸른 빛",
+      "type": "ELLIPSE",
+      "visible": true,
+      "x": 200,
+      "y": 224,
+      "w": 360,
+      "h": 360,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.3499999940395355
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9873725771903992,
+                "g": 0.967890202999115,
+                "b": 0.9224313497543335,
+                "a": 0.10000000149011612
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [
+        {
+          "type": "LAYER_BLUR",
+          "visible": true,
+          "radius": 30,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    {
+      "id": "620:26",
+      "name": "가게 측면",
+      "type": "FRAME",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 700,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    {
+      "id": "620:27",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "x": 532,
+      "y": 194.77272033691406,
+      "w": 91,
+      "h": 390.56060791015625,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.30000001192092896,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9522352814674377,
+            "g": 0.8785411715507507,
+            "b": 0.7065882682800293
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1,
+      "vectorPaths": [
+        {
+          "windingRule": "NONZERO",
+          "data": "M 0 65.2272720336914 C 1.3333333730697632 57.89393854141235 5.333333492279053 51.89393854141235 12 47.227272033691406 L 79 2.2272727489471436 C 87 -2.4393937587738037 91 0.22727298736572266 91 10.227272987365723 L 91 321.2272644042969 C 91 330.56059741973877 87 337.8939309120178 79 343.2272644042969 L 11 388.2272644042969 C 3.6666665077209473 392.8939309120178 0 390.56059741973877 0 381.2272644042969 L 0 65.2272720336914 Z"
+        }
+      ]
+    },
+    {
+      "id": "620:28",
+      "name": "가게 정면 · 재질",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 112,
+      "y": 264,
+      "w": 424,
+      "h": 322,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.20000000298023224,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.5
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9538823366165161,
+                "g": 0.8827294111251831,
+                "b": 0.7167059183120728,
+                "a": 0.20000000298023224
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.8999999761581421
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9615686535835266,
+                "g": 0.902274489402771,
+                "b": 0.7639215588569641,
+                "a": 0.20000000298023224
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokeWeight": 1.5,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 8,
+          "boundVariables": {},
+          "color": {
+            "r": 0.05000000074505806,
+            "g": 0.15000000596046448,
+            "b": 0.30000001192092896,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 42,
+          "boundVariables": {},
+          "color": {
+            "r": 0.05000000074505806,
+            "g": 0.15000000596046448,
+            "b": 0.30000001192092896,
+            "a": 0.09000000357627869
+          },
+          "offset": {
+            "x": 0,
+            "y": 22
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "GLASS",
+          "visible": true,
+          "radius": 9,
+          "boundVariables": {},
+          "refraction": 0.12999999523162842,
+          "depth": 14,
+          "lightAngle": -40,
+          "lightIntensity": 0.6499999761581421,
+          "dispersion": 0
+        }
+      ],
+      "cornerRadius": 26,
+      "opacity": 1
+    },
+    {
+      "id": "620:29",
+      "name": "차양 윗면 / 입체",
+      "type": "FRAME",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 700,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    {
+      "id": "620:30",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "x": 82.85713958740234,
+      "y": 152,
+      "w": 541.6813354492188,
+      "h": 74,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.25,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9522352814674377,
+            "g": 0.8785411715507507,
+            "b": 0.7065882682800293
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1,
+      "vectorPaths": [
+        {
+          "windingRule": "NONZERO",
+          "data": "M 1.1428571939468384 74 C -1.523809552192688 70.66666674613953 0.47619056701660156 67 7.142857074737549 63 L 84.14286041259766 7 C 90.8095269203186 2.3333334922790527 98.80952739715576 0 108.14286041259766 0 L 534.1428833007812 0 C 543.4762163162231 0 544.1428833007812 4 536.1428833007812 12 L 463.1428527832031 67 C 456.4761862754822 71.66666650772095 449.1428527832031 74 441.1428527832031 74 L 1.1428571939468384 74 Z"
+        }
+      ]
+    },
+    {
+      "id": "620:31",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "x": 534,
+      "y": 160,
+      "w": 90,
+      "h": 147,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.958823561668396,
+            "g": 0.8952941298484802,
+            "b": 0.7470588684082031
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 0,
+      "opacity": 1,
+      "vectorPaths": [
+        {
+          "windingRule": "NONZERO",
+          "data": "M 0 66 L 90 0 L 90 73 C 90 81 86.66666650772095 87.33333349227905 80 92 L 0 147 L 0 66 Z"
+        }
+      ]
+    },
+    {
+      "id": "620:32",
+      "name": "차양",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 74,
+      "y": 218,
+      "w": 464,
+      "h": 94,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.20000000298023224,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.5
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9390588402748108,
+                "g": 0.8450353145599365,
+                "b": 0.6256470680236816,
+                "a": 0.41999998688697815
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6499999761581421,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1.5,
+      "effects": [
+        {
+          "type": "GLASS",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {},
+          "refraction": 0.10000000149011612,
+          "depth": 10,
+          "lightAngle": -45,
+          "lightIntensity": 0.6000000238418579,
+          "dispersion": 0
+        }
+      ],
+      "cornerRadius": 24,
+      "opacity": 1
+    },
+    {
+      "id": "620:33",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 91,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:34",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 165,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:35",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 239,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:36",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 313,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:37",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 387,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:38",
+      "name": "차양의 반투명 리듬",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 461,
+      "y": 231,
+      "w": 54,
+      "h": 65,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.6000000238418579
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.8819608092308044,
+                "g": 0.699843168258667,
+                "b": 0.27490195631980896,
+                "a": 0.11999999731779099
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 13,
+      "opacity": 1
+    },
+    {
+      "id": "620:39",
+      "name": "간판",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 210,
+      "y": 322,
+      "w": 224,
+      "h": 46,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.41999998688697815,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 12,
+      "opacity": 1
+    },
+    {
+      "id": "620:40",
+      "name": "seelo",
+      "type": "TEXT",
+      "visible": true,
+      "x": 0,
+      "y": 265,
+      "w": 642.7826538085938,
+      "h": 132,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.09803921729326248,
+            "g": 0.12156862765550613,
+            "b": 0.1568627506494522
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:177"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 2.86956524848938,
+      "effects": [],
+      "opacity": 1,
+      "text": "seelo",
+      "font": {
+        "family": "Pacifico",
+        "style": "Regular"
+      },
+      "size": 97.56523132324219
+    },
+    {
+      "id": "620:41",
+      "name": "쇼윈도",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 146,
+      "y": 394,
+      "w": 190,
+      "h": 137,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.20000000298023224,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.3199999928474426
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9368627667427063,
+                "g": 0.839451014995575,
+                "b": 0.612156867980957,
+                "a": 0.14000000059604645
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.8999999761581421
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9610196352005005,
+                "g": 0.9008784294128418,
+                "b": 0.760549008846283,
+                "a": 0.30000001192092896
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokeWeight": 1.5,
+      "effects": [
+        {
+          "type": "GLASS",
+          "visible": true,
+          "radius": 7,
+          "boundVariables": {},
+          "refraction": 0.20000000298023224,
+          "depth": 18,
+          "lightAngle": -40,
+          "lightIntensity": 0.699999988079071,
+          "dispersion": 0
+        }
+      ],
+      "cornerRadius": 20,
+      "opacity": 1
+    },
+    {
+      "id": "620:42",
+      "name": "쇼윈도 세로 프레임",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 239,
+      "y": 404,
+      "w": 3,
+      "h": 116,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6499999761581421,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 1.5,
+      "opacity": 1
+    },
+    {
+      "id": "620:43",
+      "name": "출입문",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 370,
+      "y": 387,
+      "w": 126,
+      "h": 198,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 0.20000000298023224,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.3400000035762787
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9368627667427063,
+                "g": 0.839451014995575,
+                "b": 0.612156867980957,
+                "a": 0.2199999988079071
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.699999988079071,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1.5,
+      "effects": [
+        {
+          "type": "GLASS",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {},
+          "refraction": 0.11999999731779099,
+          "depth": 12,
+          "lightAngle": -40,
+          "lightIntensity": 0.699999988079071,
+          "dispersion": 0
+        }
+      ],
+      "cornerRadius": 19,
+      "opacity": 1
+    },
+    {
+      "id": "620:44",
+      "name": "문 손잡이",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 476,
+      "y": 475,
+      "w": 5,
+      "h": 27,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.8999999761581421,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "cornerRadius": 2.5,
+      "opacity": 1
+    },
+    {
+      "id": "620:45",
+      "name": "가게 앞 단",
+      "type": "RECTANGLE",
+      "visible": true,
+      "x": 92,
+      "y": 581,
+      "w": 466,
+      "h": 22,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.8999999761581421
+              },
+              "position": 0,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0.9703529477119446,
+                "g": 0.9246117472648621,
+                "b": 0.8178823590278625,
+                "a": 0.41999998688697815
+              },
+              "position": 1,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              0.800000011920929,
+              0.6000000238418579,
+              0
+            ],
+            [
+              -0.6000000238418579,
+              0.800000011920929,
+              0.30000001192092896
+            ]
+          ]
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 8,
+          "boundVariables": {},
+          "color": {
+            "r": 0.05000000074505806,
+            "g": 0.15000000596046448,
+            "b": 0.30000001192092896,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": true
+        }
+      ],
+      "cornerRadius": 10,
+      "opacity": 1
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Pacifico",
+      "style": "Regular"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Bold"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Regular"
+    },
+    {
+      "family": "Pacifico",
+      "style": "Regular"
+    },
+    {
+      "family": "Pacifico",
+      "style": "Regular"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "SemiBold"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    },
+    {
+      "family": "IBM Plex Sans KR",
+      "style": "Medium"
+    }
+  ]
+}

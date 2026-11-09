@@ -1,0 +1,41 @@
+{
+  "references": [
+    {
+      "id": "562:189",
+      "expected": "853dee36",
+      "actual": "853dee36",
+      "unchanged": true
+    },
+    {
+      "id": "613:53",
+      "expected": "b2c91492",
+      "actual": "b2c91492",
+      "unchanged": true
+    },
+    {
+      "id": "613:926",
+      "expected": "8c487ded",
+      "actual": "8c487ded",
+      "unchanged": true
+    }
+  ],
+  "lightYellow": {
+    "count": 5,
+    "ids": [
+      "620:74",
+      "620:157",
+      "620:276",
+      "620:345",
+      "620:807"
+    ],
+    "before": "#FFF2D5",
+    "after": "#FFF8E8"
+  },
+  "grayCards": {
+    "count": 39,
+    "differences": []
+  },
+  "contentAndLayoutPreserved": true,
+  "manualLayoutPreserved": true,
+  "renderReviewed": true
+}

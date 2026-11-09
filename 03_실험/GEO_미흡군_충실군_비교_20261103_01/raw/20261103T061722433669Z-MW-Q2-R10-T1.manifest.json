@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261103T061722433669Z-MW-Q2-R10-T1",
+  "cell_id": "MW-Q2-R10",
+  "started_at": "2026-11-03T06:17:22.433669+00:00",
+  "ended_at": "2026-11-03T06:17:28.334358+00:00",
+  "process_status": "model_or_process_failure",
+  "returncode": 1,
+  "raw_path": "raw\\20261103T061722433669Z-MW-Q2-R10-T1.jsonl",
+  "stderr_path": "raw\\20261103T061722433669Z-MW-Q2-R10-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "망원을 처음 방문하는 사람에게 추천할 음식점 5곳을 알려줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마.",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261103T061722433669Z-MW-Q2-R10-T1",
+  "readiness_only": false,
+  "raw_sha256": "0ceab42b2db40d2769d10fe22630529524f1c8091ea6553ba0a715e86ff7fb3c",
+  "stderr_sha256": "262cff360101e8ea54172b391c9fdb62b28f17e0944b851cff43cbe94d614717"
+}

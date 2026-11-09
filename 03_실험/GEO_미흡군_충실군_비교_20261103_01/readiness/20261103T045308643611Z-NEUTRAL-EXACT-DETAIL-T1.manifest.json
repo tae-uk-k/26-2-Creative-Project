@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261103T045308643611Z-NEUTRAL-EXACT-DETAIL-T1",
+  "cell_id": "NEUTRAL-EXACT-DETAIL",
+  "started_at": "2026-11-03T04:53:08.646493+00:00",
+  "ended_at": "2026-11-03T04:53:26.433217+00:00",
+  "process_status": "process_completed_requires_audit",
+  "returncode": 0,
+  "raw_path": "readiness\\20261103T045308643611Z-NEUTRAL-EXACT-DETAIL-T1.jsonl",
+  "stderr_path": "readiness\\20261103T045308643611Z-NEUTRAL-EXACT-DETAIL-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "다음 두 공개 지도 상세 URL을 각각 직접 열어 서울특별시청의 주소와 실제 본문에서 확인한 문구를 알려줘. 열지 못한 지도는 접근 실패라고 명시하고 추측하지 마. https://place.map.kakao.com/8430129 https://www.google.com/maps/place/서울특별시청/data=!3m1!4b1!4m4!3m3!1s0x357ca2f332cb082b:0xe92b70ac420cf0a8!16s%2Fm%2F03ylsqy!20s8Q98HX8H%2BJ7P?hl=ko",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261103T045308643611Z-NEUTRAL-EXACT-DETAIL-T1",
+  "readiness_only": true,
+  "raw_sha256": "262505746276339b725fe7c1d4a097c2195c7114a2c5077ca2d9e2635b1de4fd",
+  "stderr_sha256": "c8c690c78b7ee7565b797e522b966508b3df997cd52898e9c95e9b74a6c076a0"
+}

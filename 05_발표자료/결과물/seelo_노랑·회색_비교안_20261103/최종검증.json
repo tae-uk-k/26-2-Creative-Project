@@ -1,0 +1,27 @@
+{
+  "originalSignature": "853dee36",
+  "baselineSignature": "853dee36",
+  "originalPreserved": true,
+  "variants": [
+    {
+      "id": "613:53",
+      "slides": 9,
+      "textAndGeometryDifferences": []
+    },
+    {
+      "id": "613:926",
+      "slides": 9,
+      "textAndGeometryDifferences": []
+    }
+  ],
+  "sourceNodeCount": 873,
+  "brandColor": "#FFC54F",
+  "grayCardCount": 44,
+  "grayCardRadiusMax": 24,
+  "grayStrokeOpacity": 0.72,
+  "grayShadowAlpha": 0.035,
+  "manualLayoutPreserved": true,
+  "missingFonts": [],
+  "renderReviewed": true,
+  "coverFinalUnderlineWidth": 736
+}

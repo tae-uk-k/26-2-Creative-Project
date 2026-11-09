@@ -1,0 +1,56 @@
+{
+  "textChanges": [],
+  "navs": [
+    {
+      "frame": "562:195",
+      "navId": "602:53",
+      "active": [
+        "서비스 소개"
+      ],
+      "visibleTopLines": []
+    },
+    {
+      "frame": "562:218",
+      "navId": "602:68",
+      "active": [
+        "문제 정의"
+      ],
+      "visibleTopLines": []
+    },
+    {
+      "frame": "562:271",
+      "navId": "602:82",
+      "active": [
+        "인사이트"
+      ],
+      "visibleTopLines": []
+    },
+    {
+      "frame": "575:63",
+      "navId": "602:96",
+      "active": [
+        "핵심 기능"
+      ],
+      "visibleTopLines": []
+    },
+    {
+      "frame": "580:179",
+      "navId": "602:110",
+      "active": [
+        "개발 범위"
+      ],
+      "visibleTopLines": []
+    },
+    {
+      "frame": "580:210",
+      "navId": "602:124",
+      "active": [
+        "시스템 구조"
+      ],
+      "visibleTopLines": []
+    }
+  ],
+  "coverTopLineVisible": false,
+  "renderReviewed": true,
+  "screenshot": "전체_내비게이션.png"
+}

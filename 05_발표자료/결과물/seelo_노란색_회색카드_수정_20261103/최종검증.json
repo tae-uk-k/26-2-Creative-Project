@@ -1,0 +1,20 @@
+{
+  "originalSignature": "853dee36",
+  "graySignature": "8c487ded",
+  "originalPreserved": true,
+  "grayReferencePreserved": true,
+  "textAndGeometryDifferences": [],
+  "autoLayout": 0,
+  "hugOrFill": 0,
+  "instances": 0,
+  "missingFonts": [],
+  "matchedGrayCards": 44,
+  "cardDifferences": [],
+  "renderReviewed": true,
+  "palette": {
+    "key": "#FFC54F",
+    "deep": "#DFA61D",
+    "pale": "원본 파란색 명도와 투명도를 따라 옅은 노란색으로 변환"
+  },
+  "hiddenExtraHighlight": "613:1799"
+}

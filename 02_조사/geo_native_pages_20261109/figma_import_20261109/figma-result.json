@@ -1,0 +1,56 @@
+{
+  "fileKey": "M5WCPZN32W6PEeIaEvcRkC",
+  "sessionId": "4f75c708-51d3-44d3-b783-bc58685487ad",
+  "promptId": "d2a4d477-c492-4ff7-b6a7-3e87e852f870",
+  "output": "editable_design_layers",
+  "scope": "Google 지도와 카카오맵 화면만. 비교 제목·버튼·설명·예시 알림 제외.",
+  "pageId": "12:2",
+  "pageChildCount": 41,
+  "frames": [
+    {
+      "id": "1134:11",
+      "name": "카카오맵 · 온담식탁 성수점",
+      "x": 59440,
+      "y": 19000,
+      "width": 1280,
+      "height": 1522,
+      "textLayers": 64,
+      "vectorLayers": 12,
+      "imageLayers": 28,
+      "fonts": [
+        "Noto Sans KR",
+        "Roboto"
+      ],
+      "completeUiRaster": false
+    },
+    {
+      "id": "1135:11",
+      "name": "Google 지도 · 소담면가 망원점",
+      "x": 58000,
+      "y": 19000,
+      "width": 1280,
+      "height": 765,
+      "textLayers": 51,
+      "vectorLayers": 21,
+      "imageLayers": 12,
+      "fonts": [
+        "Arimo",
+        "Noto Sans KR",
+        "Google Sans Flex"
+      ],
+      "completeUiRaster": false
+    }
+  ],
+  "corrections": [
+    "투명 GIF로 대체된 사진 14개를 원본 사진에서 표시 영역별로 추출하여 개별 이미지 채움 복원",
+    "Google Symbols 아이콘 15개를 원본 폰트의 벡터 윤곽으로 복원",
+    "원본 배경색 복원 및 가져온 요소의 색상 변수 연결 해제",
+    "카카오 별점 벡터 복원"
+  ],
+  "fontSubstitutions": {
+    "Korean text": "Noto Sans KR",
+    "Google Sans Latin text": "Google Sans Flex",
+    "Arial Latin text": "Arimo"
+  },
+  "verification": "두 프레임의 실제 Figma 렌더링과 텍스트·벡터·이미지 레이어 확인 완료. 기존 페이지 자식 39개에 화면 2개만 추가."
+}

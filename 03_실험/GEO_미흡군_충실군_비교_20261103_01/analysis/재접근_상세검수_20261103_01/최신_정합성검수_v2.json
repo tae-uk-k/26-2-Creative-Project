@@ -1,0 +1,97 @@
+{
+  "checked_at_utc": "2026-11-02T19:10:34.761389+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "90 unique planned cells",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Restaurant measurements not invented",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unestimable rates remain null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No finalized cohort inferred from partial review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four separate real neutral attempts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Neutral outcomes audited from raw events",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All CLI response and stderr hashes unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Archived evidence hashes intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Photo storage differs from visual review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Detail scope counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search query coverage and windows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Candidate links are not verified stores",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Partial scores have evidence and total four",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Report local evidence links resolve",
+      "passed": true,
+      "detail": [
+        "analysis/음식별확대_v3_사전범위적용/native_cards.csv",
+        "analysis/재접근_상세검수_20261103_01/후보_조사표_미확정.csv",
+        "analysis/재접근_상세검수_20261103_01/사진_근거목록.csv",
+        "analysis/재접근_상세검수_20261103_01/GEO_항목별점수_부분검수.csv",
+        "analysis/재접근_상세검수_20261103_01/후보_상세관측표.csv",
+        "analysis/재접근_상세검수_20261103_01/CLI_중립점검_원시이벤트검수.json",
+        "analysis/재접근_상세검수_20261103_01/CLI_중립점검_시도목록.csv",
+        "analysis/재접근_상세검수_20261103_01/검수된_현재상태.json",
+        "evidence/browser_observed.jsonl"
+      ]
+    },
+    {
+      "name": "Report external links actually observed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Prior experiment manifest unchanged",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "research_completed": false
+}

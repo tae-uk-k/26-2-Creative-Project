@@ -1,0 +1,2619 @@
+{
+  "slides": [
+    {
+      "id": "620:12",
+      "navId": "620:46",
+      "name": "01 · 서비스 소개",
+      "bodyHash": "1b15483f",
+      "reactions": 0,
+      "nav": {
+        "id": "620:46",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:11",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:47",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:48",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:49",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:12",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:50",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:51",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:52",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:53",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:54",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:55",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:56",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:57",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:58",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:59",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:60",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:61",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:62",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:63",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:64",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:65",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:67",
+      "navId": "620:126",
+      "name": "02 · 문제 정의",
+      "bodyHash": "52b3fb7b",
+      "reactions": 0,
+      "nav": {
+        "id": "620:126",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:30",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:127",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:128",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:129",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:130",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:131",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:33",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:132",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:133",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:134",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:135",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:136",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:137",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:138",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:139",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:140",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:141",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:142",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:143",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:144",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:145",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:146",
+      "navId": "620:180",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "bodyHash": "569896cd",
+      "reactions": 0,
+      "nav": {
+        "id": "620:180",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:49",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:181",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:182",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:183",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:184",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:185",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:186",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:187",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:54",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:188",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:189",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:190",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:191",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:192",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:193",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:194",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:195",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:196",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:197",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:198",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:199",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:200",
+      "navId": "620:319",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "bodyHash": "c471ecce",
+      "reactions": 0,
+      "nav": {
+        "id": "620:319",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:68",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:320",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:321",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:322",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:323",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:324",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:325",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:326",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:327",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:328",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:75",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:329",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:330",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:331",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:332",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:333",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:334",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:335",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:336",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:337",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:338",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:339",
+      "navId": "620:373",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "bodyHash": "ef4d8af9",
+      "reactions": 0,
+      "nav": {
+        "id": "620:373",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:87",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:374",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:375",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:376",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:377",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:378",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:379",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:380",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:381",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:382",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:383",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:384",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:96",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:385",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:386",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:387",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:388",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:389",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:390",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:391",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:392",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:393",
+      "navId": "620:456",
+      "name": "06 · 시스템 아키텍처 · 데이터 흐름",
+      "bodyHash": "62253fc9",
+      "reactions": 0,
+      "nav": {
+        "id": "620:456",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:106",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:457",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:458",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:459",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:460",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:461",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:462",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:463",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:464",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:465",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:466",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:467",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:468",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:469",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:117",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:470",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:471",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:472",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:473",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:474",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:475",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:479",
+      "navId": "620:483",
+      "name": "07 · UI/UX 설계 · 프로토타입",
+      "bodyHash": "eb71a110",
+      "reactions": 0,
+      "nav": {
+        "id": "620:483",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:125",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:484",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:485",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:486",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:487",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:488",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:489",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:490",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:491",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:492",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:493",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:494",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:495",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:496",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:497",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:498",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:138",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:499",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:500",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:501",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:502",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:759",
+      "navId": "620:763",
+      "name": "08 · 데이터베이스 설계",
+      "bodyHash": "526bb7bb",
+      "reactions": 0,
+      "nav": {
+        "id": "620:763",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:144",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:764",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:765",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:766",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:767",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:768",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:769",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:770",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:771",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:772",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:773",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:774",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:775",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:776",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:777",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:778",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:779",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:780",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:159",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        },
+        {
+          "id": "620:781",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:782",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620:831",
+      "navId": "620:835",
+      "name": "09 · 개발 계획 · 역할 분담",
+      "bodyHash": "1f7e30a4",
+      "reactions": 0,
+      "nav": {
+        "id": "620:835",
+        "type": "FRAME",
+        "name": "공통 내비게이션 / 수동 편집",
+        "visible": true,
+        "x": 96,
+        "y": 24,
+        "w": 1728,
+        "h": 88,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.95686274766922,
+              "g": 0.9607843160629272,
+              "b": 0.9686274528503418
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8980392217636108,
+              "g": 0.9098039269447327,
+              "b": 0.929411768913269
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 24,
+        "layoutMode": "NONE"
+      },
+      "children": [
+        {
+          "id": "742:163",
+          "name": "내비게이션 / 하단 구분선",
+          "type": "RECTANGLE",
+          "x": 1,
+          "y": 1,
+          "w": 1,
+          "h": 1,
+          "visible": false
+        },
+        {
+          "id": "620:836",
+          "name": "브랜드",
+          "type": "TEXT",
+          "x": 28,
+          "y": 17,
+          "w": 140,
+          "h": 54,
+          "visible": true,
+          "fonts": [
+            {
+              "family": "Pacifico",
+              "style": "Regular"
+            }
+          ]
+        },
+        {
+          "id": "620:837",
+          "name": "내비게이션 / 서비스 소개",
+          "type": "FRAME",
+          "x": 440,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:838",
+              "name": "서비스 소개",
+              "type": "TEXT",
+              "text": "서비스 소개",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:839",
+          "name": "내비게이션 / 문제 정의",
+          "type": "FRAME",
+          "x": 596,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:840",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "문제 정의",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:841",
+          "name": "내비게이션 / 인사이트",
+          "type": "FRAME",
+          "x": 732,
+          "y": 22,
+          "w": 112,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:842",
+              "name": "인사이트",
+              "type": "TEXT",
+              "text": "인사이트",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:843",
+          "name": "내비게이션 / 핵심 기능",
+          "type": "FRAME",
+          "x": 860,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:844",
+              "name": "핵심 기능",
+              "type": "TEXT",
+              "text": "핵심 기능",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:845",
+          "name": "내비게이션 / 개발 범위",
+          "type": "FRAME",
+          "x": 996,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:846",
+              "name": "개발 범위",
+              "type": "TEXT",
+              "text": "개발 범위",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:847",
+          "name": "내비게이션 / 시스템 구조",
+          "type": "FRAME",
+          "x": 1132,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:848",
+              "name": "시스템 구조",
+              "type": "TEXT",
+              "text": "시스템 구조",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:849",
+          "name": "내비게이션 / 화면 설계",
+          "type": "FRAME",
+          "x": 1288,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:850",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "화면 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:851",
+          "name": "내비게이션 / 데이터 설계",
+          "type": "FRAME",
+          "x": 1424,
+          "y": 22,
+          "w": 140,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:852",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "데이터 설계",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "Medium"
+              },
+              "size": 22
+            }
+          ]
+        },
+        {
+          "id": "620:853",
+          "name": "내비게이션 / 개발 계획",
+          "type": "FRAME",
+          "x": 1580,
+          "y": 22,
+          "w": 120,
+          "h": 44,
+          "visible": true,
+          "children": [
+            {
+              "id": "620:854",
+              "name": "문제 정의",
+              "type": "TEXT",
+              "text": "개발 계획",
+              "font": {
+                "family": "IBM Plex Sans KR",
+                "style": "SemiBold"
+              },
+              "size": 22
+            },
+            {
+              "id": "742:180",
+              "name": "현재 장 / 노란 밑줄",
+              "type": "RECTANGLE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "refs": [
+    {
+      "id": "562:189",
+      "hash": "983d7cf6"
+    },
+    {
+      "id": "613:53",
+      "hash": "f1d8fafa"
+    },
+    {
+      "id": "613:926",
+      "hash": "9b4180e3"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "kind": "kakao_menu_snapshot",
+  "observed_at": "2026-11-06T12:47:02.942Z",
+  "url": "https://place.map.kakao.com/465733251#menuInfo",
+  "snapshot": {
+    "bodyClass": "",
+    "html": "<html lang=\"ko\" class=\"\"><head>\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <title>파르코 서울숲점 | 카카오맵</title>\n<meta property=\"og:title\" content=\"파르코 서울숲점\">\n<meta property=\"og:site_name\" content=\"카카오맵\">\n<meta property=\"og:description\" content=\"서울 성동구 서울숲2길 44 1층 (성수동1가)\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:image\" content=\"//img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F513c394e0808da1cc81b5a2e4da27ea12439aed84ce8e7e519212c16b674b6bc\">\n<meta property=\"og:url\" content=\"https://place.map.kakao.com/465733251#menuInfo\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"파르코 서울숲점\">\n<meta name=\"twitter:description\" content=\"서울 성동구 서울숲2길 44 1층 (성수동1가)\">\n<meta name=\"twitter:image\" content=\"//img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F513c394e0808da1cc81b5a2e4da27ea12439aed84ce8e7e519212c16b674b6bc\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"//t1.kakaocdn.net/localimg/localimages/07/common/kakaomap_favicon.ico\">\n  <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/static/favicon-144x144.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"192x192\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/static/favicon-192x192.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/static/favicon-72x72.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"96x96\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/static/favicon-96x96.png\">\n  <script async=\"\" type=\"text/javascript\" charset=\"utf-8\" src=\"//t1.kakaocdn.net/kas/static/ba.min.js\"></script>\n  <script async=\"\" type=\"text/javascript\" src=\"//t1.kakaocdn.net/tiara/js/v1/tiara-1.2.0.min.js\"></script>\n  <script type=\"module\" src=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/index.js\"></script>\n  <script type=\"module\">import.meta.url;import(\"_\").catch(()=>1);(async function*(){})().next();if(location.protocol!=\"file:\"){window.__vite_is_modern_browser=true}</script>\n  <script type=\"module\">!function(){if(window.__vite_is_modern_browser)return;console.warn(\"vite: loading legacy chunks, syntax error above and the same error below should be ignored\");var e=document.getElementById(\"vite-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>\n<link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/Cx3L2Vsb.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/Ba6fHf1_.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/BPnod2jw.js\"><link rel=\"stylesheet\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/styles.css\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/D0otQ9hP.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/index.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/BpzHL2q8.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/Dbnhq0mf.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/DQB8Kh42.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/D_7nxuZi.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/DHFg5DnR.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/CFmhskXk.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/fdCFdRsp.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/B2b012ib.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/DcKn74jv.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/DlAUqK2U.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/BPAvHcTz.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/wK60A7A4.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/BKXBA3Oq.js\"><link rel=\"stylesheet\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/PlacePage.css\"><script src=\"https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js\" id=\"kakao-js-sdk\" async=\"\" type=\"text/javascript\"></script><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/Dv5VugBV.js\"><script src=\"https://t1.kakaocdn.net/daumtop_deco/socialshare/socialshare-3.1.0.min.js\" id=\"socialshare-sdk\" async=\"\" type=\"text/javascript\"></script><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/Dm5LwPa3.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/zJIuzt8E.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/B5j8EDaf.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/js/vtqW5BlM.js\"><link rel=\"stylesheet\" crossorigin=\"\" href=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/MenuCard.css\"></head>\n\n<body>\n  <div id=\"app\" class=\"container-doc scroll_on\" data-v-app=\"\"><div class=\"direct-link\"><a href=\"#mainContent\">본문 바로가기</a><a href=\"#gnbContent\">메뉴 바로가기</a></div><header class=\"doc-header type_pc\"><div class=\"inner_header\"><h1 class=\"doc-title\"><a href=\"#\" class=\"link_logo\"><img src=\"//t1.kakaocdn.net/localimg/localimages/07/2024/rw/img_logo.svg\" width=\"100\" height=\"22\" class=\"img_logo\" alt=\"kakaomap\"></a></h1><h2 class=\"tit_head\"><a href=\"#\" class=\"link_head\">파르코 서울숲점</a></h2><div class=\"aside_r\"><div class=\"map_sch\"><div class=\"group_sch\"><form action=\"#\" method=\"GET\" class=\"form_sch\"><div class=\"box_sch\"><label for=\"searchKeyword\" class=\"screen_out\">지도 검색</label><input id=\"searchKeyword\" type=\"text\" class=\"tf_txt\" title=\"검색\" placeholder=\"지도 검색\" autocomplete=\"off\" spellcheck=\"false\"><div class=\"unit_btn\"><button type=\"button\" class=\"btn_del\"><span class=\"ico_mapdesc ico_del\">검색어 전체 삭제</span></button><button type=\"button\" class=\"btn_sch\"><span class=\"ico_mapdesc ico_sch\">검색</span></button></div></div><blockquote id=\"searchKeywordSuggest\" class=\"wrapper\"><div class=\"box_suggest\"><strong class=\"screen_out\">서제스트</strong><ul class=\"list_suggest\"><li><a href=\"#\" class=\"link_suggest\"><span class=\"emph_point2\"></span></a></li></ul></div></blockquote></form></div><button type=\"button\" class=\"btn_schshow\"><span class=\"ico_mapdesc ico_schshow\">검색창 열기</span></button><button type=\"button\" class=\"btn_schclose\"><span class=\"ico_mapdesc ico_schclose\">검색창 닫기</span></button></div><div class=\"map_account\"><a href=\"#\" class=\"link_login\">로그인</a></div></div></div><!----></header><main class=\"doc-main\"><h2 class=\"screen_out\">카카오맵 본문</h2><article id=\"mainContent\" class=\"content-article\"><div class=\"top_basic\"><div class=\"info_main\"><div class=\"unit_info\"><h3 class=\"tit_place\"><span class=\"screen_out\">장소명</span>파르코 서울숲점</h3><!----><span class=\"info_cate\"><span class=\"screen_out\">장소 카테고리</span>피자</span></div><!----><div class=\"row_unit\"><div class=\"unit_info\"><a href=\"#\" class=\"link_info\" style=\"\"><span class=\"starred_grade\"><span class=\"screen_out\">별점</span><span class=\"num_star\">4.4</span><span class=\"wrap_grade\"><span class=\"bar_on\" style=\"width: 88%;\"></span></span></span></a></div><div class=\"unit_info\"><a href=\"#\" class=\"link_review\" style=\"\"><span class=\"info_tit\">후기</span><span class=\"info_num\">306<span class=\"screen_out\">개</span></span><span class=\"ico_mapdesc ico_arr5\"></span></a></div><div class=\"unit_info\"><a href=\"#\" class=\"link_blog\" style=\"\"><span class=\"info_tit\">블로그</span><span class=\"info_num\">330<span class=\"screen_out\">개</span></span></a></div></div><div class=\"row_unit\"><div class=\"unit_info\"><span class=\"info_state\">영업 마감</span><span class=\"info_runtime\">내일 11:30 오픈</span></div></div><div class=\"row_unit\"><div class=\"unit_info\"><a href=\"#\" class=\"link_rank\"><span class=\"ico_mapdesc ico_rank1\"></span><span class=\"ico_mapdesc ico_rank2\"></span><span class=\"txt_rank\">성동구 피자 인기 맛집</span><span class=\"ico_mapdesc ico_rank3\"></span></a></div></div></div><div class=\"wrap_actionbtn\"><div class=\"inner_actionbtn\"><div class=\"align_l\"><button type=\"button\" class=\"btn_action\"><span class=\"ico_mapdesc ico_roadview\"></span><span class=\"txt_btn\">로드뷰</span><!----></button><button type=\"button\" class=\"btn_action\"><span class=\"ico_mapdesc ico_share\"></span><span class=\"txt_btn\">공유</span></button><div class=\"outer_share_container pc_only\"><social-share id=\"place_share_container_pc\" class=\"place_share_container2\" hidden=\"\"></social-share></div><button type=\"button\" class=\"btn_action\"><span class=\"ico_mapdesc ico_map\"></span><span class=\"txt_btn\">지도</span><!----></button><button type=\"button\" class=\"btn_action pc_only\"><span class=\"ico_mapdesc ico_bookmark\"></span><span class=\"txt_btn\">즐겨찾기</span><!----></button></div><div class=\"align_r\"><button type=\"button\" class=\"btn_action type_route\"><span class=\"txt_btn\">출발</span></button><button type=\"button\" class=\"btn_action type_route\"><span class=\"txt_btn\">도착</span></button></div></div></div><div class=\"board_photo only_pc\"><div class=\"inner_board\"><div class=\"col\" data-photo-index=\"0\" data-index=\"0\"><a href=\"#\" class=\"link_photo\"><img src=\"//img1.kakaocdn.net/cthumb/local/C544x408.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F513c394e0808da1cc81b5a2e4da27ea12439aed84ce8e7e519212c16b674b6bc\" alt=\"\" width=\"272px\" height=\"204px\" class=\"img-thumb img_cfit state_loaded\" style=\"\"></a><!----></div><div class=\"col col_depth1\" data-photo-index=\"1\" data-index=\"1\"><div class=\"col col_depth2\"><div class=\"col\"><a href=\"#\" class=\"link_photo\"><img src=\"//img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fc206a91551b0ffa2b341cb7802b1f2bd386f47b60c0eb32bbbf586c138b33cb6\" alt=\"\" width=\"132px\" height=\"98px\" class=\"img-thumb img_cfit state_loaded\" style=\"\"></a><!----></div><div class=\"col\"><a href=\"#\" class=\"link_photo\"><img src=\"//img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F6cf6b384c2147bbf06078338f2de8f89e27f5630f73004d0602fe4d564a7dcdd\" alt=\"\" width=\"132px\" height=\"98px\" class=\"img-thumb img_cfit state_loaded\" style=\"\"></a><!----></div></div><div class=\"col col_depth2\"><div class=\"col\"><a href=\"#\" class=\"link_photo\"><img src=\"//img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fa9b5b0227258a562048277c7842ae8479a8e6dadcddceb629fbb518b44b962e5\" alt=\"\" width=\"132px\" height=\"98px\" class=\"img-thumb img_cfit state_loaded\" style=\"\"></a><!----></div><div class=\"col\"><a href=\"#\" class=\"link_photo\"><img src=\"//img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F503361be1a1fbc49e3846e0c3dcb6a9bfcba320b0a7746e27fe23357f75f0cf2\" alt=\"\" width=\"132px\" height=\"98px\" class=\"img-thumb img_cfit state_loaded\" style=\"\"><span class=\"photo_more\"><span class=\"ico_mapdesc ico_photo\">업로드 된 사진 수</span><span class=\"txt_more\">999+</span></span></a><!----></div></div></div><!----></div></div><!----><!----></div><div class=\"main_detail\"><div class=\"wrap_tab tab_primary\"><div class=\"inner_tab\"><ul class=\"list_tab\" role=\"tablist\"><li role=\"presentation\"><a href=\"#home\" role=\"tab\" aria-selected=\"false\" class=\"link_tab\" data-index=\"0\">홈</a></li><li role=\"presentation\"><a href=\"#menuInfo\" role=\"tab\" aria-selected=\"true\" class=\"link_tab\" data-index=\"1\">메뉴</a></li><li role=\"presentation\"><a href=\"#photoview\" role=\"tab\" aria-selected=\"false\" class=\"link_tab\" data-index=\"2\">사진</a></li><li role=\"presentation\"><a href=\"#review\" role=\"tab\" aria-selected=\"false\" class=\"link_tab\" data-index=\"3\">후기</a></li><li role=\"presentation\"><a href=\"#blogreview\" role=\"tab\" aria-selected=\"false\" class=\"link_tab\" data-index=\"4\">블로그</a></li><li role=\"presentation\"><a href=\"#ranking\" role=\"tab\" aria-selected=\"false\" class=\"link_tab\" data-index=\"5\">랭킹</a></li></ul></div></div><div class=\"detail_cont\" style=\"min-height: 608px;\"><!----><div class=\"section_comm section_product\"><div class=\"head_section\"><div class=\"wrap_tit\"><h4 class=\"tit_section\">메뉴</h4><div class=\"info_count\"><span class=\"screen_out\">등록된 메뉴 개수</span><span class=\"txt_info\">19</span></div></div><!----></div><!----><div data-v-ea9add74=\"\" class=\"wrap_menu\"><strong data-v-ea9add74=\"\" class=\"screen_out\">메뉴판 목록</strong><ul data-v-ea9add74=\"\" class=\"list_menu\"><li data-v-ea9add74=\"\"><a data-v-ea9add74=\"\" href=\"#\" class=\"link_menu\"><img data-v-ea9add74=\"\" src=\"//img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMTQ3%2FMDAxNzg3MTE0Njg0NzQz.etyzEFSlhq6NRaOpQpDXARtYx2--I51xcofDHhoN9AAg.4CfRjcNdb9k3Np0veytpu_VnY6tRwzK2lwWcLfP2AAUg.JPEG%2F900_20260817_191113.jpg%3Ftype%3Dw386\" height=\"112\" alt=\"메뉴판\" class=\"img_menu\"></a></li><li data-v-ea9add74=\"\"><a data-v-ea9add74=\"\" href=\"#\" class=\"link_menu\"><img data-v-ea9add74=\"\" src=\"//img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMjEg%2FMDAxNzg3MTE0NjgyOTE0.iag-SWRpcIBAez4LNjD6FbANP49FhCVeKGBsNiMCKMgg.B2YAoQRh4q9v_kZ4_OhHdY4t6JyOUsKdE6KcqAwxLZsg.JPEG%2F900_20260817_191127.jpg%3Ftype%3Dw386\" height=\"112\" alt=\"메뉴판\" class=\"img_menu\"></a></li><li data-v-ea9add74=\"\"><a data-v-ea9add74=\"\" href=\"#\" class=\"link_menu\"><img data-v-ea9add74=\"\" src=\"//img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDRfMjg0%2FMDAxNzkxMTAwNTQ4NTQy.doiI3UhW004YncjOqO7NwBVNxqtcdvQ2wxuAxqOgJXAg.RQ1OMxGtHvjBkTP7cdUSw4jlUHCPBLcdXX7U4cWqJoMg.JPEG%2F900_20261003_164159.jpg%3Ftype%3Dw466\" height=\"112\" alt=\"메뉴판\" class=\"img_menu\"></a></li></ul><div data-v-ea9add74=\"\" class=\"info_count\"><span data-v-ea9add74=\"\" class=\"screen_out\">등록된 메뉴 개수</span> <span data-v-ea9add74=\"\" class=\"num_count\">30</span></div></div><div class=\"wrap_goods\"><strong class=\"screen_out\">메뉴 목록</strong><ul class=\"list_goods\"><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">버섯치즈 리조또</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">바질 크레마</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">해산물 리조또</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">풍기 샐러드</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,000원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">리코타 샐러드</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,000원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">부라타 카프레제(시즌 과일)</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,000원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">햄 플래터</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">27,000원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">피칸테 로제</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">볼로네제(파케리 면)</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">21,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">마레</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">21,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">아마트리치아나</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">뽀모도로</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">19,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">감베로니 크레마</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">봉골레 크레마</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">푼고(파케리 면)</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">카르보나라</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">루꼴라 감베로니</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">봉골레</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li><li><!----><div class=\"info_goods\"><!----><div class=\"line_info\"><strong class=\"tit_item\">알리오 올리오(초리죠)</strong><!----></div><div class=\"line_info\"><p class=\"desc_item\">20,800원</p></div><!----><!----><!----><!----></div></li></ul></div><a href=\"#\" class=\"link_suggest type_box\"><span class=\"ico_mapdesc ico_suggest\"></span><span class=\"txt_link\">메뉴 수정 제안하기</span><span class=\"txt_link2\">최대 5점</span><span class=\"ico_mapdesc ico_arr8\"></span></a><div class=\"wrap_noti\"><strong class=\"screen_out\">안내</strong><ul class=\"list_noti\"><li><p class=\"desc_noti\">운영상황에 따라 정보가 달라질 수 있습니다.</p></li></ul></div><!----></div></div></div><div class=\"wrap_etcbtn pc_only\"><strong class=\"screen_out\">기타 메뉴</strong><ul class=\"list_etcbtn\"><li><button type=\"button\" class=\"btn_etcbtn\"><span class=\"ico_mapdesc ico_print\">프린트하기</span></button></li><li><button type=\"button\" class=\"btn_etcbtn\"><span class=\"ico_mapdesc ico_sketchmap\">약도만들기</span></button></li></ul></div><!----></article></main><footer class=\"doc-footer\"><div class=\"inner_footer\"><div class=\"rel_mapdesc\"><a href=\"#\" class=\"link_rel\" style=\"width: 100%;\"> 정보 수정 제안<span class=\"ico_mapdesc ico_arr5\"></span></a></div><div class=\"info_service\"><h2 class=\"screen_out\">서비스 이용정보</h2><ul class=\"list_info\"><li><a href=\"https://www.kakao.com/policy/terms\" class=\"link_info\" target=\"_blank\" rel=\"noreferrer noopener\">약관 및 정책</a></li><li><a href=\"https://kakaomap.tistory.com/category/%EC%95%8C%EB%A6%BD%EB%8B%88%EB%8B%A4/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8\" class=\"link_info\" target=\"_blank\" rel=\"noreferrer noopener\">공지사항</a></li><li><a href=\"https://www.kakao.com/policy/privacy?type=p&amp;lang=ko\" class=\"link_info\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>개인정보처리방침</strong></a></li><li><a href=\"https://cs.kakao.com/requests?locale=ko&amp;service=101\" class=\"link_info\" target=\"_blank\" rel=\"noreferrer noopener\">고객센터</a></li><li><a href=\"https://www.kakao.com/policy/right\" class=\"link_info\" target=\"_blank\" rel=\"noreferrer noopener\">권리침해신고</a></li></ul><!----><div class=\"wrap_corp\"><small class=\"txt_copy\"><a href=\"https://www.kakaocorp.com\" class=\"link_kakao\">©&nbsp;Kakao Corp.</a></small><!----></div></div></div></footer><!----><social-share id=\"place_share_container_mw\" class=\"place_share_container only_mw\" hidden=\"\"></social-share><social-share id=\"popup_share_container\" hidden=\"\" class=\"news_share_container\"></social-share></div>\n  <script nomodule=\"\">!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script>\n  <script nomodule=\"\" crossorigin=\"\" id=\"vite-legacy-polyfill\" src=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/polyfills-legacy.js\"></script>\n  <script nomodule=\"\" crossorigin=\"\" id=\"vite-legacy-entry\" data-src=\"https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/index-legacy.js\">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>\n\n\n</body><div id=\"codex-browser-sidebar-comments-root\" style=\"position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647;\"></div></html>",
+    "scrollY": 433,
+    "styles": [],
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "",
+        "id": "44bec992a394bfce",
+        "kind": "stylesheet",
+        "name": "styles.css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/44bec992a394bfce.css",
+        "url": "https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/styles.css"
+      },
+      {
+        "contentType": "",
+        "id": "27087d81271a585c",
+        "kind": "stylesheet",
+        "name": "PlacePage.css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/27087d81271a585c.css",
+        "url": "https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/PlacePage.css"
+      },
+      {
+        "contentType": "image/svg+xml",
+        "id": "1fdd370294d73409",
+        "kind": "image",
+        "name": "img_logo.svg",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/1fdd370294d73409.svg",
+        "url": "https://t1.kakaocdn.net/localimg/localimages/07/2024/rw/img_logo.svg"
+      },
+      {
+        "contentType": "image/svg+xml",
+        "id": "929e12cc453da28c",
+        "kind": "image",
+        "name": "ico_mapdesc_260107.svg",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/929e12cc453da28c.svg",
+        "url": "https://t1.kakaocdn.net/localimg/localimages/07/2024/rw/ico_mapdesc_260107.svg"
+      },
+      {
+        "contentType": "text/css",
+        "id": "ea6b228e7542e95d",
+        "kind": "stylesheet",
+        "name": "pc_common-v3.0.0-20240904.css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/ea6b228e7542e95d.css",
+        "url": "https://t1.kakaocdn.net/daumtop_deco/socialshare/css/pc_common-v3.0.0-20240904.css"
+      },
+      {
+        "contentType": "text/css",
+        "id": "3c5e9100cd7d4173",
+        "kind": "stylesheet",
+        "name": "pc_dark-3.0.0-20240826.css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/3c5e9100cd7d4173.css",
+        "url": "https://t1.kakaocdn.net/daumtop_deco/socialshare/css/pc_dark-3.0.0-20240826.css"
+      },
+      {
+        "contentType": "",
+        "id": "fd2b029bac90d744",
+        "kind": "stylesheet",
+        "name": "MenuCard.css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/fd2b029bac90d744.css",
+        "url": "https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/MenuCard.css"
+      },
+      {
+        "contentType": "image/svg+xml",
+        "id": "239c35c0d6a9d91d",
+        "kind": "image",
+        "name": "ico_starS.svg",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/239c35c0d6a9d91d.svg",
+        "url": "https://t1.kakaocdn.net/localimg/localimages/07/2024/rw/ico_starS.svg"
+      },
+      {
+        "contentType": "image/gif",
+        "id": "4544e4f2f295e3ac",
+        "kind": "image",
+        "name": "track",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/4544e4f2f295e3ac",
+        "url": "https://stat.tiara.kakao.com/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.0%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221440X900%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.79%22%7D%2C%7B%22brand%22%3A%22Google%20Chrome%22%2C%22version%22%3A%22156.0.8078.79%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2219.0.0%22%7D%7D%2C%22common%22%3A%7B%22svcdomain%22%3A%22place.map.kakao.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fplace.map.kakao.com%2F465733251%22%2C%22title%22%3A%22%ED%8C%8C%EB%A5%B4%EC%BD%94%20%EC%84%9C%EC%9A%B8%EC%88%B2%EC%A0%90%20%7C%20%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5%22%2C%22section%22%3A%22place%22%2C%22page%22%3A%22place_detail%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-bUGPFBtGYuYN_261106214537033%22%2C%22tsid%22%3A%22w-bUGPFBtGYuYN_261106214537033%22%2C%22uuid%22%3A%22w-QIQvfugQTtGx_261106305313189%22%2C%22suid%22%3A%22w-QIQvfugQTtGx_261106305313189%22%2C%22isuid%22%3A%22w-CRQLqWPeztp7_261106726189745%22%2C%22client_timestamp%22%3A1793969137035%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22%EC%9E%A5%EC%86%8C%EC%83%81%EC%84%B8_%EC%A7%84%EC%9E%85%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22name1%22%3A%22%EC%9D%8C%EC%8B%9D%EC%A0%90%22%2C%22name2%22%3A%22%EC%96%91%EC%8B%9D%22%2C%22name3%22%3A%22%ED%94%BC%EC%9E%90%22%2C%22cid%22%3A%22465733251%22%7D%7D"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "25eb1e5cd0508ec0",
+        "kind": "image",
+        "name": "C544x408.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/25eb1e5cd0508ec0",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C544x408.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F513c394e0808da1cc81b5a2e4da27ea12439aed84ce8e7e519212c16b674b6bc"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "e49b5833e13d7576",
+        "kind": "image",
+        "name": "C264x196.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/e49b5833e13d7576",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fa9b5b0227258a562048277c7842ae8479a8e6dadcddceb629fbb518b44b962e5"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "1992fb0526850184",
+        "kind": "image",
+        "name": "C264x196.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/1992fb0526850184",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F6cf6b384c2147bbf06078338f2de8f89e27f5630f73004d0602fe4d564a7dcdd"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "1bf6ce8fe2be04f9",
+        "kind": "image",
+        "name": "C264x196.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/1bf6ce8fe2be04f9",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F503361be1a1fbc49e3846e0c3dcb6a9bfcba320b0a7746e27fe23357f75f0cf2"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "55237376ab0f92a7",
+        "kind": "image",
+        "name": "C264x196.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/55237376ab0f92a7",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C264x196.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fc206a91551b0ffa2b341cb7802b1f2bd386f47b60c0eb32bbbf586c138b33cb6"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "002a3dc3f8088a01",
+        "kind": "image",
+        "name": "C0x448.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/002a3dc3f8088a01",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMTQ3%2FMDAxNzg3MTE0Njg0NzQz.etyzEFSlhq6NRaOpQpDXARtYx2--I51xcofDHhoN9AAg.4CfRjcNdb9k3Np0veytpu_VnY6tRwzK2lwWcLfP2AAUg.JPEG%2F900_20260817_191113.jpg%3Ftype%3Dw386"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "9df9b87f33f1fefa",
+        "kind": "image",
+        "name": "C0x448.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/9df9b87f33f1fefa",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMjEg%2FMDAxNzg3MTE0NjgyOTE0.iag-SWRpcIBAez4LNjD6FbANP49FhCVeKGBsNiMCKMgg.B2YAoQRh4q9v_kZ4_OhHdY4t6JyOUsKdE6KcqAwxLZsg.JPEG%2F900_20260817_191127.jpg%3Ftype%3Dw386"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "4bcbf5e82d747d8f",
+        "kind": "image",
+        "name": "C0x448.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/4bcbf5e82d747d8f",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C0x448.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDRfMjg0%2FMDAxNzkxMTAwNTQ4NTQy.doiI3UhW004YncjOqO7NwBVNxqtcdvQ2wxuAxqOgJXAg.RQ1OMxGtHvjBkTP7cdUSw4jlUHCPBLcdXX7U4cWqJoMg.JPEG%2F900_20261003_164159.jpg%3Ftype%3Dw466"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f",
+    "failures": [
+      {
+        "contentType": null,
+        "id": "758bd7025dafd624",
+        "name": "sync",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch (webid.ad.daum.net)\n    at https://t1.kakaocdn.net/kakaomapweb/place_new/prod/9123ff7/index.js:22:58887\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://webid.ad.daum.net/sync?v=0.0.1"
+      }
+    ],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/9f838770-a8a8-41b4-b6bb-5495bc08ab5f/manifest.json",
+    "summary": {
+      "downloadedCount": 17,
+      "elapsedMs": 437.8094999999885,
+      "failedCount": 1,
+      "requestedCount": 18
+    }
+  }
+}

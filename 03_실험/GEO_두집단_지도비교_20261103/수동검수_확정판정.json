@@ -1,0 +1,321 @@
+{
+  "version": "20261103-final-before-any-recommendations",
+  "recommendation_calls_before_coding": 0,
+  "scoring_scope": "실제로 읽은 지도 상세의 텍스트 메뉴, 주간 영업시간, 기본 정보 및 연결된 공식 안내. 사진 속 세부 글씨를 읽었다고 간주하지 않음.",
+  "stores": [
+    {
+      "candidate_id": "MD-17103484",
+      "identity": "두 지도 주소·전화와 공식 예약 페이지의 Main Store 주소 일치. Google 층수 미표시, 카카오·공식 지점 주소로 보완.",
+      "operation": "두 지도 주간 영업 안내 존재, 공식 페이지는 해당 본점 walk-in 운영·예약 미접수 안내. 현장 방문 확인은 아님.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 2,
+          "quote": "숯불삼겹살 (150g) / 19,000원; LA갈비솥밥정식 (평일점심) / 24,000원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "중량 또는 정식 판매 단위와 가격이 같은 메뉴 항목에 연결됨."
+        },
+        {
+          "item": 2,
+          "score": 2,
+          "quote": "평일 점심특선 오전 11:30 ~ 오후 3:00 까지 / 평일 정가이용 오후 3:00 ~ 오후 7:00 까지",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "각 평일 점심/정가 정식에 시간 조건이 반복해서 붙음."
+        },
+        {
+          "item": 3,
+          "score": 1,
+          "quote": "카카오: 02-3789-1945, 11:30 ~ 22:00, 21:15 라스트오더, 웹사이트를 알려주세요 / Google: 같은 전화·11:30~22:00·공식 Instagram 링크 / 공식 예약 페이지: 공통 영업시간 ALL DAYS 11AM ~ 11PM, LAST ORDER 9PM",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "지도 주소·전화·정규 영업시간은 맞지만 링크 필드 차이 및 공식 공통 시간 안내의 지점 적용 범위 불명확. 이를 다른 지점 연결로 단정하지 않음.",
+          "additional_sources": [
+            "google_detail:overview_hours",
+            "official_detail:reservation_hours"
+          ]
+        }
+      ],
+      "representative_menu": "LA갈비솥밥정식 (평일점심)",
+      "price_krw": 24000,
+      "sale_unit": "정식",
+      "condition": "평일 11:30~15:00; 평일 정가 메뉴 15:00~19:00 별도 28,000원",
+      "kakao_menu_count": 31,
+      "kakao_business_verified": true,
+      "menu_writer": "텍스트 메뉴 작성자 미확인. 상위 메뉴의 AI 추천 라벨과 플랫폼 설명을 별도 식별.",
+      "information_flags": "카카오와 Google 모두 사진 존재. 별도의 업주 소개문 길이 미확인. 사업자 인증은 메뉴 문구 작성자 인증과 다름."
+    },
+    {
+      "candidate_id": "MD-11610281",
+      "identity": "두 지도 주소·전화와 공식 예약 페이지의 2nd Branch 주소 일치. Google 층수 미표시.",
+      "operation": "두 지도 주간 영업 안내 및 공식 예약 지점 존재. 현장 방문 확인은 아님.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 2,
+          "quote": "양념소왕갈비(1인) / 44,000원; 돼지 한마리(2인) / 43,000원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "인원 판매 단위와 메뉴 가격이 직접 연결됨."
+        },
+        {
+          "item": 2,
+          "score": 2,
+          "quote": "돼지 한마리(2인) / 43,000원 / 삼겹살, 갈매기살, 가브리살, 항정살 4가지 부위를 숯불에 구워 즐기는 돼지고기 세트",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "2인 세트와 포함 부위가 연결되어 표시됨. 이 설명의 작성 주체는 확인되지 않았고 AI 추천 라벨이 함께 표시됨."
+        },
+        {
+          "item": 3,
+          "score": 1,
+          "quote": "카카오 11:20 ~ 22:40, 22:00 라스트오더 / Google 오전 11:30~오후 10:40 / 두 지도 전화 02-3789-1946",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "같은 지점이나 개점 시간 10분 차이. Google 웹사이트 필드는 naver.me, 카카오는 공식 Instagram. 공식 예약 지점 주소도 확인.",
+          "additional_sources": [
+            "google_detail:overview_hours",
+            "official_detail:reservation_hours"
+          ]
+        }
+      ],
+      "representative_menu": "LA갈비정식(점심특선)",
+      "price_krw": 24000,
+      "sale_unit": "정식",
+      "condition": "점심특선 표시는 있으나 해당 항목의 정확한 주문 가능 시간은 텍스트 메뉴에서 미확인",
+      "kakao_menu_count": 22,
+      "kakao_business_verified": true,
+      "menu_writer": "텍스트 메뉴 작성자 미확인. AI 추천 라벨·설명과 사업자 인증을 구분.",
+      "information_flags": "두 지도 사진 존재. 한우육회(1인) 3,200원 표시는 이상 가격 검수 대상이며 임의로 32,000원으로 수정하지 않음."
+    },
+    {
+      "candidate_id": "MD-17531780",
+      "identity": "두 지도 주소·층수·전화와 공식 Central Branch 2nd Floor 주소 일치. 같은 주소 지하의 Hansik 지점과 구분.",
+      "operation": "두 지도 주간 영업 안내 및 공식 예약 지점 존재. 현장 방문 확인은 아님.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 2,
+          "quote": "한돈 양념구이(목살,갈비).(230g) / 24,000원; LA갈비정식(평일점심특선) / 24,000원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "중량 및 정식 판매 단위와 메뉴 가격이 연결됨."
+        },
+        {
+          "item": 2,
+          "score": 2,
+          "quote": "Wangbijib Myeongdong Central Branch / 🧀 Get Free Grilled Cheese (BBQ customers only) / 2nd Floor, 45 Myeongdong 8na-gil, Jung District, Seoul, South Korea",
+          "platform": "official_detail",
+          "section": "reservation_hours",
+          "reason": "공식 예약 목록에서 중앙점 2층 지점의 무료 치즈 제공 서비스와 BBQ 고객 적용 조건이 직접 연결됨. 지도 메뉴의 평일점심특선 정확한 주문 시간은 여전히 미확인. 메뉴 시간만 반영했던 초안 1점을 근거 검수로 정정.",
+          "additional_sources": [
+            "kakao_detail:menu"
+          ]
+        },
+        {
+          "item": 3,
+          "score": 1,
+          "quote": "카카오 11:30 ~ 23:00 / Google 오전 11:30~오후 10:30 / 두 지도 전화 02-776-2361",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "같은 지점이나 폐점 시간 30분 차이. Google 웹사이트 추가 표시, 카카오는 공식 Instagram 링크. 공식 예약 지점의 2층 주소도 확인.",
+          "additional_sources": [
+            "google_detail:overview_hours",
+            "official_detail:reservation_hours"
+          ]
+        }
+      ],
+      "representative_menu": "LA갈비정식(평일점심특선)",
+      "price_krw": 24000,
+      "sale_unit": "정식",
+      "condition": "평일 점심특선; 정확한 주문 시간은 읽은 텍스트에서 미확인",
+      "kakao_menu_count": 20,
+      "kakao_business_verified": true,
+      "menu_writer": "한돈 양념구이·한우 등심에 사장님 추천 라벨 확인. 메뉴 문구 전체의 작성자까지 확인된 것은 아님.",
+      "information_flags": "두 지도 사진 존재. 공식 예약 페이지의 무료 치즈는 BBQ customers only 조건이 붙음."
+    },
+    {
+      "candidate_id": "MD-917289719",
+      "identity": "두 지도 명동8나길 9 3층 및 공식 Main Branch 주소 일치. 다른 명동3길 44 2층 지점과 구분.",
+      "operation": "두 지도 주간 영업 안내, 공식 지점 안내, Google 소유자 제공 최근 게시물 존재. 현장 방문 확인은 아님.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 2,
+          "quote": "풀세트(1인) / 29,700원; 몽블리(1인) / 32,700원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "카카오 메뉴의 인원 판매 단위와 가격 연결은 명확함. 공식 메뉴는 Basic Set 1 31,700원 등으로 달라 동일 상품·현재 가격 여부는 별도 미확정. 이 점수를 가격 일치 판정으로 해석하지 않음.",
+          "additional_sources": [
+            "official_detail:menu"
+          ]
+        },
+        {
+          "item": 2,
+          "score": 2,
+          "quote": "풀세트(1인) / 꽃등심, 갈비살, 부채살, 토시살, 우삼겹, 소불고기, 이베리코 흑돼지 목살과 항정살, 듀록 꽃삼겹, 모듬야채쌈과 셀프바 무제한 제공",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "세트와 포함 구성·무제한 제공이 연결됨. 공식 안내에는 120분 이용 및 코스별 포함 음식도 명시됨.",
+          "additional_sources": [
+            "official_detail:guide_facts",
+            "official_detail:menu"
+          ]
+        },
+        {
+          "item": 3,
+          "score": 1,
+          "quote": "카카오 연락처를 알려주세요·웹사이트를 알려주세요, 11:30 ~ 02:00 / Google 02-318-2688, 공식 웹사이트, 11:30~02:00 / 공식 Main Branch 같은 전화·주소·시간",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "주소와 시간은 맞지만 카카오의 전화·공식 연결이 누락되어 채널별로 일부만 명확함. 공식 사이트를 실제 열어 지점 정보를 확인함.",
+          "additional_sources": [
+            "google_detail:overview_hours",
+            "official_detail:guide_facts"
+          ]
+        }
+      ],
+      "representative_menu": "카카오 풀세트(1인); 공식 Basic Set 1",
+      "price_krw": null,
+      "sale_unit": "카카오 1인 무한리필; 공식 Basic Set의 동일 상품 대응 미확정",
+      "condition": "카카오 29,700원·공식 메뉴 31,700원·공식 Guide FAQ는 29,700원부터. 동일 상품 및 현재 가격 미확정; 공식 안내 이용 120분.",
+      "kakao_menu_count": 5,
+      "kakao_business_verified": false,
+      "menu_writer": "카카오 텍스트 메뉴 작성자 미확인, AI 추천 라벨. Google 게시물에는 소유자 제공 표시 실제 확인.",
+      "information_flags": "두 지도 사진 존재. 공식 사이트에서 코스별 포함 구성·가격과 본점 주소·전화·시간을 읽음. 일반 소개 분량이 왕비집과 다르므로 정보량 차이 잔존."
+    },
+    {
+      "candidate_id": "MD-7872029",
+      "identity": "두 지도 명동3길 8 및 전화 02-775-5300 일치. Google 층수 미표시.",
+      "operation": "두 지도 주간 영업 안내 존재. 현장 방문 확인은 아님.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 1,
+          "quote": "로스가스 / 15,000원; 히레가스 / 16,000원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "메뉴·가격 연결은 명확하나 읽은 텍스트에서 인분·중량 판매 단위는 암묵적. 사진 글씨 미확인은 정보 부재로 처리하지 않음."
+        },
+        {
+          "item": 2,
+          "score": 1,
+          "quote": "토(11/7) 11:00 ~ 21:00, 15:00 ~ 17:00 브레이크타임; 일(11/8) 동일",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "일반 이용 시간은 명확하고 메뉴별 추가 조건은 읽은 텍스트에서 일부만 확인. 최소 주문 여부를 추측하지 않음."
+        },
+        {
+          "item": 3,
+          "score": 1,
+          "quote": "두 지도 같은 주소·02-775-5300·mddongas.co.kr; 카카오 주말 브레이크타임 표시, Google 주간표는 11:00~21:00 연속",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "지점 기본 정보는 맞지만 영업시간의 휴게 구간 표시 차이 존재. 공식 웹사이트 본문 대조는 미완료.",
+          "additional_sources": [
+            "google_detail:overview_hours"
+          ]
+        }
+      ],
+      "representative_menu": "로스가스",
+      "price_krw": 15000,
+      "sale_unit": "텍스트상 인분 미명시",
+      "condition": "카카오 토·일 15:00~17:00 브레이크타임",
+      "kakao_menu_count": 6,
+      "kakao_business_verified": false,
+      "menu_writer": "텍스트 메뉴 작성자 미확인. AI 추천 라벨·설명 확인.",
+      "information_flags": "두 지도 사진 존재. 공식 웹사이트 링크는 두 지도에서 확인했으나 본문 확인은 미완료."
+    },
+    {
+      "candidate_id": "MD-8995971",
+      "identity": "미확인: 카카오 명동4길 32 2층, Google 명동4길 30 2층. 상호·전화 02-777-7317 같지만 주소 차이 미해결.",
+      "operation": "각 지도 영업 안내는 존재하나 두 지도 동일 지점 확정 보류.",
+      "scores": [
+        {
+          "item": 1,
+          "score": 1,
+          "quote": "명화당김밥 / 4,800원; 생우동 / 7,500원; 돈까스 / 9,500원",
+          "platform": "kakao_detail",
+          "section": "menu",
+          "reason": "메뉴·가격은 연결되지만 읽은 텍스트에서 수량·인분은 암묵적. 사진 글씨 미확인과 구분."
+        },
+        {
+          "item": 2,
+          "score": 1,
+          "quote": "화(11/3) ~ 월(11/9) 09:00 ~ 22:30",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "일반 영업 안내는 확인됨. 메뉴별 최소 주문·구성 조건은 추정하지 않음."
+        },
+        {
+          "item": 3,
+          "score": null,
+          "quote": "카카오 서울 중구 명동4길 32 2층 / Google 서울특별시 중구 명동4길 30 2층",
+          "platform": "kakao_detail",
+          "section": "home_hours",
+          "reason": "주소 차이로 동일 지점이 아직 확정되지 않아 지점 일관성 최종 점수는 미확인. 0점으로 대체하지 않음. 영업시간도 카카오 22:30·Google 22:00 차이.",
+          "additional_sources": [
+            "google_detail:overview_hours"
+          ]
+        }
+      ],
+      "representative_menu": "명화당김밥; 비교 참고 돈까스",
+      "price_krw": 4800,
+      "sale_unit": "텍스트상 수량 미명시",
+      "condition": "지도 간 주소·폐점 시간 차이 미해결",
+      "kakao_menu_count": 8,
+      "kakao_business_verified": false,
+      "menu_writer": "텍스트 메뉴 작성자 미확인. AI 추천 라벨·설명 확인.",
+      "information_flags": "두 지도 사진 존재. 동일 지점 미확정으로 표본 제외. 공통 돈까스도 9,500원 대 15,000원으로 가격 비율 1.579."
+    }
+  ],
+  "additional_name_alias_candidates": [
+    {
+      "kakao_id": "26853115",
+      "google_id": "ChIJfe6yD_CifDURYawr7KF_fkU",
+      "reason": "순남시래기 명동직영점/명동점: 이름 변형과 동일 도로명 주소 카드. 상세 지점 대조는 미완료."
+    },
+    {
+      "kakao_id": "1479300828",
+      "google_id": "ChIJW7FBDfCifDURHTpisLbVUH0",
+      "reason": "명동교자 명동역점 신관 본점/본점: 이름 변형과 퇴계로129 카드. 명동길48의 다른 Google 신관과 혼동 금지. 상세 지점 대조 미완료."
+    }
+  ],
+  "close_pair_reviews": [
+    {
+      "members": [
+        "MD-11610281",
+        "MD-17103484"
+      ],
+      "decision": "exclude",
+      "reason": "같은 브랜드 고깃집, 카카오32/37위·Google19/16위·평점4.7/4.5·리뷰2506/4410·같은 LA갈비 정식24,000원. 그러나 점수5/5로 사전 최소 차이2점 미충족. 낮은 정보 집단을 만들 수 없음."
+    },
+    {
+      "members": [
+        "MD-917289719",
+        "MD-17531780"
+      ],
+      "decision": "exclude",
+      "reason": "카카오44/53위·Google18/11위·평점4.8/4.7·리뷰3588/3139는 비슷함. 확정 점수5/5로 사전 최소 차이2점 미충족. 무한리필과 정식/중량 구이의 서비스 차이, 메뉴 수5/20 및 공식 가격 대응 미확정도 남음. 중앙점은 공식 무료 치즈의 BBQ 고객 조건을 반영해 초안4점에서5점으로 근거 검수 정정; 추천 호출은 정정 전후 모두0."
+    },
+    {
+      "members": [
+        "MD-7872029",
+        "MD-8995971"
+      ],
+      "decision": "exclude",
+      "reason": "돈가스 전문점 대 분식으로 주력 음식군 차이. 공통 돈까스 가격도15,000/9,500=1.579로 사전1.5초과. 명화당 동일 지점 주소 미확정."
+    }
+  ],
+  "coding_corrections": [
+    {
+      "candidate_id": "MD-17531780",
+      "item": 2,
+      "old_score": 1,
+      "new_score": 2,
+      "reason": "메뉴 시간만으로 채점했던 초안에 공식 예약 지점별 무료 치즈 서비스의 BBQ 고객 조건을 반영. 실제 추천 호출 0 상태에서 근거 검수로 정정. 점심특선 정확한 주문 시간 미확인 자체는 유지.",
+      "source": "https://www.wangbijib-restaurant.com/reservations"
+    }
+  ]
+}

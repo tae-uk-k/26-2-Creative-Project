@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261103T061743252500Z-SS-Q2-R02-T1",
+  "cell_id": "SS-Q2-R02",
+  "started_at": "2026-11-03T06:17:43.252500+00:00",
+  "ended_at": "2026-11-03T06:17:50.860727+00:00",
+  "process_status": "model_or_process_failure",
+  "returncode": 1,
+  "raw_path": "raw\\20261103T061743252500Z-SS-Q2-R02-T1.jsonl",
+  "stderr_path": "raw\\20261103T061743252500Z-SS-Q2-R02-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "성수를 처음 방문하는 사람에게 추천할 음식점 5곳을 알려줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마.",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261103T061743252500Z-SS-Q2-R02-T1",
+  "readiness_only": false,
+  "raw_sha256": "d3d3716b8b23dfe785026d9bd7a68aa70a63c248958341dbb9db8d5ac8ce7c57",
+  "stderr_sha256": "f0578c181204f831c61bf314328ad63934064c78370b53aba5d13a55b23cf2cb"
+}

@@ -1,0 +1,27 @@
+{
+  "store_id": "MW-1992765166",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "매장 주메뉴 일부는 200g·210g·2p, 모짜/카레 등은 단위가 없어 전반2점 보류. 배달18메뉴와 매장7메뉴를 혼합하지 않음.",
+  "sources": [
+    {
+      "quote": "등심돈카츠(210g)",
+      "source_url": "https://place.map.kakao.com/1992765166#menuInfo",
+      "observed_at": "2026-11-03T04:16:32.250Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\265_MW-1992765166_kakao_dinein_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "모짜체다카츠(한정)",
+      "source_url": "https://place.map.kakao.com/1992765166#menuInfo",
+      "observed_at": "2026-11-03T04:16:32.250Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\265_MW-1992765166_kakao_dinein_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

@@ -1,0 +1,3 @@
+.brand-image{display:block;width:92px;height:auto;max-width:none;object-fit:contain}
+footer .brand-image{width:76px}
+@media(max-width:760px){.brand-image{width:78px}footer .brand-image{width:70px}}

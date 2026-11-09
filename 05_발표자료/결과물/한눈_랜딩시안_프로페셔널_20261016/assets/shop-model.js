@@ -16,7 +16,10 @@
   const smooth = (a, b, x) => { const t = clamp((x - a) / (b - a)); return t * t * (3 - 2 * t); };
   let manualStatic = false, unavailable = false, renderer, scene, camera, store, frame = 0, magnet;
   let scrollDirty = true, resizeDirty = true, target = 0, current = 0, lastTime = 0, lastP = -1, needsRender = true;
-  let width = 1, height = 1, sun, shopWindowMaterial, storyTop = 0, storyTravel = 1, storyBottom = 1;
+  let width = 1, height = 1, sun, models = [], visibleShop = -1, storyTop = 0, storyTravel = 1, storyBottom = 1;
+  const shopWindowMaterials = [];
+  const captionName = document.querySelector('.shop-caption strong');
+  const captionType = document.querySelector('.shop-caption span');
   const resources = new Set();
   const keep = resource => { resources.add(resource); return resource; };
   const isStatic = () => manualStatic || preference.matches || unavailable;
@@ -54,81 +57,137 @@
     renderer.shadowMap.autoUpdate = false;
     renderer.shadowMap.needsUpdate = true;
     renderer.toneMapping = T.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.2;
+    renderer.toneMappingExposure = 1.3;
+    if(T.SRGBColorSpace)renderer.outputColorSpace=T.SRGBColorSpace;
     scene = new T.Scene();
     camera = new T.OrthographicCamera(-5,5,5,-5,.1,60);
     store = new T.Group(); scene.add(store);
-    const color = (hex, extra = {}) => keep(new T.MeshStandardMaterial({color:hex,roughness:.82,metalness:0,...extra}));
-    const cream=color('#eeeee5'), trim=color('#fafbf3'), sage=color('#7187a2'), deep=color('#334b69'), leaf=color('#a7a899'), clay=color('#c0b3a4'), wood=color('#b6a48c'), pavement=color('#e7e9eb');
-    const glass=color('#8096a8',{roughness:.3}), windowLight=color('#e3dcca',{emissive:'#e6d5b5',emissiveIntensity:.10}), foliage=color('#89958a');
-    shopWindowMaterial = windowLight;
+
     const boxGeo=keep(new T.BoxGeometry(1,1,1));
     const sphereGeo=keep(new T.SphereGeometry(1,20,14));
-    const cylinderGeo=keep(new T.CylinderGeometry(1,1,1,32));
-    function mesh(geo,mat,x,y,z,sx=1,sy=1,sz=1,parent=store){const m=new T.Mesh(geo,mat);m.position.set(x,y,z);m.scale.set(sx,sy,sz);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m;}
-    function box(mat,x,y,z,w,h,d){return mesh(boxGeo,mat,x,y,z,w,h,d);}
-    function cylinder(mat,x,y,z,r,h){return mesh(cylinderGeo,mat,x,y,z,r,h,r);}
-    function arch(mat,x,y,z,w,h,depth=.06){
-      const s=new T.Shape();s.moveTo(-w/2,0);s.lineTo(w/2,0);s.lineTo(w/2,h-w/2);s.absarc(0,h-w/2,w/2,0,Math.PI,false);s.lineTo(-w/2,0);
-      const g=keep(new T.ExtrudeGeometry(s,{depth,bevelEnabled:false,curveSegments:24}));return mesh(g,mat,x,y,z);
+    const cylinderGeo=keep(new T.CylinderGeometry(1,1,1,28));
+    const canopyGeo=keep(new T.ConeGeometry(1,.48,28));
+    const configurations=[
+      {kind:'restaurant',name:'망원밥상',label:'한식집 · 옐로 차양',wall:'#fff4df',accent:'#ffc54f',frame:'#3f779c',roof:'#fffaf0',plant:'#63bc8a',sign:'#ffc54f',ink:'#273b4a'},
+      {kind:'cafe',name:'seelo café',label:'카페 · 민트 파사드',wall:'#dff7eb',accent:'#54c5aa',frame:'#397d92',roof:'#f6fffb',plant:'#72bf8d',sign:'#e9fff5',ink:'#246e62'},
+      {kind:'bakery',name:'온기 베이커리',label:'베이커리 · 코랄 지붕',wall:'#fff1e5',accent:'#ff9f81',frame:'#af614d',roof:'#f38971',plant:'#7abb79',sign:'#fff6e8',ink:'#a35543'}
+    ];
+    function makeShop(config){
+      const group=new T.Group();store.add(group);
+      const materials=[];
+      const color=(hex,extra={})=>{const m=keep(new T.MeshStandardMaterial({color:hex,roughness:.76,metalness:0,transparent:true,...extra}));materials.push(m);return m;};
+      const m={
+        wall:color(config.wall),trim:color('#fffdf6'),accent:color(config.accent),
+        frame:color(config.frame),roof:color(config.roof),wood:color('#dba96f'),
+        paving:color('#faf3e7'),pot:color('#f5c9ab'),leaf:color(config.plant),leafLight:color('#9cdb9e'),
+        glass:color('#a9dff3',{roughness:.24,emissive:'#c5f3ff',emissiveIntensity:.12}),
+        warm:color('#fff1cb',{emissive:'#ffe8b0',emissiveIntensity:.18}),bread:color('#e9b35e')
+      };
+      shopWindowMaterials.push(m.warm);
+      function mesh(geo,mat,x,y,z,sx=1,sy=1,sz=1){const obj=new T.Mesh(geo,mat);obj.position.set(x,y,z);obj.scale.set(sx,sy,sz);obj.castShadow=true;obj.receiveShadow=true;group.add(obj);return obj;}
+      const box=(mat,x,y,z,w,h,d)=>mesh(boxGeo,mat,x,y,z,w,h,d);
+      const cylinder=(mat,x,y,z,r,h)=>mesh(cylinderGeo,mat,x,y,z,r,h,r);
+      const ball=(mat,x,y,z,rx,ry=rx,rz=rx)=>mesh(sphereGeo,mat,x,y,z,rx,ry,rz);
+      function arch(mat,x,y,z,w,h,depth=.05){
+        const shape=new T.Shape();shape.moveTo(-w/2,0);shape.lineTo(w/2,0);shape.lineTo(w/2,h-w/2);
+        shape.absarc(0,h-w/2,w/2,0,Math.PI,false);shape.lineTo(-w/2,0);
+        return mesh(keep(new T.ExtrudeGeometry(shape,{depth,bevelEnabled:false,curveSegments:18})),mat,x,y,z);
+      }
+      function sign(text,x,y,z,w,h){
+        const surface=document.createElement('canvas');surface.width=768;surface.height=192;
+        const ctx=surface.getContext('2d');
+        const paint=()=>{ctx.fillStyle=config.sign;ctx.fillRect(0,0,768,192);ctx.fillStyle=config.ink;ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='650 72px Pretendard, sans-serif';ctx.fillText(text,384,98,700);};
+        paint();const texture=keep(new T.CanvasTexture(surface));if(T.SRGBColorSpace)texture.colorSpace=T.SRGBColorSpace;
+        const mat=keep(new T.MeshBasicMaterial({map:texture,transparent:true}));materials.push(mat);
+        box(m.frame,x,y,z-.045,w+.10,h+.08,.12);
+        mesh(keep(new T.PlaneGeometry(w,h)),mat,x,y,z+.025);
+        document.fonts?.ready.then(()=>{paint();texture.needsUpdate=true;needsRender=true;requestFrame();});
+      }
+      function awning(y,width,first,second){
+        for(let i=0;i<12;i++){
+          const x=-width/2+(i+.5)*width/12,mat=i%2?first:second;
+          const top=box(mat,x,y,1.83,width/12,.09,1.02);top.rotation.x=.12;
+          box(mat,x,y-.14,2.34,width/12,.22,.07);
+        }
+      }
+      function tree(x,z,r=.57){
+        cylinder(m.pot,x,.22,z,.35,.44);cylinder(m.wood,x,.78,z,.065,1.05);
+        ball(m.leaf,x,1.57,z,r,.73,r);ball(m.leafLight,x-.17,1.37,z+.10,r*.7,.47,r*.7);
+      }
+      function table(x,z){
+        cylinder(m.wood,x,.78,z,.48,.09);cylinder(m.frame,x,.39,z,.045,.73);cylinder(m.frame,x,.035,z,.25,.05);
+        for(const [dx,dz]of [[-.65,.14],[.53,-.38]]){
+          cylinder(m.accent,x+dx,.43,z+dz,.23,.09);
+          for(const d of [-.14,.14])box(m.wood,x+dx+d,.21,z+dz,.035,.42,.035);
+        }
+        cylinder(m.trim,x,.91,z,.075,.17);
+      }
+      box(m.paving,0,-.16,.4,7.35,.22,6.4);
+      box(m.trim,0,-.30,.4,7.5,.07,6.55);
+      if(config.kind==='restaurant'){
+        box(m.wall,0,1.77,0,4.35,3.3,2.65);box(m.trim,0,3.47,0,4.60,.18,2.90);
+        box(m.accent,0,3.60,0,4.44,.12,2.75);box(m.trim,0,.15,0,4.52,.24,2.8);
+        arch(m.trim,-.96,.28,1.35,1.52,2.65,.08);arch(m.frame,-.96,.31,1.45,1.31,2.50,.04);
+        arch(m.warm,-.96,.44,1.50,1.09,2.18,.015);
+        box(m.frame,-.96,1.43,1.54,.045,2.10,.03);box(m.frame,-.96,1.65,1.54,1.12,.05,.03);
+        box(m.wood,-.52,1.24,1.58,.045,.25,.045);
+        arch(m.trim,1.05,.75,1.35,1.46,1.98,.08);arch(m.glass,1.05,.86,1.45,1.22,1.73,.035);
+        box(m.trim,1.05,1.55,1.51,.055,1.42,.04);box(m.trim,1.05,1.49,1.51,1.24,.055,.04);
+        box(m.wood,1.05,.78,1.55,1.56,.10,.35);
+        for(let i=0;i<3;i++){
+          const border=arch(m.trim,2.19,1.10,.82-i*.82,.58,1.46);border.rotation.y=Math.PI/2;
+          const glass=arch(m.glass,2.25,1.17,.82-i*.82,.44,1.29,.025);glass.rotation.y=Math.PI/2;
+        }
+        awning(2.90,4.40,m.accent,m.trim);sign(config.name,0,3.35,1.57,2.18,.47);
+        box(m.trim,-.96,.20,1.94,1.66,.15,.66);tree(-2.77,1.28,.62);tree(2.74,-.70,.56);table(2.10,2.30);
+        const board=box(m.wood,-2.0,.56,2.74,.53,.82,.06);board.rotation.x=-.15;
+        box(m.frame,-2.0,.58,2.80,.41,.62,.025);
+        for(let i=0;i<3;i++)box(m.trim,-2.0,.72-i*.13,2.82,.25-i*.035,.018,.01);
+      }else if(config.kind==='cafe'){
+        box(m.wall,0,1.89,0,3.90,3.55,2.70);box(m.trim,0,3.71,0,4.18,.18,2.98);
+        box(m.accent,0,3.85,0,4.02,.12,2.82);box(m.trim,0,.13,0,4.06,.22,2.84);
+        box(m.frame,-.65,1.70,1.39,1.94,1.92,.11);box(m.glass,-.65,1.70,1.46,1.76,1.74,.04);
+        box(m.trim,-.65,1.70,1.50,.055,1.78,.035);box(m.wood,-.65,.81,1.55,2.03,.13,.40);
+        arch(m.trim,1.18,.26,1.37,1.18,2.64,.07);arch(m.frame,1.18,.30,1.45,1.02,2.49,.03);
+        arch(m.glass,1.18,.42,1.50,.83,2.25,.02);box(m.wood,1.50,1.30,1.56,.04,.31,.04);
+        box(m.accent,0,2.87,1.74,4.20,.16,.85);box(m.trim,0,2.76,2.17,4.20,.12,.06);
+        sign('seelo café',0,3.31,1.45,2.48,.51);
+        for(let i=0;i<2;i++){box(m.trim,1.99,1.77,.63-i*1.2,.10,1.84,.89);box(m.glass,2.05,1.77,.63-i*1.2,.03,1.64,.70);}
+        tree(2.73,-.72,.57);table(2.26,2.31);
+        cylinder(m.frame,-2.55,1.15,2.05,.035,2.30);mesh(canopyGeo,m.trim,-2.55,2.38,2.05,1.02,1,1.02);
+        cylinder(m.pot,-2.55,.04,2.05,.28,.07);
+        box(m.wood,-1.43,.47,2.55,1.28,.12,.46);
+        for(const x of [-1.94,-.92])box(m.frame,x,.22,2.55,.055,.42,.36);
+        for(let i=0;i<3;i++){cylinder(m.trim,-1.25+i*.45,.96,1.60,.07,.17);ball(m.leaf,-1.25+i*.45,1.13,1.60,.10,.13,.10);}
+      }else{
+        box(m.wall,0,1.59,0,4.55,2.94,2.72);box(m.trim,0,.12,0,4.74,.20,2.90);
+        const roofShape=new T.Shape();roofShape.moveTo(-2.48,0);roofShape.lineTo(2.48,0);roofShape.lineTo(0,1.08);roofShape.closePath();
+        mesh(keep(new T.ExtrudeGeometry(roofShape,{depth:3.04,bevelEnabled:false})),m.roof,0,3.06,-1.52);
+        const slope=Math.atan(1.08/2.48),roofWidth=Math.hypot(2.48,1.08);
+        for(const side of [-1,1]){
+          const roof=box(m.roof,side*1.24,3.61,0,roofWidth+.12,.12,3.18);roof.rotation.z=-side*slope;
+          const fascia=box(m.trim,side*1.24,3.61,1.62,roofWidth+.16,.14,.08);fascia.rotation.z=-side*slope;
+        }
+        box(m.frame,-.83,1.49,1.41,2.13,1.72,.10);box(m.glass,-.83,1.49,1.48,1.98,1.57,.025);
+        for(const y of [.94,1.49]){box(m.wood,-.83,y,1.56,2.05,.075,.20);for(let i=0;i<4;i++)ball(m.bread,-1.55+i*.48,y+.14,1.61,.17,.11,.10);}
+        box(m.trim,-.83,1.49,1.66,.045,1.65,.035);
+        arch(m.trim,1.37,.23,1.39,1.19,2.42,.07);arch(m.frame,1.37,.27,1.48,1.03,2.27,.03);
+        arch(m.warm,1.37,.39,1.53,.84,2.02,.02);box(m.wood,1.69,1.20,1.58,.04,.26,.04);
+        awning(2.61,4.70,m.accent,m.trim);sign('온기 bakery',0,2.96,1.60,2.47,.43);
+        const sideWindow=arch(m.trim,2.30,.91,0,1.42,1.65);sideWindow.rotation.y=Math.PI/2;
+        const sideGlass=arch(m.glass,2.36,1.02,0,1.20,1.43,.025);sideGlass.rotation.y=Math.PI/2;
+        box(m.wood,-2.90,.49,.94,.52,.14,1.45);
+        for(const z of [.38,1.49])box(m.frame,-2.90,.23,z,.44,.42,.06);
+        tree(2.95,-.72,.58);tree(-2.95,-1.2,.48);
+        cylinder(m.pot,2.74,.20,2.44,.32,.40);ball(m.leaf,2.74,.70,2.44,.42,.50,.42);
+        box(m.wood,-1.90,.17,2.02,1.05,.15,.62);
+      }
+      return {group,materials,...config};
     }
-    // One miniature shop, made from architectural primitives rather than textures.
-    box(pavement,0,-.15,.4,7.35,.22,6.4);
-    box(trim,0,-.29,.4,7.5,.09,6.55);
-    box(cream,0,1.78,0,4.35,3.32,2.65);
-    box(trim,0,3.49,0,4.6,.17,2.9);
-    box(sage,0,3.62,0,4.44,.13,2.75);
-    box(trim,0,.16,0,4.52,.25,2.8);
-    // Door and display window: softened arches and a clear frame.
-    arch(trim,-.96,.29,1.35,1.52,2.65,.08);
-    arch(deep,-.96,.31,1.45,1.31,2.5,.04);
-    arch(windowLight,-.96,.45,1.50,1.09,2.18,.015);
-    box(deep,-.96,1.4,1.54,.045,2.1,.03);
-    box(deep,-.96,1.65,1.54,1.12,.05,.03);
-    cylinder(wood,-.54,1.25,1.58,.045,.25);
-    arch(trim,1.05,.77,1.35,1.44,1.95,.08);
-    arch(glass,1.05,.87,1.45,1.2,1.72,.035);
-    box(trim,1.05,1.55,1.51,.06,1.4,.04);
-    box(trim,1.05,1.48,1.51,1.22,.06,.04);
-    box(wood,1.05,.79,1.55,1.55,.10,.34);
-    // Three tall side windows follow the same geometry.
-    for(let i=0;i<3;i++){
-      const a=arch(trim,2.19,1.1,.82-i*.82,.57,1.45,.05);a.rotation.y=Math.PI/2;
-      const g=arch(glass,2.25,1.17,.82-i*.82,.43,1.29,.025);g.rotation.y=Math.PI/2;
-    }
-    // Stripe awning and scalloped edge use a shared geometry and two materials.
-    for(let i=0;i<12;i++){
-      const x=-2.2+(i+.5)*4.4/12, mat=i%2?sage:trim;
-      const roof=box(mat,x,2.91,1.83,4.4/12,.10,1.04);roof.rotation.x=.12;
-      box(mat,x,2.77,2.34,4.4/12,.22,.07);
-    }
-    box(trim,-.96,.22,1.95,1.65,.16,.65);
-    box(pavement,-.96,.09,2.15,1.95,.10,.85);
-    // Roof sign. Canvas typography is local and does not load remote media.
-    const signCanvas=document.createElement('canvas');signCanvas.width=768;signCanvas.height=192;
-    const ctx=signCanvas.getContext('2d');
-    function paintSign(){
-      ctx.fillStyle='#334b69';ctx.fillRect(0,0,768,192);
-      ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#f8faed';ctx.font='550 76px Pretendard, sans-serif';ctx.fillText('망원밥상',384,94);
-    }
-    paintSign();const signTexture=keep(new T.CanvasTexture(signCanvas));
-    if(T.SRGBColorSpace)signTexture.colorSpace=T.SRGBColorSpace;
-    const signMat=keep(new T.MeshBasicMaterial({map:signTexture}));
-    box(deep,0,3.35,1.51,2.25,.51,.12);
-    mesh(keep(new T.PlaneGeometry(2.16,.48)),signMat,0,3.35,1.58);
-    document.fonts?.ready.then(()=>{paintSign();signTexture.needsUpdate=true;needsRender=true;requestFrame();});
-    // Cylindrical planters, clipped tree crowns, and a small café table.
-    for(const [x,z,r] of [[-2.77,1.28,.66],[2.75,-.7,.61]]){
-      cylinder(clay,x,.25,z,.38,.50);cylinder(wood,x,.85,z,.075,1.15);
-      mesh(sphereGeo,leaf,x,1.64,z,r,.85,r);
-      mesh(sphereGeo,foliage,x+.1,1.43,z+.08,r*.8,.6,r*.8);
-    }
-    cylinder(wood,2.16,.83,2.32,.62,.09);cylinder(deep,2.16,.42,2.32,.055,.78);cylinder(deep,2.16,.05,2.32,.33,.05);
-    for(const [x,z]of [[1.6,2.96],[2.9,2.07]]){cylinder(sage,x,.47,z,.27,.10);for(const dx of [-.16,.16])box(wood,x+dx,.23,z,.045,.45,.045);}
-    cylinder(clay,1.95,.99,2.30,.10,.23);mesh(sphereGeo,leaf,1.95,1.18,2.30,.14,.2,.14);
-    const board=box(wood,-2.0,.59,2.74,.53,.85,.055);board.rotation.x=-.15;
-    box(deep,-2.0,.60,2.80,.41,.64,.025);
-    for(let i=0;i<3;i++)box(trim,-2.0,.74-i*.13,2.82,.25-i*.035,.018,.01);
+    models=configurations.map(makeShop);
+    models.forEach((model,i)=>{model.group.visible=i===0;});
+    story.dataset.modelCount=String(models.length);
+
     const hemi = new T.HemisphereLight('#ffffff','#d5d8dc',2.1);scene.add(hemi);
     sun = new T.DirectionalLight('#fffef8',3.1);sun.position.set(-6,10,8);sun.castShadow=true;
     sun.shadow.mapSize.set(1024,1024);Object.assign(sun.shadow.camera,{left:-6,right:6,top:6,bottom:-6,near:1,far:30});sun.shadow.normalBias=.035;sun.shadow.bias=-.0002;scene.add(sun);
@@ -165,7 +224,7 @@
     intro.inert=!fixed&&introOpacity<.1;
     const modelSide=-1+2*smooth(.30,.45,p)-2*smooth(.65,.80,p);
     stage.style.transform=fixed?'none':narrow.matches
-      ? `translate3d(0,${-19*entrance}vh,0) scale(${1-.16*entrance})`
+      ? `translate3d(0,${-43*entrance}vh,0) scale(${1-.16*entrance})`
       : `translate3d(${modelSide*16*entrance}vw,${-10*entrance}vh,0) scale(${1+.04*entrance})`;
     panels.forEach(panel=>{
       const phase=Number(panel.dataset.phase),[a,b,c,d]=ranges[phase];
@@ -193,7 +252,20 @@
       const angle=fixed?.18:.12+smooth(.05,.55,p)*.42-smooth(.65,.95,p)*.20;
       camera.position.set(8*Math.cos(angle)-1,6.3-.65*smooth(.1,.8,p),10.5+Math.sin(angle)*4);
       camera.lookAt(0,1.65,.3);
-      shopWindowMaterial.emissiveIntensity=.12+smooth(.35,.62,p)*.16;
+      const cafeMix=fixed?0:smooth(.31,.40,p),bakeryMix=fixed?0:smooth(.66,.75,p);
+      const weights=[1-cafeMix,cafeMix*(1-bakeryMix),bakeryMix];
+      const selected=weights.indexOf(Math.max(...weights));
+      models.forEach((model,i)=>{
+        const opacity=weights[i];model.group.visible=opacity>.004;
+        model.materials.forEach(mat=>{mat.opacity=opacity;mat.depthWrite=opacity>.98;});
+      });
+      if(selected!==visibleShop){
+        visibleShop=selected;const model=models[selected];
+        captionName.textContent=model.name;captionType.textContent=model.label;
+        stage.setAttribute('aria-label',model.label+' 가게 모형');
+        story.dataset.model=model.kind;renderer.shadowMap.needsUpdate=true;
+      }
+      shopWindowMaterials.forEach(mat=>{mat.emissiveIntensity=.14+smooth(.35,.62,p)*.12;});
       renderer.render(scene,camera);
       story.dataset.drawCalls=String(renderer.info.render.calls);
       story.dataset.triangles=String(renderer.info.render.triangles);

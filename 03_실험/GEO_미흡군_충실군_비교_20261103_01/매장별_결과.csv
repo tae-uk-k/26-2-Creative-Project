@@ -1,0 +1,9 @@
+﻿store_id,pair_id,area_id,group,question_id,appearances,valid_denominator,appearance_pct,mean_rank_when_present
+SS-465733251,SS-P01,SS,A,Q1,0,0,,
+SS-465733251,SS-P01,SS,A,Q2,0,0,,
+SS-465733251,SS-P01,SS,A,Q3,0,0,,
+SS-465733251,SS-P01,SS,A,ALL,0,0,,
+SS-487665317,SS-P01,SS,B,Q1,0,0,,
+SS-487665317,SS-P01,SS,B,Q2,0,0,,
+SS-487665317,SS-P01,SS,B,Q3,0,0,,
+SS-487665317,SS-P01,SS,B,ALL,0,0,,

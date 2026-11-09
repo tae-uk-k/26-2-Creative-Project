@@ -1,0 +1,17 @@
+﻿attempt_id,cell_id,started_at,ended_at,returncode,raw_file,raw_sha_verified,open_events,internal_error_results,successful_open_results,outcome,final_response,included_in_90
+20261102T181231136322Z-NEUTRAL-MAP-ACCESS-T1,NEUTRAL-MAP-ACCESS,2026-11-02T18:12:31.138834+00:00,2026-11-02T18:12:45.305759+00:00,1,readiness\20261102T181231136322Z-NEUTRAL-MAP-ACCESS-T1.jsonl,True,0,0,0,model_failure,"두 지도에서 서울특별시청 상세 페이지를 직접 열어 확인하겠습니다.
+",False
+20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1,NEUTRAL-MAP-ACCESS,2026-11-02T18:13:35.868666+00:00,2026-11-02T18:14:00.569407+00:00,0,readiness\20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1.jsonl,True,2,4,0,map_access_failure,"| 지도 | 확인 결과 | 접근을 시도한 링크 |
+|---|---|---|
+| 카카오맵 | **접근 실패** — 상세 정보와 주소 확인 불가 | [서울특별시청 검색](https://map.kakao.com/?q=서울특별시청) |
+| 구글 지도 | **접근 실패** — 상세 정보와 주소 확인 불가 | [서울특별시청 장소 페이지](https://www.google.com/maps/place/서울특별시청/) |
+
+두 지도 모두 도구에서 접근 불가 오류가 발생했습니다. 실제로 열어 확인한 출처가 없어 주소는 기재하지 않았습니다.",False
+20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1,NEUTRAL-MAP-ACCESS,2026-11-02T18:56:42.617092+00:00,2026-11-02T18:57:02.226911+00:00,0,readiness\20261102T185642616093Z-NEUTRAL-MAP-ACCESS-T1.jsonl,True,1,2,0,map_access_failure,"| 지도 | 확인 결과 | 주소 | 접근을 시도한 링크 |
+|---|---|---|---|
+| 카카오맵 | **접근 실패** — 페이지를 열지 못해 공개 상세 정보 확인 불가 | 확인하지 못함 | [서울특별시청 검색](https://map.kakao.com/?q=서울특별시청) |
+| 구글 지도 | **접근 실패** — 페이지를 열지 못해 공개 상세 정보 확인 불가 | 확인하지 못함 | [서울특별시청 검색](https://www.google.com/maps/search/?api=1&query=서울특별시청) |
+
+두 링크 모두 접근 도구에서 오류가 발생했습니다. 실제로 확인한 상세 출처 링크는 없으며, 주소는 추측하지 않았습니다.",False
+20261102T185821581877Z-NEUTRAL-EXACT-DETAIL-T1,NEUTRAL-EXACT-DETAIL,2026-11-02T18:58:21.582869+00:00,2026-11-02T18:58:33.129732+00:00,0,readiness\20261102T185821581877Z-NEUTRAL-EXACT-DETAIL-T1.jsonl,True,1,2,0,map_access_failure,"- [카카오맵](https://place.map.kakao.com/8430129): **접근 실패**. 직접 열기를 시도했지만 본문을 불러오지 못해 주소와 문구를 확인할 수 없었습니다.
+- [구글 지도](https://www.google.com/maps/place/서울특별시청/data=!3m1!4b1!4m4!3m3!1s0x357ca2f332cb082b:0xe92b70ac420cf0a8!16s%2Fm%2F03ylsqy!20s8Q98HX8H%2BJ7P?hl=ko): **접근 실패**. 직접 열기를 시도했지만 본문을 불러오지 못해 주소와 문구를 확인할 수 없었습니다.",False

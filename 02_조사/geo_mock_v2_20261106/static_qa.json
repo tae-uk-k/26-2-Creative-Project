@@ -1,0 +1,18 @@
+{
+  "fictional_label": true,
+  "live_map_write": false,
+  "source_board_count": 4,
+  "views_created": 8,
+  "prices_preserved": {
+    "kakao": [
+      "9,000원",
+      "11,000원",
+      "28,000원"
+    ],
+    "google": [
+      "9,000원",
+      "9,500원",
+      "14,500원"
+    ]
+  }
+}

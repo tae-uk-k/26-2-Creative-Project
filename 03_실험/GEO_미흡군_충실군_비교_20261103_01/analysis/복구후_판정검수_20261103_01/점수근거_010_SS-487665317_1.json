@@ -1,0 +1,19 @@
+{
+  "store_id": "SS-487665317",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "대부분 파스타는 가격만, 일부 스테이크에만 중량. 주요 메뉴 전반에 단위가 있다는 2점은 부여하지 않음.",
+  "sources": [
+    {
+      "quote": "랍스타 바질올리오",
+      "source_url": "https://place.map.kakao.com/487665317#menuInfo",
+      "observed_at": "2026-11-02T19:48:43.210Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\169_SS-487665317_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

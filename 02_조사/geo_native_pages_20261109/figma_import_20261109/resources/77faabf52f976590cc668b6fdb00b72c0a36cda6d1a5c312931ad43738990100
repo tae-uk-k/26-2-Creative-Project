@@ -1,0 +1,5 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.5 4.75L19.6133 3.3808C17.5852 1.58805 14.9197 0.5 12 0.5C5.64873 0.5 0.5 5.64873 0.5 12C0.5 18.3513 5.64873 23.5 12 23.5C18.3513 23.5 23.5 18.3513 23.5 12" stroke="#FFF" transform="translate(1 1.5) scale(0.9583)"/>
+<path d="M2.82843 0L5.65685 2.82843H0L2.82843 0Z" fill="#FFF" transform="translate(21.3 5.3) rotate(135) translate(-2.828 -1.414)"/>
+<text x="13" y="15.3" font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Roboto, sans-serif" font-size="7.5" font-weight="600" fill="#FFF" text-anchor="middle">90</text>
+</svg>

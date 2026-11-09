@@ -1,0 +1,19 @@
+{
+  "store_id": "SS-623393395",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "일부 개수/중량 표시만으로 전체 주요 메뉴에 단위가 있다는2점을 주지 않음.",
+  "sources": [
+    {
+      "quote": "메뉴 목록",
+      "source_url": "https://place.map.kakao.com/623393395#menuInfo",
+      "observed_at": "2026-11-02T19:47:47.335Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\165_SS-623393395_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

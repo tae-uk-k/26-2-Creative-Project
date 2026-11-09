@@ -1,0 +1,19 @@
+{
+  "store_id": "MD-23961602",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "주요 돈까스 단품은 메뉴·가격 연결. 정식/세트 단위는 일부 항목에만 존재. 1인1메뉴 이용 규정을 모든 메뉴의 1인분 중량 표시로 바꾸지 않음.",
+  "sources": [
+    {
+      "quote": "남산 왕 돈까스\n\n14,000원",
+      "source_url": "https://place.map.kakao.com/23961602#menuInfo",
+      "observed_at": "2026-11-02T19:26:31.123Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\106_MD-23961602_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

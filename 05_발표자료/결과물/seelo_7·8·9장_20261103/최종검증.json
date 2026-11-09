@@ -1,0 +1,190 @@
+{
+  "sourceChanges": [],
+  "blankSlide9Preserved": true,
+  "slides": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "menus": 9,
+      "active": [
+        "서비스 소개"
+      ]
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "menus": 9,
+      "active": [
+        "문제 정의"
+      ]
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "menus": 9,
+      "active": [
+        "인사이트"
+      ]
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "menus": 9,
+      "active": [
+        "핵심 기능"
+      ]
+    },
+    {
+      "id": "580:179",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "menus": 9,
+      "active": [
+        "개발 범위"
+      ]
+    },
+    {
+      "id": "580:210",
+      "name": "06 · 시스템 아키텍처 · 데이터 흐름",
+      "menus": 9,
+      "active": [
+        "시스템 구조"
+      ]
+    },
+    {
+      "id": "606:53",
+      "name": "07 · UI/UX 설계 · 프로토타입",
+      "menus": 9,
+      "active": [
+        "화면 설계"
+      ]
+    },
+    {
+      "id": "606:71",
+      "name": "08 · 데이터베이스 설계",
+      "menus": 9,
+      "active": [
+        "데이터 설계"
+      ]
+    },
+    {
+      "id": "606:89",
+      "name": "09 · 개발 계획 · 역할 분담",
+      "menus": 9,
+      "active": [
+        "개발 계획"
+      ]
+    }
+  ],
+  "editableImageSources": [
+    "365:1924",
+    "521:1705",
+    "521:1782"
+  ],
+  "audit": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "580:179",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "580:210",
+      "name": "06 · 시스템 아키텍처 · 데이터 흐름",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "606:53",
+      "name": "07 · UI/UX 설계 · 프로토타입",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "606:71",
+      "name": "08 · 데이터베이스 설계",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    },
+    {
+      "id": "606:89",
+      "name": "09 · 개발 계획 · 역할 분담",
+      "overlaps": [],
+      "missingFonts": [],
+      "outside": [],
+      "autoLayout": 0,
+      "hugOrFill": 0,
+      "instances": 0
+    }
+  ],
+  "finalRenderReviewed": [
+    7,
+    8,
+    9
+  ],
+  "wireframeFinalCrop": {
+    "source": "365:1924",
+    "scale": 0.647887323943662,
+    "x": 132,
+    "y": 120,
+    "viewport": [
+      552,
+      490
+    ]
+  }
+}

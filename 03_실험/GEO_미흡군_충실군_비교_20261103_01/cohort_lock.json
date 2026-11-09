@@ -1,0 +1,29 @@
+{
+  "cohort_ready": true,
+  "frozen_at_utc": "2026-11-03T06:07:57.397745+00:00",
+  "restaurant_attempts_before_freeze": 0,
+  "stores": 2,
+  "pairs": 1,
+  "by_area": {
+    "MD": 0,
+    "SS": 1,
+    "MW": 0
+  },
+  "sha256": {
+    "사전규약.md": "a453b6ad3211b8056365a0aaeb2717129a7e1e8da7c22ebb21ad80cec8906109",
+    "매장_집단_매칭표.csv": "7c012f5a43502b81e9f2b68ab3825d3671a6376c586de158a3ce6c431ceb60b8",
+    "GEO_항목별점수.csv": "0cd989d6df968366dfa1df756f6881d41271609a338886b598987f49f1cdc86a",
+    "고정_실행설정.json": "1ae28b23e42371a657819925366bf5e67a7ffca80741000f269cbc63f543e846",
+    "90셀_실행계획.csv": "2aebcb149c8418bd044f8b7a7d948c7010d1f8b8549583d34bb6c0a62ba7fb46",
+    "후보확대_지역앵커_추가.md": "05fd39dca20cc6c04df48b05703207779aba9456be8f8f1d300ed74d7ce6adfd",
+    "후보확대_지역해석교정_추가.md": "6c14718eb6ba5d6a0d15d292ba37808ca1dabd5b9fa54b63b30289eff58a8b1e",
+    "채점범위_사용자확정_20261103.md": "d097c8b8c63e90e6cc8b919c9a50d7350cf03936bbe3a7c271ff4b36af06e8ce",
+    "메뉴_0점_1점_사용자확정_20261103.md": "bea8e2ea856fbcb80c6cc67abd90ee87fe2bfca5558ebb77b8b364026eb7c516",
+    "analysis\\확정표본_20261103_01\\SS-465733251_item_1.json": "ccaf36cf45240902d5c7a4c41a14cea5c9ede2433362bdcbcead316ec0a9078c",
+    "analysis\\확정표본_20261103_01\\SS-465733251_item_2.json": "cf947aed226d0390ee54360003465ca5008305bc577a7455ee3428404f2ca0b3",
+    "analysis\\확정표본_20261103_01\\SS-465733251_item_3.json": "58fd3105f48bef7871cdbf4b01679f8c797dbf3fa7da120d879037b5a6f0be88",
+    "analysis\\확정표본_20261103_01\\SS-487665317_item_1.json": "464831d1e8c33b9c6954a66a863a3d674ad0dcf086e65e4135940e25abae811f",
+    "analysis\\확정표본_20261103_01\\SS-487665317_item_2.json": "e0e63d85b6a60cd9354b54e3cdeeaef21f6f45f4504e5db0f159695f85a52968",
+    "analysis\\확정표본_20261103_01\\SS-487665317_item_3.json": "74348e8a0f17a314be9772e4bcf974bbc8b8006f74e5bb3b19b1803f392a14eb"
+  }
+}

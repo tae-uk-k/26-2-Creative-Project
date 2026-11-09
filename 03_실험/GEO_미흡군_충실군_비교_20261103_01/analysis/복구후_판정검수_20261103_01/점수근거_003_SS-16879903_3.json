@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-16879903",
+  "item": 3,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "같은 지점 전화는 일치하나 공개 주간 영업시간·일요일 휴무가 다름. 어느 쪽이 정답인지 확정하지 않음.",
+  "sources": [
+    {
+      "quote": "일(11/8)\n휴무일",
+      "source_url": "https://place.map.kakao.com/16879903",
+      "observed_at": "2026-11-02T19:31:46.539Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\129_SS-16879903_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "02-464-5852",
+      "source_url": "https://www.google.com/maps/place/%EC%9E%A5%ED%9D%A5%EC%8B%9D%EB%8B%B9/data=!3m1!4b1!4m4!3m3!1s0x357ca499e91e4335:0x19dc4c654e0b84c6!16s%2Fg%2F11f64dxyjs!20s8Q99G2WX%2B8XF?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "observed_at": "2026-11-03T01:50:58.912Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\194_SS-16879903_google_overview_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

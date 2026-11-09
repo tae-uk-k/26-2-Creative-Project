@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-06",
+  "browser": "Chrome 및 IAB에서 로컬 HTML 렌더 확인",
+  "checks": {
+    "kakao_before_after_rendered": true,
+    "kakao_three_menu_descriptions_visible": true,
+    "google_before_after_rendered": true,
+    "google_description_font": "12px / 16px, letter-spacing 0.2px",
+    "google_description_rect": {"x":24,"y":207,"width":360,"height":80},
+    "google_original_description_rect_before_crop": {"x":96,"y":207,"width":360,"height":112},
+    "map_switch_both_directions": true,
+    "whole_page_and_focus_layout_switch": true,
+    "evidence_expand": true,
+    "source_url_updated_on_map_switch": true,
+    "no_live_map_write": true
+  },
+  "observed_and_resolved": [
+    "처음 Google 상세를 본 IAB 제한 보기에는 메뉴 탭이 없었음. Chrome에서 실제 메뉴 탭에 접근해 원문과 당일 화면을 확보.",
+    "iframe 전환 직후 캡처에 이전 화면이 남는 경우를 확인. 정비 문구가 로드된 상태를 기다린 뒤 최종 캡처를 다시 저장."
+  ]
+}

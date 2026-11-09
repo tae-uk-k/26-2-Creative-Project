@@ -1,0 +1,29 @@
+{
+  "store_id": "SS-487665317",
+  "item": 2,
+  "score": 2,
+  "status": "confirmed",
+  "reason": "식사 주문에 따른 기본 제공 구성과 매일20:20 주문마감이 해당 지점의 식사 서비스에 연결됨. 포장 가격22,900원은 포장 항목임을 기록하며 매장 단품21,900원과 섞지 않음.",
+  "sources": [
+    {
+      "quote": "주문 시 콘스프와 빵을 제공",
+      "source_url": "https://booking.kakao.com/detail/ticket/763879?t_src=kakaomap&t_ch=mapdetail_products",
+      "observed_at": "2026-11-03T01:47:30.619Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\184_SS-487665317_official_booking_seller_info.json",
+      "sha256": "47b8c7078dfcef576cf4933bd3740866c68851911eaa3acd69fe2cff8777122c",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    },
+    {
+      "quote": "20:20 라스트오더",
+      "source_url": "https://pcmap.place.naver.com/restaurant/38590315/home?from=map&fromPanelNum=1&locale=ko&svcName=map_pcv5",
+      "observed_at": "2026-11-03T01:48:20.298Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\186_SS-487665317_official_linked_weekly_hours.json",
+      "sha256": "b83d336dfb0721d1395c1534726a4615e0adfe8052bffce420fa36ce568141dc",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    }
+  ],
+  "adjudicated_at_utc": "2026-11-03T06:07:46.601616+00:00",
+  "recommendation_outputs_seen": false
+}

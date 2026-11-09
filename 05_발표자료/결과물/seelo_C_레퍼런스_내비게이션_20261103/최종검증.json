@@ -1,0 +1,1005 @@
+{
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "620:46",
+    "620:47",
+    "620:48",
+    "620:49",
+    "620:50",
+    "620:51",
+    "620:52",
+    "620:53",
+    "620:54",
+    "620:55",
+    "620:56",
+    "620:57",
+    "620:58",
+    "620:59",
+    "620:60",
+    "620:61",
+    "620:62",
+    "620:63",
+    "620:64",
+    "620:65",
+    "620:126",
+    "620:127",
+    "620:128",
+    "620:129",
+    "620:130",
+    "620:131",
+    "620:132",
+    "620:133",
+    "620:134",
+    "620:135",
+    "620:136",
+    "620:137",
+    "620:138",
+    "620:139",
+    "620:140",
+    "620:141",
+    "620:142",
+    "620:143",
+    "620:144",
+    "620:145",
+    "620:180",
+    "620:181",
+    "620:182",
+    "620:183",
+    "620:184",
+    "620:185",
+    "620:186",
+    "620:187",
+    "620:188",
+    "620:189",
+    "620:190",
+    "620:191",
+    "620:192",
+    "620:193",
+    "620:194",
+    "620:195",
+    "620:196",
+    "620:197",
+    "620:198",
+    "620:199",
+    "620:319",
+    "620:320",
+    "620:321",
+    "620:322",
+    "620:323",
+    "620:324",
+    "620:325",
+    "620:326",
+    "620:327",
+    "620:328",
+    "620:329",
+    "620:330",
+    "620:331",
+    "620:332",
+    "620:333",
+    "620:334",
+    "620:335",
+    "620:336",
+    "620:337",
+    "620:338",
+    "620:373",
+    "620:374",
+    "620:375",
+    "620:376",
+    "620:377",
+    "620:378",
+    "620:379",
+    "620:380",
+    "620:381",
+    "620:382",
+    "620:383",
+    "620:384",
+    "620:385",
+    "620:386",
+    "620:387",
+    "620:388",
+    "620:389",
+    "620:390",
+    "620:391",
+    "620:392",
+    "620:456",
+    "620:457",
+    "620:458",
+    "620:459",
+    "620:460",
+    "620:461",
+    "620:462",
+    "620:463",
+    "620:464",
+    "620:465",
+    "620:466",
+    "620:467",
+    "620:468",
+    "620:469",
+    "620:470",
+    "620:471",
+    "620:472",
+    "620:473",
+    "620:474",
+    "620:475",
+    "620:483",
+    "620:484",
+    "620:485",
+    "620:486",
+    "620:487",
+    "620:488",
+    "620:489",
+    "620:490",
+    "620:491",
+    "620:492",
+    "620:493",
+    "620:494",
+    "620:495",
+    "620:496",
+    "620:497",
+    "620:498",
+    "620:499",
+    "620:500",
+    "620:501",
+    "620:502",
+    "620:763",
+    "620:764",
+    "620:765",
+    "620:766",
+    "620:767",
+    "620:768",
+    "620:769",
+    "620:770",
+    "620:771",
+    "620:772",
+    "620:773",
+    "620:774",
+    "620:775",
+    "620:776",
+    "620:777",
+    "620:778",
+    "620:779",
+    "620:780",
+    "620:781",
+    "620:782",
+    "620:835",
+    "620:836",
+    "620:837",
+    "620:838",
+    "620:839",
+    "620:840",
+    "620:841",
+    "620:842",
+    "620:843",
+    "620:844",
+    "620:845",
+    "620:846",
+    "620:847",
+    "620:848",
+    "620:849",
+    "620:850",
+    "620:851",
+    "620:852",
+    "620:853",
+    "620:854"
+  ],
+  "checks": [
+    {
+      "id": "620:12",
+      "navId": "620:46",
+      "bodyHash": "1b15483f",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 서비스 소개"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:47",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:49",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:51",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:53",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:55",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:57",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:59",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:61",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:63",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:65",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:67",
+      "navId": "620:126",
+      "bodyHash": "52b3fb7b",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 문제 정의"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:127",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:129",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:131",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:133",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:135",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:137",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:139",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:141",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:143",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:145",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:146",
+      "navId": "620:180",
+      "bodyHash": "569896cd",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 인사이트"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:181",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:183",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:185",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:187",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:189",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:191",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:193",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:195",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:197",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:199",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:200",
+      "navId": "620:319",
+      "bodyHash": "c471ecce",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 핵심 기능"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:320",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:322",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:324",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:326",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:328",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:330",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:332",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:334",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:336",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:338",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:339",
+      "navId": "620:373",
+      "bodyHash": "ef4d8af9",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 개발 범위"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:374",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:376",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:378",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:380",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:382",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:384",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:386",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:388",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:390",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:392",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:393",
+      "navId": "620:456",
+      "bodyHash": "62253fc9",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 시스템 구조"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:457",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:459",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:461",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:463",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:465",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:467",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:469",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:471",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:473",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:475",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:479",
+      "navId": "620:483",
+      "bodyHash": "eb71a110",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 화면 설계"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:484",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:486",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:488",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:490",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:492",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:494",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:496",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:498",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:500",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:502",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:759",
+      "navId": "620:763",
+      "bodyHash": "526bb7bb",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 데이터 설계"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:764",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:766",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:768",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:770",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:772",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:774",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:776",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:778",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:780",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:782",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": "620:831",
+      "navId": "620:835",
+      "bodyHash": "1f7e30a4",
+      "bodyPreserved": true,
+      "reactions": 0,
+      "overflow": [],
+      "current": [
+        "내비게이션 / 개발 계획"
+      ],
+      "autoLayout": [],
+      "typeCounts": {
+        "FRAME": 10,
+        "RECTANGLE": 2,
+        "TEXT": 10
+      },
+      "fonts": [
+        {
+          "id": "620:836",
+          "family": "Pacifico",
+          "style": "Regular",
+          "size": 40,
+          "missing": false
+        },
+        {
+          "id": "620:838",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:840",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:842",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:844",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:846",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:848",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:850",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:852",
+          "family": "IBM Plex Sans KR",
+          "style": "Medium",
+          "size": 24,
+          "missing": false
+        },
+        {
+          "id": "620:854",
+          "family": "IBM Plex Sans KR",
+          "style": "SemiBold",
+          "size": 24,
+          "missing": false
+        }
+      ]
+    }
+  ],
+  "refs": [
+    {
+      "id": "562:189",
+      "hash": "983d7cf6",
+      "preserved": true
+    },
+    {
+      "id": "613:53",
+      "hash": "f1d8fafa",
+      "preserved": true
+    },
+    {
+      "id": "613:926",
+      "hash": "9b4180e3",
+      "preserved": true
+    }
+  ]
+}

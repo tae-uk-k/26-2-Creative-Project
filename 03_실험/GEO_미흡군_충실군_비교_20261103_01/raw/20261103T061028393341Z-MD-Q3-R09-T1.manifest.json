@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261103T061028393341Z-MD-Q3-R09-T1",
+  "cell_id": "MD-Q3-R09",
+  "started_at": "2026-11-03T06:10:28.394609+00:00",
+  "ended_at": "2026-11-03T06:11:58.539104+00:00",
+  "process_status": "process_completed_requires_audit",
+  "returncode": 0,
+  "raw_path": "raw\\20261103T061028393341Z-MD-Q3-R09-T1.jsonl",
+  "stderr_path": "raw\\20261103T061028393341Z-MD-Q3-R09-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "명동에서 대표 메뉴를 먹어볼 만한 식당 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마.",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261103T061028393341Z-MD-Q3-R09-T1",
+  "readiness_only": false,
+  "raw_sha256": "c39b3dbb4f3d9679ab0aac5d343e6b2a105e4bfbd0247bbdea1b308fb4a49e76",
+  "stderr_sha256": "8a7bdb8beaf0474c2777b1623279f2a8145f13e45c0780fd567047aef3606985"
+}

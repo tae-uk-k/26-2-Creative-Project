@@ -1,0 +1,49 @@
+[
+  {
+    "store_id": "MD-453813079",
+    "score_total": null,
+    "unknown_items": [
+      2
+    ],
+    "group": null,
+    "selected": false
+  },
+  {
+    "store_id": "MW-1181461605",
+    "score_total": null,
+    "unknown_items": [
+      1,
+      2
+    ],
+    "group": null,
+    "selected": false
+  },
+  {
+    "store_id": "MW-1355498173",
+    "score_total": null,
+    "unknown_items": [
+      2
+    ],
+    "group": null,
+    "selected": false
+  },
+  {
+    "store_id": "SS-487665317",
+    "score_total": null,
+    "unknown_items": [
+      2,
+      3
+    ],
+    "group": null,
+    "selected": false
+  },
+  {
+    "store_id": "SS-623393395",
+    "score_total": null,
+    "unknown_items": [
+      2
+    ],
+    "group": null,
+    "selected": false
+  }
+]

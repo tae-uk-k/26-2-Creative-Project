@@ -1,0 +1,13 @@
+﻿area_id,question_id,attempts,generated_responses,usage_limit_failures,map_requirement_failures,valid_responses,appearance_pct
+MD,Q1,10,0,10,0,0,
+MD,Q2,10,3,7,3,0,
+MD,Q3,10,4,6,4,0,
+MD,ALL,30,7,23,7,0,
+SS,Q1,10,1,9,1,0,
+SS,Q2,10,3,7,3,0,
+SS,Q3,10,1,9,1,0,
+SS,ALL,30,5,25,5,0,
+MW,Q1,10,1,9,1,0,
+MW,Q2,10,2,8,2,0,
+MW,Q3,10,0,10,0,0,
+MW,ALL,30,3,27,3,0,

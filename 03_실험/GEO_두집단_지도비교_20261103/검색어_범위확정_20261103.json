@@ -1,0 +1,11 @@
+{
+  "date_kst": "2026-11-03",
+  "stage": "before any GEO scoring, group matching, or study recommendation call",
+  "preliminary_queries": ["명동 음식점", "성수 음식점", "망원 음식점"],
+  "observed_issue": "Google Maps returned no place-search results for the ambiguous preliminary phrase 망원 음식점. Preliminary results in other regions also centered differently by platform.",
+  "formal_queries": {"MD": "서울 명동 음식점", "SS": "서울 성수동 음식점", "MW": "서울 망원동 음식점"},
+  "decision": "Use explicit Seoul and dong names consistently on both maps. Preserve all preliminary captures and exclude them from formal baseline rank tables. All non-query sampling, scoring, and matching rules remain unchanged.",
+  "revisions_based_on_AI_recommendations": false,
+  "recommendation_runs_started": 0,
+  "GEO_scores_assigned": 0
+}

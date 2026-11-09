@@ -1,0 +1,14 @@
+{
+  "attempt_id": "20261103T061601969721Z-SS-Q3-R07-T1",
+  "cell_id": "SS-Q3-R07",
+  "status": "failure",
+  "reason": "usage_limit: CLI 원문에 사용량 한도 초과 error 및 turn.failed. 추천 응답 없음.",
+  "map_access_kakao": "not_verified",
+  "map_access_google": "not_verified",
+  "source_body_verified": "false",
+  "local_file_access": "false",
+  "reviewed_by": "assistant_manual_review_20261103",
+  "evidence": "analysis\\실측_검수자료_20261103_01\\20261103T061601969721Z-SS-Q3-R07-T1.audit.json",
+  "failure_subtype": "usage_limit",
+  "reviewed_at_utc": "2026-11-03T11:37:09.092897+00:00"
+}

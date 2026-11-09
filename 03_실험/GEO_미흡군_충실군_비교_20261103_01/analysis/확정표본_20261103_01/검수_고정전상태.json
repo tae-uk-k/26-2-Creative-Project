@@ -1,0 +1,20 @@
+{
+  "target_pairs": 12,
+  "actual_pairs": 1,
+  "target_stores": 24,
+  "actual_stores": 2,
+  "pairs_by_area": {
+    "MD": 0,
+    "SS": 1,
+    "MW": 0
+  },
+  "scope_complete": false,
+  "actual_recommendation_attempts_before_selection": 0,
+  "scores_finalized_before_outcomes": true,
+  "selected_stores": [
+    "SS-465733251",
+    "SS-487665317"
+  ],
+  "native_frame_version": "지역확대_v11_성수스크롤복구",
+  "note": "목표 표본 미달. 미검수 후보가 남아 있으므로 지역 내 적합한 매장이 존재하지 않는다고 결론내리지 않음. 명동·망원 응답은 실행되더라도 집단비교 분모로 사용하지 않음."
+}

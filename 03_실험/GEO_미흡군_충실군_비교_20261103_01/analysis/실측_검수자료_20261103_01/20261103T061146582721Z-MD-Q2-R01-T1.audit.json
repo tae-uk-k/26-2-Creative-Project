@@ -1,0 +1,1455 @@
+{
+  "attempt_id": "20261103T061146582721Z-MD-Q2-R01-T1",
+  "cell_id": "MD-Q2-R01",
+  "raw_sha256": "2285b7c683c08df4e4a7dd6a73b9ab250aceec569d3620c7b25653f5e691ef91",
+  "process_status": "process_completed_requires_audit",
+  "returncode": 0,
+  "started_at": "2026-11-03T06:11:46.582721+00:00",
+  "ended_at": "2026-11-03T06:13:23.121861+00:00",
+  "thread_ids": [
+    "01a1a008-fff7-7551-b557-0691305f369d"
+  ],
+  "invalid_json_lines": [],
+  "provider_errors": [],
+  "forbidden_tool_items": [],
+  "search_event_count": 8,
+  "tool_actions": [
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action": {
+        "type": "search",
+        "queries": [
+          "명동교자 본점 카카오맵 구글 지도 메뉴 가격",
+          "명동 음식점 카카오맵 명동교자 하동관 미성옥 목멱산방 왕비집"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site.place.map.kakao.com 명동교자 본점",
+          "site.google.com/maps 명동교자",
+          "site.place.map.kakao.com 하동관 명동",
+          "site.google.com/maps 명동 미성옥"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action": {
+        "type": "open_page",
+        "url": "https://map.kakao.com/?q=명동교자"
+      },
+      "request_map": "kakao"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action": {
+        "type": "other"
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action": {
+        "type": "search",
+        "queries": [
+          "하동관 명동본점 공식 메뉴 가격 주소",
+          "백제삼계탕 명동 공식 메뉴 가격 주소",
+          "멘텐 명동 탄탄멘 가격 주소",
+          "명동교자 공식 매장 안내 본점 신관 퇴계로 129"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"백제삼계탕\" \"명동\" \"20,000\"",
+          "\"하동관\" \"명동9길 12\"",
+          "\"명동교자\" \"mdkj\"",
+          "\"백제삼계탕\" \"명동8길 8-10\""
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a"
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site.tabling.co.kr/place/677cd90566de5f0698958daa 명동교자",
+          "site.md.kj 명동교자",
+          "명동교자 신관 퇴계로 129 12000"
+        ]
+      },
+      "request_map": ""
+    }
+  ],
+  "source_events": [
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://issuechaza.tistory.com/86?category=1277385",
+      "ref_id": "turn0search0",
+      "title": "명동교자 본점 주소·메뉴 가격｜명동역에서 찾기와 2인 주문 가이드",
+      "snippet": "가격은 확인일의 테이블링 명동교자 신관 메뉴 안내를 참고했고, 합계는 해당 단가로 계산했습니다. 지도와 플랫폼의 지점 이름이 다르게 남아 있으므로 최종 주문은 방문 매장의 메뉴판·직원 안내가",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://fliphtml5.com/gyjfg/ssim/%EC%83%9D%ED%99%9C%EC%82%AC_%EC%8B%9D%EC%83%9D%ED%99%9C%28Fn%29_%EB%82%B1_e-book/91/",
+      "ref_id": "turn0search1",
+      "title": "생활사_식생활(Fn) 낱_e-book (Page 91) - Flipbook by Designintro | FlipHTML5",
+      "snippet": "명동교자 홈페이지(http:// ... ② 주요메뉴 및 가격 ... 되어, 현재 명동교자 본점과 분점, 이태원점을 휘 ... 입구에 게시된 명동교자 메뉴 명동교자 메뉴판의 내용 (2022년 7월",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://mynote6104712.tistory.com/?page=2",
+      "ref_id": "turn0search2",
+      "title": "오늘 어디서 먹지?",
+      "snippet": "이 글은 ‘우래옥, 평양냉면 1만8천원과 라스트오더 확인하기’를 알아볼 때 필요한 내용을 현재 지도 정보에서 주소·마지막 주문·대표 메뉴 가격을 확인하는 방문 전 안내의 관점에서 실제 확인",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://world-myth.tistory.com/66",
+      "ref_id": "turn0search3",
+      "title": "명동교자 본점 메뉴 맛집 칼국수 가격 만두 비빔국수 김치 먹어본 후기 (오후 3시인데도 웨이팅)",
+      "snippet": "## 명동교자 메뉴 칼국수 가격 입구 쪽에 키오스크가 있습니다. ... ### 명동교자 메뉴의 가격은 다음과 같습니다. ... 본점과 분점이 있는데, 네이버 지도를 통해서 보게 되면",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://spamricham.tistory.com/39",
+      "ref_id": "turn0search4",
+      "title": "명동 명동교자 본점 칼국수 비빔국수 만두 맛집 웨이팅 메뉴 가격",
+      "snippet": "칼국수만큼이나 유명한 만두는 동글동글하니 귀여운 모양으로 판에 담겨 나왔더군요. ... 맵고 자극적이지만 진한 칼국수 국물과 만났을 때 보여주는 궁합은 정말 독보적이라고 말할 수 있답니다. ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.menupan.com/Restaurant/GoodRest/GoodRest_View.asp?ID=182387",
+      "ref_id": "turn0search5",
+      "title": "명동교자 본점 / 이것이 빕구르망 칼국수인가 - 명동 지역 추천맛집 명동교자 후기",
+      "snippet": "​​​명동교자 본점 미슐랭 빕구르망 칼국수​​​​사실 제대로 먹어본 적이 없는 명동 맛집 명동교자 초심을 잃었다고는 들었었지만 난 애초에 기대치가 없어 편하게 방문했었음​​​​​Image​​​​​명동에만 2군데가 있음 본점과 분점이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://hanbre.tistory.com/entry/%EC%84%9C%EC%9A%B8-3%EB%8C%80-%EC%B9%BC%EA%B5%AD%EC%88%98-%EB%A7%9B%EC%A7%91-%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90-%EC%9E%84%EB%B3%91%EC%A3%BC%EC%82%B0%EB%8F%99%EC%B9%BC%EA%B5%AD%EC%88%98-%EC%B0%AC%EC%96%91%EC%A7%91-%EA%B0%80%EA%B2%A9-%ED%9B%84%EA%B8%B0-%EB%A7%9B-%EB%B9%84%EA%B5%90",
+      "ref_id": "turn0search6",
+      "title": "서울 3대 칼국수 맛집 명동교자 임병주산동칼국수 찬양집 가격 후기 맛 비교",
+      "snippet": "방문 전 최신 영업시간과 휴무일, 메뉴 가격, 주차 정보를 확인하는 것이 좋습니다. ... 세 곳 모두 과거 미쉐린 빕 구르망 선정 이력이 확인됩니다. ... ###",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://enjoyholic.tistory.com/6010",
+      "ref_id": "turn0search7",
+      "title": "런닝맨 노포기록 김종국 하하 이광수 보미 남주 1966년 명동칼국수 명동만두 교자 - 서울 중구 명동2가 명동교자 본점 위치 및 주소 메뉴 가격 :: EnjoyHolic story...",
+      "snippet": "## 런닝맨 노포기록 김종국 하하 이광수 보미 남주 1966년 명동칼국수 명동만두 교자 - 서울 중구 명동2가 명동교자 본점 위치 및 주소 메뉴 가격",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://topicofdaily.tistory.com/category/%EB%A7%9B%EC%A7%91?page=12",
+      "ref_id": "turn0search8",
+      "title": "'맛집' 카테고리의 글 목록 (12 Page)",
+      "snippet": "명동맛집 - 미쉐린가이드 맛집 명동교자 분점 (위치, 전화번호, 영업시간, 메뉴, 가격, 후기) 1966년 서울 중구 수하동에 창업하여, 지금까지도 많은 사랑을 받고 있는 명동교자는 명동의 명물이자",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://yejinglog.tistory.com/?page=6",
+      "ref_id": "turn0search9",
+      "title": "옞로그",
+      "snippet": "⇦ 페이브 카페 사이트 페이브 카페 광주 오포점에 방문 했어요◡̈ 주말에 점심식사 후 2시 전에 방문했는데 그 시간엔 손님이 많지 않았는데 3시쯤 되니 손님들이 꽤",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://mystory91111.blogspot.com/2026/06/5_0922748185.html",
+      "ref_id": "turn0search10",
+      "title": "서울 명동 맛집 베스트 5: 실패 없는 현지인 추천 투어와 솔직 후기",
+      "snippet": "명동은 유동 인구가 많은 만큼 광고성 글이나 뜨내기 손님을 타깃으로 하는 곳이 많아 실패하기 쉬운 지역이기도 한데요. ... 명동교자 본점: 명동의 자존심, 진한 고기 국물의",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://illustkorea.or.kr/data/file/IL_PDS/1949101453_3ms0AN6e_45b55ddb9991ff173924dcf1bd77e79307deee3c.pdf",
+      "ref_id": "turn0search12",
+      "title": "Journal of The Korean Society of Illustration Research Vol.61",
+      "snippet": "마지막으로 웹 페이지 디자인에서 참고할 사항에 대하여 기타에 작성하였다. ... 첫째, 지도 이외에 사용된 주요 색채는 정적인 것보다 동적으로 느껴지는 색채 위주로 사용되었고, 부드러운 색보다는",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://fmr.purpleo.co.kr/view/4424",
+      "ref_id": "turn0search11",
+      "title": "명동손칼국수 | 전국 모범음식점 지도",
+      "snippet": "Image: 명동손칼국수 VWorld 지도 이미지 ... 서울특별시 강남구 학동로101길 33 (청담동,(1층6호)) ... 빠르게 식사하고 싶다면, 명동교자 분점 이용도 추천드립니다. 여기까지 서울 명동 필수 맛집｜명동교자 본점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://file.kbland.kr/image/kbstar/land/pdf/datahub_guide_202307.pdf",
+      "ref_id": "turn0search13",
+      "title": "PowerPoint 프레젠테이션",
+      "snippet": "왼쪽에는 전국 아파트 매매 가격지수 목록과 지도, 가운데에는 대한민국 지도 위에 지역별 색상 분포와 수치 말풍선이 표시되어 있으며, 오른쪽에는 확대/축소 및 도구 버튼이 세로로 배치되어",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=FH-HmXkzGWw",
+      "ref_id": "turn0youtube14",
+      "title": "British Rappers shocked by Crazy Korean night market! - YouTube",
+      "snippet": "오늘은 영국 래퍼들과 서울에 오면 빠질 수 없는 명동으로 갔습니다! ... 영상에서 방문한 명동 HBAF 매장의 위치가 궁금하신 분들은 아래 링크를 확인해주세요. ... '오리지널비어컴퍼니 삼성점'에서",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://file.mk.co.kr/imss/write/20190326113426__00.pdf",
+      "ref_id": "turn0search15",
+      "title": "인터넷 산업\n\n4. 지도/내비게이션: AI(인공지능) 결합 강화\n\n글로벌 지도 시장은 구글",
+      "snippet": "구글지도는 국내에서도 가장 많은 이용자(877만명)을 확보하고 있는 선두주자다. ... 구글 지도를 제외하고 국내 지도 서비스 중에서는 T맵과 네이버지도, 카카오맵이 3파전을 벌이고 있다. T맵은 AI 및",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=RwdFrFBE0Vc",
+      "ref_id": "turn0youtube16",
+      "title": "비난쪽지로 뒤덮인 음식점…본사는 영업중단 조치/ 연합뉴스 (Yonhapnews) - YouTube",
+      "snippet": "# 비난쪽지로 뒤덮인 음식점... ... 대전 교사 사망 이후로 온라인커뮤니티에서 해당 음식점을 비롯해 가해 학부모들이 운영한다고 알려진 사업장 두 곳의 정보가 공유돼 불매 움직임이 일었습니다.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.codil.or.kr/filebank/original/RK/OTKCRK220001/OTKCRK220001.pdf",
+      "ref_id": "turn0search17",
+      "title": "스토어뷰가 있을 시, 스토어뷰 에어태그가 로드뷰에 연동되어 나타나며 실내사진을 비롯해 음식점의 메뉴, 가격 등의 정보가 제공됨",
+      "snippet": "스토어뷰가 있을 시, 스토어뷰 에어태그가 로드뷰에 연동되어 나타나며 실내사진을 비롯해 음식점의 메뉴, 가격 등의 정보가 제공됨 ... 카카오맵 스토어뷰 화면 캡처. 실내 매장 사진 위에",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://pncc.pusan.ac.kr/bbs/pncc/12024/963974/download.do",
+      "ref_id": "turn0search18",
+      "title": "종종 최초 또는 그에 상응하는 대표성이 있는 것 등”으로 기준을 정하고 고려삼계탕, 마포옥, 명동교자 본점, 성북동 국시집 등 54건이 선정되어 있다.31) 부산 미래유산으로 음식은 2021년을 제외하고 매년 선정되었는데, 돼지국밥/밀면(2019), 동래파전/낙농장 재첩국(2020), 구포국수/금장어 구이(2022), 고갈비/초량돼지갈비골목(2023), 대저토마토/조내기고구마(2024) 등이다. 특히 초반의 돼지국밥, 밀면은 부산을 체험하는 대표적인 음식으로 부산 관광경로 안에서 ‘향수’와 결합하여 부산지역 밖에서 부산과 더 밀접하게 연결되어 있다. 이때 ‘관광화된 음식기호’ 안에서 지역적 맥락이나 역사적 배경을 어떻게 미래화할 것인가는 과제로 남는다. 이는 음식에만 국한되는 것이 아니라, 골목, 시장, 길, 해수욕장 등 관광화된 장소들이 맞닥뜨리는 공통의 과제이다. 아스만에 의하면 저장기억은 “쓰여지지 않은 기회의 다양한 목록32)이라고 했다. 개인의 노동과 경험이 누적된 시장, 거리, 먹거리들 안에서 공식기억 바깥의 다양한 사적기억들을 복원하고, 이들이 교차하면서 ‘부산다움’을 조정해 나간다. 이런 의미에서 더 사적이고 미시적인 서사들을 발굴하고 전시하는 작업이 진행되어야 한다.",
+      "snippet": "종종 최초 또는 그에 상응하는 대표성이 있는 것 등”으로 기준을 정하고 고려삼계탕, 마포옥, 명동교자 본점, 성북동 국시집 등 54건이 선정되어 있다.31) 부산 미래유산으로 음식은 2021년을",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://t1.daumcdn.net/kakaoadplus/version4/editor/file-1550035702289",
+      "ref_id": "turn0search19",
+      "title": "충전소_광고가이드_201803",
+      "snippet": "카카오톡 충전소 광고 가이드",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_curzerilta/comments/xuw90f",
+      "ref_id": "turn0reddit20",
+      "title": "수색음식점 유투브↙BCGAME2.COM№ 여주 음식점 트위터 홍천 음식점 접속",
+      "snippet": "COM№ 묘동 음식점 방송 명동 음식점 링크 \\[본사문의 텔레 u/JBOX7\\]사당 음식점 유투브 예관 음식점 카카오톡 수색음식점 \\[총판문의 카톡 JBOX7\\]수표 음식점 커뮤니티 경주 음식점 트위터 수색음식점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_pestuzikno/comments/xwsvyd",
+      "ref_id": "turn0reddit21",
+      "title": "가산음식점 하는곳○BCGAME2.COM◀ 예산 음식점 인스타그램 인천 음식점 링크",
+      "snippet": "COM↑ 명동 음식점 방송 청담 음식점 동호회 \\[본사문의 텔레 u/JBOX7\\]일원 음식점 라인 김천 음식점 이야기 가산음식점 \\[총판문의 카톡 JBOX7\\]군산 음식점 업소모집 상주 음식점 트위터 가산음식점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_Commercial-Garage465/comments/z1pxfh",
+      "ref_id": "turn0reddit22",
+      "title": "강북음식점 여행▽BCGAME5.COM▦ 여수 음식점 사이트 장사 음식점 동호회",
+      "snippet": "COM♬ 내곡 음식점 리조트 명동 음식점 텔레그램 \\[본사문의 텔레 JBOX7\\]삼성 음식점 스토리 관훈 음식점 주소 강북음식점 \\[총판문의 카톡 JBOX7\\]도화 음식점 영상 도렴 음식점 업소모집 강북음식점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_OkCoat5031/comments/xvwoe9",
+      "ref_id": "turn0reddit23",
+      "title": "목동음식점 영상→BCGAME77.COM○ 신교 음식점 지도 서소문 음식점 라인",
+      "snippet": "COM‡ 의주 음식점 라인 돈의 음식점 업소모집 \\[본사문의 텔레 JBOX7\\]적선 음식점 위치 의정부 음식점 방송 목동음식점 \\[총판문의 카톡 JBOX7\\]창동 음식점 업소모집 김포 음식점 링크 목동음식점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/seoulhiddengem/comments/1qatei2/myeongdongs_best_restaurant/",
+      "ref_id": "turn0reddit24",
+      "title": "Myeongdong’s Best Restaurant",
+      "snippet": "하동관",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-97cf2aa6-82e6-4428-aa31-13e03cb7e0f2",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_pestuzikno/comments/xxbl6g",
+      "ref_id": "turn0reddit25",
+      "title": "의왕음식점 여행♠BCGAME2.COM▨ 권농 음식점 추천 천왕 음식점 투어",
+      "snippet": "COM↙ 토정 음식점 야동 명동 음식점 총판 \\[본사문의 텔레 u/JBOX7\\]인천 음식점 커뮤니티 안양 음식점 링크 의왕음식점 \\[총판문의 카톡 JBOX7\\]남대문 음식점 라인 수원 음식점 카카오톡 의왕음식점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gajagoapp.com/place/287/%EB%8D%94%EB%93%A4%EB%A6%AC-%EB%B0%9C%EA%B2%AC-%EC%A4%91%EA%B5%AC-%EB%A7%9B%EC%A7%91-%EB%AF%B8%EC%84%B1%EC%98%A5",
+      "ref_id": "turn1search0",
+      "title": "명동 맛집 미성옥 — 더들리 방문 | 가자고",
+      "snippet": "서울 중구 명동길 25-11 ... 명동 맛집 미성옥이 나온 장면이에요. ... 또갈집 8곳더들리 · 2026.07.06이 편의 다른 식당 › ... 수육에 지방이 있어 부드럽고 살맛이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://food.stolencheese.com/ko-KR/restaurants/%EB%AF%B8%EC%84%B1%EC%98%A5-692dae6e8028635dbf0b9d2c",
+      "ref_id": "turn1search1",
+      "title": "미성옥 | fooding | fooding 푸딩",
+      "snippet": "Google 지도 네이버 지도 ... * 미성옥 서울 중구 을지로입구역, 명동 거리에 위치한 이 식당은 1966년부터 영업을 시작한 설렁탕 맛집입니다. ... 이곳의 대표 메뉴는 단연",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tel-co.net/food/spot/6713",
+      "ref_id": "turn1search2",
+      "title": "미성옥 | 여행의기술",
+      "snippet": "# 미성옥 ... ### Image 장점 ... * 수육이 부드럽고 잡내 없이 고소해요. ... * 아침 일찍부터 영업해 조식으로 가기 좋아요. ... 서울 중구 명동길",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://koreatravelatlas.com/seoul/myeongdong/",
+      "ref_id": "turn1search3",
+      "title": "Myeongdong Guide: Shopping, Street Food and Getting There",
+      "snippet": "서울 중구 명동8길 27 일대 Naver Map Google Maps",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://apis.map.kakao.com/web/guide/",
+      "ref_id": "turn1search4",
+      "title": "Kakao 지도 Web API 가이드",
+      "snippet": "※ `{이동수단}` : 자동차(‘car’), 대중교통(‘traffic’), 도보(‘walk’), 자전거(‘bicycle’) ... /link/from/`이름`,`위도`,`경도`/to/`이름`,`위도`,`경도` | https://map.kakao.com/link/from/에이치스퀘어,37.402056,127.108212/to/카카오판교아지트,37.395296",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://annyeongkit.pages.dev/myeongdong-food-shopping-map/",
+      "ref_id": "turn1search5",
+      "title": "Myeongdong Food & Shopping Map 2026 — 21 Places, Prices, Hours",
+      "snippet": "Google Maps Naver Map ... 이삭토스트 서울명동점 ... Korea’s biggest fashion platform in store form — dozens of Korean street-wear brands. ... 명동대성당 ... 남산케이블카",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://moamchacha.com/hadong",
+      "ref_id": "turn1search6",
+      "title": "하동 가볼 만한 곳 · 주인장 추천 맛집 | 모암차차 스테이",
+      "snippet": "단순한 잠자리를 넘어 머무름 자체가 여행이 되는 촌캉스와 힐링 숙소 15곳입니다. ... 하동군 악양면 정동상신길 14-3 ... TIP · 대한민국 식품명인 제91호 황인수 명인의 작설차",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://devtalk.kakao.com/t/api/116441",
+      "ref_id": "turn1search7",
+      "title": "카카오 지도 api 문의 드립니다 - 카카오맵 API (지도/로컬) - 카카오 데브톡",
+      "snippet": "https://place.map.kakao.com/main/v/{id} ... 자세한 장소 정보는 place_url를 이용해서 상세 페이지로 이동 시켜 주세요.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://storage.googleapis.com/ch-aide-public/slack/%5BC%26W%5D%20%EC%95%8C%EB%8D%98%EB%8F%99%EB%84%A4%2C%20%EB%8B%A4%EB%A5%B8%20%EB%8F%99%EB%84%A4%20SE2_%EB%AA%85%EB%8F%99%ED%8E%B8_AIDE241021.pdf",
+      "ref_id": "turn1search12",
+      "title": "1. General / 권역의 설정",
+      "snippet": "Large district map of Myeongdong with a pink shaded boundary and labeled retail/hotel landmarks. ... Labeled places include 하이디라오, 호텔스카이파크센트럴, 몰또 에스프레소바, 명동성당, Apple 명동,",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.haniseoul.com/ko/korea/cities/hadong/map",
+      "ref_id": "turn1search8",
+      "title": "하동 여행 지도 | HaniSeoul",
+      "snippet": "하동의 주요 장소를 인터랙티브 지도에서 확인하세요. ... 경상남도shopping 하동 화개장터 경상남도 하동군 화개면 쌍계로 15 상세 정보 보기 → 경상남도attraction 플라이웨이 케이블카 경상남도 하동군 금남면",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://archive.ph/m.map.kakao.com",
+      "ref_id": "turn1search9",
+      "title": "m.map.kakao.com: 카카오맵",
+      "snippet": "* m.map.kakao.com for all snapshots from the host ... q=서울&tab=place",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kakaomap-find.g.dop.kr/",
+      "ref_id": "turn1search10",
+      "title": "다음지도 검색",
+      "snippet": "예를 들어 음식점 이름만 입력했을 때 여러 지역의 매장이 함께 나온다면 `강남역 + 음식점명`, `부산 + 카페명`처럼 지역을 추가하는 방식이 편합니다. ... 카카오맵 관련 지도",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://moggo.co.kr/myeongdong/",
+      "ref_id": "turn1search11",
+      "title": "명동 주변 음식점·카페 찾기 | 동네 지도와 가게 목록 — 모꼬 MOGGO",
+      "snippet": "남산동3가동네 전체 지도 →남산동2가동네 전체 지도 →충무로2가동네 전체 지도 →남산동1가동네 전체 지도 →충무로1가동네 전체 지도 →명동2가동네 전체 지도 →회현동3가동네 전체 지도 →예장동동네 전체 지도 →주자동동네",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/koreatravel/comments/w06duh/any_good_places_for_black_pork_bbq_in_jeju/",
+      "ref_id": "turn1reddit13",
+      "title": "Any good places for black pork bbq in Jeju?",
+      "snippet": "[KakaoMap] 명리동식당 본점 ... Copy and paste the Korean name onto kakao map.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.geumjeong.go.kr/download/tour/hoidong_food_map.pdf",
+      "ref_id": "turn1search14",
+      "title": "금정 회동호 맛집 클래스",
+      "snippet": "- 오륜동회관 / Oryundong Hall ... - 땅뫼산 황토숲길 / Ttangmoesan Mountain Red Clay Forest Trail Map ... 서울집(Seouljip) — 오륜대로 249-1 | 249-1 Oryundaero",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.junggu.seoul.kr/chief/file/estimation_2024_3.pdf",
+      "ref_id": "turn1search15",
+      "title": "불임  위치도 및 조감도",
+      "snippet": "파란색 노선으로 4호선이 표시되어 있으며 왼쪽에 “회현역(4호선)”, 오른쪽에 “명동역(4호선)”이 보인다. 지도 내 주요 표기: “남대문시장”, “신세계 백화점”, “신세계 면세점”, “퇴계로”, “회현 사거리”, “우리은행(본점)(24층)”, “SK리더스뷰(30층)”, 빨간",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://t1.daumcdn.net/cafeattach/iLcz/62af34dd959911fd9ae2e7fec487f03bf83c3d2d",
+      "ref_id": "turn1search16",
+      "title": "2020. 11. 17.",
+      "snippet": "https://www.google.com/maps/@2.2150094,102.151813,17z?",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://visitgangnam.net/downloads/2026-gangnam-map-kr.pdf",
+      "ref_id": "turn1search17",
+      "title": "강남관광안내지도_최종",
+      "snippet": "공연, 전시, 체험 프로그램 등 유네스코 세계유산인 조선왕릉을 국내외에 알리기 위한 문화 행사 ... 샤넬, 구찌 등 글로벌 명품 브랜드의 플래그십 스토어가 모여 있는 거리",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.lge.co.kr/upload/PDF/WWZ/26815/1211011135_F180L_UG_V1.0_121101_web.pdf",
+      "ref_id": "turn1search18",
+      "title": "지도\n\nGoogle 지도에서 위치를 검색하거나, 지역 정보, 내 위치를 확인할 수 있습니다",
+      "snippet": "· 내 장소 : 상단에 지도를 선택한 뒤 내 장소에서 별표 표시된 장소/최근장소를 확인할 수 있습니다. ... · 한국은 Google 지도 내비게이션을 사용할 수 없는",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/seoulhiddengem/comments/1viwygi/do_you_know_this_place_in_seoul/",
+      "ref_id": "turn1reddit19",
+      "title": "Do you know this place in Seoul?",
+      "snippet": "대박! ... 이 댓글 작성자한테 DM하면 찾을 수 있어요! ... My best guess is somewhere around 명동 회현 area leading up towards 남산 ... 뭐냐",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7e8736dc-58ca-4a74-a557-2e0024ac0d96",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.reddit.com/r/u_shikhquran3/comments/ibb5g0",
+      "ref_id": "turn1reddit20",
+      "title": "명동교자 분점",
+      "snippet": "<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->https://www.islaminkorea.net/ko/명동교자-분점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "",
+      "ref_id": "turn2view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "",
+      "ref_id": "turn2view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "https://issuechaza.tistory.com/86?category=1277385",
+      "ref_id": "turn2view2",
+      "title": "명동교자 본점 주소·메뉴 가격｜명동역에서 찾기와 2인 주문 가이드",
+      "snippet": "Total lines: 197",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "https://annyeongkit.pages.dev/myeongdong-food-shopping-map/",
+      "ref_id": "turn2view3",
+      "title": "Myeongdong Food & Shopping Map 2026 — 21 Places, Prices, Hours",
+      "snippet": "Total lines: 349",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "https://www.google.com/maps/search/?api=1&query=%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90+%EB%B3%B8%EC%A0%90&query_place_id=ChIJW7FBDfCifDURHTpisLbVUH0",
+      "ref_id": "turn3view0",
+      "title": "www.google.com",
+      "snippet": "Total lines: 5",
+      "result_map": "google",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn3view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EB%8F%99%EA%B4%80+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90&query_place_id=ChIJvZjTMWC9fDURxnT8dx21N3U",
+      "ref_id": "turn3view2",
+      "title": "www.google.com",
+      "snippet": "Total lines: 5",
+      "result_map": "google",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%B1%EC%A0%9C%EC%82%BC%EA%B3%84%ED%83%95&query_place_id=ChIJZfqyTvCifDURkNQpewIVyHw",
+      "ref_id": "turn3view3",
+      "title": "www.google.com",
+      "snippet": "Total lines: 5",
+      "result_map": "google",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "ref_id": "turn4search0",
+      "title": "멘텐 - 테이블링",
+      "snippet": "Image: 주소복사 주소복사 ... 과거의 맛을 잃고 지나치게 억제된 라멘 합정, 홍대 인근을 제외하면 괜찮은 라멘을 만나기 어렵다 특히 명동같은 상권이라면 더욱 그러하다 하지만 멘텐은",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://korealocaltaste.com/ko/restaurants/hadongkwan",
+      "ref_id": "turn4search1",
+      "title": "하동관 명동본점 메뉴·가격 — Gukbap · 명동 · Klip",
+      "snippet": "# 하동관 명동본점 ... 먹고 싶은 메뉴의 +를 누르면 직원에게 보여줄 주문 화면이 만들어져요. ... 메뉴명과 가격은 네이버 플레이스 기준이에요.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://culture.seoul.go.kr/culture/cmmn/file/fileDown.do?atchFileId=b102a31ea9594ac6896ac8c7ad9b4000&bbsId=&fileSn=1&menuNo=200050",
+      "ref_id": "turn4search12",
+      "title": "불 임 2\n\n2022년 서울 미래유산 이미지 자료\n\n<table id=\"e1\">\n<tr>",
+      "snippet": "<td>교보문고 광화문점 입구로 내려가는 계단과 지하 출입구 전경</td> ... <td>매장 내부 벽면의 홍보/안내 패널에 명동교자 소개와 메뉴 사진이 보임</td> <td>‘명동교자’ 간판이 있는 본점 외관, 창문",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://bfoodieblog.tistory.com/22",
+      "ref_id": "turn4search2",
+      "title": "하동관 명동본점 탐방기 – 서울 곰탕 맛집의 정석",
+      "snippet": "하동관 메뉴 및 가격표 (2025년 7월 기준) ... 하동관 메뉴의 대표는 단연 하동관 곰탕. ... 추가로 주문한 수육은 비계 없이 담백하고, 간장에 살짝 찍어 깍두기와",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://pinkcloudy.tistory.com/3520",
+      "ref_id": "turn4search3",
+      "title": "명동근처 라멘&탄탄멘 맛집 멘텐(麺点) - 23년에도 미쉐린 가이드 서울은 이어진다~ -",
+      "snippet": "세월의 흐름에 자연스럽게 사라지는 건지 모르겠다만 뭔가 마음 한구석에 허전한 마음이 생기는 건 어쩔 수 없나보다. ... 망원역 근처에 봐둔 라멘가게를 갈까 하다가 멀리가기 싫어서",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://tworabbit.tistory.com/87",
+      "ref_id": "turn4search4",
+      "title": "[명동 맛집 - 멘텐] 깔끔한 매력의 신흥 미쉐린 라멘 맛집!",
+      "snippet": "# [명동 맛집 - 멘텐] 깔끔한 매력의 신흥 미쉐린 라멘 맛집! ... 육아 휴직 중인 후배가 줄을 서 있겠다고 흔쾌히 나서는 덕에 후다닥 먹고 왔던",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.gongju.go.kr/thumbnail/eBook/BOK_202406210916198590.pdf",
+      "ref_id": "turn4search13",
+      "title": "| 2024년 7월호",
+      "snippet": "음식으로 허해진 몸을 달래기에 안성맞춤이다. ... 건강한 보양식으로 소문난 ‘백제삼계탕’만의 특별한 비법이 궁금하다. ... 백제삼계탕의 메뉴판은 산삼배양근 삼계탕과 일반 삼계탕 딱 ... 주소",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.kkot.ac.kr/download/BOARD_ATTACH?storageNo=2790",
+      "ref_id": "turn4search14",
+      "title": "국립공주병원 \n \n사람보다 더 따뜻한 가치는 없습니다.  \n그 뜻을 세상과 함께 만들어 갑",
+      "snippet": "| 구분 공 산 성 송 산 리 고 분 군 세 계 유 산 주 변 | 업소명 고가네칼국수 | 주 소 공주시 제민천3길",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kr.trip.com/restaurant/south-korea/seoul/detail/hadongkwan-13588782/",
+      "ref_id": "turn4search5",
+      "title": "하동관 명동본점(명동, 서울) 메뉴, 리뷰, 정보 | 트립닷컴",
+      "snippet": "# 하동관 명동본점 ... 명동에서 꼭 먹어봐야 할 맛집인 하동홀은 한우밥 한 가지 메뉴만 있어요. ... Image: 하동관 명동본점 여행 사진 Image: 하동관 명동본점 여행",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://panilatte.tistory.com/entry/%EB%AA%85%EB%8F%99-%EB%9D%BC%EB%A9%98-%EB%A7%9B%EC%A7%91-%EB%A9%98%ED%85%90-%ED%83%84%ED%83%84%EB%A9%98-%EC%86%8C%EC%9C%A0%EB%9D%BC%EB%A9%98-%EB%AF%B8%EC%89%90%EB%A6%B0-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%A4%84%EC%84%9C%EC%84%9C-%EB%A8%B9%EB%8A%94-%EB%9D%BC%EB%A9%98%EC%A7%91-%EC%9B%A8%EC%9D%B4%ED%8C%85?category=943428",
+      "ref_id": "turn4search6",
+      "title": "명동 라멘 맛집 <멘텐> 탄탄멘 소유라멘 미쉐린 가이드 줄서서 먹는 라멘집 웨이팅",
+      "snippet": "# 명동 라멘 맛집 <멘텐> 탄탄멘 소유라멘 미쉐린 가이드 줄서서 먹는 라멘집 웨이팅 ... 이번엔 명동에서 라멘 맛집으로 유명한 멘텐 에 다녀왔습니다.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://redtea.kr/taste/855",
+      "ref_id": "turn4search7",
+      "title": "홍차넷 - [명동] 멘텐",
+      "snippet": "# [명동] 멘텐 ... 이 라멘 때문에 명동 올 만한 가치가 있는 가게입니다. ... 수정 삭제 주소복사 ... 최근리뷰 보니까 탄탄멘도 추가댄거같아여.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gall.dcinside.com/mini/board/view/?id=goodramen&no=30171",
+      "ref_id": "turn4search8",
+      "title": "정말 살면서 처음경험한 라멘 \"멘텐\" (장문) - 라멘 미니 갤러리",
+      "snippet": "명동 뒷골목에 위치한 멘텐이라는 라멘집입니다... ... 사장님이 주문번호를 불러주시는데 외국분들은 못알아들으시는데 그냥 계속 번호만 외치시고 안되니까 아무말도없으시고.. ... 국물은 감칠맛이 좋았고 탄탄멘은 자칫하면 그 땅콩소스의",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.busantaste.com/ko/r/hadong-house",
+      "ref_id": "turn4search9",
+      "title": "하동집｜부산 금정구 메뉴·영업시간",
+      "snippet": "* 주소 부산 금정구 오륜대로 260 ... * 메뉴 단호박오리숯불구이 54,000원 · 오리숯불석쇠구이 49,000원 · 오리불고기(양념/로스) 44,000원 · 오리한방백숙 55,000원(옻 60,000원) · 닭한방백숙 50,000원(옻 55,000원)",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.xe.com/currencyconverter/convert/?Amount=1&From=KRW&To=MNT",
+      "ref_id": "turn4search10",
+      "title": "1 KRW to MNT - South Korean Won to Mongolian Tugriks Exchange Rate",
+      "snippet": "",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://goodprice.grtt.co.kr/",
+      "ref_id": "turn4search11",
+      "title": "착한가격 찾기 - 전국 착한가격업소 메뉴·가격 정보",
+      "snippet": "2026년 6월 30일 기준 12,645개 업소의 공개 메뉴와 가격 정보를 정리했습니다. ... 강원특별자치도 739곳 경기도 1,894곳 경상남도 888곳 경상북도 795곳 광주광역시 384곳 대구광역시 596곳 대전광역시",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://stylechosun.co.kr/online/wp-content/uploads/2025/12/Stylechosun_Vol.296.pdf",
+      "ref_id": "turn4search15",
+      "title": "www.stylechosun.co.kr",
+      "snippet": "래 섬세한 페이스트리와 프랑스 전통에 한국적 감성을 ... 대표 메뉴로는 오브 ... 풍미 가득한 메뉴로 구성된 5코스 헤리티지 테이스팅 ... 패턴의 천장, 한국 전통 창호",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://pncc.pusan.ac.kr/bbs/pncc/12024/963974/download.do",
+      "ref_id": "turn4search16",
+      "title": "종종 최초 또는 그에 상응하는 대표성이 있는 것 등”으로 기준을 정하고 고려삼계탕, 마포옥, 명동교자 본점, 성북동 국시집 등 54건이 선정되어 있다.31) 부산 미래유산으로 음식은 2021년을 제외하고 매년 선정되었는데, 돼지국밥/밀면(2019), 동래파전/낙농장 재첩국(2020), 구포국수/금장어 구이(2022), 고갈비/초량돼지갈비골목(2023), 대저토마토/조내기고구마(2024) 등이다. 특히 초반의 돼지국밥, 밀면은 부산을 체험하는 대표적인 음식으로 부산 관광경로 안에서 ‘향수’와 결합하여 부산지역 밖에서 부산과 더 밀접하게 연결되어 있다. 이때 ‘관광화된 음식기호’ 안에서 지역적 맥락이나 역사적 배경을 어떻게 미래화할 것인가는 과제로 남는다. 이는 음식에만 국한되는 것이 아니라, 골목, 시장, 길, 해수욕장 등 관광화된 장소들이 맞닥뜨리는 공통의 과제이다. 아스만에 의하면 저장기억은 “쓰여지지 않은 기회의 다양한 목록32)이라고 했다. 개인의 노동과 경험이 누적된 시장, 거리, 먹거리들 안에서 공식기억 바깥의 다양한 사적기억들을 복원하고, 이들이 교차하면서 ‘부산다움’을 조정해 나간다. 이런 의미에서 더 사적이고 미시적인 서사들을 발굴하고 전시하는 작업이 진행되어야 한다.",
+      "snippet": "종종 최초 또는 그에 상응하는 대표성이 있는 것 등”으로 기준을 정하고 고려삼계탕, 마포옥, 명동교자 본점, 성북동 국시집 등 54건이 선정되어 있다.31) 부산 미래유산으로 음식은 2021년을",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=TQTlCHxyuu8",
+      "ref_id": "turn4youtube17",
+      "title": "Stray Kids \"神메뉴(God's Menu)\" M/V - YouTube",
+      "snippet": "# Stray Kids \"神메뉴(God's Menu)\" M/V",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://bomnae.chuncheon.go.kr/upload/pastfile/343_2019-08.pdf",
+      "ref_id": "turn4search18",
+      "title": "&lAUGUS협업섭",
+      "snippet": "싸고, 빼끗하고, 서비스11t지 룹은 막안가격업~ ! ... 탕 6,(XX) 닭개장 6,(XX) ... 영업시간 11 :(X)rv15:CX) 메뉴 한식뷔페 ... 疆H fA 匡털모수었m 김天屈깨 백반6(XX) ... 삐삐스낵1호",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2fd3b82c-293f-4fb4-b57b-af77d37dc466",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=mWXrM-OKBNQ",
+      "ref_id": "turn4youtube19",
+      "title": "Masha and the Bear 🎉 NEW EPISODE 2025 😊 La-La-Lamb 🐑🥰 (Episode 129) - YouTube",
+      "snippet": "# Masha and the Bear 🎉 NEW EPISODE 2025 😊 La-La-Lamb 🐑🥰 (Episode 129)",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh",
+      "ref_id": "turn5search0",
+      "title": "백제삼계탕 - 명동 삼계탕, 산삼배양근삼계탕 맛집 - 다이닝코드",
+      "snippet": "닭도 잡내 없이 부드럽고 김치와 찰밥은 정말 맛이 좋습니다. ... 명동역 맛집이 워낙 많아서 어디를 갈까 고민하다가 오랫동안 삼계탕으로 유명한 백제삼계탕에 다녀왔어요. ... 기본 삼계탕은",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://local.lazyscheme.com/places/lsvfpf9z5eww7vkscv/",
+      "ref_id": "turn5search1",
+      "title": "하동관 명동본점 음식점 | 메뉴·가격·전화·위치 | LazyScheme Local",
+      "snippet": "하동관 명동본점은 중구 명동 9길 12에서 곰탕과 수육을 판매하는 음식점입니다. ... 서울특별시 중구 명동9길 12",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tabling.co.kr/place/677cc7c066de5f06987551a9",
+      "ref_id": "turn5search2",
+      "title": "하동관 명동본점 - 테이블링",
+      "snippet": "서울 중구 명동9길 12 ... 중구 명동과 을지로 사이에위치한 빕구르망 하동관에 다녀왔습니다 입구에 들어서자마자 오랜 세월이 묻어나는 노포 특유의 정겨운 분위기가 물씬 풍겼습니다 혼밥을 할경우",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://polle.com/place/5dcLSY/%EB%B0%B1%EC%A0%9C%EC%82%BC%EA%B3%84%ED%83%95",
+      "ref_id": "turn5search3",
+      "title": "백제삼계탕 - 명동2가 삼계탕 | 뽈레 Polle",
+      "snippet": "삼계탕 20,000 ... 명동번화가에서 골목 2층에 있는 백제삼계탕 저 찰밥을 준다는 것..",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kr.trip.com/restaurant/city/city/detail/hadongkwan-13588782/",
+      "ref_id": "turn5search4",
+      "title": "2026 하동관 명동본점(명동, 서울) 메뉴, 리뷰, 정보 | 트립닷컴",
+      "snippet": "# 하동관 명동본점 ... 서울특별시 중구 명동9길 12 ... 한국인들에게는 너무나 유명한 식당이죠.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://new.emmaru.com/matzip/matzip.do?code=M170908232627999322L&f=1&s=1&t=1",
+      "ref_id": "turn5search5",
+      "title": "명동 백제삼계탕 소개",
+      "snippet": "15,000 삼계탕 21,000 오골계탕 20,000 삼산배양근삼계탕 25,000 산삼배양근 오골계탕 15,000 통닭 15,000 전복죽 12,000 내장볶음(닭똥집) 20,000 산삼배양근삼계탕 23,000 영계백숙 30,000 닭도리탕 12,000 닭똥집 15,000 닭볶음",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://bapnavi.com/en/r/hadongkwan-myungdong-main/",
+      "ref_id": "turn5search6",
+      "title": "Hadongkwan | Myeongdong, Seoul | BapNavi",
+      "snippet": "Find 하동관 명동본점 at 서울특별시 중구 명동9길 12, or 12 Myeongdong 9-gil, Jung-gu, Seoul; phone 02-776-5656.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://korealocaltaste.com/restaurants/baekje-samgyetang",
+      "ref_id": "turn5search7",
+      "title": "Baekje Samgyetang — Samgyetang in Myeongdong, Seoul · Klip",
+      "snippet": "백제삼계탕 ... ₩20,000",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://fmr.purpleo.co.kr/view/310",
+      "ref_id": "turn5search8",
+      "title": "하동관 - 중구 명동9길 12 | 전국 모범음식점 지도",
+      "snippet": "# 하동관 - 중구 명동9길 12 총177명이 열람하였으며, 좋아요 0개, 방문했어요 0회입니다. ... 장소 핵심 정보 ... 서울특별시 중구 명동9길 12 (명동1가)에 위치하며, 영업 상태·전화번호·주소·인허가",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/profile.php?rid=Hb8688CMZCBd",
+      "ref_id": "turn5search9",
+      "title": "하동관 본점 - 명동 한우곰탕 맛집 - 다이닝코드",
+      "snippet": "하동관은 오래전부터 유명한 곰탕 맛집으로 미쉐린 가이드에도 소개된 곳이라서, 평소에도 곰탕을 좋아하는 편이라 궁금했는데 드디어 먹어보고 왔다 ㅎㅎ 하동관 명동본점 기본 정보 서울 중구 명동9길",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://dangolpick.co.kr/station/%EB%AA%85%EB%8F%99%EC%97%AD/%EA%B3%A0%EA%B9%83%EC%A7%91",
+      "ref_id": "turn5search10",
+      "title": "명동역 고깃집 5곳 · 위치·업종 한눈에",
+      "snippet": "무쇠김치삼겹 명동점 돼지고기구이 · 중구 명동8가길 7 지도에서 업체 확인 ... 백제삼계탕 백숙,삼계탕 · 중구 명동8길 8-10 지도에서 업체 확인",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://eatpick.kr/detail.php?id=3942",
+      "ref_id": "turn5search11",
+      "title": "하동관 명동본점 THE맛있는녀석들 서울 중구 곰탕 맛집 가격 포장 위치",
+      "snippet": "홈 곰탕,설렁탕 하동관 명동본점 ... 서울 중구 명동9길 12 ... 서울 중구 명동9길 12 주소 복사",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-a2c48578-14dd-457b-961e-83d6e77116fc",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/77/313/2024/CLIKC2420439569923990_attach_1.pdf",
+      "ref_id": "turn5search12",
+      "title": "2024. 8. 22.(목) 석간용",
+      "snippet": "구분 음식점 | 연번 1 | 상호 하동관 | 주소 서울 중구 명동9길 12 | 대표상품 곰탕 --- | --- | --- | --- |",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "",
+      "ref_id": "turn6view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh",
+      "ref_id": "turn6view1",
+      "title": "백제삼계탕 - 명동 삼계탕, 산삼배양근삼계탕 맛집 - 다이닝코드",
+      "snippet": "Total lines: 527",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "https://www.tel-co.net/food/spot/6713",
+      "ref_id": "turn6view2",
+      "title": "미성옥 | 여행의기술",
+      "snippet": "Total lines: 87",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "https://korealocaltaste.com/ko/restaurants/hadongkwan",
+      "ref_id": "turn6view3",
+      "title": "하동관 명동본점 메뉴·가격 — Gukbap · 명동 · Klip",
+      "snippet": "Total lines: 190",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "",
+      "ref_id": "turn6view4",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja",
+      "ref_id": "turn6view5",
+      "title": "명동 교자 – Seoul - 의 미쉐린 가이드 레스토랑",
+      "snippet": "Total lines: 308",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://local.lazyscheme.com/places/lsk8ac8bfbjskm6mn5/",
+      "ref_id": "turn7search0",
+      "title": "서울 명동교자 본점 음식점 | 메뉴·가격·전화·위치 | LazyScheme Local",
+      "snippet": "명동교자 본점은 중구 퇴계로 129에서 칼국수·만두·비빔국수를 판매합니다. 2026년 본점 이전과 함께 구 신관명동역점이 통합됐습니다. ... 서울특별시 중구 퇴계로 129",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://dinner.ambitstock.com/euljiro/restaurant/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90%20%EB%AA%85%EB%8F%99%EC%97%AD%EC%A0%90%20%EC%8B%A0%EA%B4%80%20%EB%B3%B8%EC%A0%90",
+      "ref_id": "turn7search1",
+      "title": "명동교자 명동역점 신관 본점 | 을지로 한식",
+      "snippet": "클로렐라 면과 숙성 양념장, 참기름 향이 어우러진 매콤새콤한 비빔국수 ... 명동교자 명동역점 신관 본점은 서울 중구 퇴계로 129에 위치한 명동 맛집입니다. ... 명동교자 명동역점 신관",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://issuechaza.tistory.com/86?category=1277385",
+      "ref_id": "turn7search2",
+      "title": "명동교자 본점 주소·메뉴 가격｜명동역에서 찾기와 2인 주문 가이드",
+      "snippet": "명동교자는 메뉴 선택보다 ‘현재 지점 확인’부터. 퇴계로 129 지도 핀을 공유하고, 칼국수 12,000원·만두 13,000원 안내를 예산의 출발점으로 삼되, 최종 가격과 영업 여부는 방문 매장에서 확인하세요.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://sikgyeon.com/store/1189822",
+      "ref_id": "turn7search3",
+      "title": "명동교자 신관명동역점 — 콩국수 · 잔치·비빔국수 · 칼국수 | 식견",
+      "snippet": "# 명동교자 신관명동역점 ... 서울특별시 중구 퇴계로 129, 명동교자 (충무로2가)복사",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://052.alba.co.kr/job/Detail?adid=147373020&listmenucd=SIMILARVIEW&recomyn=Y",
+      "ref_id": "turn7search4",
+      "title": "주식회사 명동교자 채용정보 : 명동교자 주방보조 직원 채용합니다 - 알바천국",
+      "snippet": "## 명동교자 주방보조 직원 채용합니다 ... 학력무관 ... 서울특별시 중구 퇴계로 129 본점, 명동1호점 ... 서울특별시 중구 퇴계로 129 본점, 명동1호점 ... 구직이 아닌 광고",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.ssulmonote.com/2026/10/18/myeongdong-kyoja-main-branch-current-address/",
+      "ref_id": "turn7search5",
+      "title": "명동교자 본점, 예전 주소로 가도 될까요? | 쓸모노트",
+      "snippet": "신관 명동역점과 본점이 별개의 장소인가요? ... 현재 안내 주소인 ‘퇴계로 129’를 확인하세요. ... 일행에게 퇴계로 129의 장소 링크를 보내고, 주문 마감 전에 여유 있게 도착하도록",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://tommysdiner.net/558869",
+      "ref_id": "turn7search6",
+      "title": "명동에선 명동칼국수 | 명동교자 신관 명동역점",
+      "snippet": "명동교자 본점이 아닌 새로 생긴 명동교자 신관 명동역점을 가보고 싶다고 하셔서 지인분과 함께 명동역점 방문.. ... 주소 : 서울 중구 퇴계로 129.. ... 신관이 좌석수가",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://myworld1004.tistory.com/3076",
+      "ref_id": "turn7search7",
+      "title": "[명동 맛집 명동교자 신관명동역점] 직접 가본 로컬 리뷰",
+      "snippet": "서울 중구 퇴계로 129 명동교자 신관명동역점 ... 4호선 명동역 8번출구로 나오시면 바로 앞 건물입니다.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://take1234.tistory.com/62",
+      "ref_id": "turn7search8",
+      "title": "명동교자 칼국수 맛집으로 관광객에게 소문난 곳 신관명동역점",
+      "snippet": "주소: 서울중구 퇴계로 129 명동교자 신관명동점 ... 명동교자만 기억했지 칼국수 비주얼과 맛은 기억이 안나는거 있죠?",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://report-daily.tistory.com/58",
+      "ref_id": "turn7search9",
+      "title": "명동에서 가장 유명한 '명동교자' 탐방기",
+      "snippet": "역시 한국인보다 외국인이 더 많을 정도로 사람이 엄청 붐볐는데 그중에서도 가장 유명한 명동교자를 가보기로 했다. 오늘의 맛집 탐방 장소 '명동교자' 는 본점이 있고 분점도 있고",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1047222&cbIdx=320&streFileNm=94886a9f-5a5b-4a88-943e-601d101e1bc4.pdf",
+      "ref_id": "turn7search12",
+      "title": "□중소벤처기업부 창업벤처실장업무추진비 사용내역(‘23.09월)",
+      "snippet": "창업실장 | 2023-09-09 | 12:29 | 봉피양(용산)/(주)글로벌봉피양 | 용산어린이집 정원행사 논의 | 123,000 | 4명 | | | 카드 ... 창업실장 | 2023-10-26 | 12:24",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://content05863.tistory.com/8",
+      "ref_id": "turn7search10",
+      "title": "맛집 관리 API 설계하기",
+      "snippet": "이 API는 카카오맵에서 특정 맛집(명동교자)의 상세 정보를 조회하기 위한 API입니다. ... \"name\": \"명동교자 명동역점 신관 본점\", \"address\": \"서울 중구 퇴계로 129 1층\",",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/46/194/2004/CLIKC1468738055886519_img_1.pdf",
+      "ref_id": "turn7search13",
+      "title": "제Ⅰ장  서 론",
+      "snippet": "특히 한식의 경우 서울 도심부에만 수십년의 역사를 지닌 음식점들이 48개나 존재하고 있어 ([표 3-6]), 유서깊고 스토리가 있는 서울의 음식점들을 연계한 프로그램으로 개발이 가능하다. ... <tr><td",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://cheerup123.tistory.com/11?category=1091222",
+      "ref_id": "turn7search11",
+      "title": "명동교자 본점 칼국수와 명동교자 마늘김치 56년 맛집 후기",
+      "snippet": "그때 처음 명동교자의 찐한 국물의 칼국수와 알싸한 맛의 마늘 김치를 맛보고 반해서 일주일에 한 번 이상은 꼭 가서 먹었던 기억이 납니다. ... 명동교자는 중국인 관광객이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://culture.seoul.go.kr/culture/cmmn/file/fileDown.do?atchFileId=b102a31ea9594ac6896ac8c7ad9b4000&bbsId=&fileSn=1&menuNo=200050",
+      "ref_id": "turn7search14",
+      "title": "□ 올해는 총 112건이 미래유산 심의 대상에 올랐으며 연구진의 기초 현황 조사를 거쳐 29건이 서울시 미래유산보존위원회에 상정되었다. 그 중에서 9건이 심의를 통과하여 최종 후보로 선정되었고, 그 중 소유자가 동의한 4건(교보문고 광화문점, 명동교자 본점, 공산땅굴, 평산재)을 서울 미래유산으로 선정했다.",
+      "snippet": "그 중에서 9건이 심의를 통과하여 최종 후보로 선정되었고, 그 중 소유자가 동의한 4건(교보문고 광화문점, 명동교자 본점, 공산땅굴, 평산재)을 서울 미래유산으로 선정했다. ... ‘명동칼국수’의 원조 격으로",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.ambatel.com/RES/PRODUCT/202510/NEW-LeStyle-DINNER-Menu-20251015_20251015111630.pdf",
+      "ref_id": "turn7search15",
+      "title": "K-STREET SIDE",
+      "snippet": "떡볶이 ... 명동교자 ... Takoyaki (Korean Style) — KRW 15,000",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://yscl.go.kr/kr/bbs/download.do?bbs_id=councilcost&uid=421F583C89134E33AD0432ABED3D422F",
+      "ref_id": "turn7search16",
+      "title": "업무추진비 사용내역 (의장. 2025년 9월)",
+      "snippet": "연 번 총 사용금액 | 사용자 None | 승인일 None | 승인시각 None | 장소 None | 집행목적 None | 대상 인원수 None | 승인금액",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kocw-n.xcache.kinxcdn.com/data/document/2022/kangnam/leewoochae0614/08.pdf",
+      "ref_id": "turn7search17",
+      "title": "슬라이드 1",
+      "snippet": "② 명동교자 <p269> ... • 칼국수 한 그릇에 담긴 정성과 단아하고 정갈한 이미지를 표현하고 있다. ... Top-right photo of a storefront sign reading “명동교자” above",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-2aea5114-ff0d-4389-b7b4-c11e50516359",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn7view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "search_snippet"
+    }
+  ],
+  "error_results": [
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "",
+      "ref_id": "turn2view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-02332d23-55b6-4c91-80c8-0bdb48df9641",
+      "action_type": "open_page",
+      "requested_url": "https://map.kakao.com/?q=명동교자",
+      "result_url": "",
+      "ref_id": "turn2view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-1ce03d60-a917-4b4a-a0ac-0f56d4f646cf",
+      "action_type": "other",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn3view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "",
+      "ref_id": "turn6view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    },
+    {
+      "event_id": "exec-bcc29f4f-0239-4ad6-8dff-25d1433d28c2",
+      "action_type": "open_page",
+      "requested_url": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a",
+      "result_url": "",
+      "ref_id": "turn6view4",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "open_result_metadata"
+    }
+  ],
+  "final_text": "**카카오맵·구글 지도 대조 확인은 완료하지 못했습니다.** 카카오맵은 접근 오류, 구글 지도는 자바스크립트 안내만 표시됐습니다. 아래는 대신 열람 가능한 공개 자료로 정리한 **추천 후보 5곳**입니다. 가격은 자료의 표시 가격이며, 현재 매장 가격까지 확인한 것은 아닙니다.\n\n| 음식점·주소 | 처음 방문할 때 추천하는 이유 | 대표 메뉴·표시 가격 | 실제 확인한 출처 |\n|---|---|---|---|\n| **명동교자 본점 — 퇴계로 129 매장** | 칼국수와 만두를 함께 맛보고 싶은 경우 추천합니다. 자료마다 ‘본점·신관·명동역점’ 표기가 달라 주소를 기준으로 찾아야 합니다. | 칼국수 **12,000원**, 만두 **13,000원** | [지점·메뉴 안내](https://issuechaza.tistory.com/86?category=1277385), [지점명·주소 보조 확인](https://local.lazyscheme.com/places/lsk8ac8bfbjskm6mn5/) |\n| **하동관 명동본점** — 중구 명동9길 12 | 맑은 소고기 국물과 밥으로 한 끼를 먹고 싶은 사람에게 추천합니다. | 곰탕 일반 **19,000원**, 수육 소 **40,000원** | [메뉴·주소 안내](https://korealocaltaste.com/ko/restaurants/hadongkwan) |\n| **미성옥** — 중구 명동길 25-11 | 설렁탕을 먹거나, 여럿이 수육을 곁들이고 싶은 경우 선택하기 좋습니다. | 설렁탕 **13,000원**, 특 **15,000원**, 수육 소 **35,000원** | [메뉴·주소 안내](https://www.tel-co.net/food/spot/6713) |\n| **백제삼계탕** — 중구 명동8길 8-10, 2층 | 쇼핑 중 따뜻한 닭고기 국물 요리로 식사하고 싶은 경우 추천합니다. | 삼계탕 **20,000원**, 오골계탕 **26,000원** | [다이닝코드 메뉴·주소](https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh), [뽈레 층수·메뉴](https://polle.com/place/5dcLSY/백제삼계탕) |\n| **멘텐** — 중구 삼일대로 305 | 명동 방문 중 탄탄멘이나 일본 라멘이 당길 때 추천합니다. | 탄탄멘 **12,500원** | [테이블링 공개 검색 자료](https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a) — 검색 결과에서 확인했으며 상세 페이지는 접근 제한 |\n\n요청하신 **두 지도에서 직접 확인된 5곳**이라는 조건은 충족하지 못했으므로, 위 목록을 지도 검증이 끝난 추천으로 보시면 안 됩니다.",
+  "final_urls": [
+    "https://issuechaza.tistory.com/86?category=1277385",
+    "https://local.lazyscheme.com/places/lsk8ac8bfbjskm6mn5/",
+    "https://korealocaltaste.com/ko/restaurants/hadongkwan",
+    "https://www.tel-co.net/food/spot/6713",
+    "https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh",
+    "https://polle.com/place/5dcLSY/백제삼계탕",
+    "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a"
+  ],
+  "self_report_failure_lines": [
+    "**카카오맵·구글 지도 대조 확인은 완료하지 못했습니다.** 카카오맵은 접근 오류, 구글 지도는 자바스크립트 안내만 표시됐습니다. 아래는 대신 열람 가능한 공개 자료로 정리한 **추천 후보 5곳**입니다. 가격은 자료의 표시 가격이며, 현재 매장 가격까지 확인한 것은 아닙니다.",
+    "요청하신 **두 지도에서 직접 확인된 5곳**이라는 조건은 충족하지 못했으므로, 위 목록을 지도 검증이 끝난 추천으로 보시면 안 됩니다."
+  ],
+  "recommendation_rows": [
+    {
+      "rank": 1,
+      "name": "명동교자 본점 — 퇴계로 129 매장",
+      "raw_row": "| **명동교자 본점 — 퇴계로 129 매장** | 칼국수와 만두를 함께 맛보고 싶은 경우 추천합니다. 자료마다 ‘본점·신관·명동역점’ 표기가 달라 주소를 기준으로 찾아야 합니다. | 칼국수 **12,000원**, 만두 **13,000원** | [지점·메뉴 안내](https://issuechaza.tistory.com/86?category=1277385), [지점명·주소 보조 확인](https://local.lazyscheme.com/places/lsk8ac8bfbjskm6mn5/) |",
+      "source_urls": "https://issuechaza.tistory.com/86?category=1277385;https://local.lazyscheme.com/places/lsk8ac8bfbjskm6mn5/"
+    },
+    {
+      "rank": 2,
+      "name": "하동관 명동본점",
+      "raw_row": "| **하동관 명동본점** — 중구 명동9길 12 | 맑은 소고기 국물과 밥으로 한 끼를 먹고 싶은 사람에게 추천합니다. | 곰탕 일반 **19,000원**, 수육 소 **40,000원** | [메뉴·주소 안내](https://korealocaltaste.com/ko/restaurants/hadongkwan) |",
+      "source_urls": "https://korealocaltaste.com/ko/restaurants/hadongkwan"
+    },
+    {
+      "rank": 3,
+      "name": "미성옥",
+      "raw_row": "| **미성옥** — 중구 명동길 25-11 | 설렁탕을 먹거나, 여럿이 수육을 곁들이고 싶은 경우 선택하기 좋습니다. | 설렁탕 **13,000원**, 특 **15,000원**, 수육 소 **35,000원** | [메뉴·주소 안내](https://www.tel-co.net/food/spot/6713) |",
+      "source_urls": "https://www.tel-co.net/food/spot/6713"
+    },
+    {
+      "rank": 4,
+      "name": "백제삼계탕",
+      "raw_row": "| **백제삼계탕** — 중구 명동8길 8-10, 2층 | 쇼핑 중 따뜻한 닭고기 국물 요리로 식사하고 싶은 경우 추천합니다. | 삼계탕 **20,000원**, 오골계탕 **26,000원** | [다이닝코드 메뉴·주소](https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh), [뽈레 층수·메뉴](https://polle.com/place/5dcLSY/백제삼계탕) |",
+      "source_urls": "https://www.diningcode.com/profile.php?rid=d5oI3DvmGSrh;https://polle.com/place/5dcLSY/백제삼계탕"
+    },
+    {
+      "rank": 5,
+      "name": "멘텐",
+      "raw_row": "| **멘텐** — 중구 삼일대로 305 | 명동 방문 중 탄탄멘이나 일본 라멘이 당길 때 추천합니다. | 탄탄멘 **12,500원** | [테이블링 공개 검색 자료](https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a) — 검색 결과에서 확인했으며 상세 페이지는 접근 제한 |",
+      "source_urls": "https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a"
+    }
+  ],
+  "extraction_method": "first_recommendation_table",
+  "automatic_valid": false,
+  "body_access_judgement": "requires_manual_review",
+  "note": "도구 메타데이터와 검색 스니펫은 지도 상세 본문 검증으로 대체하지 않음. 대체 출처 추천은 유효 지도 비교 결과가 아님."
+}

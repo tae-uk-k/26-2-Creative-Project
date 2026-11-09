@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-16879903",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "백반·찌개 주메뉴 가격은 연결되나 인분 미표기. 삼겹살 200g 한 항목을 전체 2점으로 일반화하지 않음.",
+  "sources": [
+    {
+      "quote": "가정식백반\n\n7,000원",
+      "source_url": "https://place.map.kakao.com/16879903#menuInfo",
+      "observed_at": "2026-11-02T19:31:46.781Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\130_SS-16879903_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "삼겹살(200g)",
+      "source_url": "https://place.map.kakao.com/16879903#menuInfo",
+      "observed_at": "2026-11-02T19:31:46.781Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\130_SS-16879903_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

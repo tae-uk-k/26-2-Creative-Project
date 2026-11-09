@@ -1,0 +1,61 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "85 photo files retain exact content hashes",
+      "passed": true
+    },
+    {
+      "check": "118 detail source files retain content hashes",
+      "passed": true
+    },
+    {
+      "check": "40 images actually marked read, separate from archive count",
+      "passed": true
+    },
+    {
+      "check": "native first occurrence deduplication",
+      "passed": true
+    },
+    {
+      "check": "every retained rank is first observed position",
+      "passed": true
+    },
+    {
+      "check": "1208 card rows match report and snapshot",
+      "passed": true
+    },
+    {
+      "check": "pending candidate links are not selected pairs",
+      "passed": true
+    },
+    {
+      "check": "no restaurant recommendation raw responses",
+      "passed": true
+    },
+    {
+      "check": "A B and difference are null rather than zero",
+      "passed": true
+    },
+    {
+      "check": "five neutral probes excluded from restaurant90",
+      "passed": true
+    },
+    {
+      "check": "neutral failure labels use actual process and tool results",
+      "passed": true
+    },
+    {
+      "check": "15 score rows keep unknowns and no final classification",
+      "passed": true
+    },
+    {
+      "check": "all 85 prior study files unchanged",
+      "passed": true
+    },
+    {
+      "check": "report discloses incomplete data and zero measurement",
+      "passed": true
+    }
+  ]
+}
