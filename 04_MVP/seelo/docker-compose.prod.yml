@@ -105,6 +105,7 @@ services:
       NGINX_ENVSUBST_FILTER: ^PUBLIC_HOST$$
     volumes:
       - ./infra/nginx/production.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ./infra/nginx/prototype.conf:/etc/nginx/snippets/prototype.conf:ro
       - ./infra/nginx/html:/usr/share/nginx/html:ro
       - ${ACME_WEBROOT_DIR:-/var/lib/seelo/acme}:/var/www/acme:ro
       - ${TLS_CERT_DIR:?TLS_CERT_DIR required}:/etc/nginx/tls:ro

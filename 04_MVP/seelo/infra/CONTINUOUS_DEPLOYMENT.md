@@ -9,6 +9,14 @@
 - PostgreSQL 테스트 DB에서 ruff·OpenAPI 계약·테스트 전체가 통과해야 배포 작업이 시작된다. 실제 공급자 키가 필요한 live 테스트는 별도다.
 - 배포 작업은 한 번에 하나만 실행한다. GitHub Actions 실행 화면에서 결과와 실패 단계를 확인한다.
 
+## 피그마 제출용 고정 주소
+
+- 제출·공유 주소: `https://seelo.site/prototype`.
+- 별도 화면이나 클릭 없이 현재 피그마 프로토타입으로 HTTP 302 자동 이동한다. `/prototype/`도 같은 목적지로 이동한다.
+- `Cache-Control: no-store`로 이전 목적지가 캐시에 남지 않게 한다. 요청 쿼리로 이동 목적지를 바꿀 수 없다.
+- 피그마 링크가 바뀌면 `infra/nginx/prototype.conf`의 `return 302` 목적지만 수정해 `backend-0-13`에 push한다. 자동 배포가 완료되면 기존 제출 주소로 새 피그마가 열린다.
+- 첫 화면의 “피그마 프로토타입” 버튼도 이 고정 주소를 사용한다. CI에서 nginx 구문과 실제 HTTPS GET·HEAD 이동을 확인한다.
+
 ## 인증·접속
 
 - Google Workload Identity Federation으로 GitHub의 단기 인증을 사용한다. 서비스 계정 JSON 키·PC SSH 개인키는 GitHub에 등록하지 않는다.

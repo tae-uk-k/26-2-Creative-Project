@@ -41,6 +41,12 @@ jobs:
         with:
           version: '0.11.9'
           python-version: '3.12'
+      - name: 프로토타입 이동 nginx 설정 검사
+        run: |
+          docker run --rm \
+            -v "$PWD/../infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro" \
+            -v "$PWD/../infra/nginx/prototype.conf:/etc/nginx/snippets/prototype.conf:ro" \
+            nginx:1.30.6 nginx -t
       - run: uv sync --frozen
       - run: uv run ruff check . ../infra/scripts/deploy.py ../infra/scripts/register-ci-key.py
       - run: uv run python scripts/export_openapi.py --check
@@ -111,7 +117,7 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import json, os, urllib.request
+          import json, os, re, urllib.error, urllib.request
           from html.parser import HTMLParser
           from pathlib import Path
           class Links(HTMLParser):
@@ -129,5 +135,24 @@ jobs:
               assert json.load(response)['commit'] == os.environ['DEPLOY_SHA']
           with urllib.request.urlopen('https://seelo.site/api/health') as response:
               assert json.load(response) == {'status':'ok','db':'ok'}
-          print('HTTPS·DB·배포 커밋·피그마 프로토타입 링크 확인 완료')
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+          config=Path('04_MVP/seelo/infra/nginx/prototype.conf').read_text()
+          target=re.search(r'return 302 "([^"]+)";', config).group(1)
+          opener=urllib.request.build_opener(NoRedirect())
+          for path in ('/prototype', '/prototype/', '/prototype?url=https%3A%2F%2Fexample.com'):
+              for method in ('GET', 'HEAD'):
+                  request=urllib.request.Request('https://seelo.site' + path, method=method)
+                  try:
+                      response=opener.open(request, timeout=15)
+                  except urllib.error.HTTPError as error:
+                      response=error
+                  with response:
+                      assert response.code == 302
+                      assert response.headers['Location'] == target
+                      assert response.headers['Cache-Control'] == 'no-store'
+                      assert response.headers['Referrer-Policy'] == 'no-referrer'
+                      assert response.headers['Strict-Transport-Security'] == 'max-age=31536000'
+          print('HTTPS·DB·배포 커밋·프로토타입 자동 이동·캐시 차단 확인 완료')
           PY
