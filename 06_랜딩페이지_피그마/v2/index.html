@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>seelo 랜딩 페이지</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Pacifico&display=swap">
+<style>
+/* 레이아웃: 흰 바탕 위 1360px 한 줄 흐름. 첫 화면은 반투명 타일 9칸과 지도 핀이 있는 큰 카드, 아래는 회색 면 카드로 이어지는 토스식 구성. */
+/* 이 시안은 밝은 톤 한 가지로 고정한 디자인이라 어두운 테마는 따로 두지 않는다. */
+:root{
+  --bg:#FFFFFF;
+  --grey:#F2F4F6;
+  --line:#E5E8EB;
+  --ink:#191F28;
+  --ink-2:#333D4B;
+  --muted:#6B7684;
+  --navy:#333D4B;
+  --accent:#4C67A8;
+  --pin:#6B87C9;
+  --tint:#E6ECF8;
+  --tint-2:#C9D5EE;
+  --park:#D5EEDE;
+  --white:#FFFFFF;
+  --font:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --logo:"Pacifico","Brush Script MT",cursive;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{margin:0;background:var(--bg);color:var(--ink-2);font-family:var(--font);font-size:16px;line-height:1.625;word-break:keep-all;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:8px}
+h1,h2,h3{color:var(--ink);margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.in{max-width:1360px;margin-inline:auto}
+
+/* 헤더 */
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg)}
+.hd .in{display:flex;align-items:center;justify-content:space-between;height:88px}
+.logo{font-family:var(--logo);font-size:33px;line-height:1;color:#090909;text-decoration:none}
+.nav{display:flex;align-items:center;gap:32px}
+.nav a{font-size:15px;font-weight:500;color:var(--muted);text-decoration:none;letter-spacing:-.01em}
+.nav a:hover{color:var(--ink-2)}
+.nav a.cta{font-weight:700;color:var(--accent)}
+.nav a.cta:hover{color:#3B5291}
+@media (max-width:760px){
+  .hd .in{height:64px}
+  .logo{font-size:26px}
+  .nav{gap:16px}
+  .nav a{font-size:14px}
+  .nav .wide{display:none}
+}
+
+/* 첫 화면 */
+.hero{padding-block:12px 0}
+.card{position:relative;width:100%;max-width:100%;aspect-ratio:1360/760;border-radius:38px;overflow:hidden;background:var(--grey);container-type:inline-size;isolation:isolate}
+.abs{position:absolute;left:calc(var(--x)*100%/1360);top:calc(var(--y)*100%/760);width:calc(var(--w)*100%/1360);height:calc(var(--h)*100%/760)}
+.tile{border-radius:clamp(14px,1.47cqw,20px);background:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.85)}
+.tile.mine{background:var(--tint)}
+.tile.mid{background:rgba(255,255,255,.55);box-shadow:0 10px 40px rgba(51,61,75,.07)}
+.dot{border-radius:50%;background:var(--park);width:calc(40*100%/1360);height:auto;aspect-ratio:1}
+
+.copy{position:absolute;left:calc(322*100%/1360);top:calc(182*100%/760);width:calc(716*100%/1360);height:calc(408*100%/760);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:3;padding-inline:12px}
+.copy h1{font-size:clamp(34px,6.47cqw,88px);line-height:1.18;letter-spacing:-.02em;font-weight:700;color:var(--ink-2)}
+.copy h1 span{display:block}
+.copy .lead{margin-top:clamp(14px,1.8cqw,24px);font-size:clamp(15px,1.32cqw,18px);color:var(--muted);line-height:1.6}
+.btns{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(8px,.9cqw,12px);margin-top:clamp(18px,1.8cqw,24px)}
+.btn{display:inline-flex;align-items:center;gap:.5em;height:clamp(48px,4.65cqw,63px);padding:0 1.5em;border-radius:999px;font-size:clamp(15px,1.53cqw,20.8px);font-weight:700;text-decoration:none;white-space:nowrap;transition:transform .15s var(--ease),background-color .15s}
+.btn:active{transform:scale(.97)}
+.btn.p{background:var(--navy);color:var(--white)}
+.btn.p:hover{background:#252D38}
+.btn.s{background:var(--white);color:var(--ink-2);box-shadow:0 6px 20px rgba(51,61,75,.08)}
+.btn.s:hover{background:#F9FAFB}
+.btn i{font-style:normal;font-weight:700;opacity:.9}
+/* 화면이 좁아져도 두 버튼이 가로로 나란히 있도록 글 영역을 카드 폭 전체로 넓힌다 */
+@media (max-width:1180px){.copy{left:0;width:100%}}
+
+/* 핀과 이름 라벨 */
+.mk{position:absolute;inset:0;z-index:4;pointer-events:none}
+.pin{position:absolute;left:calc(var(--px)*100%/1360);top:calc(var(--py)*100%/760);translate:-50% -50%;width:var(--d);height:var(--d)}
+.drop{position:absolute;inset:0;border-radius:50% 50% 50% 0;background:var(--pin);transform:rotate(-45deg)}
+.drop::after{content:"";position:absolute;width:36%;height:36%;left:32%;top:32%;border-radius:50%;background:var(--white)}
+.pin{--d:clamp(18px,2.1cqw,28px)}
+.mk.mine .pin{--d:clamp(28px,3.1cqw,42px)}
+.mk.mine .drop{background:var(--navy)}
+.halo{position:absolute;left:50%;top:50%;translate:-50% -50%;border-radius:50%;background:rgba(51,61,75,.08)}
+.halo.a{width:calc(var(--d)*2.9);height:calc(var(--d)*2.9)}
+.halo.b{width:calc(var(--d)*1.85);height:calc(var(--d)*1.85);background:rgba(51,61,75,.14)}
+.lbl{position:absolute;top:calc(var(--ly)*100%/760)}
+.lbl.l{left:calc(var(--lx)*100%/1360)}
+.lbl.r{right:calc(var(--lr)*100%/1360)}
+.tx{display:inline-block;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:.42em .9em;font-size:clamp(14px,1.47cqw,20px);font-weight:600;line-height:1.3;color:var(--ink-2);white-space:nowrap;box-shadow:0 4px 14px rgba(51,61,75,.06)}
+.mk.mine .tx{font-size:clamp(15px,1.62cqw,22px);font-weight:700;color:var(--ink);padding:.48em 1em}
+
+@media (max-width:760px){
+  .card{aspect-ratio:auto;height:600px;border-radius:28px}
+  .copy{left:0;width:100%;top:17%;height:62%;padding-inline:20px}
+  .copy h1{font-size:clamp(32px,9.6vw,44px)}
+  .btn{padding:0 1.25em}
+  .tile.mine{background:rgba(255,255,255,.5)}
+  .tile.bl{background:var(--tint)}
+  .mk.m2,.mk.m4{display:none}
+  .mk.mine{--px:130!important;--py:690!important;--lx:200!important;--ly:668!important}
+}
+
+/* 공통 구간 */
+.sec{padding-block:clamp(72px,9vw,120px)}
+.h2{font-size:clamp(32px,4.45vw,64px);line-height:1.34;letter-spacing:-.02em;font-weight:700}
+.center{text-align:center}
+.sub{font-size:18px;line-height:1.67;color:var(--muted)}
+
+/* 이용 방법 */
+.how{display:grid;grid-template-columns:minmax(0,480px) minmax(0,800px);justify-content:space-between;gap:48px}
+.how .head{display:flex;flex-direction:column;gap:24px;align-self:start}
+.steps{list-style:none;margin:0;padding:0}
+.steps li{display:flex;gap:24px;padding-block:33px;border-bottom:1px solid var(--line)}
+.num{flex:none;width:48px;height:48px;border-radius:50%;background:var(--accent);color:var(--white);display:grid;place-items:center;font-weight:700;font-size:16px}
+.steps h3{font-size:24px;line-height:1.42;letter-spacing:-.015em}
+.steps p{margin-top:8px;color:var(--muted);line-height:1.63}
+@media (max-width:900px){.how{grid-template-columns:minmax(0,1fr)}}
+
+/* 하지 않아도 되는 일 */
+.band{margin-top:48px;background:var(--grey);border-radius:32px;padding:clamp(16px,3vw,40px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.fc{background:var(--white);border-radius:32px;padding:24px;box-shadow:0 12px 32px rgba(51,61,75,.06);display:flex;flex-direction:column;gap:28px}
+.panel{background:var(--grey);border-radius:23px;height:232px;display:flex;flex-direction:column;justify-content:center;gap:16px;padding:0 28px}
+.row{background:var(--white);height:63px;border-radius:999px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font-weight:700;font-size:18px;color:var(--ink-2);gap:12px}
+.row.sq{border-radius:18px;justify-content:flex-start}
+.row b{font-size:28px;color:var(--accent)}
+.row .k{color:var(--muted);flex:none}
+.row .v{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chart{flex-direction:row;align-items:flex-end;justify-content:center;gap:64px;padding-bottom:28px}
+.bar{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:14px;font-weight:500;color:var(--muted)}
+.bar i{display:block;width:84px;border-radius:14px}
+.bar.before i{height:84px;background:var(--tint-2)}
+.bar.after i{height:135px;background:var(--accent)}
+.fc h3{font-size:28px;line-height:1.5;letter-spacing:-.02em;padding-inline:8px}
+.fc p{font-size:18px;line-height:1.63;color:var(--muted);padding-inline:8px;margin-top:-16px}
+.note{margin-top:48px;text-align:center;font-size:14px;color:var(--muted)}
+@media (max-width:1060px){.band{grid-template-columns:minmax(0,1fr)}.fc{max-width:520px;width:100%;margin-inline:auto}}
+@media (max-width:520px){.panel{padding:0 16px}.row{padding:0 18px;font-size:16px}.row b{font-size:24px}.chart{gap:40px}.fc h3{font-size:24px}.fc p{font-size:16px}}
+
+/* 진단 리포트 */
+.grid2{margin-top:56px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.rc{background:var(--grey);border-radius:22px;padding:40px;display:flex;align-items:center;gap:28px}
+.rc h3{font-size:24px;line-height:1.42;letter-spacing:-.015em}
+.rc p{margin-top:8px;color:var(--muted);line-height:1.63}
+.ic{flex:none;width:80px;height:80px;border-radius:20px;background:var(--white);display:grid;place-items:center}
+.ic.bars span{display:flex;align-items:flex-end;gap:5px;height:38px}
+.ic.bars i{width:9px;border-radius:3px;background:var(--accent)}
+.ic.list span{display:grid;gap:6px}
+.ic.list i{display:flex;align-items:center;gap:6px}
+.ic.list i::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.ic.list i::after{content:"";width:26px;height:6px;border-radius:3px;background:#9DB1DE}
+.ic.circ span{position:relative;width:44px;height:28px}
+.ic.circ i{position:absolute;top:0;width:28px;height:28px;border-radius:50%}
+.ic.circ i:first-child{left:0;background:var(--tint-2)}
+.ic.circ i:last-child{right:0;background:var(--accent)}
+.ic.doc span{width:32px;height:44px;border-radius:6px;background:var(--tint);display:grid;align-content:center;justify-items:center;gap:5px}
+.ic.doc i{width:18px;height:3px;border-radius:2px;background:var(--accent)}
+@media (max-width:900px){.grid2{grid-template-columns:minmax(0,1fr)}.rc{padding:28px}}
+
+/* 무료 안내 */
+.plans{margin-top:56px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.plan{border-radius:32px;padding:48px;display:flex;flex-direction:column;align-items:flex-start}
+.plan.a{background:var(--grey)}
+.plan.b{background:var(--tint)}
+.plan h3{font-size:32px;line-height:1.3;letter-spacing:-.02em}
+.plan p{margin-top:16px;font-size:18px;line-height:1.67;color:var(--muted)}
+.plan .btn{margin-top:40px;height:48px;border-radius:14px;font-size:16px;padding:0 24px}
+@media (max-width:900px){.plans{grid-template-columns:minmax(0,1fr)}.plan{padding:32px}.plan h3{font-size:26px}}
+
+/* FAQ */
+.faq-wrap{display:grid;grid-template-columns:minmax(0,480px) minmax(0,800px);justify-content:space-between;gap:48px}
+.faq{background:var(--grey);border-radius:22px;padding:18px 34px}
+.q+.q{border-top:1px solid var(--line)}
+.q button{all:unset;box-sizing:border-box;width:100%;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;font-weight:700;color:var(--ink-2);padding-block:14px}
+.q button svg{flex:none;width:20px;height:20px;stroke:var(--muted);fill:none;stroke-width:2;transition:transform .25s var(--ease)}
+.q button[aria-expanded="true"] svg{transform:rotate(180deg)}
+.ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s var(--ease)}
+.q.open .ans{grid-template-rows:1fr}
+.ans>div{overflow:hidden}
+.ans p{color:var(--muted);line-height:1.63;padding-bottom:18px}
+@media (max-width:900px){.faq-wrap{grid-template-columns:minmax(0,1fr)}.faq{padding:10px 22px}}
+
+/* 마무리 */
+.closing{background:var(--grey);border-radius:32px;padding:clamp(48px,6vw,72px) 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:32px}
+.closing h2{font-size:clamp(28px,3.4vw,48px);line-height:1.21;letter-spacing:-.02em}
+.closing .btn{height:60px;border-radius:16px;font-size:20px;padding:0 30px}
+.closing p{color:var(--muted)}
+
+/* 푸터 */
+.ft .in{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-block:32px 48px;font-size:14px;color:var(--muted);line-height:1.75}
+.ft b{color:var(--ink-2)}
+.ft .links{display:flex;gap:16px;margin-top:8px;font-weight:700;color:var(--ink-2)}
+.ft .lg{font-family:var(--logo);font-size:33px;color:#090909;line-height:1}
+@media (max-width:760px){.ft .in{flex-direction:column;align-items:flex-start}}
+
+/* 움직임: 스크립트가 켜지고 모션 줄이기 설정이 없을 때만 숨김 상태에서 시작한다 */
+@media (prefers-reduced-motion:no-preference){
+  .js .rv{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .js .rv.on{opacity:1;transform:none}
+
+  .js .hero .copy h1 span,.js .hero .lead,.js .hero .btns{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+  .js .hero.play .copy h1 span{opacity:1;transform:none}
+  .js .hero.play .copy h1 span:nth-child(2){transition-delay:.14s}
+  .js .hero.play .lead{opacity:1;transform:none;transition-delay:.45s}
+  .js .hero.play .btns{opacity:1;transform:none;transition-delay:.6s}
+
+  .js .pin{opacity:0;transform:translateY(-14px) scale(.5);transition:opacity .3s var(--ease),transform .4s cubic-bezier(.34,1.56,.64,1)}
+  .js .lbl{opacity:0;transform:translateY(8px) scale(.92);transition:opacity .28s var(--ease),transform .28s var(--ease)}
+  .js .hero.play .pin{opacity:1;transform:none;transition-delay:calc(1s + var(--i)*.17s)}
+  .js .hero.play .lbl{opacity:1;transform:none;transition-delay:calc(1.06s + var(--i)*.17s)}
+  .js .halo{opacity:0;scale:.4;transition:opacity .7s var(--ease),scale .9s var(--ease)}
+  .js .hero.play .halo{opacity:1;scale:1;transition-delay:calc(1.04s + var(--i)*.17s)}
+  /* 우리 가게만 한 박자 쉬었다가 천천히 또렷하게 뜬다 */
+  .js .hero.play .mk.mine .pin{transition-duration:.8s,1s;transition-delay:2.05s}
+  .js .hero.play .mk.mine .halo{transition-duration:1.1s,1.3s;transition-delay:2.25s}
+  .js .hero.play .mk.mine .lbl{transition-duration:.8s,.9s;transition-delay:2.4s}
+
+  .tx{animation:bob var(--dur,4s) ease-in-out var(--dl,0s) infinite alternate}
+  .halo.a{animation:breathe 3.6s ease-in-out infinite alternate}
+}
+@keyframes bob{from{translate:0 0}to{translate:0 -9px}}
+@keyframes breathe{from{transform:scale(1)}to{transform:scale(1.1)}}
+</style>
+
+</head>
+<body>
+<header class="hd wrap">
+  <div class="in">
+    <a class="logo" href="#top" aria-label="seelo 처음으로">seelo</a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="wide" href="#how">서비스 소개</a>
+      <a class="wide" href="#faq">FAQ</a>
+      <a href="#top">로그인</a>
+      <a href="#top">회원가입</a>
+      <a class="cta" href="#start">무료 진단 시작</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="in">
+      <div class="card">
+        <div class="abs tile" style="--x:-20;--y:-20;--w:330;--h:190"></div>
+        <div class="abs tile" style="--x:322;--y:-20;--w:716;--h:190"></div>
+        <div class="abs tile" style="--x:1050;--y:-20;--w:330;--h:190"></div>
+        <div class="abs tile mine" style="--x:-20;--y:182;--w:330;--h:408"></div>
+        <div class="abs tile mid" style="--x:322;--y:182;--w:716;--h:408"></div>
+        <div class="abs tile" style="--x:1050;--y:182;--w:330;--h:408"></div>
+        <div class="abs tile bl" style="--x:-20;--y:602;--w:330;--h:178"></div>
+        <div class="abs tile" style="--x:322;--y:602;--w:716;--h:178"></div>
+        <div class="abs tile" style="--x:1050;--y:602;--w:330;--h:178"></div>
+        <div class="abs dot" style="--x:230;--y:120"></div>
+        <div class="abs dot" style="--x:1180;--y:400"></div>
+        <div class="abs dot" style="--x:800;--y:680"></div>
+
+        <div class="copy">
+          <h1 id="hero-title"><span>AI가 추천할 때</span><span>우리 가게도</span></h1>
+          <p class="lead">AI가 읽는 가게 정보, seelo가 직접 바꿉니다.</p>
+          <div class="btns">
+            <a class="btn p" href="#start">우리 가게 무료 진단 <i aria-hidden="true">›</i></a>
+            <a class="btn s" href="#work">어떻게 달라지는지 보기 <i aria-hidden="true">›</i></a>
+          </div>
+        </div>
+
+        <!-- 가게 이름과 위치는 이해를 돕는 예시 -->
+        <div class="mk m1" style="--i:0;--px:110;--py:78;--lx:134;--ly:44">
+          <div class="pin"><div class="drop"></div></div>
+          <div class="lbl l"><span class="tx" style="--dur:3.6s;--dl:-1.2s">소담한상</span></div>
+        </div>
+        <div class="mk m3" style="--i:1;--px:1250;--py:92;--lr:132;--ly:76">
+          <div class="pin"><div class="drop"></div></div>
+          <div class="lbl r"><span class="tx" style="--dur:4.4s;--dl:-.4s">마포식탁</span></div>
+        </div>
+        <div class="mk m4" style="--i:2;--px:470;--py:650;--lr:912;--ly:610">
+          <div class="pin"><div class="drop"></div></div>
+          <div class="lbl r"><span class="tx" style="--dur:3.9s;--dl:-2.3s">망원분식</span></div>
+        </div>
+        <div class="mk m5" style="--i:3;--px:1250;--py:668;--lr:75;--ly:608">
+          <div class="pin"><div class="drop"></div></div>
+          <div class="lbl r"><span class="tx" style="--dur:4.1s;--dl:-1.7s">합정밥상</span></div>
+        </div>
+        <div class="mk mine" style="--i:4;--px:132;--py:376;--lx:166;--ly:357">
+          <div class="pin">
+            <div class="halo a"></div><div class="halo b"></div>
+            <div class="drop"></div>
+          </div>
+          <div class="lbl l"><span class="tx" style="--dur:4.2s;--dl:-.8s">우리 가게</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="how" aria-labelledby="how-title">
+    <div class="in how">
+      <div class="head">
+        <h2 class="h2 rv" id="how-title">사장님은<br>확인만 하세요.</h2>
+        <p class="sub rv">등록부터 정비까지,<br>나머지는 seelo가 합니다.</p>
+      </div>
+      <ol class="steps">
+        <li class="rv"><span class="num">1</span><div><h3>가게 등록</h3><p>가게 이름과 지도 링크로 우리 가게를 알려주세요.</p></div></li>
+        <li class="rv"><span class="num">2</span><div><h3>무료 진단</h3><p>AI 추천 노출과 주변 가게, 참고 출처를 확인합니다.</p></div></li>
+        <li class="rv"><span class="num">3</span><div><h3>초대와 승인</h3><p>Google과 카카오에 seelo를 초대하고<br>정비할 내용을 확인합니다.<br>아이디와 비밀번호는 받지 않아요.</p></div></li>
+        <li class="rv"><span class="num">4</span><div><h3>정비와 전후 비교</h3><p>seelo가 정보를 고친 뒤, 2주 후 변화를 다시 확인합니다.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="work" aria-labelledby="work-title">
+    <div class="in">
+      <h2 class="h2 center rv" id="work-title">사장님이 하지 않아도 되는 일</h2>
+      <div class="band">
+        <article class="fc rv">
+          <div class="panel">
+            <div class="row">ChatGPT <b>40%</b></div>
+            <div class="row">Gemini <b>17%</b></div>
+          </div>
+          <h3>질문은 seelo가 여러 번 물어요</h3>
+          <p>ChatGPT와 Gemini에 관광객 질문을 반복해 묻고, 추천에 나온 비율을 계산합니다.</p>
+        </article>
+        <article class="fc rv">
+          <div class="panel">
+            <div class="row sq"><span class="k">영문 메뉴</span><span class="v">Bibimbap ₩12,000</span></div>
+            <div class="row sq"><span class="k">영업시간</span><span class="v">11:00부터 21:00까지</span></div>
+          </div>
+          <h3>정보는 seelo가 고쳐요</h3>
+          <p>승인한 영문 메뉴와 영업시간을 Google 지도와 카카오맵에 직접 반영합니다.</p>
+        </article>
+        <article class="fc rv">
+          <div class="panel chart" role="img" aria-label="예시 막대: 정비 전보다 2주 후 추천 비율이 높아진 모습">
+            <div class="bar before"><i></i>정비 전</div>
+            <div class="bar after"><i></i>2주 후</div>
+          </div>
+          <h3>변화는 숫자로 보여 드려요</h3>
+          <p>2주 뒤 같은 질문으로 다시 측정해 정비 전후를 비교합니다.</p>
+        </article>
+      </div>
+      <p class="note rv">추천 순위나 노출을 보장하지 않습니다. 가게 이름과 정보는 이해를 위한 가상 예시입니다.</p>
+    </div>
+  </section>
+
+  <section class="sec wrap" aria-labelledby="report-title">
+    <div class="in">
+      <h2 class="h2 center rv" id="report-title">느낌이 아니라<br>숫자와 근거로 판단하세요.</h2>
+      <div class="grid2">
+        <div class="rc rv"><div class="ic bars" aria-hidden="true"><span><i style="height:18px"></i><i style="height:28px"></i><i style="height:38px"></i></span></div><div><h3>추천 등장률</h3><p>ChatGPT와 Gemini 각각,<br>성공한 답변 중 우리 가게가 나온 비율</p></div></div>
+        <div class="rc rv"><div class="ic list" aria-hidden="true"><span><i></i><i></i><i></i></span></div><div><h3>질문별 결과</h3><p>관광객 질문 하나하나에 우리 가게가 나왔는지 확인</p></div></div>
+        <div class="rc rv"><div class="ic circ" aria-hidden="true"><span><i></i><i></i></span></div><div><h3>주변 가게 비교</h3><p>같은 질문에서 함께 추천된 가게와 비율을 비교</p></div></div>
+        <div class="rc rv"><div class="ic doc" aria-hidden="true"><span><i></i><i></i><i></i></span></div><div><h3>참고 출처</h3><p>AI가 참고한 지도와 웹 출처를 링크로 확인</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="plans" aria-labelledby="plans-title">
+    <div class="in">
+      <h2 class="h2 center rv" id="plans-title">먼저 무료로 확인해 보세요.</h2>
+      <div class="plans">
+        <div class="plan a rv">
+          <h3>첫 진단 1회 무료</h3>
+          <p>AI 추천 현황과 주변 가게 비교,<br>고쳐야 할 정보까지 확인합니다.</p>
+          <a class="btn p" href="#start">우리 가게 무료 진단 <i aria-hidden="true">›</i></a>
+        </div>
+        <div class="plan b rv">
+          <h3>이어서 정비하고 싶다면</h3>
+          <p>Google과 카카오 정보를 정비하고,<br>2주 뒤 전후 비교 보고서를 받습니다.<br>현재 베타에서는 신청 후 승인이 필요합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="faq" aria-labelledby="faq-title">
+    <div class="in faq-wrap">
+      <h2 class="h2 rv" id="faq-title">궁금하신 점에<br>답해요.</h2>
+      <div class="faq rv">
+        <div class="q open"><button type="button" id="q1" aria-expanded="true" aria-controls="a1">사장님이 직접 해야 하는 일은 무엇인가요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a1" role="region" aria-labelledby="q1"><div><p>가게 이름과 지도 링크를 등록하세요. 자동 정비를 신청하고 승인되면 Google과 카카오 관리 화면에서 seelo 계정을 초대한 뒤, 정비안을 확인하고 한 번 승인하면 됩니다. 아이디와 비밀번호는 받지 않습니다.</p></div></div></div>
+        <div class="q"><button type="button" id="q2" aria-expanded="false" aria-controls="a2">네이버 지도도 직접 고쳐주나요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a2" role="region" aria-labelledby="q2"><div><p>seelo가 직접 정비하는 곳은 Google 지도와 카카오맵입니다. 네이버 지도·공식 웹사이트·인스타그램 등은 가게를 찾고 정보를 비교하는 데 사용합니다.</p></div></div></div>
+        <div class="q"><button type="button" id="q3" aria-expanded="false" aria-controls="a3">진단하면 AI 추천이 늘어나나요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a3" role="region" aria-labelledby="q3"><div><p>추천 순위나 노출을 보장하지 않습니다. 같은 질문으로 정비 전후를 비교하지만, AI 모델 업데이트나 다른 가게의 변화도 추천 결과에 영향을 줄 수 있습니다.</p></div></div></div>
+        <div class="q"><button type="button" id="q4" aria-expanded="false" aria-controls="a4">AI가 우리 가게를 꼭 추천해 주나요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a4" role="region" aria-labelledby="q4"><div><p>추천 순위나 노출은 보장하지 않습니다. seelo는 AI가 읽는 가게 정보를 바로잡고, 같은 질문으로 정비 전후의 변화를 보여 드립니다.</p></div></div></div>
+        <div class="q"><button type="button" id="q5" aria-expanded="false" aria-controls="a5">진단은 얼마나 걸리나요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a5" role="region" aria-labelledby="q5"><div><p>[진단 소요 시간 안내 문구 확정 필요]</p></div></div></div>
+        <div class="q"><button type="button" id="q6" aria-expanded="false" aria-controls="a6">지도 계정의 아이디와 비밀번호가 필요한가요?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="ans" id="a6" role="region" aria-labelledby="q6"><div><p>필요하지 않습니다. Google과 카카오 관리 화면에서 seelo 계정을 초대하는 방식이라 아이디와 비밀번호는 받지 않습니다.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="start" aria-labelledby="start-title" style="padding-top:0">
+    <div class="in">
+      <div class="closing rv">
+        <h2 id="start-title">AI는 우리 가게를<br>얼마나 알고 있을까요?</h2>
+        <a class="btn p" href="#top">무료로 확인하기 <i aria-hidden="true">›</i></a>
+        <p>가게 이름과 지도 링크, 두 가지만 준비하세요.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ft wrap">
+  <div class="in rv">
+    <div>
+      <div><b>(주)seelo</b> &nbsp;|&nbsp; 숭실대학교 창의프로젝트1 5조 &nbsp;|&nbsp; 대표 김태욱, 강가힐</div>
+      <div>개인정보보호책임자 김태욱 &nbsp;|&nbsp; 사업자 번호 281-90-03228 &nbsp;|&nbsp; 문의 rkglf010@naver.com</div>
+      <div>주소 경기도 수원시 영통구</div>
+      <div class="links"><span>이용약관</span><span>개인정보 처리방침</span></div>
+    </div>
+    <div class="lg" aria-hidden="true">seelo</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  root.classList.add('js');
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* FAQ 펼치기 */
+  [].forEach.call(document.querySelectorAll('.q button'),function(b){
+    b.addEventListener('click',function(){
+      var q=b.parentNode, open=!q.classList.contains('open');
+      q.classList.toggle('open',open); b.setAttribute('aria-expanded',open?'true':'false');
+    });
+  });
+
+  if(reduce) return;
+
+  var hero=document.querySelector('.hero');
+  var items=[].slice.call(document.querySelectorAll('.rv'));
+  var queued=false;
+
+  /* 화면에 들어오면 나타나고, 화면 밖으로 완전히 나가면 다시 숨긴다. 위로 다시 올려도 같은 효과가 난다. */
+  function update(){
+    queued=false;
+    var H=window.innerHeight||800, line=H*.92, hit=[];
+    items.forEach(function(e){
+      var r=e.getBoundingClientRect(), on=e.classList.contains('on');
+      if(r.top<line && r.bottom>H*.04){ if(!on) hit.push({e:e,t:r.top,l:r.left}); }
+      else if((r.bottom<=0||r.top>=H) && on){ e.style.transitionDelay='0ms'; e.classList.remove('on'); }
+    });
+    hit.sort(function(a,b){return a.t-b.t||a.l-b.l;});
+    hit.forEach(function(x,i){ x.e.style.transitionDelay=Math.min(i*90,360)+'ms'; x.e.classList.add('on'); });
+
+    /* 첫 화면: 완전히 지나가면 처음 상태로 돌리고, 다시 보이면 제목부터 다시 재생 */
+    var hb=hero.getBoundingClientRect().bottom, playing=hero.classList.contains('play');
+    if(hb<=0 && playing) hero.classList.remove('play');
+    else if(hb>80 && !playing) hero.classList.add('play');
+  }
+  function request(){ if(!queued){ queued=true; requestAnimationFrame(update); } }
+  window.addEventListener('scroll',request,{passive:true});
+  window.addEventListener('resize',request);
+  requestAnimationFrame(function(){ requestAnimationFrame(update); });
+})();
+</script>
+
+</body>
+</html>
