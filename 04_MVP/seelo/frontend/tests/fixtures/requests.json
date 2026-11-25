@@ -1,0 +1,94 @@
+{
+  "ShopCreate": [
+    {
+      "platform": "cafe24",
+      "externalId": "test-mall",
+      "shopNo": 1,
+      "name": "시험 스토어"
+    },
+    {
+      "storeUrl": "https://smartstore.naver.com/seelo"
+    }
+  ],
+  "ProductImport": [
+    {
+      "externalId": "1001"
+    },
+    {
+      "productUrl": "https://test-mall.cafe24.com/product/detail.html?product_no=1001"
+    }
+  ],
+  "ManualSnapshot": {
+    "externalId": "1001",
+    "name": "시험 상품",
+    "identity": "MODEL-1::silver",
+    "fields": {
+      "description": "기존 상품 소개"
+    }
+  },
+  "FactsInput": {
+    "facts": [
+      {
+        "key": "model",
+        "value": "MODEL-1",
+        "identity": "MODEL-1::silver",
+        "sourceUrl": "https://example.com/model",
+        "quote": "모델 MODEL-1 안내"
+      }
+    ]
+  },
+  "ResearchInput": {
+    "sourceUrls": ["https://example.com/model"]
+  },
+  "AnswerInput": {
+    "answers": {
+      "size": "500mL"
+    }
+  },
+  "PlanCreate": {
+    "fields": ["description"],
+    "requiredFacts": ["size"],
+    "useAi": false,
+    "allowEditorConversion": false
+  },
+  "PlanApprove": {
+    "snapshotHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "fields": ["description"],
+    "editorConversionConfirmed": false
+  },
+  "PublicationCheck": {
+    "pcUrl": "https://example.com/pc",
+    "mobileUrl": "https://example.com/mobile",
+    "pcMatches": true,
+    "mobileMatches": false,
+    "note": "PC 일치, 모바일 확인 중"
+  },
+  "ManualResult": {
+    "values": {
+      "description": "승인한 변경 값"
+    },
+    "note": "관리 화면에서 저장·재조회 확인"
+  },
+  "PrepareInput": {
+    "sourceUrls": ["https://example.com/maker"]
+  },
+  "MeasureSetCreate": {
+    "name": "기본",
+    "queries": [
+      {
+        "id": "G01",
+        "family": "general",
+        "question": "보온 텀블러를 찾아줘"
+      }
+    ],
+    "targetNames": ["시험 상품"],
+    "targetUrls": [
+      "https://test-mall.cafe24.com/product/detail.html?product_no=1001"
+    ]
+  },
+  "MeasureRunCreate": {
+    "label": "B0",
+    "provider": "openai",
+    "repeats": 3
+  }
+}

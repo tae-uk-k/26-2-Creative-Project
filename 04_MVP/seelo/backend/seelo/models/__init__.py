@@ -1,6 +1,16 @@
 """모든 ORM 모델을 한곳에서 불러온다(Alembic 비교·관계 해석용)."""
 
 from seelo.models.base import Base
+from seelo.models.commerce import (
+    CommerceJob,
+    CommerceMeasureAnswer,
+    CommerceMeasureRun,
+    CommerceMeasureSet,
+    CommercePlan,
+    CommerceProduct,
+    CommerceShop,
+    CommerceWrite,
+)
 from seelo.models.finding import Finding
 from seelo.models.fix import FixLog, FixPlan, FixPlanItem, FixRequest, MapConnection, RemeasureSchedule
 from seelo.models.measurement import (
@@ -33,6 +43,14 @@ __all__ = [
     "AuthToken",
     "Base",
     "ComparisonReport",
+    "CommerceJob",
+    "CommerceMeasureAnswer",
+    "CommerceMeasureRun",
+    "CommerceMeasureSet",
+    "CommercePlan",
+    "CommerceProduct",
+    "CommerceShop",
+    "CommerceWrite",
     "EmailLog",
     "Finding",
     "FixLog",

@@ -290,11 +290,92 @@ class EmailStatus(StrEnum):
     FAILED = "failed"
 
 
+class CommercePlatform(StrEnum):
+    CAFE24 = "cafe24"
+    SMARTSTORE = "smartstore"
+
+
+class CommerceManagerStatus(StrEnum):
+    NOT_REQUESTED = "not_requested"
+    INVITED = "invited"
+    VERIFIED = "verified"
+    REVOKED = "revoked"
+
+
+class CommerceApiStatus(StrEnum):
+    NOT_CONNECTED = "not_connected"
+    AUTHORIZED = "authorized"
+    READ_VERIFIED = "read_verified"
+    WRITE_VERIFIED = "write_verified"
+    REVOKED = "revoked"
+
+
+class CommercePlanStatus(StrEnum):
+    DRAFT = "draft"
+    APPROVED = "approved"
+    NO_CHANGES = "no_changes"
+    APPLYING = "applying"
+    APPLIED = "applied"
+    PENDING_REFLECTION = "pending_reflection"
+    UNCERTAIN = "uncertain"
+    CONFLICT = "conflict"
+    REJECTED = "rejected"
+    MANUAL_REQUIRED = "manual_required"
+    MANUAL_RECORDED = "manual_recorded"
+    ROLLED_BACK = "rolled_back"
+    SUPERSEDED = "superseded"
+
+
+class CommerceWriteAction(StrEnum):
+    APPLY = "apply"
+    ROLLBACK = "rollback"
+
+
+class CommerceJobKind(StrEnum):
+    COLLECT = "collect"
+    APPLY = "apply"
+    ROLLBACK = "rollback"
+    VERIFY = "verify"
+    CATALOG = "catalog"
+    PREPARE = "prepare"
+    FORGET_SESSION = "forget_session"
+    MEASURE = "measure"
+
+
+class CommerceMeasureRunStatus(StrEnum):
+    QUEUED = "queued"
+    RUNNING = "running"
+    COMPLETED = "completed"
+    PARTIAL = "partial"
+    FAILED = "failed"
+
+
+class CommerceMeasureAnswerStatus(StrEnum):
+    OK = "ok"
+    FAILED = "failed"
+
+
+class CommerceJobStatus(StrEnum):
+    QUEUED = "queued"
+    RUNNING = "running"
+    SUCCEEDED = "succeeded"
+    FAILED = "failed"
+
+
 TERMINAL_FIX_LOG = frozenset({FixLogStatus.APPLIED, FixLogStatus.MANUAL_DONE, FixLogStatus.DISCONNECTED})
 ACTIVE_REQUEST = frozenset(set(FixRequestStatus) - {FixRequestStatus.REJECTED, FixRequestStatus.REPORT_READY})
 
 # (테이블, 컬럼) → Enum. DDL의 CHECK 값 목록과 같아야 한다(tests/integration/test_schema.py).
 CHECK_ENUMS: dict[tuple[str, str], type[StrEnum]] = {
+    ("commerce_shops", "platform"): CommercePlatform,
+    ("commerce_shops", "manager_status"): CommerceManagerStatus,
+    ("commerce_shops", "api_status"): CommerceApiStatus,
+    ("commerce_plans", "status"): CommercePlanStatus,
+    ("commerce_writes", "action"): CommerceWriteAction,
+    ("commerce_jobs", "kind"): CommerceJobKind,
+    ("commerce_jobs", "status"): CommerceJobStatus,
+    ("commerce_measure_runs", "status"): CommerceMeasureRunStatus,
+    ("commerce_measure_answers", "status"): CommerceMeasureAnswerStatus,
     ("users", "role"): Role,
     ("auth_identities", "provider"): AuthProvider,
     ("auth_tokens", "type"): TokenType,

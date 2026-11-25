@@ -13,7 +13,12 @@
 from typing import Any
 from urllib.parse import urlparse
 
-LOGIN_HOSTS = {"google": {"accounts.google.com"}, "kakao": {"accounts.kakao.com", "logins.daum.net"}}  # [PoC]
+LOGIN_HOSTS = {
+    "google": {"accounts.google.com"},
+    "kakao": {"accounts.kakao.com", "logins.daum.net"},
+    "smartstore": {"accounts.commerce.naver.com", "nid.naver.com"},
+    "cafe24": {"eclogin.cafe24.com", "user.cafe24.com", "www.cafe24.com"},
+}
 CAPTCHA_SELECTOR = 'iframe[src*="recaptcha"], iframe[title*="reCAPTCHA"], iframe[src*="captcha"]'
 BLOCK_TEXTS = [
     "보안 확인",

@@ -13,6 +13,15 @@ PROVIDER_LABEL = {"google": "구글", "kakao": "카카오", "email": "이메일"
 
 # 코드: (HTTP 상태, 문구). 문구의 {provider}는 details.provider를 PROVIDER_LABEL로 바꿔 넣는다.
 ERRORS: dict[str, tuple[int, str]] = {
+    "COMMERCE_INVALID": (422, "쇼핑몰·상품·근거 정보를 확인해 주세요"),
+    "COMMERCE_DUPLICATE": (409, "이미 등록한 쇼핑몰 또는 상품이에요"),
+    "COMMERCE_NOT_CONNECTED": (409, "상품 API 인증이 필요해요. 관리자 초대와는 별도예요"),
+    "COMMERCE_NOT_CONFIGURED": (503, "공식 앱 설정과 판매자 연결을 먼저 완료해 주세요"),
+    "COMMERCE_PROVIDER_ERROR": (503, "쇼핑몰 응답을 확인하지 못했어요. 연결 상태를 확인해 주세요"),
+    "COMMERCE_SOURCE_CHANGED": (409, "상품 정보가 바뀌었어요. 다시 수집하고 정비안을 확인해 주세요"),
+    "COMMERCE_WRITES_DISABLED": (409, "현재 상품 자동 수정은 꺼져 있어요"),
+    "COMMERCE_AI_UNAVAILABLE": (503, "로컬 AI 연결과 모델 설정을 확인해 주세요"),
+    "COMMERCE_OAUTH_INVALID": (400, "연결 요청이 만료됐거나 일치하지 않아요. 다시 연결해 주세요"),
     "VALIDATION_ERROR": (422, "입력값을 확인해 주세요"),
     "EMAIL_TAKEN": (409, "이 이메일은 {provider}로 가입되어 있어요"),
     "INVALID_CREDENTIALS": (401, "이메일 또는 비밀번호가 맞지 않아요"),

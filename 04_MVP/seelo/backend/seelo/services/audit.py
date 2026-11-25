@@ -18,6 +18,19 @@ ACTIONS = frozenset(
         "fix_plan.approve",
         "store.change",
         "account.delete",
+        "commerce.register",
+        "commerce.manager",
+        "commerce.authorize",
+        "commerce.disconnect",
+        "commerce.collect",
+        "commerce.facts",
+        "commerce.plan",
+        "commerce.approve",
+        "commerce.write",
+        "commerce.publication",
+        "commerce.manual",
+        "commerce.job",
+        "commerce.measure",
     }
 )
 

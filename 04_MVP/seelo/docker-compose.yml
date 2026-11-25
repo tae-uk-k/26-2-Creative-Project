@@ -83,7 +83,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile.fix
     image: seelo-backend-fix:dev
-    command: ["python", "-m", "seelo.worker.run", "--queues", "fix", "--concurrency", "2", "--name", "fix"]
+    command: ["python", "-m", "seelo.worker.run", "--queues", "fix,commerce_browser", "--concurrency", "2", "--name", "fix"]
     volumes:
       - browser:/data/browser
     depends_on:
@@ -92,10 +92,15 @@ services:
     profiles: ["fix"]
 
   web:
-    image: nginx:1.27
+    # 프런트 빌드 결과를 담은 nginx 이미지. 설정과 배포 메타 파일만 마운트한다.
+    build:
+      context: ./frontend
+      args:
+        NGINX_IMAGE: nginx:1.27
+    image: seelo-web:dev
     volumes:
       - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./infra/nginx/html:/usr/share/nginx/html:ro
+      - ./infra/nginx/meta:/usr/share/nginx/meta:ro
     ports:
       - "8080:80"
     depends_on:

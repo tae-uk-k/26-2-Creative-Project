@@ -5,6 +5,14 @@ import re
 import pytest
 from sqlalchemy import select
 
+from seelo.models.commerce import (
+    CommerceJob,
+    CommerceMeasureRun,
+    CommerceMeasureSet,
+    CommercePlan,
+    CommerceProduct,
+    CommerceShop,
+)
 from seelo.models.fix import MapConnection
 from seelo.models.report import ComparisonReport
 from seelo.services import remeasure_service, report_service
@@ -23,6 +31,51 @@ async def assert_other_ids_denied(db, client):
     report_id = await db.scalar(select(ComparisonReport.id))
     await report_service.generate(report_id)
     connection_id = await db.scalar(select(MapConnection.id).limit(1))
+    shop = CommerceShop(
+        owner_id=w["owner_id"], platform="cafe24", external_id="securitydemo", shop_no=1, name="보안 시험몰"
+    )
+    db.add(shop)
+    await db.flush()
+    product = CommerceProduct(
+        shop_id=shop.id,
+        external_id="123",
+        name="비공개 상품",
+        identity="보안 모델",
+        snapshot={"fields": {}, "raw": {}},
+        snapshot_hash="a" * 64,
+        snapshot_source="seller_supplied",
+        facts=[],
+        asked_fields=[],
+    )
+    db.add(product)
+    await db.flush()
+    commerce_plan = CommercePlan(
+        product_id=product.id, snapshot_hash="a" * 64, changes=[], questions=[], deferred=[]
+    )
+    db.add(commerce_plan)
+    await db.flush()
+    # 쇼핑몰 작업·AI 노출 진단 ID도 다른 고객에게 열리지 않아야 한다.
+    commerce_job = CommerceJob(
+        shop_id=shop.id, kind="collect", dedupe_key="collect:123", input={"productNo": "123"}, result={}
+    )
+    measure_set = CommerceMeasureSet(
+        product_id=product.id,
+        name="비공개 진단",
+        common_suffix="웹에서 제품을 찾아 3개까지 소개해줘.",
+        queries=[{"id": "G01", "family": "general", "question": "보온 텀블러를 찾아줘"}],
+        targets={"names": ["비공개 상품"], "urls": []},
+    )
+    db.add_all([commerce_job, measure_set])
+    await db.flush()
+    measure_run = CommerceMeasureRun(
+        set_id=measure_set.id,
+        product_id=product.id,
+        label="B0",
+        condition={"provider": "openai", "model": "m", "toolOptions": "t", "repeats": 1, "suffixHash": "h"},
+        snapshot_hash="a" * 64,
+    )
+    db.add(measure_run)
+    await db.commit()
     ids = {
         "run_id": w["run_id"],
         "plan_id": w["plan_id"],
@@ -30,6 +83,10 @@ async def assert_other_ids_denied(db, client):
         "request_id": w["request_id"],
         "fix_log_id": next(iter(w["logs"].values())),
         "connection_id": connection_id,
+        "shop_id": shop.id,
+        "product_id": product.id,
+        "job_id": commerce_job.id,
+        "set_id": measure_set.id,
     }
     bodies = {
         "/api/fix/plans/{plan_id}/approve": {"items": []},
@@ -45,7 +102,12 @@ async def assert_other_ids_denied(db, client):
         assert set(integer_ids) <= ids.keys(), ("미검증 ID 경로", path)
         if not integer_ids:
             continue
-        url = path.format(**ids)
+        route_ids = (
+            {**ids, "plan_id": commerce_plan.id, "run_id": measure_run.id}
+            if path.startswith("/api/commerce/")
+            else ids
+        )
+        url = path.format(**route_ids)
         for method in methods:
             if method not in {"get", "post", "put", "patch", "delete"}:
                 continue

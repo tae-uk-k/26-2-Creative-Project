@@ -99,3 +99,35 @@ def test_activation_rolls_back_env_and_current_together(tmp_path, fail):
     backups = list(tmp_path.glob("production.env.before-*"))
     assert len(backups) == 1 and backups[0].read_bytes() == original
     assert candidate.exists() and previous.exists()
+
+
+def test_browser_worker_is_opt_in_by_exact_setting():
+    assert deployment.browser_worker_enabled(b"A=1\nSEELO_BROWSER_WORKER=true\n")
+    assert deployment.browser_worker_enabled(b"SEELO_BROWSER_WORKER=true\r\n")
+    assert not deployment.browser_worker_enabled(b"SEELO_BROWSER_WORKER=false\n")
+    assert not deployment.browser_worker_enabled(b"# SEELO_BROWSER_WORKER=true\n")
+    assert not deployment.browser_worker_enabled(b"SEELO_BROWSER_WORKER=truex\n")
+
+
+@pytest.mark.skipif(os.name == "nt", reason="실제 운영 Linux symlink 동작은 CI에서 검증")
+def test_failed_activation_stops_browser_worker_of_new_release(tmp_path):
+    releases = tmp_path / "releases"
+    releases.mkdir()
+    previous, candidate = releases / "old", releases / "new"
+    previous.mkdir()
+    candidate.mkdir()
+    current = tmp_path / "current"
+    current.symlink_to(previous)
+    environment = tmp_path / "production.env"
+    environment.write_bytes(b"SEELO_IMAGE_TAG=previous\n")
+    calls = []
+
+    def verify():
+        raise RuntimeError("health_failed")
+
+    services = [*deployment.SERVICES, deployment.BROWSER_WORKER]
+    with pytest.raises(RuntimeError):
+        deployment.activate(candidate, current, environment, TAG, calls.append, verify, services)
+    assert deployment.BROWSER_WORKER in calls[0]
+    assert deployment.BROWSER_WORKER not in calls[1]
+    assert calls[2][-2:] == ["stop", deployment.BROWSER_WORKER]

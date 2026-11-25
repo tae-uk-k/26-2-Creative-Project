@@ -60,8 +60,9 @@ async def save_artifacts(page: Any, task: str, root: Path = ARTIFACTS_DIR) -> Pa
 class BrowserSession:
     """async with BrowserSession("google") as page: ..."""
 
-    def __init__(self, provider: str) -> None:
+    def __init__(self, provider: str, *, profile_path: str | None = None) -> None:
         self.provider = provider
+        self.profile_path = profile_path
         self._pw: Any = None
         self._ctx: Any = None
         self.page: Any = None
@@ -69,20 +70,38 @@ class BrowserSession:
     async def __aenter__(self) -> Any:
         from playwright.async_api import async_playwright  # 정비 워커에만 설치(의존성 그룹 browser)
 
-        prune_artifacts()
+        if self.profile_path is None:
+            prune_artifacts()
         self._pw = await async_playwright().start()
         self._ctx = await self._pw.chromium.launch_persistent_context(
-            user_data_dir=profile_dir(self.provider),
+            user_data_dir=self.profile_path or profile_dir(self.provider),
             headless=get_settings().browser_headless,
             locale="ko-KR",
             timezone_id="Asia/Seoul",
             viewport={"width": 1280, "height": 900},
         )
+        if self.profile_path:
+            from seelo.security.crypto import decrypt_json
+
+            state_file = Path(self.profile_path) / ".seelo-session.enc"
+            if state_file.exists():
+                state = decrypt_json(state_file.read_bytes())
+                await self._ctx.add_cookies(state.get("cookies", []))
         self.page = self._ctx.pages[0] if self._ctx.pages else await self._ctx.new_page()
         return self.page
 
     async def __aexit__(self, *exc: object) -> None:
-        if self._ctx is not None:
-            await self._ctx.close()
-        if self._pw is not None:
-            await self._pw.stop()
+        try:
+            if self.profile_path and self._ctx is not None:
+                from seelo.security.crypto import encrypt_json
+
+                # 직접 로그인한 전용 프로필의 세션 쿠키만 암호화한다. 일반 Chrome 쿠키는 읽지 않는다.
+                state_file = Path(self.profile_path) / ".seelo-session.enc"
+                pending = state_file.with_suffix(".tmp")
+                pending.write_bytes(encrypt_json({"cookies": await self._ctx.cookies()}))
+                pending.replace(state_file)
+        finally:
+            if self._ctx is not None:
+                await self._ctx.close()
+            if self._pw is not None:
+                await self._pw.stop()

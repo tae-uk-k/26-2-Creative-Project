@@ -15,6 +15,13 @@ from datetime import UTC, datetime
 from pathlib import Path, PurePosixPath
 
 SERVICES = ["api", "worker-main", "worker-ai-openai", "worker-ai-gemini", "web"]
+# 쇼핑몰 브라우저 작업(commerce_browser 큐)은 Playwright 이미지의 worker-fix가 실행한다.
+# 운영 env에 SEELO_BROWSER_WORKER=true를 명시한 경우에만 이미지를 빌드하고 함께 올린다.
+BROWSER_WORKER = "worker-fix"
+
+
+def browser_worker_enabled(content: bytes) -> bool:
+    return re.search(rb"(?m)^SEELO_BROWSER_WORKER=true\r?$", content) is not None
 HOST = "https://seelo.site"
 
 
@@ -111,7 +118,10 @@ def compose(release: Path, environment: Path) -> list[str]:
     ]
 
 
-def activate(candidate: Path, current: Path, environment: Path, tag: str, runner, verify) -> None:
+def activate(
+    candidate: Path, current: Path, environment: Path, tag: str, runner, verify, services=None
+) -> None:
+    services = list(services or SERVICES)
     if not current.is_symlink() or environment.is_symlink():
         raise ValueError("unexpected_deployment_layout")
     previous = current.resolve(strict=True)
@@ -128,7 +138,7 @@ def activate(candidate: Path, current: Path, environment: Path, tag: str, runner
         point_current(current, candidate)
         runner(
             compose(candidate, environment)
-            + ["up", "-d", "--no-deps", "--wait", "--wait-timeout", "180", *SERVICES]
+            + ["up", "-d", "--no-deps", "--wait", "--wait-timeout", "180", *services]
         )
         verify()
     except Exception:
@@ -139,6 +149,9 @@ def activate(candidate: Path, current: Path, environment: Path, tag: str, runner
             compose(previous, environment)
             + ["up", "-d", "--no-deps", "--wait", "--wait-timeout", "180", *SERVICES]
         )
+        if BROWSER_WORKER in services:
+            # 이전 릴리스에 브라우저 워커 이미지가 없을 수 있다. 작업은 큐에 남기고 워커만 멈춘다.
+            runner(compose(previous, environment) + ["stop", BROWSER_WORKER])
         raise
 
 
@@ -235,11 +248,41 @@ def main() -> None:
                 str(release / "backend"),
             ]
         )
-        (release / "infra/nginx/html/deployment.json").write_text(
+        # 화면은 프런트 빌드 결과를 담은 nginx 이미지로 제공한다. 타입·빌드 오류면 배포하지 않는다.
+        run(
+            [
+                "docker",
+                "build",
+                "--label",
+                "org.opencontainers.image.revision=" + args.commit,
+                "-t",
+                "seelo-web:" + tag,
+                str(release / "frontend"),
+            ]
+        )
+        services = list(SERVICES)
+        if browser_worker_enabled(environment.read_bytes()):
+            run(
+                [
+                    "docker",
+                    "build",
+                    "--label",
+                    "org.opencontainers.image.revision=" + args.commit,
+                    "-f",
+                    str(release / "backend/Dockerfile.fix"),
+                    "-t",
+                    "seelo-backend-fix:" + tag,
+                    str(release / "backend"),
+                ]
+            )
+            services.append(BROWSER_WORKER)
+        meta = release / "infra/nginx/meta"
+        meta.mkdir(parents=True, exist_ok=True)
+        (meta / "deployment.json").write_text(
             json.dumps({"commit": args.commit, "deployed_at_utc": stamp}) + "\n", encoding="utf-8"
         )
         stage = "activate"
-        activate(release, current, environment, tag, run, lambda: public_ready(args.commit))
+        activate(release, current, environment, tag, run, lambda: public_ready(args.commit), services)
         print(json.dumps({"status": "deployed", "commit": args.commit, "schema_migration": False}))
     except Exception as error:
         print(

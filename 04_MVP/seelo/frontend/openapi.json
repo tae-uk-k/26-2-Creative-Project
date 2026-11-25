@@ -610,6 +610,45 @@
         "title": "AdminStore",
         "type": "object"
       },
+      "AnswerInput": {
+        "additionalProperties": false,
+        "properties": {
+          "answers": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "maxProperties": 3,
+            "minProperties": 1,
+            "propertyNames": {
+              "enum": [
+                "purpose",
+                "model",
+                "material",
+                "size",
+                "weight",
+                "components",
+                "power",
+                "compatibility",
+                "care",
+                "ingredients",
+                "nutrition",
+                "serving",
+                "allergens",
+                "origin",
+                "storage",
+                "manufacturer"
+              ]
+            },
+            "title": "Answers",
+            "type": "object"
+          }
+        },
+        "required": [
+          "answers"
+        ],
+        "title": "AnswerInput",
+        "type": "object"
+      },
       "ApproveItem": {
         "properties": {
           "approvedValue": {
@@ -1367,6 +1406,84 @@
         "title": "EvidenceQuestion",
         "type": "object"
       },
+      "FactInput": {
+        "additionalProperties": false,
+        "properties": {
+          "identity": {
+            "maxLength": 250,
+            "minLength": 1,
+            "title": "Identity",
+            "type": "string"
+          },
+          "key": {
+            "enum": [
+              "purpose",
+              "model",
+              "material",
+              "size",
+              "weight",
+              "components",
+              "power",
+              "compatibility",
+              "care",
+              "ingredients",
+              "nutrition",
+              "serving",
+              "allergens",
+              "origin",
+              "storage",
+              "manufacturer"
+            ],
+            "title": "Key",
+            "type": "string"
+          },
+          "quote": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "title": "Quote",
+            "type": "string"
+          },
+          "sourceUrl": {
+            "maxLength": 2048,
+            "minLength": 1,
+            "title": "Sourceurl",
+            "type": "string"
+          },
+          "value": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Value",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "value",
+          "identity",
+          "sourceUrl",
+          "quote"
+        ],
+        "title": "FactInput",
+        "type": "object"
+      },
+      "FactsInput": {
+        "additionalProperties": false,
+        "properties": {
+          "facts": {
+            "items": {
+              "$ref": "#/components/schemas/FactInput"
+            },
+            "maxItems": 30,
+            "title": "Facts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "facts"
+        ],
+        "title": "FactsInput",
+        "type": "object"
+      },
       "FixRequestState": {
         "properties": {
           "canRequest": {
@@ -1958,6 +2075,50 @@
         "title": "MailTicketResponse",
         "type": "object"
       },
+      "ManagerStatus": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "invited",
+              "verified",
+              "revoked"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "storeId": {
+            "anyOf": [
+              {
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Storeid"
+          },
+          "storeName": {
+            "anyOf": [
+              {
+                "maxLength": 100,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Storename"
+          }
+        },
+        "required": [
+          "status"
+        ],
+        "title": "ManagerStatus",
+        "type": "object"
+      },
       "ManualDoneRequest": {
         "description": "E30. beforeValue는 자동으로 읽지 못해 before_value가 비었을 때만 저장한다.",
         "properties": {
@@ -2037,6 +2198,70 @@
         "title": "ManualItem",
         "type": "object"
       },
+      "ManualResult": {
+        "additionalProperties": false,
+        "properties": {
+          "note": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Note",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "maxProperties": 8,
+            "minProperties": 1,
+            "title": "Values",
+            "type": "object"
+          }
+        },
+        "required": [
+          "values",
+          "note"
+        ],
+        "title": "ManualResult",
+        "type": "object"
+      },
+      "ManualSnapshot": {
+        "additionalProperties": false,
+        "properties": {
+          "externalId": {
+            "pattern": "^[1-9][0-9]{0,18}$",
+            "title": "Externalid",
+            "type": "string"
+          },
+          "fields": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "maxProperties": 12,
+            "title": "Fields",
+            "type": "object"
+          },
+          "identity": {
+            "maxLength": 250,
+            "minLength": 1,
+            "title": "Identity",
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 250,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "externalId",
+          "name",
+          "identity",
+          "fields"
+        ],
+        "title": "ManualSnapshot",
+        "type": "object"
+      },
       "Me": {
         "properties": {
           "email": {
@@ -2113,6 +2338,123 @@
           "measuredAt"
         ],
         "title": "MeasureConditions",
+        "type": "object"
+      },
+      "MeasureQuery": {
+        "additionalProperties": false,
+        "properties": {
+          "family": {
+            "default": "general",
+            "pattern": "^[a-z_]{1,30}$",
+            "title": "Family",
+            "type": "string"
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]{1,20}$",
+            "title": "Id",
+            "type": "string"
+          },
+          "question": {
+            "maxLength": 500,
+            "minLength": 5,
+            "title": "Question",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "question"
+        ],
+        "title": "MeasureQuery",
+        "type": "object"
+      },
+      "MeasureRunCreate": {
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "maxLength": 20,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "title": "Label",
+            "type": "string"
+          },
+          "provider": {
+            "enum": [
+              "openai",
+              "gemini"
+            ],
+            "title": "Provider",
+            "type": "string"
+          },
+          "repeats": {
+            "default": 3,
+            "maximum": 5.0,
+            "minimum": 1.0,
+            "title": "Repeats",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "label",
+          "provider"
+        ],
+        "title": "MeasureRunCreate",
+        "type": "object"
+      },
+      "MeasureSetCreate": {
+        "additionalProperties": false,
+        "description": "고정 질문 세트. 질문에 대상 상품명·상품 URL을 넣지 않는다(자연 발견 측정).",
+        "properties": {
+          "commonSuffix": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 5,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Commonsuffix"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          },
+          "queries": {
+            "items": {
+              "$ref": "#/components/schemas/MeasureQuery"
+            },
+            "maxItems": 20,
+            "minItems": 1,
+            "title": "Queries",
+            "type": "array"
+          },
+          "targetNames": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 5,
+            "title": "Targetnames",
+            "type": "array"
+          },
+          "targetUrls": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 5,
+            "title": "Targeturls",
+            "type": "array"
+          }
+        },
+        "required": [
+          "name",
+          "queries"
+        ],
+        "title": "MeasureSetCreate",
         "type": "object"
       },
       "NamedRates": {
@@ -2313,6 +2655,108 @@
           "needsEmail"
         ],
         "title": "PendingSignupResponse",
+        "type": "object"
+      },
+      "PlanApprove": {
+        "additionalProperties": false,
+        "properties": {
+          "editorConversionConfirmed": {
+            "default": false,
+            "title": "Editorconversionconfirmed",
+            "type": "boolean"
+          },
+          "fields": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "maxItems": 8,
+                "minItems": 1,
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fields"
+          },
+          "snapshotHash": {
+            "pattern": "^[a-f0-9]{64}$",
+            "title": "Snapshothash",
+            "type": "string"
+          }
+        },
+        "required": [
+          "snapshotHash"
+        ],
+        "title": "PlanApprove",
+        "type": "object"
+      },
+      "PlanCreate": {
+        "additionalProperties": false,
+        "properties": {
+          "allowEditorConversion": {
+            "default": false,
+            "title": "Alloweditorconversion",
+            "type": "boolean"
+          },
+          "fields": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "maxItems": 8,
+                "minItems": 1,
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fields"
+          },
+          "requiredFacts": {
+            "anyOf": [
+              {
+                "items": {
+                  "enum": [
+                    "purpose",
+                    "model",
+                    "material",
+                    "size",
+                    "weight",
+                    "components",
+                    "power",
+                    "compatibility",
+                    "care",
+                    "ingredients",
+                    "nutrition",
+                    "serving",
+                    "allergens",
+                    "origin",
+                    "storage",
+                    "manufacturer"
+                  ],
+                  "type": "string"
+                },
+                "maxItems": 16,
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Requiredfacts"
+          },
+          "useAi": {
+            "default": true,
+            "title": "Useai",
+            "type": "boolean"
+          }
+        },
+        "title": "PlanCreate",
         "type": "object"
       },
       "PlanDetail": {
@@ -2720,6 +3164,54 @@
         "title": "Position",
         "type": "object"
       },
+      "PrepareInput": {
+        "additionalProperties": false,
+        "properties": {
+          "sourceUrls": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "title": "Sourceurls",
+            "type": "array"
+          }
+        },
+        "title": "PrepareInput",
+        "type": "object"
+      },
+      "ProductImport": {
+        "additionalProperties": false,
+        "description": "상품번호 또는 카페24 상품 주소. 스마트스토어 공개 주소의 번호는 원상품번호가 아니므로 받지 않는다.",
+        "properties": {
+          "externalId": {
+            "anyOf": [
+              {
+                "pattern": "^[1-9][0-9]{0,18}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Externalid"
+          },
+          "productUrl": {
+            "anyOf": [
+              {
+                "maxLength": 2048,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Producturl"
+          }
+        },
+        "title": "ProductImport",
+        "type": "object"
+      },
       "ProviderRates": {
         "properties": {
           "gemini": {
@@ -2734,6 +3226,46 @@
           "gemini"
         ],
         "title": "ProviderRates",
+        "type": "object"
+      },
+      "PublicationCheck": {
+        "additionalProperties": false,
+        "properties": {
+          "mobileMatches": {
+            "title": "Mobilematches",
+            "type": "boolean"
+          },
+          "mobileUrl": {
+            "maxLength": 2048,
+            "minLength": 1,
+            "title": "Mobileurl",
+            "type": "string"
+          },
+          "note": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Note",
+            "type": "string"
+          },
+          "pcMatches": {
+            "title": "Pcmatches",
+            "type": "boolean"
+          },
+          "pcUrl": {
+            "maxLength": 2048,
+            "minLength": 1,
+            "title": "Pcurl",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pcUrl",
+          "mobileUrl",
+          "pcMatches",
+          "mobileMatches",
+          "note"
+        ],
+        "title": "PublicationCheck",
         "type": "object"
       },
       "QuestionCount": {
@@ -3143,6 +3675,21 @@
         "title": "ReportSummary",
         "type": "object"
       },
+      "ResearchInput": {
+        "additionalProperties": false,
+        "properties": {
+          "sourceUrls": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "title": "Sourceurls",
+            "type": "array"
+          }
+        },
+        "title": "ResearchInput",
+        "type": "object"
+      },
       "ResetRequest": {
         "properties": {
           "password": {
@@ -3304,6 +3851,97 @@
           "kakao"
         ],
         "title": "SeeloAccounts",
+        "type": "object"
+      },
+      "SellerLink": {
+        "additionalProperties": false,
+        "properties": {
+          "accountId": {
+            "maxLength": 100,
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9_@.-]+$",
+            "title": "Accountid",
+            "type": "string"
+          }
+        },
+        "required": [
+          "accountId"
+        ],
+        "title": "SellerLink",
+        "type": "object"
+      },
+      "ShopCreate": {
+        "additionalProperties": false,
+        "description": "스토어 주소만 받아도 서버가 플랫폼·스토어 ID·쇼핑몰 번호를 판별한다.\n\n연결 도메인처럼 주소로 판별할 수 없을 때만 platform·externalId를 직접 받는다.",
+        "properties": {
+          "externalId": {
+            "anyOf": [
+              {
+                "pattern": "^[a-z0-9][a-z0-9_-]{1,49}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Externalid"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "maxLength": 100,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name"
+          },
+          "platform": {
+            "anyOf": [
+              {
+                "enum": [
+                  "cafe24",
+                  "smartstore"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Platform"
+          },
+          "shopNo": {
+            "anyOf": [
+              {
+                "maximum": 1000.0,
+                "minimum": 1.0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shopno"
+          },
+          "storeUrl": {
+            "anyOf": [
+              {
+                "maxLength": 2048,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Storeurl"
+          }
+        },
+        "title": "ShopCreate",
         "type": "object"
       },
       "SignupRequest": {
@@ -4601,6 +5239,1924 @@
         "summary": "Resend Verify",
         "tags": [
           "auth"
+        ]
+      }
+    },
+    "/api/commerce/cafe24/callback": {
+      "get": {
+        "operationId": "cafe_callback_api_commerce_cafe24_callback_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "state",
+            "required": true,
+            "schema": {
+              "maxLength": 200,
+              "title": "State",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "code",
+            "required": true,
+            "schema": {
+              "maxLength": 1000,
+              "title": "Code",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Cafe Callback",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/capabilities": {
+      "get": {
+        "operationId": "capabilities_api_commerce_capabilities_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Capabilities Api Commerce Capabilities Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Capabilities",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/jobs/{job_id}": {
+      "get": {
+        "operationId": "job_api_commerce_jobs__job_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "job_id",
+            "required": true,
+            "schema": {
+              "title": "Job Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Job Api Commerce Jobs  Job Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Job",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/measure-compare": {
+      "get": {
+        "description": "같은 질문 세트·측정 조건의 두 회차만 비교한다.",
+        "operationId": "measure_compare_api_commerce_measure_compare_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "before",
+            "required": true,
+            "schema": {
+              "minimum": 1,
+              "title": "Before",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "after",
+            "required": true,
+            "schema": {
+              "minimum": 1,
+              "title": "After",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Measure Compare Api Commerce Measure Compare Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Measure Compare",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/measure-runs/{run_id}": {
+      "get": {
+        "operationId": "measure_run_api_commerce_measure_runs__run_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "run_id",
+            "required": true,
+            "schema": {
+              "title": "Run Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Measure Run Api Commerce Measure Runs  Run Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Measure Run",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/measure-sets/{set_id}/runs": {
+      "post": {
+        "description": "같은 질문 세트·조건으로 측정한다. 호출 실패는 노출 0이 아니라 무효로 남긴다.",
+        "operationId": "create_measure_run_api_commerce_measure_sets__set_id__runs_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "set_id",
+            "required": true,
+            "schema": {
+              "title": "Set Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasureRunCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Create Measure Run Api Commerce Measure Sets  Set Id  Runs Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Measure Run",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/operator/shops": {
+      "get": {
+        "description": "운영자용 전체 고객 스토어. 초대 확인 대기를 먼저 보여 준다.",
+        "operationId": "operator_shops_api_commerce_operator_shops_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "managerStatus",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "pattern": "^(not_requested|invited|verified|revoked)$",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Managerstatus"
+            }
+          },
+          {
+            "in": "query",
+            "name": "query",
+            "required": false,
+            "schema": {
+              "default": "",
+              "maxLength": 200,
+              "title": "Query",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "maximum": 10000,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Pagesize",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Operator Shops Api Commerce Operator Shops Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Operator Shops",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/operator/tasks": {
+      "get": {
+        "description": "고객 승인 대기와 운영자 실행·결과 확인이 필요한 정비안.",
+        "operationId": "operator_tasks_api_commerce_operator_tasks_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Operator Tasks Api Commerce Operator Tasks Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Operator Tasks",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}": {
+      "get": {
+        "operationId": "plan_api_commerce_plans__plan_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Plan Api Commerce Plans  Plan Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Plan",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/apply": {
+      "post": {
+        "operationId": "apply_api_commerce_plans__plan_id__apply_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Apply",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/approve": {
+      "post": {
+        "operationId": "approve_api_commerce_plans__plan_id__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanApprove"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Approve Api Commerce Plans  Plan Id  Approve Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Approve",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/instructions": {
+      "get": {
+        "operationId": "instructions_api_commerce_plans__plan_id__instructions_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Instructions Api Commerce Plans  Plan Id  Instructions Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Instructions",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/manual-result": {
+      "post": {
+        "operationId": "manual_result_api_commerce_plans__plan_id__manual_result_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ManualResult"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Manual Result Api Commerce Plans  Plan Id  Manual Result Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Manual Result",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/publication": {
+      "post": {
+        "operationId": "publication_api_commerce_plans__plan_id__publication_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationCheck"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Publication Api Commerce Plans  Plan Id  Publication Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Publication",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/rollback": {
+      "post": {
+        "operationId": "rollback_api_commerce_plans__plan_id__rollback_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Rollback",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/verify": {
+      "post": {
+        "operationId": "verify_api_commerce_plans__plan_id__verify_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Verify",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/plans/{plan_id}/writes": {
+      "get": {
+        "operationId": "writes_api_commerce_plans__plan_id__writes_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "plan_id",
+            "required": true,
+            "schema": {
+              "title": "Plan Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Writes Api Commerce Plans  Plan Id  Writes Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Writes",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}": {
+      "get": {
+        "operationId": "product_api_commerce_products__product_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Product Api Commerce Products  Product Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Product",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/answers": {
+      "post": {
+        "operationId": "answers_api_commerce_products__product_id__answers_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnswerInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Answers Api Commerce Products  Product Id  Answers Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Answers",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/facts": {
+      "post": {
+        "operationId": "facts_api_commerce_products__product_id__facts_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FactsInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Facts Api Commerce Products  Product Id  Facts Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Facts",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/measure-runs": {
+      "get": {
+        "operationId": "measure_runs_api_commerce_products__product_id__measure_runs_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Measure Runs Api Commerce Products  Product Id  Measure Runs Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Measure Runs",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/measure-sets": {
+      "get": {
+        "operationId": "measure_sets_api_commerce_products__product_id__measure_sets_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Measure Sets Api Commerce Products  Product Id  Measure Sets Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Measure Sets",
+        "tags": [
+          "쇼핑몰"
+        ]
+      },
+      "post": {
+        "operationId": "create_measure_set_api_commerce_products__product_id__measure_sets_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasureSetCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Create Measure Set Api Commerce Products  Product Id  Measure Sets Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Measure Set",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/plans": {
+      "get": {
+        "operationId": "plans_api_commerce_products__product_id__plans_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Plans Api Commerce Products  Product Id  Plans Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Plans",
+        "tags": [
+          "쇼핑몰"
+        ]
+      },
+      "post": {
+        "operationId": "generate_api_commerce_products__product_id__plans_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Generate Api Commerce Products  Product Id  Plans Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Generate",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/prepare": {
+      "post": {
+        "operationId": "prepare_api_commerce_products__product_id__prepare_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrepareInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Prepare",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/products/{product_id}/research": {
+      "post": {
+        "operationId": "research_api_commerce_products__product_id__research_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "product_id",
+            "required": true,
+            "schema": {
+              "title": "Product Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResearchInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Research Api Commerce Products  Product Id  Research Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Research",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops": {
+      "get": {
+        "operationId": "shops_api_commerce_shops_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Shops Api Commerce Shops Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Shops",
+        "tags": [
+          "쇼핑몰"
+        ]
+      },
+      "post": {
+        "operationId": "register_api_commerce_shops_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ShopCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Register Api Commerce Shops Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Register",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}": {
+      "get": {
+        "operationId": "shop_api_commerce_shops__shop_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Shop Api Commerce Shops  Shop Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Shop",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/cafe24/authorize": {
+      "post": {
+        "operationId": "cafe_authorize_api_commerce_shops__shop_id__cafe24_authorize_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Cafe Authorize Api Commerce Shops  Shop Id  Cafe24 Authorize Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Cafe Authorize",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/catalog": {
+      "get": {
+        "operationId": "latest_catalog_api_commerce_shops__shop_id__catalog_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Latest Catalog Api Commerce Shops  Shop Id  Catalog Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Latest Catalog",
+        "tags": [
+          "쇼핑몰"
+        ]
+      },
+      "post": {
+        "description": "위임받은 관리 화면에서 플랫폼 상품 목록을 읽는다. 가져온 상품 목록과 다르다.",
+        "operationId": "request_catalog_api_commerce_shops__shop_id__catalog_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Request Catalog",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/disconnect": {
+      "post": {
+        "operationId": "disconnect_api_commerce_shops__shop_id__disconnect_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Disconnect Api Commerce Shops  Shop Id  Disconnect Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Disconnect",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/jobs": {
+      "get": {
+        "operationId": "shop_jobs_api_commerce_shops__shop_id__jobs_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Shop Jobs Api Commerce Shops  Shop Id  Jobs Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Shop Jobs",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/manager": {
+      "post": {
+        "operationId": "manager_api_commerce_shops__shop_id__manager_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ManagerStatus"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Manager Api Commerce Shops  Shop Id  Manager Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Manager",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/products": {
+      "get": {
+        "description": "seelo에 가져온 상품만 검색한다. 플랫폼의 전체 상품 목록이 아니다.",
+        "operationId": "products_api_commerce_shops__shop_id__products_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "query",
+            "required": false,
+            "schema": {
+              "default": "",
+              "maxLength": 200,
+              "title": "Query",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "maximum": 10000,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Pagesize",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Products Api Commerce Shops  Shop Id  Products Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Products",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/products/import": {
+      "post": {
+        "operationId": "collect_api_commerce_shops__shop_id__products_import_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductImport"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Collect",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/products/manual-snapshot": {
+      "post": {
+        "operationId": "manual_snapshot_api_commerce_shops__shop_id__products_manual_snapshot_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ManualSnapshot"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Manual Snapshot Api Commerce Shops  Shop Id  Products Manual Snapshot Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Manual Snapshot",
+        "tags": [
+          "쇼핑몰"
+        ]
+      }
+    },
+    "/api/commerce/shops/{shop_id}/smartstore/seller": {
+      "post": {
+        "operationId": "seller_api_commerce_shops__shop_id__smartstore_seller_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "shop_id",
+            "required": true,
+            "schema": {
+              "title": "Shop Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SellerLink"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Seller Api Commerce Shops  Shop Id  Smartstore Seller Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Seller",
+        "tags": [
+          "쇼핑몰"
         ]
       }
     },

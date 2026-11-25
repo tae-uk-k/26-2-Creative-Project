@@ -2,7 +2,9 @@
 
 import argparse
 import json
+import os
 import sys
+import uuid
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -28,7 +30,10 @@ def export(output: Path, *, check: bool = False) -> bool:
         return same
     if not same:
         output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(content, encoding="utf-8", newline="\n")
+        # 읽는 중인 프론트엔드 도구가 중간 JSON을 보지 않도록 완성한 파일로 교체한다.
+        pending = output.with_name(output.name + ".pending-" + uuid.uuid4().hex)
+        pending.write_text(content, encoding="utf-8", newline="\n")
+        os.replace(pending, output)
     return True
 
 

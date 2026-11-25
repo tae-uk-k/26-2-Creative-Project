@@ -6,7 +6,8 @@
 
 - 운영 브랜치: `backend-0-13`.
 - 해당 브랜치에 `04_MVP/seelo/**` 또는 배포 워크플로 변경을 push하면 실행한다.
-- PostgreSQL 테스트 DB에서 ruff·OpenAPI 계약·테스트 전체가 통과해야 배포 작업이 시작된다. 실제 공급자 키가 필요한 live 테스트는 별도다.
+- PostgreSQL 테스트 DB에서 ruff·OpenAPI 계약·백엔드 테스트 전체(쇼핑몰 브라우저 실행기의 로컬 HTML·Chromium 시험 포함)가 통과해야 한다. 실제 공급자 키가 필요한 live 테스트는 별도다.
+- 프런트는 Node 22.16 컨테이너에서 형식·타입·시험·빌드를 실행하고, 요청 계약 검사와 `frontend/Dockerfile` 이미지 빌드까지 통과해야 한다. (2026-11-25 추가. 실제 GitHub 실행은 아직 하지 않았다.)
 - 배포 작업은 한 번에 하나만 실행한다. GitHub Actions 실행 화면에서 결과와 실패 단계를 확인한다.
 
 ## 인증·접속
@@ -23,10 +24,10 @@
 1. `git archive`로 해당 커밋의 seelo 디렉터리를 패키징하고 SHA-256을 계산한다.
 2. IAP/SSH로 VM에 전달한다. GCP VM에서 Docker 이미지를 빌드하므로 이미지 레지스트리 로그인은 필요 없다.
 3. 안전한 아카이브 경로와 현재 DB revision을 확인한다. 새 migration이 있으면 자동 적용하지 않고 배포를 중단한다.
-4. DB 백업 후 커밋별 `/opt/seelo/releases/git-<SHA>-<시각>`에 배치한다.
+4. DB 백업 후 커밋별 `/opt/seelo/releases/git-<SHA>-<시각>`에 배치한다. 백엔드 이미지와 프런트 화면 이미지(`seelo-web:git-<SHA>`)를 빌드한다. 운영 env에 `SEELO_BROWSER_WORKER=true`가 있으면 Playwright 이미지(`seelo-backend-fix`)도 빌드하고 `worker-fix`를 함께 올린다. `deployment.json`은 `infra/nginx/meta`에 쓴다.
 5. 운영 환경의 이미지 태그와 `/opt/seelo/current`를 변경하고 API·메일 제외 기본 워커·AI 워커·nginx를 갱신한다. DB 컨테이너/볼륨은 교체하지 않는다.
 6. Docker readiness, 실제 HTTPS API/DB health, `/deployment.json`의 커밋 ID를 검증한다. 실패하면 운영 환경 파일과 current를 함께 이전 값으로 복원하고 이전 서비스를 올린다.
-7. GitHub에서도 실제 첫 화면의 “피그마 프로토타입” 링크와 HTTPS/DB/배포 커밋을 재확인한다.
+7. GitHub에서 `infra/scripts/check-web.py --secure-cookie`로 첫 화면·직접 경로 새로고침·정적 파일·없는 파일 404·API 프록시·CSRF 쿠키·배포 커밋을 확인한다. 같은 스크립트를 로컬 Docker 검증에도 쓴다. 실패 시 브라우저 워커만 새로 올린 경우에는 이전 서비스를 올린 뒤 `worker-fix`를 멈춘다.
 
 배포 로그는 VM `/var/log/seelo-deploy/`의 root 전용 파일에 남는다. 이전 설정·이미지·백업·실패한 후보 파일은 삭제하지 않는다. DB migration은 별도 검토·실행 뒤 다시 배포한다.
 

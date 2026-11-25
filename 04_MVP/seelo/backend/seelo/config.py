@@ -18,6 +18,28 @@ class Settings(BaseSettings):
     sentry_dsn: str | None = None
     fake_externals: bool = False
     fake_map_behavior: Literal["normal", "block", "reflect_delay"] = "normal"
+    # 쇼핑몰은 공식 연결을 마치고 승인한 상품만 쓴다. 가입·매니저 초대는 API 인증과 별개다.
+    commerce_writes_enabled: bool = False
+    commerce_edit_mode: Literal["browser", "api"] = "browser"
+    commerce_browser_config_dir: str = ""
+    commerce_browser_profile_root: str = "/data/browser/commerce"
+    # worker: API는 작업만 등록하고 브라우저가 있는 worker-fix가 실행한다(운영 기본).
+    # inline: 요청 안에서 바로 실행한다. 브라우저가 설치된 로컬 PC 검증에서만 쓴다.
+    commerce_browser_runner: Literal["worker", "inline"] = "worker"
+    # 이 시간보다 오래 실행 중인 작업은 중단 의심으로 표시한다. 저장 작업은 재전송하지 않고 재조회한다.
+    commerce_job_stale_minutes: int = 20
+    # 원본 수집 뒤 AI 조사·필요 정보 판단·정비안 생성을 자동으로 이어 간다(AI 모델 설정이 있을 때).
+    commerce_auto_prepare: bool = True
+    # 기존 본문·지정 자료 외에 웹 검색 인용 주소에서 공식 자료를 찾는다. 비용·시간이 들어 기본은 끈다.
+    commerce_web_discovery: bool = False
+    # 쇼핑몰의 누적 질문 상한은 미확정이다. 지도 베타의 3문항 정책을 이식하지 않는다.
+    commerce_question_limit: int | None = None
+    cafe24_client_id: str = ""
+    cafe24_client_secret: SecretStr = SecretStr("")
+    cafe24_api_version: str = "2026-09-01"
+    smartstore_solution_enabled: bool = False
+    smartstore_client_id: str = ""
+    smartstore_client_secret: SecretStr = SecretStr("")
 
     # DB·큐
     database_url: str

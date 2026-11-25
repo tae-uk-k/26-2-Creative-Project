@@ -9,6 +9,7 @@ TASK_MODULES = [
     "seelo.worker.tasks_measure",
     "seelo.worker.tasks_plan",
     "seelo.worker.tasks_fix",
+    "seelo.worker.tasks_commerce",
     "seelo.worker.tasks_report",
     "seelo.worker.tasks_email",
     "seelo.worker.periodic",
