@@ -1,0 +1,7 @@
+Browser tab: 682043686, Title: "seelo 볶은 귀리분말 300g : seelo", URL: "https://smartstore.naver.com/seelo/products/13890968867".
+1 AXWebArea Description: seelo 볶은 귀리분말 300g : seelo, URL: smartstore.naver.com/seelo/products/13890968867
+	2 container smartstore.naver.com says
+		3 text 2개 이상부터 구매하실 수 있습니다.
+		4 button OK
+
+The focused UI element is 4 button OK

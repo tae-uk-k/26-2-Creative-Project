@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "created_date": "2026-11-24",
+  "status": "계획. 아직 측정하지 않음.",
+  "contrast": "SEO와 일반 상세가 적용된 현재 상태 대비 GEO 상세 정비 후",
+  "surfaces": ["소비자용 ChatGPT 검색", "소비자용 Gemini"],
+  "repeats_per_wave": 3,
+  "primary_waves": ["B0", "B1", "P1", "P2"],
+  "base_runs": 288,
+  "treatment": "watermelon",
+  "control": "sacha",
+  "assignment_unit": "상품. 동일 상품의 네이버와 카페24는 함께 정비하거나 함께 유지한다.",
+  "targets": [
+    {
+      "key": "watermelon",
+      "identity": "seelo 수박씨 탈지 단백질 분말 300g",
+      "unit_price_krw": 24900,
+      "cafe24_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=14",
+      "smartstore_url": "https://smartstore.naver.com/seelo/products/13892740658",
+      "ground_truth": {
+        "ingredient": "수박씨 탈지 분말",
+        "net_weight_g": 300,
+        "packaging": "지퍼 파우치 1개",
+        "uses": ["우유·두유", "플레인 요거트", "스무디"],
+        "nutrition_quantity_verified": false,
+        "manufacturer_verified": false,
+        "origin_verified": false,
+        "source_kind": "사용자 승인 예시몰 구성. 실물 제조사 검증 자료가 아님."
+      }
+    },
+    {
+      "key": "sacha",
+      "identity": "seelo 사차인치 탈지 단백질 분말 300g",
+      "unit_price_krw": 22900,
+      "cafe24_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=15",
+      "smartstore_url": "https://smartstore.naver.com/seelo/products/13892740830",
+      "ground_truth": {
+        "ingredient": "사차인치 탈지 분말",
+        "net_weight_g": 300,
+        "packaging": "지퍼 파우치 1개",
+        "uses": ["우유·두유", "플레인 요거트", "스무디"],
+        "nutrition_quantity_verified": false,
+        "manufacturer_verified": false,
+        "origin_verified": false,
+        "source_kind": "사용자 승인 예시몰 구성. 실물 제조사 검증 자료가 아님."
+      }
+    }
+  ],
+  "common_suffix": "웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "natural_queries": [
+    {"id": "G01", "family": "general", "eligible_targets": ["watermelon", "sacha"], "question": "300g 안팎의 식물성 단백질 분말을 찾아줘."},
+    {"id": "G02", "family": "general", "eligible_targets": ["watermelon", "sacha"], "question": "콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘."},
+    {"id": "G03", "family": "general", "eligible_targets": ["watermelon", "sacha"], "question": "우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘."},
+    {"id": "G04", "family": "general", "eligible_targets": ["watermelon", "sacha"], "question": "플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘."},
+    {"id": "W01", "family": "ingredient", "eligible_targets": ["watermelon"], "question": "수박씨를 원료로 한 300g 단백질 분말을 찾아줘."},
+    {"id": "W02", "family": "ingredient", "eligible_targets": ["watermelon"], "question": "수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘."},
+    {"id": "W03", "family": "ingredient", "eligible_targets": ["watermelon"], "question": "두유에 섞어 먹을 수박씨 프로틴 분말을 찾아줘."},
+    {"id": "W04", "family": "ingredient", "eligible_targets": ["watermelon"], "question": "수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘."},
+    {"id": "S01", "family": "ingredient", "eligible_targets": ["sacha"], "question": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘."},
+    {"id": "S02", "family": "ingredient", "eligible_targets": ["sacha"], "question": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘."},
+    {"id": "S03", "family": "ingredient", "eligible_targets": ["sacha"], "question": "두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘."},
+    {"id": "S04", "family": "ingredient", "eligible_targets": ["sacha"], "question": "사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘."}
+  ],
+  "pending_nutrient_queries": {
+    "status": "영양성분 근거 자료 확보 전 비활성",
+    "rule": "상품별 적합성을 판정한 뒤 기준선 전에 문항과 수치를 확정한다. 예시 수치를 현재 seelo 함량으로 취급하지 않는다.",
+    "additional_runs_if_enabled_before_baseline": 96,
+    "queries": [
+      {"id": "N01", "question": "100g당 단백질이 50g 이상인 식물성 단백질 분말을 찾아줘. 영양성분 수치와 출처를 함께 알려줘."},
+      {"id": "N02", "question": "분말 30g 기준 단백질을 15g 이상 섭취할 수 있는 씨앗 원료 제품을 찾아줘. 계산 근거도 알려줘."},
+      {"id": "N03", "question": "단백질 함량이 높은 씨앗 원료 분말을 찾아줘. 같은 100g 기준으로 수치를 비교해줘."},
+      {"id": "N04", "question": "영양성분표에서 단백질 함량을 확인할 수 있는 식물성 분말을 찾아줘. 원료와 1회 사용량도 비교해줘."}
+    ]
+  },
+  "diagnostics_excluded_from_natural_score": [
+    {"id": "D01", "input": "정확한 상품명", "purpose": "출처 검색 진단. URL 지정 열람과 구분."},
+    {"id": "D02", "input": "상품 URL 1개", "purpose": "상품명·원료·용량·보관방법을 해당 페이지에서 읽는지 확인."},
+    {"id": "D03", "input": "정비 전 또는 후 본문만", "purpose": "검색 접근 문제가 있을 때의 정보 이해 통제 실험."}
+  ],
+  "measurement_rules": {
+    "fresh_conversation": true,
+    "no_brand_store_url_in_natural_prompt": true,
+    "no_current_project_context": true,
+    "do_not_feed_queries_or_baseline_answers_to_optimizer": true,
+    "normal_no_hit": 0,
+    "technical_error": "무효. 최대 1회 재실행하고 최초 실패도 보관.",
+    "explicit_url_access_failure": "접근 성공률에 반영. 정보 정답률은 읽기 실패로 분리.",
+    "dedupe_same_product_across_platforms": true,
+    "source_platforms": ["smartstore", "cafe24", "naver_shopping", "other", "unresolved"],
+    "nutrient_without_verified_data": "조건 충족 여부 미확인. 임의 함량으로 정답을 만들지 않음."
+  }
+}

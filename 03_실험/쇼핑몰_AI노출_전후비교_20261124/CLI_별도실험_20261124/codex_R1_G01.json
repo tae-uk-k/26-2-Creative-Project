@@ -1,0 +1,15 @@
+{
+  "run_id": "codex_R1_G01",
+  "timestamp_utc": "2026-11-23T18:39:08.908224+00:00",
+  "query_id": "G01",
+  "repeat": 1,
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "한 통 기준 **300~350g**인 식물성 단백질 분말 3개를 골랐습니다.\n\n| 제품명 | 중량 | 판매처 | 선택 이유 | 근거 |\n|---|---:|---|---|---|\n| 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 | 300g | 쿠팡 | 완두콩 단백질 분말을 원하는 경우. 300g 한 통 옵션이 있습니다. | [상품 페이지](https://www.coupang.com/vp/products/5766643925) |\n| 모닝파파 식물성 단백질 쉐이크 | 300g | 쿠팡 | 완두콩과 쌀을 사용한 쉐이크를 원하는 경우. 상품 정보에 분말형으로 표시돼 있습니다. | [상품 페이지](https://www.coupang.com/vp/products/7670489139?itemId=20460602038&vendorItemId=79543962504) |\n| 푸른들판 분리 대두 단백질 분말 | 350g | 11번가 | 대두 단백질을 원하는 경우. 판매 페이지에 분리대두단백 100%로 표시돼 있습니다. | [상품 페이지](https://www.11st.co.kr/products/2346080615) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-23T18:39:09.791707Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n"
+}

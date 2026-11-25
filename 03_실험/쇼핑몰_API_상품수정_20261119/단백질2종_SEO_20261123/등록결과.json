@@ -1,0 +1,37 @@
+{
+  "기준일": "2026-11-23",
+  "플랫폼": "카페24",
+  "몰": "xodnrdl06066.cafe24.com",
+  "상태": "등록 및 SEO 저장·공개 검증 완료",
+  "상세설명": "최초 기본 문단 등록 후 사용자 후속 지시에 따라 기존 seelo 상품 디자인으로 보완. 패키지·활용 사진 및 상품 안내 반영. GEO용 FAQ·스키마·JSON-LD 추가 없음.",
+  "최신상세기록": "상세페이지_보완/실행결과.md",
+  "상품": [
+    {
+      "key": "watermelon",
+      "상품명": "seelo 수박씨 탈지 단백질 분말 300g",
+      "상품번호": 14,
+      "상품코드": "P000000O",
+      "자체상품코드": "SEELO-WATERMELON-PROTEIN-300",
+      "가격": 24900,
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=14",
+      "SEO저장값일치": true,
+      "공개SEO일치": true,
+      "SEO전후본문동일": true,
+      "비로그인직접주문차단": true
+    },
+    {
+      "key": "sacha",
+      "상품명": "seelo 사차인치 탈지 단백질 분말 300g",
+      "상품번호": 15,
+      "상품코드": "P000000P",
+      "자체상품코드": "SEELO-SACHA-PROTEIN-300",
+      "가격": 22900,
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=15",
+      "SEO저장값일치": true,
+      "공개SEO일치": true,
+      "SEO전후본문동일": true,
+      "비로그인직접주문차단": true
+    }
+  ],
+  "미수행": ["GEO HTML 최적화", "AI 추천 성능 측정", "검색엔진 색인 확인", "실제 주문 및 결제"]
+}

@@ -1,0 +1,305 @@
+{
+  "run_id": "gemini-api-B0-G02-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:56:17+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G02",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "대두(콩), 완두콩이나 쌀·귀리 등의 곡물 대신 **씨앗류(호박씨, 아마씨, 해바라기씨 등)**만을 주원료로 만든 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. 나우푸드 스포츠 유기농 호박씨 단백질 분말 (NOW Foods Sports Organic Pumpkin Seed Protein)\n* **제품명**: 나우푸드 스포츠 유기농 호박씨 단백질 분말 무맛 (NOW Foods Sports Organic Pumpkin Seed Protein Powder, Unflavored)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCFXdX81oZ2R22vUoGXZmqVqEw0kJi3-hE6YNCNCbl3O5yyRf5qOxlZEABOB_3drHJoHpNxd9uF8EV18IMYfRHZz6lCOP0sy81ADEc1xVsRuKv28E8Qnxwl497ktxxNJnxZE8Y6SfkOPvcXPw-QuldMRTkfqZP47Nohtzf1PQ-MbVFKXVKSYiFg2gF9wNvLIX2gw4NwxOWXMRlqK2mzs=)\n* **선택 이유**: 콩류나 곡물류 첨가 없이 **유기농 호박씨 단백질 단일 원료**로만 만든 제품입니다. 대두(콩), 밀, 글루텐, 우유 등 알레르기 유발 성분을 배제한 제조 시설에서 생산되며, 호박씨 고유의 단백질과 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다.\n\n---\n\n### 2. 닥터 머레이 3종 씨앗 슈퍼푸드 비건 프로틴 파우더 (Dr. Murray's 3-Seed Vegan Protein Powder)\n* **제품명**: 닥터 머레이 슈퍼 푸드 3종 씨앗 단백질 분말 (Dr. Murray's Super Foods 3-Seed Protein Powder)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0xiebT1LvCp2AnidW2XSYo2U2gRQCj_OmHWR6bYJNKpqIJq8CtZ6Zrp5lc7wmJXG3WqkfPMg0_Tf5v7R5uPLGr_4cTozN2TrYfthIHWQ6XDQyjwhAJBB0mY_l8bv1SGwsVjXELXcxyr1R4iVfrTvjPR-xpU5bzG_VqADX7KZ8FSmjWHu-HJYQvEWM8LO4d4fARq_eksReKs4fc51Wyc=)\n* **선택 이유**: 대두나 완두콩, 곡물을 전혀 사용하지 않고 **호박씨, 아마씨, 해바라기씨** 3가지 씨앗류 단백질만을 조합해 만든 제품입니다. 대두 무함유(Soy-Free) 및 글루텐 프리 제품으로, 콩 단백질 섭취 시 소화가 불편한 분들이 식물성 씨앗 단백질을 다양하게 섭취하기에 적합합니다.\n\n---\n\n### 3. 스프라우트 리빙 심플 호박씨 단백질 (Sprout Living Simple Pumpkin Seed Protein)\n* **제품명**: 스프라우트 리빙 심플 호박씨 단백질 (Sprout Living Simple Pumpkin Seed Protein)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKkq2Of38idMe9Q7Amer2MOZa8Lv_rarmKfbmX6bYCFmEqdM-rlDBzktI7HrF6eXpM4G75qQlff73zNuf5BvDvB2qQTObluRzcxfVVDRanCpHz0lU4v8O03XHfyh1cLZj-kj8j354wyq7HF8nDIv5wN2TVLVpdxCG7KiIHzhOuWs8SdAzE7hLvTJJyauJygD72Q4=)\n* **선택 이유**: 화학 첨가물, 인공 감미료, 곡물이나 콩 단백질의 혼합 없이 **냉압착 유기농 호박씨 단일 원재료**만 곱게 갈아 만든 순수 단백질 파우더입니다. 원재료가 호박씨 가루 하나로만 구성되어 있어 알레르기 및 특정 곡물 제한 식단을 유지하는 경우 안전하게 활용할 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzfwtyGmKUNjvjrIhX13vSyzm9ouL9w3SCziZalikYOxvCCVV2c6JWBzuoSyJWgQWwhRv8VRvIdcu-VIYEwVFpRtD86lz8XG7CqxmpebTeZPJbRe05nFlZQPWEdDaS",
+      "title": "onejikgu.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCFXdX81oZ2R22vUoGXZmqVqEw0kJi3-hE6YNCNCbl3O5yyRf5qOxlZEABOB_3drHJoHpNxd9uF8EV18IMYfRHZz6lCOP0sy81ADEc1xVsRuKv28E8Qnxwl497ktxxNJnxZE8Y6SfkOPvcXPw-QuldMRTkfqZP47Nohtzf1PQ-MbVFKXVKSYiFg2gF9wNvLIX2gw4NwxOWXMRlqK2mzs=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8-Ug6RaiCyBlG90LcUhwXsWrr9GK2bdBDQ3ONkrOkHTQA6D1c_ebXXF2a5w1mYmzFTvRHGbrUz4qJ_eUccp9-CjQcExdK2eQLI-NqpldiRFJKAwKU20HLnj8-mMu-AEQL8T0r35nY-A4JWJZQ3epJFSwLmev9kCgK4VzvsAqizwNIl2cOqfBanwXeyQ0Qn0r7YOEPGw==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0xiebT1LvCp2AnidW2XSYo2U2gRQCj_OmHWR6bYJNKpqIJq8CtZ6Zrp5lc7wmJXG3WqkfPMg0_Tf5v7R5uPLGr_4cTozN2TrYfthIHWQ6XDQyjwhAJBB0mY_l8bv1SGwsVjXELXcxyr1R4iVfrTvjPR-xpU5bzG_VqADX7KZ8FSmjWHu-HJYQvEWM8LO4d4fARq_eksReKs4fc51Wyc=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzzW-kSXrXcgrgGsF_fTgD7yMKaE_U-Cz31ZlWarZ-ii6C8B4Va8WyvHqvMUPp6vRTcvy8tIVm_EpysHip3m7Ms9vNBo1bzWtNUUB359q4bnvdxALLEx6lq1f-X2SDnv6BJ6FHZ9xwZk1WAAXJqC_0XyAg8bmWT8iNERdAVgDBI0ATCB-U3L3NpR1qTwepxStL3NV3mD5KjNW75a2KqCW_RcBCqtr5Y9CjTR1-iw==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKkq2Of38idMe9Q7Amer2MOZa8Lv_rarmKfbmX6bYCFmEqdM-rlDBzktI7HrF6eXpM4G75qQlff73zNuf5BvDvB2qQTObluRzcxfVVDRanCpHz0lU4v8O03XHfyh1cLZj-kj8j354wyq7HF8nDIv5wN2TVLVpdxCG7KiIHzhOuWs8SdAzE7hLvTJJyauJygD72Q4=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8mNIFPYKdpKe4PTrek7FQKPaM5p3q6O6Cwd-gXXxxl6Js8BKex0LFNb05wrk1Kom6tWc26xw78BeNCex-AF7nq6WBViLX1oPTcOh78SKM73WAZB0VAGoTJxTgzxuuxlDkMKtVy1CicBLDjIs049WOJwSiKrrwBsu6ecQKw9bEcGO_ewtzXXmbKxdhCq7U_EQ=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkUgrtqQbYUxwoOcSGyw8-X1VDKGUridtFFA3Xv9UZ4oReRomwegGT6xXALIhA2acS_MebVJqIhmipmO-4xR3H6OlvG6z8p4JcL-FsxixfnnH1Buvf_jEuUcmD6T5-qewzciu9dBruBLD12H-onCcwSvs5G7ACIwX1Ll9C88W9bwd9vvOgWkUx09oYrg==",
+      "title": "reddit.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9b-4813PEJucq0UYu1cDEiQf_2nPBZ_jYwqi1eAXJQPZgnok_fDbDBvyQiqwA7hcEt4dM1LODS9VUPMlFIsEMOBMz7vco9nazW1ci4HHSSpQen6brVpfwPlX-X9lZ6da8iqFWp5NNgYjcLxSVFt-We4mVf_jtBixPqZvhy8w30M6LN2tHjNCtHj0lA2dZYrCp",
+      "title": "reddit.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "we4Ea9GDD6Gzvr0PyLmDgAs",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"Dr. Murray\" 3종 씨앗 프로틴 파우더 성분 iherb",
+    "호박씨 단백질 분말",
+    "\"나우푸드\" \"호박씨 단백질\" iherb",
+    "\"스프라우트 리빙\" 호박씨 단백질",
+    "씨앗 단백질 프로틴 파우더"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "대두(콩), 완두콩이나 쌀·귀리 등의 곡물 대신 **씨앗류(호박씨, 아마씨, 해바라기씨 등)**만을 주원료로 만든 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. 나우푸드 스포츠 유기농 호박씨 단백질 분말 (NOW Foods Sports Organic Pumpkin Seed Protein)\n* **제품명**: 나우푸드 스포츠 유기농 호박씨 단백질 분말 무맛 (NOW Foods Sports Organic Pumpkin Seed Protein Powder, Unflavored)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCFXdX81oZ2R22vUoGXZmqVqEw0kJi3-hE6YNCNCbl3O5yyRf5qOxlZEABOB_3drHJoHpNxd9uF8EV18IMYfRHZz6lCOP0sy81ADEc1xVsRuKv28E8Qnxwl497ktxxNJnxZE8Y6SfkOPvcXPw-QuldMRTkfqZP47Nohtzf1PQ-MbVFKXVKSYiFg2gF9wNvLIX2gw4NwxOWXMRlqK2mzs=)\n* **선택 이유**: 콩류나 곡물류 첨가 없이 **유기농 호박씨 단백질 단일 원료**로만 만든 제품입니다. 대두(콩), 밀, 글루텐, 우유 등 알레르기 유발 성분을 배제한 제조 시설에서 생산되며, 호박씨 고유의 단백질과 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다.\n\n---\n\n### 2. 닥터 머레이 3종 씨앗 슈퍼푸드 비건 프로틴 파우더 (Dr. Murray's 3-Seed Vegan Protein Powder)\n* **제품명**: 닥터 머레이 슈퍼 푸드 3종 씨앗 단백질 분말 (Dr. Murray's Super Foods 3-Seed Protein Powder)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0xiebT1LvCp2AnidW2XSYo2U2gRQCj_OmHWR6bYJNKpqIJq8CtZ6Zrp5lc7wmJXG3WqkfPMg0_Tf5v7R5uPLGr_4cTozN2TrYfthIHWQ6XDQyjwhAJBB0mY_l8bv1SGwsVjXELXcxyr1R4iVfrTvjPR-xpU5bzG_VqADX7KZ8FSmjWHu-HJYQvEWM8LO4d4fARq_eksReKs4fc51Wyc=)\n* **선택 이유**: 대두나 완두콩, 곡물을 전혀 사용하지 않고 **호박씨, 아마씨, 해바라기씨** 3가지 씨앗류 단백질만을 조합해 만든 제품입니다. 대두 무함유(Soy-Free) 및 글루텐 프리 제품으로, 콩 단백질 섭취 시 소화가 불편한 분들이 식물성 씨앗 단백질을 다양하게 섭취하기에 적합합니다.\n\n---\n\n### 3. 스프라우트 리빙 심플 호박씨 단백질 (Sprout Living Simple Pumpkin Seed Protein)\n* **제품명**: 스프라우트 리빙 심플 호박씨 단백질 (Sprout Living Simple Pumpkin Seed Protein)\n* **판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKkq2Of38idMe9Q7Amer2MOZa8Lv_rarmKfbmX6bYCFmEqdM-rlDBzktI7HrF6eXpM4G75qQlff73zNuf5BvDvB2qQTObluRzcxfVVDRanCpHz0lU4v8O03XHfyh1cLZj-kj8j354wyq7HF8nDIv5wN2TVLVpdxCG7KiIHzhOuWs8SdAzE7hLvTJJyauJygD72Q4=)\n* **선택 이유**: 화학 첨가물, 인공 감미료, 곡물이나 콩 단백질의 혼합 없이 **냉압착 유기농 호박씨 단일 원재료**만 곱게 갈아 만든 순수 단백질 파우더입니다. 원재료가 호박씨 가루 하나로만 구성되어 있어 알레르기 및 특정 곡물 제한 식단을 유지하는 경우 안전하게 활용할 수 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Dr.+Murray%22+3%EC%A2%85+%EC%94%A8%EC%95%97+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94+%EC%84%B1%EB%B6%84+iherb&client=app-vertex-grounding&safesearch=active\">&quot;Dr. Murray&quot; 3종 씨앗 프로틴 파우더 성분 iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%ED%98%B8%EB%B0%95%EC%94%A8+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">호박씨 단백질 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EB%82%98%EC%9A%B0%ED%91%B8%EB%93%9C%22+%22%ED%98%B8%EB%B0%95%EC%94%A8+%EB%8B%A8%EB%B0%B1%EC%A7%88%22+iherb&client=app-vertex-grounding&safesearch=active\">&quot;나우푸드&quot; &quot;호박씨 단백질&quot; iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%8A%A4%ED%94%84%EB%9D%BC%EC%9A%B0%ED%8A%B8+%EB%A6%AC%EB%B9%99%22+%ED%98%B8%EB%B0%95%EC%94%A8+%EB%8B%A8%EB%B0%B1%EC%A7%88&client=app-vertex-grounding&safesearch=active\">&quot;스프라우트 리빙&quot; 호박씨 단백질</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%94%A8%EC%95%97+%EB%8B%A8%EB%B0%B1%EC%A7%88+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">씨앗 단백질 프로틴 파우더</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzfwtyGmKUNjvjrIhX13vSyzm9ouL9w3SCziZalikYOxvCCVV2c6JWBzuoSyJWgQWwhRv8VRvIdcu-VIYEwVFpRtD86lz8XG7CqxmpebTeZPJbRe05nFlZQPWEdDaS",
+                "title": "onejikgu.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCFXdX81oZ2R22vUoGXZmqVqEw0kJi3-hE6YNCNCbl3O5yyRf5qOxlZEABOB_3drHJoHpNxd9uF8EV18IMYfRHZz6lCOP0sy81ADEc1xVsRuKv28E8Qnxwl497ktxxNJnxZE8Y6SfkOPvcXPw-QuldMRTkfqZP47Nohtzf1PQ-MbVFKXVKSYiFg2gF9wNvLIX2gw4NwxOWXMRlqK2mzs=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8-Ug6RaiCyBlG90LcUhwXsWrr9GK2bdBDQ3ONkrOkHTQA6D1c_ebXXF2a5w1mYmzFTvRHGbrUz4qJ_eUccp9-CjQcExdK2eQLI-NqpldiRFJKAwKU20HLnj8-mMu-AEQL8T0r35nY-A4JWJZQ3epJFSwLmev9kCgK4VzvsAqizwNIl2cOqfBanwXeyQ0Qn0r7YOEPGw==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0xiebT1LvCp2AnidW2XSYo2U2gRQCj_OmHWR6bYJNKpqIJq8CtZ6Zrp5lc7wmJXG3WqkfPMg0_Tf5v7R5uPLGr_4cTozN2TrYfthIHWQ6XDQyjwhAJBB0mY_l8bv1SGwsVjXELXcxyr1R4iVfrTvjPR-xpU5bzG_VqADX7KZ8FSmjWHu-HJYQvEWM8LO4d4fARq_eksReKs4fc51Wyc=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzzW-kSXrXcgrgGsF_fTgD7yMKaE_U-Cz31ZlWarZ-ii6C8B4Va8WyvHqvMUPp6vRTcvy8tIVm_EpysHip3m7Ms9vNBo1bzWtNUUB359q4bnvdxALLEx6lq1f-X2SDnv6BJ6FHZ9xwZk1WAAXJqC_0XyAg8bmWT8iNERdAVgDBI0ATCB-U3L3NpR1qTwepxStL3NV3mD5KjNW75a2KqCW_RcBCqtr5Y9CjTR1-iw==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKkq2Of38idMe9Q7Amer2MOZa8Lv_rarmKfbmX6bYCFmEqdM-rlDBzktI7HrF6eXpM4G75qQlff73zNuf5BvDvB2qQTObluRzcxfVVDRanCpHz0lU4v8O03XHfyh1cLZj-kj8j354wyq7HF8nDIv5wN2TVLVpdxCG7KiIHzhOuWs8SdAzE7hLvTJJyauJygD72Q4=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8mNIFPYKdpKe4PTrek7FQKPaM5p3q6O6Cwd-gXXxxl6Js8BKex0LFNb05wrk1Kom6tWc26xw78BeNCex-AF7nq6WBViLX1oPTcOh78SKM73WAZB0VAGoTJxTgzxuuxlDkMKtVy1CicBLDjIs049WOJwSiKrrwBsu6ecQKw9bEcGO_ewtzXXmbKxdhCq7U_EQ=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkUgrtqQbYUxwoOcSGyw8-X1VDKGUridtFFA3Xv9UZ4oReRomwegGT6xXALIhA2acS_MebVJqIhmipmO-4xR3H6OlvG6z8p4JcL-FsxixfnnH1Buvf_jEuUcmD6T5-qewzciu9dBruBLD12H-onCcwSvs5G7ACIwX1Ll9C88W9bwd9vvOgWkUx09oYrg==",
+                "title": "reddit.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9b-4813PEJucq0UYu1cDEiQf_2nPBZ_jYwqi1eAXJQPZgnok_fDbDBvyQiqwA7hcEt4dM1LODS9VUPMlFIsEMOBMz7vco9nazW1ci4HHSSpQen6brVpfwPlX-X9lZ6da8iqFWp5NNgYjcLxSVFt-We4mVf_jtBixPqZvhy8w30M6LN2tHjNCtHj0lA2dZYrCp",
+                "title": "reddit.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 310,
+                "endIndex": 458,
+                "text": "**제품명**: 나우푸드 스포츠 유기농 호박씨 단백질 분말 무맛 (NOW Foods Sports Organic Pumpkin Seed Protein Powder, Unflavored)"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 461,
+                "endIndex": 799,
+                "text": "**판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErCFXdX81oZ2R22vUoGXZmqVqEw0kJi3-hE6YNCNCbl3O5yyRf5qOxlZEABOB_3drHJoHpNxd9uF8EV18IMYfRHZz6lCOP0sy81ADEc1xVsRuKv28E8Qnxwl497ktxxNJnxZE8Y6SfkOPvcXPw-QuldMRTkfqZP47Nohtzf1PQ-MbVFKXVKSYiFg2gF9wNvLIX2gw4NwxOWXMRlqK2mzs=)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 802,
+                "endIndex": 931,
+                "text": "**선택 이유**: 콩류나 곡물류 첨가 없이 **유기농 호박씨 단백질 단일 원료**로만 만든 제품입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 933,
+                "endIndex": 1151,
+                "text": "대두(콩), 밀, 글루텐, 우유 등 알레르기 유발 성분을 배제한 제조 시설에서 생산되며, 호박씨 고유의 단백질과 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1280,
+                "endIndex": 1403,
+                "text": "**제품명**: 닥터 머레이 슈퍼 푸드 3종 씨앗 단백질 분말 (Dr. Murray's Super Foods 3-Seed Protein Powder)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1406,
+                "endIndex": 1744,
+                "text": "**판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0xiebT1LvCp2AnidW2XSYo2U2gRQCj_OmHWR6bYJNKpqIJq8CtZ6Zrp5lc7wmJXG3WqkfPMg0_Tf5v7R5uPLGr_4cTozN2TrYfthIHWQ6XDQyjwhAJBB0mY_l8bv1SGwsVjXELXcxyr1R4iVfrTvjPR-xpU5bzG_VqADX7KZ8FSmjWHu-HJYQvEWM8LO4d4fARq_eksReKs4fc51Wyc=)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1747,
+                "endIndex": 1932,
+                "text": "**선택 이유**: 대두나 완두콩, 곡물을 전혀 사용하지 않고 **호박씨, 아마씨, 해바라기씨** 3가지 씨앗류 단백질만을 조합해 만든 제품입니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1934,
+                "endIndex": 2125,
+                "text": "대두 무함유(Soy-Free) 및 글루텐 프리 제품으로, 콩 단백질 섭취 시 소화가 불편한 분들이 식물성 씨앗 단백질을 다양하게 섭취하기에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2236,
+                "endIndex": 2344,
+                "text": "**제품명**: 스프라우트 리빙 심플 호박씨 단백질 (Sprout Living Simple Pumpkin Seed Protein)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2347,
+                "endIndex": 2669,
+                "text": "**판매처**: [아이허브(iHerb) 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKkq2Of38idMe9Q7Amer2MOZa8Lv_rarmKfbmX6bYCFmEqdM-rlDBzktI7HrF6eXpM4G75qQlff73zNuf5BvDvB2qQTObluRzcxfVVDRanCpHz0lU4v8O03XHfyh1cLZj-kj8j354wyq7HF8nDIv5wN2TVLVpdxCG7KiIHzhOuWs8SdAzE7hLvTJJyauJygD72Q4=)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2672,
+                "endIndex": 2881,
+                "text": "**선택 이유**: 화학 첨가물, 인공 감미료, 곡물이나 콩 단백질의 혼합 없이 **냉압착 유기농 호박씨 단일 원재료**만 곱게 갈아 만든 순수 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2883,
+                "endIndex": 3053,
+                "text": "원재료가 호박씨 가루 하나로만 구성되어 있어 알레르기 및 특정 곡물 제한 식단을 유지하는 경우 안전하게 활용할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                7,
+                8
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"Dr. Murray\" 3종 씨앗 프로틴 파우더 성분 iherb",
+            "호박씨 단백질 분말",
+            "\"나우푸드\" \"호박씨 단백질\" iherb",
+            "\"스프라우트 리빙\" 호박씨 단백질",
+            "씨앗 단백질 프로틴 파우더"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1467,
+      "candidatesTokenCount": 1246,
+      "totalTokenCount": 5754,
+      "cachedContentTokenCount": 942,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1467
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 942
+        }
+      ],
+      "thoughtsTokenCount": 3041,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "we4Ea9GDD6Gzvr0PyLmDgAs"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:57:14+09:00"
+}

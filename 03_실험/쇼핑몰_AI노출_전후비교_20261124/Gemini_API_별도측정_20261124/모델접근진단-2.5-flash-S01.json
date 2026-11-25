@@ -1,0 +1,31 @@
+{
+  "run_id": "gemini-api-B0-S01-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:53:47+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-2.5-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S01",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "",
+  "citations": [],
+  "search_used": false,
+  "valid_for_scoring": false,
+  "error_type": "NOT_FOUND",
+  "retry_of": null,
+  "http_status": 404,
+  "error_response": {
+    "error": {
+      "code": 404,
+      "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).",
+      "status": "NOT_FOUND"
+    }
+  },
+  "completed_timestamp_kst": "2026-11-24T10:53:47+09:00"
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_G03_retry1",
+  "timestamp_utc": "2026-11-24T01:57:13.612298+00:00",
+  "query_id": "G03",
+  "repeat": 2,
+  "prompt": "우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "우유에 타 먹는 방법이 명시된 제품은 **마이프로틴 완두콩 프로틴**, 두유에 바닐라 맛을 더하고 싶다면 **올게인**, 스무디에 넣을 무향 분말을 원한다면 **나우푸드**가 맞습니다.\n\n| 제품명 | 판매처 | 선택 이유 | 근거 링크 |\n|---|---|---|---|\n| 마이프로틴 완두콩 프로틴 아이솔레이트 무첨가 | 마이프로틴 코리아 | 무첨가 버전은 분리완두단백 100%입니다. 공식 페이지는 분말 30g을 우유 150~250mL에 섞도록 안내합니다. | [공식 제품·섭취 안내](https://www.myprotein.co.kr/p/sports-nutrition/pea-protein-isolate-sample/12270213/) |\n| 올게인 컴플리트 식물성 단백질 분말 바닐라, 912g | 아이허브 | 완두·현미·녹두 단백질을 섞은 바닐라 맛 제품입니다. 판매 페이지는 식물성 우유에 섞도록 안내해 두유에 타 먹을 제품으로 골랐습니다. | [판매 페이지·원재료·섭취 안내](https://kr.iherb.com/pr/orgain-complete-plant-protein-powder-vanilla-2-01-lb-912-g/118772) |\n| 나우푸드 스포츠 완두 단백질 순수 무맛, 907g | 아이허브 | 무향 완두 단백질로, 1스쿱당 단백질 24g입니다. 판매 페이지는 원하는 음료에 섞도록 안내해 과일 스무디에 향을 추가하고 싶지 않을 때 적합합니다. | [판매 페이지·영양정보·섭취 안내](https://kr.iherb.com/pr/now-foods-sports-pea-protein-pure-unflavored-2-lbs-907-g/9858) |\n\n아이허브 두 제품은 확인한 판매 페이지에 재고가 표시됐습니다. 마이프로틴 무첨가 버전의 재고는 미확인입니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:57:14.172525Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:57:55.960539+00:00",
+  "retry_of": "codex_R2_G03",
+  "errors": [],
+  "timeout": false
+}

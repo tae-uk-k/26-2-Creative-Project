@@ -1,0 +1,28 @@
+{
+  "run_id": "agy_R1_G04",
+  "timestamp_utc": "2026-11-24T01:42:25.443401+00:00",
+  "query_id": "G04",
+  "repeat": 1,
+  "prompt": "플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Antigravity CLI; 별도 실험군",
+  "model": "gemini-3.8-flash-low",
+  "session": "새 CLI 프로세스 및 신규 대화",
+  "search_used": true,
+  "exit_code": 0,
+  "valid": false,
+  "result": {
+    "conversation_id": "2a058420-54ff-4d7b-9ca5-ac5dcab99d50",
+    "status": "SUCCESS",
+    "response": "",
+    "duration_seconds": 147.6055937,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 80157,
+      "output_tokens": 1135,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 579901,
+      "total_tokens": 81292
+    }
+  },
+  "stderr": "[agy] print timeout after 2m30s with turn in progress; returning partial output\n"
+}

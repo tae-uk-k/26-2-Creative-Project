@@ -1,0 +1,271 @@
+{
+  "run_id": "gemini-api-B0-G03-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:06:20+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G03",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "우유, 두유, 과일·채소 스무디 등에 섞어 마시기 좋은 대표적인 식물성 단백질 분말 제품 3가지입니다.\n\n---\n\n### 1. 올게인(Orgain) 유기농 식물성 프로틴 파우더\n* **제품명**: 올게인 오가닉 식물성 프로틴 파우더 (바닐라빈 / 크리미 초콜릿 퍼지 등)\n* **판매처**: [아이허브(iHerb) 올게인 브랜드관](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXpxIWX7U5j0VmowKup1rAK8JSrQ-D55SZmKa6Q7axOveNda-zzQqZqdBWn3giZrvp3E6cBO79S0LjNfSPQuLnl2huPVF8W-710sPoy-FIv6ATbQ==), [롯데온 올게인 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrt6dXyGZ5s_AA70NlkLSr3THy-s8QsfOaybEMxPcFmheLPWO2yKALiekmW7AmLFsdq-SpfWKqGI_gWHPcoGN6zyLlOHhh1EYqU3saLmt9uXcbK7Ms_oT-Z4WpT-0AwKStNmtouFOiYc68mXCy0ivrUlwTrRlXJ-wTRgvh4wNiC73-2JyBOzRmDv2pILRvCHprwzJC0oRq8_hikmp51UGtlkyjrPjei30hhDBkTEC9QwRc6RNmAZIm1W0WnIQ_WQmE)\n* **선택 이유**: \n  * 유기농 완두콩, 현미, 치아씨드 등 식물성 원료를 기반으로 만든 대표적인 비건 단백질 파우더입니다.\n  * 질감이 부드럽고 바닐라나 초코 풍미가 풍부하여 바나나, 베리류를 넣은 스무디나 두유, 우유 등에 섞었을 때 특유의 비린 맛 없이 자연스럽게 어우러집니다.\n\n---\n\n### 2. 매일유업 셀렉스 식물성 프로틴 당솔브 미숫가루맛 분말\n* **제품명**: 셀렉스 식물성 프로틴 당솔브 미숫가루맛 (266g)\n* **판매처**: [셀렉스 공식몰 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-iGJOUvj60x3yWMc3-sg76Hf2TcqIALYhqHJl_Hl9_IPZKi7vf0I88pCdlV1-3bhXlYCwJdoKv53SRMvXzumOR_EgtmBhIrW9niGpcLXqcez43ceAfQPSidpIrESerLtKtC1wEhhYiL4Y_vKAEWXxW8dg5n4stQ==), [매일유업 공식 안내 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SAnR_z2989HQKEkOqKmTjTTX3wfwsrUygzuQr8a2lNmS59uj8xnHZ2y1GeFD2RHgNopC9JdVDyWuHLdTfsNawKGlbRD0M9goY2aJzD2hEWo2Cqj5wxex4ZVUTn2k_SBxYNlxRy-8dfFKkqs=)\n* **선택 이유**:\n  * 100% 식물성 단백질 원료(분리대두단백 등)를 사용해 유당에 민감한 사람도 속 편하게 섭취할 수 있도록 설계된 분말형 제품입니다.\n  * 익숙하고 고소한 미숫가루맛으로, 흰 우유나 무가당 두유에 섞어 흔들어 마시면 맛의 조화가 뛰어나며 혈당 부담을 고려한 저당 및 이중 식이섬유 설계가 적용되어 있습니다.\n\n---\n\n### 3. 가든오브라이프(Garden of Life) 로우 오가닉 프로틴 파우더\n* **제품명**: 가든오브라이프 로우 오가닉 프로틴 파우더 (바닐라 / 무향 등)\n* **판매처**: [오플닷컴 가든오브라이프 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC4KqHNZ1q7udcWeVVdOJ-kaHtJ_mnQTiuq70GcVyJ7Cydst30Bh5fUPa0jV4xb3CUwoLkaPRKSY3YmbqM2UxkZqUq0kws232e4bOAIA0LMq4SZM8WQczdgt0dH6jSm1UWPEZFB7T0c3BZw==), [11번가 가든오브라이프 상품관](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUT9376l4IMzHG1foID8n7P62ZjbNTqlwAUg0gSejwMwzE4yJcQo9-xr909xO7WvkPsxCOZZacgPSG0hML1YErPAETnouEEG-Dci3J5ZM347OpDwFWv2nn6W5cRXfa9J7wHTHHbDF0tLys9OAw4gvMeIxFQ-h5Ys7vAStk6RUf6JqJ09XyBsZcEXPmmd2eNUO8kD-vYaLXwsurFX1BgB7q2U-NtAlRQVjEdOMCUE4ip-O__bh0Nx4l0jWNAPLpYFddg==)\n* **선택 이유**:\n  * 유기농 완두콩과 발아 곡물·씨앗류 등을 기반으로 열 변성을 최소화해 만든 식물성 단백질 파우더입니다.\n  * 유제품 및 대두를 사용하지 않았고 설탕 0g에 효소와 유산균이 함께 포함되어 있습니다. 인위적인 단맛이 적고 깔끔해 건강 스무디나 두유에 타서 베이스 단백질로 활용하기 좋습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXpxIWX7U5j0VmowKup1rAK8JSrQ-D55SZmKa6Q7axOveNda-zzQqZqdBWn3giZrvp3E6cBO79S0LjNfSPQuLnl2huPVF8W-710sPoy-FIv6ATbQ==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrt6dXyGZ5s_AA70NlkLSr3THy-s8QsfOaybEMxPcFmheLPWO2yKALiekmW7AmLFsdq-SpfWKqGI_gWHPcoGN6zyLlOHhh1EYqU3saLmt9uXcbK7Ms_oT-Z4WpT-0AwKStNmtouFOiYc68mXCy0ivrUlwTrRlXJ-wTRgvh4wNiC73-2JyBOzRmDv2pILRvCHprwzJC0oRq8_hikmp51UGtlkyjrPjei30hhDBkTEC9QwRc6RNmAZIm1W0WnIQ_WQmE",
+      "title": "lotteon.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfrE6WJcUi_D7sn8Z-MQtsZITvg992-DU9Oiz47QcrLY8Hiy7-4esgzzf5o2ZsHnSSYPnjccxB2Rdn0fTtsE6imxtluhDM-ytvRCGV0k55tC2PHtXlMQ==",
+      "title": "tistory.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-iGJOUvj60x3yWMc3-sg76Hf2TcqIALYhqHJl_Hl9_IPZKi7vf0I88pCdlV1-3bhXlYCwJdoKv53SRMvXzumOR_EgtmBhIrW9niGpcLXqcez43ceAfQPSidpIrESerLtKtC1wEhhYiL4Y_vKAEWXxW8dg5n4stQ==",
+      "title": "selexmall.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SAnR_z2989HQKEkOqKmTjTTX3wfwsrUygzuQr8a2lNmS59uj8xnHZ2y1GeFD2RHgNopC9JdVDyWuHLdTfsNawKGlbRD0M9goY2aJzD2hEWo2Cqj5wxex4ZVUTn2k_SBxYNlxRy-8dfFKkqs=",
+      "title": "maeil.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3Dfw2PqV2ssQHfj7ExyjaTJJqGOpk-BoX5ZsWSsaEb9DLpdd9yirmB6vI5NQxE6-3cc3UJ7u_-u3NQzluwpNwmWT8g6PD0Mi-8MGgIoQ6rnMF1AvZf4xx68tVSfwwqWAIoldkcGaSAVEiI_8DfYI=",
+      "title": "k-health.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC4KqHNZ1q7udcWeVVdOJ-kaHtJ_mnQTiuq70GcVyJ7Cydst30Bh5fUPa0jV4xb3CUwoLkaPRKSY3YmbqM2UxkZqUq0kws232e4bOAIA0LMq4SZM8WQczdgt0dH6jSm1UWPEZFB7T0c3BZw==",
+      "title": "ople.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVkT5dkWc_6L1vs4ht49OiY4Au2mnEKVixQrSV7jqDUH4IPnBE7bewVkSo2izCaGGEn8YkKoe7qyzL-RsvAlkZePAhx-_dD6HUwnoJdtaR6G8LtcnqETNNf8Ie_Fn0g==",
+      "title": "enuri.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "HPEEa7H6M8Hv2roPg6uX-Q4",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"셀렉스\" 식물성 단백질 분말",
+    "오게인 식물성 오가닉 프로틴 파우더",
+    "\"가든오브라이프\" 로우 오가닉 프로틴 파우더 판매처"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "우유, 두유, 과일·채소 스무디 등에 섞어 마시기 좋은 대표적인 식물성 단백질 분말 제품 3가지입니다.\n\n---\n\n### 1. 올게인(Orgain) 유기농 식물성 프로틴 파우더\n* **제품명**: 올게인 오가닉 식물성 프로틴 파우더 (바닐라빈 / 크리미 초콜릿 퍼지 등)\n* **판매처**: [아이허브(iHerb) 올게인 브랜드관](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXpxIWX7U5j0VmowKup1rAK8JSrQ-D55SZmKa6Q7axOveNda-zzQqZqdBWn3giZrvp3E6cBO79S0LjNfSPQuLnl2huPVF8W-710sPoy-FIv6ATbQ==), [롯데온 올게인 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrt6dXyGZ5s_AA70NlkLSr3THy-s8QsfOaybEMxPcFmheLPWO2yKALiekmW7AmLFsdq-SpfWKqGI_gWHPcoGN6zyLlOHhh1EYqU3saLmt9uXcbK7Ms_oT-Z4WpT-0AwKStNmtouFOiYc68mXCy0ivrUlwTrRlXJ-wTRgvh4wNiC73-2JyBOzRmDv2pILRvCHprwzJC0oRq8_hikmp51UGtlkyjrPjei30hhDBkTEC9QwRc6RNmAZIm1W0WnIQ_WQmE)\n* **선택 이유**: \n  * 유기농 완두콩, 현미, 치아씨드 등 식물성 원료를 기반으로 만든 대표적인 비건 단백질 파우더입니다.\n  * 질감이 부드럽고 바닐라나 초코 풍미가 풍부하여 바나나, 베리류를 넣은 스무디나 두유, 우유 등에 섞었을 때 특유의 비린 맛 없이 자연스럽게 어우러집니다.\n\n---\n\n### 2. 매일유업 셀렉스 식물성 프로틴 당솔브 미숫가루맛 분말\n* **제품명**: 셀렉스 식물성 프로틴 당솔브 미숫가루맛 (266g)\n* **판매처**: [셀렉스 공식몰 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-iGJOUvj60x3yWMc3-sg76Hf2TcqIALYhqHJl_Hl9_IPZKi7vf0I88pCdlV1-3bhXlYCwJdoKv53SRMvXzumOR_EgtmBhIrW9niGpcLXqcez43ceAfQPSidpIrESerLtKtC1wEhhYiL4Y_vKAEWXxW8dg5n4stQ==), [매일유업 공식 안내 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SAnR_z2989HQKEkOqKmTjTTX3wfwsrUygzuQr8a2lNmS59uj8xnHZ2y1GeFD2RHgNopC9JdVDyWuHLdTfsNawKGlbRD0M9goY2aJzD2hEWo2Cqj5wxex4ZVUTn2k_SBxYNlxRy-8dfFKkqs=)\n* **선택 이유**:\n  * 100% 식물성 단백질 원료(분리대두단백 등)를 사용해 유당에 민감한 사람도 속 편하게 섭취할 수 있도록 설계된 분말형 제품입니다.\n  * 익숙하고 고소한 미숫가루맛으로, 흰 우유나 무가당 두유에 섞어 흔들어 마시면 맛의 조화가 뛰어나며 혈당 부담을 고려한 저당 및 이중 식이섬유 설계가 적용되어 있습니다.\n\n---\n\n### 3. 가든오브라이프(Garden of Life) 로우 오가닉 프로틴 파우더\n* **제품명**: 가든오브라이프 로우 오가닉 프로틴 파우더 (바닐라 / 무향 등)\n* **판매처**: [오플닷컴 가든오브라이프 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC4KqHNZ1q7udcWeVVdOJ-kaHtJ_mnQTiuq70GcVyJ7Cydst30Bh5fUPa0jV4xb3CUwoLkaPRKSY3YmbqM2UxkZqUq0kws232e4bOAIA0LMq4SZM8WQczdgt0dH6jSm1UWPEZFB7T0c3BZw==), [11번가 가든오브라이프 상품관](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUT9376l4IMzHG1foID8n7P62ZjbNTqlwAUg0gSejwMwzE4yJcQo9-xr909xO7WvkPsxCOZZacgPSG0hML1YErPAETnouEEG-Dci3J5ZM347OpDwFWv2nn6W5cRXfa9J7wHTHHbDF0tLys9OAw4gvMeIxFQ-h5Ys7vAStk6RUf6JqJ09XyBsZcEXPmmd2eNUO8kD-vYaLXwsurFX1BgB7q2U-NtAlRQVjEdOMCUE4ip-O__bh0Nx4l0jWNAPLpYFddg==)\n* **선택 이유**:\n  * 유기농 완두콩과 발아 곡물·씨앗류 등을 기반으로 열 변성을 최소화해 만든 식물성 단백질 파우더입니다.\n  * 유제품 및 대두를 사용하지 않았고 설탕 0g에 효소와 유산균이 함께 포함되어 있습니다. 인위적인 단맛이 적고 깔끔해 건강 스무디나 두유에 타서 베이스 단백질로 활용하기 좋습니다.",
+              "thoughtSignature": "Eos/Cog/AWkUfROgcejJduggH0hsoMGWdyH7WRF8kfuc4q4LOcrq/EJlOc3WD93S385JpUDaEe0APO9CrpaGE7EAXl4dWTBhJ26b4oXfmUfMK72NRz0hYOskCMZB2NXvLIrDhGA+4FFB6ubrKt6yn7k8Aam1EzinBBkfwP7mmFqx6s8g445mODn/zTwT3J8mmViyTE/hcVnrQdw76p8/HS2lz+LP9X3kZA0qr3wrtMDfalhWMG46DnFcW4e0CwP/13PbGV3Rg0rXrz9nFAQPIo87nGfB50zsNzcIOzDzvsqpfJ3SBjI02usWIXrNo4e7XFvcpxZnLVIxG1Wa0+V5xga03GrsniNG776qgw10q84HEB+OU6Fn6emsp2vcKopmwKgmNsoW9KWBayaF6Gk566lAAfW7p69xqT6q9Qot3NWpXUH682xLROB9VC4leTCqYZm+c4dWo1+Vfg4EsjrreA8yCctg6gF9X5/Rsun71pIUx/9QgCt2JpUzfuWK4MQSaVAJEJEoEXhDhrugv1RMoN7oML1bMS7Ycs0o3MER9MAetb3qekspiy4crzbKMqWeK9m4HIUvkOyYbvmTPWLzMuIbbNGqXFgsLfXESEZx8Tu0/1x1/9rIBQ8WuP1T9TS83Q4KPPm4pH1g2Pbsf5ts2gn2IRfn1W464pUNTU06WjrBpMmqnut9XNtLLSO4xk8n2koCjTt1xX6oHYyCIKJMYeCJ8cpOrLVqs/idF5wJ0TndTqW+/zD0PdQPZMfQhF7NFloewIzuyfMnCmoRRV7bl/F+QsKU4XVqO5lmoyBBXA1Me/c0nariZcrkpzGb6THWgoOOXPqc/Im0zHLvTHdFzjJMS8nqNZPs6h9T6HsBTqjaiGoIta6SClldDY+0qJzCDYgVs8A577PiYhzUiqSM7u0/5Dv2Bx5e1N5l8kp3jU21EAu9YlFDTQC0PAgNP3mdd3LiT7wPqnoCqgNOheIg3rZmNPTH+mmwG3b3vnFV13SVuVi0iq/hZzZDnvQplb0XujvtCus/yukOeBlHAUpzQWmty77+G5OJmTbKWg/NXfyWWZ3USOPhIT5WT6axUiJXjwiUlm6mb9aX24fLsFJ6czTbVgTVcMkOlEBl0mwqAu+zjktdxgNXRUE/CpO/RoTrlmABPgBwxFzzXa5M5IAR+gFM+auexSWqwqYWunhv3YDtXUjYrFuk3loHylafK062Emg6l6XqG3OFx8JnCjTiXy3Gf+xGRCx2OWHbAP915B6+3Vh5PFKkUlUZ+bufmvKz6Y5M9ahANOmj38ZMIUC/y48uU9N2DOqoP2biPRhhY3wy/CZZ1oH9UNwgV+Jc9tCJ5exlzJYipcc0l19k9F7ziBwNrpAXCLStqfRPGTJD8ML2I/dnhxEtBC5ff/R1aJlJrFhI/nYkFm4YZmabsJXZk0LbtOYTdArxXXl8T2tmtTAfEhuhwiAEKEOVS0M++3o6+5gk2aGNGxvINSSB+rABbHktzlRL05+oEQ0+1TZGJdvHae968YEAPzabM7I2TCki+zH9zTnjRFMBNsJGPsU28lLT/bTCSJBYyFIpXDZu+UMvppFvuycX1E5pfrHQQ+bVCUEGWJaq3mveHf8vRTsXPK/9fdQl7B09iTOVVV6jpdJh6skqzhftem5Syky3aRAbk2hmVb7i0QaVRX71kG25SxmUrZ2O63juKP5E+xId/EtboahxgJwsXy/Q5Ajp927gjquhftXj6gLZ2p3jowNL4W+srK3TDP5TlAnWc/dr+6UlLUXmirQVd0eVVDoMJfZLxaRyBtX27bBRbEFSQTPpqmZf6U3WoJI+QCq9Lv555HbXeSAbCpQ02+zsmqafpxXUqgUd1NSxlUyQOp1C6J8v58nV0WJBhFK9j20pvu70C0vHtyY72t/tIU8RTTzTJ5wcSvxvPZOMGQFXvvO+8K0wSbv3bY0PRcH0hEsLVYNVE1fSyXCfzdsKpshyT72Ggx5Vc0ynvKCCxzqT3+Z25o5Jf9BRcw+Ptva0dsfPygLeaPq1yIz2ZfhC/FIeYCwIXgDrHwu6qPxM10BLeEUIxOHos4UOQMJg0ygbqKS2SKrV5zUUo4L20RcOH4hWjxdFv5g3y9J0rE7pvALApF+xOLQupNhFRz/zuuvvqkz6VZD/5PblF9toXWGwm9z1ncKs/ZeW831fXSzIoPu510/uHOf05/X/BhkvFdeWzpcTVKftG6ywgqHI7zX9Gc7j6DOdjmES75FiuaYr206FS7Jx93CTVCYtG3kUb7eoZPGtS6kvg0knjywTM3mhjM8sG71FR2EJP/D4JlCnM+lAyfS6La9EOr7MjMPI1s8L1z+qxVcyCAgs8VcMCerfhu3zUKquznCknTJA5HTkCSakjK3JFaakX8QGK0hE5RszdxgP0PGC6JsitsKqxR+AS6NvOSB4lCdokM5ojVQAEojSvcKf0Rzmzl2ANBdZNQR/d0tTIt5pMrcnM9ZCezAAB7GtyWwM54RQcDhAbWGiSNhvh+R0FZIhIjdFEXj9WAkjCRZH4/uHDwuWQbYqB7KHr8nm+5uYxEJAQijSgbeTYmKLgjM+Lf5RBopCaurtIWgGDN7CYfcXJ50phuCPUhRnnrInofu6JB/VyQy3ihfsBsHxEhvlyN4Xkp8wzmqmKkCD31PZMC1f6191RhcuKl+aCaixb3nBWuYpCXReh+icSw6ULPH2XuIsEkFxudXIc8QdnT0QZDPuPKvwReo626VetG68SPLvKBYLO1i3Aq3sY12tAXWtx/54R+D9JKTuto7AOBstTlLkSox5r1X9Icic4qVj694lGD3t1StAWY5RisiGnVg9pyjdMXfz/8BrN7ZmAVRUX4nkIQ0Yea1+ri513VRTfXivCtlixJI8+gqvnWGq7v0O73SnOtn/eJTeTqSVK05ddEENqVvLSA1w/p3kOdsdpJkubyHQ72l3ga1ZJ3/C0dsjoQ3X3Q4mWYdKM/0jaDMz/TcrTFcuk+kxkt8VgfmSqbVmIMpSMALiqmz/mnr6cPVadJ/4BdSaQOvN5qAoXJ4Uw0/547Dz2+L/X7aU0nO6Mju6oTMghWZAlQVstP0dI6DJ/qub9otMGMW2lIpwO3442+r+RfbDFVlDyZ2wiX07pPFCk8YVwDvb7E70vnrEib4vzWGfRD5JoBm6JNLnZNBXoV3AgCVanO/CJqLXb3nPrI3It10xjBz547Dj8cjHUe4GnBdE1jaVe9IHQdPeulpZoaM56J6RLTaQYWSXxQmJ08QenB19SGVxeM5jv53IimwweiAUXfJ0HE24tPogYtjB7N8NCQ0DV1Vmu4aWg4u4dPmT093opvQcOnQ9wsQeYxTOzWRGjOe0G9RZ6AgIEqN5Dh9bkRHkJYzaY2C9sKwjaS8STtiDJ/6ZOqAbTQ0ellS4xm9Dp84fHqtDGVHT9EWpVo68Lkaht7mPXP+BTNL0heg2ZV2cfMwj+GXpzoaxp0Lw/ffO7wWnPYW3NVvJrlaSCbAeYoKGsQSXiHeV3ZWCrZpXjQSq9pwtk+ssn/cqBhw8PFA9gvtqAh7UozHGlUd43Yh19hLsws/hMF+6PoRVB00cG4Dc/UCnMvgSrKi22UfpY8TgGc2NxmpidbleSr5/hgtbMJxQG5x/38+dhzKAPfp55qvqTfUTUfeXFtPUYD6VYIFKbQ+L7XosSt3LVE+To+evVKri7khjJotQXtkOF7gh89l8kxgSQFYcMIRkanWzo4ip0E5dDH9daqmsSxUNuBsMrsx5sBLRBzZZvfawGRINXGha4hIEBb8UKvp2yDSG+PCRBPMQYdbtZ7Zsq8+o2EFapGFSikTbqnpiNEIsNPr9aNp4Nfcx7CazOny/djvwepOXU0AnSJYzjJKQDxyb+V2VXq7lGov/rS65qsfyH6cjzk3aHUWNOg1AQ3otbyVlqAmsOYb4pn84ojBUJaOTuserdUgaCQU639snm9y8ErgDmDuAJVp5TRvUgySw/Z51VIQptusLE96xZH7zez69KBAK/tyw4tUM4s8jCwuBIP8N7zz5NAxfHFfB0JN2YRa+7s5bmrO8s4ou8ubghU7qquqhunTpi+CE9xQEc+WE2hedC6AnEBvddBHRPdtZUmP2IkY4gOcDuK2p2FMX5+WZmT1Q0ZT3wR0BiL4dp87dK7kCqXO00WsGEur0PFJXX8HyxoEeI53AwFzyBPG+MFkYmHjbdQTuoYmXA8iI0OOV+OQyMs08kZwFvZk8RaHysd9hWHB+QtI6smSqoXihAC4S8ZQmOGE4HYKG8HIdKmGMFwCBaxFf5nXyQh1TTdJn1wMtueCa6yW/0zCzHipJmqNP5ze9pOyNvoHVgBX3gz4zJJgRObDO/7j320Fh7Kveg3kXx+ARX9/8WgmyRLJ014Csq6gQ5l+2GrD5roBD+d6sd4NofBuyUV5fTexDDth0e+ApWFmguFvdhrS2CLb2vHT+gQApFpWPldE+w6ou+/eZlI3vP4+wuum/XJsyxRNjNwiIrqv5vlVMTSExDKY/V4poIwXJrDT/EsvvinCUSTxWJWXioaCq2WWUTBFic6arORH5matzNpDoKK5Cpb0Eb8cVhCLJ1s7ZpEJdAI4Y/ZufWT6DxMcz9QCl4BE0k/KcZeFeQPyE/jXt4zYM7Xz6L8sO+GVlCJQl1b4fTgok/MAyGd8v35rOjEmvuVZc+g7DBXxFjIWurZD53msY1tV4fW/OLO2LPooNGj0qyS1jXr+g7BsM+6+Myy99KJJVIHYD40pGscwsxM6jelWHqhPTTylvYAP/VcVrcyJ3VZOW33Ka1kS3Fk7fdarvJlCc/Fub6ZYBh5VMgr0EITA+tCruyDyamXrCO+L7oPU9bxW7yCjILM0+RGSe4iJpBRMWczBfSqWSHjvjNf2oKYbJ0ffZzmn5pFZiUej/Xk8uWe1ynDz0+uV2hMPdckPZhpA9MHXHWp5koIER8T10ebfFqwi86CpFuDVilx9KipTYBUy2k7I5gRF+pE6ZLZonkQBtWiqxkrkJSJS2d8FHap3D4HSe/iPX/QEU9U1UWJmm12g9C6CnsQi9b9tOwYg8mfw3kXIsMeWiONHUkU/EpGpdNm5Aj73UlDr0GIZaA1gg8VMQqYg9HDM5T1E4Phs604T7/IgY+g8V2ZTessvuTc5nfEuDzAipmT0bwrTAkF2B6LoBQru2VCvvnskvDzt5f1BIsHgrnOEbpl01UjGyvHrbflcS0OKgFZ23DspAJG4rJM76s5DfvHUmwH4xEJxgrk2+hTgl7K+1NO6p2skyQOY1hH52f7Cao9XIgTplrRrV2cvmwos7piyNfgttJhSqE4hBrVILyLLZlxkBNLuD8X6Bv/Oz6BRZwVnCknJ90fje+VhRc167vk5UT7LK1jz0lo81GdrxnsDt3bLMu2DTTtPLR16NC3GUzD35sMrmhxmH1mtJFVAQtfGlDcHsk1CyGEcJNT/FD4kirmCtWqyRwaNPFwLSJyXBoqaDOuTGI7OJqYMlS8wiSxImvreSmjPrE7tLJa4f6gyyxB1esR4/oJNzBA3LDHJJNt0nq7HQx3J0PvMMDKiQtS2I+objGV4u53P4sqfU39v3K69c8Z7D34juDfqsUFlnWrDw7fned1JtTcviD0ExNnA18o8pXp0xHVERs54309bv4Qpp7l0+8A63k0ExWjUwMTmKzOrzy0ANPcUaJoT0J7tubL7G1A5hi0MBFxxRboM/EQHh6xOuJ+96pkSB+eeXsKWvzNA8ak2wxFngGyt+llp9mZQlV43vwp/Iq7qzW695eTRdt+pV9aKkBrN1z41IHfc3bi+VP6crs/Nt5rWTAiL/9FyaZ5Oy8GBWp4dBzpAdKARYDkyQGZRKvDa0SLQFUosQ+XpYPY+XSp42PP/LgZLUIirdbYKPRaB6qCMhma1sF5RPeM7YwbkQW7CwFgF6OEli3pmlcD7Kd8bqClDx7pzfKMZ0u3TLjFuU4X9jv0KRQPmaJ8IV+QyMwwv7+SIYqe77jbr5nvK2dJhjLw20nYJW5ADTIqujialmBGpO2axH4MeSCqsHwDpLXarCqRlt8IP7gPd9jDPpqzXDD0fT2uXrbrPxvSOL/PLM9bTjbu0MTQ3w/luoEWgBlhOz16ZenUIZkPXqTpRn906do+goOccHab6JKd6ENMHDM5aQzbxFzi0WHHcz+IR3BARZmxtAaqWBtkf54dTdhtaw88VfR2uHQMx+zat2mKMRLNV21t8flp4xykL/6LROnmLHZ8YOFozvFa9n2tbY2b59bvsB05aE21Nb3IkCG+ov6hig/jt1DKLus/YfE98h5n32LoEU9MD9DaeNrd9VF6uddiPRBZkE8Qq31sqC7KpdhtZg+z/6bgNbZIn0l6HzYAOUkL2u+/sHXWqoNYND765oVpDH6IKQd/fHDVE4YDfSiXe8V27pIt+u4I/SeKw8gpPRaA6Js1Eopq3XJBqx7aOyKGdkhI5imrXYvQzHcgOX/qI1qRU8XpD9Q3THvHlTz1HPTsG5EoFLQ0v5KdKOG2JaYcN5wWBH2nqtuh68Hhdfzuk3RYPBczB0C+V3Uw4nWgf2H2OEkIJsKdTXkyPMzbwYnd9rDd5piIC3jAaTeZBjBDldvhVb3utomf0Id4lI0cPvKj1so7aFInAB1SbbcnwE9BsQlZFtSshPqeQJhdr9FOXD1/IPpSsETjTk6GkO9QeI28d12mmiZrTICSgYJycHz1DuZiutNPaJqwpdiPfyjbKkROtaZJLZK1rNXs54B+x9Yvw7NLSmLHNQ0plIe7oxiPJR1iwIYzY7IP1MJgPYJzgSlq96ZBVwzUPWuZD9+GwVUaM2WqK4Op7BWIJCJXYKUuj9DZ1lPTVTT5B9/JS6v/x0dM/wa6lhoNisAxbVBaN+9O7s3drv1shy8jjVdRJ/LHGEC72n+PbK32IOoNgo2Tqpg4Fi8+1f1KcXfGmWh2b4ENc2BW4sxJ+vN8R3jxpe25ndoJWt7mmqb1SdwOpCAc97UPoMS75KqERF1zaTIUTJkisCsAwvtsND2bFOzXlels9KZofVfusS37iRR5kTAAT/Zs0PtwfszXw76kptqaC7RBtYo4M5IlPudIdZqnSYYE3YzLW4sgCcF4UxHAdpk/7O25HOGEdDy7xh/P4FOOoJd/E133G+H6D0NBMlBXLvy4bOpMyg9mSdXYxSC7aChrrU1KKVcga1NjCaH0muQZHoHibzpfhlggHuLGqfGQJRZk0J7BuGJYVqoGPmBqTW0ySIWJJBBDDYv0VYLHbAFTCJN21gMBFKtt6EgyQoNA8BFObhVZES+2xkxLrPczh07YOgnEwDhkiEgMQTGY9T/edpcXB3yQts2/ASERRKrd9UtvnGASJuJAe5cnwE7O/crNglQ28/Krkq5eIZvH3UrqLS2w6GCRuaKo9wTQGbylJOM79bNbz2NXE10Dw72SqqH6NA0qjkp9xKZgZ2Kmzv5b++nVU094OAO6GPq6HSlW3L9YUHwjWjjymoASAPV3GGv0MfU7tOQzq16CyFKx0lVYrLASmNaiXXfNbU9UTPO/xcprkplUt99baEKgU1z5TjpW/Bykxfq2JeNLoTTSDodJrhxRWb0rZZCkgbKmdJtZQmdIs5V0Ya5nGRpoWPd8TmE/gcZTZSqW5wBCrfgNV6Sa4or7dh3PpPa9AReGzCzFOY0096suEP1EOEh4Sb0D/e7TXMQUmp0/ehROAnEULY3iZOuvFjZZ+ycNxFLuvyT8WTfQ7Tl5nVwU3/iWilz5GHx4XLsl60kUGRJFUz9i0MugN0GVDaWMbbTt6PGJb8u4VApH3xOPEt3dJsoXqv2M+4VNcV0mlQqvVYO17rxI0B0T2tMfO1QNvD36Fz0AxkrVIZUdi8aU8tCsxc4D5Hf6B+xN1Blaoq+KAWdCYblyEPzKYWIJSYk4m5rKazD5c9CgkawCTJVlM7PMzZeVkTT87yzZlr55OJ3EFL3n5fEtfAtx8ifwAMsAylwu3fI647lgF3u9t8kf1ZYar3O+hOBH9QZzawVUoXRY+e9C1sxcfXR6o6ebxQKR959rBk6zc/z7H1Yi1N+5EFVME1CHL1h5eN+lujMZf5ewTy0HOWa3u9t9U0au1jiFxWUy9QKzztftf/9nLpA33g9HhQuoHuxphSryXXOE1nOKn+YpdH4TbwhvbYEvEyRxtdnKmtO3UZFyImcM3yVaV6ilUcvzOdZbxvU386bVITNBH0g8Emh1kG/ybDP70bvNKxbxqDEvHCqHnA1e3FQ0bKj1rhIwCU7yx0oQKEpNFfX74ETDw1+Qh1IBG+V5YzaCqSsdsHcBVzS/Qv7aHZg7MAKRxmsQHo0D0QnjknzbI5bPw9m6/r5gTFjJJ0t3go/rlI4TjjUHqIU73RQy1ZTCbI76O8hr+WP4MpzoKWYtmYuJj4cOZjDnXs3O4TlW60UVtjbtGP/t4cQ9MBRonj4ZsIhe19hhvdv1ppOp20PGj5BrmrmA4in7+p85v7l1tUsJYNsJxn8yji7QL+WTWIvbTOniGTNlGZWrzuo1SIhz6AIwL1OdUcSbijMn3iH7ou/wgHjxQx6oE57O0C2cMnOTKvQrOEnTLRDkyrzCEmwQ5c5JGvNcJ3EG7uIkg5Y1mGZgBf51KG4fxZFOUkqRQiKZTGRBzhh/BTy7bxU8HjKbmyIyYvQjSRWGdnRbPH6SIa4fLG5ZueydAoSvr7ZJZYoBemxDGLwIlajhPHPmDnq3smaAZ0kPZfN87AnpO5YESRZfyxm4JPTNg8/rpXmMpoSm7EtnoCAALGot/Ox7Gye5Qk4SZYnREwGBzxSNbZ9E83f7/L69F7n3kRbVeEzZkt/+dtToffd5km+gk83Fh9CA+XXyMebuPeCJjKyjx4d4gu+Eo6y5ZczCaZr1cRO2vzPwlguDLh1MgW5JV+XC582vN8WMh9G63I78IjnExS1MPyw1frcuT6f8vljwt6axw/PDsmjGiwgLFXZV5V3NHmAClY+FZeF58Tv6QW4YUO3zGGhgbF1+Up1qxF/2oPdT6U5xS4iYRUKXxPnDq5OcmjxnpiEpDuqYTWwgDMjjrwOM0RMJLATGDlU17oA5ZSArrlljXy93iV35hklH3pCuG8StFbQoULVeeZCTH3OeaYduCZOLSg8kDsRF+EtLhUQNpg6f1PnX9vq21BKgMV73wd2x9i/565cZWIsaoan2gcOSmXNlZO5+HRu4ynH0VGPl7rflvES1NIkm/m7hkyTI73xWgOey5AVUFAGxYP/Ckjrk1YMi9M7p1ldiVEdiy3CFkOXn9x1Tw5JskM5TYdVLb08ckTUpKzXh2KZUcFS4dyMb51hyHoMK2WsGforcwZKRAaSNAp5gX2ze3MNSk3u89rMJHCT3roB2/ACUSd8MBDrv7VjmYTq4p2pjhuPgvyrwHMwgbED3nY/Nq6wbRygw2p3qO6i6P51evRfAJh5vMYe7kGmmPkxCNuQO6t3omZt3COp6zpEr62YkNH0MRL13lCp42YFLdysM0/5ai4mm3lcZgbnLOt87djhjNlWX2c7/uMKtl++szAkOieS4Y0kBb6FBc25NkkltPA0+giwKURPtt8Y/E11I0atUIwvguFqNrv8hvAZEUw3NlTIdzA40Vf27A5QZTNFY8/GyNvTz/lmcFYasd8Di9Jl5rro46xVX/VOc7RCa3dT0GE330gajTlG1ZJkHAed+eK8GDCn9/PlQb9N1flpAUJ6WnQisKCZiHjyHRz20eHgk1eFEMkHbGj2pcjEdAWvcnMaxP7ZkytQNRXrrZMx9uTSLUsBXwVRTUWnOa5YoXUPxld+LsMq/JIXi6pfE0maD8GomK6UbiXQ7yXihkn3mnwnuayyxg3fthD2pob0zuOIFsPZ/xgmadMPKCsC/SkKT/Z02psvgvUQkKKcC4TrNshh3TTczqCm5EbMb28z8vc46gvpT5m478GVLATxYliqdmJrunlxf5dJjQcUfrwqUoX9g51QTLsnMi1xC3IO6r0rCHF9+BLcrkILK8BxAkZ7U5DNsZbE0cUfczaeGInkt+7NV96zt1E7UMOh/MlolchVRtWDgQMmL4whk4mQSRrjcwFpuEO3BVS4stL/EN4YUxHppGQXrIezWBznIk7wwtd44KzXpQa+PEgLjUh4Uu29CZvUhto9v9xtGcwm2mJgp+qjRI1C4mE9Hx64uBd9kjLJhKgNy1KlhQz3rlIks5PepssSJs9bl4I6FFqOuT1PZO0vB2z5QbYWgayiTn1PoXNdGMxbj6PKcMgZpeX9oZqRXiGvkJppIcEc3T9JekLCDbGrRSlWjiPu9SW89VOMn2K+JlDLa3/Rv2YvG1OocNqbYyrYVpbOtfklx1haQ0hqvDEnLBg9EeUhFR0jE5wwIgGZPVQ1DwG35iRK1AeOPWm3RMyBLpURJbhElEYKeb7cGgLboJ4SOR7jnDc5J0lhgUHcAk+B8xA3A7wsTMgS/UQ2Ok16zOWQjGl3z8KCYBFHqVtsX5sThjXp5DawAgVZ7QgtxgVwTo/EdjpFMdxpyS50wF1UlWFA2Vgnmmh6PIYkIizjQPLljDBgZ81NL7msL3Mq6X7PqoaiivKdTctOuimj1Mq2s1FzuLwe81DEj4igWe6prVfMzdUSNMmPUCRa9hOqj7hGLOrB8crpdtGPudgJEOzFq88PolNrK6YdnMlukLuoEXt8BPvGNjrd7vgMPyLfg0z+GNB43KANR4v4hv9w7MIgPPeWDeQP1aLdsPpIaX0LGuXHDKzyuUXpaVMoLZPtWkHcODMYyHlT8SL8jc="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%85%80%EB%A0%89%EC%8A%A4%22+%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">&quot;셀렉스&quot; 식물성 단백질 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%98%A4%EA%B2%8C%EC%9D%B8+%EC%8B%9D%EB%AC%BC%EC%84%B1+%EC%98%A4%EA%B0%80%EB%8B%89+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">오게인 식물성 오가닉 프로틴 파우더</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EA%B0%80%EB%93%A0%EC%98%A4%EB%B8%8C%EB%9D%BC%EC%9D%B4%ED%94%84%22+%EB%A1%9C%EC%9A%B0+%EC%98%A4%EA%B0%80%EB%8B%89+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94+%ED%8C%90%EB%A7%A4%EC%B2%98&client=app-vertex-grounding&safesearch=active\">&quot;가든오브라이프&quot; 로우 오가닉 프로틴 파우더 판매처</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXpxIWX7U5j0VmowKup1rAK8JSrQ-D55SZmKa6Q7axOveNda-zzQqZqdBWn3giZrvp3E6cBO79S0LjNfSPQuLnl2huPVF8W-710sPoy-FIv6ATbQ==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrt6dXyGZ5s_AA70NlkLSr3THy-s8QsfOaybEMxPcFmheLPWO2yKALiekmW7AmLFsdq-SpfWKqGI_gWHPcoGN6zyLlOHhh1EYqU3saLmt9uXcbK7Ms_oT-Z4WpT-0AwKStNmtouFOiYc68mXCy0ivrUlwTrRlXJ-wTRgvh4wNiC73-2JyBOzRmDv2pILRvCHprwzJC0oRq8_hikmp51UGtlkyjrPjei30hhDBkTEC9QwRc6RNmAZIm1W0WnIQ_WQmE",
+                "title": "lotteon.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfrE6WJcUi_D7sn8Z-MQtsZITvg992-DU9Oiz47QcrLY8Hiy7-4esgzzf5o2ZsHnSSYPnjccxB2Rdn0fTtsE6imxtluhDM-ytvRCGV0k55tC2PHtXlMQ==",
+                "title": "tistory.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-iGJOUvj60x3yWMc3-sg76Hf2TcqIALYhqHJl_Hl9_IPZKi7vf0I88pCdlV1-3bhXlYCwJdoKv53SRMvXzumOR_EgtmBhIrW9niGpcLXqcez43ceAfQPSidpIrESerLtKtC1wEhhYiL4Y_vKAEWXxW8dg5n4stQ==",
+                "title": "selexmall.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4SAnR_z2989HQKEkOqKmTjTTX3wfwsrUygzuQr8a2lNmS59uj8xnHZ2y1GeFD2RHgNopC9JdVDyWuHLdTfsNawKGlbRD0M9goY2aJzD2hEWo2Cqj5wxex4ZVUTn2k_SBxYNlxRy-8dfFKkqs=",
+                "title": "maeil.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3Dfw2PqV2ssQHfj7ExyjaTJJqGOpk-BoX5ZsWSsaEb9DLpdd9yirmB6vI5NQxE6-3cc3UJ7u_-u3NQzluwpNwmWT8g6PD0Mi-8MGgIoQ6rnMF1AvZf4xx68tVSfwwqWAIoldkcGaSAVEiI_8DfYI=",
+                "title": "k-health.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC4KqHNZ1q7udcWeVVdOJ-kaHtJ_mnQTiuq70GcVyJ7Cydst30Bh5fUPa0jV4xb3CUwoLkaPRKSY3YmbqM2UxkZqUq0kws232e4bOAIA0LMq4SZM8WQczdgt0dH6jSm1UWPEZFB7T0c3BZw==",
+                "title": "ople.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVkT5dkWc_6L1vs4ht49OiY4Au2mnEKVixQrSV7jqDUH4IPnBE7bewVkSo2izCaGGEn8YkKoe7qyzL-RsvAlkZePAhx-_dD6HUwnoJdtaR6G8LtcnqETNNf8Ie_Fn0g==",
+                "title": "enuri.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 210,
+                "endIndex": 322,
+                "text": "**제품명**: 올게인 오가닉 식물성 프로틴 파우더 (바닐라빈 / 크리미 초콜릿 퍼지 등)"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 965,
+                "endIndex": 1099,
+                "text": "유기농 완두콩, 현미, 치아씨드 등 식물성 원료를 기반으로 만든 대표적인 비건 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1105,
+                "endIndex": 1313,
+                "text": "질감이 부드럽고 바닐라나 초코 풍미가 풍부하여 바나나, 베리류를 넣은 스무디나 두유, 우유 등에 섞었을 때 특유의 비린 맛 없이 자연스럽게 어우러집니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1406,
+                "endIndex": 1483,
+                "text": "**제품명**: 셀렉스 식물성 프로틴 당솔브 미숫가루맛 (266g)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2055,
+                "endIndex": 2227,
+                "text": "100% 식물성 단백질 원료(분리대두단백 등)를 사용해 유당에 민감한 사람도 속 편하게 섭취할 수 있도록 설계된 분말형 제품입니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2233,
+                "endIndex": 2463,
+                "text": "익숙하고 고소한 미숫가루맛으로, 흰 우유나 무가당 두유에 섞어 흔들어 마시면 맛의 조화가 뛰어나며 혈당 부담을 고려한 저당 및 이중 식이섬유 설계가 적용되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2555,
+                "endIndex": 2653,
+                "text": "**제품명**: 가든오브라이프 로우 오가닉 프로틴 파우더 (바닐라 / 무향 등)"
+              },
+              "groundingChunkIndices": [
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3344,
+                "endIndex": 3484,
+                "text": "유기농 완두콩과 발아 곡물·씨앗류 등을 기반으로 열 변성을 최소화해 만든 식물성 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3490,
+                "endIndex": 3605,
+                "text": "유제품 및 대두를 사용하지 않았고 설탕 0g에 효소와 유산균이 함께 포함되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3607,
+                "endIndex": 3732,
+                "text": "인위적인 단맛이 적고 깔끔해 건강 스무디나 두유에 타서 베이스 단백질로 활용하기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"셀렉스\" 식물성 단백질 분말",
+            "오게인 식물성 오가닉 프로틴 파우더",
+            "\"가든오브라이프\" 로우 오가닉 프로틴 파우더 판매처"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 896,
+      "candidatesTokenCount": 1660,
+      "totalTokenCount": 6128,
+      "cachedContentTokenCount": 464,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 896
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 464
+        }
+      ],
+      "thoughtsTokenCount": 3572,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "HPEEa7H6M8Hv2roPg6uX-Q4"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:07:19+09:00"
+}

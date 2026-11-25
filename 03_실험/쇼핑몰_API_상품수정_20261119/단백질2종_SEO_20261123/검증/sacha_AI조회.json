@@ -1,0 +1,32 @@
+{
+  "product_no": 15,
+  "product_code": "P000000P",
+  "product_name": "seelo 사차인치 탈지 단백질 분말 300g",
+  "price": "22900.00",
+  "summary_description": "사차인치를 원료로 한 식물성 단백질 분말",
+  "product_tag": [
+    "사차인치단백질",
+    "사차인치분말",
+    "사차인치프로틴",
+    "식물성단백질",
+    "단백질분말"
+  ],
+  "detail_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/big/20261123/54f055d92fa333e3b45235b8827cd1fb.png",
+  "list_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/medium/20261123/ef9f8d679cf676ef698d9e967601daa1.png",
+  "tiny_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/tiny/20261123/abb139439699879413e36afe45e29ac7.png",
+  "small_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/small/20261123/13a74d960e62f52087d984fd52e2659b.png",
+  "variants_simple": [
+    {
+      "variant_code": "P000000P000A",
+      "options": "",
+      "display": "T",
+      "selling": "T"
+    }
+  ],
+  "button": {
+    "label": "상세 보기",
+    "action": "link",
+    "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=15"
+  },
+  "product_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=15"
+}

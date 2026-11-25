@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_S02_retry1",
+  "timestamp_utc": "2026-11-24T01:58:50.948441+00:00",
+  "query_id": "S02",
+  "repeat": 2,
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "사차인치 씨앗에서 기름을 짜고 남은 원료로 만든 단백질 분말 3개를 찾았습니다. 가장 작은 주문 옵션은 **GUTINS 50 g**입니다. 원재료 표기가 명확한 200 g 제품은 **Shanantina Natural**입니다.\n\n| 제품명 | 판매처 | 확인된 원재료 | 포장 중량 | 선택 이유와 근거 |\n|---|---|---|---|---|\n| Sacha Inchi Protein – 70% Concentrate | GUTINS | 냉압착 후 탈지한 사차인치 씨앗에서 얻은 단백질. 전체 배합은 미확인 | 50 g, 225 g, 1 kg, 5 kg | 탈지 공정을 명시하며, 비교 제품 중 가장 작은 50 g을 장바구니에 담을 수 있습니다. [판매 페이지](https://gutins.com/products/sacha-inchi-protein-70-percent-concentrate) |\n| Organic Sacha Inchi Powder – Natural | Shanantina 공식 사이트 | 껍질을 벗긴 유기농 사차인치 씨앗. 압착 후 남은 고형분을 건조·분쇄 | 200 g 지퍼백, 10 kg 벌크 포장 | 무향 제품의 원재료와 포장 중량을 함께 확인할 수 있습니다. 200 g 낱개 주문 가능 여부는 미확인입니다. [공식 제품 페이지](https://www.shanantina.com/products/sacha-inchi-powder) |\n| NATURIK Sacha Inchi Protein Powder Organic Certified – 60% | Agroindustrias Osho SAC, TraceGains Gather | 유기농 사차인치 씨앗. 냉압착으로 기름 일부를 제거한 뒤 남은 고형분을 분쇄 | 20 kg | 대량 구매 후보입니다. 제조사 규격서에 지방 상한이 10%로 명시돼 있습니다. [공급 상품](https://gather.tracegains.com/market/item/1d53436c-57e4-4226-bf23-17c759316658), [제조사 규격서](https://adex-b2peru.s3.amazonaws.com/userfiles/product/document/13841_5f886c1bd0ae9.pdf) |\n\n한국 배송 가능 여부는 세 제품 모두 미확인입니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:58:51.441077Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:59:31.571748+00:00",
+  "retry_of": "codex_R2_S02",
+  "errors": [],
+  "timeout": false
+}

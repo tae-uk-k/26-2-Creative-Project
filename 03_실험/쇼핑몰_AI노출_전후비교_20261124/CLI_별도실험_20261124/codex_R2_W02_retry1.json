@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_W02_retry1",
+  "timestamp_utc": "2026-11-24T02:01:24.122957+00:00",
+  "query_id": "W02",
+  "repeat": 2,
+  "prompt": "수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "탈지 또는 압착으로 기름을 제거한 공정이 확인되는 수박씨 단백질 분말 3개를 찾았습니다. 소비자용 제품은 공식몰에서 품절로 표시됐고, 나머지 2개는 제조용 원료입니다.\n\n| 제품명 | 판매처 | 확인된 원재료 | 포장 중량 | 선택 이유 및 근거 |\n|---|---|---|---|---|\n| Smash Melon Protein Powder | Smash Melon 공식몰 | 수박씨 단일 원재료 | 2 lb(약 907 g) | 소비자용 파우치입니다. 제조사가 냉압착으로 기름을 분리한다고 설명합니다. 공식몰에는 품절로 표시됩니다. [상품 페이지](https://www.smashmelon.com/products/watermelon-protein-powder) · [제조 공정](https://www.smashmelon.com/pages/about-us) |\n| Watermelon Seed Protein – 60% Concentrate | GUTINS | 탈지 수박씨 단백질. 전체 배합은 미확인 | 50 g, 225 g, 1 kg, 5 kg | 제조용 원료를 소량으로 비교할 때 적합합니다. 제품 사양에 탈지가 명시되어 있고, 50 g부터 판매합니다. [상품 및 사양](https://gutins.com/products/watermelon-seed-protein-60-percent-concentrate) |\n| Terra Nostra Organic Watermelon Protein Powder | Stern Ingredients | 유기농 수박씨 | 12.5 kg × 2봉, 총 25 kg | 유기농 벌크 원료입니다. 판매 규격서에 원재료와 포장 중량, 압착으로 기름을 제거한 뒤 분쇄하는 공정이 명시되어 있습니다. [판매처 목록](https://www.sterningredients.com/Ingredients.html) · [판매 규격서 PDF](https://www.sterningredients.com/uploads/1/0/1/7/10176339/sales_spec_organic_watermelon_protein_powder_-_cn_v02.pdf) |\n\n한국 배송 가능 여부는 확인되지 않았습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T02:01:24.505733Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:02:03.551677+00:00",
+  "retry_of": "codex_R2_W02",
+  "errors": [],
+  "timeout": false
+}

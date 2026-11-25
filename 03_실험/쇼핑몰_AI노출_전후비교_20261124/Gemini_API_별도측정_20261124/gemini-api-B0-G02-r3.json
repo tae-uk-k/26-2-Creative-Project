@@ -1,0 +1,282 @@
+{
+  "run_id": "gemini-api-B0-G02-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:09:17+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G02",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "콩(대두, 완두 등)이나 곡물(쌀, 귀리 등)을 배제하고 씨앗(호박씨, 아마씨, 해바라기씨, 헴프씨드 등)만을 주원료로 만든 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. Dr. Murray's (닥터 머레이) 슈퍼 푸드 3종 씨앗 단백질 분말\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 Dr. Murray's 3종 씨앗 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQlz1u9KzCbt8BEQQWCTPnEv0CMpzbzXrGnMFSGJk7wdw-re8HYdZQRrbkVH0yLxZ5IgV3Z_uQveUos3GfzvJk95jG3K1VNTtfRRtyuXe5MzhqsZ4BlhqzeiCvUB-0mGpzXICgqLi82fVCc3NozbSjXTS2TLDm8EAhURvRJBauwrg-emJHCxvJ-Ya8XVNsL079tSw-Gq4AJiRqkE-Q_gYnP94GwYNOtrbIr9FNJX1)\n* **선택 이유:** \n  * **원료 구성:** 호박씨, 아마씨, 해바라기씨 등 3가지 씨앗 단백질 블렌드로만 구성되어 있습니다.\n  * 대두(콩)나 완두콩, 곡물 단백질뿐만 아니라 유제품과 글루텐을 완전히 배제한 비건 제품입니다.\n  * 씨앗 특유의 영양 프로필 덕분에 단백질 외에도 식이섬유와 마그네슘, 항산화 성분을 균형 있게 섭취할 수 있습니다.\n\n---\n\n### 2. NOW Foods Sports (나우푸드 스포츠) 유기농 호박씨 단백질 분말\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 NOW Foods 유기농 호박씨 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz6mY4jITsg29nyvfUD6u4j3LkJxXkc-b9EKbCGCu6EwPzVACDfwVkarxFw5WeOHdZUFsiXd4Ky-SiwMrfzni2HQ2sLNJDuSoXX7ifwMOTRAil7pCeEOJH0K6BzoRjH71RQ1JWs4D65dGjrRrbqT1LKZW3ZECX3f3XFn7R7lxdqAnkWDfLXzqzMnLBHZIlRPia2jg48dfuXBZEF7KIcsTL)\n* **선택 이유:** \n  * **원료 구성:** 100% 유기농 호박씨 단일 원료(Single-ingredient)로 제작된 순수 씨앗 파우더입니다.\n  * 콩이나 곡류 알레르기가 있거나 소화가 부담스러운 사람을 위한 제품으로, 무향·무가당이라 스무디나 셰이크에 첨가하기 용이합니다.\n  * 호박씨 유래 철분과 마그네슘이 자연 함유되어 있어 미네랄 보충에도 유리합니다.\n\n---\n\n### 3. Nutiva (누티바) 유기농 헴프 단백질 파우더\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 Nutiva 유기농 헴프 단백질 카테고리/상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf9Ggn7Ouv1ZiDkcmvBZ8xLmAEerMZ2tCO9jXH87R5IJ9tN956KzEG6V3fJfiqL8zpVGfbJ_3oDql_JsoUw05lD-CTW03sGNoIHf9PvsZTBfFRKU1J6_MHoqxSGycus-g=)\n* **선택 이유:** \n  * **원료 구성:** 유기농 대마씨(햄프씨드)를 냉압착해 가공한 순수 씨앗 단백질 분말입니다.\n  * 콩이나 곡물 단백질 가루와 달리 인위적인 정제 과정을 최소화한 원료로, 9가지 필수 아미노산 전종과 풍부한 천연 불포화지방산 및 식이섬유를 동시에 섭취할 수 있습니다.\n  * 첨가물 없는 클린 라벨 제품을 선호하는 비건 및 저자극 식단 유지자에게 적합합니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQlz1u9KzCbt8BEQQWCTPnEv0CMpzbzXrGnMFSGJk7wdw-re8HYdZQRrbkVH0yLxZ5IgV3Z_uQveUos3GfzvJk95jG3K1VNTtfRRtyuXe5MzhqsZ4BlhqzeiCvUB-0mGpzXICgqLi82fVCc3NozbSjXTS2TLDm8EAhURvRJBauwrg-emJHCxvJ-Ya8XVNsL079tSw-Gq4AJiRqkE-Q_gYnP94GwYNOtrbIr9FNJX1",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz6mY4jITsg29nyvfUD6u4j3LkJxXkc-b9EKbCGCu6EwPzVACDfwVkarxFw5WeOHdZUFsiXd4Ky-SiwMrfzni2HQ2sLNJDuSoXX7ifwMOTRAil7pCeEOJH0K6BzoRjH71RQ1JWs4D65dGjrRrbqT1LKZW3ZECX3f3XFn7R7lxdqAnkWDfLXzqzMnLBHZIlRPia2jg48dfuXBZEF7KIcsTL",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCaEmvfDfevC5RK46bz_0zpsjOxCS7bLaoxrWzaD_-OfR3cYCMikQLTkZN-O1QXJnTn0nNeWgXt1maVTjNp9aoxs2Rax9p3pHgLkt-SwgQEiYxFOQvImC0Yl3C40dJB26j-T_3x2T_4hidTnculpVP7UEOfAXPh5sN0cKJ9x1_Y2Jii2Aj7P2U1PMzxsP9RDrS6TqR0JPU_Hf_twpxmGc=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf9Ggn7Ouv1ZiDkcmvBZ8xLmAEerMZ2tCO9jXH87R5IJ9tN956KzEG6V3fJfiqL8zpVGfbJ_3oDql_JsoUw05lD-CTW03sGNoIHf9PvsZTBfFRKU1J6_MHoqxSGycus-g=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmbyOmV6a2eNKgnk9M8nyjrA9zneUxm7x70PA4ye7-KcJnL7Vbjq77KJDxKwLiB-_2bL7X3bbiDinaKjCf8e6j6-avkjJsGS8DTQk7KS32fEKu6g8mBxEDye_c_q4sYU6gtCbYcR7iA8Vm-r3UabInpc2owtp455cVoppg1QwMQEh3NH1gO0ChXCw=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8YxbYVs0hacmhU1Z05E4-IP9_zaTfnR-7cFMxWKIndNXFwNfJh2zpqrEHHNdrtLJri7h73fMTZNI7eIfloRplbL4HhS4Xi6jxWX8PHs6W1mL1va68zZjwuT5Nb1WloRE-f5KJPEV_g1SspyDY",
+      "title": "healthline.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Qq6w6wA_p2Zo19Ajpks3ymPSo2W_U8XIEfME7cjwS_9EZXTyF275PS1mxrLhQSbKIT0VwgZWTPJwHmDIHd24dYXCbGxYV--zf9bNgn1MlpJwYli495PzxU3dFfkrQMWftTxchjOp9ZMZWxYW4X2fY5hHXvmgIrJbfYPGo7JVfsNC2ZQ=",
+      "title": "iherb.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "zfEEa_uVNP6D1e8P27aPkQo",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "Nutiva 유기농 헴프 프로틴 파우더 iHerb",
+    "\"Dr. Murray's\" \"3종 씨앗\" iHerb",
+    "NOW Foods Organic Pumpkin Seed Protein Powder iherb",
+    "hemp protein powder iherb"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "콩(대두, 완두 등)이나 곡물(쌀, 귀리 등)을 배제하고 씨앗(호박씨, 아마씨, 해바라기씨, 헴프씨드 등)만을 주원료로 만든 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. Dr. Murray's (닥터 머레이) 슈퍼 푸드 3종 씨앗 단백질 분말\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 Dr. Murray's 3종 씨앗 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQlz1u9KzCbt8BEQQWCTPnEv0CMpzbzXrGnMFSGJk7wdw-re8HYdZQRrbkVH0yLxZ5IgV3Z_uQveUos3GfzvJk95jG3K1VNTtfRRtyuXe5MzhqsZ4BlhqzeiCvUB-0mGpzXICgqLi82fVCc3NozbSjXTS2TLDm8EAhURvRJBauwrg-emJHCxvJ-Ya8XVNsL079tSw-Gq4AJiRqkE-Q_gYnP94GwYNOtrbIr9FNJX1)\n* **선택 이유:** \n  * **원료 구성:** 호박씨, 아마씨, 해바라기씨 등 3가지 씨앗 단백질 블렌드로만 구성되어 있습니다.\n  * 대두(콩)나 완두콩, 곡물 단백질뿐만 아니라 유제품과 글루텐을 완전히 배제한 비건 제품입니다.\n  * 씨앗 특유의 영양 프로필 덕분에 단백질 외에도 식이섬유와 마그네슘, 항산화 성분을 균형 있게 섭취할 수 있습니다.\n\n---\n\n### 2. NOW Foods Sports (나우푸드 스포츠) 유기농 호박씨 단백질 분말\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 NOW Foods 유기농 호박씨 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz6mY4jITsg29nyvfUD6u4j3LkJxXkc-b9EKbCGCu6EwPzVACDfwVkarxFw5WeOHdZUFsiXd4Ky-SiwMrfzni2HQ2sLNJDuSoXX7ifwMOTRAil7pCeEOJH0K6BzoRjH71RQ1JWs4D65dGjrRrbqT1LKZW3ZECX3f3XFn7R7lxdqAnkWDfLXzqzMnLBHZIlRPia2jg48dfuXBZEF7KIcsTL)\n* **선택 이유:** \n  * **원료 구성:** 100% 유기농 호박씨 단일 원료(Single-ingredient)로 제작된 순수 씨앗 파우더입니다.\n  * 콩이나 곡류 알레르기가 있거나 소화가 부담스러운 사람을 위한 제품으로, 무향·무가당이라 스무디나 셰이크에 첨가하기 용이합니다.\n  * 호박씨 유래 철분과 마그네슘이 자연 함유되어 있어 미네랄 보충에도 유리합니다.\n\n---\n\n### 3. Nutiva (누티바) 유기농 헴프 단백질 파우더\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브 Nutiva 유기농 헴프 단백질 카테고리/상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf9Ggn7Ouv1ZiDkcmvBZ8xLmAEerMZ2tCO9jXH87R5IJ9tN956KzEG6V3fJfiqL8zpVGfbJ_3oDql_JsoUw05lD-CTW03sGNoIHf9PvsZTBfFRKU1J6_MHoqxSGycus-g=)\n* **선택 이유:** \n  * **원료 구성:** 유기농 대마씨(햄프씨드)를 냉압착해 가공한 순수 씨앗 단백질 분말입니다.\n  * 콩이나 곡물 단백질 가루와 달리 인위적인 정제 과정을 최소화한 원료로, 9가지 필수 아미노산 전종과 풍부한 천연 불포화지방산 및 식이섬유를 동시에 섭취할 수 있습니다.\n  * 첨가물 없는 클린 라벨 제품을 선호하는 비건 및 저자극 식단 유지자에게 적합합니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=Nutiva+%EC%9C%A0%EA%B8%B0%EB%86%8D+%ED%97%B4%ED%94%84+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94+iHerb&client=app-vertex-grounding&safesearch=active\">Nutiva 유기농 헴프 프로틴 파우더 iHerb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Dr.+Murray%27s%22+%223%EC%A2%85+%EC%94%A8%EC%95%97%22+iHerb&client=app-vertex-grounding&safesearch=active\">&quot;Dr. Murray&#39;s&quot; &quot;3종 씨앗&quot; iHerb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=NOW+Foods+Organic+Pumpkin+Seed+Protein+Powder+iherb&client=app-vertex-grounding&safesearch=active\">NOW Foods Organic Pumpkin Seed Protein Powder iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=hemp+protein+powder+iherb&client=app-vertex-grounding&safesearch=active\">hemp protein powder iherb</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQlz1u9KzCbt8BEQQWCTPnEv0CMpzbzXrGnMFSGJk7wdw-re8HYdZQRrbkVH0yLxZ5IgV3Z_uQveUos3GfzvJk95jG3K1VNTtfRRtyuXe5MzhqsZ4BlhqzeiCvUB-0mGpzXICgqLi82fVCc3NozbSjXTS2TLDm8EAhURvRJBauwrg-emJHCxvJ-Ya8XVNsL079tSw-Gq4AJiRqkE-Q_gYnP94GwYNOtrbIr9FNJX1",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz6mY4jITsg29nyvfUD6u4j3LkJxXkc-b9EKbCGCu6EwPzVACDfwVkarxFw5WeOHdZUFsiXd4Ky-SiwMrfzni2HQ2sLNJDuSoXX7ifwMOTRAil7pCeEOJH0K6BzoRjH71RQ1JWs4D65dGjrRrbqT1LKZW3ZECX3f3XFn7R7lxdqAnkWDfLXzqzMnLBHZIlRPia2jg48dfuXBZEF7KIcsTL",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCaEmvfDfevC5RK46bz_0zpsjOxCS7bLaoxrWzaD_-OfR3cYCMikQLTkZN-O1QXJnTn0nNeWgXt1maVTjNp9aoxs2Rax9p3pHgLkt-SwgQEiYxFOQvImC0Yl3C40dJB26j-T_3x2T_4hidTnculpVP7UEOfAXPh5sN0cKJ9x1_Y2Jii2Aj7P2U1PMzxsP9RDrS6TqR0JPU_Hf_twpxmGc=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf9Ggn7Ouv1ZiDkcmvBZ8xLmAEerMZ2tCO9jXH87R5IJ9tN956KzEG6V3fJfiqL8zpVGfbJ_3oDql_JsoUw05lD-CTW03sGNoIHf9PvsZTBfFRKU1J6_MHoqxSGycus-g=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmbyOmV6a2eNKgnk9M8nyjrA9zneUxm7x70PA4ye7-KcJnL7Vbjq77KJDxKwLiB-_2bL7X3bbiDinaKjCf8e6j6-avkjJsGS8DTQk7KS32fEKu6g8mBxEDye_c_q4sYU6gtCbYcR7iA8Vm-r3UabInpc2owtp455cVoppg1QwMQEh3NH1gO0ChXCw=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8YxbYVs0hacmhU1Z05E4-IP9_zaTfnR-7cFMxWKIndNXFwNfJh2zpqrEHHNdrtLJri7h73fMTZNI7eIfloRplbL4HhS4Xi6jxWX8PHs6W1mL1va68zZjwuT5Nb1WloRE-f5KJPEV_g1SspyDY",
+                "title": "healthline.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Qq6w6wA_p2Zo19Ajpks3ymPSo2W_U8XIEfME7cjwS_9EZXTyF275PS1mxrLhQSbKIT0VwgZWTPJwHmDIHd24dYXCbGxYV--zf9bNgn1MlpJwYli495PzxU3dFfkrQMWftTxchjOp9ZMZWxYW4X2fY5hHXvmgIrJbfYPGo7JVfsNC2ZQ=",
+                "title": "iherb.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 330,
+                "endIndex": 727,
+                "text": "**근거 링크:** [아이허브 Dr. Murray's 3종 씨앗 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQlz1u9KzCbt8BEQQWCTPnEv0CMpzbzXrGnMFSGJk7wdw-re8HYdZQRrbkVH0yLxZ5IgV3Z_uQveUos3GfzvJk95jG3K1VNTtfRRtyuXe5MzhqsZ4BlhqzeiCvUB-0mGpzXICgqLi82fVCc3NozbSjXTS2TLDm8EAhURvRJBauwrg-emJHCxvJ-Ya8XVNsL079tSw-Gq4AJiRqkE-Q_gYnP94GwYNOtrbIr9FNJX1)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 754,
+                "endIndex": 881,
+                "text": "**원료 구성:** 호박씨, 아마씨, 해바라기씨 등 3가지 씨앗 단백질 블렌드로만 구성되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 887,
+                "endIndex": 1014,
+                "text": "대두(콩)나 완두콩, 곡물 단백질뿐만 아니라 유제품과 글루텐을 완전히 배제한 비건 제품입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1020,
+                "endIndex": 1174,
+                "text": "씨앗 특유의 영양 프로필 덕분에 단백질 외에도 식이섬유와 마그네슘, 항산화 성분을 균형 있게 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1308,
+                "endIndex": 1690,
+                "text": "**근거 링크:** [아이허브 NOW Foods 유기농 호박씨 단백질 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz6mY4jITsg29nyvfUD6u4j3LkJxXkc-b9EKbCGCu6EwPzVACDfwVkarxFw5WeOHdZUFsiXd4Ky-SiwMrfzni2HQ2sLNJDuSoXX7ifwMOTRAil7pCeEOJH0K6BzoRjH71RQ1JWs4D65dGjrRrbqT1LKZW3ZECX3f3XFn7R7lxdqAnkWDfLXzqzMnLBHZIlRPia2jg48dfuXBZEF7KIcsTL)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1717,
+                "endIndex": 1839,
+                "text": "**원료 구성:** 100% 유기농 호박씨 단일 원료(Single-ingredient)로 제작된 순수 씨앗 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1845,
+                "endIndex": 2023,
+                "text": "콩이나 곡류 알레르기가 있거나 소화가 부담스러운 사람을 위한 제품으로, 무향·무가당이라 스무디나 셰이크에 첨가하기 용이합니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2029,
+                "endIndex": 2137,
+                "text": "호박씨 유래 철분과 마그네슘이 자연 함유되어 있어 미네랄 보충에도 유리합니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2248,
+                "endIndex": 2546,
+                "text": "**근거 링크:** [아이허브 Nutiva 유기농 헴프 단백질 카테고리/상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf9Ggn7Ouv1ZiDkcmvBZ8xLmAEerMZ2tCO9jXH87R5IJ9tN956KzEG6V3fJfiqL8zpVGfbJ_3oDql_JsoUw05lD-CTW03sGNoIHf9PvsZTBfFRKU1J6_MHoqxSGycus-g=)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2573,
+                "endIndex": 2691,
+                "text": "**원료 구성:** 유기농 대마씨(햄프씨드)를 냉압착해 가공한 순수 씨앗 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2697,
+                "endIndex": 2925,
+                "text": "콩이나 곡물 단백질 가루와 달리 인위적인 정제 과정을 최소화한 원료로, 9가지 필수 아미노산 전종과 풍부한 천연 불포화지방산 및 식이섬유를 동시에 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2931,
+                "endIndex": 3044,
+                "text": "첨가물 없는 클린 라벨 제품을 선호하는 비건 및 저자극 식단 유지자에게 적합합니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                6
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "Nutiva 유기농 헴프 프로틴 파우더 iHerb",
+            "\"Dr. Murray's\" \"3종 씨앗\" iHerb",
+            "NOW Foods Organic Pumpkin Seed Protein Powder iherb",
+            "hemp protein powder iherb"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1008,
+      "candidatesTokenCount": 1252,
+      "totalTokenCount": 4449,
+      "cachedContentTokenCount": 566,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1008
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 566
+        }
+      ],
+      "thoughtsTokenCount": 2189,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "zfEEa_uVNP6D1e8P27aPkQo"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:09:55+09:00"
+}

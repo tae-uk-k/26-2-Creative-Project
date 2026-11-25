@@ -1,0 +1,289 @@
+{
+  "run_id": "gemini-api-B0-W01-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:57:26+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "W01",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "watermelon"
+  ],
+  "prompt": "수박씨를 원료로 한 300g 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹 검색 결과, **‘정확히 300g 규격의 수박씨 단일 원료 단백질 분말 완제품’**은 국내외 소매 시장에서 공식 유통이 확인되지 않습니다. 시중의 수박씨 단백질 분말은 주로 미국 규격인 10 oz(약 283g)나 16 oz(약 454g), 혹은 대용량 벌크(원료 공급용)로 유통됩니다.\n\n확인되지 않은 정보를 300g으로 임의 추정하지 않고, **수박씨를 원료로 한 제품 중 300g에 가장 근접하거나 공식 유통이 확인된 대표 단백질 분말 제품 3가지**를 실제 규격과 함께 소개해 드립니다.\n\n---\n\n### 1. 스프라우트 리빙 심플 워터멜론 씨드 프로틴 파우더 (Sprout Living Simple Watermelon Seed Protein Powder)\n* **실제 규격**: 10 oz(약 283g) 및 16 oz(약 454g)\n* **판매처**: [YesWellness](https://www.yeswellness.com/products/sprout-living-simple-protein-organic-protein-powder-454g)\n* **선택 이유**: \n  * 인공 감미료나 합성 첨가물 없이 **유기농 수박씨만을 100% 분쇄**하여 가공한 대표적인 순수 수박씨 단백질 분말입니다.\n  * 시중 단일 원료 수박씨 단백질 제품 중 요청하신 300g 용량에 가장 근접한 규격(10 oz / 약 283g)을 갖추고 있습니다.\n\n---\n\n### 2. 너티브 워터멜론 씨드 프로틴 파우더 (NURTIVE Watermelon Seed Protein Powder)\n* **실제 규격**: 16 oz(454g)\n* **판매처**: [NURTIVE 공식 온라인몰](https://nurtive.co/collections/plant-based-protein-powders)\n* **선택 이유**: \n  * 수박씨를 단일 주원료로 삼아 만든 식물성 고단백 파우더로, 식물성 아미노산과 함께 수박씨 본연의 마그네슘, 철분 등 미네랄을 보충할 수 있도록 설계된 비건 단백질 제품입니다.\n\n---\n\n### 3. 룰원 프로틴 R1 플랜트 프로틴 (Rule One Proteins R1 Plant Protein)\n* **실제 규격**: 620g\n* **판매처**: [아이허브(iHerb)](https://kr.iherb.com/pr/rule-one-proteins-plant-protein-pure-vanilla-1-37-lbs-620-g/107844)\n* **선택 이유**: \n  * 단일 원료가 아닌 복합 식물성 단백질이지만, **수박씨 단백질을 호박씨, 완두콩, 해바라기씨 단백질과 함께 핵심 공급원으로 배합**한 제품입니다.\n  * 해외 직구(아이허브 한국어 지원)를 통해 국내 소비자가 안전 검증(Informed Choice 인증) 및 원재료 구성을 투명하게 확인하고 구매할 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx5OAnYyO9mUH7DFw1qI7mpO1XpTPeSo2g7UBtsYNWeRiUgGtlCGyWYIerPwLZL2QXTArY9WTee_WN9unxgpizfNuJrvWziPvA_CyH70UpYGBMSQXxwA3Q2VYRpOOXI-s0fTyyfAwf0k5NPr--kuMbg5sp8-KN0I9x7kJt",
+      "title": "nutrada.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5lhWEnfMyg7NTOMAxEo5mlJ1xvx14pzPiBJvaN5OEzd-tgicOmSGTBSqe25izoY2zmCPshKgPwhapqeM3jiIbQLJ0r5I8SeCgFYZyUdczt6S10QFtIFMsBq__XbKBRPUAqSz_XMgaAon1RPZ3cItBbJAE4N_LVEXDMn8I-LqN9HeVucVaqIORGDW1kNc34bxvJhT-DOlpg7aZA2ZfiswQAkSn",
+      "title": "yeswellness.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_sawcvaY-qfWlBZkOgOU5wElR8K4vALInLAURoQphuCUWagJMqVHHM4Cw12GJM29XneNzVxFUi-_KrrxqfJzmU0-hZs8-IEVXG-vt65UZobnlFudWyPetuu6iZbF4JBPsLQLAD7ivCHGVlfGirKkpbm-gOLgy-sKdqdVzSp6Jnw_JCRLabTKDRYBF",
+      "title": "daraz.pk"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9GG-5zjLP6EixH1AG0eP_jJvtRSPDFvssYWtp9QE31gFhf9JwDy95R4L253gjcOv4S-I0FZJQF8iX3InWDanm5nlE74aVTZWd8AO05xW-W8BKNUrYzeAa_oiRqWv9gg2TvGfaAqD7_eyP74_oBA4xBbjG5GMZpA3gQKflQvdEmtXnKPHbmzR66V9IhvRNqTT_MOwKRAoz-dRyohJEG7C_k94FNFBwWLmNyJ6zv1XhfQngCndPG19tVa5uF0TjPcTI2_Wkp2GuXE07fe8OsW6XFJWaowEJY7KPTDNfd_RFayEcTJur3xYkAwipCCXU38KQAXiBW0H5jdhoJxskwHW",
+      "title": "gosupps.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Hj8axPN5V5tFao4r3liA5sQE8zqoBvuM3C98dpBkNwQ9pB0aNIdY4lJ81ko3EPq_H5sW0tFpA1ByT3pyUOB5xOsexw2KiKTHdjftB4cLAXL7x9dNMSxbM8eqf1t6ln16de1ppt5i",
+      "title": "nurtive.co"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIr2n7TO47WResQ3eZaKmJTaw8htc2rXb5RGzZSXWjedishq8I8jt-p6xlOdmPl9_RcNBLrpfOw1H75LwNp-sxswZKix-aQDE95oAYHi1sIdCrRwoN-OQNTdUAwhKAqItOeF0EEoZ3zDDUlJ9WGZJXcGuvZOiEybA-fJNXypOvMTuKV9vvocI_pWipwTLZK4HlK4dO_Q9M4Cqm_GPoiCd_qmiV8RiCDfQb8rCjdnaBjediT1F3GXn4Enm4EZNYSo2_Ldj-m1AMLLqq3Cq8afto3gnxESHYJH7d2QaoSRIWw==",
+      "title": "u-buy.co.uk"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_rNdITDUjp7I7yapUuh1KbCL1KfOy3S5tLmt2od_IsyB8bbFeKLkkO3c9aL1C1azpa_cOASxK97jooE26eTsllT90Pa3-yJjyfop1b_g6yG5Gy_FlUu3kABBRg3csmZcVYPfbCeKe9cfXDFy34biumuxVhay7Pa7wJ8_3N8UPzmWCuhAy35hiTjRo1EzC",
+      "title": "iherb.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "Bu8Ea92nEMbf2roP9PyvgQY",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"수박씨 단백질\" OR \"수박씨 파우더\" -원료",
+    "\"watermelon seed protein powder\" 10 oz OR 300g OR 250g",
+    "\"Sprout Living\" \"Watermelon Seed Protein\""
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹 검색 결과, **‘정확히 300g 규격의 수박씨 단일 원료 단백질 분말 완제품’**은 국내외 소매 시장에서 공식 유통이 확인되지 않습니다. 시중의 수박씨 단백질 분말은 주로 미국 규격인 10 oz(약 283g)나 16 oz(약 454g), 혹은 대용량 벌크(원료 공급용)로 유통됩니다.\n\n확인되지 않은 정보를 300g으로 임의 추정하지 않고, **수박씨를 원료로 한 제품 중 300g에 가장 근접하거나 공식 유통이 확인된 대표 단백질 분말 제품 3가지**를 실제 규격과 함께 소개해 드립니다.\n\n---\n\n### 1. 스프라우트 리빙 심플 워터멜론 씨드 프로틴 파우더 (Sprout Living Simple Watermelon Seed Protein Powder)\n* **실제 규격**: 10 oz(약 283g) 및 16 oz(약 454g)\n* **판매처**: [YesWellness](https://www.yeswellness.com/products/sprout-living-simple-protein-organic-protein-powder-454g)\n* **선택 이유**: \n  * 인공 감미료나 합성 첨가물 없이 **유기농 수박씨만을 100% 분쇄**하여 가공한 대표적인 순수 수박씨 단백질 분말입니다.\n  * 시중 단일 원료 수박씨 단백질 제품 중 요청하신 300g 용량에 가장 근접한 규격(10 oz / 약 283g)을 갖추고 있습니다.\n\n---\n\n### 2. 너티브 워터멜론 씨드 프로틴 파우더 (NURTIVE Watermelon Seed Protein Powder)\n* **실제 규격**: 16 oz(454g)\n* **판매처**: [NURTIVE 공식 온라인몰](https://nurtive.co/collections/plant-based-protein-powders)\n* **선택 이유**: \n  * 수박씨를 단일 주원료로 삼아 만든 식물성 고단백 파우더로, 식물성 아미노산과 함께 수박씨 본연의 마그네슘, 철분 등 미네랄을 보충할 수 있도록 설계된 비건 단백질 제품입니다.\n\n---\n\n### 3. 룰원 프로틴 R1 플랜트 프로틴 (Rule One Proteins R1 Plant Protein)\n* **실제 규격**: 620g\n* **판매처**: [아이허브(iHerb)](https://kr.iherb.com/pr/rule-one-proteins-plant-protein-pure-vanilla-1-37-lbs-620-g/107844)\n* **선택 이유**: \n  * 단일 원료가 아닌 복합 식물성 단백질이지만, **수박씨 단백질을 호박씨, 완두콩, 해바라기씨 단백질과 함께 핵심 공급원으로 배합**한 제품입니다.\n  * 해외 직구(아이허브 한국어 지원)를 통해 국내 소비자가 안전 검증(Informed Choice 인증) 및 원재료 구성을 투명하게 확인하고 구매할 수 있습니다.",
+              "thoughtSignature": "Epo3Cpc3AWkUfROhkp+2GdyxIUb9MFtz7T/ApktnO5Fkstz6B7B6cJV3U2Cn0UyC3XHAhvDNM53OSgGrYjf9rX9wUMtk+5klb3Xleuw/yY0oSD3f8L/36Xad1DQvlN8pciM06w7+6/LXWOfFcO2vYFYp/86FV1r/HJrwLSZojhxQZpXvhdyY2Ah1RUHiRSgVghMgRJN9BFnMoL2oBYmMED1P6saXHV8InWrFsfHMyKvC2M7CoCPUmiyAhiT4ngqs+UVJ0s0ZnE9DB8IvcBnrlzKJHpSjihZphhmFflx6D4Kq7oD/7F3x25S18mIr83NdeNdlQVexOLDGTgWmDO6Rzqznvu8CIAunxtg0qemi2c9tyFauIrRsLkKC0pxaCei/HdaCREuWC420lnzJXxSHlSCxOiXII/qGtFY8VsoK0TJVT/FJ7o6U73AR/b8krInrCm5p8Ja4s2MjW+33auGiTGbpycfw/jn736YhcIS6s+3xR5gj7SAaUd5unQ7QreSFhQ4Hb6GMHAa3n/e6WSkH8aEjkQWcZI1jE4MasoiVPuueXyJLqwQAv+dK3z9czH1/IX72whCwiW2km8ef41nPTz31pZjM6tF2CjkjlZZ0z+aMl1M1GgN+wrs1kuf2hOyIuObdeJ/XqiHcRLv1akOdhr9cUHHuRqs2wuZOrhQ74u4w/O8HdkonSHrMkYb4icuPZy27qPYJWZw/mycNhCdDeIl8fKykVaCOIV5Lk5ffZ2QgQYjY6Ee0OeO9Zbwf0HG/dmzrLmmXtmaK3qEYDt7jAUJmr8Yaq8J2nWpZ/IdKHurA7mGx0IbFPk2auDO8uowOLbRLccLHP0eEIUbRLbyCw6+CPn4U1gSLEcMQz9Mo3zs3PUIrW9+3yVQS+Lg9CkVH3e9Rictjj9Pacfc6WdyqMpcdO++9JsuaoisS/+CGCg2d9SV97NABRWRFF965DE0t09i+W40yR6vbHWg0usRvtWWptUGh8Sio6MD4FH8AkkCeRhkzY37/PPi+yKbH7k7oBxKXVWJwH0IROpBnhxNt/gtB6sKLQGmivttntbm460/K856zpvloE2bJEiEELJtpTptcTgSVWqJfqG0uH7642IezhBEjJZrlA6CWrScLT63DTP7RN4tdnRLM5sE1yKgT3oNrU9wyzDrAl0DX8l/xbaU8o9ojDVOFfE7D6go4k7dDIBd4LLJFmU3O0yylXSbhqrLznNHSSn9oututFkDdHx1cjJ8V3MmXcnxA53kjKh52G3ehSdkF69EkjfO4DIDmYMbdUDPv2j8UBbYXuLRLyWRAVHs3XKjOjj8cCjphyEOCsy66mTiut7rJjZYNKYWDoYAkIsnARoM1URg9J8xiKw3bYL63fSuENn6p4xgfMk4uUULFl3o+Eue7cLq7Aidv/KCr4gmZeTR1sOi0zeUGOoVrp5tb42y1R+4M8Y2l4U9SxL+59fjD8lT2x1NAcGTXgTS7ZoQCU8qYl64MHntQs5e6xADq9DIT2Oo4/ZXfLBSkPh/xRYii7rkPSumyevNezIWfjEKVX+vl6Wm2K+yVtATzyYbNqqoTt1wKnT2Z6bMph4t2clQaUlDSOAUOcIMY7lFpf0uvjNUHxIRus5PFYssdHU3nAcobE/5zORO2l/uDp7OlbycKjbb3A+3PX3HzqWNAv1JWa7qXQQP914a3O+Hcl1jQBo5+QSbHDbDXALGx2zALa1Bs9VsMZ4BJ3/FNry67pO41ia2kxAtzIru/uairDX8L7piOBL2CG/3oWNswk2IO4z84V4HWIKCSnGbcakzrpeRDnR99Xjc6fFZLvtny6ToqAksiVHtxchrTA8SsXuhfLogpbNegpgkgsbFLIiwvEe7R7MClBJCgmdK0JhXP1FpjWyYBavVB3Q5E4y60GLYC/H4ZHVOyDhEo/OoTbTyZMlk/8rP1yXr29FDvgMv3ITwNDr5T1bd0iZb6jQuSljkZqZmJggAGFsjdwr3UVd2xvtlQ1Ngd2JsRzxdP13HWsr6Ruq4vNFgdWpnfCmyXFzR+VDXT2U8pwM501pbKhLe3xS8aeuY8JX3NeT5b8DRwCKuoAjmOFK0GAw+I8cQxKkTO7dqrxEwXns2Ximckhn7luyX6smYhXBZF7jB01g2SJzSq+PM+rIV53mBwq9WsiXdz5ateNYMo4Vy9fJiHV4JTdk1D8qbjUZJ6/kqO3w499EQB6JeimWyplAFwoOzo6F3twSXUL33yobydoBXN/HQEmzvmgqmlWjjS/oeT9qP2LgS2EsCyROKqImFf2OzsLJS1td4k6h4XOb+XOCXzsBVKHMZTHuN+MP9mbkwHVlJ3D3FrpRgya94EjnhFZ7XcyB2fa/O02r7ZTWT9XWjaTc2niNq2kjMjH5Ip7TbEhXMBJ20TA16HfPTsKSB9KloHEzNCOHKsn+UQJy8aNee3hpGNzLh1UVteM+1Tmt+EVa2alTucBOrOcIJv/2QQ/dwujUB3n3sWRus7cM/9ruln6ARvMXurvWlO5lNu3e6PhPHFyoCAVm/0MgcG5VgjC5hmPp8P1qooT0CZ5bsMFketTXgQa4RIOcLBvk1TYbqAq1weq9eyQr2twTSssx420CxcWFklTPr5oyPzGS2YF8elvbXbCxdWZOuBX32vAg6i87FssREeVyrdRhAtIJgswpYWCz8vTK8EI+yd2+aG9SLVzodp9/lYZn4+FqVcoeIZsh5qB0V12czYWXnasRX5mpIM2kn8Kg54vXQ9xQqFg5GtvpIwdVZi0V8j/tuafpCZU0MQe6GwstQaA8nWMfQpCtNmBnAnzOnblJ/fodFxC6EuvjugBK1LFioeFMSDCQL4gelRNrwajn1+e1R5uHK+SKpwj1JHZdeWTu1uuSJxHGy+TIzA2r3KwudLMmZ9q6z9h2jdYcmooLLQ0IUePGrTlkLeoFXj2umeli0sYHZqDNUJrsinBVyGg9psZuwrVrSNHqWKkls0dhaWFsRPZR4EfClWl4EBNLHJSkmIEc4UQZxcRmKqUPthYSffRAbNsvJK23znBJWOvdHYFq9iFAeXgYxS2oHQ60b1S92gNhawYJ/pevspcdHV9nsTqfKbWkrVzJwwmLPPKkluF97IT1yWdUszdm+r5JC3dmBX6QVKZq7Yi9QvrMSVzfFLZ/Ez2WTV7gmjbj5f/x9JBrLl0lYIyMCJl2dwgTAC4rpseSOyGRCvniSB1BTW+MnQSE3aSQmoeuET2Epfc6o3warofziZILhQedEJwZAy7Cd7EbkeYVl+rPLpWS/hX7p4CerIeUb2hmfWoGIHBA0AObuoT751seE+FsEw32gdM9Vnxiba5xn2sqwnLNaqQJA72Uqr1zXzfd8P/aa99Ez0dzT+g6YRzsmmk16P9sTU2HJ9nYoNph7akdaAQie3tMihYWyEBKLdBs3flSCN2npxFbVPA7KPNXJEW+1cF8dtgNhvT4elIpwii0KtaKktB/KM6Bxu7vCgGi9NTdHKSyZINNi+HXbCdUq/Tcer6IJwUsFO3joVZwSyCRvVDbJYF+CDyoQvze+8JHRIZh8TRdPSV/pO091w1SuXsUPiSNZSLLa5B9cXT7YYPMRLAGoT9LrUpcoAzFuhPFZ2nTA/ThsGkw5tZnM3o9ZQCLEkQ71/myQz0ZBXOk03CAiSSEmnv09CCgPIX2na2uO+MCieyYctk3A6Lr2Yl+2RCueLc8OXC4ykQMMgra9rnmhE/F91+nOcnxz/VuR7+Gi7yuqjZwxlHiEMbxpmC00n+YFJoKMhzov0vbhS/GanFL4fqhitgLMKGQQFNc8yFSpzwuafe46SrnraWzaI7ajBzfCLBFGkBChSzglPh9MbHQM6/lB3SDCP3eLSDzRFPMMRvgifDhSlZYf/L3evh+eLnYHlC24M1nIzffU1rD19pw97gexzSllUVu8YIG/u6n7vPhYoTBpor6I6Xj2no4HvdjFw7/1BrfOSI1Or0OylQzHVyHUDC6yXEfufZ2sYhNqxw4oH+7Mf2rR3vtgJP33eXwq+t0oAryDlzmR6vnsyzpv/O7YwWsp8h/wXmWiHyN+WGLJNeC7TZygIVnU0Xv0K2+tm7RwXGVCxhYKQnH1/0+4sHGvmLQjFJAmYCUcS/ZvTuoS5KgsKETY7ELu2JJKSn+RDkYYk2N1mXhp2d7ECRHQFacZXcgKSBErlQPyGcz1jARaEph619maobtAFxxrMXwWXbNDSOxq17AtGJOXcECU+HgdgGO/RjPWR2qesawjUmzGT7AgQqxpPXkBMM/vkJhMJ4YA0pvkV0+N6xYt+PvPpRpxgCACocZpQ4dC/eRAvuHNg7NiZ5Hn4YJ8jrwr5IVFAMR8Zr4Mw1RiM61ihv0CHSpRVkQU9eLNvXjZQz9awx1dKjQ0w/lJok7uyi2SAbRKbo6PfcGmlI+814prTXs3RHtqISyjYgWcvp3TALcX5JmIIWhuoFnAjbsUgqI7c7kZzU6quvipYb6Ffm7/q7on7u7/C54qLolDW1E3YSrIZZz+MT5UNDOBM+L86/msKEva5dAMzJFo7thcsMicaK9cFLXe+131MPE9IQdwIiO7+IpJwBBKXworXdzS6CiUo41S6HZiTtf1Oz/j494QDNymn7uaHi8oUyQnDeJt1gHf0n3GyybDI01uYL/49YIV+7/7uuM4KNzdiyFNkNMU3qaqiw7pMKdkqNFZg6ZGRRi8AEvwujfyUp75ji3THB5+CHQmQqf206h+jXqt6z7pqx4my/wElo1d4qGJaexPNMk1X6EU6kGMFxyARQp2AmfZ4bGT4DLQ6Z9cfQz/j2LbbqwIr54L5ieQ9ZNN1AjMCUXb6eCM0keyrqZH8ctheCn48Jv7kbCa6KOLBayatoOVy2mkrXKk1KfiN9pgrxHwWoSFiv6v9e1+MSWml1zNMXL5pcdh+OpugcF0QPpxAoRjFxxC1MQ+E+9cYp5admKG1YT5abWgFaeH2J6jkOH47c3UzPddAznTqEwoL1rAn9/7xXGDMVet94LSeBh/57OHmacgE8++DlnDGA8GxbGWb4PJ/uwQ6q1LV6rk05SO0/HYvKfsEarxv/sX6iAcML9IpdAXe066EhRX4QUkBbT6LdgNs1/DLTlO93fKA7dxs3FR534QriN65skwZd37UQmyaT1s+aCtrURUnL+zgiHfdMLiALDtZJrOyuMFfycSSR2zntyB4ixRVP5i6fX1rYnkF2VKZNPqVqjbkshq0mxgYOXm9JUOC/EdaKI+72ZbaevonRW+pKKsP+7ps8rzi9Tvp2dWiR+PXvzYYCQwdXBssA32CMO8HI8cEoBuNbOhpJPhCICphsIweH89vUzU9PCIS3nL8uIFJ/qvvasQba4c5E1+gFvoTqPa3Zgp3YwBsgSm3DuBPl64abyc+jAaDuTEk4G7t9erCxqbLBWb9HKseieXXNgsVT0jG6wJoAYPhprtMyTetDM3X9CwI8+lEOQtUSeed0hVbF3DvzNNT20X3UQ+OD2dRBCnoMOtcWnsNuhw7H/R74FOxukLFPsnQBx320ACN+R5EgW1jtrb06KDAcJPLMCB/O3vMMrsnSR2rFdWJjpqDlms+mBZ1pspfBiQ2JRkQtQLBjXJXa0K3CmU7Evdh4CIs784oKPvuutwJix/7WXUoSD0kWOxjk/7sqz+aEhiOrKBAYYWJ3FYzEhhVxVvykEUT3YFGc2w+Fq91csGchX9H5t6Rp9LDwa1qdiyO3h8522ffWOuYAzNUEvZ5wlQYbYwLQLnHsK5HalomojbJZuik4POODzdE1StR9eLpYFer2qZvy3ElJl+8k2Cbrf93vkUhb5oY1zy25tGhMFv6fG01aFHcCEwYd+oE/fxvh46ZDVPrNTuauOZ4+RPswu2gvz4L9naitAfBj3f4xVYIzoICN9pyNYUNJyYMh+q/Mtmg1Nqw+rZes9LcCtKoAIA4UFa19py87U7i/QlcEVRnsKW/mNL0rHDaH9cJNcl06vJcQiGunp945OVkSEMCzu+Di269s8L5hsKJRKyCD2mCiDLDI7+cFuvNtYhaWb0iige175Ep1S+OB9x6KaZZDmXttzzTbzHH/mbk/PkjGqykZ6gUcEbhva1Ct0Z0hkh1fbU0qAfySn4cujhYskw0sLDUyq9myHLhKeBaQ6BlChG2tVKHFMmwgHakYnHKjwbUY/wYhhP756KXvXR/HAlMfBz1v94Y6GO6Mpm+yqCUmC9H17bsETctiUF1Vgm2bh3+gz7LTsAyZvP/QoO9/4CPkl7ebKztkwTVsxhxJaRSsNnCDJ54UGI+JXvbBgZyJ4sTuNcNEKMiX2DjORAJkGaJD80ieGnLOOstu8iGRUZL0n7UUYxk0fnkYm+CetIDBakSJ2dLn2Uw5ciNBZOxGAtRBVQ9WMlK0uCC2EWs7i3ndg3s4bjgMjc5SqihpNBLFrRJF+93ZIc+91ZGYNGFvzzwwbWC3GDU2OLqwoPi0sjBH26wc8pDE/UvIqXGr3qBm3t8RrtLmlTW3U/4s/LFJy4mnUAg5cPktcCMAKNzEHuC+5S3rs7iAlcxkb2P7OvUN2kKy/TFCsuAi4ukMsDXUskAGluRYIL/SzsxJ6/n/kib8wik9ocIYcdAI0K+AkqPk04n6hZGSmjMPB3uGF29IfsPKcfh3sw94IYdJipRbkXWLyuuJVDcs7f+Iz8MZbmf5Tv3/6isRTjhc/eEcT7p2HruUx7jWYYGN8xxVoTphXYhna+PIDgVtw6u6ufQD8wJuIgfUCO7t8/ldMVv95CZ/AtNyLkUYFBuZXIWVT28S0x73fJfxrnZdXVE1EWQSERibf0JqP7gFAQ6ugI79r5ENfS9iTg8CgqMsDfeXU0uGgWAQiAXd8L+mBs7hwDIrbW0s5OsL1jq88uJfYW7ifUjHUNGv6MVNfX7AaRh/3ClAeeY8gI/1VciOxXolKcGQqt3pu0+DQNBYwQY6twkxcJwDGNlwYWHkXbo/j7bBiAHLv2dclZO+Z0sv6jk84I0pCjMJ3GSoG4nOGAiDuynjowtNdrD38W4UwwfLVvOl6zEDNBa0oprQW4ya+Me5v+xQ87R9/wrN4j8cdT5Ua6pu7crMMOCEB7kcLkMddsDAACkupHJ4invaRFBlKkTZ+awFZVTlwMtB0sc82ff2n1c4YMEl3dT5UDjyOFy9Bd7K3Hhxyho6KE1+6tUuwbcM5RJWIk8Ik48WsrAIPShN1v6X9Nu3910wXmZD2VeDPNa6mTopwk7aCBumMaqUmaSBJxuIjnqEcthi84gl5dTkjZ01xBs1qbuuFZISeCDx8BDF90CHYQc849IToJuYLb6AdQdyL/HQeX6OWrkZIAwbFLJbQnHkaBB3eYMNgFMuMwFnTEL9Y6AH6QWif3Uv6EGh2ZCvvgx8xyhM4+ymhGGYKouol4nnRkfjs92iZyTtBdH6No8lAr+oQsm9VVTnz/W/sDO8ni4gK83pZJ8jzbeQ2q8KiHqZTXQXMx5m/myK4sxllwYBku4qiNtCv/TmAzHxw/7nWm82rXuN66Os1Ykmlz/qIB/4yW9fY9CBEIF8NkR9oURtYXFxRf/4cC8NXsZCXSZM3+j24YoE/ssIWedmZ2TI99c5vmH1WJnJFOgWM10Y7CMwubLewHR/ID/hSkaL+4CkSMJmtvhk+mt31dV0toj200+ThxMVaq2eoO5UweL5anJ2ZhF1OI2KIXKiGyE8qr6jRdCeofnPRvwqhcJJEVXQ/ePwq7cwul8PZ2LAL1pOJLuxqmSCMCE5jrbhRQpVR8EOFbuVaxEFbBnXrX4NPDi+tvmsJHE6fbp584i2Buk7LEUa+f1LJfOC8LjnrIWaVsAu/nMRk3yxMpBlxJk5PNhgLskdJsIZ/u5pV6IOqRkyG+kru+NmuUBzNE3DH6HEo+a7clIiBHD074TEzmUuCZ9XfOFVxLGpemFF0rcj0ZeDDo2Y0Pd6mrnBCkoPzGNk1/eYSFZ71bhyFy7FI4SQuibdvnlGsPIxRS5UpZdoN20h1Enr1zzEfFOyO2tmzNehmlm3V9RtFpCB6tohOV3l/M+MQo4yI3MBUxm5x18cX8r6z1N1clVn1R6uV+FGaXCYi1t/zKHdnJHxVhXuhjnVNQGCtIPWCL+Ay7WQ9RAQRFiEJw5LtAuJ6IJLH+BG0Fga6E9/lSMs3bdvUpJr0gfGbVlGfUsci9JRNzjnasPB98xHBLUawaCkHKT0y5kjojJKMbB561n4sq3U4JddEX3RY1iX6OrnPIy2pGo62/+Kg/1vp11CVCThfrqKW+daEMMkcd5JbIxbnnolm6Z3e44gTIBfMG+0kW4Cf38GpFYwJaMJ8KwO6gkqaW241fi63F1xe943YlmkXLIKQh/G1biaiXYOSZ3f5wnh88o6pN3AhdCDKxAOZIo+CD3N180R/s1HCBLSdteC2a4Rvh9I2CxyZgShziN6DZfIC0qtLs4hKEXdOfgGkZpdUqW21fX5w7PBWfXawYRk2MkBj86spSKtzlLinastLvqs0orH4KHlu7KrDXGgEvbplkHdhrdiUBRaTuihLktTbTLiLZPGfECqyUfJW43wZHhbzqMkRV2gtoGZbjS9BS1gRjMEZcGF1tIUZry2oDnFGUSKXDgFZ/ieAYVknbwvKsHTiBuP8JVp/0QQ4fCmh7pFV/Q+Wo/FGmWeDY4CaXtmOEwyRRknRTAEH0VG5DXnjnTELz7MbGqEn30DsLJmcbWINUe6A8Do5FXiJ7+t0+hVeXrgTJFVzc0iGATDg6G6J4x89yeVjHGqqDD/A/vzQ410GnAZPWunVK8mqbbQCAL50L/R970pZWtsw0AUaeJ3zekkPFlfrx8jhQf4DVrmsNJvjpJKa0/8oR97WzM2H0ifO5PzHtITsfmbyEsdK8uVJVDZtHJPm/BLCa80yDASP8clL8tu5yAN3I8oVLTXf8JM+nhFafWIEXdskWORjgL71isNj/+N2mbbmBGq5TWn9IZ1TXusebmX65c/rnsxXXcNa+kNuDGor/WACSxzxvvpBYuffBBkgBzm9+A4FjFbUIucPKGYSBNQxpGLhtK2OT81JGNkVthtsdc6Hsu/vSbvh9mYdduj1pUS5/C5rfgcT0AY53USOkJ81iSLdsoUxDDt/UqcK/y2miUVwsgZphbF3Zm9BD95rTOR4bnKT/eCgqWuBwJmmzV/zrru1lzcaP0FQPJA/wgBt5m4e1vuj8lKGeG8b1IMrr4RCnicW/HCieqvP+T945ii8wCwIbkA+guZ8sZexqycJVitFpP5al77Gtzcga86bbg+XWihUEJM536N8+5BMB9KTumnVjTe101BuLT7Yjw/txmJAMtma2RrKkh3Yetf3EM6vZSW7/Y9vzXvezpt2P6+XP/nUG3fKVC81h8/mEIkMhT4rgUfcOyqgYQxJ4TeZf0aia5PtMTpBjo+2ECTEjqDnrSBou/C59Obg=="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%88%98%EB%B0%95%EC%94%A8+%EB%8B%A8%EB%B0%B1%EC%A7%88%22+OR+%22%EC%88%98%EB%B0%95%EC%94%A8+%ED%8C%8C%EC%9A%B0%EB%8D%94%22+-%EC%9B%90%EB%A3%8C&client=app-vertex-grounding&safesearch=active\">&quot;수박씨 단백질&quot; OR &quot;수박씨 파우더&quot; -원료</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22watermelon+seed+protein+powder%22+10+oz+OR+300g+OR+250g&client=app-vertex-grounding&safesearch=active\">&quot;watermelon seed protein powder&quot; 10 oz OR 300g OR 250g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Sprout+Living%22+%22Watermelon+Seed+Protein%22&client=app-vertex-grounding&safesearch=active\">&quot;Sprout Living&quot; &quot;Watermelon Seed Protein&quot;</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx5OAnYyO9mUH7DFw1qI7mpO1XpTPeSo2g7UBtsYNWeRiUgGtlCGyWYIerPwLZL2QXTArY9WTee_WN9unxgpizfNuJrvWziPvA_CyH70UpYGBMSQXxwA3Q2VYRpOOXI-s0fTyyfAwf0k5NPr--kuMbg5sp8-KN0I9x7kJt",
+                "title": "nutrada.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5lhWEnfMyg7NTOMAxEo5mlJ1xvx14pzPiBJvaN5OEzd-tgicOmSGTBSqe25izoY2zmCPshKgPwhapqeM3jiIbQLJ0r5I8SeCgFYZyUdczt6S10QFtIFMsBq__XbKBRPUAqSz_XMgaAon1RPZ3cItBbJAE4N_LVEXDMn8I-LqN9HeVucVaqIORGDW1kNc34bxvJhT-DOlpg7aZA2ZfiswQAkSn",
+                "title": "yeswellness.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_sawcvaY-qfWlBZkOgOU5wElR8K4vALInLAURoQphuCUWagJMqVHHM4Cw12GJM29XneNzVxFUi-_KrrxqfJzmU0-hZs8-IEVXG-vt65UZobnlFudWyPetuu6iZbF4JBPsLQLAD7ivCHGVlfGirKkpbm-gOLgy-sKdqdVzSp6Jnw_JCRLabTKDRYBF",
+                "title": "daraz.pk"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9GG-5zjLP6EixH1AG0eP_jJvtRSPDFvssYWtp9QE31gFhf9JwDy95R4L253gjcOv4S-I0FZJQF8iX3InWDanm5nlE74aVTZWd8AO05xW-W8BKNUrYzeAa_oiRqWv9gg2TvGfaAqD7_eyP74_oBA4xBbjG5GMZpA3gQKflQvdEmtXnKPHbmzR66V9IhvRNqTT_MOwKRAoz-dRyohJEG7C_k94FNFBwWLmNyJ6zv1XhfQngCndPG19tVa5uF0TjPcTI2_Wkp2GuXE07fe8OsW6XFJWaowEJY7KPTDNfd_RFayEcTJur3xYkAwipCCXU38KQAXiBW0H5jdhoJxskwHW",
+                "title": "gosupps.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Hj8axPN5V5tFao4r3liA5sQE8zqoBvuM3C98dpBkNwQ9pB0aNIdY4lJ81ko3EPq_H5sW0tFpA1ByT3pyUOB5xOsexw2KiKTHdjftB4cLAXL7x9dNMSxbM8eqf1t6ln16de1ppt5i",
+                "title": "nurtive.co"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAIr2n7TO47WResQ3eZaKmJTaw8htc2rXb5RGzZSXWjedishq8I8jt-p6xlOdmPl9_RcNBLrpfOw1H75LwNp-sxswZKix-aQDE95oAYHi1sIdCrRwoN-OQNTdUAwhKAqItOeF0EEoZ3zDDUlJ9WGZJXcGuvZOiEybA-fJNXypOvMTuKV9vvocI_pWipwTLZK4HlK4dO_Q9M4Cqm_GPoiCd_qmiV8RiCDfQb8rCjdnaBjediT1F3GXn4Enm4EZNYSo2_Ldj-m1AMLLqq3Cq8afto3gnxESHYJH7d2QaoSRIWw==",
+                "title": "u-buy.co.uk"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_rNdITDUjp7I7yapUuh1KbCL1KfOy3S5tLmt2od_IsyB8bbFeKLkkO3c9aL1C1azpa_cOASxK97jooE26eTsllT90Pa3-yJjyfop1b_g6yG5Gy_FlUu3kABBRg3csmZcVYPfbCeKe9cfXDFy34biumuxVhay7Pa7wJ8_3N8UPzmWCuhAy35hiTjRo1EzC",
+                "title": "iherb.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "endIndex": 180,
+                "text": "웹 검색 결과, **‘정확히 300g 규격의 수박씨 단일 원료 단백질 분말 완제품’**은 국내외 소매 시장에서 공식 유통이 확인되지 않습니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 182,
+                "endIndex": 342,
+                "text": "시중의 수박씨 단백질 분말은 주로 미국 규격인 10 oz(약 283g)나 16 oz(약 454g), 혹은 대용량 벌크(원료 공급용)로 유통됩니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 743,
+                "endIndex": 797,
+                "text": "**실제 규격**: 10 oz(약 283g) 및 16 oz(약 454g)"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 800,
+                "endIndex": 923,
+                "text": "**판매처**: [YesWellness](https://www.yeswellness.com/products/sprout-living-simple-protein-organic-protein-powder-454g)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 950,
+                "endIndex": 1107,
+                "text": "인공 감미료나 합성 첨가물 없이 **유기농 수박씨만을 100% 분쇄**하여 가공한 대표적인 순수 수박씨 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1113,
+                "endIndex": 1260,
+                "text": "시중 단일 원료 수박씨 단백질 제품 중 요청하신 300g 용량에 가장 근접한 규격(10 oz / 약 283g)을 갖추고 있습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1368,
+                "endIndex": 1398,
+                "text": "**실제 규격**: 16 oz(454g)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1401,
+                "endIndex": 1505,
+                "text": "**판매처**: [NURTIVE 공식 온라인몰](https://nurtive.co/collections/plant-based-protein-powders)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1532,
+                "endIndex": 1770,
+                "text": "수박씨를 단일 주원료로 삼아 만든 식물성 고단백 파우더로, 식물성 아미노산과 함께 수박씨 본연의 마그네슘, 철분 등 미네랄을 보충할 수 있도록 설계된 비건 단백질 제품입니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1864,
+                "endIndex": 1887,
+                "text": "**실제 규격**: 620g"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1890,
+                "endIndex": 2018,
+                "text": "**판매처**: [아이허브(iHerb)](https://kr.iherb.com/pr/rule-one-proteins-plant-protein-pure-vanilla-1-37-lbs-620-g/107844)"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2045,
+                "endIndex": 2239,
+                "text": "단일 원료가 아닌 복합 식물성 단백질이지만, **수박씨 단백질을 호박씨, 완두콩, 해바라기씨 단백질과 함께 핵심 공급원으로 배합**한 제품입니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2245,
+                "endIndex": 2434,
+                "text": "해외 직구(아이허브 한국어 지원)를 통해 국내 소비자가 안전 검증(Informed Choice 인증) 및 원재료 구성을 투명하게 확인하고 구매할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"수박씨 단백질\" OR \"수박씨 파우더\" -원료",
+            "\"watermelon seed protein powder\" 10 oz OR 300g OR 250g",
+            "\"Sprout Living\" \"Watermelon Seed Protein\""
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1701,
+      "candidatesTokenCount": 873,
+      "totalTokenCount": 6249,
+      "cachedContentTokenCount": 1252,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1701
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1252
+        }
+      ],
+      "thoughtsTokenCount": 3675,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "Bu8Ea92nEMbf2roP9PyvgQY"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:58:25+09:00"
+}

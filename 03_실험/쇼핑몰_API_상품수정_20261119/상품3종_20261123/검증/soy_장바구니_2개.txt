@@ -1,0 +1,7 @@
+Browser tab: 682043689, Title: "seelo 볶은 서리태분말 300g : seelo", URL: "https://smartstore.naver.com/seelo/products/13890968875".
+1 AXWebArea Description: seelo 볶은 서리태분말 300g : seelo, URL: smartstore.naver.com/seelo/products/13890968875
+	2 container smartstore.naver.com says
+		3 text 재고가 부족합니다. 1개 이하로 구매해주세요.
+		4 button OK
+
+The focused UI element is 4 button OK

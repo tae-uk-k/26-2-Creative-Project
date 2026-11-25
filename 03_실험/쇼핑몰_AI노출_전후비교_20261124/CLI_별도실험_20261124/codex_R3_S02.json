@@ -1,0 +1,15 @@
+{
+  "run_id": "codex_R3_S02",
+  "timestamp_utc": "2026-11-23T18:40:30.219920+00:00",
+  "query_id": "S02",
+  "repeat": 3,
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 1,
+  "completed": false,
+  "search_used": false,
+  "answer": "",
+  "stderr": "Reading additional input from stdin...\n2026-11-23T18:40:30.624025Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-11-23T18:40:32.222252Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:15 AM.\n"
+}

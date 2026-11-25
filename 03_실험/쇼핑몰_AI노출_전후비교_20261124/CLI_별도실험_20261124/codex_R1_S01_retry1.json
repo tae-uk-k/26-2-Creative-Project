@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R1_S01_retry1",
+  "timestamp_utc": "2026-11-24T01:53:12.509292+00:00",
+  "query_id": "S01",
+  "repeat": 1,
+  "prompt": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "판매 페이지에서 **사차인치 원료와 한 팩당 300g**을 확인한 단백질 분말은 2개입니다.\n\n| 제품명 | 판매처 | 선택 이유 | 근거 |\n|---|---|---|---|\n| **Proteína vegetal de sacha inchi 300g** | Distribución Sacha Inchi San Carlos | 사차인치 씨앗으로 만든 식물성 단백질 분말입니다. 판매처는 300g 용기 제품으로 표시하며, 가격과 배송은 WhatsApp으로 안내합니다. | [판매처 제품 카탈로그](https://sachainchisancarlos.webprodesignercr.com/productos) |\n| **Harina Proteica de Sacha Inchi 300g** | Sacha Inchi Online | 사차인치 단백질 가루를 300g 파우치로 판매합니다. 상품 페이지에 가격과 장바구니 버튼이 표시됩니다. | [상품 페이지](https://www.sachainchionline.com/productos/harina-proteica-de-sacha-inchi-bolsa-doypack-x-300-grs-pijqt/) |\n\n두 제품 모두 한국 배송 가능 여부는 확인하지 못했습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:53:13.639806Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:53:37.873766+00:00",
+  "retry_of": "codex_R1_S01",
+  "errors": [],
+  "timeout": false
+}

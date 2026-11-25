@@ -1,0 +1,14 @@
+[
+  {
+    "product_no": 14,
+    "key": "watermelon",
+    "blocked": true,
+    "state": "Browser tab: 1, Title: \"카페24\", URL: \"https://xodnrdl06066.cafe24.com/order/orderform.html?channel_name=agent&products=14.P000000O000A:1\".\n1 AXWebArea Description: 카페24, URL: xodnrdl06066.cafe24.com/order/orderform.html?channel_name=agent&products=14.P000000O000A:1\n\t2 container xodnrdl06066.cafe24.com says\n\t\t3 text 선택하신 상품은 주문하실 수 없습니다. 쇼핑몰 메인 페이지로 이동합니다.\n\t\t4 button OK\n\nThe focused UI element is 4 button OK"
+  },
+  {
+    "product_no": 15,
+    "key": "sacha",
+    "blocked": true,
+    "state": "Browser tab: 1, Title: \"카페24\", URL: \"https://xodnrdl06066.cafe24.com/order/orderform.html?channel_name=agent&products=15.P000000P000A:1\".\n1 AXWebArea Description: 카페24, URL: xodnrdl06066.cafe24.com/order/orderform.html?channel_name=agent&products=15.P000000P000A:1\n\t2 container xodnrdl06066.cafe24.com says\n\t\t3 text 선택하신 상품은 주문하실 수 없습니다. 쇼핑몰 메인 페이지로 이동합니다.\n\t\t4 button OK\n\nThe focused UI element is 4 button OK"
+  }
+]

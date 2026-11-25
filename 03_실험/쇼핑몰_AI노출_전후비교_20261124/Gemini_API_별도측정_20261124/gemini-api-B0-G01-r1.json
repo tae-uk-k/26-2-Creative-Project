@@ -1,0 +1,264 @@
+{
+  "run_id": "gemini-api-B0-G01-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:58:34+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G01",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹에서 확인된 **300g 규격의 식물성 단백질 분말 제품 3가지**입니다.\n\n---\n\n### 1. 두레생협 단백질쉐이크 (300g)\n* **판매처**: [두레생협 장보기](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESZ_x7xhYmczoHlXJ9HGB5L2jg04i8kboZTDAc4MONT_n0Zxl5qqsbQuMvt7xtzwKt9l0huQyABxXN4k9d43GUhhvWTGfQodeeUM95SHpiH80Yz4gIEkUoLhP40AqY1-UDw6vGkShKFlv0x5s38lbE07YUY6nKa0HxyRRfQogAhipLhn5pW0Ayy44EUhHa)\n* **용량**: 300g\n* **원재료**: 분리완두단백(프랑스산) 72%, 알파대두분말(국산) 15%, 국산 오곡분말(현미·보리·조·수수·찹쌀현미) 13%\n* **선택 이유**: \n  * 인공 감미료나 합성 첨가물을 최소화하고 완두단백과 대두단백, 국내산 곡물 가루로만 채운 100% 식물성 단백질 분말입니다.\n  * 미숫가루처럼 고소한 맛으로 거부감 없이 섭취하기에 적합합니다.\n\n---\n\n### 2. 비옴 독일에서 온 완두콩 단백질 분말 (300g)\n* **판매처**: [비옴(건강한 우리집)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjq5SZxCvPsSUv_gmXR4zNqVyU0l8wJumaEdwn75enLA0H9T4nH0nCg5cN_ext8_cQvEjvXb1keNCbCsGO2efiCaWLY6OTU17hs0fHVgm5fx7SoemVw8oOxkN7uEWAWIpFNYCe_WWoAwX5mw7DF515x83dol5SUYjQlIeeGvyjLxjTVQpu0xAKiTjFUcXClUncNTqe53WYKpKOUJoM-b0VobLTIfEMNh5hFelyzrq1NFeO28QGTSQmp__Siw7PO32jien0lBnMTScuJTSd1W1tThjWU3XvE9q7A==)\n* **용량**: 300g\n* **원재료**: 완두단백(독일산 완두콩 단백질 원료 100%)\n* **선택 이유**: \n  * 유당이나 대두(콩) 알레르기 걱정 없이 섭취할 수 있는 순수 완두콩 단백질 100% 분말 제품입니다.\n  * 다른 첨가물이 들어있지 않아 물이나 두유, 스무디 등에 기호에 맞춰 섞어 마실 수 있습니다.\n\n---\n\n### 3. 나두리아 비건 프로틴 파우더 부르봉 바닐라 (Naduria Bourbon Vanilla, 300g)\n* **판매처**: [독한마트](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80leoR5FCIXiLzvDDp2HX-aSIqUbFkaqKUi99Ngmr6QrEPbPrNYlZuuNMyPbmO7SYZ2DZ8_C1McoyTvDK75dli1ZLyoHJ1F3hJlCMSOwl6GwmtoYzl6lfqkVKYyT0nlrgtX7Kb9kzkSBExRfA90QyjbA==)\n* **용량**: 300g\n* **특징**: 부르봉 바닐라 풍미의 비건 식물성 단백질 분말\n* **선택 이유**: \n  * 단백질 특유의 텁텁한 무맛 분말이 부담스러운 경우, 은은한 바닐라 풍미가 가미되어 음료·요거트·베이킹 등과 함께 즐기기 좋습니다.\n  * 300g 소용량으로 보관 및 섭취가 간편한 독일 직구 비건 프로틴입니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESZ_x7xhYmczoHlXJ9HGB5L2jg04i8kboZTDAc4MONT_n0Zxl5qqsbQuMvt7xtzwKt9l0huQyABxXN4k9d43GUhhvWTGfQodeeUM95SHpiH80Yz4gIEkUoLhP40AqY1-UDw6vGkShKFlv0x5s38lbE07YUY6nKa0HxyRRfQogAhipLhn5pW0Ayy44EUhHa",
+      "title": "ecoop.or.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjq5SZxCvPsSUv_gmXR4zNqVyU0l8wJumaEdwn75enLA0H9T4nH0nCg5cN_ext8_cQvEjvXb1keNCbCsGO2efiCaWLY6OTU17hs0fHVgm5fx7SoemVw8oOxkN7uEWAWIpFNYCe_WWoAwX5mw7DF515x83dol5SUYjQlIeeGvyjLxjTVQpu0xAKiTjFUcXClUncNTqe53WYKpKOUJoM-b0VobLTIfEMNh5hFelyzrq1NFeO28QGTSQmp__Siw7PO32jien0lBnMTScuJTSd1W1tThjWU3XvE9q7A==",
+      "title": "viehome.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80leoR5FCIXiLzvDDp2HX-aSIqUbFkaqKUi99Ngmr6QrEPbPrNYlZuuNMyPbmO7SYZ2DZ8_C1McoyTvDK75dli1ZLyoHJ1F3hJlCMSOwl6GwmtoYzl6lfqkVKYyT0nlrgtX7Kb9kzkSBExRfA90QyjbA=",
+      "title": "dhmart.shop"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "Su8Ea6GjGbyx2roP1oOT8AU",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "비건 단백질 파우더 300g",
+    "\"완두단백\" \"300g\""
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹에서 확인된 **300g 규격의 식물성 단백질 분말 제품 3가지**입니다.\n\n---\n\n### 1. 두레생협 단백질쉐이크 (300g)\n* **판매처**: [두레생협 장보기](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESZ_x7xhYmczoHlXJ9HGB5L2jg04i8kboZTDAc4MONT_n0Zxl5qqsbQuMvt7xtzwKt9l0huQyABxXN4k9d43GUhhvWTGfQodeeUM95SHpiH80Yz4gIEkUoLhP40AqY1-UDw6vGkShKFlv0x5s38lbE07YUY6nKa0HxyRRfQogAhipLhn5pW0Ayy44EUhHa)\n* **용량**: 300g\n* **원재료**: 분리완두단백(프랑스산) 72%, 알파대두분말(국산) 15%, 국산 오곡분말(현미·보리·조·수수·찹쌀현미) 13%\n* **선택 이유**: \n  * 인공 감미료나 합성 첨가물을 최소화하고 완두단백과 대두단백, 국내산 곡물 가루로만 채운 100% 식물성 단백질 분말입니다.\n  * 미숫가루처럼 고소한 맛으로 거부감 없이 섭취하기에 적합합니다.\n\n---\n\n### 2. 비옴 독일에서 온 완두콩 단백질 분말 (300g)\n* **판매처**: [비옴(건강한 우리집)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjq5SZxCvPsSUv_gmXR4zNqVyU0l8wJumaEdwn75enLA0H9T4nH0nCg5cN_ext8_cQvEjvXb1keNCbCsGO2efiCaWLY6OTU17hs0fHVgm5fx7SoemVw8oOxkN7uEWAWIpFNYCe_WWoAwX5mw7DF515x83dol5SUYjQlIeeGvyjLxjTVQpu0xAKiTjFUcXClUncNTqe53WYKpKOUJoM-b0VobLTIfEMNh5hFelyzrq1NFeO28QGTSQmp__Siw7PO32jien0lBnMTScuJTSd1W1tThjWU3XvE9q7A==)\n* **용량**: 300g\n* **원재료**: 완두단백(독일산 완두콩 단백질 원료 100%)\n* **선택 이유**: \n  * 유당이나 대두(콩) 알레르기 걱정 없이 섭취할 수 있는 순수 완두콩 단백질 100% 분말 제품입니다.\n  * 다른 첨가물이 들어있지 않아 물이나 두유, 스무디 등에 기호에 맞춰 섞어 마실 수 있습니다.\n\n---\n\n### 3. 나두리아 비건 프로틴 파우더 부르봉 바닐라 (Naduria Bourbon Vanilla, 300g)\n* **판매처**: [독한마트](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80leoR5FCIXiLzvDDp2HX-aSIqUbFkaqKUi99Ngmr6QrEPbPrNYlZuuNMyPbmO7SYZ2DZ8_C1McoyTvDK75dli1ZLyoHJ1F3hJlCMSOwl6GwmtoYzl6lfqkVKYyT0nlrgtX7Kb9kzkSBExRfA90QyjbA==)\n* **용량**: 300g\n* **특징**: 부르봉 바닐라 풍미의 비건 식물성 단백질 분말\n* **선택 이유**: \n  * 단백질 특유의 텁텁한 무맛 분말이 부담스러운 경우, 은은한 바닐라 풍미가 가미되어 음료·요거트·베이킹 등과 함께 즐기기 좋습니다.\n  * 300g 소용량으로 보관 및 섭취가 간편한 독일 직구 비건 프로틴입니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EB%B9%84%EA%B1%B4+%EB%8B%A8%EB%B0%B1%EC%A7%88+%ED%8C%8C%EC%9A%B0%EB%8D%94+300g&client=app-vertex-grounding&safesearch=active\">비건 단백질 파우더 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%99%84%EB%91%90%EB%8B%A8%EB%B0%B1%22+%22300g%22&client=app-vertex-grounding&safesearch=active\">&quot;완두단백&quot; &quot;300g&quot;</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESZ_x7xhYmczoHlXJ9HGB5L2jg04i8kboZTDAc4MONT_n0Zxl5qqsbQuMvt7xtzwKt9l0huQyABxXN4k9d43GUhhvWTGfQodeeUM95SHpiH80Yz4gIEkUoLhP40AqY1-UDw6vGkShKFlv0x5s38lbE07YUY6nKa0HxyRRfQogAhipLhn5pW0Ayy44EUhHa",
+                "title": "ecoop.or.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjq5SZxCvPsSUv_gmXR4zNqVyU0l8wJumaEdwn75enLA0H9T4nH0nCg5cN_ext8_cQvEjvXb1keNCbCsGO2efiCaWLY6OTU17hs0fHVgm5fx7SoemVw8oOxkN7uEWAWIpFNYCe_WWoAwX5mw7DF515x83dol5SUYjQlIeeGvyjLxjTVQpu0xAKiTjFUcXClUncNTqe53WYKpKOUJoM-b0VobLTIfEMNh5hFelyzrq1NFeO28QGTSQmp__Siw7PO32jien0lBnMTScuJTSd1W1tThjWU3XvE9q7A==",
+                "title": "viehome.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80leoR5FCIXiLzvDDp2HX-aSIqUbFkaqKUi99Ngmr6QrEPbPrNYlZuuNMyPbmO7SYZ2DZ8_C1McoyTvDK75dli1ZLyoHJ1F3hJlCMSOwl6GwmtoYzl6lfqkVKYyT0nlrgtX7Kb9kzkSBExRfA90QyjbA=",
+                "title": "dhmart.shop"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 145,
+                "endIndex": 445,
+                "text": "**판매처**: [두레생협 장보기](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESZ_x7xhYmczoHlXJ9HGB5L2jg04i8kboZTDAc4MONT_n0Zxl5qqsbQuMvt7xtzwKt9l0huQyABxXN4k9d43GUhhvWTGfQodeeUM95SHpiH80Yz4gIEkUoLhP40AqY1-UDw6vGkShKFlv0x5s38lbE07YUY6nKa0HxyRRfQogAhipLhn5pW0Ayy44EUhHa)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 448,
+                "endIndex": 464,
+                "text": "**용량**: 300g"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 467,
+                "endIndex": 618,
+                "text": "**원재료**: 분리완두단백(프랑스산) 72%, 알파대두분말(국산) 15%, 국산 오곡분말(현미·보리·조·수수·찹쌀현미) 13%"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 645,
+                "endIndex": 808,
+                "text": "인공 감미료나 합성 첨가물을 최소화하고 완두단백과 대두단백, 국내산 곡물 가루로만 채운 100% 식물성 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 814,
+                "endIndex": 901,
+                "text": "미숫가루처럼 고소한 맛으로 거부감 없이 섭취하기에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 976,
+                "endIndex": 1385,
+                "text": "**판매처**: [비옴(건강한 우리집)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjq5SZxCvPsSUv_gmXR4zNqVyU0l8wJumaEdwn75enLA0H9T4nH0nCg5cN_ext8_cQvEjvXb1keNCbCsGO2efiCaWLY6OTU17hs0fHVgm5fx7SoemVw8oOxkN7uEWAWIpFNYCe_WWoAwX5mw7DF515x83dol5SUYjQlIeeGvyjLxjTVQpu0xAKiTjFUcXClUncNTqe53WYKpKOUJoM-b0VobLTIfEMNh5hFelyzrq1NFeO28QGTSQmp__Siw7PO32jien0lBnMTScuJTSd1W1tThjWU3XvE9q7A==)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1388,
+                "endIndex": 1404,
+                "text": "**용량**: 300g"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1407,
+                "endIndex": 1477,
+                "text": "**원재료**: 완두단백(독일산 완두콩 단백질 원료 100%)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1504,
+                "endIndex": 1631,
+                "text": "유당이나 대두(콩) 알레르기 걱정 없이 섭취할 수 있는 순수 완두콩 단백질 100% 분말 제품입니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1637,
+                "endIndex": 1759,
+                "text": "다른 첨가물이 들어있지 않아 물이나 두유, 스무디 등에 기호에 맞춰 섞어 마실 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1868,
+                "endIndex": 2123,
+                "text": "**판매처**: [독한마트](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE80leoR5FCIXiLzvDDp2HX-aSIqUbFkaqKUi99Ngmr6QrEPbPrNYlZuuNMyPbmO7SYZ2DZ8_C1McoyTvDK75dli1ZLyoHJ1F3hJlCMSOwl6GwmtoYzl6lfqkVKYyT0nlrgtX7Kb9kzkSBExRfA90QyjbA==)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2126,
+                "endIndex": 2142,
+                "text": "**용량**: 300g"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2145,
+                "endIndex": 2220,
+                "text": "**특징**: 부르봉 바닐라 풍미의 비건 식물성 단백질 분말"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2247,
+                "endIndex": 2426,
+                "text": "단백질 특유의 텁텁한 무맛 분말이 부담스러운 경우, 은은한 바닐라 풍미가 가미되어 음료·요거트·베이킹 등과 함께 즐기기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2432,
+                "endIndex": 2523,
+                "text": "300g 소용량으로 보관 및 섭취가 간편한 독일 직구 비건 프로틴입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "비건 단백질 파우더 300g",
+            "\"완두단백\" \"300g\""
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 467,
+      "candidatesTokenCount": 1179,
+      "totalTokenCount": 3208,
+      "cachedContentTokenCount": 103,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 467
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 103
+        }
+      ],
+      "thoughtsTokenCount": 1562,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "Su8Ea6GjGbyx2roP1oOT8AU"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:59:04+09:00"
+}

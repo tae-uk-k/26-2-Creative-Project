@@ -1,0 +1,97 @@
+{
+  "recorded_at_kst": "2026-11-24T03:22:11+09:00",
+  "products": [
+    {
+      "platform": "cafe24",
+      "product_id": 14,
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=14",
+      "admin_api_status": "not_retrieved_no_configured_credentials",
+      "historical_verification_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_SEO_20261123/상세페이지_보완/수박씨_저장검증.json",
+      "historical_verification": {
+        "file": "cafe24_watermelon_historical.json",
+        "sha256": "d8923c2490d4292f8dd955658f1ae5a50fb930e5ba6eea1578c19378c00b3961",
+        "bytes": 776
+      },
+      "historical_detail_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_SEO_20261123/상세페이지_보완/watermelon.html",
+      "historical_detail": {
+        "file": "cafe24_watermelon_historical.html",
+        "sha256": "76eb4d6d918220dff6107f51c1dfe89502013d3e631aea4d42a9f3c3416805e4",
+        "bytes": 4546
+      },
+      "public_http_status": 200,
+      "public_collected_at_kst": "2026-11-24T03:22:11+09:00",
+      "public_detail": {
+        "file": "cafe24_watermelon_public_detail.html",
+        "sha256": "7b038d4d8894bd015fc068421e3afcb3dc9034af78cd035982657a923afda83f",
+        "bytes": 4611
+      },
+      "historical_detail_found_verbatim": false
+    },
+    {
+      "platform": "naver",
+      "product_id": 13892740658,
+      "url": "https://smartstore.naver.com/seelo/products/13892740658",
+      "admin_api_status": "not_retrieved_no_configured_credentials",
+      "historical_verification_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_네이버_20261124/watermelon_API검증.json",
+      "historical_verification": {
+        "file": "naver_watermelon_historical.json",
+        "sha256": "658cbaee2dc1938a1e0222a1854629f1a3e08e5464f6ce8cb3ea62f471233ce8",
+        "bytes": 278
+      },
+      "historical_detail_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_네이버_20261124/watermelon.html",
+      "historical_detail": {
+        "file": "naver_watermelon_historical.html",
+        "sha256": "0e755b5e641c3f3ec7c8e1d0b5960a73cdbb48997013eb98b55831698bd929ff",
+        "bytes": 4516
+      },
+      "public_http_status": 429,
+      "public_collected_at_kst": "2026-11-24T03:22:11+09:00"
+    },
+    {
+      "platform": "cafe24",
+      "product_id": 15,
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=15",
+      "admin_api_status": "not_retrieved_no_configured_credentials",
+      "historical_verification_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_SEO_20261123/상세페이지_보완/사차인치_저장검증.json",
+      "historical_verification": {
+        "file": "cafe24_sacha_historical.json",
+        "sha256": "ba1209eba1e0ac478c8210fc1f7463aa239a22ffbb46ce1de39f3ae2def182da",
+        "bytes": 797
+      },
+      "historical_detail_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_SEO_20261123/상세페이지_보완/sacha.html",
+      "historical_detail": {
+        "file": "cafe24_sacha_historical.html",
+        "sha256": "c18ae1703a8beebd42f19b9825a472e7ee2b11f0f48263213b2fcad031b45860",
+        "bytes": 4559
+      },
+      "public_http_status": 200,
+      "public_collected_at_kst": "2026-11-24T03:22:11+09:00",
+      "public_detail": {
+        "file": "cafe24_sacha_public_detail.html",
+        "sha256": "847f1c6e6e7132494801421c7de3ceca2f707e412a4e1cb3d14ba902efd4ea6c",
+        "bytes": 4624
+      },
+      "historical_detail_found_verbatim": false
+    },
+    {
+      "platform": "naver",
+      "product_id": 13892740830,
+      "url": "https://smartstore.naver.com/seelo/products/13892740830",
+      "admin_api_status": "not_retrieved_no_configured_credentials",
+      "historical_verification_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_네이버_20261124/sacha_API검증.json",
+      "historical_verification": {
+        "file": "naver_sacha_historical.json",
+        "sha256": "b46b5b8f55803c2db2ea681bf1d12987777a931fc2ea4d5f69e5d7d47b6ed118",
+        "bytes": 281
+      },
+      "historical_detail_source": "03_실험/쇼핑몰_API_상품수정_20261119/단백질2종_네이버_20261124/sacha.html",
+      "historical_detail": {
+        "file": "naver_sacha_historical.html",
+        "sha256": "98f9dc1d70799fdd09c4887a0a3abd44128a527fe3298bf1f60183bdd1b02e49",
+        "bytes": 4532
+      },
+      "public_http_status": 429,
+      "public_collected_at_kst": "2026-11-24T03:22:11+09:00"
+    }
+  ]
+}

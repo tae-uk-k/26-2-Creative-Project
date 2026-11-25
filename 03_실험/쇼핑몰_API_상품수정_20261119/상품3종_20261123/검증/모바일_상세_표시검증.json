@@ -1,0 +1,59 @@
+[
+  {
+    "key": "honey",
+    "hasExperimentalText": false,
+    "images": [
+      {
+        "alt": "seelo 아카시아 벌꿀 500g 패키지",
+        "loaded": true,
+        "renderedWidth": 1
+      },
+      {
+        "alt": "아카시아 벌꿀 활용 음식",
+        "loaded": true,
+        "renderedWidth": 1
+      }
+    ],
+    "scrollWidth": 343,
+    "viewport": 390,
+    "width": 343
+  },
+  {
+    "key": "oat",
+    "hasExperimentalText": false,
+    "images": [
+      {
+        "alt": "seelo 볶은 귀리분말 300g 패키지",
+        "loaded": true,
+        "renderedWidth": 1
+      },
+      {
+        "alt": "볶은 귀리분말 활용 음식",
+        "loaded": true,
+        "renderedWidth": 1
+      }
+    ],
+    "scrollWidth": 343,
+    "viewport": 390,
+    "width": 343
+  },
+  {
+    "key": "soy",
+    "hasExperimentalText": false,
+    "images": [
+      {
+        "alt": "seelo 볶은 서리태분말 300g 패키지",
+        "loaded": true,
+        "renderedWidth": 1
+      },
+      {
+        "alt": "볶은 서리태분말 활용 음식",
+        "loaded": true,
+        "renderedWidth": 1
+      }
+    ],
+    "scrollWidth": 343,
+    "viewport": 390,
+    "width": 343
+  }
+]

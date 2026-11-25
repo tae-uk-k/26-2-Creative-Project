@@ -1,0 +1,247 @@
+{
+  "run_id": "gemini-api-B0-G02-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:05:03+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G02",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "대두(콩)나 곡물 대신 씨앗(햄프씨드, 호박씨 등)만을 단일 원료로 사용하여 제조된 단백질 분말 3가지입니다.\n\n---\n\n### 1. 누티바 유기농 햄프 프로틴 파우더 (Nutiva, Organic Hemp Protein Powder)\n* **판매처:** [아이허브(iHerb) 제품 리뷰 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqkDuoBOgQRgWeIeLTDQDqkbl8c-qIUhHsYfbfPCjmylhroCTT6IiaPTEH8bDi-7zgg4d1JxZbrKICG-4o2-qcBkI7BjA9OCLBxRlX5urrnk-ocxL-GhXgRIcmiNMXiojSrB4vv3QlUETWm2fY6E0nqtwfussk59YkMEnWBU0)\n* **원료:** 유기농 햄프씨드(대마씨) 100%\n* **선택 이유:** 대두(콩)나 쌀·귀리 같은 곡물 성분을 배제하고 유기농 햄프씨드만을 원료로 분말화한 제품입니다. 햄프씨드는 식물성 필수 아미노산과 풍부한 식이섬유를 함유하고 있어 콩 알레르기가 있거나 소화가 편한 식물성 대체 단백질을 찾는 경우에 적합합니다.\n\n---\n\n### 2. 윌더니스 포에츠 유기농 호박씨 단백질 분말 (Wilderness Poets, Organic Pumpkin Seed Protein Powder)\n* **판매처:** [아이허브(iHerb) 제품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJWeiFnY-yx1T7R7IVQdPL_4nW0ffol2sxfMi265QCSJS23jnO09SafSQytpcArQTn9PcTp70D_U3wKD5ppY8-2Gj5l1ntPBYHjkGTQ1zyUNpWIabitaLJQukIjiB3jquqb_D5TG0TFsha2nG4nJHYUmY_y4zNyvdvv4KJ5hSoPCiY9t9yt86SyPU4UiytPmbcikzY)\n* **원료:** 오스트리아산 스티리안 호박씨 100%\n* **선택 이유:** 오스트리아산 유기농 호박씨를 냉압착 가공하여 만든 순수 씨앗 유래 단백질 분말입니다. 콩이나 곡류 혼합물이 들어가지 않아 알레르기 유발 요소가 적고, 호박씨 특유의 고소한 맛과 함께 식물성 단백질을 보충할 수 있습니다.\n\n---\n\n### 3. 나우푸드 스포츠 유기농 호박씨 단백질 분말 무맛 (NOW Foods Sports, Organic Pumpkin Seed Protein Powder)\n* **판매처:** [원직구 상품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWp12fIZj9U0aKSwsp2OuSG3lnvQkVNMMN4TV1MiUptyEdMvjr1psK6VK9yHb9fi3r54wbmfgevXLdFXOQ5daLqtyji3WixfrbsND2_uWlaQbagKvvOcNbIbRgAqd7Ag==)\n* **원료:** 호박씨 단백질 100%\n* **선택 이유:** 대두(콩), 밀, 글루텐, 옥수수 등을 첨가하지 않고 순수 호박씨 단백질로만 제조된 제품입니다. 1회 제공량(15g)당 단백질 10g과 함께 호박씨 본연의 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqkDuoBOgQRgWeIeLTDQDqkbl8c-qIUhHsYfbfPCjmylhroCTT6IiaPTEH8bDi-7zgg4d1JxZbrKICG-4o2-qcBkI7BjA9OCLBxRlX5urrnk-ocxL-GhXgRIcmiNMXiojSrB4vv3QlUETWm2fY6E0nqtwfussk59YkMEnWBU0",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbcT_B5pVoH8s7r2re1lwtQsSnJKBkQGHumrPuTBQvHqKQAECAChWMo0Qvl6EBrSLZ-ysIjQPt988drhoiumn4byNZHB8FmTMluW3htilGSGKZUEmzqjFqSQuons2sirfXX8xEJ3wRo_nPmkBqUQ==",
+      "title": "healthline.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJWeiFnY-yx1T7R7IVQdPL_4nW0ffol2sxfMi265QCSJS23jnO09SafSQytpcArQTn9PcTp70D_U3wKD5ppY8-2Gj5l1ntPBYHjkGTQ1zyUNpWIabitaLJQukIjiB3jquqb_D5TG0TFsha2nG4nJHYUmY_y4zNyvdvv4KJ5hSoPCiY9t9yt86SyPU4UiytPmbcikzY",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWp12fIZj9U0aKSwsp2OuSG3lnvQkVNMMN4TV1MiUptyEdMvjr1psK6VK9yHb9fi3r54wbmfgevXLdFXOQ5daLqtyji3WixfrbsND2_uWlaQbagKvvOcNbIbRgAqd7Ag==",
+      "title": "onejikgu.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "z_AEa4O7F5iBvr0PhdaAmQo",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "hemp seed protein powder iherb",
+    "햄프씨드 단백질 분말 아이허브",
+    "호박씨 단백질 분말 아이허브 OR 쿠팡"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "대두(콩)나 곡물 대신 씨앗(햄프씨드, 호박씨 등)만을 단일 원료로 사용하여 제조된 단백질 분말 3가지입니다.\n\n---\n\n### 1. 누티바 유기농 햄프 프로틴 파우더 (Nutiva, Organic Hemp Protein Powder)\n* **판매처:** [아이허브(iHerb) 제품 리뷰 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqkDuoBOgQRgWeIeLTDQDqkbl8c-qIUhHsYfbfPCjmylhroCTT6IiaPTEH8bDi-7zgg4d1JxZbrKICG-4o2-qcBkI7BjA9OCLBxRlX5urrnk-ocxL-GhXgRIcmiNMXiojSrB4vv3QlUETWm2fY6E0nqtwfussk59YkMEnWBU0)\n* **원료:** 유기농 햄프씨드(대마씨) 100%\n* **선택 이유:** 대두(콩)나 쌀·귀리 같은 곡물 성분을 배제하고 유기농 햄프씨드만을 원료로 분말화한 제품입니다. 햄프씨드는 식물성 필수 아미노산과 풍부한 식이섬유를 함유하고 있어 콩 알레르기가 있거나 소화가 편한 식물성 대체 단백질을 찾는 경우에 적합합니다.\n\n---\n\n### 2. 윌더니스 포에츠 유기농 호박씨 단백질 분말 (Wilderness Poets, Organic Pumpkin Seed Protein Powder)\n* **판매처:** [아이허브(iHerb) 제품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJWeiFnY-yx1T7R7IVQdPL_4nW0ffol2sxfMi265QCSJS23jnO09SafSQytpcArQTn9PcTp70D_U3wKD5ppY8-2Gj5l1ntPBYHjkGTQ1zyUNpWIabitaLJQukIjiB3jquqb_D5TG0TFsha2nG4nJHYUmY_y4zNyvdvv4KJ5hSoPCiY9t9yt86SyPU4UiytPmbcikzY)\n* **원료:** 오스트리아산 스티리안 호박씨 100%\n* **선택 이유:** 오스트리아산 유기농 호박씨를 냉압착 가공하여 만든 순수 씨앗 유래 단백질 분말입니다. 콩이나 곡류 혼합물이 들어가지 않아 알레르기 유발 요소가 적고, 호박씨 특유의 고소한 맛과 함께 식물성 단백질을 보충할 수 있습니다.\n\n---\n\n### 3. 나우푸드 스포츠 유기농 호박씨 단백질 분말 무맛 (NOW Foods Sports, Organic Pumpkin Seed Protein Powder)\n* **판매처:** [원직구 상품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWp12fIZj9U0aKSwsp2OuSG3lnvQkVNMMN4TV1MiUptyEdMvjr1psK6VK9yHb9fi3r54wbmfgevXLdFXOQ5daLqtyji3WixfrbsND2_uWlaQbagKvvOcNbIbRgAqd7Ag==)\n* **원료:** 호박씨 단백질 100%\n* **선택 이유:** 대두(콩), 밀, 글루텐, 옥수수 등을 첨가하지 않고 순수 호박씨 단백질로만 제조된 제품입니다. 1회 제공량(15g)당 단백질 10g과 함께 호박씨 본연의 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=hemp+seed+protein+powder+iherb&client=app-vertex-grounding&safesearch=active\">hemp seed protein powder iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%ED%96%84%ED%94%84%EC%94%A8%EB%93%9C+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+%EC%95%84%EC%9D%B4%ED%97%88%EB%B8%8C&client=app-vertex-grounding&safesearch=active\">햄프씨드 단백질 분말 아이허브</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%ED%98%B8%EB%B0%95%EC%94%A8+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+%EC%95%84%EC%9D%B4%ED%97%88%EB%B8%8C+OR+%EC%BF%A0%ED%8C%A1&client=app-vertex-grounding&safesearch=active\">호박씨 단백질 분말 아이허브 OR 쿠팡</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqkDuoBOgQRgWeIeLTDQDqkbl8c-qIUhHsYfbfPCjmylhroCTT6IiaPTEH8bDi-7zgg4d1JxZbrKICG-4o2-qcBkI7BjA9OCLBxRlX5urrnk-ocxL-GhXgRIcmiNMXiojSrB4vv3QlUETWm2fY6E0nqtwfussk59YkMEnWBU0",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbcT_B5pVoH8s7r2re1lwtQsSnJKBkQGHumrPuTBQvHqKQAECAChWMo0Qvl6EBrSLZ-ysIjQPt988drhoiumn4byNZHB8FmTMluW3htilGSGKZUEmzqjFqSQuons2sirfXX8xEJ3wRo_nPmkBqUQ==",
+                "title": "healthline.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJWeiFnY-yx1T7R7IVQdPL_4nW0ffol2sxfMi265QCSJS23jnO09SafSQytpcArQTn9PcTp70D_U3wKD5ppY8-2Gj5l1ntPBYHjkGTQ1zyUNpWIabitaLJQukIjiB3jquqb_D5TG0TFsha2nG4nJHYUmY_y4zNyvdvv4KJ5hSoPCiY9t9yt86SyPU4UiytPmbcikzY",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWp12fIZj9U0aKSwsp2OuSG3lnvQkVNMMN4TV1MiUptyEdMvjr1psK6VK9yHb9fi3r54wbmfgevXLdFXOQ5daLqtyji3WixfrbsND2_uWlaQbagKvvOcNbIbRgAqd7Ag==",
+                "title": "onejikgu.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 246,
+                "endIndex": 547,
+                "text": "**판매처:** [아이허브(iHerb) 제품 리뷰 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqkDuoBOgQRgWeIeLTDQDqkbl8c-qIUhHsYfbfPCjmylhroCTT6IiaPTEH8bDi-7zgg4d1JxZbrKICG-4o2-qcBkI7BjA9OCLBxRlX5urrnk-ocxL-GhXgRIcmiNMXiojSrB4vv3QlUETWm2fY6E0nqtwfussk59YkMEnWBU0)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 550,
+                "endIndex": 600,
+                "text": "**원료:** 유기농 햄프씨드(대마씨) 100%"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 603,
+                "endIndex": 753,
+                "text": "**선택 이유:** 대두(콩)나 쌀·귀리 같은 곡물 성분을 배제하고 유기농 햄프씨드만을 원료로 분말화한 제품입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 755,
+                "endIndex": 959,
+                "text": "햄프씨드는 식물성 필수 아미노산과 풍부한 식이섬유를 함유하고 있어 콩 알레르기가 있거나 소화가 편한 식물성 대체 단백질을 찾는 경우에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1092,
+                "endIndex": 1421,
+                "text": "**판매처:** [아이허브(iHerb) 제품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJWeiFnY-yx1T7R7IVQdPL_4nW0ffol2sxfMi265QCSJS23jnO09SafSQytpcArQTn9PcTp70D_U3wKD5ppY8-2Gj5l1ntPBYHjkGTQ1zyUNpWIabitaLJQukIjiB3jquqb_D5TG0TFsha2nG4nJHYUmY_y4zNyvdvv4KJ5hSoPCiY9t9yt86SyPU4UiytPmbcikzY)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1424,
+                "endIndex": 1482,
+                "text": "**원료:** 오스트리아산 스티리안 호박씨 100%"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1485,
+                "endIndex": 1622,
+                "text": "**선택 이유:** 오스트리아산 유기농 호박씨를 냉압착 가공하여 만든 순수 씨앗 유래 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1624,
+                "endIndex": 1805,
+                "text": "콩이나 곡류 혼합물이 들어가지 않아 알레르기 유발 요소가 적고, 호박씨 특유의 고소한 맛과 함께 식물성 단백질을 보충할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1945,
+                "endIndex": 2196,
+                "text": "**판매처:** [원직구 상품 상세 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWp12fIZj9U0aKSwsp2OuSG3lnvQkVNMMN4TV1MiUptyEdMvjr1psK6VK9yHb9fi3r54wbmfgevXLdFXOQ5daLqtyji3WixfrbsND2_uWlaQbagKvvOcNbIbRgAqd7Ag==)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2199,
+                "endIndex": 2235,
+                "text": "**원료:** 호박씨 단백질 100%"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2238,
+                "endIndex": 2381,
+                "text": "**선택 이유:** 대두(콩), 밀, 글루텐, 옥수수 등을 첨가하지 않고 순수 호박씨 단백질로만 제조된 제품입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2383,
+                "endIndex": 2521,
+                "text": "1회 제공량(15g)당 단백질 10g과 함께 호박씨 본연의 마그네슘, 철분 등 미네랄을 함께 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "hemp seed protein powder iherb",
+            "햄프씨드 단백질 분말 아이허브",
+            "호박씨 단백질 분말 아이허브 OR 쿠팡"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 694,
+      "candidatesTokenCount": 1024,
+      "totalTokenCount": 5021,
+      "cachedContentTokenCount": 308,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 694
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 308
+        }
+      ],
+      "thoughtsTokenCount": 3303,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "z_AEa4O7F5iBvr0PhdaAmQo"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:05:46+09:00"
+}

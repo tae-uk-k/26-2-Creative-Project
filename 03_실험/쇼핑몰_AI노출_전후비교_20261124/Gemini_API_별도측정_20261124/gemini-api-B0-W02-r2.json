@@ -1,0 +1,468 @@
+{
+  "run_id": "gemini-api-B0-W02-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:02:25+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "W02",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "watermelon"
+  ],
+  "prompt": "수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹에서 확인된 수박씨 탈지 단백질 분말(Watermelon Seed Protein Powder) 제품 3가지를 정리하여 원재료와 중량을 비교해 드립니다.\n\n---\n\n### 1. Sprout Living Simple Watermelon Seed Protein Powder\n* **판매처**: [YesWellness 판매 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUoEseO3EYdP-kqLzqP6v0lY23RV869YhdQWlsxG-Dp_16KfMaq2hZ0tUNc9sjDyzb3UFrenWMziak3Noy-gU2pGIy5gIni_jrEE-tTLeW8byqEvwEPkVAc12AFBvZ27bG_D3d0LjAdFs0pUat_V24mG7UD0GJMLRQ8HrjzJ6idL75qo-nJizjINFox8QWkaMSzPa8JT-wXKiieulybgYcU3uY)\n* **원재료**: 냉압착 수박씨 분말(Cold-Pressed Watermelon Seed Powder) 100%  \n  *(인공 감미료, 착향료, 검류 등의 첨가물 없이 냉압착을 통해 오일을 분리·탈지하여 분말화)*\n* **중량**: 454g (16 oz / 1 lb)\n* **선택 이유**: 수박씨만을 저온 압착 방식으로 탈지하여 가공한 대표적인 단일 성분 식물성 단백질 완제품으로, 알레르기 유발 물질이 적고 첨가물이 전혀 들어가지 않은 순수 파우더를 찾는 소비자에게 적합합니다.\n\n---\n\n### 2. NURTIVE Watermelon Seed Protein Powder\n* **판매처**: [NURTIVE 공식 온라인몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFpH9yRyr1Myr3i-VHvmIR11oT__sKGRYld63_2ERN7yiZ04WAVbxXCNH8fizLEgpkPYjUCUmZ0DuSq-JAu7vT7-o4oG2SCUF_kvnLyxK7ED0CQksqb2JM33RQjCSH7e7_O_KFp7nBEQ)\n* **원재료**: 수박씨 분말(Watermelon Seed Protein) 100%  \n  *(비건, 글루텐 프리, 무가당 단일 식물성 단백원)*\n* **중량**: 454g (16 oz, 약 21회 섭취 분량)\n* **선택 이유**: 1회 제공량(25g)당 14g의 단백질과 마그네슘, 철분 등 수박씨 본연의 미네랄을 균형 있게 섭취할 수 있도록 설계된 식물성 보충제 파우더입니다.\n\n---\n\n### 3. GUTINS 수박씨 단백질 — 70% 농축물\n* **판매처**: [GUTINS 공식 온라인 플랫폼](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgiI_DifzbJM4cInTySIYUddHKYo8JG8bBXZ-JuI3Nmu7bmezoNj1jzCxISKCd_qoi7S6zOAoLw5SPXIxW9tR3U5NVrJgOzvyo9q5ZJZEEypiPTFv3Mg0H6t9Ie2KnUQHMgBOdZBROFiDU9EBUJqmgAKYQzaBTPwBazOula3L8_xXjpDhSqARBhtvedyAJhvtVm8DTuWB4aMrw9vNxpf-CKPOsphWXKT3AePJ9AByfAFwpOXfOpAIhX87Vej_cxSYpjh-Sr35Z)\n* **원재료**: 수박씨(*Citrullus lanatus*, 씨앗 발아 및 탈지 가공) 100%  \n  *(단백질 순도 70% 농축물)*\n* **중량**: 50g, 225g, 1kg, 5kg (옵션 선택 가능)\n* **선택 이유**: 제품 규격서에 씨앗의 '탈지(defatted)' 공정을 명확하게 명시하고 있으며, 단백질 순도를 70%까지 농축한 원료형 파우더입니다. 50g의 소량 샘플부터 5kg 대용량 벌크까지 다양한 중량을 구매할 수 있어 연구·배합 및 맞춤형 섭취에 용이합니다.\n\n---\n\n### 원재료 및 중량 비교 요약\n\n| 구분 | Sprout Living | NURTIVE | GUTINS (70% 농축물) |\n| :--- | :--- | :--- | :--- |\n| **원재료** | 냉압착 수박씨 100% | 수박씨 단백질 100% | 발아/탈지 수박씨 100% (단백질 70%) |\n| **첨가물 유무** | 무첨가 (비건/글루텐프리) | 무첨가 (비건/무가당) | 무첨가 (비건 원료형 분말) |\n| **포장 중량** | 454g (16 oz) | 454g (16 oz) | 50g / 225g / 1kg / 5kg |\n\n* **원재료 비교**: 세 제품 모두 다른 합성 첨가물이나 유청 등 동물성 성분 없이 수박씨 단일 원료를 사용합니다. Sprout Living과 NURTIVE는 일반 소비자가 셰이크나 요리에 바로 넣을 수 있는 식품 보충제형 파우더이며, GUTINS는 발아 및 탈지를 거쳐 단백질 비중을 70%로 고농축한 원료형 분말입니다.\n* **중량 비교**: 일반 완제품 보충제(Sprout Living, NURTIVE)는 16 oz(약 454g) 단일 용량으로 유통되며, 원료 공급 플랫폼인 GUTINS는 50g 소포장부터 5kg 대용량까지 폭넓은 중량 단위를 제공합니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUoEseO3EYdP-kqLzqP6v0lY23RV869YhdQWlsxG-Dp_16KfMaq2hZ0tUNc9sjDyzb3UFrenWMziak3Noy-gU2pGIy5gIni_jrEE-tTLeW8byqEvwEPkVAc12AFBvZ27bG_D3d0LjAdFs0pUat_V24mG7UD0GJMLRQ8HrjzJ6idL75qo-nJizjINFox8QWkaMSzPa8JT-wXKiieulybgYcU3uY",
+      "title": "yeswellness.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO3N-i-ZtvsMJgjkDwNgCpB1Jj-QScVjBaA5dft3prEoqghjnvmFRyF9BLHSe94o2wutHYu4TbFdquopRh-H2wdqMyzLdRMFP8YYuw3nmF6BHipeN_4M9MpJ9jtXkHdjB5qO7IqPjMwskzrdbJ",
+      "title": "myfooddata.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjia8k3LpYZSES8aNqeewwClJw0_1Ol3WRi7TFKiKoxvhYmJ6zG3uZ60YJS-aTvKusToE_gVlNLLEcns3XqEb7HUSMIX7jtGFPKu_sEOL_QQyzSgYCwfail-qwirfXhnRwR6EWIYK-GkFxpg0jtF_7orykOdcgFF1pm-gDIBDxUbJ4_eOoAX3IEyQJD_8f1VMdVcoxvGPdSPwKkAEClm62KhU8ArHOHS67a13T_nhm2fQgF0Byt33dybdKkTXsW52zmFgva51MJq0xDgo98k5EEVhOyaTie_QnTxEm0P2cGmeUzD-nQ54Gr-sBbw7UlwfPlhI82zLR7miimhNkj6RbQ==",
+      "title": "desertcart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFpH9yRyr1Myr3i-VHvmIR11oT__sKGRYld63_2ERN7yiZ04WAVbxXCNH8fizLEgpkPYjUCUmZ0DuSq-JAu7vT7-o4oG2SCUF_kvnLyxK7ED0CQksqb2JM33RQjCSH7e7_O_KFp7nBEQ==",
+      "title": "nurtive.co"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl7Urnx3peohFcQ3eZGAL7Wy86MxywMECdCKvNC9QpSQPBsvLE-SOq4qUY9wHLswfqv5SU4M5PeEP1XmDk4Cnp7NudyMSOQPFodKJ23KkwdEMiNUm0zwYJkyE_9zVxAsniZ6ofIo4t5yzkyPhyR2t5VtLo4l1A6b2t746wb3nf5TE_fnr-9wSKgWBH_jfzeo6g9HsP8SUH0BAnY-31j9cYIYBiESaTEc-scrbcu3X8H1IcQU3kMzFmL5RHIBAXp5UPLviLYrs3IJTJ3y40To1FXl_5uZRNVADDDJQCuWdhtbLvmUJbS076NREkpixPp77bNtx0n1U6nxI_H2z22uXl",
+      "title": "gosupps.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSUkz-m_6HZVIntTiN_5S6hirjoJvVQSBxjhKjKD7DQmF9rQUYMt1pMbYZ-JDyL1jd_QBRsIKcD2qhgjiZ-MLvuJIJ81S3qanAzZHM3wUWJyx2aZoGQOfmOLXNKLu_7r6SI_HtevMtin1N4DIwAZOh0s_Y2PVXglMVoypK1a5nl13TK7lVAowZtuKtI0W3l_onhlwSLa1xhPqqTE1N4W-phLYdVb7N7SAdzprDWtOWmgkP2uOEgg85dGcJngHo1CSKy7Lji-S79H6DaJNC5zeZbzGj4kyEwd1934-a4cC20w==",
+      "title": "u-buy.co.uk"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgiI_DifzbJM4cInTySIYUddHKYo8JG8bBXZ-JuI3Nmu7bmezoNj1jzCxISKCd_qoi7S6zOAoLw5SPXIxW9tR3U5NVrJgOzvyo9q5ZJZEEypiPTFv3Mg0H6t9Ie2KnUQHMgBOdZBROFiDU9EBUJqmgAKYQzaBTPwBazOula3L8_xXjpDhSqARBhtvedyAJhvtVm8DTuWB4aMrw9vNxpf-CKPOsphWXKT3AePJ9AByfAFwpOXfOpAIhX87Vej_cxSYpjh-Sr35Z",
+      "title": "gutins.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "MfAEa8JZq8HT6Q-Yir-ZBg",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "수박씨 탈지 단백질 분말",
+    "\"Nurtive\" \"Watermelon Seed Protein Powder\"",
+    "\"Watermelon Seed Protein\" \"Sprout Living\"",
+    "\"Watermelon Seed Protein Powder\" \"Sprout Living\" ingredients"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹에서 확인된 수박씨 탈지 단백질 분말(Watermelon Seed Protein Powder) 제품 3가지를 정리하여 원재료와 중량을 비교해 드립니다.\n\n---\n\n### 1. Sprout Living Simple Watermelon Seed Protein Powder\n* **판매처**: [YesWellness 판매 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUoEseO3EYdP-kqLzqP6v0lY23RV869YhdQWlsxG-Dp_16KfMaq2hZ0tUNc9sjDyzb3UFrenWMziak3Noy-gU2pGIy5gIni_jrEE-tTLeW8byqEvwEPkVAc12AFBvZ27bG_D3d0LjAdFs0pUat_V24mG7UD0GJMLRQ8HrjzJ6idL75qo-nJizjINFox8QWkaMSzPa8JT-wXKiieulybgYcU3uY)\n* **원재료**: 냉압착 수박씨 분말(Cold-Pressed Watermelon Seed Powder) 100%  \n  *(인공 감미료, 착향료, 검류 등의 첨가물 없이 냉압착을 통해 오일을 분리·탈지하여 분말화)*\n* **중량**: 454g (16 oz / 1 lb)\n* **선택 이유**: 수박씨만을 저온 압착 방식으로 탈지하여 가공한 대표적인 단일 성분 식물성 단백질 완제품으로, 알레르기 유발 물질이 적고 첨가물이 전혀 들어가지 않은 순수 파우더를 찾는 소비자에게 적합합니다.\n\n---\n\n### 2. NURTIVE Watermelon Seed Protein Powder\n* **판매처**: [NURTIVE 공식 온라인몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFpH9yRyr1Myr3i-VHvmIR11oT__sKGRYld63_2ERN7yiZ04WAVbxXCNH8fizLEgpkPYjUCUmZ0DuSq-JAu7vT7-o4oG2SCUF_kvnLyxK7ED0CQksqb2JM33RQjCSH7e7_O_KFp7nBEQ)\n* **원재료**: 수박씨 분말(Watermelon Seed Protein) 100%  \n  *(비건, 글루텐 프리, 무가당 단일 식물성 단백원)*\n* **중량**: 454g (16 oz, 약 21회 섭취 분량)\n* **선택 이유**: 1회 제공량(25g)당 14g의 단백질과 마그네슘, 철분 등 수박씨 본연의 미네랄을 균형 있게 섭취할 수 있도록 설계된 식물성 보충제 파우더입니다.\n\n---\n\n### 3. GUTINS 수박씨 단백질 — 70% 농축물\n* **판매처**: [GUTINS 공식 온라인 플랫폼](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgiI_DifzbJM4cInTySIYUddHKYo8JG8bBXZ-JuI3Nmu7bmezoNj1jzCxISKCd_qoi7S6zOAoLw5SPXIxW9tR3U5NVrJgOzvyo9q5ZJZEEypiPTFv3Mg0H6t9Ie2KnUQHMgBOdZBROFiDU9EBUJqmgAKYQzaBTPwBazOula3L8_xXjpDhSqARBhtvedyAJhvtVm8DTuWB4aMrw9vNxpf-CKPOsphWXKT3AePJ9AByfAFwpOXfOpAIhX87Vej_cxSYpjh-Sr35Z)\n* **원재료**: 수박씨(*Citrullus lanatus*, 씨앗 발아 및 탈지 가공) 100%  \n  *(단백질 순도 70% 농축물)*\n* **중량**: 50g, 225g, 1kg, 5kg (옵션 선택 가능)\n* **선택 이유**: 제품 규격서에 씨앗의 '탈지(defatted)' 공정을 명확하게 명시하고 있으며, 단백질 순도를 70%까지 농축한 원료형 파우더입니다. 50g의 소량 샘플부터 5kg 대용량 벌크까지 다양한 중량을 구매할 수 있어 연구·배합 및 맞춤형 섭취에 용이합니다.\n\n---\n\n### 원재료 및 중량 비교 요약\n\n| 구분 | Sprout Living | NURTIVE | GUTINS (70% 농축물) |\n| :--- | :--- | :--- | :--- |\n| **원재료** | 냉압착 수박씨 100% | 수박씨 단백질 100% | 발아/탈지 수박씨 100% (단백질 70%) |\n| **첨가물 유무** | 무첨가 (비건/글루텐프리) | 무첨가 (비건/무가당) | 무첨가 (비건 원료형 분말) |\n| **포장 중량** | 454g (16 oz) | 454g (16 oz) | 50g / 225g / 1kg / 5kg |\n\n* **원재료 비교**: 세 제품 모두 다른 합성 첨가물이나 유청 등 동물성 성분 없이 수박씨 단일 원료를 사용합니다. Sprout Living과 NURTIVE는 일반 소비자가 셰이크나 요리에 바로 넣을 수 있는 식품 보충제형 파우더이며, GUTINS는 발아 및 탈지를 거쳐 단백질 비중을 70%로 고농축한 원료형 분말입니다.\n* **중량 비교**: 일반 완제품 보충제(Sprout Living, NURTIVE)는 16 oz(약 454g) 단일 용량으로 유통되며, 원료 공급 플랫폼인 GUTINS는 50g 소포장부터 5kg 대용량까지 폭넓은 중량 단위를 제공합니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%88%98%EB%B0%95%EC%94%A8+%ED%83%88%EC%A7%80+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">수박씨 탈지 단백질 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Nurtive%22+%22Watermelon+Seed+Protein+Powder%22&client=app-vertex-grounding&safesearch=active\">&quot;Nurtive&quot; &quot;Watermelon Seed Protein Powder&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Watermelon+Seed+Protein%22+%22Sprout+Living%22&client=app-vertex-grounding&safesearch=active\">&quot;Watermelon Seed Protein&quot; &quot;Sprout Living&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Watermelon+Seed+Protein+Powder%22+%22Sprout+Living%22+ingredients&client=app-vertex-grounding&safesearch=active\">&quot;Watermelon Seed Protein Powder&quot; &quot;Sprout Living&quot; ingredients</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUoEseO3EYdP-kqLzqP6v0lY23RV869YhdQWlsxG-Dp_16KfMaq2hZ0tUNc9sjDyzb3UFrenWMziak3Noy-gU2pGIy5gIni_jrEE-tTLeW8byqEvwEPkVAc12AFBvZ27bG_D3d0LjAdFs0pUat_V24mG7UD0GJMLRQ8HrjzJ6idL75qo-nJizjINFox8QWkaMSzPa8JT-wXKiieulybgYcU3uY",
+                "title": "yeswellness.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO3N-i-ZtvsMJgjkDwNgCpB1Jj-QScVjBaA5dft3prEoqghjnvmFRyF9BLHSe94o2wutHYu4TbFdquopRh-H2wdqMyzLdRMFP8YYuw3nmF6BHipeN_4M9MpJ9jtXkHdjB5qO7IqPjMwskzrdbJ",
+                "title": "myfooddata.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjia8k3LpYZSES8aNqeewwClJw0_1Ol3WRi7TFKiKoxvhYmJ6zG3uZ60YJS-aTvKusToE_gVlNLLEcns3XqEb7HUSMIX7jtGFPKu_sEOL_QQyzSgYCwfail-qwirfXhnRwR6EWIYK-GkFxpg0jtF_7orykOdcgFF1pm-gDIBDxUbJ4_eOoAX3IEyQJD_8f1VMdVcoxvGPdSPwKkAEClm62KhU8ArHOHS67a13T_nhm2fQgF0Byt33dybdKkTXsW52zmFgva51MJq0xDgo98k5EEVhOyaTie_QnTxEm0P2cGmeUzD-nQ54Gr-sBbw7UlwfPlhI82zLR7miimhNkj6RbQ==",
+                "title": "desertcart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFpH9yRyr1Myr3i-VHvmIR11oT__sKGRYld63_2ERN7yiZ04WAVbxXCNH8fizLEgpkPYjUCUmZ0DuSq-JAu7vT7-o4oG2SCUF_kvnLyxK7ED0CQksqb2JM33RQjCSH7e7_O_KFp7nBEQ==",
+                "title": "nurtive.co"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl7Urnx3peohFcQ3eZGAL7Wy86MxywMECdCKvNC9QpSQPBsvLE-SOq4qUY9wHLswfqv5SU4M5PeEP1XmDk4Cnp7NudyMSOQPFodKJ23KkwdEMiNUm0zwYJkyE_9zVxAsniZ6ofIo4t5yzkyPhyR2t5VtLo4l1A6b2t746wb3nf5TE_fnr-9wSKgWBH_jfzeo6g9HsP8SUH0BAnY-31j9cYIYBiESaTEc-scrbcu3X8H1IcQU3kMzFmL5RHIBAXp5UPLviLYrs3IJTJ3y40To1FXl_5uZRNVADDDJQCuWdhtbLvmUJbS076NREkpixPp77bNtx0n1U6nxI_H2z22uXl",
+                "title": "gosupps.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSUkz-m_6HZVIntTiN_5S6hirjoJvVQSBxjhKjKD7DQmF9rQUYMt1pMbYZ-JDyL1jd_QBRsIKcD2qhgjiZ-MLvuJIJ81S3qanAzZHM3wUWJyx2aZoGQOfmOLXNKLu_7r6SI_HtevMtin1N4DIwAZOh0s_Y2PVXglMVoypK1a5nl13TK7lVAowZtuKtI0W3l_onhlwSLa1xhPqqTE1N4W-phLYdVb7N7SAdzprDWtOWmgkP2uOEgg85dGcJngHo1CSKy7Lji-S79H6DaJNC5zeZbzGj4kyEwd1934-a4cC20w==",
+                "title": "u-buy.co.uk"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgiI_DifzbJM4cInTySIYUddHKYo8JG8bBXZ-JuI3Nmu7bmezoNj1jzCxISKCd_qoi7S6zOAoLw5SPXIxW9tR3U5NVrJgOzvyo9q5ZJZEEypiPTFv3Mg0H6t9Ie2KnUQHMgBOdZBROFiDU9EBUJqmgAKYQzaBTPwBazOula3L8_xXjpDhSqARBhtvedyAJhvtVm8DTuWB4aMrw9vNxpf-CKPOsphWXKT3AePJ9AByfAFwpOXfOpAIhX87Vej_cxSYpjh-Sr35Z",
+                "title": "gutins.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 231,
+                "endIndex": 565,
+                "text": "**판매처**: [YesWellness 판매 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUoEseO3EYdP-kqLzqP6v0lY23RV869YhdQWlsxG-Dp_16KfMaq2hZ0tUNc9sjDyzb3UFrenWMziak3Noy-gU2pGIy5gIni_jrEE-tTLeW8byqEvwEPkVAc12AFBvZ27bG_D3d0LjAdFs0pUat_V24mG7UD0GJMLRQ8HrjzJ6idL75qo-nJizjINFox8QWkaMSzPa8JT-wXKiieulybgYcU3uY)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 568,
+                "endIndex": 651,
+                "text": "**원재료**: 냉압착 수박씨 분말(Cold-Pressed Watermelon Seed Powder) 100%"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 656,
+                "endIndex": 780,
+                "text": "*(인공 감미료, 착향료, 검류 등의 첨가물 없이 냉압착을 통해 오일을 분리·탈지하여 분말화)*"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 783,
+                "endIndex": 814,
+                "text": "**중량**: 454g (16 oz / 1 lb)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 817,
+                "endIndex": 1101,
+                "text": "**선택 이유**: 수박씨만을 저온 압착 방식으로 탈지하여 가공한 대표적인 단일 성분 식물성 단백질 완제품으로, 알레르기 유발 물질이 적고 첨가물이 전혀 들어가지 않은 순수 파우더를 찾는 소비자에게 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1157,
+                "endIndex": 1412,
+                "text": "**판매처**: [NURTIVE 공식 온라인몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFpH9yRyr1Myr3i-VHvmIR11oT__sKGRYld63_2ERN7yiZ04WAVbxXCNH8fizLEgpkPYjUCUmZ0DuSq-JAu7vT7-o4oG2SCUF_kvnLyxK7ED0CQksqb2JM33RQjCSH7e7_O_KFp7nBEQ)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1415,
+                "endIndex": 1476,
+                "text": "**원재료**: 수박씨 분말(Watermelon Seed Protein) 100%"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1481,
+                "endIndex": 1547,
+                "text": "*(비건, 글루텐 프리, 무가당 단일 식물성 단백원)*"
+              },
+              "groundingChunkIndices": [
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1550,
+                "endIndex": 1599,
+                "text": "**중량**: 454g (16 oz, 약 21회 섭취 분량)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1602,
+                "endIndex": 1808,
+                "text": "**선택 이유**: 1회 제공량(25g)당 14g의 단백질과 마그네슘, 철분 등 수박씨 본연의 미네랄을 균형 있게 섭취할 수 있도록 설계된 식물성 보충제 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1870,
+                "endIndex": 2257,
+                "text": "**판매처**: [GUTINS 공식 온라인 플랫폼](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgiI_DifzbJM4cInTySIYUddHKYo8JG8bBXZ-JuI3Nmu7bmezoNj1jzCxISKCd_qoi7S6zOAoLw5SPXIxW9tR3U5NVrJgOzvyo9q5ZJZEEypiPTFv3Mg0H6t9Ie2KnUQHMgBOdZBROFiDU9EBUJqmgAKYQzaBTPwBazOula3L8_xXjpDhSqARBhtvedyAJhvtVm8DTuWB4aMrw9vNxpf-CKPOsphWXKT3AePJ9AByfAFwpOXfOpAIhX87Vej_cxSYpjh-Sr35Z)"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2260,
+                "endIndex": 2343,
+                "text": "**원재료**: 수박씨(*Citrullus lanatus*, 씨앗 발아 및 탈지 가공) 100%"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2348,
+                "endIndex": 2382,
+                "text": "*(단백질 순도 70% 농축물)*"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2385,
+                "endIndex": 2439,
+                "text": "**중량**: 50g, 225g, 1kg, 5kg (옵션 선택 가능)"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2442,
+                "endIndex": 2625,
+                "text": "**선택 이유**: 제품 규격서에 씨앗의 '탈지(defatted)' 공정을 명확하게 명시하고 있으며, 단백질 순도를 70%까지 농축한 원료형 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2442,
+                "endIndex": 2776,
+                "text": "**선택 이유**: 제품 규격서에 씨앗의 '탈지(defatted)' 공정을 명확하게 명시하고 있으며, 단백질 순도를 70%까지 농축한 원료형 파우더입니다. 50g의 소량 샘플부터 5kg 대용량 벌크까지 다양한 중량을 구매할 수 있어 연구·배합 및 맞춤형 섭취에 용이합니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2916,
+                "endIndex": 2958,
+                "text": "| **원재료** | 냉압착 수박씨 100%"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2916,
+                "endIndex": 2985,
+                "text": "| **원재료** | 냉압착 수박씨 100% | 수박씨 단백질 100%"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2916,
+                "endIndex": 3032,
+                "text": "| **원재료** | 냉압착 수박씨 100% | 수박씨 단백질 100% | 발아/탈지 수박씨 100% (단백질 70%)"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3035,
+                "endIndex": 3094,
+                "text": "| **첨가물 유무** | 무첨가 (비건/글루텐프리)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3035,
+                "endIndex": 3125,
+                "text": "| **첨가물 유무** | 무첨가 (비건/글루텐프리) | 무첨가 (비건/무가당)"
+              },
+              "groundingChunkIndices": [
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3035,
+                "endIndex": 3163,
+                "text": "| **첨가물 유무** | 무첨가 (비건/글루텐프리) | 무첨가 (비건/무가당) | 무첨가 (비건 원료형 분말)"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3166,
+                "endIndex": 3200,
+                "text": "| **포장 중량** | 454g (16 oz)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3166,
+                "endIndex": 3215,
+                "text": "| **포장 중량** | 454g (16 oz) | 454g (16 oz)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3166,
+                "endIndex": 3240,
+                "text": "| **포장 중량** | 454g (16 oz) | 454g (16 oz) | 50g / 225g / 1kg / 5kg"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3246,
+                "endIndex": 3393,
+                "text": "**원재료 비교**: 세 제품 모두 다른 합성 첨가물이나 유청 등 동물성 성분 없이 수박씨 단일 원료를 사용합니다"
+              },
+              "groundingChunkIndices": [
+                6,
+                0,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3395,
+                "endIndex": 3526,
+                "text": "Sprout Living과 NURTIVE는 일반 소비자가 셰이크나 요리에 바로 넣을 수 있는 식품 보충제형 파우더이며"
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3395,
+                "endIndex": 3631,
+                "text": "Sprout Living과 NURTIVE는 일반 소비자가 셰이크나 요리에 바로 넣을 수 있는 식품 보충제형 파우더이며, GUTINS는 발아 및 탈지를 거쳐 단백질 비중을 70%로 고농축한 원료형 분말입니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3635,
+                "endIndex": 3756,
+                "text": "**중량 비교**: 일반 완제품 보충제(Sprout Living, NURTIVE)는 16 oz(약 454g) 단일 용량으로 유통되며"
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3635,
+                "endIndex": 3877,
+                "text": "**중량 비교**: 일반 완제품 보충제(Sprout Living, NURTIVE)는 16 oz(약 454g) 단일 용량으로 유통되며, 원료 공급 플랫폼인 GUTINS는 50g 소포장부터 5kg 대용량까지 폭넓은 중량 단위를 제공합니다"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "수박씨 탈지 단백질 분말",
+            "\"Nurtive\" \"Watermelon Seed Protein Powder\"",
+            "\"Watermelon Seed Protein\" \"Sprout Living\"",
+            "\"Watermelon Seed Protein Powder\" \"Sprout Living\" ingredients"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 684,
+      "candidatesTokenCount": 1766,
+      "totalTokenCount": 6358,
+      "cachedContentTokenCount": 390,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 684
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 390
+        }
+      ],
+      "thoughtsTokenCount": 3908,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "MfAEa8JZq8HT6Q-Yir-ZBg"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:03:25+09:00"
+}

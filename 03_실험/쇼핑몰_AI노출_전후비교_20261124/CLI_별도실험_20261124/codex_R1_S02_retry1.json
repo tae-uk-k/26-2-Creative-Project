@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R1_S02_retry1",
+  "timestamp_utc": "2026-11-24T01:53:37.876306+00:00",
+  "query_id": "S02",
+  "repeat": 1,
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "개인 구매용으로는 **ZEGO Foods의 15 oz 제품**이 가장 적합합니다. 판매 페이지에서 원재료와 중량을 확인할 수 있고, 제조사가 냉압착으로 기름을 제거한 뒤 남은 씨앗을 분쇄한다고 밝힙니다. [판매 페이지](https://zegofoods.com/shop/protein-powder/organic-plant-based-protein-powder/) · [제조 공정](https://zegofoods.com/zego-organic-plant-protein/)\n\n| 제품명 | 판매처 | 원재료 | 포장 중량 | 선택 이유 및 근거 |\n|---|---|---|---|---|\n| Organic Plant Based Protein Powder | ZEGO Foods 공식몰 | 유기농 사차인치 씨앗 100% | 15 oz(약 425 g) | 한 봉지씩 주문할 수 있습니다. 냉압착으로 기름을 제거하는 공정이 공개돼 있습니다. [판매 페이지](https://zegofoods.com/shop/protein-powder/organic-plant-based-protein-powder/) · [제조 공정](https://zegofoods.com/zego-organic-plant-protein/) |\n| Sacha Inchi Powder | OrganicCrops 도매 | 사차인치 씨앗 | 10 kg × 2봉, 상자당 순중량 20 kg | 제조사가 씨앗 기름의 대부분을 제거한다고 명시합니다. 2026년 규격서 기준 최소 주문량은 1,000 kg입니다. [도매 페이지](https://organiccrops.net/en/wholesale/sacha-inchi.php) · [제품 규격서](https://organiccrops.net/bin/OC_Prod_Sacha_Inchi-Powder_12_EN.pdf) |\n| Sacha Inchi Protein Powder | Asia Eco Farm 도매 | 냉압착·탈지한 사차인치 씨앗 압착박 | 표준 25 kg/포대 | 제품 페이지에 탈지 공정과 표준 포장 중량이 명시돼 있습니다. 최소 주문량은 100 kg입니다. [제품 페이지](https://www.asiaecofarm.com/products/sacha-inchi-protein-powder.html) · [최소 주문 안내](https://www.asiaecofarm.com/moq-pricing.html) |\n\n한국 배송 가능 여부는 확인하지 못했습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:53:38.411936Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:54:21.002633+00:00",
+  "retry_of": "codex_R1_S02",
+  "errors": [],
+  "timeout": false
+}

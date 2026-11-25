@@ -1,0 +1,353 @@
+{
+  "run_id": "gemini-api-B0-W03-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:08:26+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "W03",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "watermelon"
+  ],
+  "prompt": "두유에 섞어 먹을 수박씨 프로틴 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "두유에 섞어 마시기 좋은 순수 수박씨 프로틴(단일 원료 및 무첨가/무맛 위주) 분말 제품 3종입니다. 국내 완제품 시장에는 수박씨 100% 단백질 파우더가 흔치 않아 해외 브랜드 직구 또는 공식 판매처를 통해 주로 구매되고 있습니다.\n\n---\n\n### 1. 스프라웃 리빙 심플 수박씨 단백질 분말 (Sprout Living Simple Watermelon Seed Protein Powder)\n* **판매처:** Sprout Living 공식 스토어, Ubuy, 해외 직구 유통처\n* **근거 링크:** [Sprout Living 공식 사이트](https://sproutliving.com) / [Ubuy 제품 상세 페이지](https://haiti.ubuy.com/en/product/7RMEQEYO-sprout-living-simple-watermelon-seed-protein-powder-12-grams-organic-plant-based-protein-powder-without-artificial-sweeteners-non-dairy-non-gmo)\n* **선택 이유:** \n  * 인공 감미료, 착향료, 충전재 없이 유기농 수박씨만 단일 원료로 사용한 식물성 프로틴입니다.\n  * 1회 제공량당 약 12g의 단백질을 제공하며, 가당이나 합성 향료가 없어 두유 본연의 고소한 맛을 해치지 않고 깔끔하게 섞어 마시기 적합합니다.\n\n---\n\n### 2. 너티브 수박씨 단백질 분말 (NURTIVE Watermelon Seed Protein Powder 16 oz)\n* **판매처:** NURTIVE 공식 온라인 스토어, GoSupps 등 직구 유통처\n* **근거 링크:** [NURTIVE 공식 제품 페이지](https://nurtive.co/products/watermelon-protein)\n* **선택 이유:** \n  * 수박씨 유래 식물성 완전단백질 분말로 비건, 글루텐 프리 규격을 갖추고 있습니다.\n  * 1회(약 25g) 섭취 시 단백질 14g과 함께 천연 마그네슘, 철분, 식이섬유 4g을 보충할 수 있습니다.\n  * 찬 음료나 식물성 음료(두유 등)에 1~2스푼 넣어 쉽게 분산되도록 제조되어 간편하게 음용하기 좋습니다.\n\n---\n\n### 3. 스매시 멜론 냉압착 수박씨 프로틴 파우더 (Smash Melon Watermelon Seed Protein Powder Raw)\n* **판매처:** Smash Melon 공식 웹사이트, Amazon, Ubuy 등\n* **근거 링크:** [EINPresswire 출시 공식 보도](https://www.einpresswire.com/article/741006509/smash-melon-launches-watermelon-seed-protein-powder-a-new-protein-source-for-health-conscious-consumers) / [Desertcart 제품 정보](https://www.desertcart.com.au/products/559400820-watermelon-seed-protein-powder-raw-cold-pressed-single-ingredient-unflavored-protein-powder-shake-or-bake-with-it)\n* **선택 이유:** \n  * 화학적 가공제 없이 냉압착(Cold-Pressed) 공법으로 추출한 단일 성분(Single-Ingredient) 분말입니다.\n  * 무향·중립적인 맛(Neutral/Unflavored)으로 제조되어 두유에 타서 셰이커로 흔들어 마실 때 인위적인 단맛이나 비린 맛 없이 깔끔합니다.\n  * 1회 제공량당 단백질 함량이 22g으로 순수 수박씨 프로틴 제품군 중 고단백 스펙을 갖추고 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3dCj-Ikk5tktJXW--7jTA430NyVdmmJJ0JPGkbirywMtm9jFq9mV2aKFi6_6NaWaiJ82CqeTuk6T_yKZsdXpDh2TixrB7kplOxdYvfvdxM6Nb01wLEBFlmzI1Z5AoO6w1k2KA5VSYAY1LQqxEZad_wgvPYa3VShUYEz4IkeS-fIeloHy96U_QCszAWaZlJrCpEbclsm4nsUH7E_VJohIofziYYIupu5SMGTaWThWeoC2gIYEXbI-EEN42boLUBA0negMNMNNmN1VFkUapdIqVTVqY4R6jk4g-lfzULElRWNzNrg417vSVt2pKps8_4Xslw0c=",
+      "title": "ubuy.com.ps"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4cQRgcAA-Q3XyZ1wSvT1W3fvRP1UXOrQUmo5596nea5zHjF2uvIxKarWHdk_KxJ5HWH_tKd5QrdFtsvi13omcw3ItSKLbdADOPoFAgYsMzXbxX8mzngGyRv4d6tPnVReS9ajRLq8z2EguQSpIcg5i803YsbUbI4qszb15CkXumA7u7esUFudDAm_J6C1RlIAYf5Wx04XWKte9aE684RsBDLHVPv99XAI1qsDlbYl0V8CF19FVAMOvkpE95uXe1Kti2CoAskac-Q1zWDnfSVRzFD0GzFxtLo-o0eARf9hwig-Msv8nVzw5BeSnt0liVQ==",
+      "title": "ubuy.ht"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVFb-u6z3wqrtGTsG4sYDgt2hCOslX0fvr3EnWH3JlflzM628z0ElR0rjBfqfjJZG7WaxlJ0NICATWNod3PQ0K7Lr05JYwCibTPaQkNjMo",
+      "title": "sproutliving.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHujzCL3ATBVmP1u1TXuywXfBV3lO6TUnUvWgTKxgYnNQAuDf9uYlm29LBkWnZWDv6KFqAt67U3ZIhE3PBM2DCTV0GMO1fMnHDnlWgGGPaaZe66O4KN1AYBGAgDt4DStynrZQ3NAZBKkAdgKyFo1etRXrLjmkgvEOsO2jZ-ODFevkVtuY2OZGnJCP",
+      "title": "ultraprocessedfoodlist.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHi-IDUrc1rF5U7d4pHdbAp1nfVgO3n10Xjjb-TMBjcmt-W6O1gZ_1rI9cza2msbQV4WrkCUpXsZK8ync_n8GJQcajAmNh1DzlbalR75Mz9uXmTSHeY9qvoHgk9GUBIGtLYZefgwuN4PdF3RZZIQ==",
+      "title": "myfooddata.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbj0ximWfcXTVUjxKMOsgheLbieERwUjgP03DPr2mIoH9V0mxStKkkUDaX1QDVt_TdAqfzQryfO-eiCXjEEAKcqIgIJIFUaTFauNgh1sCtXmEmIWrydkUPEBkkFEu_B0bGv6ifI90nFWU=",
+      "title": "nurtive.co"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvsoEvAq7dQSWd_r9FYwO7U1aoqaScFTtccvNy7mxxSh_5_E2AlESPBSwS8aOC3YrjVy3pArk4nTpuSeZ1nY5azaPf-5eD3bCpZYBS53ECcE9_fdvsTR3EwV2BVxqdWRoeP2qXiFZM8wPShZ_LI768q686BTvUD_FJhsgh7MfTHi387I03_XRc6RblAF29iaxP9KZiNqGdGTBcjpG-NbYRw7MbZoh9nMgIRJnN2Qcv4Exze_0Hu3F8xSn1USzHRIC6tbgGds8Bo_X-y5TGq_4pZeBBcI9DQjeUtK96amD2geDlHU0jedINmO55M8XSYdchTXyEKSibt49vMHOtQAW_pA==",
+      "title": "gosupps.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUbjjtyWd1EyvKPHzW695ymA2BpW7akRf-q1D16vSRgLi3nTbKTXILaVxauhmmsxlLYhTaVwTJugUt_rWfjyHf29nq9itG8eJ7WgKjghrB7YTfE0EXpwMp5ztEAgT069ZBgdqMIbIYhoFRga8f-er_x1iiyatjt5RaBg9jC4sLIbHSxm61YcYx6ao3QbbQFuurvx64gEQAJkouZCPlJapcsPeseS02vp9H6_TAX8BMbyLrUdirKwKQ1chhh7LeWRkDbMj_kKnsRACmCqQh",
+      "title": "einpresswire.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8Cew0EIDF6zzIuGfaSuOMK_KjMng_EbEztYmNNF22fErUdHpave8ARvRjfIt9yggWVcy78xwXLowubkzreQB3cl6VgyjR4AHhdRpGGE37H8G_uhxRjIKehT6NZOUZ9vaLrkFdWMxpO1bAIx8rDwHvKN-Fdhn_eB7UQeXhRKSqfoXlUhp6Er3Q7RKglZGopkkPqpd5CH2_egb3F8ycr43GQ5v6j2uYSgYgqefyrH0DF1HCA==",
+      "title": "desertcart.com.au"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "mvEEa93ULYLI0-kP6unpyQQ",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"Smash Melon\" \"Watermelon Seed Protein Powder\"",
+    "Sprout Living watermelon seed protein",
+    "watermelon seed protein powder iherb",
+    "\"Sprout Living\" \"Watermelon Seed Protein Powder\" official",
+    "amazon watermelon seed protein powder",
+    "\"watermelon seed protein\" powder"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "두유에 섞어 마시기 좋은 순수 수박씨 프로틴(단일 원료 및 무첨가/무맛 위주) 분말 제품 3종입니다. 국내 완제품 시장에는 수박씨 100% 단백질 파우더가 흔치 않아 해외 브랜드 직구 또는 공식 판매처를 통해 주로 구매되고 있습니다.\n\n---\n\n### 1. 스프라웃 리빙 심플 수박씨 단백질 분말 (Sprout Living Simple Watermelon Seed Protein Powder)\n* **판매처:** Sprout Living 공식 스토어, Ubuy, 해외 직구 유통처\n* **근거 링크:** [Sprout Living 공식 사이트](https://sproutliving.com) / [Ubuy 제품 상세 페이지](https://haiti.ubuy.com/en/product/7RMEQEYO-sprout-living-simple-watermelon-seed-protein-powder-12-grams-organic-plant-based-protein-powder-without-artificial-sweeteners-non-dairy-non-gmo)\n* **선택 이유:** \n  * 인공 감미료, 착향료, 충전재 없이 유기농 수박씨만 단일 원료로 사용한 식물성 프로틴입니다.\n  * 1회 제공량당 약 12g의 단백질을 제공하며, 가당이나 합성 향료가 없어 두유 본연의 고소한 맛을 해치지 않고 깔끔하게 섞어 마시기 적합합니다.\n\n---\n\n### 2. 너티브 수박씨 단백질 분말 (NURTIVE Watermelon Seed Protein Powder 16 oz)\n* **판매처:** NURTIVE 공식 온라인 스토어, GoSupps 등 직구 유통처\n* **근거 링크:** [NURTIVE 공식 제품 페이지](https://nurtive.co/products/watermelon-protein)\n* **선택 이유:** \n  * 수박씨 유래 식물성 완전단백질 분말로 비건, 글루텐 프리 규격을 갖추고 있습니다.\n  * 1회(약 25g) 섭취 시 단백질 14g과 함께 천연 마그네슘, 철분, 식이섬유 4g을 보충할 수 있습니다.\n  * 찬 음료나 식물성 음료(두유 등)에 1~2스푼 넣어 쉽게 분산되도록 제조되어 간편하게 음용하기 좋습니다.\n\n---\n\n### 3. 스매시 멜론 냉압착 수박씨 프로틴 파우더 (Smash Melon Watermelon Seed Protein Powder Raw)\n* **판매처:** Smash Melon 공식 웹사이트, Amazon, Ubuy 등\n* **근거 링크:** [EINPresswire 출시 공식 보도](https://www.einpresswire.com/article/741006509/smash-melon-launches-watermelon-seed-protein-powder-a-new-protein-source-for-health-conscious-consumers) / [Desertcart 제품 정보](https://www.desertcart.com.au/products/559400820-watermelon-seed-protein-powder-raw-cold-pressed-single-ingredient-unflavored-protein-powder-shake-or-bake-with-it)\n* **선택 이유:** \n  * 화학적 가공제 없이 냉압착(Cold-Pressed) 공법으로 추출한 단일 성분(Single-Ingredient) 분말입니다.\n  * 무향·중립적인 맛(Neutral/Unflavored)으로 제조되어 두유에 타서 셰이커로 흔들어 마실 때 인위적인 단맛이나 비린 맛 없이 깔끔합니다.\n  * 1회 제공량당 단백질 함량이 22g으로 순수 수박씨 프로틴 제품군 중 고단백 스펙을 갖추고 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Smash+Melon%22+%22Watermelon+Seed+Protein+Powder%22&client=app-vertex-grounding&safesearch=active\">&quot;Smash Melon&quot; &quot;Watermelon Seed Protein Powder&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=Sprout+Living+watermelon+seed+protein&client=app-vertex-grounding&safesearch=active\">Sprout Living watermelon seed protein</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=watermelon+seed+protein+powder+iherb&client=app-vertex-grounding&safesearch=active\">watermelon seed protein powder iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Sprout+Living%22+%22Watermelon+Seed+Protein+Powder%22+official&client=app-vertex-grounding&safesearch=active\">&quot;Sprout Living&quot; &quot;Watermelon Seed Protein Powder&quot; official</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=amazon+watermelon+seed+protein+powder&client=app-vertex-grounding&safesearch=active\">amazon watermelon seed protein powder</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22watermelon+seed+protein%22+powder&client=app-vertex-grounding&safesearch=active\">&quot;watermelon seed protein&quot; powder</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3dCj-Ikk5tktJXW--7jTA430NyVdmmJJ0JPGkbirywMtm9jFq9mV2aKFi6_6NaWaiJ82CqeTuk6T_yKZsdXpDh2TixrB7kplOxdYvfvdxM6Nb01wLEBFlmzI1Z5AoO6w1k2KA5VSYAY1LQqxEZad_wgvPYa3VShUYEz4IkeS-fIeloHy96U_QCszAWaZlJrCpEbclsm4nsUH7E_VJohIofziYYIupu5SMGTaWThWeoC2gIYEXbI-EEN42boLUBA0negMNMNNmN1VFkUapdIqVTVqY4R6jk4g-lfzULElRWNzNrg417vSVt2pKps8_4Xslw0c=",
+                "title": "ubuy.com.ps"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4cQRgcAA-Q3XyZ1wSvT1W3fvRP1UXOrQUmo5596nea5zHjF2uvIxKarWHdk_KxJ5HWH_tKd5QrdFtsvi13omcw3ItSKLbdADOPoFAgYsMzXbxX8mzngGyRv4d6tPnVReS9ajRLq8z2EguQSpIcg5i803YsbUbI4qszb15CkXumA7u7esUFudDAm_J6C1RlIAYf5Wx04XWKte9aE684RsBDLHVPv99XAI1qsDlbYl0V8CF19FVAMOvkpE95uXe1Kti2CoAskac-Q1zWDnfSVRzFD0GzFxtLo-o0eARf9hwig-Msv8nVzw5BeSnt0liVQ==",
+                "title": "ubuy.ht"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVFb-u6z3wqrtGTsG4sYDgt2hCOslX0fvr3EnWH3JlflzM628z0ElR0rjBfqfjJZG7WaxlJ0NICATWNod3PQ0K7Lr05JYwCibTPaQkNjMo",
+                "title": "sproutliving.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHujzCL3ATBVmP1u1TXuywXfBV3lO6TUnUvWgTKxgYnNQAuDf9uYlm29LBkWnZWDv6KFqAt67U3ZIhE3PBM2DCTV0GMO1fMnHDnlWgGGPaaZe66O4KN1AYBGAgDt4DStynrZQ3NAZBKkAdgKyFo1etRXrLjmkgvEOsO2jZ-ODFevkVtuY2OZGnJCP",
+                "title": "ultraprocessedfoodlist.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHi-IDUrc1rF5U7d4pHdbAp1nfVgO3n10Xjjb-TMBjcmt-W6O1gZ_1rI9cza2msbQV4WrkCUpXsZK8ync_n8GJQcajAmNh1DzlbalR75Mz9uXmTSHeY9qvoHgk9GUBIGtLYZefgwuN4PdF3RZZIQ==",
+                "title": "myfooddata.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbj0ximWfcXTVUjxKMOsgheLbieERwUjgP03DPr2mIoH9V0mxStKkkUDaX1QDVt_TdAqfzQryfO-eiCXjEEAKcqIgIJIFUaTFauNgh1sCtXmEmIWrydkUPEBkkFEu_B0bGv6ifI90nFWU=",
+                "title": "nurtive.co"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvsoEvAq7dQSWd_r9FYwO7U1aoqaScFTtccvNy7mxxSh_5_E2AlESPBSwS8aOC3YrjVy3pArk4nTpuSeZ1nY5azaPf-5eD3bCpZYBS53ECcE9_fdvsTR3EwV2BVxqdWRoeP2qXiFZM8wPShZ_LI768q686BTvUD_FJhsgh7MfTHi387I03_XRc6RblAF29iaxP9KZiNqGdGTBcjpG-NbYRw7MbZoh9nMgIRJnN2Qcv4Exze_0Hu3F8xSn1USzHRIC6tbgGds8Bo_X-y5TGq_4pZeBBcI9DQjeUtK96amD2geDlHU0jedINmO55M8XSYdchTXyEKSibt49vMHOtQAW_pA==",
+                "title": "gosupps.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUbjjtyWd1EyvKPHzW695ymA2BpW7akRf-q1D16vSRgLi3nTbKTXILaVxauhmmsxlLYhTaVwTJugUt_rWfjyHf29nq9itG8eJ7WgKjghrB7YTfE0EXpwMp5ztEAgT069ZBgdqMIbIYhoFRga8f-er_x1iiyatjt5RaBg9jC4sLIbHSxm61YcYx6ao3QbbQFuurvx64gEQAJkouZCPlJapcsPeseS02vp9H6_TAX8BMbyLrUdirKwKQ1chhh7LeWRkDbMj_kKnsRACmCqQh",
+                "title": "einpresswire.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8Cew0EIDF6zzIuGfaSuOMK_KjMng_EbEztYmNNF22fErUdHpave8ARvRjfIt9yggWVcy78xwXLowubkzreQB3cl6VgyjR4AHhdRpGGE37H8G_uhxRjIKehT6NZOUZ9vaLrkFdWMxpO1bAIx8rDwHvKN-Fdhn_eB7UQeXhRKSqfoXlUhp6Er3Q7RKglZGopkkPqpd5CH2_egb3F8ycr43GQ5v6j2uYSgYgqefyrH0DF1HCA==",
+                "title": "desertcart.com.au"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 430,
+                "endIndex": 506,
+                "text": "**판매처:** Sprout Living 공식 스토어, Ubuy, 해외 직구 유통처"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 509,
+                "endIndex": 807,
+                "text": "**근거 링크:** [Sprout Living 공식 사이트](https://sproutliving.com) / [Ubuy 제품 상세 페이지](https://haiti.ubuy.com/en/product/7RMEQEYO-sprout-living-simple-watermelon-seed-protein-powder-12-grams-organic-plant-based-protein-powder-without-artificial-sweeteners-non-dairy-non-gmo)"
+              },
+              "groundingChunkIndices": [
+                2,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 834,
+                "endIndex": 958,
+                "text": "인공 감미료, 착향료, 충전재 없이 유기농 수박씨만 단일 원료로 사용한 식물성 프로틴입니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 964,
+                "endIndex": 1018,
+                "text": "1회 제공량당 약 12g의 단백질을 제공하며"
+              },
+              "groundingChunkIndices": [
+                4,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 964,
+                "endIndex": 1153,
+                "text": "1회 제공량당 약 12g의 단백질을 제공하며, 가당이나 합성 향료가 없어 두유 본연의 고소한 맛을 해치지 않고 깔끔하게 섞어 마시기 적합합니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1254,
+                "endIndex": 1333,
+                "text": "**판매처:** NURTIVE 공식 온라인 스토어, GoSupps 등 직구 유통처"
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1336,
+                "endIndex": 1436,
+                "text": "**근거 링크:** [NURTIVE 공식 제품 페이지](https://nurtive.co/products/watermelon-protein)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1463,
+                "endIndex": 1573,
+                "text": "수박씨 유래 식물성 완전단백질 분말로 비건, 글루텐 프리 규격을 갖추고 있습니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1579,
+                "endIndex": 1702,
+                "text": "1회(약 25g) 섭취 시 단백질 14g과 함께 천연 마그네슘, 철분, 식이섬유 4g을 보충할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1708,
+                "endIndex": 1845,
+                "text": "찬 음료나 식물성 음료(두유 등)에 1~2스푼 넣어 쉽게 분산되도록 제조되어 간편하게 음용하기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1968,
+                "endIndex": 2032,
+                "text": "**판매처:** Smash Melon 공식 웹사이트, Amazon, Ubuy 등"
+              },
+              "groundingChunkIndices": [
+                0,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2035,
+                "endIndex": 2241,
+                "text": "**근거 링크:** [EINPresswire 출시 공식 보도](https://www.einpresswire.com/article/741006509/smash-melon-launches-watermelon-seed-protein-powder-a-new-protein-source-for-health-conscious-consumers)"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2035,
+                "endIndex": 2434,
+                "text": "**근거 링크:** [EINPresswire 출시 공식 보도](https://www.einpresswire.com/article/741006509/smash-melon-launches-watermelon-seed-protein-powder-a-new-protein-source-for-health-conscious-consumers) / [Desertcart 제품 정보](https://www.desertcart.com.au/products/559400820-watermelon-seed-protein-powder-raw-cold-pressed-single-ingredient-unflavored-protein-powder-shake-or-bake-with-it)"
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2461,
+                "endIndex": 2583,
+                "text": "화학적 가공제 없이 냉압착(Cold-Pressed) 공법으로 추출한 단일 성분(Single-Ingredient) 분말입니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2589,
+                "endIndex": 2763,
+                "text": "무향·중립적인 맛(Neutral/Unflavored)으로 제조되어 두유에 타서 셰이커로 흔들어 마실 때 인위적인 단맛이나 비린 맛 없이 깔끔합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2769,
+                "endIndex": 2900,
+                "text": "1회 제공량당 단백질 함량이 22g으로 순수 수박씨 프로틴 제품군 중 고단백 스펙을 갖추고 있습니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                7,
+                8
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"Smash Melon\" \"Watermelon Seed Protein Powder\"",
+            "Sprout Living watermelon seed protein",
+            "watermelon seed protein powder iherb",
+            "\"Sprout Living\" \"Watermelon Seed Protein Powder\" official",
+            "amazon watermelon seed protein powder",
+            "\"watermelon seed protein\" powder"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 621,
+      "candidatesTokenCount": 1051,
+      "totalTokenCount": 2954,
+      "cachedContentTokenCount": 332,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 621
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 332
+        }
+      ],
+      "thoughtsTokenCount": 1282,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "mvEEa93ULYLI0-kP6unpyQQ"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:08:55+09:00"
+}

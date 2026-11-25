@@ -1,0 +1,258 @@
+{
+  "run_id": "gemini-api-B0-S03-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:08:26+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S03",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "두유에 타서 마시기 적합한 사차인치 프로틴(단백질) 분말 제품 3가지를 소개합니다. 100% 순수 사차인치 분말부터 운동·식사 대용으로 설계된 식물성 복합 프로틴 파우더까지 확인된 제품들입니다.\n\n---\n\n### 1. MRM Nutrition, 유기농 생 사차 인치 분말 (240g)\n* **판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4knxH2HjLq-QepgLZvrcfsfLsqxVe9efryyzX9bbCLBFZV16a1fpk5X9Zv5N18JWlGkNLV00M9gnSlcoiMcmDUS2r7_UnN76gELxz0wG9WYAM4tOUBlpV9a-0zMdLCWjXWWmcFbbpapFDdqf2njbXXEcA-iVPlHtvmXhHBmAyxbgiKpfuEPCPjFIkM5LfiN3HSmU=)\n* **선택 이유:** \n  * 인공 첨가물, 감미료, 글루텐 등이 일절 들어가지 않은 **100% 유기농 사차인치 분말** 단일 원료 제품입니다.\n  * 사차인치 특유의 고소한 너트 풍미가 살아 있어 무가당 두유나 일반 두유에 한두 스쿱 섞었을 때 미숫가루처럼 고소하게 마시기 좋습니다.\n  * 완전 단백질과 더불어 불포화지방산(오메가 3·6·9) 및 식이섬유를 함께 섭취하기에 알맞습니다.\n\n---\n\n### 2. Sprout Living, Epic Protein® 유기농 식물 단백질 + 슈퍼 푸드 오리지널\n* **판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu58sIPhZIICXFN3WFbIpLc4_GXuwDKwhsOxCBbAqOCQw_pPZOwygEavah-YO0wEBSVQika3o0W2ds8LwPBHw5IQOip6zK7mAPfqQ0VmCdozhv4sus7lFRHUV-6CSyYIMLCL-u4F7mDzkHVVCUVK4eU42H9DOSI9v4i1sulRUKV_itQAYxQgkqOz2IGgCzuFEnXqR_pmzZLD23fnyaiuLNu7iFKA==)\n* **선택 이유:** \n  * 페루 고지대 사차인치 씨앗 단백질과 유기농 완두 단백질, 크랜베리 씨앗 등 식물성 슈퍼푸드를 배합한 **비건 프로틴 보충제**입니다.\n  * 증점제(검류)나 인공 향료, 화학 감미료 없이 천연 원료 기반으로 제조되어 목넘김이 부드럽고 두유에 잘 섞입니다.\n  * 1회 제공량당 약 26g의 풍부한 식물성 단백질을 공급하여 운동 후 단백질 보충이나 식사 대용 두유 셰이크로 활용하기 좋습니다.\n\n---\n\n### 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (1kg)\n* **판매처:** [왓푸드 공식몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQIBeNDi-HnhTx4eqz_K9BsOnoR7YTdx9BbEZJyH7SQ-3kiDzSql9HtQlQWRwf6Ualb29AuOxWGSIpqPMxUr3f1SNaC31TIGCqBeRYww77RsOUWwqp4QFCVai03OnxbfrmUvyIgT6uh_dYLavRS-mLJI6PW6EtpW7OECdqbUE9Ozs_KOjOksdCtygRF6LXzUt07oAS3hnjiNebAe2p5qKTwUMVGaCRSZCvRjwYWaa0_3WtgDX9jUmdXlYk5qysRC_4OdHkQ5RhQQAuPebXnikmV9VXnpfUktYUeyL0hYC3kjvfNpIKh9Az71duQD8g53RwZAQTUdxdOBuAmCtcXmh_uwZVpTxeAr0eXzJOcVlSCSmpt6M-167T2zBrsABYGZMoC-VoKBpziaOwqT9_GgfBlL_BRo0WkseSLIK4FB4jM_s6HLoMoEh)\n* **선택 이유:** \n  * 해외 직구가 아닌 국내 배송으로 손쉽게 구할 수 있는 대용량(1kg) 제품입니다.\n  * 완두콩 단백질과 사차인치 분말을 밸런스형으로 블렌딩하여 소화 흡수 부담을 낮추고 30g 섭취 시 약 20g의 단백질을 섭취할 수 있도록 구성되었습니다.\n  * 대용량 파우더 형태로 매일 아침 두유에 셰이커로 간편하게 타 마시기에 경제적입니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4knxH2HjLq-QepgLZvrcfsfLsqxVe9efryyzX9bbCLBFZV16a1fpk5X9Zv5N18JWlGkNLV00M9gnSlcoiMcmDUS2r7_UnN76gELxz0wG9WYAM4tOUBlpV9a-0zMdLCWjXWWmcFbbpapFDdqf2njbXXEcA-iVPlHtvmXhHBmAyxbgiKpfuEPCPjFIkM5LfiN3HSmU=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSvhuKdCE-FVN4RQAzExkADlefByjtn6Cac9tsiwtLymKQ8qK3a2mN75qx0o3fjDW6a5j3ratBrgPgqrwHWF0bcSeag5XY_6c4aA3Pbqc22AjgKlqIi3UhT87Uky8GOXjA89jh_IfH_abtGo2lTFf8YH2xsIlB4XSbN4JGIbxb8Unv_KuagVBfcG---Qqxj5nF7Jo=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ma9k305LXoCo4C2ppVD1gJoA0RZIGZLVHk4emP3TOlRcS1qoxaPC5bIeqH3IG-h3L8yqksp7WHPlzF4dCFO_NxzrxeCutgGeXYNLXPd_FS5P5HpUKh-H_m-xY-zHlkEk3OVVvaKKSgbZ2lsnOoHj",
+      "title": "hidoc.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu58sIPhZIICXFN3WFbIpLc4_GXuwDKwhsOxCBbAqOCQw_pPZOwygEavah-YO0wEBSVQika3o0W2ds8LwPBHw5IQOip6zK7mAPfqQ0VmCdozhv4sus7lFRHUV-6CSyYIMLCL-u4F7mDzkHVVCUVK4eU42H9DOSI9v4i1sulRUKV_itQAYxQgkqOz2IGgCzuFEnXqR_pmzZLD23fnyaiuLNu7iFKA==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQIBeNDi-HnhTx4eqz_K9BsOnoR7YTdx9BbEZJyH7SQ-3kiDzSql9HtQlQWRwf6Ualb29AuOxWGSIpqPMxUr3f1SNaC31TIGCqBeRYww77RsOUWwqp4QFCVai03OnxbfrmUvyIgT6uh_dYLavRS-mLJI6PW6EtpW7OECdqbUE9Ozs_KOjOksdCtygRF6LXzUt07oAS3hnjiNebAe2p5qKTwUMVGaCRSZCvRjwYWaa0_3WtgDX9jUmdXlYk5qysRC_4OdHkQ5RhQQAuPebXnikmV9VXnpfUktYUeyL0hYC3kjvfNpIKh9Az71duQD8g53RwZAQTUdxdOBuAmCtcXmh_uwZVpTxeAr0eXzJOcVlSCSmpt6M-167T2zBrsABYGZMoC-VoKBpziaOwqT9_GgfBlL_BRo0WkseSLIK4FB4jM_s6HLoMoEh",
+      "title": "whatfood.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "mvEEa9CRLLGi9tMPrpGq6AQ",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"사차인치\" 프로틴 파우더 iherb",
+    "사차인치 프로틴 파우더",
+    "\"MRM Nutrition\" \"사차 인치 분말\" iherb",
+    "사차인치 단백질 분말"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "두유에 타서 마시기 적합한 사차인치 프로틴(단백질) 분말 제품 3가지를 소개합니다. 100% 순수 사차인치 분말부터 운동·식사 대용으로 설계된 식물성 복합 프로틴 파우더까지 확인된 제품들입니다.\n\n---\n\n### 1. MRM Nutrition, 유기농 생 사차 인치 분말 (240g)\n* **판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4knxH2HjLq-QepgLZvrcfsfLsqxVe9efryyzX9bbCLBFZV16a1fpk5X9Zv5N18JWlGkNLV00M9gnSlcoiMcmDUS2r7_UnN76gELxz0wG9WYAM4tOUBlpV9a-0zMdLCWjXWWmcFbbpapFDdqf2njbXXEcA-iVPlHtvmXhHBmAyxbgiKpfuEPCPjFIkM5LfiN3HSmU=)\n* **선택 이유:** \n  * 인공 첨가물, 감미료, 글루텐 등이 일절 들어가지 않은 **100% 유기농 사차인치 분말** 단일 원료 제품입니다.\n  * 사차인치 특유의 고소한 너트 풍미가 살아 있어 무가당 두유나 일반 두유에 한두 스쿱 섞었을 때 미숫가루처럼 고소하게 마시기 좋습니다.\n  * 완전 단백질과 더불어 불포화지방산(오메가 3·6·9) 및 식이섬유를 함께 섭취하기에 알맞습니다.\n\n---\n\n### 2. Sprout Living, Epic Protein® 유기농 식물 단백질 + 슈퍼 푸드 오리지널\n* **판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu58sIPhZIICXFN3WFbIpLc4_GXuwDKwhsOxCBbAqOCQw_pPZOwygEavah-YO0wEBSVQika3o0W2ds8LwPBHw5IQOip6zK7mAPfqQ0VmCdozhv4sus7lFRHUV-6CSyYIMLCL-u4F7mDzkHVVCUVK4eU42H9DOSI9v4i1sulRUKV_itQAYxQgkqOz2IGgCzuFEnXqR_pmzZLD23fnyaiuLNu7iFKA==)\n* **선택 이유:** \n  * 페루 고지대 사차인치 씨앗 단백질과 유기농 완두 단백질, 크랜베리 씨앗 등 식물성 슈퍼푸드를 배합한 **비건 프로틴 보충제**입니다.\n  * 증점제(검류)나 인공 향료, 화학 감미료 없이 천연 원료 기반으로 제조되어 목넘김이 부드럽고 두유에 잘 섞입니다.\n  * 1회 제공량당 약 26g의 풍부한 식물성 단백질을 공급하여 운동 후 단백질 보충이나 식사 대용 두유 셰이크로 활용하기 좋습니다.\n\n---\n\n### 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (1kg)\n* **판매처:** [왓푸드 공식몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQIBeNDi-HnhTx4eqz_K9BsOnoR7YTdx9BbEZJyH7SQ-3kiDzSql9HtQlQWRwf6Ualb29AuOxWGSIpqPMxUr3f1SNaC31TIGCqBeRYww77RsOUWwqp4QFCVai03OnxbfrmUvyIgT6uh_dYLavRS-mLJI6PW6EtpW7OECdqbUE9Ozs_KOjOksdCtygRF6LXzUt07oAS3hnjiNebAe2p5qKTwUMVGaCRSZCvRjwYWaa0_3WtgDX9jUmdXlYk5qysRC_4OdHkQ5RhQQAuPebXnikmV9VXnpfUktYUeyL0hYC3kjvfNpIKh9Az71duQD8g53RwZAQTUdxdOBuAmCtcXmh_uwZVpTxeAr0eXzJOcVlSCSmpt6M-167T2zBrsABYGZMoC-VoKBpziaOwqT9_GgfBlL_BRo0WkseSLIK4FB4jM_s6HLoMoEh)\n* **선택 이유:** \n  * 해외 직구가 아닌 국내 배송으로 손쉽게 구할 수 있는 대용량(1kg) 제품입니다.\n  * 완두콩 단백질과 사차인치 분말을 밸런스형으로 블렌딩하여 소화 흡수 부담을 낮추고 30g 섭취 시 약 20g의 단백질을 섭취할 수 있도록 구성되었습니다.\n  * 대용량 파우더 형태로 매일 아침 두유에 셰이커로 간편하게 타 마시기에 경제적입니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94+iherb&client=app-vertex-grounding&safesearch=active\">&quot;사차인치&quot; 프로틴 파우더 iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">사차인치 프로틴 파우더</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22MRM+Nutrition%22+%22%EC%82%AC%EC%B0%A8+%EC%9D%B8%EC%B9%98+%EB%B6%84%EB%A7%90%22+iherb&client=app-vertex-grounding&safesearch=active\">&quot;MRM Nutrition&quot; &quot;사차 인치 분말&quot; iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 분말</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4knxH2HjLq-QepgLZvrcfsfLsqxVe9efryyzX9bbCLBFZV16a1fpk5X9Zv5N18JWlGkNLV00M9gnSlcoiMcmDUS2r7_UnN76gELxz0wG9WYAM4tOUBlpV9a-0zMdLCWjXWWmcFbbpapFDdqf2njbXXEcA-iVPlHtvmXhHBmAyxbgiKpfuEPCPjFIkM5LfiN3HSmU=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSvhuKdCE-FVN4RQAzExkADlefByjtn6Cac9tsiwtLymKQ8qK3a2mN75qx0o3fjDW6a5j3ratBrgPgqrwHWF0bcSeag5XY_6c4aA3Pbqc22AjgKlqIi3UhT87Uky8GOXjA89jh_IfH_abtGo2lTFf8YH2xsIlB4XSbN4JGIbxb8Unv_KuagVBfcG---Qqxj5nF7Jo=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ma9k305LXoCo4C2ppVD1gJoA0RZIGZLVHk4emP3TOlRcS1qoxaPC5bIeqH3IG-h3L8yqksp7WHPlzF4dCFO_NxzrxeCutgGeXYNLXPd_FS5P5HpUKh-H_m-xY-zHlkEk3OVVvaKKSgbZ2lsnOoHj",
+                "title": "hidoc.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu58sIPhZIICXFN3WFbIpLc4_GXuwDKwhsOxCBbAqOCQw_pPZOwygEavah-YO0wEBSVQika3o0W2ds8LwPBHw5IQOip6zK7mAPfqQ0VmCdozhv4sus7lFRHUV-6CSyYIMLCL-u4F7mDzkHVVCUVK4eU42H9DOSI9v4i1sulRUKV_itQAYxQgkqOz2IGgCzuFEnXqR_pmzZLD23fnyaiuLNu7iFKA==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQIBeNDi-HnhTx4eqz_K9BsOnoR7YTdx9BbEZJyH7SQ-3kiDzSql9HtQlQWRwf6Ualb29AuOxWGSIpqPMxUr3f1SNaC31TIGCqBeRYww77RsOUWwqp4QFCVai03OnxbfrmUvyIgT6uh_dYLavRS-mLJI6PW6EtpW7OECdqbUE9Ozs_KOjOksdCtygRF6LXzUt07oAS3hnjiNebAe2p5qKTwUMVGaCRSZCvRjwYWaa0_3WtgDX9jUmdXlYk5qysRC_4OdHkQ5RhQQAuPebXnikmV9VXnpfUktYUeyL0hYC3kjvfNpIKh9Az71duQD8g53RwZAQTUdxdOBuAmCtcXmh_uwZVpTxeAr0eXzJOcVlSCSmpt6M-167T2zBrsABYGZMoC-VoKBpziaOwqT9_GgfBlL_BRo0WkseSLIK4FB4jM_s6HLoMoEh",
+                "title": "whatfood.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 334,
+                "endIndex": 639,
+                "text": "**판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4knxH2HjLq-QepgLZvrcfsfLsqxVe9efryyzX9bbCLBFZV16a1fpk5X9Zv5N18JWlGkNLV00M9gnSlcoiMcmDUS2r7_UnN76gELxz0wG9WYAM4tOUBlpV9a-0zMdLCWjXWWmcFbbpapFDdqf2njbXXEcA-iVPlHtvmXhHBmAyxbgiKpfuEPCPjFIkM5LfiN3HSmU=)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 666,
+                "endIndex": 807,
+                "text": "인공 첨가물, 감미료, 글루텐 등이 일절 들어가지 않은 **100% 유기농 사차인치 분말** 단일 원료 제품입니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 813,
+                "endIndex": 996,
+                "text": "사차인치 특유의 고소한 너트 풍미가 살아 있어 무가당 두유나 일반 두유에 한두 스쿱 섞었을 때 미숫가루처럼 고소하게 마시기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                2,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1002,
+                "endIndex": 1128,
+                "text": "완전 단백질과 더불어 불포화지방산(오메가 3·6·9) 및 식이섬유를 함께 섭취하기에 알맞습니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1231,
+                "endIndex": 1560,
+                "text": "**판매처:** [iHerb(아이허브)](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu58sIPhZIICXFN3WFbIpLc4_GXuwDKwhsOxCBbAqOCQw_pPZOwygEavah-YO0wEBSVQika3o0W2ds8LwPBHw5IQOip6zK7mAPfqQ0VmCdozhv4sus7lFRHUV-6CSyYIMLCL-u4F7mDzkHVVCUVK4eU42H9DOSI9v4i1sulRUKV_itQAYxQgkqOz2IGgCzuFEnXqR_pmzZLD23fnyaiuLNu7iFKA==)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1587,
+                "endIndex": 1764,
+                "text": "페루 고지대 사차인치 씨앗 단백질과 유기농 완두 단백질, 크랜베리 씨앗 등 식물성 슈퍼푸드를 배합한 **비건 프로틴 보충제**입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1770,
+                "endIndex": 1922,
+                "text": "증점제(검류)나 인공 향료, 화학 감미료 없이 천연 원료 기반으로 제조되어 목넘김이 부드럽고 두유에 잘 섞입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1928,
+                "endIndex": 2096,
+                "text": "1회 제공량당 약 26g의 풍부한 식물성 단백질을 공급하여 운동 후 단백질 보충이나 식사 대용 두유 셰이크로 활용하기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2181,
+                "endIndex": 2726,
+                "text": "**판매처:** [왓푸드 공식몰](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQIBeNDi-HnhTx4eqz_K9BsOnoR7YTdx9BbEZJyH7SQ-3kiDzSql9HtQlQWRwf6Ualb29AuOxWGSIpqPMxUr3f1SNaC31TIGCqBeRYww77RsOUWwqp4QFCVai03OnxbfrmUvyIgT6uh_dYLavRS-mLJI6PW6EtpW7OECdqbUE9Ozs_KOjOksdCtygRF6LXzUt07oAS3hnjiNebAe2p5qKTwUMVGaCRSZCvRjwYWaa0_3WtgDX9jUmdXlYk5qysRC_4OdHkQ5RhQQAuPebXnikmV9VXnpfUktYUeyL0hYC3kjvfNpIKh9Az71duQD8g53RwZAQTUdxdOBuAmCtcXmh_uwZVpTxeAr0eXzJOcVlSCSmpt6M-167T2zBrsABYGZMoC-VoKBpziaOwqT9_GgfBlL_BRo0WkseSLIK4FB4jM_s6HLoMoEh)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2753,
+                "endIndex": 2855,
+                "text": "해외 직구가 아닌 국내 배송으로 손쉽게 구할 수 있는 대용량(1kg) 제품입니다"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2861,
+                "endIndex": 3060,
+                "text": "완두콩 단백질과 사차인치 분말을 밸런스형으로 블렌딩하여 소화 흡수 부담을 낮추고 30g 섭취 시 약 20g의 단백질을 섭취할 수 있도록 구성되었습니다"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3066,
+                "endIndex": 3181,
+                "text": "대용량 파우더 형태로 매일 아침 두유에 셰이커로 간편하게 타 마시기에 경제적입니다"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"사차인치\" 프로틴 파우더 iherb",
+            "사차인치 프로틴 파우더",
+            "\"MRM Nutrition\" \"사차 인치 분말\" iherb",
+            "사차인치 단백질 분말"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 869,
+      "candidatesTokenCount": 1378,
+      "totalTokenCount": 3788,
+      "cachedContentTokenCount": 470,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 869
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 470
+        }
+      ],
+      "thoughtsTokenCount": 1541,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "mvEEa9CRLLGi9tMPrpGq6AQ"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:09:02+09:00"
+}

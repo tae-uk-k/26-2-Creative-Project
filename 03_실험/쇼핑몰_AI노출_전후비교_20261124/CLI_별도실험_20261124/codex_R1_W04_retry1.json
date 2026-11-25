@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R1_W04_retry1",
+  "timestamp_utc": "2026-11-24T01:55:28.811650+00:00",
+  "query_id": "W04",
+  "repeat": 1,
+  "prompt": "수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "원재료와 보관 방법을 모두 확인할 수 있는 수박씨 단백질 분말 3개를 찾았습니다. 모두 해외 대용량 식품 원료입니다. 가정용 소포장 제품은 두 정보를 모두 확인한 사례가 없었습니다.\n\n| 제품명 | 판매처 | 확인한 원재료 | 보관 방법 | 선택 이유와 근거 |\n|---|---|---|---|---|\n| **Onset Worldwide Watermelon Seed Protein Powder, Conventional (WA106)** | Ingredi 온라인몰 | 껍질을 제거한 수박씨 100% | 원래 포장을 닫아 건조하고 어두운 곳에 보관. 권장 조건은 18°C 이하, 상대습도 70% 미만. | 원재료 비율과 보관 기준이 명확합니다. 판매처는 섭취 전 병원체 저감 처리가 필요하다고 명시합니다. [Ingredi 판매 페이지](https://ingredi.com/watermelon-seed-protein-powder-conventional-44-lb-bag/) |\n| **Terra Nostra Organic Watermelon Protein Powder** | Terra Nostra 공급 문의 | 유기농 수박씨 | 15°C 미만, 상대습도 65% 미만의 서늘하고 건조한 곳에 보관. 직사광선을 피함. | 공급사 규격서 한 장에서 원재료, 보관 조건, 포장 단위(12.5kg × 2)를 확인할 수 있습니다. [Terra Nostra 판매 규격서 PDF](https://www.sterningredients.com/uploads/1/0/1/7/10176339/sales_spec_organic_watermelon_protein_powder_-_cn_v02.pdf) |\n| **Nutraonly Organic Watermelon Seed Protein Powder (NNBE110)** | Nutraonly 공식 사이트 견적 문의 | 유기농 수박씨에서 추출한 단백질 | 서늘하고 건조하며 어두운 곳에 보관. 개봉 후에는 밀봉해 4°C 이하에서 보관. | 개봉 후 보관 온도와 밀봉 방법까지 명시합니다. [Nutraonly 제품 페이지](https://www.nutraonly.com/organic-sports-vegan-protein/watermelon-seed-protein-powder.html) |\n\n한국 배송 가능 여부는 확인하지 못했습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:55:29.232001Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:56:10.615523+00:00",
+  "retry_of": "codex_R1_W04",
+  "errors": [],
+  "timeout": false
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "agy_R1_W02_retry1",
+  "retry_of": "agy_R1_W02",
+  "timestamp_utc": "2026-11-24T01:48:07.193319+00:00",
+  "query_id": "W02",
+  "repeat": 1,
+  "prompt": "수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "model": "gemini-3.8-flash-low",
+  "surface": "Antigravity CLI 별도 실험군",
+  "search_used": true,
+  "exit_code": 0,
+  "valid": false,
+  "result": {
+    "conversation_id": "cd65f3f8-8810-433d-a5b1-0057b4dd47df",
+    "status": "SUCCESS",
+    "response": "",
+    "duration_seconds": 89.68434,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 57566,
+      "output_tokens": 575,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 347088,
+      "total_tokens": 58141
+    }
+  },
+  "stderr": "[agy] print timeout after 1m30s with turn in progress; returning partial output\n"
+}

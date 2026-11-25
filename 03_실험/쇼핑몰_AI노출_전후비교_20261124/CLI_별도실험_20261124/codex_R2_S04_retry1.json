@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_S04_retry1",
+  "timestamp_utc": "2026-11-24T02:00:17.930457+00:00",
+  "query_id": "S04",
+  "repeat": 2,
+  "prompt": "사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "원재료와 보관 방법을 상품 페이지에서 모두 확인할 수 있는 사차인치 단백질 분말 3개입니다.\n\n| 제품명 | 판매처 | 원재료 | 보관 방법 | 선택 이유 및 근거 |\n|---|---|---|---|---|\n| Sacha Inchi Protein Powder (60% Protein) | Terrasoul Superfoods 공식몰 | 유기농 사차인치 분말 | 서늘하고 어둡고 건조한 곳에 보관. 냉장 불필요. | 원재료의 학명과 냉장 필요 여부까지 명시합니다. [공식 상품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein) |\n| Cut the Bull Sacha Inchi Protein, 무향 1 lb | Zen Medica NYC | 유기농 사차인치 단백질 100% | 포장을 밀봉해 서늘하고 건조한 곳에 보관. 직사광선과 열을 피함. | 단일 원재료 함량과 밀봉 방법이 명확합니다. [판매처 상품 페이지](https://zenmedicanyc.com/product/sacha-inchi-protein-1-lb-unflav/) |\n| PikPure Sacha Inchi Protein Powder | PikPure 공식몰 | 유기농 사차인치 | 서늘하고 건조한 곳에 보관. | 원재료와 보관 장소를 별도 항목으로 표시하고 원산지도 페루로 명시합니다. [공식 상품 페이지](https://pikpure.in/product/organic-sacha-inchi-protein-powder/) |\n\n세 판매처의 한국 배송 가능 여부는 확인하지 못했습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T02:00:18.291901Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:00:50.065413+00:00",
+  "retry_of": "codex_R2_S04",
+  "errors": [],
+  "timeout": false
+}

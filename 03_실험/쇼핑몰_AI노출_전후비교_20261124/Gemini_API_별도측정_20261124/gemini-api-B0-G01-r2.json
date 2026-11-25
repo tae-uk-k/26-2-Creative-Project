@@ -1,0 +1,226 @@
+{
+  "run_id": "gemini-api-B0-G01-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:03:37+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G01",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "300g 안팎 용량의 식물성 단백질 분말(파우더) 제품 3가지를 소개합니다.\n\n---\n\n### 1. NS 식물성 단백질 300g\n* **판매처**: NS 프로틴 공식몰\n* **근거 링크**: [NS 프로틴 공식몰 제품 페이지](https://m.nsprotein.com/web/product/big/202507/1d0a1365d5b5ad0c8411891855a86bbc.jpg)\n* **선택 이유**: 300g 소포장 규격의 식물성 단백질 파우더로, 유당 및 콜레스테롤이 없어 평소 유제품 소화에 부담을 느끼는 분들이 간편하게 섭취하기에 적합합니다.\n\n---\n\n### 2. 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 300g\n* **판매처**: 비옴(viehome) 공식몰\n* **근거 링크**: [건강한우리집 비옴 공식몰 제품 페이지](https://m.viehome.co.kr/web/product/big/202105/66fc18e2b92b41f31f27735b83c13e34.jpg)\n* **선택 이유**: 독일산 완두콩에서 추출한 순수 완두콩 단백질 분말 300g 제품입니다. 인공 첨가물에 대한 부담 없이 스무디, 쉐이크, 음식 등에 넣어 식물성 단백질을 보충할 수 있습니다.\n\n---\n\n### 3. EVLution Nutrition 스택드 식물성 프로틴 (내추럴 바닐라) 300g\n* **판매처**: 아이허브(iHerb)\n* **근거 링크**: [아이허브(iHerb) 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-58-oz-300-g/100696)\n* **선택 이유**: 300g 규격의 식물성 복합 단백질 파우더입니다. 운동 전후 근육 회복 및 단백질 보충을 목적으로 설계되어 1회 제공량당 약 20g의 식물성 단백질과 BCAA를 섭취할 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV2JM6ehXUHbPkoWrtCWjaBnJGkZVyLmLTRBN0CEYlKAmccLF3yen60vtg6oogNEZiZiGZ_3JdyRT8ncRPHj4tRh1xOYjNhsh7DEjZxFYfTeQaTjbd4atcE9HH0hapG9StRKueUHq34Oz4Kad-gx1rCuI8dI_xMj4SFbbpMFP4uvVAbYvBRDzRrj3haJMK7hO2UYIj-vuYflt",
+      "title": "nsprotein.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXZvy4ea8aTXtTMtfqSKCDpcqPMNggIcX9ZBQex09ekQ1o23APcAersCWARAQBBI25gde2O2P-W5vsx3Pp0EOqNPxj-_ONRZCdG7p1id-ok8dSrQ92GFukyf0PGjPjEi_TFXDaLf6nA_BQ-4R86mH9YOOSPLfqunnJj3zUAoluMX3nGeIfKhulJi84Il93qPWdcWTEWrDuoiYhiQd9io5-GWw4UhLcRpbUJgD18Paqh2ZOLWsFCA4GKQ31yT7NDL5cSO5tav46CHqWjTUe0pygbkeicRoiff59A==",
+      "title": "viehome.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1YyeN1iuBpzIm13c5b9OYhfqEH3JjkOsDsly1MpB1A0MCsn_myySzVsiW0L36IoxZen-LkO7eErLDfyj4so88EM-KEPfTKnbp0OqZLuoW_ts0XjzEo48x2D1U6dqu00O4o0I90NVD5u8Wfw5TqKxa1AlhdeFtJzoJU4esP01jLMg-uejwN9waSdlvlg099kjAqbcYdZTjMtHpVQ==",
+      "title": "iherb.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "efAEa81xnZ_V7w_p6emQBQ",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"식물성 프로틴\" 300g",
+    "식물성 단백질 분말 300g",
+    "비옴 완두콩 단백질 분말 300g"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "300g 안팎 용량의 식물성 단백질 분말(파우더) 제품 3가지를 소개합니다.\n\n---\n\n### 1. NS 식물성 단백질 300g\n* **판매처**: NS 프로틴 공식몰\n* **근거 링크**: [NS 프로틴 공식몰 제품 페이지](https://m.nsprotein.com/web/product/big/202507/1d0a1365d5b5ad0c8411891855a86bbc.jpg)\n* **선택 이유**: 300g 소포장 규격의 식물성 단백질 파우더로, 유당 및 콜레스테롤이 없어 평소 유제품 소화에 부담을 느끼는 분들이 간편하게 섭취하기에 적합합니다.\n\n---\n\n### 2. 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 300g\n* **판매처**: 비옴(viehome) 공식몰\n* **근거 링크**: [건강한우리집 비옴 공식몰 제품 페이지](https://m.viehome.co.kr/web/product/big/202105/66fc18e2b92b41f31f27735b83c13e34.jpg)\n* **선택 이유**: 독일산 완두콩에서 추출한 순수 완두콩 단백질 분말 300g 제품입니다. 인공 첨가물에 대한 부담 없이 스무디, 쉐이크, 음식 등에 넣어 식물성 단백질을 보충할 수 있습니다.\n\n---\n\n### 3. EVLution Nutrition 스택드 식물성 프로틴 (내추럴 바닐라) 300g\n* **판매처**: 아이허브(iHerb)\n* **근거 링크**: [아이허브(iHerb) 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-58-oz-300-g/100696)\n* **선택 이유**: 300g 규격의 식물성 복합 단백질 파우더입니다. 운동 전후 근육 회복 및 단백질 보충을 목적으로 설계되어 1회 제공량당 약 20g의 식물성 단백질과 BCAA를 섭취할 수 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%8B%9D%EB%AC%BC%EC%84%B1+%ED%94%84%EB%A1%9C%ED%8B%B4%22+300g&client=app-vertex-grounding&safesearch=active\">&quot;식물성 프로틴&quot; 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g&client=app-vertex-grounding&safesearch=active\">식물성 단백질 분말 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EB%B9%84%EC%98%B4+%EC%99%84%EB%91%90%EC%BD%A9+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g&client=app-vertex-grounding&safesearch=active\">비옴 완두콩 단백질 분말 300g</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlV2JM6ehXUHbPkoWrtCWjaBnJGkZVyLmLTRBN0CEYlKAmccLF3yen60vtg6oogNEZiZiGZ_3JdyRT8ncRPHj4tRh1xOYjNhsh7DEjZxFYfTeQaTjbd4atcE9HH0hapG9StRKueUHq34Oz4Kad-gx1rCuI8dI_xMj4SFbbpMFP4uvVAbYvBRDzRrj3haJMK7hO2UYIj-vuYflt",
+                "title": "nsprotein.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXZvy4ea8aTXtTMtfqSKCDpcqPMNggIcX9ZBQex09ekQ1o23APcAersCWARAQBBI25gde2O2P-W5vsx3Pp0EOqNPxj-_ONRZCdG7p1id-ok8dSrQ92GFukyf0PGjPjEi_TFXDaLf6nA_BQ-4R86mH9YOOSPLfqunnJj3zUAoluMX3nGeIfKhulJi84Il93qPWdcWTEWrDuoiYhiQd9io5-GWw4UhLcRpbUJgD18Paqh2ZOLWsFCA4GKQ31yT7NDL5cSO5tav46CHqWjTUe0pygbkeicRoiff59A==",
+                "title": "viehome.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1YyeN1iuBpzIm13c5b9OYhfqEH3JjkOsDsly1MpB1A0MCsn_myySzVsiW0L36IoxZen-LkO7eErLDfyj4so88EM-KEPfTKnbp0OqZLuoW_ts0XjzEo48x2D1U6dqu00O4o0I90NVD5u8Wfw5TqKxa1AlhdeFtJzoJU4esP01jLMg-uejwN9waSdlvlg099kjAqbcYdZTjMtHpVQ==",
+                "title": "iherb.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 138,
+                "endIndex": 175,
+                "text": "**판매처**: NS 프로틴 공식몰"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 178,
+                "endIndex": 323,
+                "text": "**근거 링크**: [NS 프로틴 공식몰 제품 페이지](https://m.nsprotein.com/web/product/big/202507/1d0a1365d5b5ad0c8411891855a86bbc.jpg)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 326,
+                "endIndex": 542,
+                "text": "**선택 이유**: 300g 소포장 규격의 식물성 단백질 파우더로, 유당 및 콜레스테롤이 없어 평소 유제품 소화에 부담을 느끼는 분들이 간편하게 섭취하기에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 633,
+                "endIndex": 673,
+                "text": "**판매처**: 비옴(viehome) 공식몰"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 676,
+                "endIndex": 834,
+                "text": "**근거 링크**: [건강한우리집 비옴 공식몰 제품 페이지](https://m.viehome.co.kr/web/product/big/202105/66fc18e2b92b41f31f27735b83c13e34.jpg)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 837,
+                "endIndex": 946,
+                "text": "**선택 이유**: 독일산 완두콩에서 추출한 순수 완두콩 단백질 분말 300g 제품입니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 948,
+                "endIndex": 1081,
+                "text": "인공 첨가물에 대한 부담 없이 스무디, 쉐이크, 음식 등에 넣어 식물성 단백질을 보충할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1174,
+                "endIndex": 1208,
+                "text": "**판매처**: 아이허브(iHerb)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1211,
+                "endIndex": 1372,
+                "text": "**근거 링크**: [아이허브(iHerb) 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-58-oz-300-g/100696)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1375,
+                "endIndex": 1454,
+                "text": "**선택 이유**: 300g 규격의 식물성 복합 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1456,
+                "endIndex": 1620,
+                "text": "운동 전후 근육 회복 및 단백질 보충을 목적으로 설계되어 1회 제공량당 약 20g의 식물성 단백질과 BCAA를 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"식물성 프로틴\" 300g",
+            "식물성 단백질 분말 300g",
+            "비옴 완두콩 단백질 분말 300g"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 803,
+      "candidatesTokenCount": 640,
+      "totalTokenCount": 4035,
+      "cachedContentTokenCount": 389,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 803
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 389
+        }
+      ],
+      "thoughtsTokenCount": 2592,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "efAEa81xnZ_V7w_p6emQBQ"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:04:13+09:00"
+}

@@ -1,0 +1,413 @@
+{
+  "run_id": "gemini-api-B0-S04-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:58:34+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S04",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "사차인치(Sacha Inchi) 성분이 포함되어 있으며, 상세 정보에서 **원재료**와 **보관 방법**이 공식 확인된 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. 닥터 머레이(Dr. Murray's) 유기농 식물성 단백질 (무맛 및 무가당, 453.59g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: 유기농 완두콩 단백질, 유기농 수용성 타피오카 식이섬유, 유기농 해바라기씨 단백질, **유기농 사차인치 단백질(씨)** (우유, 대두, 밀, 견과류, 글루텐 등 무첨가)\n* **보관 방법**: 직사광선을 피해 **서늘하고 건조한 곳에 밀봉 보관**하십시오 (어린이 손이 닿지 않는 곳에 보관).\n* **선택 이유**: 불필요한 인공 감미료·합성 착향료·증량제 없이 사차인치를 포함한 4가지 유기농 식물성 원료만으로 단순하게 배합된 비건 단백질 파우더이며, 라벨 정보와 보관 가이드가 명확하게 고시되어 있습니다.\n* **근거 링크**: [Dr. Murray's 유기농 식물성 단백질 상세페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-unflavored-unsweetened-16-oz-453-59-g/141753)\n\n---\n\n### 2. 에인션트 뉴트리션(Ancient Nutrition) 식물성 종합 단백질 (바닐라 맛, 543g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: 유기농 완두콩 단백질, 초초(Chocho), **유기농 사차인치 단백질**, 프로바이오틱스 및 소화 효소 블렌드 등\n* **보관 방법**: 직사광선 및 고온다습한 환경을 피해 **서늘하고 건조한 곳에 보관**하십시오.\n* **선택 이유**: 사차인치와 안데스 슈퍼푸드 초초, 완두콩을 결합하여 1회 제공량당 25g의 높은 단백질을 제공하며, 장 건강과 흡수를 돕는 소화 효소가 함께 배합되어 있고 보관 규정이 명확합니다.\n* **근거 링크**: [Ancient Nutrition 식물성 종합 단백질 바닐라 맛 상세페이지](https://kr.iherb.com/pr/ancient-nutrition-multi-protein-plant-based-vanilla-1-2-lb-543-g/141019)\n\n---\n\n### 3. 스프라우트 리빙(Sprout Living) Epic Protein® 유기농 식물 단백질 + 슈퍼 푸드 (그린 킹덤, 456g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: EPIC 단백질 베이스[황색 완두콩, 해바라기씨, 호박씨, **사차인치**, 크랜베리씨], 그린 킹덤 혼합물(스피룰리나, 클로렐라, 시금치, 케일, 모링가 등), 예루살렘 아티초크, 루쿠마 등\n* **보관 방법**: 수분과 열을 피해 **서늘하고 건조한 곳에 밀폐 보관**하십시오.\n* **선택 이유**: 단일 식물성 단백질의 제한적인 아미노산 조성을 보완하기 위해 사차인치를 포함한 5종의 씨앗 단백질과 유기농 녹색 채소 슈퍼푸드를 블렌딩한 제품으로, 알레르기 유발물질 무첨가 내역과 보관법이 상세히 기재되어 있습니다.\n* **근거 링크**: [Sprout Living Epic Protein 그린 킹덤 상세페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-green-kingdom-1-lb-456-g/71239)",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9YobBUCg7PTCn5r31f12YGqr5PPJuEbyXzJ51uZpxFkUKBmooqQsmJh8RWmBEJ6ccUJL4ctYBuXaOuXGm66RxCqjGZgApD-bRCgZg_QlWAo4RlHkdqLa-pQGHa8puXa7v76fwG6H3DstifTkmXpmliRV59fN2cX64Pnsma7R8e9rbu2ekudA2BjnbnA_TLRLYTl8IEXvXPbLpimN20WVVtTw=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiONffjhYPlR8mjZc_fHDxAMehv-6GzeWZ52zi7m80FbP4KJpiiIylDfGVh6cCFbfoc_ThjmHD07QRtNHCYaYJpQ6z5hn9CSn_V6bPWo0vGYVTzerQNOfgKg8WhQO2yPf04eN04cPDAIPkRaYRfyz9XCjW1gWRQp7LNIdl3oXLsWfHWuF9aQ7_ZTeG7acatQsdAVgu5LFCFFs4Cpiz_lL6evZ5dlIHH2Y=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-67UebUnniFMBxK-J6RLPWYZ-Ar65K4e69-QLKP7KSPVEophNfNnyeVwTtrcae1SZ6IFXhU0prXtxERk1l2Ch--A3GpT0uXGR7QLdpLSx1GbrJMOIqigQuVf2f6Ru-bGHBAiPY7qcgbu6rDL3yRD2kfvIb1T7TTgjrsGH-Vavy7C_rrBtJGDgO3HsrFfxmXU64YAu",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA-iZnoBUnRz-qyOvf0aQV7ep9hepgBvN_JYkm11Pb7LnnwKyOT8VeAARcnWS8uXjyfGjpiqtR1awPmA0TmKsESJjOjmEvRTQu6Sm-GiS1ZvWtvlu7TWI5Shu1GlyWIA==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrvqRJ9o2S7erKr5O457xeuvx2octJ4TfjSoN8ncIg8HRTk29OcWSvp9zLf-69jmasjvnIlSwpSjNsovR0FvmwBCl9g5V4MKVVWl-wKWeA1KBtUhh6ZXWlCwlJpEwK",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIGLmIBzSarI8J4t9LpqR4d4zxtH5bgg6cs1c75NRVpM5RclK1Wu2r6kElvQB5-orapTnURYb9Xlrr-RivL85z5D_yvY30jZt5IIoz00h6sBh9BQ-fq9Sgd-b9DFixZ-Ojvfq2p8rOktVg6wngz20RcVEdqfDmLlMTKQmfbCKx8jVDoAoOPB73GFNaOgA03MLSh1VMEA==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEEOCpti-AyCsuZkdiewmAQ5Em9NboOYixQN78vuVQ0DWadPSQiFKiBZkSqN-aBMZvqT-EeAL_FhSpAjb18paD3yu1nWKaZYrQ0FDaRQjqoD0KEt_OWbsgKLsMkqbS1tBSWsOFuVStSM9moT-WDFZ7HhA5JzbhV2xNNxnQqE4SBbOUE-cyPOoBpNNFjioeLXcJfkdByZb7OkMRNLj5ZztK6xM=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfvqIRxyqfdQDXAHG2k0oV3nMJzmHUdWiszC6FjWB60z0re1SjEkxZEQMf9XngvA2FHXAZJlQ14ss0qRHijjSVOrSeV1VIyCo8oY38d1BXEcHfMWOyO8HRHn6auuJbNON_SSUp0GRlNt1JdwEntyG53WNXtL7dd2-UitmYyYTtGn6Sw_qm0BhBtsTJHQ8GELTkV027mwKFTIA8OOUqzAldgw==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoyyOyB0m_VLR3N30J3On5oawhCZf6l4tImv9dXRtndKK69Ch1wkOyrosluvNxL7PCPr_ftNduiREYY8JyZigcsH8_SRgVHxlqccVp6I1lzX9imkjMJ74PkoQoBepEm6GiHyZOwsyFN72IzNH5UI-I_zkzqaR0rQ3ygKZBwkyFsEKgr_hPgj746hAPtrMeqLtZUh0LlA98IM1APwXgThSWJtI=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-uir-yjK17HGy5qUM9EuIIyNmk_h8_HCsHJrpSNKo1EC5KqXUpDQ2D_cKELoy2b71QKoFtUVshhC5UO1j4MCkcM1iTfNeJjt2Fln7REi84asHJ2sLVVNALh3gw6dESW1eIYmHmgKEorVr24r8PuNA2uY0vU8TsVKzWgWYmwQITj-XkPP82-Gj487OiatlVzaoIj0Rw==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEG8Q6SkcCMheWdlRzsOT0LRs0juvQf_i_jxtBFLDyX8lGz8PyKlCe67EG_nR8tDm1MbiRBJunTxGFxPyRF4OtfKYti8cuhMRwW0_2D4aXlA2V-wogrexpJXKm6bPGdCKuwBA2hX_RdK5uKKg5g1Nlfs0dp7PiBhyEAppXMiNnmEIcqUTcgBnP1k1bLaXtPvk4Ts4GlQ==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-HzfjEdNgGusUfkTEz1rtCWzeN3N1QXUdrGBvzyB6QsuNZxFDkn2W9_veYyxG0IZijSRxi-waDenUeofemsrBlI0MzHo3PcUj7WGphRRHmxhRBnRe9vDlx1Hi68URaDOQLVa5j8kiGXRUkrdDgfp5N-0We8r64bOpTdoyIOf-n0PKS0GBJ_bCm0xnpCVIC8BmkhYV5g==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoe4IEzA2TDHgq64c_bAgjKlew_BrziXY5vwelqjPrh2IrzqrbhZsrtGLl-NS5itB7CBxSvpfYbF1Qs-sxppX3Wv_sx_INz-6LopCycZrHhOlDoNeWcyWLucBc6ZIdUL9EXlXDptDrxj_vJs5Edd_JD0K0NFRpr33FIab3wgM_hH__wkQntJ69EwHnocPU_QxWpIqRbCbNNqIV1-5nJkbSR3kyO9R-sQg=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmRR7ImA2M1Lu6drVzv0UTAUGUoCBsWMGkywhlhhbfpEYpdDf-TzwjYeR7nNkpxTBmP2ByegEpfmWPzAG4EEdrzDmneevCvAaMD4YwGTTNKFwzz0kbGPgAykbH0w-aPSVNamYOh4b0PvqUimtmtKtS1Qax4O4nzN5V-y_GaF3jLqPWrIcn-OFqpAhmMh-8SkzTSuSr8jMYCxsQ5PRxsKiSFpCLqZN43g==",
+      "title": "iherb.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "Su8Ea4GWGLma1e8P9_XRoQg",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"Ancient Nutrition\" \"종합 단백질, 식물성\" iherb",
+    "site:kr.iherb.com \"유기농 식물성 단백질, 무맛 및 무가당\"",
+    "\"Sprout Living\" \"그린 킹덤\" \"황색완두콩\" \"사차인치\" site:kr.iherb.com",
+    "site:kr.iherb.com \"dmy35365\" OR \"dmy-35365\"",
+    "\"ATN-02871\" site:kr.iherb.com",
+    "site:kr.iherb.com/pr \"DMY-35365\"",
+    "\"DMY-35365\" iherb \"기타 부원료\" OR \"기타 성분\"",
+    "\"유기농 식물성 단백질, 무맛 및 무가당\" site:kr.iherb.com/pr/",
+    "\"Ancient Nutrition\" \"종합 단백질, 식물성, 바닐라 맛\" \"서늘하고\" OR \"보관\" site:kr.iherb.com",
+    "\"종합 단백질, 식물성, 바닐라 맛\" site:kr.iherb.com/pr/",
+    "site:kr.iherb.com/pr/ \"사차인치\"",
+    "\"SPL-00712\" site:kr.iherb.com"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "사차인치(Sacha Inchi) 성분이 포함되어 있으며, 상세 정보에서 **원재료**와 **보관 방법**이 공식 확인된 식물성 단백질 분말 3종입니다.\n\n---\n\n### 1. 닥터 머레이(Dr. Murray's) 유기농 식물성 단백질 (무맛 및 무가당, 453.59g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: 유기농 완두콩 단백질, 유기농 수용성 타피오카 식이섬유, 유기농 해바라기씨 단백질, **유기농 사차인치 단백질(씨)** (우유, 대두, 밀, 견과류, 글루텐 등 무첨가)\n* **보관 방법**: 직사광선을 피해 **서늘하고 건조한 곳에 밀봉 보관**하십시오 (어린이 손이 닿지 않는 곳에 보관).\n* **선택 이유**: 불필요한 인공 감미료·합성 착향료·증량제 없이 사차인치를 포함한 4가지 유기농 식물성 원료만으로 단순하게 배합된 비건 단백질 파우더이며, 라벨 정보와 보관 가이드가 명확하게 고시되어 있습니다.\n* **근거 링크**: [Dr. Murray's 유기농 식물성 단백질 상세페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-unflavored-unsweetened-16-oz-453-59-g/141753)\n\n---\n\n### 2. 에인션트 뉴트리션(Ancient Nutrition) 식물성 종합 단백질 (바닐라 맛, 543g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: 유기농 완두콩 단백질, 초초(Chocho), **유기농 사차인치 단백질**, 프로바이오틱스 및 소화 효소 블렌드 등\n* **보관 방법**: 직사광선 및 고온다습한 환경을 피해 **서늘하고 건조한 곳에 보관**하십시오.\n* **선택 이유**: 사차인치와 안데스 슈퍼푸드 초초, 완두콩을 결합하여 1회 제공량당 25g의 높은 단백질을 제공하며, 장 건강과 흡수를 돕는 소화 효소가 함께 배합되어 있고 보관 규정이 명확합니다.\n* **근거 링크**: [Ancient Nutrition 식물성 종합 단백질 바닐라 맛 상세페이지](https://kr.iherb.com/pr/ancient-nutrition-multi-protein-plant-based-vanilla-1-2-lb-543-g/141019)\n\n---\n\n### 3. 스프라우트 리빙(Sprout Living) Epic Protein® 유기농 식물 단백질 + 슈퍼 푸드 (그린 킹덤, 456g)\n* **판매처**: 아이허브(iHerb)\n* **원재료**: EPIC 단백질 베이스[황색 완두콩, 해바라기씨, 호박씨, **사차인치**, 크랜베리씨], 그린 킹덤 혼합물(스피룰리나, 클로렐라, 시금치, 케일, 모링가 등), 예루살렘 아티초크, 루쿠마 등\n* **보관 방법**: 수분과 열을 피해 **서늘하고 건조한 곳에 밀폐 보관**하십시오.\n* **선택 이유**: 단일 식물성 단백질의 제한적인 아미노산 조성을 보완하기 위해 사차인치를 포함한 5종의 씨앗 단백질과 유기농 녹색 채소 슈퍼푸드를 블렌딩한 제품으로, 알레르기 유발물질 무첨가 내역과 보관법이 상세히 기재되어 있습니다.\n* **근거 링크**: [Sprout Living Epic Protein 그린 킹덤 상세페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-green-kingdom-1-lb-456-g/71239)",
+              "thoughtSignature": "EokhCoYhAWkUfRN5UVixP+3pGWJVehXJssjnmUS7D6j7qY074gq9CUg2XfroBVIi2CcfOr6o43/14rUDje79rUco9kJtnU5nrBIcr78PsaFVmDg2fsH2oQ7i/nLzHWhny1x1vqED1SpCTkqiKUI63LoSVZSjVH5X6E2GAQnB8iKbxp9YdkEonqZNCpieWpTbbOyoHQY2f5nK5tXXclyAAHyP9OtkByvQ2hY7M+Auc7xjWkfN5dSdh4sCp04FVUHZGcUTDMd3TEge/b4wgGJFHyk2r7elC8LCjdu/u++krU5zfUVJO8yu8v9nXZXL6PPvnhtkImdczNtFONz61Lwf7/pvZjJ1h8q6Sx71/j95f/epRKsfwvzTYbabQ747rJ6ihNFGIehJic/Z0baYE1TzODvS1NDMlopbo7PuRXyHbZ6X8uxcyDtkbwUXe9duVl9xl5iQFPdGweAHaLEkVXjqpHbC/qRQ+zvdQUrhMLKIX1PBPEOf4ceYXltPnXyjfnyRjevk9upRoFXZbvBap7IFDZjH2AeBXyekJtz2ho8g2Cq/e/IN1hnULfgeUSb2DVGZ6fAdre3Uvf7SrLOj1pfcN7ti2LnlZlNRugjSPd8PUGyFg6XQcfL7IQzwdYQmQ+9+vXYKuO0qDgVIVD909Qm+9BiWqFZ1lMu1aKv9F3+nRYzgB5UJQ7J5uFqB1szTqpScxIzL1/LHXNUpX5CfS4aQpPwLqGB2R7xewa8J+nM4O0hpEfLw/9q3DNy9P2yti1X093hDkE6LFqDho+y9xVQf6oQ7mKVVmNFnGYiAUKIr1VjPfhPy/7zYyqjskqeSUEg6nPAPns/lYSfNO9k85cUo9btjieJPTZqtFhlKejMQ5JZoSjS0yrZ8KccwD4MpnlsaK/pV6vkJX6JjIbJR+N1fTBMJ7XfzUJ7g6O6omdbB/F68TX600c2bbkH0Tff5FMH2dRn29D85Ekx/xzKLUmSQmQPgGx9gbpYALyq6kio1rqyXxRexcIZwX2Z/+m/7UyecAlxxPgJnQ/pucgsrK3fp74JKBsCX2YdmyP21XN/KHkX3d1T2ISYPSu2Cx+XVPUJyT77CejFO4L9ezdVC1K17McsvPwXY8EF3NmNeraYE+r/Zi2W/6GokuGF5yuhg0ZRVaZXDDdaDI6hIESwAp1E64TzLP9QKAGpuaQBjwQXmYbmsx3NPHdC7KzqzdyhxyBDJz+ZUn9uKc0A4etXsYHV8uswxKPmq6nARB9np3CNg/Dt1kzDdngO5jZ3kgWIP6jCQelOznznM5oWG82DbCdWuxu4pZ7Ow3U+IOOREwA7IuDSKo8DhrhhvkiercCukZ8y9Vl23zRvRJyYd7McEdSGDR3Yr6+nVE7fKQWwcjb/f6xC53d4+PQDJwsno9cN0eWdbLFfPsYYnJal0w1geIkxkI3Wc0L2I45Tozy5Jehy1pLEPVs9wMOnaF05J1vSV5kvuYAuQiEhcFZNbUJle9gEO30kRErX/ucXy/5XttayoRrOQbDgS/MknYAoaki/RJ4J/OCAU9NLackN9tt/3N7cttVNqyQqGvaSMffx/Xjgec64oL4Gg48nbfnGcoXJBU8aYB0ggUWzE/AUnW1E2diHWwfwLQDZFYHPI1mvF+7TV9fSxfDh0+pGKIxYwa3yYwB//kiLEny63R6z5SAMDNGZsliZE4T6gthVvm3xRODP/l6uGBaAMuU/BGcDogVvg5Fv0JdlLAkh9udYiqSV9QBwHWIy3duO5gyh4JHVRsmcNT2bQwa+ADSk1NNAW+7+F5uocWoSW7H5VnizkQ6vjzW4ZbuVe4p0yxByJx5ftcYcdiZj7/rdIM0l7bYUpZ9UNUDvCYbo2IAK61VBc/GSAgmwgIcjOZKVgNFmQhUqTf/uR1HUPbNINy95zN/Bk6ngKi1mnucUFNRfOdm8/MfafN3z2iao9fFOaq4BplreALqNLpdTfQaF0jN4jrswFrkGiJBqNZ4XmpY0HY88GAJo86LPoB9GiTFiHkoeJwm6Zbz7LEW2Dk7yVMJgZSAQYa0lkvk5p/4jl3iIEvQYYCbjMq1dR2bO8rnfMSy0svvfZW79lBb3Ivh2+l2+l4JA1z2yMh3g4znKjlClZ2ey3gjEVQw0k4N6SGbCVIJ/lxR3PV+qm/rvzAEpVx7zaydt3NNU3elLpljLmgvCZhIEV1V5eUBxWNFwVejTJ3eVt0HVfEWULNkLSYeMewxYoZCEFKYOvbzY1Mw4INIOu5K8KSegz21RWGgIpJJf/01i9GQy9R+lDnHHWXhq35vRX3O0vIyeO5Zce+vOelNMKQ0f/M5TWeY/LEvvMFX5CYvmoaM34tFHtcKDR9CF1aFbdnwdzO3/pAIypselRKd+e2HZ4+wHZMr4pA53huMuiCikfRHdNNLQXXWN2m2pj/N+bvGFxiephg4RdsUmF1alkvY4kQV7gs3XYVIZzofI3UG4IJUrHRqXggVdnA/fR5Q6KqzrqdGBapi4Ya2BkwVtkiivzMca6Pn2AI7ZSLwoR0lUUzv9fq+oxhMEaYeF2RVZrC3NMSk/Vd2c6O8TdgioPPQFPMr+gYtHHAbwI48JEDqwRxNqwONLbUuPDTyItSkGOZwieNZXwToDg8a1GCA5n/ofv0IOtD9gcHOzl5H6MKcRN+d1Kq824Q6WOc5OeYIinhsXx77JZc8l6mDH1MwDp3jUENb5ovN8CfbcjCP8LlePFxjuBPHAbWfnYEd38Ik4l3vtb/Rzm989SriE/eFDZ0NWJ2sbNYdCxfasuk9gkvrun+E+jY11KmCk/Sy1+D/wKpppdRgUhStSIqvNqu97yFUXKiPHEv/9Okc0l+NgAvvP2cASwZ7zi22ebrUQtv54evSPr/HG+mEdNkzyJnaZc3GaL/PA9zmJET+o6DV4uQ4x3m3V8IYq6aJiL6B09RFLs+zLFinimrmOWgLoTXjRivhFC5lkpSEbjFEVq6xET+PRzqPV7rhAnULEgA67EGmAvs+8cyCYFZt9lVox/2GIqjmdW8lyrFSNeqSFK7SasWAINsdVRM5JUsPDYt+gA5f3xege8HU3P8/eAZXdUbU4XQKNVWkf1U2VAWgr9mgftlYyygk+HwjyTe85mf4PlIDfAAvpvdkshfoAl+U67QiWi/S9Wxpz2EQfjPeKp3K0ZMTCrJtbab77b9x8dPJ8KcIZsypay+DMUYHTwhklV1dczW9CBVQQrUI6z5XKv9AlJKjUh58n0Rl5TUMAhVAraHVWD6quBgMg7UHxPp2jSOFm2u2SoKEoVsQ+sp16q4MM/1rcQssoF1Ej5nW73pmme/al4O2cXDiwj25N7qWNC1eqPC20qPpd+yxYqPNcjQefFSsXkgDikc6DRXfsXOOhL3hVcRKd/+oryFfT96NJpwSAqQdsIGeTrsLsYVNqyFhQAIBhFRgae84fhFUGKaUb9M4cI89mwTuJscZJIYztBKLwDWfZ29uZU2LXphkqpVMXQHyOLWTK1MpGQ7zVs9QuBcIgCTyXHFbzF+zVKDf2IoSRpw+88OWkMxQhoBCobDAWJ7UMCmfd61mV+k/R1ZN8159oW8BoJfJ1TaPiN91jJONbzYsHeBXlFS0hu/WjGL5LpcYLd6aHw21phyEIdWh/hqNyNsc6V6ciZ52mSBr4rB4MC9yeQ7HYxNSG9DLtD7p7ZoiXzn1QYrZBzcUQHc0EzbyLQPwmSY51zI/q/hVtRz1mOYg8yA/3G1eI7R9/5Xeij4q07oahwVc5sY2Vi5ZACkT0k+SjjG2HZVHeONr5y/u/ZIX326KbHJDzlJM3+yzgkOhw9LAVkykukGYdzeiVCQaO8UIFg/ZAXrJPt+zKYvKnMIMKFQWhbAavZvNKY9vH+GMVaHC53VDmxH67MVXlxNq8I4IUBmO661o77xItXDL2e1OMwQMsr24yAmBTk+vaNZAhc+Cc95uKio1nT+7UyETGoKfq5/v4kn5GnTYaFo6N8A9Yxt8XDV5WqpVAy4cIqllc8bxksvF5yw/Q3clW+SDldyVNsjlGmWRxGjk0C2q3fbryPs/KlvmR2QyBymNC2Apj9aeloTRJD1wxeUs9GgMz+Pi9DDl0gJuJGVKUyqm+b7Qie0HgjrHLyZVlGkQWi3MjCvyMn2qF88GINDWS2vwZkxMGsd6k9Bzf1hZ8kqEpvdtMoZkA3q5+v3A6C4y+R32lrONXQ8hHtav7qKtk1c9jOGRJNJSThytA7gjWqRb9Jzx+oUgh/hLyHK94YnvLP5tC9Hfc13/dGO1MCJBa/QVMoc51OtMoTq1DauFJpCH988CSnha3aOdx35hAbiGmpZFEugW1nj2lK71x+LW16E7eDd2Da7/S8/0n/k5MixSsefDs8y5DSj2Sj/MfFY/B6/e46l4WoGifrvCSdZlKuWnHFZbYsxG9NPL1mokPvNuDyf3OpGH0eXsC7Hmh0sUuI2KmGC06BPv5FBIj4WkEaSqH8j/Ll7kBDXxkpcnWdZ4DiGnqfLpQcFKjYUQtbuDNZSILBAy83AW+df4WQlgR37KFKrntzX4YXNDFg18JP+mIBigHVWDitGDddLOECskATrTNei2d4l46mqIsYPiSfEsRTLGps08Egke8wbuOMob+anU0appLGGlkJnE3lrDJbjc2eTVBTTtISkENHJyVUaseqLglfeAUFmIEm2t0oesPKlLjmOhDYk9EDb8Pk/uz2KXx8j4+G5IziFUbR1GvSD11Z9OwpspqRte20miTeIUshGMo7pahBHM3qSDj96ecAkPE/EpxZA06PnKiIH64I3fpNk5k/pNprdJQdZD2fb05gtYI5prn3r2DAh3zWqgS+iYXfRX8Byshi1NJzZ9aEmlmCnoh6lXcKWEeggMxQOggPzp5UphOebt4SfnesMp/MRfkag9ODg0KXPf5raNn3uPs8G5aY8//OoCf16LZzO3fxF/IA+hkTo2G0d6yG+yYIGKe3tg3kpRmyIzUeohGlC/DC+h5p/SdTmzS7GGGEcKuETLyOHuIESY/Z/a4ZgeueOgem3Oa2Coha9ZAdYW/w1pMP+2Nz7qAwe9XE3Y+uuUarAnRQf0tEEOT5fwofjORcHYSbjzajdW1rbkSiSPk3oH4oCzHM39Jzu45rHkcPjyiltAelo/h3rZDQnXa76oCh+MhzcVG5WtwhJ+XT/LbR5x44hMJGJfATAUaUyQ0NdFJEt9XThqH+cUzOp7KbszyLUVvJDEQTa0WxEhv2v3honXSloX9ELWJLTeIA46BvhVWWj9Rg5XLc10RicOjgJwytLdV0ViolvX49di4u/CDF9CURqK7Wb7cbPh1D9+46FmQIFRDm1U3eJIYgb9Yywf1ht0yRzl/5jsrW4gyq0YcgBQUkRv9mz5aEZoHGYIKlne3pLRH1ssh82IRVgny7c7c0hKvMKyzCUPLQFms9Pzl0XYczK6LI4CQdWTUoooOlhn2McZU6x9LluxwUBxj3asmxY2i0jSylS49qFgbBTroKz+qjlrpfYn3DdHDzZRKZQVql/LlO6y/FbOdHOMRj+hUXlXm1DHLfNIq/NokVjaW0AXDV5aaTnaanNzK5+naGcULL+cOMGVBfFKYoAtB8enNq5+HEOcJb5gszRx0m0TDCNs8h4edNwrg4SuW5JZ5/PWW1a6KMkF97"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Ancient+Nutrition%22+%22%EC%A2%85%ED%95%A9+%EB%8B%A8%EB%B0%B1%EC%A7%88,+%EC%8B%9D%EB%AC%BC%EC%84%B1%22+iherb&client=app-vertex-grounding&safesearch=active\">&quot;Ancient Nutrition&quot; &quot;종합 단백질, 식물성&quot; iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22%EC%9C%A0%EA%B8%B0%EB%86%8D+%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88,+%EB%AC%B4%EB%A7%9B+%EB%B0%8F+%EB%AC%B4%EA%B0%80%EB%8B%B9%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;유기농 식물성 단백질, 무맛 및 무가당&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Sprout+Living%22+%22%EA%B7%B8%EB%A6%B0+%ED%82%B9%EB%8D%A4%22+%22%ED%99%A9%EC%83%89%EC%99%84%EB%91%90%EC%BD%A9%22+%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22+site:kr.iherb.com&client=app-vertex-grounding&safesearch=active\">&quot;Sprout Living&quot; &quot;그린 킹덤&quot; &quot;황색완두콩&quot; &quot;사차인치&quot; site:kr.iherb.com</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22dmy35365%22+OR+%22dmy-35365%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;dmy35365&quot; OR &quot;dmy-35365&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22ATN-02871%22+site:kr.iherb.com&client=app-vertex-grounding&safesearch=active\">&quot;ATN-02871&quot; site:kr.iherb.com</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com/pr+%22DMY-35365%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com/pr &quot;DMY-35365&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22DMY-35365%22+iherb+%22%EA%B8%B0%ED%83%80+%EB%B6%80%EC%9B%90%EB%A3%8C%22+OR+%22%EA%B8%B0%ED%83%80+%EC%84%B1%EB%B6%84%22&client=app-vertex-grounding&safesearch=active\">&quot;DMY-35365&quot; iherb &quot;기타 부원료&quot; OR &quot;기타 성분&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%9C%A0%EA%B8%B0%EB%86%8D+%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88,+%EB%AC%B4%EB%A7%9B+%EB%B0%8F+%EB%AC%B4%EA%B0%80%EB%8B%B9%22+site:kr.iherb.com/pr/&client=app-vertex-grounding&safesearch=active\">&quot;유기농 식물성 단백질, 무맛 및 무가당&quot; site:kr.iherb.com/pr/</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Ancient+Nutrition%22+%22%EC%A2%85%ED%95%A9+%EB%8B%A8%EB%B0%B1%EC%A7%88,+%EC%8B%9D%EB%AC%BC%EC%84%B1,+%EB%B0%94%EB%8B%90%EB%9D%BC+%EB%A7%9B%22+%22%EC%84%9C%EB%8A%98%ED%95%98%EA%B3%A0%22+OR+%22%EB%B3%B4%EA%B4%80%22+site:kr.iherb.com&client=app-vertex-grounding&safesearch=active\">&quot;Ancient Nutrition&quot; &quot;종합 단백질, 식물성, 바닐라 맛&quot; &quot;서늘하고&quot; OR &quot;보관&quot; site:kr.iherb.com</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%A2%85%ED%95%A9+%EB%8B%A8%EB%B0%B1%EC%A7%88,+%EC%8B%9D%EB%AC%BC%EC%84%B1,+%EB%B0%94%EB%8B%90%EB%9D%BC+%EB%A7%9B%22+site:kr.iherb.com/pr/&client=app-vertex-grounding&safesearch=active\">&quot;종합 단백질, 식물성, 바닐라 맛&quot; site:kr.iherb.com/pr/</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com/pr/+%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com/pr/ &quot;사차인치&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22SPL-00712%22+site:kr.iherb.com&client=app-vertex-grounding&safesearch=active\">&quot;SPL-00712&quot; site:kr.iherb.com</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9YobBUCg7PTCn5r31f12YGqr5PPJuEbyXzJ51uZpxFkUKBmooqQsmJh8RWmBEJ6ccUJL4ctYBuXaOuXGm66RxCqjGZgApD-bRCgZg_QlWAo4RlHkdqLa-pQGHa8puXa7v76fwG6H3DstifTkmXpmliRV59fN2cX64Pnsma7R8e9rbu2ekudA2BjnbnA_TLRLYTl8IEXvXPbLpimN20WVVtTw=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiONffjhYPlR8mjZc_fHDxAMehv-6GzeWZ52zi7m80FbP4KJpiiIylDfGVh6cCFbfoc_ThjmHD07QRtNHCYaYJpQ6z5hn9CSn_V6bPWo0vGYVTzerQNOfgKg8WhQO2yPf04eN04cPDAIPkRaYRfyz9XCjW1gWRQp7LNIdl3oXLsWfHWuF9aQ7_ZTeG7acatQsdAVgu5LFCFFs4Cpiz_lL6evZ5dlIHH2Y=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-67UebUnniFMBxK-J6RLPWYZ-Ar65K4e69-QLKP7KSPVEophNfNnyeVwTtrcae1SZ6IFXhU0prXtxERk1l2Ch--A3GpT0uXGR7QLdpLSx1GbrJMOIqigQuVf2f6Ru-bGHBAiPY7qcgbu6rDL3yRD2kfvIb1T7TTgjrsGH-Vavy7C_rrBtJGDgO3HsrFfxmXU64YAu",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA-iZnoBUnRz-qyOvf0aQV7ep9hepgBvN_JYkm11Pb7LnnwKyOT8VeAARcnWS8uXjyfGjpiqtR1awPmA0TmKsESJjOjmEvRTQu6Sm-GiS1ZvWtvlu7TWI5Shu1GlyWIA==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrvqRJ9o2S7erKr5O457xeuvx2octJ4TfjSoN8ncIg8HRTk29OcWSvp9zLf-69jmasjvnIlSwpSjNsovR0FvmwBCl9g5V4MKVVWl-wKWeA1KBtUhh6ZXWlCwlJpEwK",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIGLmIBzSarI8J4t9LpqR4d4zxtH5bgg6cs1c75NRVpM5RclK1Wu2r6kElvQB5-orapTnURYb9Xlrr-RivL85z5D_yvY30jZt5IIoz00h6sBh9BQ-fq9Sgd-b9DFixZ-Ojvfq2p8rOktVg6wngz20RcVEdqfDmLlMTKQmfbCKx8jVDoAoOPB73GFNaOgA03MLSh1VMEA==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEEOCpti-AyCsuZkdiewmAQ5Em9NboOYixQN78vuVQ0DWadPSQiFKiBZkSqN-aBMZvqT-EeAL_FhSpAjb18paD3yu1nWKaZYrQ0FDaRQjqoD0KEt_OWbsgKLsMkqbS1tBSWsOFuVStSM9moT-WDFZ7HhA5JzbhV2xNNxnQqE4SBbOUE-cyPOoBpNNFjioeLXcJfkdByZb7OkMRNLj5ZztK6xM=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfvqIRxyqfdQDXAHG2k0oV3nMJzmHUdWiszC6FjWB60z0re1SjEkxZEQMf9XngvA2FHXAZJlQ14ss0qRHijjSVOrSeV1VIyCo8oY38d1BXEcHfMWOyO8HRHn6auuJbNON_SSUp0GRlNt1JdwEntyG53WNXtL7dd2-UitmYyYTtGn6Sw_qm0BhBtsTJHQ8GELTkV027mwKFTIA8OOUqzAldgw==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoyyOyB0m_VLR3N30J3On5oawhCZf6l4tImv9dXRtndKK69Ch1wkOyrosluvNxL7PCPr_ftNduiREYY8JyZigcsH8_SRgVHxlqccVp6I1lzX9imkjMJ74PkoQoBepEm6GiHyZOwsyFN72IzNH5UI-I_zkzqaR0rQ3ygKZBwkyFsEKgr_hPgj746hAPtrMeqLtZUh0LlA98IM1APwXgThSWJtI=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ-uir-yjK17HGy5qUM9EuIIyNmk_h8_HCsHJrpSNKo1EC5KqXUpDQ2D_cKELoy2b71QKoFtUVshhC5UO1j4MCkcM1iTfNeJjt2Fln7REi84asHJ2sLVVNALh3gw6dESW1eIYmHmgKEorVr24r8PuNA2uY0vU8TsVKzWgWYmwQITj-XkPP82-Gj487OiatlVzaoIj0Rw==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEG8Q6SkcCMheWdlRzsOT0LRs0juvQf_i_jxtBFLDyX8lGz8PyKlCe67EG_nR8tDm1MbiRBJunTxGFxPyRF4OtfKYti8cuhMRwW0_2D4aXlA2V-wogrexpJXKm6bPGdCKuwBA2hX_RdK5uKKg5g1Nlfs0dp7PiBhyEAppXMiNnmEIcqUTcgBnP1k1bLaXtPvk4Ts4GlQ==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-HzfjEdNgGusUfkTEz1rtCWzeN3N1QXUdrGBvzyB6QsuNZxFDkn2W9_veYyxG0IZijSRxi-waDenUeofemsrBlI0MzHo3PcUj7WGphRRHmxhRBnRe9vDlx1Hi68URaDOQLVa5j8kiGXRUkrdDgfp5N-0We8r64bOpTdoyIOf-n0PKS0GBJ_bCm0xnpCVIC8BmkhYV5g==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoe4IEzA2TDHgq64c_bAgjKlew_BrziXY5vwelqjPrh2IrzqrbhZsrtGLl-NS5itB7CBxSvpfYbF1Qs-sxppX3Wv_sx_INz-6LopCycZrHhOlDoNeWcyWLucBc6ZIdUL9EXlXDptDrxj_vJs5Edd_JD0K0NFRpr33FIab3wgM_hH__wkQntJ69EwHnocPU_QxWpIqRbCbNNqIV1-5nJkbSR3kyO9R-sQg=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmRR7ImA2M1Lu6drVzv0UTAUGUoCBsWMGkywhlhhbfpEYpdDf-TzwjYeR7nNkpxTBmP2ByegEpfmWPzAG4EEdrzDmneevCvAaMD4YwGTTNKFwzz0kbGPgAykbH0w-aPSVNamYOh4b0PvqUimtmtKtS1Qax4O4nzN5V-y_GaF3jLqPWrIcn-OFqpAhmMh-8SkzTSuSr8jMYCxsQ5PRxsKiSFpCLqZN43g==",
+                "title": "iherb.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "endIndex": 175,
+                "text": "사차인치(Sacha Inchi) 성분이 포함되어 있으며, 상세 정보에서 **원재료**와 **보관 방법**이 공식 확인된 식물성 단백질 분말 3종입니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 285,
+                "endIndex": 319,
+                "text": "**판매처**: 아이허브(iHerb)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 322,
+                "endIndex": 551,
+                "text": "**원재료**: 유기농 완두콩 단백질, 유기농 수용성 타피오카 식이섬유, 유기농 해바라기씨 단백질, **유기농 사차인치 단백질(씨)** (우유, 대두, 밀, 견과류, 글루텐 등 무첨가)"
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 554,
+                "endIndex": 702,
+                "text": "**보관 방법**: 직사광선을 피해 **서늘하고 건조한 곳에 밀봉 보관**하십시오 (어린이 손이 닿지 않는 곳에 보관)"
+              },
+              "groundingChunkIndices": [
+                0,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 706,
+                "endIndex": 993,
+                "text": "**선택 이유**: 불필요한 인공 감미료·합성 착향료·증량제 없이 사차인치를 포함한 4가지 유기농 식물성 원료만으로 단순하게 배합된 비건 단백질 파우더이며, 라벨 정보와 보관 가이드가 명확하게 고시되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 997,
+                "endIndex": 1186,
+                "text": "**근거 링크**: [Dr. Murray's 유기농 식물성 단백질 상세페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-unflavored-unsweetened-16-oz-453-59-g/141753)"
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1296,
+                "endIndex": 1330,
+                "text": "**판매처**: 아이허브(iHerb)"
+              },
+              "groundingChunkIndices": [
+                9
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1333,
+                "endIndex": 1486,
+                "text": "**원재료**: 유기농 완두콩 단백질, 초초(Chocho), **유기농 사차인치 단백질**, 프로바이오틱스 및 소화 효소 블렌드 등"
+              },
+              "groundingChunkIndices": [
+                9,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1489,
+                "endIndex": 1610,
+                "text": "**보관 방법**: 직사광선 및 고온다습한 환경을 피해 **서늘하고 건조한 곳에 보관**하십시오"
+              },
+              "groundingChunkIndices": [
+                10,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1614,
+                "endIndex": 1872,
+                "text": "**선택 이유**: 사차인치와 안데스 슈퍼푸드 초초, 완두콩을 결합하여 1회 제공량당 25g의 높은 단백질을 제공하며, 장 건강과 흡수를 돕는 소화 효소가 함께 배합되어 있고 보관 규정이 명확합니다"
+              },
+              "groundingChunkIndices": [
+                9,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1876,
+                "endIndex": 2068,
+                "text": "**근거 링크**: [Ancient Nutrition 식물성 종합 단백질 바닐라 맛 상세페이지](https://kr.iherb.com/pr/ancient-nutrition-multi-protein-plant-based-vanilla-1-2-lb-543-g/141019)"
+              },
+              "groundingChunkIndices": [
+                11
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2202,
+                "endIndex": 2236,
+                "text": "**판매처**: 아이허브(iHerb)"
+              },
+              "groundingChunkIndices": [
+                12
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2239,
+                "endIndex": 2491,
+                "text": "**원재료**: EPIC 단백질 베이스[황색 완두콩, 해바라기씨, 호박씨, **사차인치**, 크랜베리씨], 그린 킹덤 혼합물(스피룰리나, 클로렐라, 시금치, 케일, 모링가 등), 예루살렘 아티초크, 루쿠마 등"
+              },
+              "groundingChunkIndices": [
+                12,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2494,
+                "endIndex": 2596,
+                "text": "**보관 방법**: 수분과 열을 피해 **서늘하고 건조한 곳에 밀폐 보관**하십시오"
+              },
+              "groundingChunkIndices": [
+                13
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2600,
+                "endIndex": 2920,
+                "text": "**선택 이유**: 단일 식물성 단백질의 제한적인 아미노산 조성을 보완하기 위해 사차인치를 포함한 5종의 씨앗 단백질과 유기농 녹색 채소 슈퍼푸드를 블렌딩한 제품으로, 알레르기 유발물질 무첨가 내역과 보관법이 상세히 기재되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                12,
+                13
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2924,
+                "endIndex": 3117,
+                "text": "**근거 링크**: [Sprout Living Epic Protein 그린 킹덤 상세페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-green-kingdom-1-lb-456-g/71239)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"Ancient Nutrition\" \"종합 단백질, 식물성\" iherb",
+            "site:kr.iherb.com \"유기농 식물성 단백질, 무맛 및 무가당\"",
+            "\"Sprout Living\" \"그린 킹덤\" \"황색완두콩\" \"사차인치\" site:kr.iherb.com",
+            "site:kr.iherb.com \"dmy35365\" OR \"dmy-35365\"",
+            "\"ATN-02871\" site:kr.iherb.com",
+            "site:kr.iherb.com/pr \"DMY-35365\"",
+            "\"DMY-35365\" iherb \"기타 부원료\" OR \"기타 성분\"",
+            "\"유기농 식물성 단백질, 무맛 및 무가당\" site:kr.iherb.com/pr/",
+            "\"Ancient Nutrition\" \"종합 단백질, 식물성, 바닐라 맛\" \"서늘하고\" OR \"보관\" site:kr.iherb.com",
+            "\"종합 단백질, 식물성, 바닐라 맛\" site:kr.iherb.com/pr/",
+            "site:kr.iherb.com/pr/ \"사차인치\"",
+            "\"SPL-00712\" site:kr.iherb.com"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 3091,
+      "candidatesTokenCount": 1181,
+      "totalTokenCount": 8531,
+      "cachedContentTokenCount": 2472,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 3091
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2472
+        }
+      ],
+      "thoughtsTokenCount": 4259,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "Su8Ea4GWGLma1e8P9_XRoQg"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:00:00+09:00"
+}

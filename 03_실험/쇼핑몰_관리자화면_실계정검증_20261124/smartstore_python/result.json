@@ -1,0 +1,14 @@
+{
+  "platform": "smartstore",
+  "product_no": "13821774578",
+  "before_hash": "a9e803a3aeaf961d7b7908b4fe38df8aa53c2102fd3aff6ce173a025cd4a0d3d",
+  "readback_exact": true,
+  "readback_trim_equal": true,
+  "readback_normalized_equal": true,
+  "protected_unchanged": true,
+  "public_marker": true,
+  "restored_exact": true,
+  "restored_trim_equal": true,
+  "restored_protected": true,
+  "public_marker_after_restore": false
+}

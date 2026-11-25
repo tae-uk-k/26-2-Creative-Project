@@ -1,0 +1,14 @@
+{
+  "platform": "cafe24",
+  "product_no": "9",
+  "before_hash": "464c08af1cb2361131f31a81cb35d64dce09c014b0fc0ed7954d37999ae83652",
+  "readback_exact": true,
+  "readback_trim_equal": true,
+  "readback_normalized_equal": true,
+  "protected_unchanged": true,
+  "public_marker": true,
+  "restored_exact": true,
+  "restored_trim_equal": true,
+  "restored_protected": true,
+  "public_marker_after_restore": false
+}

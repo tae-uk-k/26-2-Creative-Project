@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_S03_retry1",
+  "timestamp_utc": "2026-11-24T01:59:31.573761+00:00",
+  "query_id": "S03",
+  "repeat": 2,
+  "prompt": "두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "두유에 섞을 용도라면 **테라소울 사차인치 프로틴 파우더**를 먼저 추천합니다. 유기농 사차인치 단일 원료이며, 제조사가 감미료를 넣지 않고 입자가 곱다고 설명합니다. [테라소울 공식 상품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein)\n\n| 제품명 | 판매처 | 선택 이유와 근거 |\n|---|---|---|\n| Sacha Inchi Protein Powder (60% Protein) | Terrasoul Superfoods 공식몰 | 단백질 함량 60%로 표시됩니다. 곱게 분쇄한 무가당 제품을 찾을 때 적합합니다. [상품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein) |\n| Sacha Inchi Protein Powder Organic 12oz | Foundation Foods 공식몰 | 유기농 사차인치 단일 원료입니다. 1회 제공량당 단백질이 17g으로 표시되어 두유에 추가하는 단백질 양을 계산하기 쉽습니다. [상품 페이지](https://foundationfoods.com/product/sacha-inchi-protein-powder-12oz/) |\n| Organic Sacha Inchi Protein Powder | Nuts.com | 단일 원료이며 향료와 색소를 넣지 않았다고 표시합니다. 판매 페이지에는 스무디에 섞었을 때 입자가 거칠게 느껴졌다는 후기도 있습니다. [상품 페이지](https://nuts.com/products/organic-sacha-inchi-protein-powder) |\n\n세 제품의 **한국 배송 가능 여부와 두유에서의 실제 혼합성은 확인하지 못했습니다.**",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:59:31.852080Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:00:17.927777+00:00",
+  "retry_of": "codex_R2_S03",
+  "errors": [],
+  "timeout": false
+}

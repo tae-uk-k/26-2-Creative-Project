@@ -1,0 +1,32 @@
+{
+  "product_no": 14,
+  "product_code": "P000000O",
+  "product_name": "seelo 수박씨 탈지 단백질 분말 300g",
+  "price": "24900.00",
+  "summary_description": "수박씨를 원료로 한 식물성 단백질 분말",
+  "product_tag": [
+    "수박씨단백질",
+    "수박씨분말",
+    "수박씨프로틴",
+    "식물성단백질",
+    "단백질분말"
+  ],
+  "detail_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/big/20261123/e087900b3ce2170842cf2905f3b58fb1.png",
+  "list_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/medium/20261123/727a36d8bfb5d5e04fc05c50a48e306c.png",
+  "tiny_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/tiny/20261123/eb93f1f1560ccf83c430e4a67136b27e.png",
+  "small_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/small/20261123/dd4780bfbd148b33502e3fee2b0308c5.png",
+  "variants_simple": [
+    {
+      "variant_code": "P000000O000A",
+      "options": "",
+      "display": "T",
+      "selling": "T"
+    }
+  ],
+  "button": {
+    "label": "상세 보기",
+    "action": "link",
+    "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=14"
+  },
+  "product_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=14"
+}

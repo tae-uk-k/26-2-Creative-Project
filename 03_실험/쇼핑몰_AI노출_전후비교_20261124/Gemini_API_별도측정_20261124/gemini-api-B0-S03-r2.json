@@ -1,0 +1,308 @@
+{
+  "run_id": "gemini-api-B0-S03-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:02:25+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S03",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "두유와 함께 섞어 드시기 좋은 사차인치(Sacha Inchi) 프로틴 분말 제품 3가지입니다.\n\n---\n\n### 1. MRM Nutrition 유기농 생 사차 인치 분말 (Raw Organic Sacha Inchi Powder)\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브(iHerb) MRM Nutrition 상품 페이지](https://kr.iherb.com/pr/mrm-nutrition-raw-organic-sacha-inchi-powder-8-5-oz-240-g/74526)\n* **선택 이유:**\n  * 인공 감미료, 보존제, 글루텐, 유제품 등이 일절 첨가되지 않은 **100% 유기농 사차인치 분말**입니다.\n  * 완전 단백질과 불포화 지방산, 식이섬유가 풍부하며, 공식 섭취 방법으로 물·두유·스무디 등 음료에 1회 분량(약 7g)을 타서 먹도록 권장하고 있어 두유에 깔끔하게 타 마시기 적합합니다.\n\n---\n\n### 2. 푸드투리브 유기농 사차인치 파우더 (Food to Live Organic Sacha Inchi Powder)\n* **판매처:** SSG.COM (해외직구)\n* **근거 링크:** [SSG.COM 푸드투리브 상품 페이지](https://www.ssg.com/item/itemView.ssg?itemId=1000556635039)\n* **선택 이유:**\n  * 미국 농무부(USDA) 유기농 인증 및 Non-GMO 사차인치를 사용한 순수 분말 제품입니다.\n  * 907g 또는 1.81kg의 대용량 규격으로 판매되어, 매일 아침 식사 대용이나 단백질 보충용으로 두유에 분말을 지속적으로 타 드실 때 용량 대비 실속 있게 이용하기 좋습니다.\n\n---\n\n### 3. 임라케시 오가닉스 사차 인치 프로틴 (Imlak'esh Organics Sacha Inchi Protein)\n* **판매처:** Imlak'esh Organics 공식 스토어\n* **근거 링크:** [Imlak'esh Organics 공식 홈페이지](https://imlakeshorganics.com)\n* **선택 이유:**\n  * 사차인치 씨앗 단일 원료로 만들어진 비건 단백질 파우더로, 중량 기준 약 60% 이상의 고단백질과 필수 아미노산을 함유하고 있습니다.\n  * 젤라틴화(Gelatinized) 가공 공정을 거쳐 전분기를 줄이고 소화 흡수율을 높였기 때문에, 두유나 셰이크에 넣고 흔들었을 때 뭉침 없이 잘 섞이며 마신 후에도 속이 편안합니다.\n\n---\n\n**💡 두유와 섞어 마실 때 팁**  \n순수 사차인치 분말은 특유의 고소하면서도 쌉싸름한 풀향/견과류 풍미가 있으므로, 처음 드실 때는 1티스푼(약 5~7g) 정도로 시작하여 두유와 잘 흔들어 드신 뒤 기호에 맞게 양을 조절하시는 것을 권장합니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZwuzCgBtJbtMgjLHckLoJ68R1sYT883Vc1c1OdbPYscbR8fslOyE8KfFZ56IOmH-p95ObJKszc51qiOei51uZDu_-exJL7qx7blkf1JOHx-3PqIITsvf_7DjIOE4XqTsut6ZGmSAMXIs1-UGhh3kdn1bKjWdjntZbCeHXzhz3-hujjIGk6lTcKqvTQFT-N__OoB4=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHPrUeU0ayqycXCDurOZmGeXn0IRQSDeqnztZtB6Yb8qGQARU8NE_DZAYDat5GJoLeeazQXaze66hJTHBnm5B9vsyHlmkFLcLp_YPb1VSk1A7z7PTGLXaqgPUvhJZMK6ujnbqXcGYJ075xiv3GBk1UMykVcsEgWcZphzQDiL6NIuih3JPKy0Qh61hnus6jhZOOxYU=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOFw8k1ifm2Kepa86AgsVauNzGaCdrwo2zVURnrhCHVFlt9Bp83dFOicG913pE4lX0wYG3uINUp6m0x6bUfErTk7pxcPTzCvM9dxL6TiDKYelRli6RPYkBpDoggh2IF9ZofHaeb7uCMp1-EtE4hhF7",
+      "title": "ssg.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ahxtyX_utP02IEPUMz_we2HqPUfVEsUTZ2LruoKcWVzeLWXCFxKrvFfocPvo9HeBYhqT2fhVMkCyMpXHOv0aVR3XdQUdgecR8MvlLXopN3Kr9LczIzAVnB9cRui0uAMTudRVbgF1Y79rLxObYAn11DzOxWXxWrfb",
+      "title": "croket.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsmv2GIGbuw73FFyRSqpybu88mgjl5XekBuEF72RMmfvsqHtKgW0sXeZm_FjL7t0EaOpAzPccftDs7osZIIOa-UF-ZvmkDaFXvQJ_hHJse62H3jtGyIWmbaBC8N6gmsLsAWE1vkt5453BuYtvPvA_u_YXki-52nNL6",
+      "title": "croket.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzzP7ZfDaoYo0IR9khXctHXti7BsYxqTNBCAXp4lDKR0wplHkQpGx8iEhsOzZ2PPb_dpnJg-Ys8zfihCuUu-hdiCPETKcTwo0LuwcIBvHZM2wcPdPYq-grOUPl5e0V3KPKAQ==",
+      "title": "imlakeshorganics.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj5WoeNSc5_Qz-noyE65wGZsp4LBf24Lr0s6OAlrcMkPtTIW7AHHxdSVNeakBkDkqqUi2P-PsdfAwMTWlKDwPKCfv_B874x-clkp-q5LsPIbIdS4cICWsNvEJZBKVENo-6EFJT9_xzOq9j3OwbDGE=",
+      "title": "imlakeshorganics.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfitYin1HgnMFmF7JmmUBioMIXP5cmS93lT0TeDlKg8Bnri-aykVqZhf5eZQOqwTH7_ckyqM5cvZJVQlJKCUDOJXTWRKy2KlKTh6Ot0V7dO6bHm_7s9rrYNFUuVNNLwLjckCWdQ8FuhOrD5dlLyoM=",
+      "title": "imlakeshorganics.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj5WoeNSc5_Qz-noyE65wGZsp4LBf24Lr0s6OAlrcMkPtTIW7AHHxdSVNeakBkDkqqUi2P-PsdfAwMTWlKDwPKCfv_B874x-clkp-q5LsPIbIdS4cICWsNvEJZBKVENo-6EFJT9_xzOq9j3OwbDGE=",
+      "title": "imlakeshorganics.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHspi7K3e7tYo6r0BHCNfL4El_IsUhKECm2DDUb2H7bxh3aUh5uUHwtyfBQ8coWz5Hv6zJD435CopMA1DmqzL1FOb91jTD2yMRp4EfihfQZSlm9h5knp2swns5Vv_HGMC3sxod8iex-j7WuTKnp_M5Q",
+      "title": "hidoc.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaOYyOLtFb6Xamk3SPrjO3ZQQmdevVY6xANvAgcwnqLVtJLOvakhs225OXfk-KFt5BOeYtufvt0zsMndn4DKB00IU3TJCSTpO6JY5YRXxwFM5Jp7a3Ue3l33Blfp3faXLNzoPzVGMO1cZJRrRZDQ==",
+      "title": "namu.wiki"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "MvAEa-LxAZqq0-kP1e-lyQk",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "사차인치 단백질 파우더",
+    "\"푸드투리브\" 사차인치",
+    "사차인치 프로틴 분말",
+    "\"MRM\" \"사차인치\" iherb",
+    "site:imlakeshorganics.com \"sacha inchi protein\"",
+    "sacha inchi protein powder iherb ko"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "두유와 함께 섞어 드시기 좋은 사차인치(Sacha Inchi) 프로틴 분말 제품 3가지입니다.\n\n---\n\n### 1. MRM Nutrition 유기농 생 사차 인치 분말 (Raw Organic Sacha Inchi Powder)\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [아이허브(iHerb) MRM Nutrition 상품 페이지](https://kr.iherb.com/pr/mrm-nutrition-raw-organic-sacha-inchi-powder-8-5-oz-240-g/74526)\n* **선택 이유:**\n  * 인공 감미료, 보존제, 글루텐, 유제품 등이 일절 첨가되지 않은 **100% 유기농 사차인치 분말**입니다.\n  * 완전 단백질과 불포화 지방산, 식이섬유가 풍부하며, 공식 섭취 방법으로 물·두유·스무디 등 음료에 1회 분량(약 7g)을 타서 먹도록 권장하고 있어 두유에 깔끔하게 타 마시기 적합합니다.\n\n---\n\n### 2. 푸드투리브 유기농 사차인치 파우더 (Food to Live Organic Sacha Inchi Powder)\n* **판매처:** SSG.COM (해외직구)\n* **근거 링크:** [SSG.COM 푸드투리브 상품 페이지](https://www.ssg.com/item/itemView.ssg?itemId=1000556635039)\n* **선택 이유:**\n  * 미국 농무부(USDA) 유기농 인증 및 Non-GMO 사차인치를 사용한 순수 분말 제품입니다.\n  * 907g 또는 1.81kg의 대용량 규격으로 판매되어, 매일 아침 식사 대용이나 단백질 보충용으로 두유에 분말을 지속적으로 타 드실 때 용량 대비 실속 있게 이용하기 좋습니다.\n\n---\n\n### 3. 임라케시 오가닉스 사차 인치 프로틴 (Imlak'esh Organics Sacha Inchi Protein)\n* **판매처:** Imlak'esh Organics 공식 스토어\n* **근거 링크:** [Imlak'esh Organics 공식 홈페이지](https://imlakeshorganics.com)\n* **선택 이유:**\n  * 사차인치 씨앗 단일 원료로 만들어진 비건 단백질 파우더로, 중량 기준 약 60% 이상의 고단백질과 필수 아미노산을 함유하고 있습니다.\n  * 젤라틴화(Gelatinized) 가공 공정을 거쳐 전분기를 줄이고 소화 흡수율을 높였기 때문에, 두유나 셰이크에 넣고 흔들었을 때 뭉침 없이 잘 섞이며 마신 후에도 속이 편안합니다.\n\n---\n\n**💡 두유와 섞어 마실 때 팁**  \n순수 사차인치 분말은 특유의 고소하면서도 쌉싸름한 풀향/견과류 풍미가 있으므로, 처음 드실 때는 1티스푼(약 5~7g) 정도로 시작하여 두유와 잘 흔들어 드신 뒤 기호에 맞게 양을 조절하시는 것을 권장합니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 파우더</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%ED%91%B8%EB%93%9C%ED%88%AC%EB%A6%AC%EB%B8%8C%22+%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98&client=app-vertex-grounding&safesearch=active\">&quot;푸드투리브&quot; 사차인치</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%94%84%EB%A1%9C%ED%8B%B4+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">사차인치 프로틴 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22MRM%22+%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22+iherb&client=app-vertex-grounding&safesearch=active\">&quot;MRM&quot; &quot;사차인치&quot; iherb</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:imlakeshorganics.com+%22sacha+inchi+protein%22&client=app-vertex-grounding&safesearch=active\">site:imlakeshorganics.com &quot;sacha inchi protein&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=sacha+inchi+protein+powder+iherb+ko&client=app-vertex-grounding&safesearch=active\">sacha inchi protein powder iherb ko</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZwuzCgBtJbtMgjLHckLoJ68R1sYT883Vc1c1OdbPYscbR8fslOyE8KfFZ56IOmH-p95ObJKszc51qiOei51uZDu_-exJL7qx7blkf1JOHx-3PqIITsvf_7DjIOE4XqTsut6ZGmSAMXIs1-UGhh3kdn1bKjWdjntZbCeHXzhz3-hujjIGk6lTcKqvTQFT-N__OoB4=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHPrUeU0ayqycXCDurOZmGeXn0IRQSDeqnztZtB6Yb8qGQARU8NE_DZAYDat5GJoLeeazQXaze66hJTHBnm5B9vsyHlmkFLcLp_YPb1VSk1A7z7PTGLXaqgPUvhJZMK6ujnbqXcGYJ075xiv3GBk1UMykVcsEgWcZphzQDiL6NIuih3JPKy0Qh61hnus6jhZOOxYU=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOFw8k1ifm2Kepa86AgsVauNzGaCdrwo2zVURnrhCHVFlt9Bp83dFOicG913pE4lX0wYG3uINUp6m0x6bUfErTk7pxcPTzCvM9dxL6TiDKYelRli6RPYkBpDoggh2IF9ZofHaeb7uCMp1-EtE4hhF7",
+                "title": "ssg.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ahxtyX_utP02IEPUMz_we2HqPUfVEsUTZ2LruoKcWVzeLWXCFxKrvFfocPvo9HeBYhqT2fhVMkCyMpXHOv0aVR3XdQUdgecR8MvlLXopN3Kr9LczIzAVnB9cRui0uAMTudRVbgF1Y79rLxObYAn11DzOxWXxWrfb",
+                "title": "croket.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsmv2GIGbuw73FFyRSqpybu88mgjl5XekBuEF72RMmfvsqHtKgW0sXeZm_FjL7t0EaOpAzPccftDs7osZIIOa-UF-ZvmkDaFXvQJ_hHJse62H3jtGyIWmbaBC8N6gmsLsAWE1vkt5453BuYtvPvA_u_YXki-52nNL6",
+                "title": "croket.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzzP7ZfDaoYo0IR9khXctHXti7BsYxqTNBCAXp4lDKR0wplHkQpGx8iEhsOzZ2PPb_dpnJg-Ys8zfihCuUu-hdiCPETKcTwo0LuwcIBvHZM2wcPdPYq-grOUPl5e0V3KPKAQ==",
+                "title": "imlakeshorganics.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj5WoeNSc5_Qz-noyE65wGZsp4LBf24Lr0s6OAlrcMkPtTIW7AHHxdSVNeakBkDkqqUi2P-PsdfAwMTWlKDwPKCfv_B874x-clkp-q5LsPIbIdS4cICWsNvEJZBKVENo-6EFJT9_xzOq9j3OwbDGE=",
+                "title": "imlakeshorganics.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfitYin1HgnMFmF7JmmUBioMIXP5cmS93lT0TeDlKg8Bnri-aykVqZhf5eZQOqwTH7_ckyqM5cvZJVQlJKCUDOJXTWRKy2KlKTh6Ot0V7dO6bHm_7s9rrYNFUuVNNLwLjckCWdQ8FuhOrD5dlLyoM=",
+                "title": "imlakeshorganics.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj5WoeNSc5_Qz-noyE65wGZsp4LBf24Lr0s6OAlrcMkPtTIW7AHHxdSVNeakBkDkqqUi2P-PsdfAwMTWlKDwPKCfv_B874x-clkp-q5LsPIbIdS4cICWsNvEJZBKVENo-6EFJT9_xzOq9j3OwbDGE=",
+                "title": "imlakeshorganics.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHspi7K3e7tYo6r0BHCNfL4El_IsUhKECm2DDUb2H7bxh3aUh5uUHwtyfBQ8coWz5Hv6zJD435CopMA1DmqzL1FOb91jTD2yMRp4EfihfQZSlm9h5knp2swns5Vv_HGMC3sxod8iex-j7WuTKnp_M5Q",
+                "title": "hidoc.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaOYyOLtFb6Xamk3SPrjO3ZQQmdevVY6xANvAgcwnqLVtJLOvakhs225OXfk-KFt5BOeYtufvt0zsMndn4DKB00IU3TJCSTpO6JY5YRXxwFM5Jp7a3Ue3l33Blfp3faXLNzoPzVGMO1cZJRrRZDQ==",
+                "title": "namu.wiki"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 244,
+                "endIndex": 404,
+                "text": "**근거 링크:** [아이허브(iHerb) MRM Nutrition 상품 페이지](https://kr.iherb.com/pr/mrm-nutrition-raw-organic-sacha-inchi-powder-8-5-oz-240-g/74526)"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 430,
+                "endIndex": 561,
+                "text": "인공 감미료, 보존제, 글루텐, 유제품 등이 일절 첨가되지 않은 **100% 유기농 사차인치 분말**입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 567,
+                "endIndex": 814,
+                "text": "완전 단백질과 불포화 지방산, 식이섬유가 풍부하며, 공식 섭취 방법으로 물·두유·스무디 등 음료에 1회 분량(약 7g)을 타서 먹도록 권장하고 있어 두유에 깔끔하게 타 마시기 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 962,
+                "endIndex": 1083,
+                "text": "**근거 링크:** [SSG.COM 푸드투리브 상품 페이지](https://www.ssg.com/item/itemView.ssg?itemId=1000556635039)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1109,
+                "endIndex": 1216,
+                "text": "미국 농무부(USDA) 유기농 인증 및 Non-GMO 사차인치를 사용한 순수 분말 제품입니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1222,
+                "endIndex": 1445,
+                "text": "907g 또는 1.81kg의 대용량 규격으로 판매되어, 매일 아침 식사 대용이나 단백질 보충용으로 두유에 분말을 지속적으로 타 드실 때 용량 대비 실속 있게 이용하기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                2,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1606,
+                "endIndex": 1695,
+                "text": "**근거 링크:** [Imlak'esh Organics 공식 홈페이지](https://imlakeshorganics.com)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1721,
+                "endIndex": 1898,
+                "text": "사차인치 씨앗 단일 원료로 만들어진 비건 단백질 파우더로, 중량 기준 약 60% 이상의 고단백질과 필수 아미노산을 함유하고 있습니다"
+              },
+              "groundingChunkIndices": [
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1904,
+                "endIndex": 2132,
+                "text": "젤라틴화(Gelatinized) 가공 공정을 거쳐 전분기를 줄이고 소화 흡수율을 높였기 때문에, 두유나 셰이크에 넣고 흔들었을 때 뭉침 없이 잘 섞이며 마신 후에도 속이 편안합니다"
+              },
+              "groundingChunkIndices": [
+                8,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2183,
+                "endIndex": 2458,
+                "text": "순수 사차인치 분말은 특유의 고소하면서도 쌉싸름한 풀향/견과류 풍미가 있으므로, 처음 드실 때는 1티스푼(약 5~7g) 정도로 시작하여 두유와 잘 흔들어 드신 뒤 기호에 맞게 양을 조절하시는 것을 권장합니다"
+              },
+              "groundingChunkIndices": [
+                9,
+                0,
+                10
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "사차인치 단백질 파우더",
+            "\"푸드투리브\" 사차인치",
+            "사차인치 프로틴 분말",
+            "\"MRM\" \"사차인치\" iherb",
+            "site:imlakeshorganics.com \"sacha inchi protein\"",
+            "sacha inchi protein powder iherb ko"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 3489,
+      "candidatesTokenCount": 873,
+      "totalTokenCount": 9746,
+      "cachedContentTokenCount": 1626,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 3489
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1626
+        }
+      ],
+      "thoughtsTokenCount": 5384,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "MvAEa-LxAZqq0-kP1e-lyQk"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:03:32+09:00"
+}

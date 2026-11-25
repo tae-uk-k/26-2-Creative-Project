@@ -1,0 +1,258 @@
+{
+  "run_id": "gemini-api-B0-S01-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:54:00+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S01",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹상에서 사차인치(Sacha Inchi)를 원료로 한 **300g 규격의 단백질 분말**을 검색한 결과, 일반적인 단백질 보충제 규격(250g, 454g/1lb, 1kg 등)과 달리 ‘300g’ 단일 포장 제품은 유통 품목이 매우 제한적입니다. \n\n확인된 300g 규격 제품 및 사차인치 원료 단백질 분말 제품은 다음과 같습니다.\n\n---\n\n### 1. Pik Pure 사차인치 단백질 파우더 (Pik Pure Sacha Inchi Protein Powder 300g)\n* **판매처:** IndiaMART (판매/제조사: Pikpure)\n* **근거 링크:** [IndiaMART 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2853246813473.html)\n* **선택 이유:**\n  * 사차인치만을 단일 주원료로 가공한 식물성 단백질 분말입니다.\n  * 제품 포장 규격이 **300g(Packaging Size: 300g)**으로 명시되어 있어 요청 조건에 부합합니다.\n\n---\n\n### 2. 오가닉 오아시스 랩 - 파인 바디 테라피 (Fine Body Therapy 300g)\n* **판매처:** Organic Oasis 공식 스토어\n* **근거 링크:** [Organic Oasis 공식 페이지](https://www.organic-oasis.com/fine-body-therapy/)\n* **선택 이유:**\n  * 필수 아미노산과 오메가 지방산 공급을 위해 **사차인치 단백질 분말(Sacha Inchi protein powder)**을 핵심 단백질 원료로 배합한 복합 분말 보충제입니다.\n  * 내용량 규격이 **300g(WEIGHT OF CONTENTS: 300g)**으로 제작·판매되고 있습니다.\n\n---\n\n### 3. 시장 내 용량 규격 안내 및 근접 제품 참고\n사차인치 100% 단백질 분말 시장에서는 **300g 규격의 제품이 극히 드물며**, 대다수가 **200g, 225g/250g, 454g(1lb), 1kg** 단위로 생산·유통되고 있습니다. \n\n* **참고 대안 제품 (200g 규격):**\n  * **제품명:** 샤난티나 유기농 사차인치 식물성 단백질 파우더 (Shanantina Sacha Inchi Organic Vegetable Protein Powder 200g)\n  * **판매처:** The Peruvian Shop\n  * **근거 링크:** [The Peruvian Shop 상품 페이지](https://www.peruvian-grocery-shop.com/c/47-category_default/well-being.jpg)\n  * **특징:** 식물성 단백질 함량 64%의 페루산 100% 유기농 사차인치 단백질 파우더이나, 용량은 200g입니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF877xRg_Z7oBEL6Icf2khNJgMXkSaagVkgT1i7x4ZTPsefgYElH0ACEB5-blJfadkPUFxsAnEMWSAAy2777YhfNC8q-nX4zVrtxjvC5TXPwlSejXUSb2zKbQ0S8eq_3nYI__oSw4g3594llAJrNic_AlJtyzH8NyCytQYJ4g==",
+      "title": "indiamart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc_ziitriWXmPeBbuJtSZXNYR3Yv-5acoJ-9VMYzjdZ-OgiNxabWIaS5Rdby-zTui5dOL65TrhHCCT58I1-L6QP95ciMRRa50O9haNHkpHDQN5IMmQS0eeUmI1m0jvQ-Bed4h8Jom4gPdSyEoP-AczM9bYXLejn0pMDjiXVdn1DGn0YEcp-hw6x3HCAdxiv6k=",
+      "title": "indiamart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9ly2UV62C84FXKOLFhphH2snq3nwM_jUjoDnlv1P9nNWNOn0kNqa6ZWp4UXi8E5BUz3tPAg2UE6d8tIzCOtG3vnqKMUObFazjMC4_nEkA0KS3uSsYvqjh23WWQTcHDjBJb8LFEg==",
+      "title": "organic-oasis.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo8d9YJ1qHqr4yUb36pwELjMW6wOwwVgEFswiXmPdUfscbrJJSOBGPvJXVMd_sL3tGPFg7WsEbUCs-uk_08xk2QIRUjTlo9FM8DfmJF5E1F5mQFwerdX1zS9pUE3uN2E8Fz0NfXyVFN95rPVQyGudtQTk5tj-sCq6mc7VlGG7GnycTBIxL0f-VsbEVc-utaLMPBCs9ofR-mesqesFVj9DoBJHJVYdcLoxjfOtDRlw9kiRBFrxHgnrIniHQtfjBYxB1Bh-M5MGIKk7X0j6UaQnh",
+      "title": "gutins.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUstUC8PRSsvUlKgyOIxjotKkI5ISTGgTjyqarkcetXrgZpBzHdWAcsPvhP2UKuLtQYo27AyIk6MayFV6BOLUHZsPTTmwSToe3hErPZbUPr8Muy559ybqV5EQ9CMI2aNVshS54i3z9a6jiOmReuGP-bKwtK454ZE9K19zLKKpxNMCaqkFmXXleu3EH6kipMAjnO81f5uZUCYP4IzTYDm-qhurkqQjssRdcHtSW8qrOF_3GM1erMaUF14FtUnEIskUoLxpjRLUg-NxP7vzmrLxEWuL_cCdtPs_zf_Ai4r5PSKzwTdcPBuaFnmSCzEGX5xHHLds0NqAJDBVdvg69W5B6s6sINGSgnHImA55GrDG8C5yH04AvC2SJxSx1IcAXedtyRqTVRLA4iTCo7OJqXuxlxZq1rK8U3M3tF6jClJNXxmBuOrkdVig=",
+      "title": "whatfood.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENe8lI3h7SeCfTzLJoX4BrrYyNJvgNmgmXCKdSSgEfcd9p2hKPDVLzwZPGlYxzRxRcbg7Ur4um7qJD9yWBAT16ZQHdQ2mvw3ulJZcrmtvI7eeQKcMvNJphpudu_YW2c7011R24j0YwKpbu5YuPVQ==",
+      "title": "peruvian-grocery-shop.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "OO4Ea8z3NrLK2roPg9jM4Q4",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"sacha inchi\" \"300g\" \"protein powder\" -indiamart",
+    "\"sacha inchi protein\" 300g",
+    "사차인치 단백질 분말 300g"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹상에서 사차인치(Sacha Inchi)를 원료로 한 **300g 규격의 단백질 분말**을 검색한 결과, 일반적인 단백질 보충제 규격(250g, 454g/1lb, 1kg 등)과 달리 ‘300g’ 단일 포장 제품은 유통 품목이 매우 제한적입니다. \n\n확인된 300g 규격 제품 및 사차인치 원료 단백질 분말 제품은 다음과 같습니다.\n\n---\n\n### 1. Pik Pure 사차인치 단백질 파우더 (Pik Pure Sacha Inchi Protein Powder 300g)\n* **판매처:** IndiaMART (판매/제조사: Pikpure)\n* **근거 링크:** [IndiaMART 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2853246813473.html)\n* **선택 이유:**\n  * 사차인치만을 단일 주원료로 가공한 식물성 단백질 분말입니다.\n  * 제품 포장 규격이 **300g(Packaging Size: 300g)**으로 명시되어 있어 요청 조건에 부합합니다.\n\n---\n\n### 2. 오가닉 오아시스 랩 - 파인 바디 테라피 (Fine Body Therapy 300g)\n* **판매처:** Organic Oasis 공식 스토어\n* **근거 링크:** [Organic Oasis 공식 페이지](https://www.organic-oasis.com/fine-body-therapy/)\n* **선택 이유:**\n  * 필수 아미노산과 오메가 지방산 공급을 위해 **사차인치 단백질 분말(Sacha Inchi protein powder)**을 핵심 단백질 원료로 배합한 복합 분말 보충제입니다.\n  * 내용량 규격이 **300g(WEIGHT OF CONTENTS: 300g)**으로 제작·판매되고 있습니다.\n\n---\n\n### 3. 시장 내 용량 규격 안내 및 근접 제품 참고\n사차인치 100% 단백질 분말 시장에서는 **300g 규격의 제품이 극히 드물며**, 대다수가 **200g, 225g/250g, 454g(1lb), 1kg** 단위로 생산·유통되고 있습니다. \n\n* **참고 대안 제품 (200g 규격):**\n  * **제품명:** 샤난티나 유기농 사차인치 식물성 단백질 파우더 (Shanantina Sacha Inchi Organic Vegetable Protein Powder 200g)\n  * **판매처:** The Peruvian Shop\n  * **근거 링크:** [The Peruvian Shop 상품 페이지](https://www.peruvian-grocery-shop.com/c/47-category_default/well-being.jpg)\n  * **특징:** 식물성 단백질 함량 64%의 페루산 100% 유기농 사차인치 단백질 파우더이나, 용량은 200g입니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22sacha+inchi%22+%22300g%22+%22protein+powder%22+-indiamart&client=app-vertex-grounding&safesearch=active\">&quot;sacha inchi&quot; &quot;300g&quot; &quot;protein powder&quot; -indiamart</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22sacha+inchi+protein%22+300g&client=app-vertex-grounding&safesearch=active\">&quot;sacha inchi protein&quot; 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 분말 300g</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF877xRg_Z7oBEL6Icf2khNJgMXkSaagVkgT1i7x4ZTPsefgYElH0ACEB5-blJfadkPUFxsAnEMWSAAy2777YhfNC8q-nX4zVrtxjvC5TXPwlSejXUSb2zKbQ0S8eq_3nYI__oSw4g3594llAJrNic_AlJtyzH8NyCytQYJ4g==",
+                "title": "indiamart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc_ziitriWXmPeBbuJtSZXNYR3Yv-5acoJ-9VMYzjdZ-OgiNxabWIaS5Rdby-zTui5dOL65TrhHCCT58I1-L6QP95ciMRRa50O9haNHkpHDQN5IMmQS0eeUmI1m0jvQ-Bed4h8Jom4gPdSyEoP-AczM9bYXLejn0pMDjiXVdn1DGn0YEcp-hw6x3HCAdxiv6k=",
+                "title": "indiamart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9ly2UV62C84FXKOLFhphH2snq3nwM_jUjoDnlv1P9nNWNOn0kNqa6ZWp4UXi8E5BUz3tPAg2UE6d8tIzCOtG3vnqKMUObFazjMC4_nEkA0KS3uSsYvqjh23WWQTcHDjBJb8LFEg==",
+                "title": "organic-oasis.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo8d9YJ1qHqr4yUb36pwELjMW6wOwwVgEFswiXmPdUfscbrJJSOBGPvJXVMd_sL3tGPFg7WsEbUCs-uk_08xk2QIRUjTlo9FM8DfmJF5E1F5mQFwerdX1zS9pUE3uN2E8Fz0NfXyVFN95rPVQyGudtQTk5tj-sCq6mc7VlGG7GnycTBIxL0f-VsbEVc-utaLMPBCs9ofR-mesqesFVj9DoBJHJVYdcLoxjfOtDRlw9kiRBFrxHgnrIniHQtfjBYxB1Bh-M5MGIKk7X0j6UaQnh",
+                "title": "gutins.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUstUC8PRSsvUlKgyOIxjotKkI5ISTGgTjyqarkcetXrgZpBzHdWAcsPvhP2UKuLtQYo27AyIk6MayFV6BOLUHZsPTTmwSToe3hErPZbUPr8Muy559ybqV5EQ9CMI2aNVshS54i3z9a6jiOmReuGP-bKwtK454ZE9K19zLKKpxNMCaqkFmXXleu3EH6kipMAjnO81f5uZUCYP4IzTYDm-qhurkqQjssRdcHtSW8qrOF_3GM1erMaUF14FtUnEIskUoLxpjRLUg-NxP7vzmrLxEWuL_cCdtPs_zf_Ai4r5PSKzwTdcPBuaFnmSCzEGX5xHHLds0NqAJDBVdvg69W5B6s6sINGSgnHImA55GrDG8C5yH04AvC2SJxSx1IcAXedtyRqTVRLA4iTCo7OJqXuxlxZq1rK8U3M3tF6jClJNXxmBuOrkdVig=",
+                "title": "whatfood.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENe8lI3h7SeCfTzLJoX4BrrYyNJvgNmgmXCKdSSgEfcd9p2hKPDVLzwZPGlYxzRxRcbg7Ur4um7qJD9yWBAT16ZQHdQ2mvw3ulJZcrmtvI7eeQKcMvNJphpudu_YW2c7011R24j0YwKpbu5YuPVQ==",
+                "title": "peruvian-grocery-shop.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 528,
+                "endIndex": 659,
+                "text": "**근거 링크:** [IndiaMART 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2853246813473.html)"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 685,
+                "endIndex": 769,
+                "text": "사차인치만을 단일 주원료로 가공한 식물성 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 775,
+                "endIndex": 888,
+                "text": "제품 포장 규격이 **300g(Packaging Size: 300g)**으로 명시되어 있어 요청 조건에 부합합니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1031,
+                "endIndex": 1132,
+                "text": "**근거 링크:** [Organic Oasis 공식 페이지](https://www.organic-oasis.com/fine-body-therapy/)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1158,
+                "endIndex": 1352,
+                "text": "필수 아미노산과 오메가 지방산 공급을 위해 **사차인치 단백질 분말(Sacha Inchi protein powder)**을 핵심 단백질 원료로 배합한 복합 분말 보충제입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1358,
+                "endIndex": 1452,
+                "text": "내용량 규격이 **300g(WEIGHT OF CONTENTS: 300g)**으로 제작·판매되고 있습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1524,
+                "endIndex": 1714,
+                "text": "사차인치 100% 단백질 분말 시장에서는 **300g 규격의 제품이 극히 드물며**, 대다수가 **200g, 225g/250g, 454g(1lb), 1kg** 단위로 생산·유통되고 있습니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1764,
+                "endIndex": 1907,
+                "text": "**제품명:** 샤난티나 유기농 사차인치 식물성 단백질 파우더 (Shanantina Sacha Inchi Organic Vegetable Protein Powder 200g)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1912,
+                "endIndex": 1944,
+                "text": "**판매처:** The Peruvian Shop"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1949,
+                "endIndex": 2080,
+                "text": "**근거 링크:** [The Peruvian Shop 상품 페이지](https://www.peruvian-grocery-shop.com/c/47-category_default/well-being.jpg)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2085,
+                "endIndex": 2219,
+                "text": "**특징:** 식물성 단백질 함량 64%의 페루산 100% 유기농 사차인치 단백질 파우더이나, 용량은 200g입니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"sacha inchi\" \"300g\" \"protein powder\" -indiamart",
+            "\"sacha inchi protein\" 300g",
+            "사차인치 단백질 분말 300g"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 796,
+      "candidatesTokenCount": 818,
+      "totalTokenCount": 3377,
+      "cachedContentTokenCount": 418,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 796
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 418
+        }
+      ],
+      "thoughtsTokenCount": 1763,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "OO4Ea8z3NrLK2roPg9jM4Q4"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:54:35+09:00"
+}
