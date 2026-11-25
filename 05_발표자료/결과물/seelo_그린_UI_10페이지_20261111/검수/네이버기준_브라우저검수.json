@@ -1,0 +1,147 @@
+{
+  "desktop": [
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "로그인 · seelo",
+      "scrollWidth": 1800,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "내 가게 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "가게 등록 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "무료 진단 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "정비 신청 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "지도 연결 · seelo",
+      "scrollWidth": 1800,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "정비안 승인 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "정비 진행 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    {
+      "bg": "rgb(255, 255, 255)",
+      "brokenImages": 0,
+      "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "overflow": [],
+      "page": "전후 비교 · seelo",
+      "scrollWidth": 1781,
+      "width": 1800
+    }
+  ],
+  "mobile": [
+    {
+      "overflow": [],
+      "page": "회원가입 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "로그인 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "내 가게 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "가게 등록 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "무료 진단 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "정비 신청 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "지도 연결 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "정비안 승인 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "정비 진행 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    },
+    {
+      "overflow": [],
+      "page": "전후 비교 · seelo",
+      "scrollWidth": 371,
+      "width": 390
+    }
+  ]
+}

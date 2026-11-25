@@ -1,0 +1,324 @@
+[
+  {
+    "id": "landing",
+    "code": "S01",
+    "title": "지도 스팟 랜딩",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "signup",
+    "code": "S02",
+    "title": "가입 방법 선택",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "signup-email",
+    "code": "S02-E",
+    "title": "이메일 가입",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "verify",
+    "code": "S03",
+    "title": "이메일 인증 안내",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "kakao-email",
+    "code": "S04",
+    "title": "카카오 이메일 입력",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "login",
+    "code": "S05",
+    "title": "로그인",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "reset",
+    "code": "S06",
+    "title": "비밀번호 재설정",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "reset-sent",
+    "code": "S06-M",
+    "title": "재설정 메일 안내",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "password",
+    "code": "S06-P",
+    "title": "새 비밀번호",
+    "group": "start",
+    "groupTitle": "가입·로그인"
+  },
+  {
+    "id": "home-empty",
+    "code": "S07-E",
+    "title": "가게 등록 전",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "store",
+    "code": "S08",
+    "title": "가게 등록",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "candidates",
+    "code": "S09",
+    "title": "같은 이름의 가게 확인",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "measure",
+    "code": "S10",
+    "title": "정보 수집·AI 측정",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "measure-failed",
+    "code": "S10-E",
+    "title": "측정 실패",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "home",
+    "code": "S07",
+    "title": "내 가게",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "diagnosis",
+    "code": "S11",
+    "title": "무료 진단 요약",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "diagnosis-nearby",
+    "code": "S11-C",
+    "title": "주변 가게 비교",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "diagnosis-questions",
+    "code": "S11-Q",
+    "title": "질문별 추천 결과",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "diagnosis-sources",
+    "code": "S11-S",
+    "title": "AI 참고 출처",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "diagnosis-zero",
+    "code": "S11-Z",
+    "title": "추천 등장률 0%",
+    "group": "store",
+    "groupTitle": "가게 등록·진단"
+  },
+  {
+    "id": "apply",
+    "code": "S12",
+    "title": "가게 정보 정비 신청",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "apply-waiting",
+    "code": "S12-P",
+    "title": "신청 접수",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "connect",
+    "code": "S15",
+    "title": "Google·카카오 연결",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "connect-google",
+    "code": "S15-G",
+    "title": "Google 관리자 초대",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "connect-kakao",
+    "code": "S15-K",
+    "title": "카카오 운영자 초대",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "register-map",
+    "code": "S15-R",
+    "title": "지도 등록·소유권 인증",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "prepare",
+    "code": "S13-P",
+    "title": "AI 추가 조사",
+    "group": "connect",
+    "groupTitle": "정비 신청·지도 연결"
+  },
+  {
+    "id": "missing",
+    "code": "S13-Q",
+    "title": "꼭 필요한 정보 한 가지",
+    "group": "plan",
+    "groupTitle": "보완 질문·변경 승인"
+  },
+  {
+    "id": "plan-google",
+    "code": "S13-G",
+    "title": "Google 정비안",
+    "group": "plan",
+    "groupTitle": "보완 질문·변경 승인"
+  },
+  {
+    "id": "plan-kakao",
+    "code": "S13-K",
+    "title": "카카오 정비안",
+    "group": "plan",
+    "groupTitle": "보완 질문·변경 승인"
+  },
+  {
+    "id": "plan-held",
+    "code": "S13-H",
+    "title": "자동 보류한 변경",
+    "group": "plan",
+    "groupTitle": "보완 질문·변경 승인"
+  },
+  {
+    "id": "approve",
+    "code": "S13-A",
+    "title": "준비된 변경 승인",
+    "group": "plan",
+    "groupTitle": "보완 질문·변경 승인"
+  },
+  {
+    "id": "fix",
+    "code": "S13-F",
+    "title": "정비·공개 반영 확인",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "fix-done",
+    "code": "S13-D",
+    "title": "정비 완료·재측정 예약",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "unchanged",
+    "code": "S13-N",
+    "title": "적용할 수정 없음",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "report",
+    "code": "S16",
+    "title": "전후 비교 요약",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "report-nearby",
+    "code": "S16-C",
+    "title": "주변 가게의 전후 변화",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "report-questions",
+    "code": "S16-Q",
+    "title": "질문별 전후 변화",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "report-sources",
+    "code": "S16-S",
+    "title": "추천 출처 변화",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "report-changes",
+    "code": "S16-D",
+    "title": "정비한 정보·반영 확인",
+    "group": "report",
+    "groupTitle": "정보 정비·전후 비교"
+  },
+  {
+    "id": "account",
+    "code": "S14",
+    "title": "계정 설정",
+    "group": "account",
+    "groupTitle": "계정·운영"
+  },
+  {
+    "id": "withdraw",
+    "code": "S14-D",
+    "title": "회원 탈퇴 확인",
+    "group": "account",
+    "groupTitle": "계정·운영"
+  },
+  {
+    "id": "admin",
+    "code": "A01",
+    "title": "정비 신청 관리",
+    "group": "account",
+    "groupTitle": "계정·운영"
+  },
+  {
+    "id": "admin-detail",
+    "code": "A01-D",
+    "title": "신청 상세·수동 처리",
+    "group": "account",
+    "groupTitle": "계정·운영"
+  },
+  {
+    "id": "how",
+    "code": "S01-H",
+    "title": "이용 방법",
+    "group": "guide",
+    "groupTitle": "서비스 안내"
+  },
+  {
+    "id": "service",
+    "code": "S01-P",
+    "title": "무료 진단·정보 정비 안내",
+    "group": "guide",
+    "groupTitle": "서비스 안내"
+  }
+]

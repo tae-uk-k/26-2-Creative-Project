@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>쇼핑몰 랜딩페이지 시안 비교 | seelo</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="assets/landing.css">
+  <style>
+    body { background: #f8f9f6; }
+    .comparison-header { border-bottom: 1px solid #d9e1dc; }
+    .comparison-header .wrap { display: flex; align-items: center; min-height: 4.45rem; }
+    .comparison-header img { width: 4.65rem; height: auto; }
+    .comparison { padding-block: clamp(2.7rem,5.6vw,4.85rem); }
+    .comparison > h1 { font-size: clamp(2.2rem,1.35rem + 3.25vw,4.6rem); line-height: 1.1; letter-spacing: -.07em; }
+    .comparison > p { margin-top: .9rem; max-width: 45ch; }
+    .designs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: clamp(.8rem,1.7vw,1.7rem); margin-top: clamp(1.6rem,3vw,3rem); }
+    .design { overflow: hidden; background: #fff; border: 1px solid #d5dfd7; border-radius: .7rem; }
+    .design > a:first-child { display: block; }
+    .design > a:first-child:focus-visible { outline-offset: -4px; }
+    .design img { width: 100%; height: auto; border-bottom: 1px solid #d5dfd7; }
+    .design h2 { font-size: clamp(1.25rem,1.05rem + .7vw,1.7rem); margin: 1rem 1rem .45rem; }
+    .design p { color: var(--soft-ink); min-height: calc(2 * 1.55em); margin: 0 1rem .65rem; font-size: .95rem; line-height: 1.55; }
+    .design a:hover h2, .mobile-preview:hover { text-decoration: underline; text-underline-offset: .25em; }
+    .mobile-preview { display: inline-flex; align-items: center; min-height: 2.75rem; margin: 0 1rem .45rem; color: #226144; font-size: .875rem; font-weight: 700; }
+    @media (max-width: 42rem) { .designs { grid-template-columns: 1fr; gap: 1.1rem; } .design p { min-height: 0; } }
+  </style>
+</head>
+<body>
+  <header class="comparison-header"><div class="wrap"><img src="assets/logo.png" alt="seelo" width="78" height="38"></div></header>
+  <main class="wrap comparison">
+    <h1>쇼핑몰 랜딩페이지 시안</h1>
+    <p class="lead">스마트스토어·카페24 판매자를 위한 상품 정보 정비 서비스</p>
+    <div class="designs">
+      <article class="design">
+        <a href="geometry.html"><img src="previews/geometry-desktop.jpg" alt="기하학형 첫 화면" width="1440" height="900"><h2>기하학형 ↗</h2><p>질문과 상품 정보를 기하학적으로 연결합니다.</p></a>
+        <a class="mobile-preview" href="previews/geometry-mobile.jpg">모바일 미리보기 ↗</a>
+      </article>
+      <article class="design">
+        <a href="typography.html"><img src="previews/typography-desktop.jpg" alt="타이포그래피형 첫 화면" width="1440" height="900"><h2>타이포그래피형 ↗</h2><p>구매자 질문과 상세 설명의 변화를 문장으로 보여줍니다.</p></a>
+        <a class="mobile-preview" href="previews/typography-mobile.jpg">모바일 미리보기 ↗</a>
+      </article>
+      <article class="design">
+        <a href="photography.html"><img src="previews/photography-desktop.jpg" alt="이미지 중심형 첫 화면" width="1440" height="900"><h2>이미지 중심형 ↗</h2><p>서비스 화면으로 진단, 승인, 공개 확인을 소개합니다.</p></a>
+        <a class="mobile-preview" href="previews/photography-mobile.jpg">모바일 미리보기 ↗</a>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

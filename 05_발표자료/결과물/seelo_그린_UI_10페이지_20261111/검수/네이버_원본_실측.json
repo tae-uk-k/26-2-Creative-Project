@@ -1,0 +1,6 @@
+{
+  "bg": "rgb(255, 255, 255)",
+  "fg": "rgb(46, 46, 46)",
+  "font": "-apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", sans-serif",
+  "primary": "#03A94D"
+}
