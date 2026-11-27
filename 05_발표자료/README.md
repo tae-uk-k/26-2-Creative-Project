@@ -5,8 +5,8 @@
 | 위치 | 내용 |
 |---|---|
 | [원본](원본/) | 발표 자료를 편집하는 데 사용하는 원본 파일입니다. |
-| [결과물](결과물/) | 디자인 탐색·화면 제작·검수의 고유한 산출물입니다. 기능 기준 문서를 대신하지 않습니다. |
+| [결과물](결과물/) | 디자인 탐색·화면 제작·검수의 고유한 산출물입니다. 기능 기준 문서를 대신하지 않습니다. 쇼핑몰 서비스 디자인 기준은 `seelo_쇼핑몰_랜딩_새시안_20261125/dark.html`입니다(2026-11-27 결정). `seelo_쇼핑몰_랜딩_3종_20261125`는 이전 쇼핑몰 시안이고, 나머지는 지도 베타(가게 대상) 시기의 발표·디자인 기록입니다. |
 | 내보내기 | 기존 발표 PDF와 해당 제작 도구를 이동한 로컬 폴더입니다. 이번 문서 개편의 GitHub 업로드 범위에는 포함하지 않습니다. |
 | 검수자료 | 로컬 검수 파일을 두는 위치이며 Git 추적에서 제외합니다. |
 
-Figma의 [전체 이용 흐름 프로토타입](https://www.figma.com/proto/M5WCPZN32W6PEeIaEvcRkC/창의프로젝트?page-id=223%3A541&node-id=713-648&starting-point-node-id=713%3A648&scaling=fit-width&content-scaling=fixed&hide-ui=1&hotspot-hints=true)은 화면을 탐색할 때 참고합니다. 새 요구사항이 생기면 기획 문서와 실제 디자인의 반영 여부를 별도로 확인합니다.
+지도 베타 시기에 만든 Figma의 [전체 이용 흐름 프로토타입](https://www.figma.com/proto/M5WCPZN32W6PEeIaEvcRkC/창의프로젝트?page-id=223%3A541&node-id=713-648&starting-point-node-id=713%3A648&scaling=fit-width&content-scaling=fixed&hide-ui=1&hotspot-hints=true)은 가게 대상 화면(S01~S16) 기준이라 쇼핑몰 화면의 기준으로 쓰지 않습니다. 쇼핑몰 화면 디자인의 남은 결정은 [운영 현황](../01_기획/운영/운영현황.md)의 D12에서 관리합니다.
