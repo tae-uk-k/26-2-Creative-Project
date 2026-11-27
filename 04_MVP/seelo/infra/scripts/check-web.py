@@ -9,18 +9,25 @@ import json
 import re
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 
-def fetch(host: str, path: str) -> tuple[int, str, dict[str, list[str]]]:
-    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+def fetch(host: str, path: str, method: str = "GET") -> tuple[int, str, dict[str, list[str]]]:
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}), NoRedirect())
     try:
-        with opener.open(host + path, timeout=15) as response:
-            headers: dict[str, list[str]] = {}
-            for key, value in response.headers.items():
-                headers.setdefault(key.lower(), []).append(value)
-            return response.status, response.read().decode("utf-8", "replace"), headers
+        response = opener.open(urllib.request.Request(host + path, method=method), timeout=15)
     except urllib.error.HTTPError as error:
-        return error.code, error.read().decode("utf-8", "replace"), {}
+        response = error
+    with response:
+        headers: dict[str, list[str]] = {}
+        for key, value in response.headers.items():
+            headers.setdefault(key.lower(), []).append(value)
+        return response.code, response.read().decode("utf-8", "replace"), headers
 
 
 def check(host: str, commit: str | None, secure_cookie: bool) -> list[str]:
@@ -62,6 +69,18 @@ def check(host: str, commit: str | None, secure_cookie: bool) -> list[str]:
     assert "samesite=lax" in attrs and "path=/" in attrs and "httponly" not in attrs, "csrf_cookie_policy"
     assert ("secure" in attrs) == secure_cookie, "csrf_cookie_secure_flag"
     done.append("CSRF 쿠키 SameSite·Path·Secure")
+    config = Path(__file__).resolve().parent.parent / "nginx" / "prototype.conf"
+    target = re.search(r'return 302 "([^"]+)";', config.read_text(encoding="utf-8"))
+    assert target and target[1].startswith("https://www.figma.com/proto/"), "prototype_target"
+    for path in ("/prototype", "/prototype/", "/prototype?url=https%3A%2F%2Fexample.com"):
+        for method in ("GET", "HEAD"):
+            status, _, headers = fetch(host, path, method)
+            assert status == 302 and headers.get("location") == [target[1]], "prototype_redirect"
+            assert headers.get("cache-control") == ["no-store"], "prototype_cache_policy"
+            assert headers.get("referrer-policy") == ["no-referrer"], "prototype_referrer_policy"
+            if secure_cookie:
+                assert headers.get("strict-transport-security") == ["max-age=31536000"], "prototype_hsts"
+    done.append("기존 제출 주소·캐시 정책")
     if commit:
         status, body, _ = fetch(host, "/deployment.json")
         assert status == 200 and json.loads(body)["commit"] == commit, "deployment_commit"

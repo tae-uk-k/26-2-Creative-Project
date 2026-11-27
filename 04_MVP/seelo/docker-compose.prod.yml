@@ -25,6 +25,8 @@ x-backend: &backend
     ADMIN_NOTIFY_EMAILS: ${ADMIN_NOTIFY_EMAILS:?ADMIN_NOTIFY_EMAILS required}
     TRUSTED_PROXY_IPS: ${SEELO_PROXY_SUBNET:?dedicated proxy subnet required}
     AUTO_FIX_ENABLED: ${AUTO_FIX_ENABLED:-false}
+    COMMERCE_BROWSER_CONFIG_DIR: /data/commerce-config
+  volumes: ["${COMMERCE_BROWSER_CONFIG_HOST_DIR:-commerce-config}:/data/commerce-config:ro"]
   restart: unless-stopped
   stop_grace_period: 75s
   security_opt: ["no-new-privileges:true"]
@@ -93,19 +95,26 @@ services:
     image: seelo-backend-fix:${SEELO_IMAGE_TAG:?SEELO_IMAGE_TAG required}
     build: {context: ./backend, dockerfile: Dockerfile.fix}
     command: ["python", "-m", "seelo.worker.run", "--queues", "fix,commerce_browser", "--concurrency", "2", "--name", "fix"]
-    volumes: ["browser:/data/browser"]
+    volumes:
+      - browser:/data/browser
+      - ${COMMERCE_BROWSER_CONFIG_HOST_DIR:-commerce-config}:/data/commerce-config:ro
     depends_on:
       migrate: {condition: service_completed_successfully}
     profiles: ["fix"]
 
   web:
     image: seelo-web:${SEELO_IMAGE_TAG:?SEELO_IMAGE_TAG required}
-    build: {context: ./frontend}
+    build:
+      context: ./frontend
+      args:
+        VITE_SEELO_MANAGER_NAME: ${VITE_SEELO_MANAGER_NAME:-}
+        VITE_SEELO_MANAGER_PHONE: ${VITE_SEELO_MANAGER_PHONE:-}
     environment:
       PUBLIC_HOST: ${PUBLIC_HOST:?PUBLIC_HOST required}
       NGINX_ENVSUBST_FILTER: ^PUBLIC_HOST$$
     volumes:
       - ./infra/nginx/production.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ./infra/nginx/prototype.conf:/etc/nginx/snippets/prototype.conf:ro
       - ./infra/nginx/meta:/usr/share/nginx/meta:ro
       - ${ACME_WEBROOT_DIR:-/var/lib/seelo/acme}:/var/www/acme:ro
       - ${TLS_CERT_DIR:?TLS_CERT_DIR required}:/etc/nginx/tls:ro
@@ -119,6 +128,7 @@ services:
 volumes:
   pgdata:
   browser:
+  commerce-config:
 
 networks:
   backend:

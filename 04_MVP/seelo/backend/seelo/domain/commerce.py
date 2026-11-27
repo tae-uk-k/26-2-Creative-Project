@@ -54,7 +54,7 @@ def check_quantity(key: str, value: str, quote: str | None) -> list[dict]:
 
 
 def recommended_fields(automatic: list[str], current: dict[str, str]) -> list[str]:
-    """사장님이 고르지 않아도 되는 기본 범위. 본문은 항상, 짧은 설명은 비어 있을 때만 채운다."""
+    """판매자가 고르지 않아도 되는 기본 범위. 본문은 항상, 짧은 설명은 비어 있을 때만 채운다."""
     fields = [f for f in ("description",) if f in automatic]
     for field in ("summary_description", "simple_description", "seo.meta_description"):
         if field in automatic and not (current.get(field) or "").strip():

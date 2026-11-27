@@ -26,6 +26,7 @@ from seelo.services import commerce_jobs as jobs_service
 from seelo.services import commerce_measure as measure
 from seelo.services import commerce_operator as operator
 from seelo.services import commerce_service as service
+from seelo.services import commerce_summary
 
 
 async def check_ownership(
@@ -242,8 +243,10 @@ async def products(
         .offset((page - 1) * page_size)
         .limit(page_size)
     )
+    rows = list(rows)
+    summaries = await commerce_summary.product_summaries(db, [row.id for row in rows])
     return {
-        "products": [service.product_view(row, shop) for row in rows],
+        "products": [{**service.product_view(row, shop), "summary": summaries.get(row.id)} for row in rows],
         "page": page,
         "pageSize": page_size,
         "total": total or 0,

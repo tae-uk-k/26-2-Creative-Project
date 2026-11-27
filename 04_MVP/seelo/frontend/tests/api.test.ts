@@ -169,7 +169,7 @@ describe("기존 인증 계약", () => {
     "/login",
     "/signup",
   ])("외부·순환 복귀 경로 %s를 차단한다", (value) => {
-    expect(safeReturnTo(value)).toBe("/stores");
+    expect(safeReturnTo(value)).toBe("/home");
   });
   it("내부 상품 복귀 경로를 보존한다", () => {
     expect(safeReturnTo("/stores/1/products/2?tab=plan")).toBe(
@@ -376,7 +376,7 @@ describe("현재 쇼핑몰 서버 계약", () => {
       gateway.importProduct(1, { externalId: "9" }),
     ).rejects.toMatchObject({ code: "CONTRACT_MISMATCH" });
   });
-  it("가게 고유값 기록과 플랫폼 상품 목록 작업 경로를 사용한다", async () => {
+  it("스토어 고유값 기록과 플랫폼 상품 목록 작업 경로를 사용한다", async () => {
     const store = (await createDemoGateway().stores())[0];
     const fetcher = vi
       .fn<typeof fetch>()

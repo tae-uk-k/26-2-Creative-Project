@@ -1,0 +1,111 @@
+.diff {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: var(--s-3);
+  align-items: stretch;
+}
+.side {
+  display: grid;
+  align-content: start;
+  gap: var(--s-2);
+  min-width: 0;
+}
+.sideLabel {
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+.after .sideLabel {
+  color: var(--s-blue700);
+}
+.text {
+  position: relative;
+  max-height: var(--clamp, 16rem);
+  overflow: hidden;
+  padding: var(--s-4);
+  border-radius: var(--s-r-lg);
+  color: var(--s-grey800);
+  background: var(--s-grey50);
+  font-size: var(--s-t6);
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.after .text {
+  background: var(--s-paper);
+  box-shadow: inset 0 0 0 1.5px var(--s-blue100);
+}
+.open .text {
+  max-height: none;
+}
+.text.clamped::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 3rem;
+  background: linear-gradient(transparent, var(--fade, var(--s-grey50)));
+}
+.after .text.clamped::after {
+  --fade: var(--s-paper);
+}
+.arrow {
+  display: grid;
+  place-items: center;
+  color: var(--s-grey400);
+}
+.arrow svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.added {
+  border-radius: 0.2rem;
+  color: var(--s-green700);
+  background: var(--s-green50);
+  box-shadow: 0 0 0 1px var(--s-green100);
+  text-decoration: none;
+}
+.removed {
+  color: var(--s-red700);
+  background: var(--s-red50);
+  text-decoration: line-through;
+  text-decoration-color: var(--s-red500);
+}
+.empty {
+  color: var(--s-grey400);
+  font-style: normal;
+}
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-4);
+  margin-top: var(--s-2);
+}
+.raw {
+  max-height: 18rem;
+  overflow: auto;
+  margin: var(--s-2) 0 0;
+  padding: var(--s-3);
+  border-radius: var(--s-r-md);
+  color: var(--s-grey700);
+  background: var(--s-grey100);
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 48rem) {
+  .diff {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+}
+@media print {
+  .text {
+    max-height: none;
+  }
+  .text.clamped::after,
+  .foot {
+    display: none;
+  }
+}

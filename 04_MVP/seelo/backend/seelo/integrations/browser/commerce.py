@@ -17,34 +17,49 @@ from seelo.integrations.browser.session import BrowserSession
 from seelo.integrations.commerce import CommerceApiError
 
 
-def config_path(platform: str) -> Path:
-    settings = get_settings()
-    root = (
-        Path(settings.commerce_browser_config_dir)
-        if settings.commerce_browser_config_dir
-        else Path(__file__).with_name("selectors")
-    )
-    return root / f"{platform}.yaml"
+def config_path(platform: str, external_id: str | None = None, shop_no: int = 1) -> Path:
+    if platform not in {"cafe24", "smartstore"}:
+        raise CommerceApiError("invalid_browser_shop")
+    configured = get_settings().commerce_browser_config_dir
+    if configured:
+        root = Path(configured)
+        if external_id is not None:
+            if (
+                not re.fullmatch(r"[a-z0-9_-]{2,50}", external_id)
+                or not isinstance(shop_no, int)
+                or shop_no < 1
+            ):
+                raise CommerceApiError("invalid_browser_shop")
+            specific = root / platform / external_id / f"{shop_no}.yaml"
+            if specific.exists():
+                return specific
+        shared = root / f"{platform}.yaml"
+        if shared.exists():
+            return shared
+    return Path(__file__).with_name("selectors") / f"{platform}.yaml"
 
 
-def load_config(platform: str) -> dict:
+def load_config(platform: str, external_id: str | None = None, shop_no: int = 1) -> dict:
     try:
-        return yaml.safe_load(config_path(platform).read_text(encoding="utf-8")) or {}
+        config = yaml.safe_load(config_path(platform, external_id, shop_no).read_text(encoding="utf-8"))
     except (OSError, yaml.YAMLError) as error:
         raise CommerceApiError("selectors_missing") from error
+    if not isinstance(config, dict) or not isinstance(config.get("fields"), dict):
+        raise CommerceApiError("selectors_missing")
+    return config
 
 
-def configured_fields(platform: str) -> set[str]:
-    """브라우저를 열지 않고 화면 설정에서 입력 칸이 지정된 필드만 돌려준다. 설정이 없으면 빈 집합."""
+def configured_fields(platform: str, external_id: str | None = None, shop_no: int = 1) -> set[str]:
+    """브라우저를 열지 않고 선택한 스토어 설정의 입력 칸을 반환한다."""
     try:
-        config = load_config(platform)
+        config = load_config(platform, external_id, shop_no)
     except CommerceApiError:
         return set()
     return {key for key, spec in (config.get("fields") or {}).items() if (spec or {}).get("selector")}
 
 
 def normalize(value: str) -> str:
-    """가게 식별값 비교용. 공백·유니코드 표기만 정리한다. 비슷한 이름을 같은 가게로 보지 않는다."""
+    """스토어 식별값 비교용. 공백·유니코드 표기만 정리한다. 비슷한 이름을 같은 스토어로 보지 않는다."""
     return unicodedata.normalize("NFC", " ".join(str(value).split()))
 
 
@@ -65,7 +80,7 @@ class BrowserProduct:
         self.platform, self.external_id, self.shop_no = platform, external_id, shop_no
         settings = get_settings()
         if config is None:
-            config = load_config(platform)
+            config = load_config(platform, external_id, shop_no)
         self.cfg = config or {}
         # 운영자가 위임 목록에서 확인해 저장한 고유값. 없으면 등록한 스토어 ID를 기대값으로 쓴다.
         identity = identity or {}
@@ -157,7 +172,7 @@ class BrowserProduct:
         return True
 
     async def _switch_store(self, page: Any, ready: str) -> None:
-        """위임 가게 목록에서 기대값과 정확히 같은 한 곳만 고른다. 0곳·2곳 이상이면 멈춘다."""
+        """위임 스토어 목록에서 기대값과 정확히 같은 한 곳만 고른다. 0곳·2곳 이상이면 멈춘다."""
         from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 
         spec = self.cfg["store_switch"]
@@ -187,7 +202,7 @@ class BrowserProduct:
         await guard(page, self.platform, spec.get("ready") or ready)
 
     async def _ensure_store(self, page: Any, url: str, ready: str, page_spec: dict | None = None) -> None:
-        """열린 관리 화면의 가게를 확인하고, 설정한 경우에만 위임 목록에서 전환한다."""
+        """열린 관리 화면의 스토어를 확인하고, 설정한 경우에만 위임 목록에서 전환한다."""
         await guard(page, self.platform, ready)
         if await self._shop_matches(page, page_spec):
             return
@@ -381,7 +396,7 @@ class BrowserProduct:
         return value
 
     async def catalog(self, max_items: int = 500) -> dict:
-        """위임받은 관리 화면의 상품 목록. 가게를 먼저 대조하고 상품번호·이름만 읽는다."""
+        """위임받은 관리 화면의 상품 목록. 스토어를 먼저 대조하고 상품번호·이름만 읽는다."""
         if sys.platform == "win32" and not isinstance(asyncio.get_running_loop(), asyncio.ProactorEventLoop):
             return await asyncio.to_thread(
                 lambda: asyncio.run(self.catalog(max_items), loop_factory=asyncio.ProactorEventLoop)
@@ -413,7 +428,7 @@ class BrowserProduct:
                         break
                     await nxt.first.click()
                     await guard(page, self.platform, spec["ready"])
-                    # 페이지 이동 뒤에도 같은 가게인지 다시 확인한다.
+                    # 페이지 이동 뒤에도 같은 스토어인지 다시 확인한다.
                     if not await self._shop_matches(page, spec):
                         raise CommerceApiError("shop_identity_mismatch")
         except CommerceApiError:

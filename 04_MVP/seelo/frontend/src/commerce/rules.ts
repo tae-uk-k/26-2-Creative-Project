@@ -47,10 +47,10 @@ export const jobErrors: Record<string, string> = {
   security_check:
     "플랫폼 보안 확인이 필요합니다. 운영자가 직접 해결해야 합니다.",
   shop_identity_mismatch:
-    "열린 관리 화면의 가게가 등록한 스토어와 다릅니다. 저장 전에 멈췄습니다.",
+    "열린 관리 화면의 스토어가 등록한 스토어와 다릅니다. 저장 전에 멈췄습니다.",
   shop_not_delegated: "위임 목록에서 이 스토어를 찾지 못했습니다.",
   shop_selection_ambiguous:
-    "위임 목록에 같은 값의 가게가 여러 개라 선택하지 않았습니다.",
+    "위임 목록에 같은 값의 스토어가 여러 개라 선택하지 않았습니다.",
   product_identity_mismatch: "열린 상품번호가 요청한 상품과 다릅니다.",
   browser_source_changed:
     "관리 화면의 원본이 승인 후 바뀌었습니다. 다시 수집해 주세요.",
@@ -352,6 +352,8 @@ function validatePlanCommand(
     reject("서버에서 승인한 필드 목록을 확인하지 못했습니다.");
   if (!store.automaticWritesEnabled)
     reject("서버의 상품 자동 수정이 꺼져 있습니다.");
+  if (product.automaticWritesEnabled === false)
+    reject("이 상품의 자동 수정이 허용되지 않았습니다.");
   if (product.snapshotSource === "browser") {
     if (store.managerStatus !== "verified")
       reject("관리자 위임 권한 확인이 필요합니다.");

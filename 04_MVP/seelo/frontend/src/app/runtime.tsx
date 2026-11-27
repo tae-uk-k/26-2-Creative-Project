@@ -7,6 +7,11 @@ import {
 } from "@tanstack/react-query";
 import { ApiClient, ApiError } from "../api/client";
 import { createAuthApi, type User } from "../api/auth";
+import {
+  createAccountApi,
+  passwordChangeSchema,
+  type AccountApi,
+} from "../api/account";
 import { createDemoGateway } from "../commerce/demo-gateway";
 import { createHttpGateway } from "../commerce/http-gateway";
 
@@ -41,8 +46,30 @@ export function createRuntime(mode: "api" | "demo") {
     mode,
     queryClient,
     auth: createAuthApi(client),
+    account: mode === "demo" ? demoAccountApi() : createAccountApi(client),
     gateway: mode === "demo" ? createDemoGateway() : createHttpGateway(client),
     clearCommerce,
+  };
+}
+// 시연 모드는 계정을 바꾸지 않는다. 화면 흐름만 확인한다.
+function demoAccountApi(): AccountApi {
+  return {
+    get: async () => ({
+      email: "demo@example.com",
+      provider: "email",
+      createdAt: new Date().toISOString(),
+      canChangePassword: true,
+    }),
+    changePassword: async (input) => {
+      passwordChangeSchema.parse(input);
+    },
+    remove: async () => {
+      throw new ApiError(
+        409,
+        "DEMO_ONLY",
+        "시연 모드에서는 탈퇴하지 않습니다.",
+      );
+    },
   };
 }
 export type Runtime = ReturnType<typeof createRuntime>;

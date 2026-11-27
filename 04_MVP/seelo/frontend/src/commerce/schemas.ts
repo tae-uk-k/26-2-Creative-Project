@@ -194,7 +194,7 @@ export const storeSchema = storeBaseSchema.extend({
   fieldSupport: fieldSupportSchema,
   browserRunner: z.enum(["worker", "inline"]).optional(),
   browserSession: browserSessionSchema,
-  // 운영자가 위임 목록에서 확인한 가게 고유값. 실행기가 이 값과 정확히 대조한다.
+  // 운영자가 위임 목록에서 확인한 스토어 고유값. 실행기가 이 값과 정확히 대조한다.
   delegatedIdentity: z
     .object({
       storeName: z.string().optional(),
@@ -276,8 +276,27 @@ export const productSchema = z.object({
   collectedAt: date,
   fieldSupport: fieldSupportSchema,
   prepareJob: z.lazy(() => jobSchema.nullable()).optional(),
+  automaticWritesEnabled: z.boolean().optional(),
+  // 상품 목록에서만 오는 진행 요약. 다음 할 일을 고르는 데 쓴다.
+  summary: z
+    .object({
+      planId: id.nullable(),
+      planStatus: z.string().nullable(),
+      questions: z.number().int().nonnegative(),
+      published: z.boolean(),
+      prepare: z.object({ status: z.string(), stale: z.boolean() }).nullable(),
+      measure: z.object({
+        runs: z.number().int().nonnegative(),
+        latestStatus: z.string().nullable(),
+        baseline: z.boolean(),
+        followUp: z.boolean(),
+      }),
+    })
+    .nullable()
+    .optional(),
 });
 export type Product = z.infer<typeof productSchema>;
+export type ProductSummary = NonNullable<Product["summary"]>;
 export const changeSchema = z.object({
   field: fieldSchema,
   before: z.string(),
@@ -453,6 +472,15 @@ const runRefSchema = z.object({
   label: z.string(),
   snapshotHash: hash,
   planId: id.nullable(),
+  condition: z
+    .object({
+      provider: z.enum(["openai", "gemini"]),
+      model: z.string(),
+      toolOptions: z.string(),
+      repeats: z.number().int(),
+    })
+    .optional(),
+  finishedAt: date.nullable().optional(),
 });
 export const measureCompareSchema = z.object({
   before: runRefSchema,

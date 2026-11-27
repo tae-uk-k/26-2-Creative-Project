@@ -1,0 +1,189 @@
+.storeName {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.storeName strong {
+  overflow: hidden;
+  font-size: var(--s-t5);
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.storeName span {
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+}
+.cardFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+}
+.detect {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  min-height: 3.5rem;
+  padding: var(--s-3) var(--s-4);
+  border-radius: var(--s-r-lg);
+  background: var(--s-grey50);
+  font-size: var(--s-t6);
+  transition: background-color var(--s-base) var(--s-ease);
+}
+.detect.found {
+  background: var(--s-blue50);
+}
+.detect strong {
+  font-weight: 700;
+}
+.detect span {
+  color: var(--s-grey600);
+}
+.more summary {
+  width: fit-content;
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+  font-weight: 500;
+  cursor: pointer;
+}
+.more[open] summary {
+  margin-bottom: var(--s-4);
+}
+.moreBody {
+  display: grid;
+  gap: var(--s-4);
+}
+.path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-1);
+}
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.875rem;
+  padding: 0 var(--s-3);
+  border-radius: var(--s-r-sm);
+  color: var(--s-grey900);
+  background: var(--s-grey100);
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+.crumb.last {
+  color: var(--s-blue700);
+  background: var(--s-blue50);
+}
+.sep {
+  width: 0.875rem;
+  height: 0.875rem;
+  color: var(--s-grey400);
+}
+.copyRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+.copy {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-height: 2.75rem;
+  padding: 0 var(--s-4);
+  border: 1px solid var(--s-grey200);
+  border-radius: var(--s-r-lg);
+  color: var(--s-grey900);
+  background: var(--s-paper);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.copy small {
+  color: var(--s-grey500);
+  font-size: var(--s-t7);
+  font-weight: 500;
+}
+.copy svg {
+  width: 1rem;
+  height: 1rem;
+  color: var(--s-grey500);
+}
+.copy:hover {
+  background: var(--s-grey50);
+}
+.guideActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-top: var(--s-6);
+}
+.wait {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-5);
+}
+.waitArt {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background: var(--s-blue50);
+  font-size: 2.1rem;
+}
+.waitText {
+  display: grid;
+  gap: var(--s-1);
+}
+.waitText strong {
+  font-size: var(--s-t4);
+  font-weight: 700;
+}
+.waitText span {
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-bottom: var(--s-3);
+}
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-3);
+  margin-top: var(--s-4);
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.statusGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
+  gap: var(--s-3);
+}
+.status {
+  display: grid;
+  gap: var(--s-2);
+  padding: var(--s-4);
+  border-radius: var(--s-r-lg);
+  background: var(--s-grey50);
+}
+.status span {
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+@media (max-width: 38rem) {
+  .wait {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,61 @@
+.body {
+  display: grid;
+  gap: var(--s-5);
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
+  gap: var(--s-3);
+}
+.tableWrap {
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: var(--s-t7);
+  font-variant-numeric: tabular-nums;
+}
+.table th,
+.table td {
+  padding: var(--s-3) var(--s-2);
+  border-top: 1px solid var(--s-grey100);
+  text-align: left;
+  vertical-align: top;
+}
+.table thead th {
+  border-top: 0;
+  color: var(--s-grey600);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.table tbody th {
+  font-weight: 500;
+  color: var(--s-grey800);
+}
+.qid {
+  display: inline-block;
+  min-width: 2.5rem;
+  color: var(--s-grey500);
+  font-weight: 700;
+}
+.hold {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--s-orange700);
+  font-weight: 600;
+}
+.change {
+  display: grid;
+  gap: var(--s-3);
+}
+.change h3 {
+  font-size: var(--s-t5);
+  font-weight: 700;
+}
+@media print {
+  .report :global(section) {
+    break-inside: avoid;
+  }
+}

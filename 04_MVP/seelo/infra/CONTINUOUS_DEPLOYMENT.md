@@ -27,7 +27,7 @@
 4. DB 백업 후 커밋별 `/opt/seelo/releases/git-<SHA>-<시각>`에 배치한다. 백엔드 이미지와 프런트 화면 이미지(`seelo-web:git-<SHA>`)를 빌드한다. 운영 env에 `SEELO_BROWSER_WORKER=true`가 있으면 Playwright 이미지(`seelo-backend-fix`)도 빌드하고 `worker-fix`를 함께 올린다. `deployment.json`은 `infra/nginx/meta`에 쓴다.
 5. 운영 환경의 이미지 태그와 `/opt/seelo/current`를 변경하고 API·메일 제외 기본 워커·AI 워커·nginx를 갱신한다. DB 컨테이너/볼륨은 교체하지 않는다.
 6. Docker readiness, 실제 HTTPS API/DB health, `/deployment.json`의 커밋 ID를 검증한다. 실패하면 운영 환경 파일과 current를 함께 이전 값으로 복원하고 이전 서비스를 올린다.
-7. GitHub에서 `infra/scripts/check-web.py --secure-cookie`로 첫 화면·직접 경로 새로고침·정적 파일·없는 파일 404·API 프록시·CSRF 쿠키·배포 커밋을 확인한다. 같은 스크립트를 로컬 Docker 검증에도 쓴다. 실패 시 브라우저 워커만 새로 올린 경우에는 이전 서비스를 올린 뒤 `worker-fix`를 멈춘다.
+7. GitHub에서 `infra/scripts/check-web.py --secure-cookie`로 첫 화면·직접 경로 새로고침·정적 파일·없는 파일 404·API 프록시·CSRF 쿠키·배포 커밋을 확인한다. 기존 `/prototype`은 고정 주소 이동과 캐시 정책을 함께 검사한다. 같은 스크립트를 로컬 Docker 검증에도 쓴다. 실패 시 브라우저 워커만 새로 올린 경우에는 이전 서비스를 올린 뒤 `worker-fix`를 멈춘다.
 
 배포 로그는 VM `/var/log/seelo-deploy/`의 root 전용 파일에 남는다. 이전 설정·이미지·백업·실패한 후보 파일은 삭제하지 않는다. DB migration은 별도 검토·실행 뒤 다시 배포한다.
 

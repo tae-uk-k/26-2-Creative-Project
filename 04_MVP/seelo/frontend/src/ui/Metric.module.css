@@ -1,0 +1,86 @@
+.metric {
+  display: grid;
+  gap: var(--s-3);
+  padding: var(--s-5);
+  border-radius: var(--s-r-xl);
+  background: var(--s-grey50);
+}
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-2);
+  color: var(--s-grey700);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.values {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s-2);
+  font-variant-numeric: tabular-nums;
+}
+.before {
+  color: var(--s-grey500);
+  font-size: var(--s-t4);
+  font-weight: 600;
+}
+.after {
+  color: var(--s-grey900);
+  font-size: var(--s-t1);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+}
+.arrow {
+  color: var(--s-grey400);
+}
+.delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  font-size: var(--s-t7);
+  font-weight: 700;
+}
+.delta svg {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.up {
+  color: var(--s-blue700);
+}
+.down {
+  color: var(--s-red700);
+}
+.flat {
+  color: var(--s-grey600);
+}
+.bars {
+  display: grid;
+  gap: 0.35rem;
+}
+.track {
+  position: relative;
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: var(--s-r-full);
+  background: var(--s-grey200);
+}
+.fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  transition: width 600ms var(--s-ease);
+}
+.fillBefore {
+  background: var(--s-grey400);
+}
+.fillAfter {
+  background: var(--s-blue500);
+}
+.caption {
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+}
+.single {
+  font-size: var(--s-t2);
+}

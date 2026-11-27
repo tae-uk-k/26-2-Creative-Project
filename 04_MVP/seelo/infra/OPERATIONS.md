@@ -63,13 +63,13 @@ SEELO_ENV_FILE=/실제/운영.env sh infra/scripts/restore-check.sh /실제/백�
 - `SENTRY_DSN`을 채우면 기존 앱의 Sentry 오류 수집을 사용한다. 실제 수집·알림 수신은 별도 확인해야 한다.
 - 실제 모니터·알림 대상은 아직 등록하지 않았다.
 
-## 5. 배포 뒤 수동 인수 기록(W-11-2)
+## 5. 배포 뒤 수동 인수 기록
 
 - [ ] VM·도메인·인증서·SMTP·외부 키·관리자 계정 준비.
 - [ ] 실제 HTTPS 건강 확인·쿠키 Secure·문서 비공개·토큰 로그 가림. `SEELO_DEPLOY_BASE_URL` 설정 뒤 `uv run pytest -m live tests/live/test_e2e_deploy.py`는 이 선행 확인만 수행한다.
-- [ ] 동의받은 가게로 가입·인증 → 식별·진단 → 신청·관리자 승인 → 초대·연결 확인 → 정비안 승인 → 정비 완료 → [지금 재측정] → 보고서·메일. ID·시각·비용·사용한 공급자를 기록한다.
-- [ ] 외부 API 한 곳을 끈 상태에서 다른 출처/공급자·메일이 계속 동작하는지 확인. AI 한 공급자가 전부 실패하면 실패율 30%를 넘으므로 **측정 실패·보고서 미생성·무료 미차감이 올바른 결과**다. 성공으로 위장하지 않는다.
-- [ ] 위 정상 시연을 **2번 연속** 성공한 기록. 실제 지도 쓰기는 승인·동의받은 칸만 한다.
+- [ ] 동의받은 판매자 스토어로 가입·인증 → 스토어 등록 → 관리자 위임·운영자 확인 → 상품 원본 수집 → AI 정비 준비·답변 → 고객 승인 → 운영자 저장·재조회 → 공개 반영 기록 → 복구. ID·시각·사용한 모델을 기록한다([운영 현황](../../../01_기획/운영/운영현황.md) C-10).
+- [ ] AI 공급자 하나를 끈 상태에서 AI 노출 측정이 실패 답변을 무효로 남기고 노출 0으로 세지 않는지 확인. 성공으로 위장하지 않는다.
+- [ ] 위 정상 흐름을 **2번 연속** 성공한 기록. 실제 쓰기는 동의받은 시험 상품의 승인 항목만 한다(`COMMERCE_WRITES_ENABLED`).
 - [ ] VM 밖 백업·복구 시험·7일 격리·5분 외부 감시·인증서 갱신·알림 도착 확인.
 
 로컬 가짜 Compose·자동 테스트는 위 실제 배포 체크를 대신하지 않는다.
@@ -81,6 +81,8 @@ SEELO_ENV_FILE=/실제/운영.env sh infra/scripts/restore-check.sh /실제/백�
 - [PostgreSQL 16 pg_dump](https://www.postgresql.org/docs/16/app-pgdump.html), [pg_restore](https://www.postgresql.org/docs/16/app-pgrestore.html)
 
 ## 현재 로컬 CLI 운영(2026-10-31)
+
+아래의 30% 실패율·보고서 생성 거부·무료 차감 규칙은 지도 베타 측정 코드에 적용된다. 쇼핑몰 AI 노출 진단은 호출 실패를 무효로 분리하고 같은 조건 회차끼리만 비교한다.
 
 - 현재 구성은 `docker-compose.prod.yml` + `docker-compose.local-ai.yml`이다. 서버에서는 두 파일을 고정한 `sudo /usr/local/sbin/seelo-compose`를 사용한다. 일반 실행 예시를 그대로 사용해 overlay를 누락하지 않는다.
 - `AI_BACKEND=local_cli`, Codex 모델 `codex-cli/gpt-6.1-sol`, 시험 반복 1회·공급자별 동시 1이다. API 키로 자동 대체하지 않는다. CLI의 구독/사용 한도와 API 청구액은 별개다. `DAILY_COST_LIMIT_USD=0`은 기존 API 측정 코드에서 **무제한**이며 호출 차단 값이 아니다.

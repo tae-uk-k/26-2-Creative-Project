@@ -1,0 +1,170 @@
+/* 가로 단계 표시 */
+.stepper {
+  display: grid;
+  grid-template-columns: repeat(var(--count), minmax(0, 1fr));
+  gap: var(--s-1);
+}
+.step {
+  display: grid;
+  gap: var(--s-2);
+  min-width: 0;
+}
+.bar {
+  height: 0.25rem;
+  border-radius: var(--s-r-full);
+  background: var(--s-grey200);
+  transition: background-color var(--s-base) var(--s-ease);
+}
+.done .bar,
+.current .bar {
+  background: var(--s-blue500);
+}
+.error .bar {
+  background: var(--s-red500);
+}
+.stepLabel {
+  overflow: hidden;
+  color: var(--s-grey400);
+  font-size: var(--s-t7);
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.done .stepLabel {
+  color: var(--s-grey600);
+}
+.current .stepLabel {
+  color: var(--s-blue700);
+  font-weight: 700;
+}
+.error .stepLabel {
+  color: var(--s-red700);
+  font-weight: 700;
+}
+.compact {
+  display: none;
+  color: var(--s-grey700);
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+.compact b {
+  color: var(--s-blue700);
+}
+@media (max-width: 38rem) {
+  .stepLabel {
+    display: none;
+  }
+  .compact {
+    display: block;
+    margin-top: var(--s-2);
+  }
+}
+
+/* 세로 진행 목록 */
+.timeline {
+  display: grid;
+  gap: 0;
+}
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  column-gap: var(--s-3);
+  padding-bottom: var(--s-5);
+}
+.item:last-child {
+  padding-bottom: 0;
+}
+.item::before {
+  content: "";
+  position: absolute;
+  top: 2.1rem;
+  bottom: 0.25rem;
+  left: calc(1rem - 1px);
+  width: 2px;
+  border-radius: 1px;
+  background: var(--s-grey200);
+}
+.item:last-child::before {
+  display: none;
+}
+.item.done::before {
+  background: var(--s-blue200);
+}
+.marker {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: var(--s-grey500);
+  background: var(--s-grey100);
+  font-size: var(--s-t7);
+  font-weight: 700;
+}
+.marker svg {
+  width: 1rem;
+  height: 1rem;
+}
+.item.done .marker {
+  color: #fff;
+  background: var(--s-blue500);
+}
+.item.current .marker {
+  color: var(--s-blue700);
+  background: var(--s-blue50);
+  box-shadow: inset 0 0 0 2px var(--s-blue500);
+}
+.item.error .marker {
+  color: #fff;
+  background: var(--s-red500);
+}
+.itemBody {
+  display: grid;
+  gap: var(--s-1);
+  min-width: 0;
+  padding-top: 0.3rem;
+}
+.itemTitle {
+  color: var(--s-grey500);
+  font-size: var(--s-t5);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.item.done .itemTitle {
+  color: var(--s-grey700);
+}
+.item.current .itemTitle {
+  color: var(--s-grey900);
+  font-weight: 700;
+}
+.item.error .itemTitle {
+  color: var(--s-red700);
+}
+.itemText {
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.itemContent {
+  margin-top: var(--s-3);
+}
+.spin {
+  animation: rotate 0.9s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.guide .item .marker {
+  color: var(--s-grey800);
+  background: var(--s-grey100);
+  box-shadow: none;
+}
+.guide .item .itemTitle {
+  color: var(--s-grey900);
+  font-weight: 650;
+}
+.guide .item::before {
+  background: var(--s-grey200);
+}

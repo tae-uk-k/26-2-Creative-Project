@@ -10,7 +10,24 @@ import pytest
 
 from seelo.integrations.browser import commerce
 from seelo.integrations.commerce import CommerceApiError
+from seelo.services import commerce_service
 from tests.browser_site import BrowserThread
+
+
+def test_store_specific_selector_is_used_by_api_and_worker(monkeypatch, tmp_path):
+    monkeypatch.setattr(commerce.get_settings(), "commerce_browser_config_dir", str(tmp_path))
+    target = tmp_path / "cafe24" / "demo" / "2.yaml"
+    target.parent.mkdir(parents=True)
+    target.write_text(json.dumps({"fields": {"description": {"selector": "#body"}}}), encoding="utf-8")
+    shop = SimpleNamespace(external_id="demo", shop_no=2)
+    worker = commerce.BrowserProduct("cafe24", "demo", 2)
+    api = commerce_service.support_for("cafe24", "browser", shop)
+    assert set(api["automatic"]) == worker.supported_fields == {"description"}
+    assert "seo.meta_title" in commerce.BrowserProduct("cafe24", "demo", 1).supported_fields
+    target.write_text("[\n", encoding="utf-8")
+    assert not commerce_service.support_for("cafe24", "browser", shop)["automatic"]
+    with pytest.raises(CommerceApiError, match="selectors_missing"):
+        commerce.BrowserProduct("cafe24", "demo", 2)
 
 
 def config(store_switch=True, catalog=True):

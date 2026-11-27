@@ -81,20 +81,28 @@ async def run_view(db: AsyncSession, run: CommerceMeasureRun, *, answers: bool =
         .limit(1)
     )
     views = [answer_view(r) for r in rows]
+    summary = rules.summarize(measure_set.queries, run.condition["repeats"], views)
+    queued_job = job_view(job)
+    status = run.status
+    if status in {"queued", "running"} and queued_job and (
+        queued_job["status"] == "failed" or queued_job["stale"]
+    ):
+        # 작업 실패·취소와 중단 의심 상태도 조회에 반영한다. 이미 저장한 정상 응답은 보존한다.
+        status = "partial" if summary["totals"]["valid"] else "failed"
     view = {
         "id": run.id,
         "setId": run.set_id,
         "productId": run.product_id,
         "label": run.label,
-        "status": run.status,
+        "status": status,
         "condition": run.condition,
         "snapshotHash": run.snapshot_hash,
         "planId": run.plan_id,
         "createdAt": run.created_at,
         "startedAt": run.started_at,
         "finishedAt": run.finished_at,
-        "job": job_view(job),
-        "summary": rules.summarize(measure_set.queries, run.condition["repeats"], views),
+        "job": queued_job,
+        "summary": summary,
     }
     if answers:
         view["answers"] = views
@@ -197,6 +205,8 @@ async def _ask(provider: str, model: str, prompt: str) -> tuple[dict | None, str
         result = await client.web_answer(prompt, model=model)
     except LlmError as error:
         return None, error.reason
+    if not result.text.strip():
+        return None, "empty_answer"
     return {"text": result.text, "sources": result.sources, "model_id": result.model_id}, None
 
 

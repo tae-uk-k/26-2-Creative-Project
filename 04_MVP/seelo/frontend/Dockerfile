@@ -8,6 +8,9 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 COPY . .
+# 스마트스토어 위임 안내에 보여 줄 seelo 담당자. 판매자에게 공개하는 값이며 비밀값이 아니다.
+ARG VITE_SEELO_MANAGER_NAME=
+ARG VITE_SEELO_MANAGER_PHONE=
 # tsc --noEmit 후 vite build. 타입 오류가 있으면 이미지를 만들지 않는다.
 RUN npm run build
 

@@ -58,6 +58,12 @@ jobs:
         run: uv run --group browser python ../frontend/tests/check_backend_contract.py
       - name: 프런트 배포 이미지 빌드
         run: docker build -t seelo-web:ci ../frontend
+      - name: 프런트·기존 제출 주소 nginx 설정 검사
+        run: |
+          docker run --rm \
+            -v "$PWD/../infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro" \
+            -v "$PWD/../infra/nginx/prototype.conf:/etc/nginx/snippets/prototype.conf:ro" \
+            seelo-web:ci nginx -t
 
   deploy:
     needs: verify

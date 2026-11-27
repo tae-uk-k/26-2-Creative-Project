@@ -15,6 +15,9 @@ x-backend: &backend
     DATABASE_URL: postgresql+psycopg://seelo:seelo@db:5432/seelo
     QUEUE_DATABASE_DSN: postgresql://seelo:seelo@db:5432/seelo
     SMTP_HOST: ${SMTP_HOST:-mailpit}
+    COMMERCE_BROWSER_CONFIG_DIR: /data/commerce-config
+  volumes:
+    - ${COMMERCE_BROWSER_CONFIG_HOST_DIR:-commerce-config}:/data/commerce-config:ro
   restart: unless-stopped
 
 services:
@@ -86,6 +89,7 @@ services:
     command: ["python", "-m", "seelo.worker.run", "--queues", "fix,commerce_browser", "--concurrency", "2", "--name", "fix"]
     volumes:
       - browser:/data/browser
+      - ${COMMERCE_BROWSER_CONFIG_HOST_DIR:-commerce-config}:/data/commerce-config:ro
     depends_on:
       migrate:
         condition: service_completed_successfully
@@ -100,6 +104,7 @@ services:
     image: seelo-web:dev
     volumes:
       - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./infra/nginx/prototype.conf:/etc/nginx/snippets/prototype.conf:ro
       - ./infra/nginx/meta:/usr/share/nginx/meta:ro
     ports:
       - "8080:80"
@@ -117,3 +122,4 @@ services:
 volumes:
   pgdata:
   browser:
+  commerce-config:

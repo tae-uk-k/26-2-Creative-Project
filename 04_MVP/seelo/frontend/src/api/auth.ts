@@ -107,15 +107,15 @@ export function createAuthApi(client: ApiClient) {
 // 외부 URL·프로토콜 상대 경로·역슬래시를 복귀 대상으로 사용하지 않는다.
 export function safeReturnTo(value: string | null | undefined): string {
   if (!value || !/^\/(?!\/)/.test(value) || /[\\\u0000-\u0020]/.test(value))
-    return "/stores";
+    return "/home";
   try {
     const url = new URL(value, "https://seelo.local");
     return url.origin === "https://seelo.local" &&
       !/^\/(login|signup)(\/|$)/.test(url.pathname)
       ? `${url.pathname}${url.search}${url.hash}`
-      : "/stores";
+      : "/home";
   } catch {
-    return "/stores";
+    return "/home";
   }
 }
 
@@ -130,7 +130,7 @@ export function peekOAuthReturn(): string {
   try {
     return safeReturnTo(sessionStorage.getItem("seelo-oauth-return"));
   } catch {
-    return "/stores";
+    return "/home";
   }
 }
 export function consumeOAuthReturn(): string {
@@ -139,6 +139,6 @@ export function consumeOAuthReturn(): string {
     sessionStorage.removeItem("seelo-oauth-return");
     return safeReturnTo(value);
   } catch {
-    return "/stores";
+    return "/home";
   }
 }

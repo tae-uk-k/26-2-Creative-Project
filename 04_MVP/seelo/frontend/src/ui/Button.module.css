@@ -1,0 +1,118 @@
+.button {
+  --bg: var(--s-blue500);
+  --fg: #fff;
+  --bg-hover: var(--s-blue600);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2);
+  min-height: 2.75rem;
+  padding: 0 var(--s-5);
+  border: 0;
+  border-radius: var(--s-r-lg);
+  color: var(--fg);
+  background: var(--bg);
+  font-size: var(--s-t6);
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition:
+    background-color var(--s-fast) var(--s-ease),
+    transform var(--s-fast) var(--s-ease),
+    opacity var(--s-fast) var(--s-ease);
+  -webkit-tap-highlight-color: transparent;
+}
+.button:hover {
+  background: var(--bg-hover);
+}
+.button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.button:disabled,
+.button[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+.button svg {
+  flex: none;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.secondary {
+  --bg: var(--s-grey100);
+  --fg: var(--s-grey800);
+  --bg-hover: var(--s-grey200);
+}
+.tertiary {
+  --bg: var(--s-blue50);
+  --fg: var(--s-blue700);
+  --bg-hover: var(--s-blue100);
+}
+.ghost {
+  --bg: transparent;
+  --fg: var(--s-grey700);
+  --bg-hover: var(--s-grey100);
+}
+.danger {
+  --bg: var(--s-red500);
+  --fg: #fff;
+  --bg-hover: var(--s-red700);
+}
+.dangerSoft {
+  --bg: var(--s-red50);
+  --fg: var(--s-red700);
+  --bg-hover: var(--s-red100);
+}
+.sm {
+  min-height: 2.25rem;
+  padding: 0 var(--s-3);
+  border-radius: var(--s-r-md);
+  font-size: var(--s-t7);
+}
+.lg {
+  min-height: 3.5rem;
+  padding: 0 var(--s-6);
+  border-radius: var(--s-r-xl);
+  font-size: var(--s-t5);
+}
+.block {
+  display: flex;
+  width: 100%;
+}
+.loading {
+  color: transparent;
+}
+.spinner {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--fg);
+}
+.spinner svg {
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  padding: 0;
+  border: 0;
+  color: var(--s-grey600);
+  background: none;
+  font-size: var(--s-t6);
+  font-weight: 500;
+}
+.textLink:hover {
+  color: var(--s-grey900);
+}
+.textLink svg {
+  width: 1rem;
+  height: 1rem;
+}

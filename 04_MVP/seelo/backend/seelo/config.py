@@ -20,6 +20,8 @@ class Settings(BaseSettings):
     fake_map_behavior: Literal["normal", "block", "reflect_delay"] = "normal"
     # 쇼핑몰은 공식 연결을 마치고 승인한 상품만 쓴다. 가입·매니저 초대는 API 인증과 별개다.
     commerce_writes_enabled: bool = False
+    # 파일럿에서는 seelo 스토어 번호 → 플랫폼 원상품번호 목록을 지정한다.
+    commerce_write_targets: dict[int, list[str]] = {}
     commerce_edit_mode: Literal["browser", "api"] = "browser"
     commerce_browser_config_dir: str = ""
     commerce_browser_profile_root: str = "/data/browser/commerce"

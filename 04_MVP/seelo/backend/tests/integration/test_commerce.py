@@ -331,6 +331,22 @@ async def test_concurrent_approval_and_sending_are_single_use(client, db, monkey
     assert w.counter["writes"] == 1
 
 
+async def test_pilot_write_targets_allow_only_configured_product(client, db, monkeypatch):
+    w = await world(client, db, monkeypatch)
+    p = await plan(client, w)
+    await approve(client, p)
+    monkeypatch.setattr(get_settings(), "commerce_writes_enabled", True)
+    monkeypatch.setattr(get_settings(), "commerce_write_targets", {w.shop_id: ["999"]})
+    product = await client.get(f"/api/commerce/products/{w.product['id']}")
+    assert product.json()["automaticWritesEnabled"] is False
+    denied = await client.post(f"/api/commerce/plans/{p['id']}/apply")
+    assert denied.json()["error"]["code"] == "COMMERCE_WRITES_DISABLED"
+    assert w.counter["writes"] == 0
+    monkeypatch.setattr(get_settings(), "commerce_write_targets", {w.shop_id: ["123"]})
+    allowed = await client.post(f"/api/commerce/plans/{p['id']}/apply")
+    assert allowed.status_code == 200 and w.counter["writes"] == 1
+
+
 async def test_changed_product_cannot_be_overwritten(client, db, monkeypatch):
     w = await world(client, db, monkeypatch)
     p = await plan(client, w)
@@ -1132,6 +1148,8 @@ async def test_measure_runs_store_raw_answers_and_compare_same_condition(client,
         calls.append((prompt, model))
         n = len(calls)
         if "통기성" in prompt and n % 2 == 0:
+            if n == 4:
+                return SimpleNamespace(text="   ", sources=[], model_id=model)
             raise LlmError("openai", "timeout")
         if "통기성" in prompt:
             return SimpleNamespace(text="1. 다른 셔츠\n2. 또 다른 셔츠", sources=[], model_id=model)
@@ -1167,6 +1185,7 @@ async def test_measure_runs_store_raw_answers_and_compare_same_condition(client,
         .where(CommerceMeasureAnswer.status == "failed")
     )
     assert failed == g02["failedAttempts"]
+    assert any(answer["errorCode"] == "empty_answer" for answer in run["answers"])
     assert run["status"] in {"completed", "partial"} and run["answers"][0]["rawText"]
     second = await client.post(
         f"/api/commerce/measure-sets/{measure_set['id']}/runs",
@@ -1193,3 +1212,32 @@ async def test_measure_runs_store_raw_answers_and_compare_same_condition(client,
     await make_user(db, "commerce-measure-other@seelo.test")
     await login(client, "commerce-measure-other@seelo.test")
     assert (await client.get(f"/api/commerce/measure-runs/{first.json()['id']}")).status_code == 404
+
+
+@pytest.mark.parametrize("failure", ["disconnected", "stalled"])
+async def test_terminal_measure_job_does_not_report_waiting(client, db, monkeypatch, failure):
+    from seelo.models.commerce import CommerceJob
+
+    w = await world(client, db, monkeypatch)
+    monkeypatch.setattr(get_settings(), "openai_measure_model", "m-openai")
+    response = await client.post(
+        f"/api/commerce/products/{w.product['id']}/measure-sets",
+        json={"name": "중단 시험", "queries": [{"id": "G01", "question": "면 셔츠를 찾아줘."}]},
+    )
+    assert response.status_code == 201, response.text
+    requested = await client.post(
+        f"/api/commerce/measure-sets/{response.json()['id']}/runs",
+        json={"label": "B0", "provider": "openai", "repeats": 1},
+    )
+    assert requested.status_code == 202, requested.text
+    payload = requested.json()
+    if failure == "disconnected":
+        assert (await client.post(f"/api/commerce/shops/{w.shop_id}/disconnect")).status_code == 200
+    else:
+        job = await db.get(CommerceJob, payload["job"]["id"])
+        job.created_at = now_utc() - timedelta(minutes=get_settings().commerce_job_stale_minutes + 1)
+        await db.commit()
+    run = (await client.get(f"/api/commerce/measure-runs/{payload['id']}")).json()
+    assert run["status"] == "failed"
+    assert run["summary"]["totals"]["rates"]["identified"] is None
+    assert (run["job"]["errorCode"] == "disconnected" if failure == "disconnected" else run["job"]["stale"])

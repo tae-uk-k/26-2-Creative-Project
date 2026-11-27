@@ -62,7 +62,7 @@ class ShopCreate(CommerceInput):
 
 class ManagerStatus(CommerceInput):
     status: Literal["invited", "verified", "revoked"]
-    # 운영자가 위임 목록에서 직접 확인한 고유값. 가게 선택에 그대로 대조한다(AI 추정 금지).
+    # 운영자가 위임 목록에서 직접 확인한 고유값. 스토어 선택에 그대로 대조한다(AI 추정 금지).
     store_name: str | None = Field(default=None, min_length=1, max_length=100)
     store_id: str | None = Field(default=None, pattern=r"^[A-Za-z0-9_.:-]{1,100}$")
 

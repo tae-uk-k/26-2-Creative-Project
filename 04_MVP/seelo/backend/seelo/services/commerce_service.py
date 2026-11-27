@@ -89,12 +89,15 @@ def event(db: AsyncSession, user: User, action: str, shop_id: int, **detail) -> 
     )
 
 
-def support_for(platform: str, mode: str) -> dict:
+def support_for(platform: str, mode: str, shop: CommerceShop | None = None) -> dict:
     browser = None
     if mode == "browser":
         from seelo.integrations.browser.commerce import configured_fields
 
-        browser = configured_fields(platform)
+        if shop is None:
+            browser = configured_fields(platform)
+        else:
+            browser = configured_fields(platform, shop.external_id, shop.shop_no)
     return rules.field_support(platform, mode, browser)
 
 
@@ -107,7 +110,7 @@ def product_mode(product: CommerceProduct) -> str:
 
 def check_plan_fields(shop: CommerceShop, product: CommerceProduct, changes: list[dict]) -> None:
     """승인·저장 직전에 현재 실행기가 받는 필드인지 다시 확인한다. 설정이 바뀐 옛 정비안도 막는다."""
-    support = support_for(shop.platform, product_mode(product))
+    support = support_for(shop.platform, product_mode(product), shop)
     rejected = []
     for change in changes:
         if change["method"] == "manual":
@@ -124,6 +127,17 @@ def check_plan_fields(shop: CommerceShop, product: CommerceProduct, changes: lis
         )
 
 
+def writes_allowed(shop_id: int, product_no: str | None = None) -> bool:
+    settings = get_settings()
+    if not settings.commerce_writes_enabled:
+        return False
+    targets = settings.commerce_write_targets
+    if not targets:
+        return True
+    allowed = targets.get(shop_id, [])
+    return product_no in allowed if product_no is not None else bool(allowed)
+
+
 def shop_view(shop: CommerceShop) -> dict:
     return {
         "id": shop.id,
@@ -136,9 +150,9 @@ def shop_view(shop: CommerceShop) -> dict:
         "apiStatus": shop.api_status,
         "readVerifiedAt": shop.read_verified_at,
         "writeVerifiedAt": shop.write_verified_at,
-        "automaticWritesEnabled": get_settings().commerce_writes_enabled,
+        "automaticWritesEnabled": writes_allowed(shop.id),
         "editingMode": get_settings().commerce_edit_mode,
-        "fieldSupport": support_for(shop.platform, get_settings().commerce_edit_mode),
+        "fieldSupport": support_for(shop.platform, get_settings().commerce_edit_mode, shop),
         "browserRunner": get_settings().commerce_browser_runner,
         # 마지막 브라우저 작업에서 확인한 로그인 상태. login_required면 담당자 재로그인이 필요하다.
         "browserSession": (shop.delegation or {}).get("browserSession"),
@@ -163,7 +177,8 @@ def product_view(product: CommerceProduct, shop: CommerceShop) -> dict:
         "snapshotSource": product.snapshot_source,
         "facts": [fact_view(f) for f in product.facts],
         "collectedAt": product.collected_at,
-        "fieldSupport": support_for(shop.platform, product_mode(product)),
+        "fieldSupport": support_for(shop.platform, product_mode(product), shop),
+        "automaticWritesEnabled": writes_allowed(shop.id, product.external_id),
     }
 
 
@@ -269,7 +284,7 @@ async def manager_status(
                 "verifiedAt": now_utc().isoformat(),
             }
     elif status == "revoked":
-        # 권한 회수 뒤에는 이전에 확인한 가게 고유값으로 다시 선택하지 않는다.
+        # 권한 회수 뒤에는 이전에 확인한 스토어 고유값으로 다시 선택하지 않는다.
         delegation.pop("identity", None)
     shop.delegation = delegation
     event(db, user, "manager", shop.id, status=status, identityRecorded=bool(store_name or store_id))
@@ -688,8 +703,8 @@ async def answers(db: AsyncSession, user: User, product_id: int, body: schema.An
 async def generate(db: AsyncSession, user: User, product_id: int, body: schema.PlanCreate) -> dict:
     shop, product = await owned_product(db, user, product_id)
     owner(shop, user)
-    support = support_for(shop.platform, product_mode(product))
-    # 사장님이 고르지 않으면 현재 실행기가 자동 저장하는 권장 범위를 쓴다.
+    support = support_for(shop.platform, product_mode(product), shop)
+    # 판매자가 고르지 않으면 현재 실행기가 자동 저장하는 권장 범위를 쓴다.
     fields = body.fields or (
         rules.recommended_fields(support["automatic"], product.snapshot["fields"])
         if body.use_ai
@@ -840,7 +855,7 @@ async def apply_precheck(db: AsyncSession, user: User, plan_id: int, *, rollback
         plan.status = "manual_required"
         await db.commit()
         return None
-    if not get_settings().commerce_writes_enabled:
+    if not writes_allowed(shop.id, product.external_id):
         raise AppError("COMMERCE_WRITES_DISABLED")
     if product.snapshot_source not in {"api", "browser"}:
         raise AppError("COMMERCE_NOT_CONNECTED", {"reason": "verified_snapshot_required"})
@@ -1139,7 +1154,7 @@ async def auto_prepare(db: AsyncSession, user: User, shop: CommerceShop, product
 
 
 async def catalog(db: AsyncSession, user: User, shop_id: int, options: dict) -> dict:
-    """위임받은 관리 화면의 외부 상품 목록. 가게 대조를 통과한 화면에서만 읽는다."""
+    """위임받은 관리 화면의 외부 상품 목록. 스토어 대조를 통과한 화면에서만 읽는다."""
     shop = await owned_shop(db, user, shop_id)
     if get_settings().commerce_edit_mode != "browser":
         raise AppError("COMMERCE_INVALID", {"reason": "catalog_requires_browser_mode"})

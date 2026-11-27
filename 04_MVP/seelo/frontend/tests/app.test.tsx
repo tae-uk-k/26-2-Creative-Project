@@ -4,6 +4,7 @@ import {
   render,
   screen,
   waitFor,
+  within,
 } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { MemoryRouter } from "react-router-dom";
@@ -30,128 +31,151 @@ function mount(path: string, runtime: Runtime = createRuntime("demo")) {
 }
 const change = (label: string, value: string) =>
   fireEvent.change(screen.getByLabelText(label), { target: { value } });
-describe("기본 폼 통합", () => {
-  it("카페24 근거 저장 → 생성 → 승인 → 적용 → 복구를 실행한다", async () => {
-    const runtime = mount("/stores/1/products");
-    fireEvent.click(
-      await screen.findByRole("link", { name: "시연용 텀블러 500mL" }),
+const mainNav = () =>
+  within(screen.getByRole("navigation", { name: "주요 메뉴" }));
+// 근거를 직접 넣고 정비안을 만든 뒤 정비안 검토 화면에서 승인한다.
+async function draftAndApprove() {
+  fireEvent.click(await screen.findByText("직접 보완·범위 지정"));
+  change("확인한 값", "일상용");
+  change("근거 주소", "https://example.com/source");
+  change("값이 포함된 인용문", "일상용 텀블러입니다.");
+  fireEvent.click(screen.getByRole("button", { name: "근거 저장" }));
+  await screen.findByText("일상용");
+  fireEvent.click(
+    screen.getByRole("button", { name: "선택한 항목으로 정비안 생성" }),
+  );
+  fireEvent.click(await screen.findByRole("link", { name: /정비안 확인하기/ }));
+  fireEvent.click(await screen.findByRole("button", { name: /승인하기/ }));
+  fireEvent.click(
+    within(await screen.findByRole("dialog")).getByRole("button", {
+      name: "정비안 승인",
+    }),
+  );
+}
+describe("화면 통합", () => {
+  it("랜딩은 시안 문구와 바꾼 FAQ 답을 보여 주고 로그인으로 이어진다", async () => {
+    const runtime = createRuntime("api");
+    runtime.queryClient.setQueryData(sessionKey, null);
+    mount("/", runtime);
+    await screen.findByRole("heading", {
+      name: "AI 검색에서 우리 상품이 답이 되도록",
+    });
+    expect(
+      screen.getByText(
+        "쇼핑몰 주소만 등록하면 seelo가 현재 상세페이지와 공개 자료를 먼저 조사하고, 확인되지 않은 정보만 여쭤봅니다.",
+      ),
+    ).toBeDefined();
+    expect(screen.getByRole("link", { name: "로그인" })).toBeDefined();
+  });
+  it("홈은 스토어 위임·보고서 같은 할 일을 카드로 모은다", async () => {
+    mount("/home");
+    const todos = await screen.findByRole("list", { name: "지금 할 일" });
+    await waitFor(() =>
+      expect(todos.textContent).toContain("보고서가 준비됐어요"),
     );
-    await screen.findByRole("button", { name: "근거 저장" });
-    change("확인한 값", "일상용");
-    change("근거 주소", "https://example.com/source");
-    change("값이 포함된 인용문", "일상용 텀블러입니다.");
-    fireEvent.click(screen.getByRole("button", { name: "근거 저장" }));
-    await screen.findByText(/^용도: 일상용/, { selector: "li" });
+    expect(todos.textContent).toContain("권한 위임을 마쳐 주세요");
+    expect(
+      screen.getByRole("list", { name: "진행 중 목록" }).textContent,
+    ).toContain("권한 확인 중 시연 스토어");
+  });
+  it.each([
+    [3, "seelo 담당자를 대행사 매니저로 초대", "판매자센터 열기"],
+    [1, "seelo 전용 부운영자 만들기", "카페24 관리자 열기"],
+  ])(
+    "연결 전 스토어 %i에 플랫폼별 위임 순서를 보여 준다",
+    async (id, step, admin) => {
+      const runtime = createRuntime("demo");
+      const store = await runtime.gateway.store(id);
+      runtime.gateway.store = vi.fn().mockResolvedValue({
+        ...store,
+        editingMode: "browser",
+        managerStatus: "not_requested",
+      });
+      mount(`/stores/${id}`, runtime);
+      const steps = await screen.findByRole("list", { name: "권한 위임 순서" });
+      expect(steps.textContent).toContain(step);
+      expect(screen.getByRole("link", { name: admin })).toBeDefined();
+    },
+  );
+  it("초대를 보내면 확인 대기 화면으로 바뀐다", async () => {
+    mount("/stores/3");
     fireEvent.click(
-      screen.getByRole("button", { name: "선택한 항목으로 정비안 생성" }),
+      await screen.findByRole("button", { name: "초대를 보냈어요" }),
     );
-    await screen.findByText("정비안 승인 대기");
-    fireEvent.click(screen.getByLabelText("선택한 변경 값을 확인했습니다."));
-    fireEvent.click(screen.getByRole("button", { name: "정비안 승인" }));
+    await screen.findByText("seelo가 권한을 확인하고 있어요");
+  });
+  it("근거 저장 → 생성 → 승인 → 운영자 반영 → 복구를 실행한다", async () => {
+    const runtime = mount("/stores/1/products/11");
+    await draftAndApprove();
     fireEvent.click(
       await screen.findByRole("button", { name: "승인한 변경 적용" }),
     );
-    await screen.findByText("저장·API 재조회 완료 · 공개 반영 미확인");
-    expect(screen.getByText("PC: 미확인 · 모바일: 미확인")).toBeDefined();
+    await screen.findByText("쇼핑몰에 반영했어요");
     fireEvent.click(
-      screen.getByLabelText("승인한 필드의 수정 전 값으로 복구합니다."),
+      screen.getByRole("button", { name: "수정 전으로 되돌리기" }),
     );
-    fireEvent.click(screen.getByRole("button", { name: "원본 값 복구" }));
-    await screen.findByText("원본 값 복구됨 · 공개 반영 미확인");
+    fireEvent.click(
+      within(screen.getByRole("dialog")).getByRole("button", {
+        name: "원본 값 복구",
+      }),
+    );
+    await screen.findByText("수정 전으로 되돌렸어요");
     expect(runtime.queryClient.getQueryData(keys.store(1))).toMatchObject({
       apiStatus: "write_verified",
     });
   });
-  it("연결 해제 후 수집 버튼과 권한 상태를 바로 갱신한다", async () => {
-    mount("/stores/1/products");
-    const importButton = await screen.findByRole("button", {
-      name: "API로 원본 수집",
-    });
-    expect((importButton as HTMLButtonElement).disabled).toBe(false);
-    fireEvent.click(screen.getByText("연결 해제", { selector: "summary" }));
-    const submit = screen.getByRole("button", { name: "연결 해제" });
-    expect((submit as HTMLButtonElement).disabled).toBe(true);
+  it("연결 해제는 확인한 뒤에만 실행하고 상품 추가를 막는다", async () => {
+    mount("/stores/1/settings");
+    fireEvent.click(await screen.findByRole("button", { name: "연결 해제" }));
+    const dialog = within(screen.getByRole("dialog"));
+    const confirm = dialog.getByRole("button", { name: "연결 해제" });
+    expect((confirm as HTMLButtonElement).disabled).toBe(true);
     fireEvent.click(
-      screen.getByLabelText("이 스토어의 seelo 연결을 해제합니다."),
+      dialog.getByLabelText("이 스토어의 seelo 연결을 해제합니다."),
     );
-    fireEvent.click(submit);
-    await screen.findByText("관리자 권한: 권한 해제됨");
-    await waitFor(() =>
-      expect(
-        (
-          screen.getByRole("button", {
-            name: "API로 원본 수집",
-          }) as HTMLButtonElement
-        ).disabled,
-      ).toBe(true),
-    );
+    fireEvent.click(confirm);
+    await screen.findByRole("heading", { name: "API 연결" });
+    expect(screen.queryByRole("button", { name: /API로 불러오기/ })).toBeNull();
   });
-  it("이전 정비안을 골라 쓰기 이력을 보고 복구한다", async () => {
-    mount("/stores/1/products");
-    fireEvent.click(
-      await screen.findByRole("link", { name: "시연용 텀블러 500mL" }),
-    );
-    await screen.findByRole("button", { name: "근거 저장" });
-    change("확인한 값", "일상용");
-    change("근거 주소", "https://example.com/source");
-    change("값이 포함된 인용문", "일상용 텀블러입니다.");
-    fireEvent.click(screen.getByRole("button", { name: "근거 저장" }));
-    await screen.findByText(/^용도: 일상용/, { selector: "li" });
-    fireEvent.click(
-      screen.getByRole("button", { name: "선택한 항목으로 정비안 생성" }),
-    );
-    await screen.findByText("정비안 승인 대기");
-    fireEvent.click(screen.getByLabelText("선택한 변경 값을 확인했습니다."));
-    fireEvent.click(screen.getByRole("button", { name: "정비안 승인" }));
+  it("이전 정비안을 골라 쓰기 이력을 본다", async () => {
+    mount("/stores/1/products/11");
+    await draftAndApprove();
     fireEvent.click(
       await screen.findByRole("button", { name: "승인한 변경 적용" }),
     );
-    await screen.findByText("저장·API 재조회 완료 · 공개 반영 미확인");
-    const firstPlan = screen
-      .getByRole("heading", { level: 3, name: /정비안 #/ })
-      .textContent!.match(/#(\d+)/)![1];
-    fireEvent.click(
-      screen.getByRole("button", { name: "선택한 항목으로 정비안 생성" }),
-    );
-    await screen.findByText("정비안 승인 대기");
-    fireEvent.click(screen.getByRole("link", { name: `#${firstPlan}` }));
-    await screen.findByText(`정비안 #${firstPlan} (이전 정비안)`);
-    await screen.findByText(`정비안 #${firstPlan}의 쓰기 이력`);
-    expect(screen.queryByRole("button", { name: "정비안 승인" })).toBeNull();
-    fireEvent.click(
-      screen.getByLabelText("승인한 필드의 수정 전 값으로 복구합니다."),
-    );
-    fireEvent.click(screen.getByRole("button", { name: "원본 값 복구" }));
-    await screen.findByText("상태: rolled_back");
+    await screen.findByText("쇼핑몰에 반영했어요");
+    const history = screen.getByRole("list", { name: "정비안 이력" });
+    fireEvent.click(within(history).getAllByRole("link")[0]);
+    await screen.findByRole("list", { name: /의 쓰기 이력$/ });
+    expect(await screen.findByText("쇼핑몰 반영")).toBeDefined();
+    expect(screen.queryByRole("button", { name: /승인하기/ })).toBeNull();
   });
-  it("스토어 주소만 입력해 플랫폼과 스토어 ID를 등록한다", async () => {
-    mount("/stores");
-    await screen.findByText("카페24 시연 스토어");
+  it("스토어 주소만 입력해 플랫폼을 알아보고 등록한다", async () => {
+    mount("/stores/new");
     change("스토어 주소", "https://smartstore.naver.com/newstore/products/1");
+    await screen.findByText("newstore", { exact: false });
     fireEvent.click(screen.getByRole("button", { name: "스토어 등록" }));
-    await screen.findByText("스마트스토어 스토어 newstore으로 등록했습니다.");
+    await screen.findByRole("heading", { name: "newstore" });
   });
-  it("운영자 화면은 고객 스토어와 고객 승인 대기를 보여 준다", async () => {
-    const runtime = mount("/stores/1/products");
+  it("운영자는 고객 승인 대기를 보고 승인하지 못한다", async () => {
+    const runtime = mount("/stores/1/products/11");
     fireEvent.click(
-      await screen.findByRole("link", { name: "시연용 텀블러 500mL" }),
+      await screen.findByRole("button", {
+        name: "AI가 조사하고 정비안 만들기",
+      }),
     );
-    await screen.findByRole("button", { name: "근거 저장" });
-    change("확인한 값", "일상용");
-    change("근거 주소", "https://example.com/source");
-    change("값이 포함된 인용문", "일상용 텀블러입니다.");
-    fireEvent.click(screen.getByRole("button", { name: "근거 저장" }));
-    await screen.findByText(/^용도: 일상용/, { selector: "li" });
-    fireEvent.click(
-      screen.getByRole("button", { name: "선택한 항목으로 정비안 생성" }),
+    fireEvent.change(
+      await screen.findByLabelText("이 상품의 크기 정보를 알려 주세요."),
+      { target: { value: "500mL" } },
     );
-    await screen.findByText("정비안 승인 대기");
-    fireEvent.click(screen.getByRole("link", { name: "운영자 고객 업무" }));
-    await screen.findByRole("heading", { name: "운영자 고객 업무" });
+    fireEvent.click(screen.getByRole("button", { name: "답변 저장" }));
+    await screen.findByText("정비안이 준비됐어요");
+    fireEvent.click(mainNav().getByRole("link", { name: "운영자" }));
+    fireEvent.click(await screen.findByRole("tab", { name: /고객 승인 대기/ }));
     const list = await screen.findByRole("list", { name: "작업 대기 목록" });
-    await waitFor(() => expect(list.textContent).toContain("고객 승인 대기"));
-    expect(screen.getAllByText("demo@example.com").length).toBeGreaterThan(0);
-    // 다른 사용자(운영자)로 보면 승인 버튼 대신 고객 승인 대기를 표시한다.
+    expect(list.textContent).toContain("고객 승인 대기");
+    expect(list.textContent).toContain("demo@example.com");
+    // 다른 운영자 계정으로 보면 승인 버튼 대신 고객 승인 대기를 표시한다.
     runtime.queryClient.setQueryData(sessionKey, {
       id: 99,
       email: "operator@example.com",
@@ -159,11 +183,13 @@ describe("기본 폼 통합", () => {
       provider: "email",
       hasStore: false,
     });
-    fireEvent.click(screen.getByRole("link", { name: /시연용 텀블러 500mL/ }));
+    fireEvent.click(within(list).getAllByRole("link")[0]);
+    await screen.findByText("판매자 승인을 기다려요.");
+    fireEvent.click(screen.getByRole("link", { name: "정비안 보기" }));
     await screen.findByText("고객 승인 대기 · 운영자는 승인할 수 없습니다.");
-    expect(screen.queryByRole("button", { name: "정비안 승인" })).toBeNull();
+    expect(screen.queryByRole("button", { name: /승인하기/ })).toBeNull();
   });
-  it("브라우저 수집 작업이 끝나면 가져온 상품으로 이동한다", async () => {
+  it("관리자 화면 수집 작업이 끝나면 가져온 상품으로 이동한다", async () => {
     const runtime = createRuntime("demo");
     const product = (await runtime.gateway.products(1, { page: 1, query: "" }))
       .items[0];
@@ -189,22 +215,20 @@ describe("기본 폼 통합", () => {
       status: "succeeded",
       result: { productId: product.id },
     });
-    mount("/stores/1/products", runtime);
-    const submit = await screen.findByRole("button", {
-      name: "API로 원본 수집",
-    });
+    mount("/stores/1", runtime);
+    await screen.findByLabelText("상품번호 또는 카페24 상품 주소");
     change("상품번호 또는 카페24 상품 주소", "1001");
-    fireEvent.click(submit);
-    await screen.findByRole("heading", { name: "상품 정비" });
+    fireEvent.click(screen.getByRole("button", { name: /API로 불러오기/ }));
+    await screen.findByRole("heading", { name: product.name });
     expect(runtime.gateway.job).toHaveBeenCalledWith(77, expect.anything());
   });
-  it("플랫폼 상품 목록을 가져온 상품과 구분하고 골라 가져온다", async () => {
+  it("쇼핑몰 상품 목록을 불러온 상품과 구분하고 골라 가져온다", async () => {
     const runtime = createRuntime("demo");
     const store = await runtime.gateway.store(1);
     runtime.gateway.store = vi
       .fn()
       .mockResolvedValue({ ...store, editingMode: "browser" });
-    mount("/stores/1/products", runtime);
+    mount("/stores/1?view=catalog", runtime);
     fireEvent.click(
       await screen.findByRole("button", {
         name: "관리 화면에서 상품 목록 조회",
@@ -216,14 +240,11 @@ describe("기본 폼 통합", () => {
       screen.getByRole("link", { name: "가져온 상품 열기" }),
     ).toBeDefined();
     fireEvent.click(screen.getByRole("button", { name: "가져오기" }));
-    await screen.findByRole("heading", { name: "상품 정비" });
-    await screen.findByText("모델·옵션: DEMO-1002");
+    await screen.findByRole("heading", { name: "시연 상품 1002" });
+    expect(screen.getByText("모델·옵션: DEMO-1002")).toBeDefined();
   });
   it("AI가 먼저 조사하고 필요한 정보만 물은 뒤 답변하면 다시 만든다", async () => {
-    mount("/stores/1/products");
-    fireEvent.click(
-      await screen.findByRole("link", { name: "시연용 텀블러 500mL" }),
-    );
+    mount("/stores/1/products/11");
     fireEvent.click(
       await screen.findByRole("button", {
         name: "AI가 조사하고 정비안 만들기",
@@ -232,25 +253,21 @@ describe("기본 폼 통합", () => {
     const question = await screen.findByLabelText(
       "이 상품의 크기 정보를 알려 주세요.",
     );
-    // 사장님은 정비 필드나 필수 사실을 고르지 않았다.
+    // 판매자는 정비 필드나 필수 사실을 고르지 않았다.
     fireEvent.change(question, { target: { value: "500mL" } });
     fireEvent.click(screen.getByRole("button", { name: "답변 저장" }));
-    await waitFor(() =>
-      expect(
-        screen.queryByLabelText("이 상품의 크기 정보를 알려 주세요."),
-      ).toBeNull(),
-    );
-    await screen.findByText("정비안 승인 대기");
+    await screen.findByText("정비안이 준비됐어요");
     expect(
-      screen.getAllByText(/^크기: 500mL/, { selector: "li" }).length,
-    ).toBeGreaterThan(0);
+      screen.queryByLabelText("이 상품의 크기 정보를 알려 주세요."),
+    ).toBeNull();
+    expect(
+      within(screen.getByRole("region", { name: "확인한 정보" })).getByText(
+        "500mL",
+      ),
+    ).toBeDefined();
   });
-  it("AI 노출 진단 실패는 무효로 표시하고 같은 세트 회차를 비교한다", async () => {
-    mount("/stores/1/products");
-    fireEvent.click(
-      await screen.findByRole("link", { name: "시연용 텀블러 500mL" }),
-    );
-    await screen.findByLabelText("세트 이름");
+  it("측정 실패는 무효로 표시하고 같은 세트 회차를 보고서로 비교한다", async () => {
+    mount("/stores/1/products/11/measure");
     change("세트 이름", "기본");
     change(
       '고정 질문 (한 줄에 "ID | 질문" 또는 "ID | 질문군 | 질문")',
@@ -266,25 +283,51 @@ describe("기본 폼 통합", () => {
     expect(table.textContent).not.toContain("0%");
     fireEvent.click(screen.getByRole("button", { name: "측정 시작" }));
     fireEvent.click(await screen.findByRole("button", { name: "전후 비교" }));
+    fireEvent.click(await screen.findByRole("link", { name: "보고서로 보기" }));
     const compare = await screen.findByRole("table", { name: "전후 비교" });
     expect(compare.textContent).toContain("정상 응답 부족·비교 보류");
+  });
+  it("보고서는 정비 전후 비율과 바뀐 내용을 함께 보여 준다", async () => {
+    mount("/stores/1/products/13/report");
+    const chatgpt = await screen.findByRole("region", {
+      name: "ChatGPT 전후 비교",
+    });
+    await waitFor(() => expect(chatgpt.textContent).toContain("상품 발견"));
+    expect(chatgpt.textContent).toContain("+44%p");
+    expect(
+      await screen.findByRole("region", { name: "요약 설명" }),
+    ).toBeDefined();
+  });
+  it("계정 탈퇴는 확인 문구를 정확히 입력해야 누를 수 있다", async () => {
+    mount("/account");
+    await screen.findByText("로그인 정보");
+    fireEvent.click(screen.getByRole("button", { name: "탈퇴" }));
+    const dialog = within(screen.getByRole("dialog"));
+    const confirm = dialog.getByRole("button", { name: "탈퇴" });
+    expect((confirm as HTMLButtonElement).disabled).toBe(true);
+    fireEvent.change(dialog.getByRole("textbox"), {
+      target: { value: "탈퇴합니다" },
+    });
+    expect((confirm as HTMLButtonElement).disabled).toBe(false);
   });
   it("미로그인 접근은 원래 상품 경로를 보존한다", async () => {
     const runtime = createRuntime("api");
     runtime.queryClient.setQueryData(sessionKey, null);
     mount("/stores/1/products/11?tab=plan", runtime);
     await screen.findByRole("heading", { name: "로그인" });
-    expect(screen.queryByRole("heading", { name: "상품 정비" })).toBeNull();
+    expect(
+      screen.queryByRole("heading", { name: "시연용 텀블러 500mL" }),
+    ).toBeNull();
     expect(screen.getByRole("link", { name: "가입" })).toBeDefined();
   });
   it("시연 모드는 인증 페이지에서도 실제 API를 호출하지 않는다", async () => {
     const fetcher = vi.spyOn(globalThis, "fetch");
     mount("/verify-email/demo-token");
-    await screen.findByRole("heading", { name: "스토어" });
+    await screen.findByRole("heading", { name: "오늘 할 일" });
     expect(fetcher).not.toHaveBeenCalled();
   });
-  it("StrictMode에서도 소셜 로그인 전 상품 목록으로 복귀한다", async () => {
-    sessionStorage.setItem("seelo-oauth-return", "/stores/2/products");
+  it("StrictMode에서도 소셜 로그인 전 화면으로 복귀한다", async () => {
+    sessionStorage.setItem("seelo-oauth-return", "/stores/2");
     const runtime = createRuntime("demo");
     render(
       <StrictMode>

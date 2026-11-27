@@ -1,0 +1,50 @@
+.emoji {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--s-r-lg);
+  background: var(--s-grey100);
+  font-size: 1.5rem;
+}
+.todoText {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 0;
+}
+.todoText strong {
+  font-size: var(--s-t5);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.todoText span {
+  overflow: hidden;
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.go {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  color: var(--s-blue700);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.shortcut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  font-size: var(--s-t6);
+}
+.shortcut span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+.shortcut b {
+  color: var(--s-blue700);
+}

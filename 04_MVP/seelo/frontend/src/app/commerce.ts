@@ -200,6 +200,45 @@ export function useWrites(planId: number | undefined) {
     enabled: planId !== undefined && Number.isSafeInteger(planId) && planId > 0,
   });
 }
+// AI 노출 측정. 측정 중인 회차가 있으면 5초마다 다시 조회한다.
+export const measureKeys = {
+  sets: (productId: number) => ["commerce", "measure-sets", productId] as const,
+  runs: (productId: number) => ["commerce", "measure-runs", productId] as const,
+  compare: (before: number, after: number) =>
+    ["commerce", "measure-compare", before, after] as const,
+};
+export function useMeasureSets(productId: number) {
+  const { gateway } = useRuntime();
+  return useQuery({
+    queryKey: measureKeys.sets(productId),
+    queryFn: ({ signal }) => gateway.measureSets(productId, signal),
+    enabled: Number.isSafeInteger(productId) && productId > 0,
+  });
+}
+export function useMeasureRuns(productId: number) {
+  const { gateway } = useRuntime();
+  return useQuery({
+    queryKey: measureKeys.runs(productId),
+    queryFn: ({ signal }) => gateway.measureRuns(productId, signal),
+    enabled: Number.isSafeInteger(productId) && productId > 0,
+    refetchInterval: (query) =>
+      query.state.data?.some((run) =>
+        ["queued", "running"].includes(run.status),
+      )
+        ? 5000
+        : false,
+  });
+}
+export function useCompare(pair: { before: number; after: number } | null) {
+  const { gateway } = useRuntime();
+  return useQuery({
+    queryKey: measureKeys.compare(pair?.before ?? 0, pair?.after ?? 0),
+    queryFn: ({ signal }) =>
+      gateway.compareRuns(pair!.before, pair!.after, signal),
+    enabled: pair !== null,
+    retry: false,
+  });
+}
 export function useCommand(storeId: number, productId: number) {
   const runtime = useRuntime();
   const flight = useRef(false);
