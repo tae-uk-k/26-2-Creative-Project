@@ -73,6 +73,7 @@ export const jobKinds: Record<Job["kind"], string> = {
   catalog: "상품 목록 불러오기",
   prepare: "AI 정비 준비",
   forget_session: "담당자 세션 정리",
+  measure: "AI 노출 측정",
 };
 export const methodLabels: Record<"browser" | "api" | "manual", string> = {
   browser: "자동 반영",

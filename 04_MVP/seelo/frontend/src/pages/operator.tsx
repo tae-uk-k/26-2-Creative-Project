@@ -40,13 +40,21 @@ export function OperatorPage() {
   const page = Number.isSafeInteger(candidate) && candidate > 0 ? candidate : 1;
   const query = (params.get("query") ?? "").slice(0, 200);
   const managerStatus = statusFilter(params.get("managerStatus"));
-  const tab = (params.get("tab") as TabKey | null) ?? "execute";
   const shops = useOperatorShops({ page, query, managerStatus }, admin);
   const invitedShops = useOperatorShops(
     { page: 1, query: "", managerStatus: "invited" },
     admin,
   );
   const tasks = useOperatorTasks(admin);
+  // 탭을 고르지 않았으면 할 일이 있는 첫 탭을 연다.
+  const pending = (key: TabKey) =>
+    key === "delegation"
+      ? (invitedShops.data?.total ?? 0) > 0
+      : (tasks.data ?? []).some((task) => task.next === key);
+  const firstPending = (
+    ["execute", "delegation", "manual_edit", "check_result"] as TabKey[]
+  ).find(pending);
+  const tab = (params.get("tab") as TabKey | null) ?? firstPending ?? "execute";
   if (!admin)
     return (
       <Page width="medium">

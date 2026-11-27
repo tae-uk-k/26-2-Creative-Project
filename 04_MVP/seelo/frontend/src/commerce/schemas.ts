@@ -158,6 +158,8 @@ export const jobSchema = z.object({
     "catalog",
     "prepare",
     "forget_session",
+    // AI 노출 측정 회차 작업(0004_commerce_measure). 측정 회차 응답의 job에 온다.
+    "measure",
   ]),
   status: z.enum(["queued", "running", "succeeded", "failed"]),
   errorCode: z.string().nullable(),

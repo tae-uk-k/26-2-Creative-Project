@@ -31,6 +31,29 @@
 
 배포 로그는 VM `/var/log/seelo-deploy/`의 root 전용 파일에 남는다. 이전 설정·이미지·백업·실패한 후보 파일은 삭제하지 않는다. DB migration은 별도 검토·실행 뒤 다시 배포한다.
 
+프런트 이미지는 운영 env의 `VITE_SEELO_MANAGER_NAME`·`VITE_SEELO_MANAGER_PHONE`만 빌드 인자로 받는다(2026-11-28). 값이 비면 스마트스토어 위임 안내의 복사 버튼을 숨긴다. 값을 바꾸면 다시 배포해야 화면에 반영된다.
+
+## 운영 DB 마이그레이션 수동 적용
+
+새 migration이 있는 커밋은 자동 배포가 `schema_check` 단계에서 멈춘다. 이 단계에서는 운영 서비스를 바꾸지 않는다. 실패한 실행이 VM에 올린 패키지로 아래를 진행한 뒤, GitHub에서 같은 실행의 실패 작업을 다시 실행한다.
+
+```sh
+SHA=<배포할 커밋 40자리>
+SRC=$(ls -d /home/ubuntu/seelo-ci/$SHA-* | tail -1)/source.tar.gz
+WORK=/opt/seelo/migrate/git-$SHA
+sudo mkdir -p "$WORK" && sudo tar -xzf "$SRC" -C "$WORK"
+# 1. 백업(배포기와 같은 스크립트·경로)
+sudo env SEELO_ENV_FILE=/etc/seelo/production.env BACKUP_DIR=/var/backups/seelo sh /opt/seelo/current/infra/scripts/backup.sh
+# 2. 새 백엔드 이미지로 migrate만 실행한다. 실행 중인 API·워커는 그대로 둔다.
+cd "$WORK"
+sudo docker build -t seelo-backend:git-$SHA backend
+sudo env SEELO_IMAGE_TAG=git-$SHA docker compose --env-file /etc/seelo/production.env -f docker-compose.prod.yml run --rm --no-deps migrate
+# 3. 확인(쇼핑몰 기준 0004_commerce_measure)
+sudo docker compose --env-file /etc/seelo/production.env -f /opt/seelo/current/docker-compose.prod.yml exec -T db psql -U seelo -d seelo -tAc 'select version_num from alembic_version'
+```
+
+쇼핑몰 migration(0002~0004)은 테이블·제약 추가만 한다. 기존 지도 테이블과 데이터는 바꾸지 않는다. 로컬 개발 DB(0001, 지도 데이터 있음)에서 2026-11-28에 같은 순서로 적용을 확인했다.
+
 사이트: https://seelo.site/ · 배포 커밋 확인: https://seelo.site/deployment.json
 
 AI의 PC CLI 연결은 자동 배포와 별개다. PC가 꺼져도 GitHub에서 서버 배포는 실행되며, PC CLI를 쓰는 AI 요청은 PC 연결이 필요하다.

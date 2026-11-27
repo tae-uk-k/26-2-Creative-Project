@@ -282,8 +282,9 @@ describe("화면 통합", () => {
     expect(table.textContent).toContain("판정 불가");
     expect(table.textContent).not.toContain("0%");
     fireEvent.click(screen.getByRole("button", { name: "측정 시작" }));
-    fireEvent.click(await screen.findByRole("button", { name: "전후 비교" }));
-    fireEvent.click(await screen.findByRole("link", { name: "보고서로 보기" }));
+    fireEvent.click(
+      await screen.findByRole("button", { name: "보고서로 비교" }),
+    );
     const compare = await screen.findByRole("table", { name: "전후 비교" });
     expect(compare.textContent).toContain("정상 응답 부족·비교 보류");
   });
