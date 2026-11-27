@@ -7,7 +7,7 @@
 - 운영 브랜치: `backend-0-13`.
 - 해당 브랜치에 `04_MVP/seelo/**` 또는 배포 워크플로 변경을 push하면 실행한다.
 - PostgreSQL 테스트 DB에서 ruff·OpenAPI 계약·백엔드 테스트 전체(쇼핑몰 브라우저 실행기의 로컬 HTML·Chromium 시험 포함)가 통과해야 한다. 실제 공급자 키가 필요한 live 테스트는 별도다.
-- 프런트는 Node 22.16 컨테이너에서 형식·타입·시험·빌드를 실행하고, 요청 계약 검사와 `frontend/Dockerfile` 이미지 빌드까지 통과해야 한다. (2026-11-25 추가. 실제 GitHub 실행은 아직 하지 않았다.)
+- 프런트는 Node 22.16 컨테이너에서 형식·타입·시험·빌드를 실행하고, 요청 계약 검사와 `frontend/Dockerfile` 이미지 빌드까지 통과해야 한다. (2026-11-25 추가. 2026-11-28 실행 46074117212에서 처음 통과했다.)
 - 배포 작업은 한 번에 하나만 실행한다. GitHub Actions 실행 화면에서 결과와 실패 단계를 확인한다.
 
 ## 피그마 제출용 고정 주소
@@ -61,6 +61,8 @@ sudo docker compose --env-file /etc/seelo/production.env -f /opt/seelo/current/d
 ```
 
 쇼핑몰 migration(0002~0004)은 테이블·제약 추가만 한다. 기존 지도 테이블과 데이터는 바꾸지 않는다. 로컬 개발 DB(0001, 지도 데이터 있음)에서 2026-11-28에 같은 순서로 적용을 확인했다.
+
+2026-11-28 운영 적용 기록: 커밋 `bdc7f2a` 첫 실행이 `schema_check`에서 멈췄다. 위 절차로 백업 `seelo_20261127T221131Z.dump`를 만들고, 패키지의 migration 파일 해시를 커밋과 대조한 뒤 `0001_initial` → `0004_commerce_measure`를 적용했다. 같은 실행의 배포 작업을 다시 실행해 배포와 외부 HTTPS 확인이 통과했다. 이때부터 첫 화면은 쇼핑몰 랜딩이다.
 
 사이트: https://seelo.site/ · 배포 커밋 확인: https://seelo.site/deployment.json
 
