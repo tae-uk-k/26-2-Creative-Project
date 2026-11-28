@@ -1,0 +1,193 @@
+﻿prompt_id,restaurant_id,area_id,repeat,rotation,condition,menu_price_detail,keyword_repetition,alias,position,card_sha256,run_id,backend,name,source_url,selected,selected_rank,rank_score,evidence_exact_match
+CP-MD-R1-L0,MD04,MD,1,0,0,0,0,라,1,fdbf9f2034d8249e06ecd8dd0b626f2ec2de118d98af5325ea97efd5ad4ec36b,CP-MD-R1-L0-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R1-L0,MD02,MD,1,0,1,1,0,가,2,d0581c17aae213e5e544c70a14a41cd7b4d25cd08463e3e625aa147f83bdfeaa,CP-MD-R1-L0-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,1,2,True
+CP-MD-R1-L0,MD01,MD,1,0,2,0,1,다,3,3d5dd19b8f56bbc2ef57326f61855d938b0f553dd4f3f51326f9163008336cd9,CP-MD-R1-L0-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R1-L0,MD03,MD,1,0,3,1,1,나,4,c3546a6b603edf48a7239bc98e5cfe59f7d60bb2c318e0296f31f1fd65f0cffe,CP-MD-R1-L0-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,1,2,1,True
+CP-MD-R1-L0,MD04,MD,1,0,0,0,0,라,1,fdbf9f2034d8249e06ecd8dd0b626f2ec2de118d98af5325ea97efd5ad4ec36b,CP-MD-R1-L0-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R1-L0,MD02,MD,1,0,1,1,0,가,2,d0581c17aae213e5e544c70a14a41cd7b4d25cd08463e3e625aa147f83bdfeaa,CP-MD-R1-L0-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,1,2,True
+CP-MD-R1-L0,MD01,MD,1,0,2,0,1,다,3,3d5dd19b8f56bbc2ef57326f61855d938b0f553dd4f3f51326f9163008336cd9,CP-MD-R1-L0-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R1-L0,MD03,MD,1,0,3,1,1,나,4,c3546a6b603edf48a7239bc98e5cfe59f7d60bb2c318e0296f31f1fd65f0cffe,CP-MD-R1-L0-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,1,2,1,True
+CP-MD-R1-L1,MD04,MD,1,1,1,1,0,라,3,c4f5ee30091089d2939753af8b9c2b0bc788182e1aa03fe14a13a1420c65d888,CP-MD-R1-L1-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R1-L1,MD02,MD,1,1,0,0,0,가,4,1afd11cdb0a331436412265a08d4724e28d02b3a5f861a90019b7f71d05bf045,CP-MD-R1-L1-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R1-L1,MD01,MD,1,1,3,1,1,다,1,59bf54630201258d0026c5d1a2720d26d961887e41bd16870ae06b324b765e9a,CP-MD-R1-L1-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R1-L1,MD03,MD,1,1,2,0,1,나,2,66168ccce1391f61518b1ee8c9fdb5337872ee4ae296f6d481b40aa63e3f41fe,CP-MD-R1-L1-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R1-L1,MD04,MD,1,1,1,1,0,라,3,c4f5ee30091089d2939753af8b9c2b0bc788182e1aa03fe14a13a1420c65d888,CP-MD-R1-L1-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R1-L1,MD02,MD,1,1,0,0,0,가,4,1afd11cdb0a331436412265a08d4724e28d02b3a5f861a90019b7f71d05bf045,CP-MD-R1-L1-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R1-L1,MD01,MD,1,1,3,1,1,다,1,59bf54630201258d0026c5d1a2720d26d961887e41bd16870ae06b324b765e9a,CP-MD-R1-L1-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R1-L1,MD03,MD,1,1,2,0,1,나,2,66168ccce1391f61518b1ee8c9fdb5337872ee4ae296f6d481b40aa63e3f41fe,CP-MD-R1-L1-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R1-L2,MD04,MD,1,2,2,0,1,라,4,947cf2d530a8190e37f9f4b4b0a75f3726a6ef100e7e2f3c4aa7f7bdcb32af34,CP-MD-R1-L2-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R1-L2,MD02,MD,1,2,3,1,1,가,3,cc5bcb5bfa4ba97dcdf0fb4cc2b22203e1374a05022bc01bfb2a79a575f595b0,CP-MD-R1-L2-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,1,2,True
+CP-MD-R1-L2,MD01,MD,1,2,0,0,0,다,2,9afadcc74ec66a0164a972501e02982a4da8d5c11326a8df9df02684eab1e554,CP-MD-R1-L2-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R1-L2,MD03,MD,1,2,1,1,0,나,1,ced24a51ed35fe91db69560ec4523649d562120c8baa987a2239dc518adad4f2,CP-MD-R1-L2-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,1,2,1,True
+CP-MD-R1-L2,MD04,MD,1,2,2,0,1,라,4,947cf2d530a8190e37f9f4b4b0a75f3726a6ef100e7e2f3c4aa7f7bdcb32af34,CP-MD-R1-L2-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R1-L2,MD02,MD,1,2,3,1,1,가,3,cc5bcb5bfa4ba97dcdf0fb4cc2b22203e1374a05022bc01bfb2a79a575f595b0,CP-MD-R1-L2-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,1,2,True
+CP-MD-R1-L2,MD01,MD,1,2,0,0,0,다,2,9afadcc74ec66a0164a972501e02982a4da8d5c11326a8df9df02684eab1e554,CP-MD-R1-L2-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R1-L2,MD03,MD,1,2,1,1,0,나,1,ced24a51ed35fe91db69560ec4523649d562120c8baa987a2239dc518adad4f2,CP-MD-R1-L2-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,1,2,1,True
+CP-MD-R1-L3,MD04,MD,1,3,3,1,1,라,2,dad1abfe36c780a6f2bcd570753b174730821082c68960f98348cd45b7d6e0e2,CP-MD-R1-L3-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R1-L3,MD02,MD,1,3,2,0,1,가,1,80bba4666d710d3f1357a838081af38acbcf0c1b9fe3822b6cb0e2c3ed090e39,CP-MD-R1-L3-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R1-L3,MD01,MD,1,3,1,1,0,다,4,d4c5a1667b10187c90e2da6d7d6fc5718d48944cfe8c77c4e463c61fc950b71e,CP-MD-R1-L3-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R1-L3,MD03,MD,1,3,0,0,0,나,3,c237099cd8456651a6dbd630e9f093cb5775fedf19b1c016eed762df9f195632,CP-MD-R1-L3-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R1-L3,MD04,MD,1,3,3,1,1,라,2,dad1abfe36c780a6f2bcd570753b174730821082c68960f98348cd45b7d6e0e2,CP-MD-R1-L3-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R1-L3,MD02,MD,1,3,2,0,1,가,1,80bba4666d710d3f1357a838081af38acbcf0c1b9fe3822b6cb0e2c3ed090e39,CP-MD-R1-L3-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R1-L3,MD01,MD,1,3,1,1,0,다,4,d4c5a1667b10187c90e2da6d7d6fc5718d48944cfe8c77c4e463c61fc950b71e,CP-MD-R1-L3-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R1-L3,MD03,MD,1,3,0,0,0,나,3,c237099cd8456651a6dbd630e9f093cb5775fedf19b1c016eed762df9f195632,CP-MD-R1-L3-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R2-L0,MD03,MD,2,0,2,0,1,나,1,66168ccce1391f61518b1ee8c9fdb5337872ee4ae296f6d481b40aa63e3f41fe,CP-MD-R2-L0-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R2-L0,MD01,MD,2,0,3,1,1,가,2,59bf54630201258d0026c5d1a2720d26d961887e41bd16870ae06b324b765e9a,CP-MD-R2-L0-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R2-L0,MD04,MD,2,0,0,0,0,다,3,fdbf9f2034d8249e06ecd8dd0b626f2ec2de118d98af5325ea97efd5ad4ec36b,CP-MD-R2-L0-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R2-L0,MD02,MD,2,0,1,1,0,라,4,d0581c17aae213e5e544c70a14a41cd7b4d25cd08463e3e625aa147f83bdfeaa,CP-MD-R2-L0-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,2,1,True
+CP-MD-R2-L0,MD03,MD,2,0,2,0,1,나,1,66168ccce1391f61518b1ee8c9fdb5337872ee4ae296f6d481b40aa63e3f41fe,CP-MD-R2-L0-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R2-L0,MD01,MD,2,0,3,1,1,가,2,59bf54630201258d0026c5d1a2720d26d961887e41bd16870ae06b324b765e9a,CP-MD-R2-L0-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R2-L0,MD04,MD,2,0,0,0,0,다,3,fdbf9f2034d8249e06ecd8dd0b626f2ec2de118d98af5325ea97efd5ad4ec36b,CP-MD-R2-L0-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R2-L0,MD02,MD,2,0,1,1,0,라,4,d0581c17aae213e5e544c70a14a41cd7b4d25cd08463e3e625aa147f83bdfeaa,CP-MD-R2-L0-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,2,1,True
+CP-MD-R2-L1,MD03,MD,2,1,3,1,1,나,3,c3546a6b603edf48a7239bc98e5cfe59f7d60bb2c318e0296f31f1fd65f0cffe,CP-MD-R2-L1-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,1,2,1,True
+CP-MD-R2-L1,MD01,MD,2,1,2,0,1,가,4,3d5dd19b8f56bbc2ef57326f61855d938b0f553dd4f3f51326f9163008336cd9,CP-MD-R2-L1-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R2-L1,MD04,MD,2,1,1,1,0,다,1,c4f5ee30091089d2939753af8b9c2b0bc788182e1aa03fe14a13a1420c65d888,CP-MD-R2-L1-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,1,1,2,True
+CP-MD-R2-L1,MD02,MD,2,1,0,0,0,라,2,1afd11cdb0a331436412265a08d4724e28d02b3a5f861a90019b7f71d05bf045,CP-MD-R2-L1-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R2-L1,MD03,MD,2,1,3,1,1,나,3,c3546a6b603edf48a7239bc98e5cfe59f7d60bb2c318e0296f31f1fd65f0cffe,CP-MD-R2-L1-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,1,1,2,True
+CP-MD-R2-L1,MD01,MD,2,1,2,0,1,가,4,3d5dd19b8f56bbc2ef57326f61855d938b0f553dd4f3f51326f9163008336cd9,CP-MD-R2-L1-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R2-L1,MD04,MD,2,1,1,1,0,다,1,c4f5ee30091089d2939753af8b9c2b0bc788182e1aa03fe14a13a1420c65d888,CP-MD-R2-L1-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R2-L1,MD02,MD,2,1,0,0,0,라,2,1afd11cdb0a331436412265a08d4724e28d02b3a5f861a90019b7f71d05bf045,CP-MD-R2-L1-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R2-L2,MD03,MD,2,2,0,0,0,나,4,c237099cd8456651a6dbd630e9f093cb5775fedf19b1c016eed762df9f195632,CP-MD-R2-L2-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R2-L2,MD01,MD,2,2,1,1,0,가,3,d4c5a1667b10187c90e2da6d7d6fc5718d48944cfe8c77c4e463c61fc950b71e,CP-MD-R2-L2-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R2-L2,MD04,MD,2,2,2,0,1,다,2,947cf2d530a8190e37f9f4b4b0a75f3726a6ef100e7e2f3c4aa7f7bdcb32af34,CP-MD-R2-L2-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R2-L2,MD02,MD,2,2,3,1,1,라,1,cc5bcb5bfa4ba97dcdf0fb4cc2b22203e1374a05022bc01bfb2a79a575f595b0,CP-MD-R2-L2-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,2,1,True
+CP-MD-R2-L2,MD03,MD,2,2,0,0,0,나,4,c237099cd8456651a6dbd630e9f093cb5775fedf19b1c016eed762df9f195632,CP-MD-R2-L2-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,0,0,0,True
+CP-MD-R2-L2,MD01,MD,2,2,1,1,0,가,3,d4c5a1667b10187c90e2da6d7d6fc5718d48944cfe8c77c4e463c61fc950b71e,CP-MD-R2-L2-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,1,1,2,True
+CP-MD-R2-L2,MD04,MD,2,2,2,0,1,다,2,947cf2d530a8190e37f9f4b4b0a75f3726a6ef100e7e2f3c4aa7f7bdcb32af34,CP-MD-R2-L2-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,0,0,0,True
+CP-MD-R2-L2,MD02,MD,2,2,3,1,1,라,1,cc5bcb5bfa4ba97dcdf0fb4cc2b22203e1374a05022bc01bfb2a79a575f595b0,CP-MD-R2-L2-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,1,2,1,True
+CP-MD-R2-L3,MD03,MD,2,3,1,1,0,나,2,ced24a51ed35fe91db69560ec4523649d562120c8baa987a2239dc518adad4f2,CP-MD-R2-L3-AGY,agy,명동피자 명동본점,https://place.map.kakao.com/19409195,1,1,2,True
+CP-MD-R2-L3,MD01,MD,2,3,0,0,0,가,1,9afadcc74ec66a0164a972501e02982a4da8d5c11326a8df9df02684eab1e554,CP-MD-R2-L3-AGY,agy,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R2-L3,MD04,MD,2,3,3,1,1,다,4,dad1abfe36c780a6f2bcd570753b174730821082c68960f98348cd45b7d6e0e2,CP-MD-R2-L3-AGY,agy,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R2-L3,MD02,MD,2,3,2,0,1,라,3,80bba4666d710d3f1357a838081af38acbcf0c1b9fe3822b6cb0e2c3ed090e39,CP-MD-R2-L3-AGY,agy,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MD-R2-L3,MD03,MD,2,3,1,1,0,나,2,ced24a51ed35fe91db69560ec4523649d562120c8baa987a2239dc518adad4f2,CP-MD-R2-L3-CODEX,codex,명동피자 명동본점,https://place.map.kakao.com/19409195,1,1,2,True
+CP-MD-R2-L3,MD01,MD,2,3,0,0,0,가,1,9afadcc74ec66a0164a972501e02982a4da8d5c11326a8df9df02684eab1e554,CP-MD-R2-L3-CODEX,codex,반포식스 서울시청점,https://place.map.kakao.com/1402508894,0,0,0,True
+CP-MD-R2-L3,MD04,MD,2,3,3,1,1,다,4,dad1abfe36c780a6f2bcd570753b174730821082c68960f98348cd45b7d6e0e2,CP-MD-R2-L3-CODEX,codex,육통령 명동본점,https://place.map.kakao.com/21748255,1,2,1,True
+CP-MD-R2-L3,MD02,MD,2,3,2,0,1,라,3,80bba4666d710d3f1357a838081af38acbcf0c1b9fe3822b6cb0e2c3ed090e39,CP-MD-R2-L3-CODEX,codex,장인닭갈비 명동점,https://place.map.kakao.com/1903143175,0,0,0,True
+CP-MW-R1-L0,MW04,MW,1,0,1,1,0,다,1,465bc72641bb3be1c6b5a44c4fa57b39dcdcbc8b04f79a6f842a2bfa95d64ed0,CP-MW-R1-L0-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R1-L0,MW02,MW,1,0,2,0,1,나,2,810b92e997fc1dfdf9947073060f3a2d485876d38e407f7f53f9ac9c1f393830,CP-MW-R1-L0-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L0,MW03,MW,1,0,0,0,0,가,3,3a8e73e5b47a1558390bba58eff50ab399029100a81e21efe21cca571a7d6921,CP-MW-R1-L0-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R1-L0,MW01,MW,1,0,3,1,1,라,4,9fff5a75a0a34c18be82a7f8257b609025f8a854cca4b1abb5f19c9a6b82e6e9,CP-MW-R1-L0-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,1,2,1,True
+CP-MW-R1-L0,MW04,MW,1,0,1,1,0,다,1,465bc72641bb3be1c6b5a44c4fa57b39dcdcbc8b04f79a6f842a2bfa95d64ed0,CP-MW-R1-L0-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R1-L0,MW02,MW,1,0,2,0,1,나,2,810b92e997fc1dfdf9947073060f3a2d485876d38e407f7f53f9ac9c1f393830,CP-MW-R1-L0-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L0,MW03,MW,1,0,0,0,0,가,3,3a8e73e5b47a1558390bba58eff50ab399029100a81e21efe21cca571a7d6921,CP-MW-R1-L0-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R1-L0,MW01,MW,1,0,3,1,1,라,4,9fff5a75a0a34c18be82a7f8257b609025f8a854cca4b1abb5f19c9a6b82e6e9,CP-MW-R1-L0-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,1,2,1,True
+CP-MW-R1-L1,MW04,MW,1,1,2,0,1,다,3,f68bb5e8f103bbbf0a8bbba8ef906761b65b2d8a27f5a782f87207ac90b733ec,CP-MW-R1-L1-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,1,2,1,True
+CP-MW-R1-L1,MW02,MW,1,1,1,1,0,나,4,0d5d53419d443a371f7e46fc856214b76b5ace62fe50ad30ee6e48e834fb95dd,CP-MW-R1-L1-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L1,MW03,MW,1,1,3,1,1,가,1,aefd5a7fe0e5fe32a72a5562627e7e512f444510b3e6f60f79050647870977be,CP-MW-R1-L1-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,1,2,True
+CP-MW-R1-L1,MW01,MW,1,1,0,0,0,라,2,dd4dfaabc02eb68a29a6c114a0da6f66270c8448eca48cf107ee0d8ca948a91c,CP-MW-R1-L1-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R1-L1,MW04,MW,1,1,2,0,1,다,3,f68bb5e8f103bbbf0a8bbba8ef906761b65b2d8a27f5a782f87207ac90b733ec,CP-MW-R1-L1-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R1-L1,MW02,MW,1,1,1,1,0,나,4,0d5d53419d443a371f7e46fc856214b76b5ace62fe50ad30ee6e48e834fb95dd,CP-MW-R1-L1-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L1,MW03,MW,1,1,3,1,1,가,1,aefd5a7fe0e5fe32a72a5562627e7e512f444510b3e6f60f79050647870977be,CP-MW-R1-L1-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,2,1,True
+CP-MW-R1-L1,MW01,MW,1,1,0,0,0,라,2,dd4dfaabc02eb68a29a6c114a0da6f66270c8448eca48cf107ee0d8ca948a91c,CP-MW-R1-L1-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R1-L2,MW04,MW,1,2,0,0,0,다,4,668df805071ede821d67da54b18a6bec43ea2a3cb21e0327928d47bc39d56bc1,CP-MW-R1-L2-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,0,0,0,True
+CP-MW-R1-L2,MW02,MW,1,2,3,1,1,나,3,44c4450156b316a3e7120f9d4624db38eb393f862316477c1fd89c113fedaa14,CP-MW-R1-L2-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,1,2,1,True
+CP-MW-R1-L2,MW03,MW,1,2,1,1,0,가,2,7549e2da25c206e9a954504ebaaf387c83f70f5a2a0c87a18d8eb118057a69af,CP-MW-R1-L2-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,1,2,True
+CP-MW-R1-L2,MW01,MW,1,2,2,0,1,라,1,f29e71842366fb687d1281c31c5dfd2e480b4e9f0f64f241e2feb56c7ce375be,CP-MW-R1-L2-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R1-L2,MW04,MW,1,2,0,0,0,다,4,668df805071ede821d67da54b18a6bec43ea2a3cb21e0327928d47bc39d56bc1,CP-MW-R1-L2-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,2,1,True
+CP-MW-R1-L2,MW02,MW,1,2,3,1,1,나,3,44c4450156b316a3e7120f9d4624db38eb393f862316477c1fd89c113fedaa14,CP-MW-R1-L2-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L2,MW03,MW,1,2,1,1,0,가,2,7549e2da25c206e9a954504ebaaf387c83f70f5a2a0c87a18d8eb118057a69af,CP-MW-R1-L2-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,1,2,True
+CP-MW-R1-L2,MW01,MW,1,2,2,0,1,라,1,f29e71842366fb687d1281c31c5dfd2e480b4e9f0f64f241e2feb56c7ce375be,CP-MW-R1-L2-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R1-L3,MW04,MW,1,3,3,1,1,다,2,6fc60087d605baf308521a836ea586fa4486a6b454c34c2670bd99d662d1bb1c,CP-MW-R1-L3-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R1-L3,MW02,MW,1,3,0,0,0,나,1,a4017edb3f3adf13657106c598b1f2f80538d4017f64185f2a1fb57b0164f7a4,CP-MW-R1-L3-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L3,MW03,MW,1,3,2,0,1,가,4,1f15f4cf159fe205ba5492dfb6a0f7845859dc8fa4bc2d755b4d6b42270232be,CP-MW-R1-L3-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R1-L3,MW01,MW,1,3,1,1,0,라,3,c751fb156e8f3fc991da0112efc8f26bc88ef1d9202c10c2b9c0d0e8de483d53,CP-MW-R1-L3-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,1,2,1,True
+CP-MW-R1-L3,MW04,MW,1,3,3,1,1,다,2,6fc60087d605baf308521a836ea586fa4486a6b454c34c2670bd99d662d1bb1c,CP-MW-R1-L3-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R1-L3,MW02,MW,1,3,0,0,0,나,1,a4017edb3f3adf13657106c598b1f2f80538d4017f64185f2a1fb57b0164f7a4,CP-MW-R1-L3-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R1-L3,MW03,MW,1,3,2,0,1,가,4,1f15f4cf159fe205ba5492dfb6a0f7845859dc8fa4bc2d755b4d6b42270232be,CP-MW-R1-L3-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R1-L3,MW01,MW,1,3,1,1,0,라,3,c751fb156e8f3fc991da0112efc8f26bc88ef1d9202c10c2b9c0d0e8de483d53,CP-MW-R1-L3-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,1,2,1,True
+CP-MW-R2-L0,MW03,MW,2,0,0,0,0,라,1,3a8e73e5b47a1558390bba58eff50ab399029100a81e21efe21cca571a7d6921,CP-MW-R2-L0-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R2-L0,MW02,MW,2,0,1,1,0,나,2,0d5d53419d443a371f7e46fc856214b76b5ace62fe50ad30ee6e48e834fb95dd,CP-MW-R2-L0-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,1,2,1,True
+CP-MW-R2-L0,MW01,MW,2,0,2,0,1,가,3,f29e71842366fb687d1281c31c5dfd2e480b4e9f0f64f241e2feb56c7ce375be,CP-MW-R2-L0-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R2-L0,MW04,MW,2,0,3,1,1,다,4,6fc60087d605baf308521a836ea586fa4486a6b454c34c2670bd99d662d1bb1c,CP-MW-R2-L0-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R2-L0,MW03,MW,2,0,0,0,0,라,1,3a8e73e5b47a1558390bba58eff50ab399029100a81e21efe21cca571a7d6921,CP-MW-R2-L0-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R2-L0,MW02,MW,2,0,1,1,0,나,2,0d5d53419d443a371f7e46fc856214b76b5ace62fe50ad30ee6e48e834fb95dd,CP-MW-R2-L0-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,1,2,1,True
+CP-MW-R2-L0,MW01,MW,2,0,2,0,1,가,3,f29e71842366fb687d1281c31c5dfd2e480b4e9f0f64f241e2feb56c7ce375be,CP-MW-R2-L0-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R2-L0,MW04,MW,2,0,3,1,1,다,4,6fc60087d605baf308521a836ea586fa4486a6b454c34c2670bd99d662d1bb1c,CP-MW-R2-L0-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R2-L1,MW03,MW,2,1,1,1,0,라,3,7549e2da25c206e9a954504ebaaf387c83f70f5a2a0c87a18d8eb118057a69af,CP-MW-R2-L1-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,2,1,True
+CP-MW-R2-L1,MW02,MW,2,1,0,0,0,나,4,a4017edb3f3adf13657106c598b1f2f80538d4017f64185f2a1fb57b0164f7a4,CP-MW-R2-L1-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R2-L1,MW01,MW,2,1,3,1,1,가,1,9fff5a75a0a34c18be82a7f8257b609025f8a854cca4b1abb5f19c9a6b82e6e9,CP-MW-R2-L1-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,1,1,2,True
+CP-MW-R2-L1,MW04,MW,2,1,2,0,1,다,2,f68bb5e8f103bbbf0a8bbba8ef906761b65b2d8a27f5a782f87207ac90b733ec,CP-MW-R2-L1-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,0,0,0,True
+CP-MW-R2-L1,MW03,MW,2,1,1,1,0,라,3,7549e2da25c206e9a954504ebaaf387c83f70f5a2a0c87a18d8eb118057a69af,CP-MW-R2-L1-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,2,1,True
+CP-MW-R2-L1,MW02,MW,2,1,0,0,0,나,4,a4017edb3f3adf13657106c598b1f2f80538d4017f64185f2a1fb57b0164f7a4,CP-MW-R2-L1-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R2-L1,MW01,MW,2,1,3,1,1,가,1,9fff5a75a0a34c18be82a7f8257b609025f8a854cca4b1abb5f19c9a6b82e6e9,CP-MW-R2-L1-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,1,1,2,True
+CP-MW-R2-L1,MW04,MW,2,1,2,0,1,다,2,f68bb5e8f103bbbf0a8bbba8ef906761b65b2d8a27f5a782f87207ac90b733ec,CP-MW-R2-L1-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,0,0,0,True
+CP-MW-R2-L2,MW03,MW,2,2,2,0,1,라,4,1f15f4cf159fe205ba5492dfb6a0f7845859dc8fa4bc2d755b4d6b42270232be,CP-MW-R2-L2-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R2-L2,MW02,MW,2,2,3,1,1,나,3,44c4450156b316a3e7120f9d4624db38eb393f862316477c1fd89c113fedaa14,CP-MW-R2-L2-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,1,2,1,True
+CP-MW-R2-L2,MW01,MW,2,2,0,0,0,가,2,dd4dfaabc02eb68a29a6c114a0da6f66270c8448eca48cf107ee0d8ca948a91c,CP-MW-R2-L2-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R2-L2,MW04,MW,2,2,1,1,0,다,1,465bc72641bb3be1c6b5a44c4fa57b39dcdcbc8b04f79a6f842a2bfa95d64ed0,CP-MW-R2-L2-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R2-L2,MW03,MW,2,2,2,0,1,라,4,1f15f4cf159fe205ba5492dfb6a0f7845859dc8fa4bc2d755b4d6b42270232be,CP-MW-R2-L2-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,0,0,0,True
+CP-MW-R2-L2,MW02,MW,2,2,3,1,1,나,3,44c4450156b316a3e7120f9d4624db38eb393f862316477c1fd89c113fedaa14,CP-MW-R2-L2-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,1,2,1,True
+CP-MW-R2-L2,MW01,MW,2,2,0,0,0,가,2,dd4dfaabc02eb68a29a6c114a0da6f66270c8448eca48cf107ee0d8ca948a91c,CP-MW-R2-L2-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,0,0,0,True
+CP-MW-R2-L2,MW04,MW,2,2,1,1,0,다,1,465bc72641bb3be1c6b5a44c4fa57b39dcdcbc8b04f79a6f842a2bfa95d64ed0,CP-MW-R2-L2-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,1,1,2,True
+CP-MW-R2-L3,MW03,MW,2,3,3,1,1,라,2,aefd5a7fe0e5fe32a72a5562627e7e512f444510b3e6f60f79050647870977be,CP-MW-R2-L3-AGY,agy,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,2,1,True
+CP-MW-R2-L3,MW02,MW,2,3,2,0,1,나,1,810b92e997fc1dfdf9947073060f3a2d485876d38e407f7f53f9ac9c1f393830,CP-MW-R2-L3-AGY,agy,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R2-L3,MW01,MW,2,3,1,1,0,가,4,c751fb156e8f3fc991da0112efc8f26bc88ef1d9202c10c2b9c0d0e8de483d53,CP-MW-R2-L3-AGY,agy,정각 서울망원본점,https://place.map.kakao.com/889810020,1,1,2,True
+CP-MW-R2-L3,MW04,MW,2,3,0,0,0,다,3,668df805071ede821d67da54b18a6bec43ea2a3cb21e0327928d47bc39d56bc1,CP-MW-R2-L3-AGY,agy,망원돈까스 본점,https://place.map.kakao.com/740043035,0,0,0,True
+CP-MW-R2-L3,MW03,MW,2,3,3,1,1,라,2,aefd5a7fe0e5fe32a72a5562627e7e512f444510b3e6f60f79050647870977be,CP-MW-R2-L3-CODEX,codex,퍼줄래대박집,https://place.map.kakao.com/1531690926,1,2,1,True
+CP-MW-R2-L3,MW02,MW,2,3,2,0,1,나,1,810b92e997fc1dfdf9947073060f3a2d485876d38e407f7f53f9ac9c1f393830,CP-MW-R2-L3-CODEX,codex,산이네회무침,https://place.map.kakao.com/13498159,0,0,0,True
+CP-MW-R2-L3,MW01,MW,2,3,1,1,0,가,4,c751fb156e8f3fc991da0112efc8f26bc88ef1d9202c10c2b9c0d0e8de483d53,CP-MW-R2-L3-CODEX,codex,정각 서울망원본점,https://place.map.kakao.com/889810020,1,1,2,True
+CP-MW-R2-L3,MW04,MW,2,3,0,0,0,다,3,668df805071ede821d67da54b18a6bec43ea2a3cb21e0327928d47bc39d56bc1,CP-MW-R2-L3-CODEX,codex,망원돈까스 본점,https://place.map.kakao.com/740043035,0,0,0,True
+CP-SS-R1-L0,SS04,SS,1,0,3,1,1,다,1,e37d2de685524234a49b3c1b12bc3ba640b3ee9d48364b3c36a88ba33337e99e,CP-SS-R1-L0-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,1,1,2,True
+CP-SS-R1-L0,SS03,SS,1,0,1,1,0,라,2,8b427fe580bc1ac15d820f896ee46410e4695d1647e535cc6132438c9c90e2a7,CP-SS-R1-L0-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R1-L0,SS01,SS,1,0,0,0,0,가,3,7eff1782a8100805956a60078e4213e11b17d6eba34b5020451ea73059deeaf2,CP-SS-R1-L0-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R1-L0,SS02,SS,1,0,2,0,1,나,4,e386455c7efec28116473c98e6d8ca1e50357af704450c0545cafa47b23e5a81,CP-SS-R1-L0-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R1-L0,SS04,SS,1,0,3,1,1,다,1,e37d2de685524234a49b3c1b12bc3ba640b3ee9d48364b3c36a88ba33337e99e,CP-SS-R1-L0-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R1-L0,SS03,SS,1,0,1,1,0,라,2,8b427fe580bc1ac15d820f896ee46410e4695d1647e535cc6132438c9c90e2a7,CP-SS-R1-L0-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,1,1,2,True
+CP-SS-R1-L0,SS01,SS,1,0,0,0,0,가,3,7eff1782a8100805956a60078e4213e11b17d6eba34b5020451ea73059deeaf2,CP-SS-R1-L0-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R1-L0,SS02,SS,1,0,2,0,1,나,4,e386455c7efec28116473c98e6d8ca1e50357af704450c0545cafa47b23e5a81,CP-SS-R1-L0-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R1-L1,SS04,SS,1,1,1,1,0,다,3,67a27f46efaa842dec8639719dc92cf0dbc945688711e93f4f81cd83f655ef91,CP-SS-R1-L1-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,1,1,2,True
+CP-SS-R1-L1,SS03,SS,1,1,3,1,1,라,4,06f2d302e7d33e37704838cecb1c9b5613d087ee797772b5006a8ffd5a344546,CP-SS-R1-L1-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R1-L1,SS01,SS,1,1,2,0,1,가,1,161099c8f65437e79356f217e6d83c7813681114bdd4ac7e4cd7bb0ccff4a892,CP-SS-R1-L1-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R1-L1,SS02,SS,1,1,0,0,0,나,2,481253ce10ff336537db4aeeca4ee99999c1c8971b5220d6d08773804e2bc47f,CP-SS-R1-L1-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R1-L1,SS04,SS,1,1,1,1,0,다,3,67a27f46efaa842dec8639719dc92cf0dbc945688711e93f4f81cd83f655ef91,CP-SS-R1-L1-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R1-L1,SS03,SS,1,1,3,1,1,라,4,06f2d302e7d33e37704838cecb1c9b5613d087ee797772b5006a8ffd5a344546,CP-SS-R1-L1-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,1,1,2,True
+CP-SS-R1-L1,SS01,SS,1,1,2,0,1,가,1,161099c8f65437e79356f217e6d83c7813681114bdd4ac7e4cd7bb0ccff4a892,CP-SS-R1-L1-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R1-L1,SS02,SS,1,1,0,0,0,나,2,481253ce10ff336537db4aeeca4ee99999c1c8971b5220d6d08773804e2bc47f,CP-SS-R1-L1-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R1-L2,SS04,SS,1,2,0,0,0,다,4,626c8ae69d542d4ba0e37195aec61b052f954a065deb0f52dbbba97d11640a30,CP-SS-R1-L2-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R1-L2,SS03,SS,1,2,2,0,1,라,3,98b85fa17c7627aacb9ccbc92ff049794120a213f45bdb2f8ae33e87e506c0b0,CP-SS-R1-L2-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R1-L2,SS01,SS,1,2,3,1,1,가,2,be414ee79b1bb16ba3fdabae6a8c1a23d3b3f7b3e8592a4aa6677b6e72d7952c,CP-SS-R1-L2-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,2,1,True
+CP-SS-R1-L2,SS02,SS,1,2,1,1,0,나,1,04058a19f9eef701d97cb9f064459aaeae5024766927a515136a9995e00939c9,CP-SS-R1-L2-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R1-L2,SS04,SS,1,2,0,0,0,다,4,626c8ae69d542d4ba0e37195aec61b052f954a065deb0f52dbbba97d11640a30,CP-SS-R1-L2-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R1-L2,SS03,SS,1,2,2,0,1,라,3,98b85fa17c7627aacb9ccbc92ff049794120a213f45bdb2f8ae33e87e506c0b0,CP-SS-R1-L2-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R1-L2,SS01,SS,1,2,3,1,1,가,2,be414ee79b1bb16ba3fdabae6a8c1a23d3b3f7b3e8592a4aa6677b6e72d7952c,CP-SS-R1-L2-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,2,1,True
+CP-SS-R1-L2,SS02,SS,1,2,1,1,0,나,1,04058a19f9eef701d97cb9f064459aaeae5024766927a515136a9995e00939c9,CP-SS-R1-L2-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R1-L3,SS04,SS,1,3,2,0,1,다,2,322a622f5b4f15848c8bd471673e346f2dcd0f9e6ef049145ce090c69cdd07d7,CP-SS-R1-L3-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R1-L3,SS03,SS,1,3,0,0,0,라,1,caba6175c68accc0ec4313188be00707535200f0ad353e3b929629c3e46fc878,CP-SS-R1-L3-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R1-L3,SS01,SS,1,3,1,1,0,가,4,f1a13a2b0f4994af8a22e554da6208b2ff84e38de30caa4c8b0dae554abc45a8,CP-SS-R1-L3-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,1,2,True
+CP-SS-R1-L3,SS02,SS,1,3,3,1,1,나,3,706182d6ee98a7f050ac915427dc09101ec7a0cd4bece23376037a01b2921fe4,CP-SS-R1-L3-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,2,1,True
+CP-SS-R1-L3,SS04,SS,1,3,2,0,1,다,2,322a622f5b4f15848c8bd471673e346f2dcd0f9e6ef049145ce090c69cdd07d7,CP-SS-R1-L3-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R1-L3,SS03,SS,1,3,0,0,0,라,1,caba6175c68accc0ec4313188be00707535200f0ad353e3b929629c3e46fc878,CP-SS-R1-L3-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R1-L3,SS01,SS,1,3,1,1,0,가,4,f1a13a2b0f4994af8a22e554da6208b2ff84e38de30caa4c8b0dae554abc45a8,CP-SS-R1-L3-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,2,1,True
+CP-SS-R1-L3,SS02,SS,1,3,3,1,1,나,3,706182d6ee98a7f050ac915427dc09101ec7a0cd4bece23376037a01b2921fe4,CP-SS-R1-L3-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R2-L0,SS03,SS,2,0,0,0,0,나,1,caba6175c68accc0ec4313188be00707535200f0ad353e3b929629c3e46fc878,CP-SS-R2-L0-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R2-L0,SS01,SS,2,0,2,0,1,다,2,161099c8f65437e79356f217e6d83c7813681114bdd4ac7e4cd7bb0ccff4a892,CP-SS-R2-L0-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R2-L0,SS04,SS,2,0,1,1,0,라,3,67a27f46efaa842dec8639719dc92cf0dbc945688711e93f4f81cd83f655ef91,CP-SS-R2-L0-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R2-L0,SS02,SS,2,0,3,1,1,가,4,706182d6ee98a7f050ac915427dc09101ec7a0cd4bece23376037a01b2921fe4,CP-SS-R2-L0-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R2-L0,SS03,SS,2,0,0,0,0,나,1,caba6175c68accc0ec4313188be00707535200f0ad353e3b929629c3e46fc878,CP-SS-R2-L0-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R2-L0,SS01,SS,2,0,2,0,1,다,2,161099c8f65437e79356f217e6d83c7813681114bdd4ac7e4cd7bb0ccff4a892,CP-SS-R2-L0-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R2-L0,SS04,SS,2,0,1,1,0,라,3,67a27f46efaa842dec8639719dc92cf0dbc945688711e93f4f81cd83f655ef91,CP-SS-R2-L0-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R2-L0,SS02,SS,2,0,3,1,1,가,4,706182d6ee98a7f050ac915427dc09101ec7a0cd4bece23376037a01b2921fe4,CP-SS-R2-L0-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R2-L1,SS03,SS,2,1,2,0,1,나,3,98b85fa17c7627aacb9ccbc92ff049794120a213f45bdb2f8ae33e87e506c0b0,CP-SS-R2-L1-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R2-L1,SS01,SS,2,1,0,0,0,다,4,7eff1782a8100805956a60078e4213e11b17d6eba34b5020451ea73059deeaf2,CP-SS-R2-L1-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R2-L1,SS04,SS,2,1,3,1,1,라,1,e37d2de685524234a49b3c1b12bc3ba640b3ee9d48364b3c36a88ba33337e99e,CP-SS-R2-L1-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R2-L1,SS02,SS,2,1,1,1,0,가,2,04058a19f9eef701d97cb9f064459aaeae5024766927a515136a9995e00939c9,CP-SS-R2-L1-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R2-L1,SS03,SS,2,1,2,0,1,나,3,98b85fa17c7627aacb9ccbc92ff049794120a213f45bdb2f8ae33e87e506c0b0,CP-SS-R2-L1-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,0,0,0,True
+CP-SS-R2-L1,SS01,SS,2,1,0,0,0,다,4,7eff1782a8100805956a60078e4213e11b17d6eba34b5020451ea73059deeaf2,CP-SS-R2-L1-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,0,0,0,True
+CP-SS-R2-L1,SS04,SS,2,1,3,1,1,라,1,e37d2de685524234a49b3c1b12bc3ba640b3ee9d48364b3c36a88ba33337e99e,CP-SS-R2-L1-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,1,2,1,True
+CP-SS-R2-L1,SS02,SS,2,1,1,1,0,가,2,04058a19f9eef701d97cb9f064459aaeae5024766927a515136a9995e00939c9,CP-SS-R2-L1-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,1,1,2,True
+CP-SS-R2-L2,SS03,SS,2,2,1,1,0,나,4,8b427fe580bc1ac15d820f896ee46410e4695d1647e535cc6132438c9c90e2a7,CP-SS-R2-L2-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R2-L2,SS01,SS,2,2,3,1,1,다,3,be414ee79b1bb16ba3fdabae6a8c1a23d3b3f7b3e8592a4aa6677b6e72d7952c,CP-SS-R2-L2-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,1,2,True
+CP-SS-R2-L2,SS04,SS,2,2,0,0,0,라,2,626c8ae69d542d4ba0e37195aec61b052f954a065deb0f52dbbba97d11640a30,CP-SS-R2-L2-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R2-L2,SS02,SS,2,2,2,0,1,가,1,e386455c7efec28116473c98e6d8ca1e50357af704450c0545cafa47b23e5a81,CP-SS-R2-L2-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R2-L2,SS03,SS,2,2,1,1,0,나,4,8b427fe580bc1ac15d820f896ee46410e4695d1647e535cc6132438c9c90e2a7,CP-SS-R2-L2-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R2-L2,SS01,SS,2,2,3,1,1,다,3,be414ee79b1bb16ba3fdabae6a8c1a23d3b3f7b3e8592a4aa6677b6e72d7952c,CP-SS-R2-L2-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,1,2,True
+CP-SS-R2-L2,SS04,SS,2,2,0,0,0,라,2,626c8ae69d542d4ba0e37195aec61b052f954a065deb0f52dbbba97d11640a30,CP-SS-R2-L2-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R2-L2,SS02,SS,2,2,2,0,1,가,1,e386455c7efec28116473c98e6d8ca1e50357af704450c0545cafa47b23e5a81,CP-SS-R2-L2-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R2-L3,SS03,SS,2,3,3,1,1,나,2,06f2d302e7d33e37704838cecb1c9b5613d087ee797772b5006a8ffd5a344546,CP-SS-R2-L3-AGY,agy,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R2-L3,SS01,SS,2,3,1,1,0,다,1,f1a13a2b0f4994af8a22e554da6208b2ff84e38de30caa4c8b0dae554abc45a8,CP-SS-R2-L3-AGY,agy,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,1,2,True
+CP-SS-R2-L3,SS04,SS,2,3,2,0,1,라,4,322a622f5b4f15848c8bd471673e346f2dcd0f9e6ef049145ce090c69cdd07d7,CP-SS-R2-L3-AGY,agy,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R2-L3,SS02,SS,2,3,0,0,0,가,3,481253ce10ff336537db4aeeca4ee99999c1c8971b5220d6d08773804e2bc47f,CP-SS-R2-L3-AGY,agy,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True
+CP-SS-R2-L3,SS03,SS,2,3,3,1,1,나,2,06f2d302e7d33e37704838cecb1c9b5613d087ee797772b5006a8ffd5a344546,CP-SS-R2-L3-CODEX,codex,차만다 성수,https://place.map.kakao.com/1057053940,1,2,1,True
+CP-SS-R2-L3,SS01,SS,2,3,1,1,0,다,1,f1a13a2b0f4994af8a22e554da6208b2ff84e38de30caa4c8b0dae554abc45a8,CP-SS-R2-L3-CODEX,codex,오레노카츠 성수본점,https://place.map.kakao.com/2125770186,1,1,2,True
+CP-SS-R2-L3,SS04,SS,2,3,2,0,1,라,4,322a622f5b4f15848c8bd471673e346f2dcd0f9e6ef049145ce090c69cdd07d7,CP-SS-R2-L3-CODEX,codex,눈꽃돼지,https://place.map.kakao.com/1795368894,0,0,0,True
+CP-SS-R2-L3,SS02,SS,2,3,0,0,0,가,3,481253ce10ff336537db4aeeca4ee99999c1c8971b5220d6d08773804e2bc47f,CP-SS-R2-L3-CODEX,codex,빠오즈푸 서울숲점,https://place.map.kakao.com/1483073499,0,0,0,True

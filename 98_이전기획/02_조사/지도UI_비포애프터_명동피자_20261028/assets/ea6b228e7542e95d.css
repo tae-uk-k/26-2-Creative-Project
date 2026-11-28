@@ -1,0 +1,35 @@
+@charset "UTF-8";/* -------------- 소셜쉐어 공통 레이어 시작  -------------- */
+div,ul,li,p,button{margin:0;padding:0;}
+ul,li{list-style:none;}
+button{border:0 none;background-color:transparent;cursor:pointer;vertical-align:middle;}
+a{text-decoration:none;color:#000;}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px;}
+.layer_socialshare,button{font-size:14px;line-height:1.5;font-family:'NotoSans','Apple SD Gothic Neo',sans-serif;letter-spacing:-0.05em;color:#000;}
+.layer_socialshare{/* 토스트 메세지 공통 */ }
+.layer_socialshare .inner_layer{position:relative;width:240px;padding:16px 20px 20px;border-radius:24px;font-size:14px;background-color:#fff;letter-spacing:-0.025em;}
+.layer_socialshare .btn_copyurl{display:flex;align-items:center;border-radius:20px;background-color:#F2F4F7;}
+.layer_socialshare .btn_copyurl:hover{text-decoration:none;}
+.layer_socialshare .txt_url{width:151px;padding:9px 12px 10px 16px;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.layer_socialshare .txt_copy{display:flex;width:57px;height:32px;margin-right:4px;border-radius:20px;background-color:#5B92FE;color:#fff;font-weight:700;font-size:14px;align-items:center;justify-content:space-around;}
+.layer_socialshare .btn_close{position:absolute;top:8px;right:8px;}
+.layer_socialshare .btn_close .ico_close{width:20px;height:20px;margin:12px;background-position-x:-260px;}
+.layer_socialshare .layer_head .tit_layer{display:block;text-align:center;font-size:18px;}
+.layer_socialshare .layer_body{margin-top:19px;}
+.layer_socialshare .list_sns{display:flex;flex-wrap:wrap;}
+.layer_socialshare .list_sns li{display:flex;align-items:center;justify-content:center;margin:0 13px 17px;}
+.layer_socialshare .btn_share{display:block;width:54px;height:73px;font-size:14px;text-align:center;}
+.layer_socialshare .btn_share .ico_share{margin:0 auto 8px;}
+.layer_socialshare .list_sns .link_sns{display:block;text-align:center;text-decoration:none;}
+.layer_socialshare .ico_share{display:block;overflow:hidden;width:48px;height:48px;background:none no-repeat 0 0/280px 50px;line-height:0;}
+.layer_socialshare .ico_share.ico_facebook{background-position-x:-52px;}
+.layer_socialshare .ico_share.ico_x{background-position-x:-104px;}
+.layer_socialshare .ico_share.ico_cafe{background-position-x:-156px;}
+.layer_socialshare .ico_share.ico_mail{background-position-x:-208px;}
+.layer_socialshare .layer_tostmessage{display:none;position:fixed;bottom:20px;/* 화면 하단에서 20px 위 */ left:50%;transform:translateX(-50%);}
+.layer_socialshare .layer_tostmessage .txt_copymessage{display:flex;align-items:center;justify-content:center;height:58px;border-radius:16px;background-color:#2C2E33;color:#fff;}
+.layer_socialshare .layer_tostmessage.show{display:block;}
+@media only screen and (-webkit-min-device-pixel-ratio:2.5),only screen and (min-device-pixel-ratio:2.5){.layer_socialshare .ico_share{background-image:none;} }
+/* -------------- 소셜쉐어 공통 레이어 끝 ---------------- */
+.layer_socialshare .ico_share{font-size:0;text-indent:-9999px;}
+.layer_socialshare .inner_layer{box-shadow:0 4px 32px 0 rgba(0,0,0,0.16);}
+.layer_socialshare .txt_copymessage{width:500px;}

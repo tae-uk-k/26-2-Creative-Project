@@ -1,0 +1,19 @@
+{
+  "_comment": "지도별 칸 사전(09 3장, 16 5장). D-17: 실제 관리 화면으로 확정 [PoC]",
+  "google": {
+    "description":   { "label": "가게 소개",     "type": "text",       "order": 1, "maxLength": 750, "api": "profile.description" },
+    "regular_hours": { "label": "영업시간",      "type": "hours",      "order": 2, "api": "regularHours" },
+    "website":       { "label": "웹사이트",      "type": "url",        "order": 3, "api": "websiteUri" },
+    "phone":         { "label": "전화번호",      "type": "phone",      "order": 4, "api": "phoneNumbers.primaryPhone" },
+    "menu":          { "label": "메뉴·가격",     "type": "menu",       "order": 5, "maxItems": 100, "api": null },
+    "attributes":    { "label": "편의 정보",     "type": "attributes", "order": 6, "api": null }
+  },
+  "kakao": {
+    "intro":       { "label": "한 줄 소개",      "type": "text",     "order": 1, "maxLength": 50 },
+    "hours":       { "label": "영업시간",        "type": "hours",    "order": 2 },
+    "price_items": { "label": "가격 정보",       "type": "menu",     "order": 3, "maxItems": 50, "maxFeatured": 2 },
+    "links":       { "label": "사이트·SNS 링크", "type": "links",    "order": 4, "maxItems": 5 },
+    "services":    { "label": "제공 서비스",     "type": "services", "order": 5, "choices": [] },
+    "tags":        { "label": "태그",            "type": "tags",     "order": 6, "maxItems": 5, "maxLength": 20 }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "restoredSection": "620:11",
+  "restoredSlideCount": 9,
+  "exactFirstVersionMatch": true,
+  "normalizedSignature": "c23b6fe0",
+  "sourceHashes": {
+    "original": "853dee36",
+    "gray": "8c487ded"
+  },
+  "restoredAudit": {
+    "autoLayout": 0,
+    "hugOrFill": 0,
+    "instances": 0,
+    "missingFonts": []
+  },
+  "currentPalette": {
+    "id": "613:53",
+    "from": "#DFA61D",
+    "to": "#FFB300",
+    "changedNodes": 24
+  },
+  "renderReviewed": true
+}

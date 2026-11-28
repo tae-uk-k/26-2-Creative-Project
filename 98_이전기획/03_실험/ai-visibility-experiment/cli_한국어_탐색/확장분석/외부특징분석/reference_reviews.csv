@@ -1,0 +1,31 @@
+entity_id,tourism_individual_page_verified,tourism_evidence_status,reported_established_year,year_scope,source_url,note
+MD-R01,,registry_url_redirected_to_generic_restaurants,1966,brand,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,미쉐린 소개문 창업 연도 원본 본점 공사 리뷰 별도
+MD-R02,,no_tourism_individual_page_in_selected_registry_sources,1939,brand,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,미쉐린 소개문 창업 연도
+MD-R03,,own_website_only,,,https://www.wangbijib-restaurant.com/reservations,
+MD-R04,1,individual_verified,,,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=58977,
+MD-R05,1,individual_verified,,,https://english.visitseoul.net/area/Myeongdong-Hamheung-Myeonok/ENP005228,
+MD-R06,1,individual_verified,1966,restaurant_reported,https://english.visitseoul.net/attractions--/Miseongok/ENP002876,공식 관광 소개문 연도
+MD-R07,,own_website_only,2014,branch,https://myeongdongrestaurant.imweb.me/About,자체 소개문 브랜드 1999년과 명동 지점 2014년 구분
+MD-R08,,own_website_only,,,https://www.myeongdong-restaurant.com/en,자체 사이트 구글 리뷰 인용 수치는 구글 실측 값에서 제외
+MD-R09,,own_website_only,,,https://www.myeongdongkoreanbbq.kr/en,자체 사이트의 구글 311+ 표시는 구글 실측 값에서 제외
+MD-R10,1,individual_verified,1937,reported_unspecified,https://english.visitseoul.net/restaurants/SeongwonJeonjuKongnamulGukbap/ENPwmqzyh,관광 페이지 주장 연도 추가 독립 대조 필요 학습 제외
+SS-R01,,waf_blocked_selected_url,,,https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk,HTTP 200이지만 보안 차단 페이지 실제 소개문 미열람
+SS-R02,1,individual_verified,,,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=51924,
+SS-R03,1,individual_verified,,,https://english.visitseoul.net/restaurants/Seongsudarak/ENPmmx0cv,
+SS-R04,1,individual_verified,,,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=187045,기존 own_website=yes의 뽈레 링크는 자체 홈페이지로 재검증되지 않음 기존 설명변수는 legacy로 유지
+SS-R05,,course_article_not_individual_page,,,https://english.visitseoul.net/accessible-seoul/SeongsuCourse/ENNysm1n0,퀴버를 언급한 관광 코스 기사는 개별 식당 페이지와 구분
+SS-R06,,waf_blocked_selected_url,,,https://stage-kr.visitseoul.net/restaurants/jamsugyojib/KOP47h48o,HTTP 200 보안 차단 소개문 미열람
+SS-R07,1,individual_verified,,,https://korean.visitseoul.net/area/yournakedcheese/KOP04d1r9,
+SS-R08,,no_official_url_in_registry,,,,기존 목록에 개별 공식 관광 URL 없음 검색 미발견을 미등재 0으로 바꾸지 않음
+SS-R09,1,individual_verified,,,https://english.visitseoul.net/area/seon-chae/ENPcgf2vx,
+SS-R10,1,individual_verified,,,https://english.visitseoul.net/restaurants/hau/ENP2aitm6,
+MW-R01,,multi_store_article,,,https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836,개별 식당 페이지와 기사 언급 구분
+MW-R02,,market_area_page,,,https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950,지역 전체 페이지로 개별 식당 등재를 대체하지 않음
+MW-R03,,market_area_page_and_identity_unresolved,,,,황인호는 대표자명인 원당수제고로케로 추정 새 별칭을 원래 추천 라벨에 소급 적용하지 않음
+MW-R04,,multi_store_article_and_name_typo,,,https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836,흥흥호떡 원본명과 훈훈호떡의 영어명 주소 대응 민감도 제외
+MW-R05,1,individual_verified,,,https://english.visitseoul.net/area/BaliinMangwon/ENP7ejzo2,
+MW-R06,,no_official_url_in_registry,,,,
+MW-R07,,no_official_url_in_registry,,,,
+MW-R08,,no_official_url_in_registry,,,,
+MW-R09,,no_official_url_in_registry,,,,
+MW-R10,,no_official_url_in_registry,,,,

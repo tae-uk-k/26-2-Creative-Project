@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "rows": 600,
+  "independent_stores": 30,
+  "profile_features_collected": 28,
+  "prices_against_structured_menu": 28,
+  "oof_unique_keys": true,
+  "fixed_folds_matched": true,
+  "fold_imputation_checked_against_training_stores": true,
+  "source_labels_unchanged": true,
+  "consumer_hashes_unchanged": {
+    "consumer_results.csv": "149f1bb971981f3d5f5aec50a5f6ae466d44593c16af790058d1cc0ea9cfbdc3",
+    "consumer_failures.csv": "e2024bbd9096d269a455e38a170091aaefba7c998280c205d86b887411ecd80e"
+  },
+  "glmm_all_converged": true,
+  "bootstrap_resamples": 200,
+  "sensitivity_stores": [
+    28,
+    26
+  ],
+  "sensitivity_all_optimizer_success": true,
+  "report_code_sha256": "f012587167af5bcdae33074115a5eeeaaecae6c57e836c366508b26d7beae2bf",
+  "causal_claim": false
+}

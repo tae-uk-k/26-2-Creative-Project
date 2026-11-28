@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "original_stores": 30,
+  "rows": 600,
+  "profiles_with_matching_road_and_aggregate": 28,
+  "prices_verified_against_menu": 28,
+  "michelin_listing_count": 180,
+  "guide_positive_stores": 2,
+  "response_labels_changed": false,
+  "missing_profiles": [
+    "MW-R03",
+    "SS-R05"
+  ],
+  "tourism_nonfinding_is_not_zero": true,
+  "google_counts_imputed_from_other_platforms": false,
+  "feature_snapshot_after_outcomes": true,
+  "input_sha256": {
+    "profile_pages_live_2026-10-14.jsonl": "7db9c89ef5a5005c8aa29f42310af2861c37d6266af4fb192616b9d3ac39a36c",
+    "profile_selection.csv": "0dc8645eae60e5c60180331aa864f0ab48e66aeecd7b647c715a273d89901b70",
+    "representative_menu_selection.csv": "eb6af04efd833df430675ca6a641e7b587eb41fa7a5323625a015c0796786fec",
+    "michelin_complete_listing.json": "2085cb027fac826dc920e83ac5ff3ea0ec5508564d528611e97101b6effe589b",
+    "reference_reviews.csv": "91123fd3cff11f5bcf7cb433b7cb559b2703c4195099ddbd549a47ea5d30e25a",
+    "data_primary_general.csv": "e97dd57c28890b06c4ee8f8b8f0793179c1605511cd7d8c0717f7f3222cb6dd0",
+    "robust_cv_store_folds.csv": "cb83a2ae6b25519f168624629b95cf95595d2e473ff664507cfa887a9c66ebf7"
+  }
+}

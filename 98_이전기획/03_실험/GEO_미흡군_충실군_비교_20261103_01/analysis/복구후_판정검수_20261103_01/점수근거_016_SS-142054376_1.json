@@ -1,0 +1,19 @@
+{
+  "store_id": "SS-142054376",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "주요 파스타·피자 메뉴명과 가격은 연결되나 판매 단위는 전반적으로 미표기. 다른 상호 사진2장은 제외.",
+  "sources": [
+    {
+      "quote": "까르보나라",
+      "source_url": "https://place.map.kakao.com/142054376#menuInfo",
+      "observed_at": "2026-11-02T19:46:23.592Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\158_SS-142054376_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

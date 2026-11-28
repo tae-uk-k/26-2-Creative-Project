@@ -1,0 +1,14 @@
+{
+  "attempt_id": "20261103T060924736319Z-SS-Q1-R02-T1",
+  "cell_id": "SS-Q1-R02",
+  "status": "failure",
+  "reason": "두 지도 상세 본문 직접 확인 요건 미충족. 15개 응답의 미확인 안내·도구 이벤트를 검수함. 지도 검색 스니펫·대체 사이트·지도 링크를 지도 본문 확인으로 대체하지 않음.",
+  "map_access_kakao": "not_verified",
+  "map_access_google": "not_verified",
+  "source_body_verified": "false",
+  "local_file_access": "false",
+  "reviewed_by": "assistant_manual_review_20261103",
+  "evidence": "analysis\\실측_검수자료_20261103_01\\20261103T060924736319Z-SS-Q1-R02-T1.audit.json",
+  "failure_subtype": "map_body_requirement_unmet",
+  "reviewed_at_utc": "2026-11-03T11:37:08.693120+00:00"
+}

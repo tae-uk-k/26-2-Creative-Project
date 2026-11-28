@@ -1,0 +1,80 @@
+[
+  {
+    "product_no": 11,
+    "product_code": "P000000L",
+    "product_name": "seelo 아카시아 벌꿀 500g",
+    "price": "14900.00",
+    "summary_description": "한 스푼의 은은한 달콤함",
+    "product_tag": [],
+    "detail_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/big/20261123/5f1099330a66e2ee2cfdc009f301d6b5.png",
+    "list_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/medium/20261123/231ca5c8ffe2ed16d1129219b2e5f06c.png",
+    "tiny_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/tiny/20261123/fe7e904ef3f4ce090a933f5882963203.png",
+    "small_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/small/20261123/186f5710f2a2037aa9463356d2ed0628.png",
+    "variants_simple": [
+      {
+        "variant_code": "P000000L000A",
+        "options": "",
+        "display": "T",
+        "selling": "T"
+      }
+    ],
+    "button": {
+      "label": "상세 보기",
+      "action": "link",
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=11"
+    },
+    "product_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=11"
+  },
+  {
+    "product_no": 12,
+    "product_code": "P000000M",
+    "product_name": "seelo 볶은 귀리분말 300g",
+    "price": "9900.00",
+    "summary_description": "부드럽게 섞이는 곡물 한 스푼",
+    "product_tag": [],
+    "detail_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/big/20261123/09771c477b46f42e7d5414bef247454a.png",
+    "list_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/medium/20261123/eb86608ceab689811a010709396429c5.png",
+    "tiny_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/tiny/20261123/6d0c069c3a30603434919552166c1445.png",
+    "small_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/small/20261123/0b06b95a56c8abb93b73421237650919.png",
+    "variants_simple": [
+      {
+        "variant_code": "P000000M000A",
+        "options": "",
+        "display": "T",
+        "selling": "T"
+      }
+    ],
+    "button": {
+      "label": "상세 보기",
+      "action": "link",
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=12"
+    },
+    "product_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=12"
+  },
+  {
+    "product_no": 13,
+    "product_code": "P000000N",
+    "product_name": "seelo 볶은 서리태분말 300g",
+    "price": "12900.00",
+    "summary_description": "진하게 고소한 검은콩 한 스푼",
+    "product_tag": [],
+    "detail_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/big/20261123/6754b0d196ebdf4b914b015baf960bc0.png",
+    "list_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/medium/20261123/0000605035a72297b259c385143ce4f9.png",
+    "tiny_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/tiny/20261123/4e7da2aa794c3fa545444f7a49f4c1a4.png",
+    "small_image": "https://ecimg.cafe24img.com/pg3648b75744963087/xodnrdl06066/web/product/small/20261123/507d41e74967cc199a17c8ced0cd6c01.png",
+    "variants_simple": [
+      {
+        "variant_code": "P000000N000A",
+        "options": "",
+        "display": "T",
+        "selling": "T"
+      }
+    ],
+    "button": {
+      "label": "상세 보기",
+      "action": "link",
+      "url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=13"
+    },
+    "product_url": "https://xodnrdl06066.cafe24.com/product/detail.html?product_no=13"
+  }
+]

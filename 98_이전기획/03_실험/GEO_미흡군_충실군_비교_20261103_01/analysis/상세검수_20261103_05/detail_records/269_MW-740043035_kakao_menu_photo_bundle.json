@@ -1,0 +1,61 @@
+{
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/jpeg",
+        "id": "ba2eb45ca7c8eefa",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/ba2eb45ca7c8eefa",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTZfMjgg%2FMDAxNzkyMTQ2MDg5OTM4.-zS5cEc7VnJYKW2xzyq1CIV6G3OUScySKT7CYI8BSL4g.c5Di-kZMybLh5uCMgfdfm1l8GRJumkWS4-Zh__u_CKsg.JPEG%2FIMG%25EF%25BC%25BF7758.jpg%3Ftype%3Dw966"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "4dc20bd568c46fdd",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/4dc20bd568c46fdd",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMThfMTQ3%2FMDAxNzkyMzE1MDEzOTAx.Bi7kwFNDHl8lXX-4XyyOhk3ob1t8I4zC9sm5kSHXWEog.-BFFceP71jg2T2VvVz5jIqowITKvTX1IgWRxbVJWGt0g.JPEG%2FIMG%25EF%25BC%25BF2826.jpg%3Ftype%3Dw773"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "bf2a2c3c2726f92b",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/bf2a2c3c2726f92b",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDVfODUg%2FMDAxNzkxMTkxOTU2NzM0.wUGayDsfZkjUsMU00OgS1RQ-Ve9lmIUh1ptKmOw6-pgg.iQPl-TwSTf9PTxjU7wpO-dxLXMpxAUy3fAqSH-PL6dUg.JPEG%2FIMG%25EF%25BC%25BF7004.jpg%3Ftype%3Dw386"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "196b611269b6a73d",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/196b611269b6a73d",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDVfMjYy%2FMDAxNzkxMTkxOTU3MTUz.yEKgFxGRxlZvqVnnDbY_Q_jZ6TcGMnbqscn4ryfaWw8g.9gg2YhgC4wVZhPk-DVbkKu2Km2uMQDGEDeSNEgpiDrQg.JPEG%2FIMG%25EF%25BC%25BF7009.jpg%3Ftype%3Dw386"
+      },
+      {
+        "contentType": "image/jpeg",
+        "id": "68606ace172dda10",
+        "kind": "image",
+        "name": "R2034x0.q100",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/68606ace172dda10",
+        "url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fsearch.pstatic.net%2Fcommon%2F%3Fsrc%3Dhttps%253A%252F%252Fldb-phinf.pstatic.net%252F20221225_125%252F1671954120386z2l1h_JPEG%252F%2525B8%2525DE%2525B4%2525BA1001.jpg"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b",
+    "failures": [],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/c24672a7-7305-4150-9d46-fb5abe787f6b/manifest.json",
+    "summary": {
+      "downloadedCount": 5,
+      "elapsedMs": 219.7124000005424,
+      "failedCount": 0,
+      "requestedCount": 5
+    }
+  },
+  "kind": "detail",
+  "observed_at": "2026-11-03T04:17:44.796Z",
+  "platform": "kakao",
+  "section": "menu_photo_bundle",
+  "store_id": "MW-740043035",
+  "url": "https://place.map.kakao.com/740043035#photoList?type=menuboard&pidx=0"
+}

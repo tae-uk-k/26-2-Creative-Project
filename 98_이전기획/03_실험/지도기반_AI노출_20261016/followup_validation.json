@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "controlled_arms": [
+    {
+      "folder": "정보제공_통제실험",
+      "runs": 48,
+      "candidate_rows": 192,
+      "selected_rows": 96,
+      "quotes_valid": true,
+      "no_external_tools": true,
+      "position_and_condition_balance": true,
+      "raw_rates_equal_derived": true
+    },
+    {
+      "folder": "동일정보_표현비교",
+      "runs": 48,
+      "candidate_rows": 192,
+      "selected_rows": 96,
+      "quotes_valid": true,
+      "no_external_tools": true,
+      "position_and_condition_balance": true,
+      "raw_rates_equal_derived": true
+    }
+  ],
+  "controlled_total_runs": 96,
+  "independent_controlled_stores": 12,
+  "fixed_future_candidates": 60,
+  "detailed_kakao_profiles": 60,
+  "priced_menu_profiles": 57,
+  "priced_menu_rows": 221,
+  "browser_to_saved_row_checksum": "93f812d2",
+  "browser_to_saved_rows_exact": true,
+  "first_12_menu_pairs_unchanged_in_later_capture": true,
+  "naver_owner_cross_map_matches": 2,
+  "protected_file_hash_checks": {
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\attempts.jsonl": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\정보제공_통제실험\\attempts.jsonl": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\정보제공_통제실험\\동일정보_표현비교\\attempts.jsonl": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\data\\consumer_results.csv": true,
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\data\\consumer_failures.csv": true
+  },
+  "natural_map_exposure_effect_still_unmeasured": true,
+  "all_local_report_links_valid": true
+}

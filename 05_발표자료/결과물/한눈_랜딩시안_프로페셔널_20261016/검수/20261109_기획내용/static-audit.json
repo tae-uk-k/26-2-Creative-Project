@@ -1,0 +1,60 @@
+{
+  "pages": {
+    "03_city_scroll.html": {
+      "duplicate_ids": [],
+      "missing_local_assets": [],
+      "platform_logos": 17,
+      "scope_sections": 1,
+      "has_14_day_copy": true,
+      "has_unverified_performance": false,
+      "http": 200
+    },
+    "05_shop_windows.html": {
+      "duplicate_ids": [],
+      "missing_local_assets": [],
+      "platform_logos": 17,
+      "scope_sections": 1,
+      "has_14_day_copy": true,
+      "has_unverified_performance": false,
+      "http": 200
+    },
+    "07_kinetic.html": {
+      "duplicate_ids": [],
+      "missing_local_assets": [],
+      "platform_logos": 17,
+      "scope_sections": 1,
+      "has_14_day_copy": true,
+      "has_unverified_performance": false,
+      "http": 200
+    },
+    "08_window_stage.html": {
+      "duplicate_ids": [],
+      "missing_local_assets": [],
+      "platform_logos": 18,
+      "scope_sections": 1,
+      "has_14_day_copy": true,
+      "has_unverified_performance": false,
+      "http": 200
+    },
+    "13_map_spots.html": {
+      "duplicate_ids": [],
+      "missing_local_assets": [],
+      "platform_logos": 17,
+      "scope_sections": 1,
+      "has_14_day_copy": true,
+      "has_unverified_performance": false,
+      "http": 200
+    }
+  },
+  "original_asset_hashes": "all matched",
+  "browser_visual_review": "blocked by Work setting: Local browser use is disabled",
+  "intro_copy_preserved": true,
+  "planning_source": "01_기획/서비스기획서.md, 2026-11-09",
+  "content_basis": [
+    "무료 진단 지표와 고칠 점의 개수",
+    "정비 신청 승인 후 지도 관리 권한 연결",
+    "현재 값·바꿀 값·이유, 누락 중심 보완, 준비된 변경 승인",
+    "실제 정비 완료 14일 뒤 동일 조건 재측정",
+    "Google·카카오 현재 지원과 후속 채널 검토 구분"
+  ]
+}

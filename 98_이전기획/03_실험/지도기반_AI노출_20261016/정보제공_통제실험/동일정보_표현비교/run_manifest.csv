@@ -1,0 +1,49 @@
+﻿run_id,backend,requested_model,prompt_id,area_id,repeat,rotation
+EF-SS-R2-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R2-L0,SS,2,0
+EF-SS-R2-L1-CODEX,codex,gpt-6.1-sol,EF-SS-R2-L1,SS,2,1
+EF-MW-R2-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R2-L0,MW,2,0
+EF-SS-R2-L0-CODEX,codex,gpt-6.1-sol,EF-SS-R2-L0,SS,2,0
+EF-MW-R2-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R2-L3,MW,2,3
+EF-MW-R2-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R2-L1,MW,2,1
+EF-SS-R2-L3-CODEX,codex,gpt-6.1-sol,EF-SS-R2-L3,SS,2,3
+EF-SS-R1-L1-CODEX,codex,gpt-6.1-sol,EF-SS-R1-L1,SS,1,1
+EF-MD-R2-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R2-L3,MD,2,3
+EF-MD-R1-L1-CODEX,codex,gpt-6.1-sol,EF-MD-R1-L1,MD,1,1
+EF-SS-R1-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R1-L2,SS,1,2
+EF-MW-R2-L3-CODEX,codex,gpt-6.1-sol,EF-MW-R2-L3,MW,2,3
+EF-MW-R1-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R1-L3,MW,1,3
+EF-SS-R2-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R2-L1,SS,2,1
+EF-MW-R2-L1-CODEX,codex,gpt-6.1-sol,EF-MW-R2-L1,MW,2,1
+EF-MW-R1-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R1-L0,MW,1,0
+EF-MD-R1-L2-CODEX,codex,gpt-6.1-sol,EF-MD-R1-L2,MD,1,2
+EF-MD-R2-L3-CODEX,codex,gpt-6.1-sol,EF-MD-R2-L3,MD,2,3
+EF-MW-R1-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R1-L1,MW,1,1
+EF-SS-R1-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R1-L3,SS,1,3
+EF-SS-R2-L2-CODEX,codex,gpt-6.1-sol,EF-SS-R2-L2,SS,2,2
+EF-SS-R1-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R1-L1,SS,1,1
+EF-MD-R2-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R2-L2,MD,2,2
+EF-MW-R2-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R2-L2,MW,2,2
+EF-MD-R1-L3-CODEX,codex,gpt-6.1-sol,EF-MD-R1-L3,MD,1,3
+EF-MD-R1-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R1-L0,MD,1,0
+EF-MW-R1-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-MW-R1-L2,MW,1,2
+EF-MD-R2-L2-CODEX,codex,gpt-6.1-sol,EF-MD-R2-L2,MD,2,2
+EF-MD-R2-L0-CODEX,codex,gpt-6.1-sol,EF-MD-R2-L0,MD,2,0
+EF-SS-R2-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R2-L3,SS,2,3
+EF-MW-R1-L3-CODEX,codex,gpt-6.1-sol,EF-MW-R1-L3,MW,1,3
+EF-MW-R1-L2-CODEX,codex,gpt-6.1-sol,EF-MW-R1-L2,MW,1,2
+EF-MD-R1-L0-CODEX,codex,gpt-6.1-sol,EF-MD-R1-L0,MD,1,0
+EF-MD-R2-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R2-L0,MD,2,0
+EF-SS-R1-L2-CODEX,codex,gpt-6.1-sol,EF-SS-R1-L2,SS,1,2
+EF-MD-R1-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R1-L1,MD,1,1
+EF-MD-R2-L1-CODEX,codex,gpt-6.1-sol,EF-MD-R2-L1,MD,2,1
+EF-MD-R2-L1-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R2-L1,MD,2,1
+EF-SS-R2-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R2-L2,SS,2,2
+EF-MW-R2-L2-CODEX,codex,gpt-6.1-sol,EF-MW-R2-L2,MW,2,2
+EF-SS-R1-L0-AGY,agy,Gemini 3.8 Flash (Low),EF-SS-R1-L0,SS,1,0
+EF-MW-R1-L0-CODEX,codex,gpt-6.1-sol,EF-MW-R1-L0,MW,1,0
+EF-SS-R1-L0-CODEX,codex,gpt-6.1-sol,EF-SS-R1-L0,SS,1,0
+EF-MD-R1-L3-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R1-L3,MD,1,3
+EF-MD-R1-L2-AGY,agy,Gemini 3.8 Flash (Low),EF-MD-R1-L2,MD,1,2
+EF-MW-R2-L0-CODEX,codex,gpt-6.1-sol,EF-MW-R2-L0,MW,2,0
+EF-SS-R1-L3-CODEX,codex,gpt-6.1-sol,EF-SS-R1-L3,SS,1,3
+EF-MW-R1-L1-CODEX,codex,gpt-6.1-sol,EF-MW-R1-L1,MW,1,1

@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-11-02T18:15:46.770234+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "고유 측정 셀90개",
+      "passed": true,
+      "detail": "실행 계획이며 실제 호출 수와 구분"
+    },
+    {
+      "name": "질문에 표본·분류 미포함",
+      "passed": true,
+      "detail": "9개 자연어 질문, 반복10"
+    },
+    {
+      "name": "실제 식당 원문 없음",
+      "passed": true,
+      "detail": "추천 세션 미시작"
+    },
+    {
+      "name": "집단 미확정 측정 차단",
+      "passed": true,
+      "detail": "측정 전 검증에서 중단, 가짜 호출·실패 없음"
+    },
+    {
+      "name": "준비성 원문 무변경 20261102T181231136322Z-NEUTRAL-MAP-ACCESS-T1",
+      "passed": true,
+      "detail": "원문 SHA256"
+    },
+    {
+      "name": "준비성 원문 무변경 20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1",
+      "passed": true,
+      "detail": "원문 SHA256"
+    },
+    {
+      "name": "준비성 점검 실제2회",
+      "passed": true,
+      "detail": "첫 호출 용량 오류, 두 번째 프로세스 정상 종료이나 지도 접근 실패"
+    },
+    {
+      "name": "실제 지도 접근 성공으로 오인하지 않음",
+      "passed": true,
+      "detail": "프로세스 성공과 지도 접근 성공을 구분"
+    },
+    {
+      "name": "기존 실험 보존",
+      "passed": true,
+      "detail": {
+        "unchanged_files": 85,
+        "changed_files": []
+      }
+    },
+    {
+      "name": "등장률 계산 검증",
+      "passed": true,
+      "detail": "PASS: arithmetic-only in-memory checks; no synthetic study files created"
+    },
+    {
+      "name": "실측 미완료·분모0 유지",
+      "passed": true,
+      "detail": "미실행90을 실패90 또는 노출0%로 표시하지 않음"
+    }
+  ],
+  "readiness": [
+    {
+      "attempt_id": "20261102T181231136322Z-NEUTRAL-MAP-ACCESS-T1",
+      "started_at": "2026-11-02T18:12:31.138834+00:00",
+      "ended_at": "2026-11-02T18:12:45.305759+00:00",
+      "returncode": 1,
+      "model_requested": "gpt-6.1-sol",
+      "model_snapshot": null,
+      "raw_file": "readiness\\20261102T181231136322Z-NEUTRAL-MAP-ACCESS-T1.jsonl",
+      "status": "model_capacity_failure",
+      "final_response": "두 지도에서 서울특별시청 상세 페이지를 직접 열어 확인하겠습니다.\n",
+      "included_in_restaurant_measurement": false
+    },
+    {
+      "attempt_id": "20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1",
+      "started_at": "2026-11-02T18:13:35.868666+00:00",
+      "ended_at": "2026-11-02T18:14:00.569407+00:00",
+      "returncode": 0,
+      "model_requested": "gpt-6.1-sol",
+      "model_snapshot": null,
+      "raw_file": "readiness\\20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1.jsonl",
+      "status": "process_completed_map_access_failed",
+      "final_response": "| 지도 | 확인 결과 | 접근을 시도한 링크 |\n|---|---|---|\n| 카카오맵 | **접근 실패** — 상세 정보와 주소 확인 불가 | [서울특별시청 검색](https://map.kakao.com/?q=서울특별시청) |\n| 구글 지도 | **접근 실패** — 상세 정보와 주소 확인 불가 | [서울특별시청 장소 페이지](https://www.google.com/maps/place/서울특별시청/) |\n\n두 지도 모두 도구에서 접근 불가 오류가 발생했습니다. 실제로 열어 확인한 출처가 없어 주소는 기재하지 않았습니다.",
+      "included_in_restaurant_measurement": false
+    }
+  ],
+  "research_completed": false,
+  "blocking_condition": "Work local browser disabled; both map detail access unavailable through web tool; CLI readiness also reported both map access failures."
+}

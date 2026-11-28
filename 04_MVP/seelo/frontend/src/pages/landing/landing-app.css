@@ -1,0 +1,50 @@
+/* 앱에 옮기며 더한 것: 머리글 로그인 버튼 하나. 나머지는 시안(dark.html) 스타일을 그대로 쓴다. */
+.landing .header-content nav {
+  margin-left: auto;
+}
+.landing .header-login {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0 1.1rem;
+  border-radius: 0.625rem;
+  color: #fff;
+  background: #191f28;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.landing .header-login:hover {
+  background: #333d4b;
+}
+/* 시안의 '쇼핑몰 이미지 3종' 자리에 약관 링크를 둔다. */
+.landing .footer-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+}
+.landing .footer-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.landing .footer-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+@media (max-width: 38rem) {
+  .landing .header-login {
+    min-height: 2.25rem;
+    padding: 0 0.75rem;
+    font-size: 0.82rem;
+  }
+}
+/* 로그인 버튼이 들어가 좁은 화면에서 메뉴가 두 줄이 된다. 마지막 메뉴는 본문 순서로 닿는다. */
+@media (max-width: 25rem) {
+  .landing .header-content nav a:nth-child(3) {
+    display: none;
+  }
+}

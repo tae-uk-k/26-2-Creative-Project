@@ -1,0 +1,694 @@
+{
+  "attempt_id": "20261103T061436803718Z-MW-Q2-R05-T1",
+  "cell_id": "MW-Q2-R05",
+  "raw_sha256": "b0535677721fe889215c429d3a1430194b3291ca383db601527e50c9b2afc7be",
+  "process_status": "model_or_process_failure",
+  "returncode": 1,
+  "started_at": "2026-11-03T06:14:36.804709+00:00",
+  "ended_at": "2026-11-03T06:15:10.289426+00:00",
+  "thread_ids": [
+    "01a1a00b-98db-7693-9492-555129ad7495"
+  ],
+  "invalid_json_lines": [],
+  "provider_errors": [
+    {
+      "type": "error",
+      "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+      }
+    }
+  ],
+  "forbidden_tool_items": [],
+  "search_event_count": 3,
+  "tool_actions": [
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action": {
+        "type": "search",
+        "queries": [
+          "망원 맛집 카카오맵 구글지도 소금집 델리",
+          "망원동 헤키 정식 가격",
+          "망원동 청어람 메뉴 가격"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:place.map.kakao.com 망원 소금집",
+          "site:google.com/maps 망원 음식점",
+          "site:place.map.kakao.com 망원동 음식점",
+          "소금집델리 망원 구글 지도"
+        ]
+      },
+      "request_map": ""
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action": {
+        "type": "search",
+        "queries": [
+          "망원 헤키 테이블링 메뉴",
+          "망원 청어람 본점 테이블링 메뉴",
+          "망원 프롬하노이 테이블링 메뉴",
+          "망원 강동원 테이블링 메뉴"
+        ]
+      },
+      "request_map": ""
+    }
+  ],
+  "source_events": [
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://delistationkorea.com/mangwon-dumplings-manduran/",
+      "ref_id": "turn0search0",
+      "title": "만두란 | 망원역 교자 8,000원",
+      "snippet": "교자와 량빤면, 훈툰탕을 운영하는 망원동 중식당. ... 6호선 망원역 2번 출구에서 매장 길 안내 기준 약 200m 거리에 있는 중식당입니다. 김사원세끼 공식 영상 설명과 현재",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kor.clubrichtour.co.kr/bbs/board.php?bo_table=datagokr_Kor&wr_id=30411",
+      "ref_id": "turn0search1",
+      "title": "청어람 망원점",
+      "snippet": "# 청어람 망원점 ... (망원동) ... 청어람 망원점 ... * 대표 메뉴 firstmenu",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://trip.happynowinfo.com/place/2764166/",
+      "ref_id": "turn0search2",
+      "title": "청어람 망원본점 — 메뉴·가격·영업시간 안내 — 트립노트",
+      "snippet": "청어람 망원본점은 마포 맛집 106곳 가운데 하나로, 서울특별시 마포구에 있습니다. ... 대표 메뉴 ... > 서울 마포구 망원동에 있는 매콤한 양념 소스가 일품인 곱창전골집으로 양깃머리,",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://triple.guide/restaurants/c8199b69-3aad-4ff6-bb22-01183e3b7add",
+      "ref_id": "turn0search3",
+      "title": "소금집 델리 망원 점",
+      "snippet": "서울 마포구 ... Image: 망원동 잠봉뵈르 맛집 소금집델리 썸네일 ... Image: 망원동 핫플 소금집 델리 잠봉뵈르, 주말 웨이팅 시간 팁 썸네일",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://realworldkorea23.tistory.com/35",
+      "ref_id": "turn0search4",
+      "title": "망원동 돈가스 맛집:: '헤키'",
+      "snippet": "망원동에 위치한 돈가스집 '헤키'에 다녀왔습니다 ... 가게 밖에 웨이팅 할 수 있는 의자가 있어서 앉으며 기다렸고 시간이 되면 직원분이 입장 안내를 해주십니다. 메뉴로는 히레카츠 정식(12,500원),",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://5739572.tistory.com/m/100",
+      "ref_id": "turn0search5",
+      "title": "망원 잠봉뵈르 맛집 소금집델리 웨이팅 없이 포장하기 메뉴 추천 샤퀴테리 보드",
+      "snippet": "### 망원 잠봉뵈르 맛집 소금집델리 웨이팅 없이 포장하기 메뉴 추천 샤퀴테리 보드 ... 소금집델리 망원점 건물 1층에는 요즘 망원에서 핫한 태국음식점 코랏이 위치한다. 서울 마포구",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://enjoyholic.tistory.com/5755",
+      "ref_id": "turn0search6",
+      "title": "맛있는 녀석들 전골노래자랑 곱창전골 우삼겹 볶음밥 임도형 - 서울 마포구 망원동 청어람 메뉴 및 가격 위치 주소 :: EnjoyHolic story...",
+      "snippet": "## 맛있는 녀석들 전골노래자랑 곱창전골 우삼겹 볶음밥 임도형 - 서울 마포구 망원동 청어람 메뉴 및 가격 위치 주소 ... 서울 마포구 망원동 청어람 메뉴 및",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://ramyselect.com/restaurants/gangdongwon-mangwon",
+      "ref_id": "turn0search7",
+      "title": "강동원, 망원역 맛집·망원동 맛집 메뉴·가격 | 라미셀렉트",
+      "snippet": "메뉴에 표시된 가격입니다. ... 민트초코칩 · 2026.08.27 망원동 강동원 중국집 탕수육 간짜장 평일 저녁 웨이팅 망원동에 위치한 중국집 강동원 한강공원 갈 때마다 상호명이 강동원이라 항상",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tripadvisor.co.kr/Restaurant_Review-g294197-d8902067-Reviews-Cheongeo_Ram-Seoul.html",
+      "ref_id": "turn0search8",
+      "title": "청어람, 서울 - 레스토랑 리뷰 - 트립어드바이저",
+      "snippet": "망원동맛집 곱창전골 청어람은 웨이팅 없는 평일점심 시간대 방문을 추천 합니다. ... 방문 날짜: 2024년 1월 30일 동행 인원: 3명 메뉴: 곱창전골 (35,000원) *맛: 곱창은 쫄깃하고",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://114.it.kr/biz/MA010120220803265510",
+      "ref_id": "turn0search9",
+      "title": "헤키 전화번호 · 망원1동 일식 회/초밥 | 울림",
+      "snippet": "헤키 ... 헤키는 서울특별시 마포구 망원1동에 위치한 일식 회/초밥 업체입니다. 망원1동에는 같은 업종(일식 회/초밥)이 이곳을 포함해 39곳 있습니다. ... * 송정 백반/한정식 · 망원1동",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/list.dc?query=%EB%A7%88%ED%8F%AC%EA%B5%AC+%EC%9B%94%EB%93%9C%EC%BB%B5%EB%A1%9C42%EA%B8%B8",
+      "ref_id": "turn0search10",
+      "title": "마포구 월드컵로 맛집 Top100 - 다이닝코드",
+      "snippet": "소금집 델리 망원동 84점 4.2(75명)샌드위치잠봉뵈르 수요미식회데이트배달캐주얼한 오늘 휴무\"줄서기: 는 계단 피해서 해달라고 하더라구여. ... 오시 망원본점 83점 4.5(25명)오코노미야키 데이트캐주얼한예약필수 영업 전\"망원역과 망원시장 사이, 한적한 골목에",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gratiar.tistory.com/82",
+      "ref_id": "turn0search11",
+      "title": "망원동 헤키 - 망원동 돈까스집, 망원동 히레까스, 망원동 맛집",
+      "snippet": "# 망원동 헤키 - 망원동 돈까스집, 망원동 히레까스, 망원동 맛집 ... 가게 앞에 나와있는 헤키 영업시간. ... 원래 메뉴와 가격은 ... 우리가 입장할 때는 아쉽게도",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://t1.daumcdn.net/kakaoadplus/version4/editor/file-1550035702289",
+      "ref_id": "turn0search12",
+      "title": "충전소_광고가이드_201803",
+      "snippet": "카카오톡 충전소 광고 가이드",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.nikkan-omatsuri.jp/2015site/history/upload/nikkan-omatsuri-report-2013.pdf",
+      "ref_id": "turn0search13",
+      "title": "2\n開催概要／개최개요\n1\n8\n2\n寄付企業・団体・個人一覧／기부기업・단체・개인 일람\n3\n10",
+      "snippet": "番号/번호 1 | アイテム/메뉴 海鮮チヂミ/해물부침개 | 参加候補店/참가점포명 オムニ食堂/어무니식당 | 価格/가격 ¥500 --- | --- | --- | --- 番号/번호 2 | アイテム/메뉴 トポッキ/떡볶이 | 参加候補店/참가점포명",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.changwon.go.kr/cwportal/_res/cwportal/data/character_2022/character_menu.pdf",
+      "ref_id": "turn0search14",
+      "title": "창원시청_피우미_매뉴얼_0513",
+      "snippet": "안내 [우]",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://boss.mukkebi.com/data/menu_option/240808_B_06.pdf",
+      "ref_id": "turn0search15",
+      "title": "내 가게 추천 메뉴 직접 설정 방법",
+      "snippet": "A Korean web admin page screenshot for “먹깨비 사장님사이트” showing the “가게 메뉴판 편집” (store menu board edit) area. The left sidebar menu lists: 업소관리",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://campus.megastudy.net/ebook/bucheon_boast/web/bucheon_201902_m.pdf",
+      "ref_id": "turn0search16",
+      "title": "부천메가 2020 자랑사전 본문-수정.pdf, page 1-64 @ Normalize",
+      "snippet": "- 망원동 맛집 따라하기 ... - 동지팥죽정식 ... 영양만점 제철 식자재 활용 ... - 부천 메가스터디 정식",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-343e809b-39c5-4537-9ae8-c285e69234d1",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.youtube.com/watch?v=Z3RA7bi5FUM",
+      "ref_id": "turn0youtube17",
+      "title": "EVERGLOW (에버글로우) - FIRST MV - YouTube",
+      "snippet": "에버글로우가 가진 무한한 카리스마와 시그니처 세계관을 여실히 보여줄 이번 앨범은 전세계 K-POP 팬들의 기대를 단숨에 충족시킬 것이다. 타이틀곡 'First'는 어둠에 당당히 맞서 희망의 빛을 찾아",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/profile.php?rid=4XAsVpVwzvTC",
+      "ref_id": "turn1search0",
+      "title": "소금집 델리 - 망원동 샌드위치, 잠봉뵈르 맛집 - 다이닝코드",
+      "snippet": "* 서울특별시 마포구 월드컵로19길 14 2층 지번 Image: 지번 보기 토글 아이콘 ... 우리나라 수제햄의 원조답게 촉촉한 햄과 기공 송송한 빵까지 역시는 역시구나 했답니다 ㅎㅎ",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tabling.co.kr/restaurant/6232",
+      "ref_id": "turn1search1",
+      "title": "소금집델리 망원 - 테이블링",
+      "snippet": "# 테이블링 - 소금집델리 망원 ## 소금집델리 망원 ... 지도 로딩중... ... 서울 마포구 월드컵로19길 14 2층 ... 제주 흑돼지로 만든 잠봉과 프렌치 이즈니 버터로",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://k-coolplace.lyjfsimonero.chatgpt.site/places/real-salt-house-deli-mangwon?lang=ko",
+      "ref_id": "turn1search2",
+      "title": "소금집델리 망원 — 서울 · 합정/망원 | K-Coolplace",
+      "snippet": "# 소금집델리 망원 ... 매장 지도 보기 ↗Google 상세 확인 중 ... Image: 소금집 델리 망원점 대표 메뉴",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://autoreserve.com/ko/restaurants/J5EwJabAeksJLH1p8PbD",
+      "ref_id": "turn1search3",
+      "title": "소금집델리 망원 예약 | 마포구, 서울특별시 | 양식",
+      "snippet": "소금집델리 망원 예약 | 마포구, 서울특별시 | 양식 | AutoReserve ... [Button: 서울 마포구 월드컵로19길 14 2층]Image: 지도 서비스 선택 ... 솔트 하우스 델리 망원은",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://oneul-odi.date/p/1M5B9Q600SS62/",
+      "ref_id": "turn1search4",
+      "title": "망원동 브런치 메뉴와 위치 5곳 – 오늘 어디",
+      "snippet": "소금집델리 망원 ... 서울 마포구 월드컵로19길 14 ... 네이버 지도에서 보기 수제 잠봉과 샤르퀴토리를 활용한 내실 있는 샌드위치와 브런치 메뉴로 잘 알려진 대표적인 델리 전문점입니다.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://polle.com/place/1dG842/%EC%86%8C%EA%B8%88%EC%A7%91%20%EB%8D%B8%EB%A6%AC",
+      "ref_id": "turn1search5",
+      "title": "소금집 델리 망원점 - 망원동 미트델리샵 | 뽈레 Polle",
+      "snippet": "왠지 이런 곳에 와서 식료품 사면 그냥 기분이 더 좋음ㅋㅋ 포장된 상품이 몇 개 없어서 썰어갈 수 있냐고 여쭤보니, 당일 먹을 게 아니면 팩으로 된",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://new.emmaru.com/matzip/matzip.do?code=M200302114551773447L&f=1&s=0&t=0",
+      "ref_id": "turn1search6",
+      "title": "망원 소금집델리 소개",
+      "snippet": "소금집델리 망원 페스트푸드 > 버거·샌드위치 [Input] 바로가기 [Input] [Input] [Input] [Input] [Input] 이름 소금집델리 망원 ... » Hot Platters 16,000 잉글리쉬 브랙퍼스트 16,000 소시지 플래터",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://matcha-gacha.vercel.app/chef/r/sogeumjip-deli",
+      "ref_id": "turn1search7",
+      "title": "소금집델리 망원 — 흑백요리사 잠봉뵈르맨 조지 더럼 식당 · 메뉴·예약 | 맛집 가챠",
+      "snippet": "# 소금집델리 망원 흑 흑백요리사 시즌1 흑수저 잠봉뵈르맨 조지 더럼 셰프의 식당이에요. ... 네이버 지도·예약 카카오맵🤝 약속 후보로",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://odiga.io/ko/p/195167740112144098",
+      "ref_id": "turn1search8",
+      "title": "소금집델리 망원 (서울 마포구 망원동 양식) - odiga.io",
+      "snippet": "양식 · 서울 마포구 망원동 · 월드컵로19길 14 2층 ... 클릭하면 지도 페이지로 이동합니다소금집델리 망원 ... 아직 소금집델리 망원의 기록이 없어요.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.culinarywar.com/restaurant/sogeumjipdelimangwon",
+      "ref_id": "turn1search9",
+      "title": "흑백요리사 지도 | 소금집델리 망원",
+      "snippet": "## 소금집델리 망원 ... 소금집델리 망원",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.diningcode.com/profile.php?rid=1CoKxr2dxHzY",
+      "ref_id": "turn1search10",
+      "title": "동경돈까스 - 망원 돈가스 맛집 - 다이닝코드",
+      "snippet": "동경돈가스 냉모밀 & 소금집델리 잠봉뵈르 망원동 냉모밀 소바 망원역 2번 출구에서 도보 1분 거리에 위치한 동경돈가스 동경 망원점 날씨가 너무 더우니까 시원한 냉모밀이 땡김 !",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://wirbel-daum.tistory.com/15524270",
+      "ref_id": "turn1search11",
+      "title": "[망원역맛집] 소금집델리 망원점 - 망원동 소금집델리 잠봉뵈르 샌드위치!",
+      "snippet": "마포구 소금집델리 원산지 표시판. ... 제주 흑돼지로 만든 잠봉과 프렌치 이즈니 버터로 가득 채운 소금집의 시그니쳐. ... 사이드로 감자나 코울슬로를 고를 수 있는데 코울슬로로 고릅니다.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://file.mk.co.kr/imss/write/20190326113426__00.pdf",
+      "ref_id": "turn1search12",
+      "title": "인터넷 산업\n\n4. 지도/내비게이션: AI(인공지능) 결합 강화\n\n글로벌 지도 시장은 구글",
+      "snippet": "그러나 한국은 지도 반출을 허용하지 않기 때문에, 구글 지도에 비해 국내 서비스가 훨씬 정확하고 많은 정보를 제공한다. 구글 지도를 제외하고 국내 지도 서비스 중에서는 T맵과",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.edu4mc.or.kr/nime_upload/attach/00000/2806/20230315043403175.pdf",
+      "ref_id": "turn1search13",
+      "title": "사례6  \n‘구글 지도’ 및 ‘구글 어스’로 지역사회 안내 하기\n\n구글 어스를 통해 한국어",
+      "snippet": "‘구글 지도’ 및 ‘구글 어스’로 지역사회 안내 하기 ... 실생활에서 사용 가능하도록 유용한 달력을 만들어 또래 멘토링 친구에게 선물할 수도 있고, 연말연시를 맞아 연하장을 만들고",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://eminwon.mapo.go.kr/emwp/jsp/ofr/FileDown.jsp?file_path=%2Fntishome%2Ffile%2Fupload%2Fofr%2Fofr%2F20240425&sys_file_nm=2024%EB%85%84+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EA%B8%B0%EB%A1%9D%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%A4%80%ED%91%9C%28%EA%B3%A0%EC%8B%9C%29_ofr_ofr_sH7Ff9utEzU2%40wH3_20240425120325695_2.pdf&user_file_nm=2024%EB%85%84+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EA%B8%B0%EB%A1%9D%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%A4%80%ED%91%9C%28%EA%B3%A0%EC%8B%9C%29.pdf",
+      "ref_id": "turn1search14",
+      "title": "2024년 서울특별시 마포구 기록관리기준표  |  |  |  |  |  |  |  |  |  |",
+      "snippet": "망원2동 | 1-산업중소기업 | 2-에너지및자원개발 | 3-에너지관리 | 4-에너지관련사무 | 5-에너지절약 | 6-에너지관리 | 7-자치단체일반 과제 | 8-공공청사 에너지절감, 에너지이용합리화, 탄소배출권 거래제, ... 망원2동 |",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kyu.snu.ac.kr/wp-content/nas01/202212/%EA%B7%9C%EC%9E%A5%EA%B0%81%20%EC%86%8C%EC%9E%A5%20%EA%B3%A0%EC%A7%80%EB%8F%84%EB%A1%9C%20%EC%A1%B0%EC%84%A0%EC%8B%9C%EB%8C%80%EB%A5%BC%20%EC%82%B4%EC%95%84%EB%B3%B4%EB%8B%A4_%EC%9D%BC%EB%B0%98.pdf",
+      "ref_id": "turn1search15",
+      "title": "규장각 소장고지도로",
+      "snippet": "규장각 소장 ... 17세 청소년들은 어느 지역의 지도가 궁금할까? ... 그리고 나이가 들어 60대가 되어 보는 지도에는 무엇이 담겨 있을까? ... 행이나 세계 곳곳 숨겨진",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.nars.go.kr/fileDownload2.do?doc_id=1LTB-7NRwG7&fileName=Report+1197%28Issues+on+International+Access+to+the+Map+Data+of+South+Korea%29.pdf",
+      "ref_id": "turn1search16",
+      "title": "발간등록번호 31-9735026-000626-14",
+      "snippet": "현재 구글의 지도 데이터 국외 반출 요청에 대 ... 는 당연히 국내의 (개인)위치정보의 활용이 불가 ... 서 무상으로 제공하고 있는 지도 데이터의 국외 ... 는",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-da913820-66e7-4c98-9011-22285a6e053f",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.nihao79.com/upload/books/1617588021_sub.pdf",
+      "ref_id": "turn1search17",
+      "title": "슬라이드 1",
+      "snippet": "중국 모바일 택시 어플의 대표 주자는 ‘띠띠(滴滴出行 Didi Chuxing)’이고, 이것과 함께 ‘바이두 지도(百度地图 Bǎidù Dìtú)’도 설치할 것을 추천합니다. 해외에서 일반적으로 ‘우버(Uber)’와 ‘구글 지도’만 있으면 편리한",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tabling.co.kr/restaurant/7003",
+      "ref_id": "turn2search0",
+      "title": "매란방 청량리역점 - 테이블링",
+      "snippet": "# 테이블링 - 매란방 청량리역점 ... 경극 '패왕별희'에 등장하는 화려한 의상, 무대연출 등을 모티브 삼아 ... 끊임없는 메뉴 개발을 거듭하여 세련되고, 캐주얼한 느낌을 살린 퓨전",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.tukorea.ac.kr/sites/student/contents/TUK_mobile%20guide.pdf",
+      "ref_id": "turn2search12",
+      "title": "햄버거 메뉴, 알림함",
+      "snippet": "상단 파란 헤더에 한국공학대학교 로고와 사용자 정보가 보이며, 사용자명 “강동원”, 학번 “2023100008”, 소속 “게임공학과 | 재학 2학년”, “로그아웃”이 표시된다. ... 상단 앱바에 뒤로가기 화살표, 제목",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://cafe.ambitstock.com/mangwon/cafe/%EB%82%B4%EB%A9%B4%EC%9D%98%EB%B0%9C%EA%B2%AC/",
+      "ref_id": "turn2search1",
+      "title": "내면의발견 — 망원 카페 종합★4.9 | 오늘의 카페",
+      "snippet": "망원 망원역 인근, 탁 트인 뷰가 곁에 있는 카페. ... ## 오늘의카페 스코어 종합 평점 ... 네이버 블로그 등 연동 글 약 431건이 키워드 분석에",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://heimcorp.co.kr/_images/monomansion.pdf",
+      "ref_id": "turn2search13",
+      "title": "망원 본점\n\n<visual_element id=\"e1\">\nA collage of store",
+      "snippet": "망원 본점",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.sony.net/Products/CameraSystem/CA/BRC_X1000_BRC_H800/Manual/C455100711.pdf",
+      "ref_id": "turn2search14",
+      "title": "C-455-100-71(1)",
+      "snippet": "주 메뉴 PAGE 표시하려면 이 버튼을 누릅니 ... 가 선택되어 있을 때 이 버튼을 누르면 상위 메 ... 이 버튼의 T( 망원) 쪽을 누르면 줌인",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://manual3.jvckenwood.com/c1c/lyt2339-029ko/pdf/LYT2339-029A.pdf",
+      "ref_id": "turn2search15",
+      "title": "녹화하기\n\n클로즈업 촬영하기  \n망원 접사 기능을 사용하여 피사체를 클로즈업 촬영할 수 있",
+      "snippet": "• ×에 손끝을 대면 메뉴가 종료됩니다. ... <tr><td>꺼짐</td><td>망원(T) 쪽에서 최대 1m까지 근접 촬영을 할 수 있습니다.<br>광각(W) 쪽에서 최대 5cm까지 근접 촬영을 할 수 있습니다.</td></tr> ...",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gdlp01.c-wss.com/gds/9/0300010129/01/5D_kr.pdf",
+      "ref_id": "turn2search16",
+      "title": "H51_00.fm",
+      "snippet": "<↔> 스위치가 <OFF>에 있거나 배터리를 교체한 경우, CF 카드를 교체한 경우에는 이전 화면 대신에 첫번째 메뉴 화면 [화질]이 표시됩니다. ... 근접 촬영 및 망원 촬영에서",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://gdlp01.c-wss.com/gds/5/0300027605/01/EOS_200D.pdf",
+      "ref_id": "turn2search17",
+      "title": "H4170_E.book",
+      "snippet": "전원 스위치를 [●]로 설정하면 [●1], [●4], [●5] 탭이 동영상 촬영에만 해당되는 메뉴 옵션으로 표시됩니다 (베이직 존 모드의 [●1], [●2], [●3] 탭). ... 망원 촬영에 디지털",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://malan-util.com/",
+      "ref_id": "turn2search2",
+      "title": "메유 | 메랜유틸리티 - 메이플랜드 올인원 도구",
+      "snippet": "회원가입도 필요 없고, 어떤 기능도 제한 없이 이용하실 수 있습니다. ... ### 메유 | 메이플랜드 올인원 도구 ... 본 사이트는 팬 제작 프로젝트이며, NEXON Korea",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.my-land.kr/",
+      "ref_id": "turn2search3",
+      "title": "마이랜드",
+      "snippet": "오랫동안 사랑받는 월미도 놀이공원 마이랜드! ... DJ의 입담이 어우러지는 타가다디스코와",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://kcreatorwave.com/kimdede-mapleland-evil-wings-upgrade/",
+      "ref_id": "turn2search4",
+      "title": "이블윙즈 작 성공기, 김데데의 메이플랜드 도전",
+      "snippet": "이블윙즈 작에 나선 김데데는 망둥이 사냥으로 자금을 마련하고, 10%와 60% 주문서 사이에서 끝까지 고민했습니다. ... 그는 배틀메이지가 망둥이 솔로 사냥에 적합하다고 설명했습니다. ... 시프와 소울마스터를",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://chunlimalatang.com/",
+      "ref_id": "turn2search5",
+      "title": "춘리마라탕 공식 홈페이지 - CLK F&B",
+      "snippet": "## 테이블 회전율을 위한 ... 군더더기 없는 핵심 메뉴 구성으로 빠른 조리와 높은 회전율, ... 이 정도 상권에서는 매장 청결, 재료 회전, 응대만 매뉴얼대로 지키면",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://maple-library.com/item/1072127",
+      "ref_id": "turn2search6",
+      "title": "청 진월장화 - 메이플랜드 라이브러리 - 메이플랜드 라이브러리",
+      "snippet": "# 청 진월장화 ... 물리 방어력+24 (21-27) ... 상점 판매가: 35,000 메소 ... 36)0.006%로보토이 (Lv.",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://litt.ly/masunho",
+      "ref_id": "turn2search7",
+      "title": "리틀리 | masunho",
+      "snippet": "마선호가 선택한 마사지건 '테라바디' At Once 리프팅 벨트 베이지,블랙,화이트(신규) ... 🏆청년의 날 크리에이터어워즈 스포츠부문 대상 ... ➡️(채널A)천하제일장사 시즌2 ➡️(AXN, MBC에브리원)몸쓸것들:S급 피지컬의 챌린지 100",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.fitnesspeople.co.kr/mangwon",
+      "ref_id": "turn2search8",
+      "title": "휘트니스피플 우먼 망원역점 | 망원동 헬스장ㆍ망원동 PT",
+      "snippet": "운동 후에도 편하게 이용할 수 있도록 프라이빗 샤워룸을 운영하고 있어요. ... 가볍게 방문하는 회원도 편하게 이용할 수 있도록 공용 락커를 준비했어요. ... 등 검증된 전문가들이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://triple.guide/restaurants/d3a539c4-9546-4b7b-b53b-96f805f7d057",
+      "ref_id": "turn2search9",
+      "title": "매란방 청량리역점",
+      "snippet": "서울특별시 동대문﻿구 왕산로 214, 청량리역,롯데백화점 3층 305호 (전농동) ... 근처의 추천 장소",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://www.spacecloud.kr/space/14652",
+      "ref_id": "turn2search10",
+      "title": "망원역 블랙아이 연습실 댄스피아노 - 스페이스클라우드",
+      "snippet": "망원역 블랙아이 연습실 댄스피아노 서울특별시 마포구 망원동 413-38 블랙아이 ... 안내된대로 따로 챙겨온 실내용 운동화종류만 착용 가능하시며, 탱고슈즈의 경우 호스트에게 전화or문자 문의 부탁드립니다😊 ... 이",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "https://techskin.co.kr/goods/goods_view.php?goodsNo=1000000522",
+      "ref_id": "turn2search11",
+      "title": "테크스킨 TECHSKIN | We Complete Your Golf",
+      "snippet": "원산지 ... [Button: 장바구니] [Button: 찜하기] [Button: 바로 구매] ... 테크스킨과 박대성프로(멍키팍)이 만들어낸 독보적인 협업 ! 골프 연습 매직 트레이너 테크스킨과 박대성프로(멍키팍)이 만들어낸 독보적인 협업",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn2view0",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "search_snippet"
+    },
+    {
+      "event_id": "exec-7d4e2ca1-8691-475a-b978-25f9b1fb91ea",
+      "action_type": "search",
+      "requested_url": "",
+      "result_url": "",
+      "ref_id": "turn2view1",
+      "title": "Internal Error",
+      "snippet": "",
+      "result_map": "",
+      "scope": "search_snippet"
+    }
+  ],
+  "error_results": [],
+  "final_text": "카카오맵과 구글 지도의 공개 정보를 찾아보고, 확인되는 지점명·메뉴·가격과 출처를 정리하겠습니다.\n",
+  "final_urls": [],
+  "self_report_failure_lines": [],
+  "recommendation_rows": [],
+  "extraction_method": "unparsed_requires_review",
+  "automatic_valid": false,
+  "body_access_judgement": "requires_manual_review",
+  "note": "도구 메타데이터와 검색 스니펫은 지도 상세 본문 검증으로 대체하지 않음. 대체 출처 추천은 유효 지도 비교 결과가 아님."
+}

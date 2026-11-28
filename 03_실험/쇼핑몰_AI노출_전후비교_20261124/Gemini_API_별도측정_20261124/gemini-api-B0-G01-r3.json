@@ -1,0 +1,335 @@
+{
+  "run_id": "gemini-api-B0-G01-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:06:20+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G01",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹 검색을 통해 확인된 **300g 용량의 식물성 단백질 분말 제품 3가지**는 다음과 같습니다.\n\n---\n\n### 1. EVLution Nutrition 스택드 식물성 프로틴 (300g)\n* **제품명**: EVLution Nutrition(에볼루션뉴트리션) 스택드 식물성 프로틴 (Stacked Plant Protein, 내추럴 바닐라/초콜릿) 300g\n* **판매처**: 아이허브 (iHerb)\n* **근거 링크**: [아이허브 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-6-oz-300-g/10069)\n* **선택 이유**: \n  * 정확히 300g 소용량으로 포장된 비건 식물성 단백질 파우더입니다.\n  * 1회 제공량당 식물성 단백질 복합체 20g, 천연 BCAA 3.5g, 글루타민 3.3g 등이 배합되어 있어 운동 전후 회복 및 일상 영양 보충용으로 섭취하기에 적합합니다.\n\n---\n\n### 2. 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 (300g)\n* **제품명**: 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 300g\n* **판매처**: 건강한 우리집 비옴 공식몰, 쿠팡 등\n* **근거 링크**: [건강한 우리집 비옴 공식몰](https://m.viehome.co.kr/product/detail.html?product_no=51)\n* **선택 이유**: \n  * 다른 합성 첨가물 없이 독일산 완두콩 단백질(피프로틴) 원료를 사용한 300g 규격의 분말 제품입니다.\n  * 유제품(유당) 및 글루텐이 없는 100% 식물성 단일 원재료 파우더로, 단맛이나 인공 향료 없는 순수 원물 단백질 분말을 물, 음료, 요리에 섞어 섭취하려는 분에게 적합합니다.\n\n---\n\n### 3. SELTH 셀스 파바빈 프로테인 (300g)\n* **제품명**: SELTH 셀스 파바빈 프로테인 300g\n* **판매처**: 쇼핑엔티, 쿠팡 등\n* **근거 링크**: [쇼핑엔티 제품 페이지](https://www.shoppingntmall.com/display/goods/13250638)\n* **선택 이유**: \n  * 300g 규격으로 구성된 분말형 식물성 단백질 보충제입니다.\n  * 잠두(파바빈) 유래 식물성 단백질과 식이섬유를 함께 보충할 수 있도록 설계된 단백질 쉐이크 파우더입니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpdNbxvgrTFMUV5d5gfaQZinKDKVYK9TQpdb1M3xn9_nLXZnomeEOEETtyXYfFsM8woPyFzNap3v_bNIM1L9qGmMkAW_GrG9C01jdI5FR1cuariOTO6PzQAT262EZDIvmgOgbEm4wc7xqw74ss6Ht1omph_o2Llqna-lIlA7BZcKUmFfKsqCdfLwju-jCs_AqnbkmfoQQYJi8n8o0O",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFeo-UBtkDFY5ZEYtYLwgFQEzmOIRlACkVfN6J3nB9j29E59fdEfXmqsVKfA86ot7qll2puZRDjrhGadombeQrqtFztLMH6PcVqlTXOz0Hi9LuZxsvac0ASesBw4tp3AZqkrQ8ebLJukl_Q5HyTg==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqP3aPd3Xc1wn5skkQ5PLziIMQqdTacNMmuBLlyq8BcEoWNwJFIOWXLvvOYvJC1-EanGmjcAGgU-ceZREmayqSp8C2ZTkZTxK33oag7aVxDxZcxZXs8i6V8eYP_SwkvXYGAkPjrOVbMbToFuZ10o8MHeIF4p1U_Mk9UAAGIhVL6p3fIYMzxlTkVEZJrP-Qv0U9KpcfKCl-SmxoYQ==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfpS_ialAMIpP6YHaPAaZZ98GIP9ljSVFFmI3AWAB2yr4WnEDmdYY01bU91U4A-Bu7409vbJTO3cB9B_chnZCsdPs2WLoHWqfJxEW6PTlAgrvb3g_JDoWtce634AOhCZI32EqbbzJMBmEC9Ys_WhnjfzBo8bOWUbWmLmaqGLn7T2hQbeJu52jrFaH0gf8Qdtgz9G2L-0rJ_wTNUAGLZdjlo8YtU0yqxD1Q-YnS2_bO0wya50XlUva5BpSzKq5l5z5meaDUVVgYc5SCcc3w6bRoSDTcm0YSABuSFQ==",
+      "title": "viehome.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvCyZhwsBeeUt7q4CsWDiG_3f9BcAOfbvSx1uaVx0SJuC4Kd5MYgtWiy-9Qi-i4ktmh7uHX9t5ESc9zs1AiSSgWr-x72n7Kz6eVU9YC_t2qE7hk-xo8ISRJZEBUiXZPknOutTuNoMPjELeQoTXF_gsqOsa1w==",
+      "title": "fallcent.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWsHtEjjL2RI_JrSAgIPhuLWWMBFAgbJd5bgonDxZhpbq2qW-imhxoZIxLK2kCwSSKwHq5Q95KuKTbwery0uII7XNIu3OxFPgK2uqHEafkRdNhPxRyW1wEXJLrh3v8nSTgaJtZ2BXmAFa06UEr1bmtNYezryHXN4IhvkAwkcMGR7fLdAHTXtWxTxz54XoL0NDG-8hqA2QdmvAkrNfb-VBGq-2dQNkIxwaLLPq5VhhkE4VAQi9VM2FDuEceBjDUSnIr-iD8xNv1b9xmN_wQMCrFUI1uOY_-Ga1R1g==",
+      "title": "viehome.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmtBJP1Fc-EqSmdxObktLU_gclRY6AOJYYwdbsjwtL_G4x4r50HNSrq0RMSYfRAIq8amDXhPnqLJSv8mQM_MqSUDI3mNlOxWRKkQhyKttv",
+      "title": "golden-mommy.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNZyWs55DIZONG6kaRI7qvGH90griHmuN79CihcU9kKcikAywaffbh8ecBBYpK3J3KZqO9Us-3NvOgy2aMgXJDf4GdfhE7OaNvjt8choMIIGjL1upIVd9rHVXAJbnIrqket-OvDsKIpPA=",
+      "title": "shoppingntmall.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnrauqCf46e-oGo_0XlPM91Q-JEGzhgi5wcz0HBh8NYrcJA9-8pn9Gq0v__DfsSAmmFnw0acEHyiFqOdRglshTTtqlRlU8qlqUU_0aJgPHQ3XXdhaK_ui6CbufNu4IjWZrTH3j8qPZYdz0RZc3QA87yBycufDeMQ==",
+      "title": "coupang.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "HPEEa6u3M5iBvr0Pherv8AM",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"건강한 우리집\" \"완두콩 단백질 분말 300g\"",
+    "\"완두콩단백질분말 300g\"",
+    "\"스택드 식물성 프로틴\" site:kr.iherb.com",
+    "\"식물성 단백질\" 300g 파우더",
+    "\"SELTH\" \"파바빈 프로테인 300g\""
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹 검색을 통해 확인된 **300g 용량의 식물성 단백질 분말 제품 3가지**는 다음과 같습니다.\n\n---\n\n### 1. EVLution Nutrition 스택드 식물성 프로틴 (300g)\n* **제품명**: EVLution Nutrition(에볼루션뉴트리션) 스택드 식물성 프로틴 (Stacked Plant Protein, 내추럴 바닐라/초콜릿) 300g\n* **판매처**: 아이허브 (iHerb)\n* **근거 링크**: [아이허브 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-6-oz-300-g/10069)\n* **선택 이유**: \n  * 정확히 300g 소용량으로 포장된 비건 식물성 단백질 파우더입니다.\n  * 1회 제공량당 식물성 단백질 복합체 20g, 천연 BCAA 3.5g, 글루타민 3.3g 등이 배합되어 있어 운동 전후 회복 및 일상 영양 보충용으로 섭취하기에 적합합니다.\n\n---\n\n### 2. 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 (300g)\n* **제품명**: 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 300g\n* **판매처**: 건강한 우리집 비옴 공식몰, 쿠팡 등\n* **근거 링크**: [건강한 우리집 비옴 공식몰](https://m.viehome.co.kr/product/detail.html?product_no=51)\n* **선택 이유**: \n  * 다른 합성 첨가물 없이 독일산 완두콩 단백질(피프로틴) 원료를 사용한 300g 규격의 분말 제품입니다.\n  * 유제품(유당) 및 글루텐이 없는 100% 식물성 단일 원재료 파우더로, 단맛이나 인공 향료 없는 순수 원물 단백질 분말을 물, 음료, 요리에 섞어 섭취하려는 분에게 적합합니다.\n\n---\n\n### 3. SELTH 셀스 파바빈 프로테인 (300g)\n* **제품명**: SELTH 셀스 파바빈 프로테인 300g\n* **판매처**: 쇼핑엔티, 쿠팡 등\n* **근거 링크**: [쇼핑엔티 제품 페이지](https://www.shoppingntmall.com/display/goods/13250638)\n* **선택 이유**: \n  * 300g 규격으로 구성된 분말형 식물성 단백질 보충제입니다.\n  * 잠두(파바빈) 유래 식물성 단백질과 식이섬유를 함께 보충할 수 있도록 설계된 단백질 쉐이크 파우더입니다.",
+              "thoughtSignature": "EpERCo4RAWkUfRNq552m9ocBoPiMy//A2vNshPN9Zin9g+ttdhIVXeEZ7BCtavAuMzu1sECaWDG3I3Sk0xZ6Kpdbw3r3JC63jv5RfYAgSz3rtR4ibbpUudSWlPfv4Dl4347v3ncmA3p4vswIN0iTqG4J0WPw2ZvueSp6xmcoOPpZrHkPlbCObdVhyWaSshSBKPnWNtpDQtPXFOD2xBB47hCfUU320VBNf284/MRwd5+1D/JQK7EOdVwvrX/mRW3hAF0qh8Z0auQl0CByYRTL3/HPy5Uuj0XVz9R5OkbsjjehQTKsKQazaCEUia5GCTVYoW0foQwtUiQrvuKW+2hFSit5yFZTAQaNCR2tgKHBvSpX7nq8/OQf2wCI630psS90DBnKY++ctjp90tYRFaB5lkMAXnD5KqZuj/wCcoEga3wj75tfXbWpIwLsj/ovopfRbcu6QTN6T1wMdI+WLbr8DleToJ1mYb0e15GMaQE2vX/ysxK1duKvmOWPzKPFSEqxL902nNOAxJ7hTw8Z1ej90qKdxTjWJkx4TRCwqzAgZzIF1nJHGOCkG9w3mri8z3vYImAsZp6XoVBJILp40VVels9UWl+HCb16hMsfBnIA6xw5ID6bbOU2HU8F8Af10IId4tx7wlp5qA5QMyPb9u2OHIR7G14nsiptlVZdxqqDyd9LoaQzDTfTWIBbuH2ZXbkR7wMKdh3xKrMyw8IqS5ITUL1tEelMIK5fRFXGDISuFDsF6nXP/73Fyi7Z4ycED+Twa5vyPBq1vj6I9/djrxyBOqpqpG8cA6grqLYL0AKcbuZ25fv5FVtdKOzjhN7pABAQtMO1czumv7TQnsuW+quilToV5PCKTMjm76oSamLYUF4Y5bwsXdta5BoLqb5KCegv5zW74HXB3qf3lITUToeMgw7bMIgp7TXP3/AsBdkMVyL+8JUmuwgfRDuoD2vGoMzOqflZXrLtaUtWXraA8+4E7tIHsbX+d1fk2B9Jn//gbBaezAulAr7zVc4pq2M7MqOlEkxuPp8hfMqluLnEeTn38eRUWJhoympvn8Y1wb5BEFq9elGtcJ0EaX7yl+00/DO42W1E6LQMfYHlH/aS58u8qaUX5ipQ4BtPyeDsY+x0iOCxbseUbJZvtdsX4PociCi23H7ck7agbn67TtzgqPgTEBTCrXAq4RAQW9uLPSrZR4LXdH6lORQQdiGmfHIGzmh9IIUJMe1B4HOsRZg78Yndzyhg7AD50Cdfx1ULcIlKVqjD8HUroMLMWwj9ABuKhlwvJZWmaNubNJaG9tXqOBqYvR1l1L7V/D+pivGjt0HznydroztCcbZAJ5oUfDyNqzsOgZ7KtLpCL2/Uv/dzhE3YQJkUXzkkbMxwfMdafgQLcNMu3ILmsj/i2FgxEqhhJpxUeI1wQApgUYI5IXJ7/6ulo4kmdG0tLFzqtGV3V3eFZuWDKtfLyUXYRHvBSAPFlpQWY0Wx7lEi4cyDtER4tEHsJ/Zmb4rcbg4eNZ2oafaqzFcxsjyUl7Nchbhz+Oe4+BuEkWjMijsR4+84ZtyyL2RBT9QDx+DSjKMLmt90/AxDsG2hv5DXGyEUEX71fu0OIwH088ynjLzx7A8yCOnRimXnflVNJ0J4u8aiss4FqRS50jQynKb/23bdwnCevTWW4000AyyV2Xv5e8aVsU0UNhNpYZxlfQlJrlTmPHA9dkwDLiMFX15d/B8zowsoQaxuzjwUHTkPOMjy+MAqXw95yOIssEGavI1ayHYUr2L/46O9XtqKXCUjKnRfB1H6XlLlvmlbAjukO5F8RKyrEiSzsFd1Nis1eeBlAwfB7NtmeyoeTLSUoGnvea8IDRUgxTrBx2zEfH0JwEYULOZFTaz+U5ZqKYjOTtzmsK7nH8rEitV/75GM9nFWggtQwCVtJ0/5zxr13yETv4Lk40BMt4R67C3RD5bITSZFBOBbEZDloAUkZ5oUNzl/0OqzId6QYW1b3bQWBvbg4mz40cMPIgLtF9zp1MliqppAqP+czZpt2llmXGKKOlFFM8e0mcvlZV9TCYcGPqOtkKQ0FDh5ZBu1DaaeGShPloybVNdzqoGGZo5RpFV3tNDFa+gvRrSvnno54bLCtP9YA9+ne1E7cy8UcDyG6HQYkW29okNO1ivF2eI5BQ1snrKRm1ighCdrQqRYa721B9dKIB7bvW2FLF2tMw45RjVdnLHNSVI4ZThT2mTmnhyh8BBasBtF8JVpu1uPNrHPSabI6bSzUPedHnNbluRsqGCkHfdC4JOHc/gnceEa+WBHF5dVhOZcbT4E34btKI8yLXIzU/2AvHw2PeDSxq3gX4iw+C3eufPHbazeBr8Dab6L3eGOj3beoqlo2C2a8r68QFC9EsqOV98LBjMW/pwGx7vRuk3oXcY2LlHNrLUQq4Us7jDpQ8OIxH85yfLz8DyiTOEVzZXHfwnZAaeLxZe5zT2qXxLoQsmXoIEkQQa1kguwdq7ddNpH7a7q3SyoIGQroKqPqyw97wkj8cd3Hy/OQfNJVV2yEmSUm91l5COMJcOdh2MKCbq9i9yobLaWzmQfrR3Amyws3qA4mkp5Bfa1rUJRzwY4HJ79PK7dYte4T056z2qG6waKDtOYVKWijLIB2p5HXxzs9mrOV8HzjFskSdRal+aGQrA6zoMDGzSzQSzqYMcxE6HLPGfJXAvpwmy/cp8QcDTH3K6VIMnap/4YCz4rllJ4gzOcE5iNn4XxmL869+ctFfZ6coM6HAkW3ODrfFzj2QQRf2sX2bOTPfWb+L0Mai/Onix4q3inNaasi0NvpEHDaQVHXxqRVYRXYHUVkmO7ecUmT2/vfj7ToGOZ5po5+I2yA1wlXPo5jy+p2fvlPDPcQuFPdq7MwpydtMAlJDkhodv1BgILXD/QTXbR8OklqatsNlQO3QKFrm/FigVUGotd"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EA%B1%B4%EA%B0%95%ED%95%9C+%EC%9A%B0%EB%A6%AC%EC%A7%91%22+%22%EC%99%84%EB%91%90%EC%BD%A9+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g%22&client=app-vertex-grounding&safesearch=active\">&quot;건강한 우리집&quot; &quot;완두콩 단백질 분말 300g&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%99%84%EB%91%90%EC%BD%A9%EB%8B%A8%EB%B0%B1%EC%A7%88%EB%B6%84%EB%A7%90+300g%22&client=app-vertex-grounding&safesearch=active\">&quot;완두콩단백질분말 300g&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%8A%A4%ED%83%9D%EB%93%9C+%EC%8B%9D%EB%AC%BC%EC%84%B1+%ED%94%84%EB%A1%9C%ED%8B%B4%22+site:kr.iherb.com&client=app-vertex-grounding&safesearch=active\">&quot;스택드 식물성 프로틴&quot; site:kr.iherb.com</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88%22+300g+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">&quot;식물성 단백질&quot; 300g 파우더</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22SELTH%22+%22%ED%8C%8C%EB%B0%94%EB%B9%88+%ED%94%84%EB%A1%9C%ED%85%8C%EC%9D%B8+300g%22&client=app-vertex-grounding&safesearch=active\">&quot;SELTH&quot; &quot;파바빈 프로테인 300g&quot;</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpdNbxvgrTFMUV5d5gfaQZinKDKVYK9TQpdb1M3xn9_nLXZnomeEOEETtyXYfFsM8woPyFzNap3v_bNIM1L9qGmMkAW_GrG9C01jdI5FR1cuariOTO6PzQAT262EZDIvmgOgbEm4wc7xqw74ss6Ht1omph_o2Llqna-lIlA7BZcKUmFfKsqCdfLwju-jCs_AqnbkmfoQQYJi8n8o0O",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFeo-UBtkDFY5ZEYtYLwgFQEzmOIRlACkVfN6J3nB9j29E59fdEfXmqsVKfA86ot7qll2puZRDjrhGadombeQrqtFztLMH6PcVqlTXOz0Hi9LuZxsvac0ASesBw4tp3AZqkrQ8ebLJukl_Q5HyTg==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqP3aPd3Xc1wn5skkQ5PLziIMQqdTacNMmuBLlyq8BcEoWNwJFIOWXLvvOYvJC1-EanGmjcAGgU-ceZREmayqSp8C2ZTkZTxK33oag7aVxDxZcxZXs8i6V8eYP_SwkvXYGAkPjrOVbMbToFuZ10o8MHeIF4p1U_Mk9UAAGIhVL6p3fIYMzxlTkVEZJrP-Qv0U9KpcfKCl-SmxoYQ==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfpS_ialAMIpP6YHaPAaZZ98GIP9ljSVFFmI3AWAB2yr4WnEDmdYY01bU91U4A-Bu7409vbJTO3cB9B_chnZCsdPs2WLoHWqfJxEW6PTlAgrvb3g_JDoWtce634AOhCZI32EqbbzJMBmEC9Ys_WhnjfzBo8bOWUbWmLmaqGLn7T2hQbeJu52jrFaH0gf8Qdtgz9G2L-0rJ_wTNUAGLZdjlo8YtU0yqxD1Q-YnS2_bO0wya50XlUva5BpSzKq5l5z5meaDUVVgYc5SCcc3w6bRoSDTcm0YSABuSFQ==",
+                "title": "viehome.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvCyZhwsBeeUt7q4CsWDiG_3f9BcAOfbvSx1uaVx0SJuC4Kd5MYgtWiy-9Qi-i4ktmh7uHX9t5ESc9zs1AiSSgWr-x72n7Kz6eVU9YC_t2qE7hk-xo8ISRJZEBUiXZPknOutTuNoMPjELeQoTXF_gsqOsa1w==",
+                "title": "fallcent.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWsHtEjjL2RI_JrSAgIPhuLWWMBFAgbJd5bgonDxZhpbq2qW-imhxoZIxLK2kCwSSKwHq5Q95KuKTbwery0uII7XNIu3OxFPgK2uqHEafkRdNhPxRyW1wEXJLrh3v8nSTgaJtZ2BXmAFa06UEr1bmtNYezryHXN4IhvkAwkcMGR7fLdAHTXtWxTxz54XoL0NDG-8hqA2QdmvAkrNfb-VBGq-2dQNkIxwaLLPq5VhhkE4VAQi9VM2FDuEceBjDUSnIr-iD8xNv1b9xmN_wQMCrFUI1uOY_-Ga1R1g==",
+                "title": "viehome.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmtBJP1Fc-EqSmdxObktLU_gclRY6AOJYYwdbsjwtL_G4x4r50HNSrq0RMSYfRAIq8amDXhPnqLJSv8mQM_MqSUDI3mNlOxWRKkQhyKttv",
+                "title": "golden-mommy.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNZyWs55DIZONG6kaRI7qvGH90griHmuN79CihcU9kKcikAywaffbh8ecBBYpK3J3KZqO9Us-3NvOgy2aMgXJDf4GdfhE7OaNvjt8choMIIGjL1upIVd9rHVXAJbnIrqket-OvDsKIpPA=",
+                "title": "shoppingntmall.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnrauqCf46e-oGo_0XlPM91Q-JEGzhgi5wcz0HBh8NYrcJA9-8pn9Gq0v__DfsSAmmFnw0acEHyiFqOdRglshTTtqlRlU8qlqUU_0aJgPHQ3XXdhaK_ui6CbufNu4IjWZrTH3j8qPZYdz0RZc3QA87yBycufDeMQ==",
+                "title": "coupang.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 190,
+                "endIndex": 339,
+                "text": "**제품명**: EVLution Nutrition(에볼루션뉴트리션) 스택드 식물성 프로틴 (Stacked Plant Protein, 내추럴 바닐라/초콜릿) 300g"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 342,
+                "endIndex": 377,
+                "text": "**판매처**: 아이허브 (iHerb)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 380,
+                "endIndex": 532,
+                "text": "**근거 링크**: [아이허브 제품 페이지](https://kr.iherb.com/pr/evlution-nutrition-stacked-plant-protein-natural-vanilla-10-6-oz-300-g/10069)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 559,
+                "endIndex": 645,
+                "text": "정확히 300g 소용량으로 포장된 비건 식물성 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 651,
+                "endIndex": 853,
+                "text": "1회 제공량당 식물성 단백질 복합체 20g, 천연 BCAA 3.5g, 글루타민 3.3g 등이 배합되어 있어 운동 전후 회복 및 일상 영양 보충용으로 섭취하기에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 946,
+                "endIndex": 1034,
+                "text": "**제품명**: 건강한우리집비옴 독일에서 온 완두콩 단백질 분말 300g"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1037,
+                "endIndex": 1100,
+                "text": "**판매처**: 건강한 우리집 비옴 공식몰, 쿠팡 등"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1103,
+                "endIndex": 1219,
+                "text": "**근거 링크**: [건강한 우리집 비옴 공식몰](https://m.viehome.co.kr/product/detail.html?product_no=51)"
+              },
+              "groundingChunkIndices": [
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1246,
+                "endIndex": 1378,
+                "text": "다른 합성 첨가물 없이 독일산 완두콩 단백질(피프로틴) 원료를 사용한 300g 규격의 분말 제품입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1384,
+                "endIndex": 1611,
+                "text": "유제품(유당) 및 글루텐이 없는 100% 식물성 단일 원재료 파우더로, 단맛이나 인공 향료 없는 순수 원물 단백질 분말을 물, 음료, 요리에 섞어 섭취하려는 분에게 적합합니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1671,
+                "endIndex": 1726,
+                "text": "**제품명**: SELTH 셀스 파바빈 프로테인 300g"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1729,
+                "endIndex": 1768,
+                "text": "**판매처**: 쇼핑엔티, 쿠팡 등"
+              },
+              "groundingChunkIndices": [
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1771,
+                "endIndex": 1876,
+                "text": "**근거 링크**: [쇼핑엔티 제품 페이지](https://www.shoppingntmall.com/display/goods/13250638)"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1903,
+                "endIndex": 1979,
+                "text": "300g 규격으로 구성된 분말형 식물성 단백질 보충제입니다"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1985,
+                "endIndex": 2128,
+                "text": "잠두(파바빈) 유래 식물성 단백질과 식이섬유를 함께 보충할 수 있도록 설계된 단백질 쉐이크 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"건강한 우리집\" \"완두콩 단백질 분말 300g\"",
+            "\"완두콩단백질분말 300g\"",
+            "\"스택드 식물성 프로틴\" site:kr.iherb.com",
+            "\"식물성 단백질\" 300g 파우더",
+            "\"SELTH\" \"파바빈 프로테인 300g\""
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1854,
+      "candidatesTokenCount": 831,
+      "totalTokenCount": 5091,
+      "cachedContentTokenCount": 1174,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1854
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1174
+        }
+      ],
+      "thoughtsTokenCount": 2406,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "HPEEa6u3M5iBvr0Pherv8AM"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:07:03+09:00"
+}

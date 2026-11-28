@@ -1,0 +1,97 @@
+.summary {
+  display: grid;
+  gap: var(--s-2);
+  padding: var(--s-5) var(--s-6);
+  border-radius: var(--s-r-2xl);
+  background: var(--s-paper);
+}
+.summary strong {
+  font-size: var(--s-t3);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+.summary ul {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--s-grey800);
+  font-size: var(--s-t5);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.summary span {
+  color: var(--s-grey500);
+  font-size: var(--s-t7);
+}
+.body {
+  display: grid;
+  gap: var(--s-5);
+}
+.metrics {
+  display: grid;
+  gap: var(--s-1);
+}
+.tableWrap {
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--s-t6);
+  font-variant-numeric: tabular-nums;
+}
+.table caption {
+  padding-bottom: var(--s-2);
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+  text-align: left;
+}
+.afterCell {
+  color: var(--s-grey900);
+  font-weight: 700;
+}
+.table th,
+.table td {
+  padding: var(--s-3) var(--s-2);
+  border-top: 1px solid var(--s-grey100);
+  text-align: left;
+  vertical-align: top;
+}
+.table thead th {
+  border-top: 0;
+  color: var(--s-grey600);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.table tbody th {
+  font-weight: 500;
+  color: var(--s-grey800);
+}
+.hold {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--s-orange700);
+  font-weight: 600;
+}
+.change {
+  display: grid;
+  gap: var(--s-3);
+}
+.change h3 {
+  font-size: var(--s-t5);
+  font-weight: 700;
+}
+/* 숫자 열은 오른쪽 정렬로 자릿수를 맞춘다. 위의 왼쪽 정렬보다 뒤에 둔다. */
+.table thead th:not(:first-child),
+.table tbody td {
+  width: 4.5rem;
+  text-align: right;
+  white-space: nowrap;
+}
+@media print {
+  .report :global(section) {
+    break-inside: avoid;
+  }
+}

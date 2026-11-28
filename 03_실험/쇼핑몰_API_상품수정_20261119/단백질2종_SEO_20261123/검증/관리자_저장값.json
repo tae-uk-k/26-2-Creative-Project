@@ -1,0 +1,36 @@
+[
+  {
+    "product_no": 14,
+    "key": "watermelon",
+    "alt": "seelo 수박씨 탈지 단백질 분말 300g 파우치",
+    "code": "SEELO-WATERMELON-PROTEIN-300",
+    "description": "seelo 수박씨 탈지 단백질 분말 300g. 수박씨를 원료로 한 식물성 단백질 분말로 우유·두유·스무디에 섞어 활용하세요. 원재료와 보관 방법을 확인할 수 있습니다.",
+    "keywords": "수박씨 탈지 단백질 분말,수박씨 단백질,수박씨 프로틴,식물성 단백질 분말,단백질 파우더,seelo",
+    "memberOnly": true,
+    "name": "seelo 수박씨 탈지 단백질 분말 300g",
+    "restrictedButtons": false,
+    "title": "수박씨 탈지 단백질 분말 300g | 식물성 단백질 | seelo",
+    "searchTerms": "수박씨단백질,수박씨분말,수박씨프로틴,식물성단백질,단백질분말",
+    "generalMember": false,
+    "testGroup": true,
+    "htmlMatchesBaseline": true,
+    "seoMatches": true
+  },
+  {
+    "product_no": 15,
+    "key": "sacha",
+    "alt": "seelo 사차인치 탈지 단백질 분말 300g 파우치",
+    "code": "SEELO-SACHA-PROTEIN-300",
+    "description": "seelo 사차인치 탈지 단백질 분말 300g. 사차인치를 원료로 한 식물성 단백질 분말로 우유·두유·스무디에 섞어 활용하세요. 원재료와 보관 방법을 확인할 수 있습니다.",
+    "keywords": "사차인치 탈지 단백질 분말,사차인치 단백질,사차인치 프로틴,사차인치 분말,식물성 단백질 분말,seelo",
+    "memberOnly": true,
+    "name": "seelo 사차인치 탈지 단백질 분말 300g",
+    "restrictedButtons": false,
+    "title": "사차인치 탈지 단백질 분말 300g | 식물성 단백질 | seelo",
+    "searchTerms": "사차인치단백질,사차인치분말,사차인치프로틴,식물성단백질,단백질분말",
+    "generalMember": false,
+    "testGroup": true,
+    "htmlMatchesBaseline": true,
+    "seoMatches": true
+  }
+]

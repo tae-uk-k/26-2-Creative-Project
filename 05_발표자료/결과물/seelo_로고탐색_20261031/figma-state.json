@@ -1,0 +1,351 @@
+{
+  "mutatedNodeIds": [
+    "358:66",
+    "358:67",
+    "358:71",
+    "358:72",
+    "358:76",
+    "358:77"
+  ],
+  "pageId": "358:2",
+  "boards": [
+    "358:3",
+    "358:95",
+    "358:226"
+  ],
+  "logos": [
+    {
+      "id": "358:18",
+      "key": "T01-A",
+      "cardId": "358:16"
+    },
+    {
+      "id": "358:23",
+      "key": "T01-B",
+      "cardId": "358:21"
+    },
+    {
+      "id": "358:28",
+      "key": "T01-C",
+      "cardId": "358:26"
+    },
+    {
+      "id": "358:34",
+      "key": "T02-A",
+      "cardId": "358:32"
+    },
+    {
+      "id": "358:39",
+      "key": "T02-B",
+      "cardId": "358:37"
+    },
+    {
+      "id": "358:44",
+      "key": "T02-C",
+      "cardId": "358:42"
+    },
+    {
+      "id": "358:50",
+      "key": "T03-A",
+      "cardId": "358:48"
+    },
+    {
+      "id": "358:55",
+      "key": "T03-B",
+      "cardId": "358:53"
+    },
+    {
+      "id": "358:60",
+      "key": "T03-C",
+      "cardId": "358:58"
+    },
+    {
+      "id": "358:66",
+      "key": "T04-A",
+      "cardId": "358:64"
+    },
+    {
+      "id": "358:71",
+      "key": "T04-B",
+      "cardId": "358:69"
+    },
+    {
+      "id": "358:76",
+      "key": "T04-C",
+      "cardId": "358:74"
+    },
+    {
+      "id": "358:82",
+      "key": "T05-A",
+      "cardId": "358:80"
+    },
+    {
+      "id": "358:87",
+      "key": "T05-B",
+      "cardId": "358:85"
+    },
+    {
+      "id": "358:92",
+      "key": "T05-C",
+      "cardId": "358:90"
+    },
+    {
+      "id": "358:110",
+      "key": "G01-A",
+      "cardId": "358:108"
+    },
+    {
+      "id": "358:117",
+      "key": "G01-B",
+      "cardId": "358:115"
+    },
+    {
+      "id": "358:124",
+      "key": "G01-C",
+      "cardId": "358:122"
+    },
+    {
+      "id": "358:132",
+      "key": "G02-A",
+      "cardId": "358:130"
+    },
+    {
+      "id": "358:140",
+      "key": "G02-B",
+      "cardId": "358:138"
+    },
+    {
+      "id": "358:148",
+      "key": "G02-C",
+      "cardId": "358:146"
+    },
+    {
+      "id": "358:157",
+      "key": "G03-A",
+      "cardId": "358:155"
+    },
+    {
+      "id": "358:164",
+      "key": "G03-B",
+      "cardId": "358:162"
+    },
+    {
+      "id": "358:171",
+      "key": "G03-C",
+      "cardId": "358:169"
+    },
+    {
+      "id": "358:179",
+      "key": "G04-A",
+      "cardId": "358:177"
+    },
+    {
+      "id": "358:187",
+      "key": "G04-B",
+      "cardId": "358:185"
+    },
+    {
+      "id": "358:195",
+      "key": "G04-C",
+      "cardId": "358:193"
+    },
+    {
+      "id": "358:204",
+      "key": "G05-A",
+      "cardId": "358:202"
+    },
+    {
+      "id": "358:212",
+      "key": "G05-B",
+      "cardId": "358:210"
+    },
+    {
+      "id": "358:220",
+      "key": "G05-C",
+      "cardId": "358:218"
+    },
+    {
+      "id": "358:241",
+      "key": "G06-A",
+      "cardId": "358:239"
+    },
+    {
+      "id": "358:248",
+      "key": "G06-B",
+      "cardId": "358:246"
+    },
+    {
+      "id": "358:255",
+      "key": "G06-C",
+      "cardId": "358:253"
+    },
+    {
+      "id": "358:263",
+      "key": "G07-A",
+      "cardId": "358:261"
+    },
+    {
+      "id": "358:270",
+      "key": "G07-B",
+      "cardId": "358:268"
+    },
+    {
+      "id": "358:277",
+      "key": "G07-C",
+      "cardId": "358:275"
+    },
+    {
+      "id": "358:285",
+      "key": "G08-A",
+      "cardId": "358:283"
+    },
+    {
+      "id": "358:293",
+      "key": "G08-B",
+      "cardId": "358:291"
+    },
+    {
+      "id": "358:301",
+      "key": "G08-C",
+      "cardId": "358:299"
+    },
+    {
+      "id": "358:310",
+      "key": "G09-A",
+      "cardId": "358:308"
+    },
+    {
+      "id": "358:317",
+      "key": "G09-B",
+      "cardId": "358:315"
+    },
+    {
+      "id": "358:324",
+      "key": "G09-C",
+      "cardId": "358:322"
+    },
+    {
+      "id": "358:332",
+      "key": "G10-A",
+      "cardId": "358:330"
+    },
+    {
+      "id": "358:340",
+      "key": "G10-B",
+      "cardId": "358:338"
+    },
+    {
+      "id": "358:348",
+      "key": "G10-C",
+      "cardId": "358:346"
+    }
+  ],
+  "issues": [],
+  "definitions": [
+    {
+      "key": "T01",
+      "name": "Manrope",
+      "desc": "단단한 산세리프 · ExtraBold",
+      "family": "Manrope",
+      "style": "ExtraBold",
+      "spacing": -5,
+      "size": 88
+    },
+    {
+      "key": "T02",
+      "name": "Space Grotesk",
+      "desc": "각진 디테일 · Bold",
+      "family": "Space Grotesk",
+      "style": "Bold",
+      "spacing": -4,
+      "size": 86
+    },
+    {
+      "key": "T03",
+      "name": "Outfit",
+      "desc": "원형에 가까운 골격 · Medium",
+      "family": "Outfit",
+      "style": "Medium",
+      "spacing": -2,
+      "size": 94
+    },
+    {
+      "key": "T04",
+      "name": "DM Serif Display",
+      "desc": "획 대비가 큰 세리프 · Regular",
+      "family": "DM Serif Display",
+      "style": "Regular",
+      "spacing": -3,
+      "size": 96
+    },
+    {
+      "key": "T05",
+      "name": "IBM Plex Mono",
+      "desc": "정밀한 고정폭 · Medium",
+      "family": "IBM Plex Mono",
+      "style": "Medium",
+      "spacing": -7,
+      "size": 80
+    },
+    {
+      "key": "G01",
+      "name": "Open S",
+      "desc": "두 개의 반원으로 만든 S",
+      "svg": "<path d=\"M86 24H44C17 24 17 58 44 58H70C97 58 97 96 70 96H28\" fill=\"none\" stroke=\"black\" stroke-width=\"20\" stroke-linecap=\"butt\"/>"
+    },
+    {
+      "key": "G02",
+      "name": "Focus",
+      "desc": "발견의 순간 · 시선과 중심",
+      "svg": "<path d=\"M8 60Q60 0 112 60Q60 120 8 60Z\" fill=\"none\" stroke=\"black\" stroke-width=\"13\"/><circle cx=\"60\" cy=\"60\" r=\"19\" fill=\"black\"/>"
+    },
+    {
+      "key": "G03",
+      "name": "Local",
+      "desc": "위치 핀과 열린 원",
+      "svg": "<path d=\"M60 112C45 91 20 69 20 44C20 22 38 8 60 8S100 22 100 44C100 69 75 91 60 112ZM60 25A19 19 0 1 0 60 63A19 19 0 1 0 60 25Z\" fill=\"black\" fill-rule=\"evenodd\"/>"
+    },
+    {
+      "key": "G04",
+      "name": "Portal",
+      "desc": "가게의 입구 · 열린 가능성",
+      "svg": "<path d=\"M18 108V54C18 25 36 9 60 9S102 25 102 54V108H80V54C80 38 73 31 60 31S40 38 40 54V108Z\" fill=\"black\"/><circle cx=\"60\" cy=\"94\" r=\"9\" fill=\"black\"/>"
+    },
+    {
+      "key": "G05",
+      "name": "Overlap",
+      "desc": "겹쳐지는 두 시선",
+      "svg": "<ellipse cx=\"43\" cy=\"60\" rx=\"28\" ry=\"44\" fill=\"none\" stroke=\"black\" stroke-width=\"16\" transform=\"rotate(-26 43 60)\"/><ellipse cx=\"77\" cy=\"60\" rx=\"28\" ry=\"44\" fill=\"none\" stroke=\"black\" stroke-width=\"16\" transform=\"rotate(26 77 60)\"/>"
+    },
+    {
+      "key": "G06",
+      "name": "Signal",
+      "desc": "쌓여 올라가는 노출 신호",
+      "svg": "<path d=\"M12 88H34V110H12ZM12 54H64V76H12ZM12 20H94V42H12ZM76 54H108V110H86V76H76Z\" fill=\"black\"/>"
+    },
+    {
+      "key": "G07",
+      "name": "Tile S",
+      "desc": "다섯 개의 모듈로 쓴 S",
+      "svg": "<path d=\"M16 12H104V34H38V49H104V108H16V86H82V71H16Z\" fill=\"black\"/>"
+    },
+    {
+      "key": "G08",
+      "name": "Orbit",
+      "desc": "기울어진 고리와 발견점",
+      "svg": "<ellipse cx=\"59\" cy=\"63\" rx=\"51\" ry=\"28\" fill=\"none\" stroke=\"black\" stroke-width=\"15\" transform=\"rotate(-42 59 63)\"/><circle cx=\"94\" cy=\"23\" r=\"16\" fill=\"black\"/>"
+    },
+    {
+      "key": "G09",
+      "name": "Twin e",
+      "desc": "seelo의 ee를 심볼로",
+      "svg": "<path d=\"M51 39A28 28 0 1 0 51 81M8 60H58M110 39A28 28 0 1 0 110 81M67 60H117\" fill=\"none\" stroke=\"black\" stroke-width=\"13\" stroke-linecap=\"butt\"/>"
+    },
+    {
+      "key": "G10",
+      "name": "Viewfinder",
+      "desc": "프레임 안에서 발견되는 가게",
+      "svg": "<path d=\"M8 44V8H44V25H25V44ZM76 8H112V44H95V25H76ZM112 76V112H76V95H95V76ZM44 112H8V76H25V95H44Z\" fill=\"black\"/><circle cx=\"60\" cy=\"60\" r=\"18\" fill=\"black\"/>"
+    }
+  ]
+}

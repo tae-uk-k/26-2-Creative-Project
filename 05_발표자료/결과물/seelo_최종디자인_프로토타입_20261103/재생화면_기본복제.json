@@ -1,0 +1,820 @@
+{
+  "setup": {
+    "sectionId": "713:635",
+    "collectionId": "VariableCollectionId:713:636",
+    "modeId": "713:3",
+    "variables": {
+      "signedIn": "VariableID:713:637",
+      "accountKnown": "VariableID:713:638",
+      "hasStore": "VariableID:713:639",
+      "diagnosisIntent": "VariableID:713:640",
+      "google": "VariableID:713:641",
+      "kakao": "VariableID:713:642",
+      "zeroResult": "VariableID:713:643",
+      "failMeasure": "VariableID:713:644",
+      "phase": "VariableID:713:645",
+      "storeName": "VariableID:713:646",
+      "storeAddress": "VariableID:713:647"
+    },
+    "createdVariableIds": [
+      "VariableID:713:637",
+      "VariableID:713:638",
+      "VariableID:713:639",
+      "VariableID:713:640",
+      "VariableID:713:641",
+      "VariableID:713:642",
+      "VariableID:713:643",
+      "VariableID:713:644",
+      "VariableID:713:645",
+      "VariableID:713:646",
+      "VariableID:713:647"
+    ],
+    "createdNodeIds": [
+      "713:635"
+    ]
+  },
+  "roots": {
+    "landing": {
+      "id": "713:648",
+      "source": "679:627",
+      "contentId": "713:696",
+      "headerId": "713:680",
+      "originalHeight": 900
+    },
+    "heroMid": {
+      "id": "713:697",
+      "source": "679:796",
+      "contentId": "713:821",
+      "headerId": "713:805",
+      "originalHeight": 900
+    },
+    "heroMap": {
+      "id": "713:822",
+      "source": "679:914",
+      "contentId": "713:919",
+      "headerId": "713:903",
+      "originalHeight": 900
+    },
+    "signup": {
+      "id": "713:920",
+      "source": "679:1180",
+      "contentId": "713:979",
+      "headerId": "713:922",
+      "originalHeight": 1060
+    },
+    "verify": {
+      "id": "713:980",
+      "source": "679:1235",
+      "contentId": "713:1013",
+      "headerId": "713:982",
+      "originalHeight": 1060
+    },
+    "verified": {
+      "id": "713:1014",
+      "source": "679:2394",
+      "contentId": "713:1047",
+      "headerId": "713:1016",
+      "originalHeight": 1060
+    },
+    "kakaoEmail": {
+      "id": "713:1048",
+      "source": "679:1262",
+      "contentId": "713:1080",
+      "headerId": "713:1050",
+      "originalHeight": 1060
+    },
+    "kakaoVerify": {
+      "id": "713:1081",
+      "source": "679:1288",
+      "contentId": "713:1116",
+      "headerId": "713:1083",
+      "originalHeight": 1060
+    },
+    "login": {
+      "id": "713:1117",
+      "source": "679:1317",
+      "contentId": "713:1171",
+      "headerId": "713:1119",
+      "originalHeight": 1060
+    },
+    "reset": {
+      "id": "713:1172",
+      "source": "679:1366",
+      "contentId": "713:1204",
+      "headerId": "713:1174",
+      "originalHeight": 1060
+    },
+    "resetMail": {
+      "id": "713:1205",
+      "source": "679:2421",
+      "contentId": "713:1239",
+      "headerId": "713:1207",
+      "originalHeight": 1060
+    },
+    "newPassword": {
+      "id": "713:1240",
+      "source": "679:1392",
+      "contentId": "713:1275",
+      "headerId": "713:1242",
+      "originalHeight": 1060
+    },
+    "storeEmpty": {
+      "id": "713:1276",
+      "source": "679:1421",
+      "contentId": "713:1314",
+      "headerId": "713:1278",
+      "originalHeight": 1060
+    },
+    "storeInput": {
+      "id": "713:1315",
+      "source": "679:1455",
+      "contentId": "713:1348",
+      "headerId": "713:1317",
+      "originalHeight": 1103
+    },
+    "candidates": {
+      "id": "713:1349",
+      "source": "679:1484",
+      "contentId": "713:1396",
+      "headerId": "713:1351",
+      "originalHeight": 1063
+    },
+    "measure": {
+      "id": "713:1397",
+      "source": "679:1527",
+      "contentId": "713:1423",
+      "headerId": "713:1399",
+      "originalHeight": 1060
+    },
+    "measureError": {
+      "id": "713:1424",
+      "source": "679:1549",
+      "contentId": "713:1459",
+      "headerId": "713:1426",
+      "originalHeight": 1060
+    },
+    "result": {
+      "id": "713:1460",
+      "source": "679:2197",
+      "contentId": "713:1520",
+      "headerId": "713:1462",
+      "originalHeight": 1572
+    },
+    "resultZero": {
+      "id": "713:1521",
+      "source": "679:2253",
+      "contentId": "713:1584",
+      "headerId": "713:1523",
+      "originalHeight": 1619
+    },
+    "dashboard": {
+      "id": "713:1585",
+      "source": "679:2312",
+      "contentId": "713:1670",
+      "headerId": "713:1587",
+      "originalHeight": 1017
+    },
+    "apply": {
+      "id": "713:1671",
+      "source": "679:1580",
+      "contentId": "713:1732",
+      "headerId": "713:1673",
+      "originalHeight": 1112
+    },
+    "applyWaiting": {
+      "id": "713:1733",
+      "source": "679:1637",
+      "contentId": "713:1763",
+      "headerId": "713:1735",
+      "originalHeight": 1060
+    },
+    "connect": {
+      "id": "713:1764",
+      "source": "679:1663",
+      "contentId": "713:1810",
+      "headerId": "713:1766",
+      "originalHeight": 973
+    },
+    "googleGuide": {
+      "id": "713:1811",
+      "source": "679:1705",
+      "contentId": "713:1866",
+      "headerId": "713:1813",
+      "originalHeight": 1060
+    },
+    "kakaoGuide": {
+      "id": "713:1867",
+      "source": "679:1756",
+      "contentId": "713:1915",
+      "headerId": "713:1869",
+      "originalHeight": 1060
+    },
+    "plan": {
+      "id": "713:1916",
+      "source": "679:1800",
+      "contentId": "713:2061",
+      "headerId": "713:1918",
+      "originalHeight": 2637
+    },
+    "fix": {
+      "id": "713:2062",
+      "source": "679:1941",
+      "contentId": "713:2113",
+      "headerId": "713:2064",
+      "originalHeight": 1060
+    },
+    "fixDone": {
+      "id": "713:2114",
+      "source": "679:2449",
+      "contentId": "713:2145",
+      "headerId": "713:2116",
+      "originalHeight": 1060
+    },
+    "report": {
+      "id": "713:2146",
+      "source": "679:1988",
+      "contentId": "713:2276",
+      "headerId": "713:2148",
+      "originalHeight": 2546
+    },
+    "account": {
+      "id": "713:2277",
+      "source": "679:2114",
+      "contentId": "713:2330",
+      "headerId": "713:2279",
+      "originalHeight": 1265
+    },
+    "withdraw": {
+      "id": "713:2331",
+      "source": "679:2164",
+      "contentId": "713:2363",
+      "headerId": "713:2333",
+      "originalHeight": 1060
+    },
+    "approveModal": {
+      "id": "713:2364",
+      "source": "687:626"
+    },
+    "mailModal": {
+      "id": "713:2375",
+      "source": "687:637"
+    },
+    "passwordModal": {
+      "id": "713:2383",
+      "source": "687:645"
+    },
+    "signupReady": {
+      "id": "713:2391",
+      "source": "687:674",
+      "contentId": "713:2452",
+      "headerId": "713:2393",
+      "originalHeight": 1060
+    },
+    "loginReady": {
+      "id": "713:2453",
+      "source": "687:735",
+      "contentId": "713:2508",
+      "headerId": "713:2455",
+      "originalHeight": 1060
+    },
+    "storeReady": {
+      "id": "713:2509",
+      "source": "687:788",
+      "contentId": "713:2542",
+      "headerId": "713:2511",
+      "originalHeight": 1103
+    },
+    "how": {
+      "id": "713:2543",
+      "source": "689:11",
+      "contentId": "713:2581",
+      "headerId": "713:2545",
+      "originalHeight": 760
+    },
+    "pricing": {
+      "id": "713:2582",
+      "source": "689:44",
+      "contentId": "713:2610",
+      "headerId": "713:2595",
+      "originalHeight": 760
+    }
+  },
+  "baseline": {
+    "roots": [
+      {
+        "id": "223:542",
+        "name": "S02 / 회원가입",
+        "hash": "90340004"
+      },
+      {
+        "id": "223:637",
+        "name": "S03 / 이메일 인증 안내",
+        "hash": "86a4f485"
+      },
+      {
+        "id": "223:712",
+        "name": "S04 / 카카오 이메일 입력",
+        "hash": "24b62fc1"
+      },
+      {
+        "id": "223:784",
+        "name": "S05 / 로그인",
+        "hash": "4ae06ce9"
+      },
+      {
+        "id": "223:867",
+        "name": "S06 / 비밀번호 재설정",
+        "hash": "4fdf96ce"
+      },
+      {
+        "id": "223:943",
+        "name": "S06-B / 새 비밀번호 입력",
+        "hash": "be09462e"
+      },
+      {
+        "id": "223:1018",
+        "name": "S07 / 내 가게",
+        "hash": "ac777618"
+      },
+      {
+        "id": "223:1122",
+        "name": "S07-E / 가게 등록 전",
+        "hash": "9d60d5f4"
+      },
+      {
+        "id": "223:1174",
+        "name": "S08 / 가게 등록",
+        "hash": "79fc695b"
+      },
+      {
+        "id": "223:1243",
+        "name": "S09 / 가게 후보 선택",
+        "hash": "54ee6be2"
+      },
+      {
+        "id": "223:1318",
+        "name": "S10 / 수집·측정 진행",
+        "hash": "c5fc13de"
+      },
+      {
+        "id": "223:1428",
+        "name": "S11 / 무료 진단 결과",
+        "hash": "d38e9472"
+      },
+      {
+        "id": "223:1592",
+        "name": "S12 / 자동 정비 신청",
+        "hash": "8832939b"
+      },
+      {
+        "id": "223:1660",
+        "name": "S12-P / 정비 신청 진행",
+        "hash": "fd3aec70"
+      },
+      {
+        "id": "223:1757",
+        "name": "S15 / Google·카카오 연결",
+        "hash": "39a11875"
+      },
+      {
+        "id": "223:1816",
+        "name": "S15-G / Google 초대 안내",
+        "hash": "a801620b"
+      },
+      {
+        "id": "223:1879",
+        "name": "S15-K / 카카오 초대 안내",
+        "hash": "4fd35e15"
+      },
+      {
+        "id": "223:1934",
+        "name": "S13 / 정비안 확인·승인",
+        "hash": "55df688a"
+      },
+      {
+        "id": "223:2021",
+        "name": "S13-P / 정비 진행·반영 결과",
+        "hash": "16ed5350"
+      },
+      {
+        "id": "223:2089",
+        "name": "S16 / 전후 비교 보고서",
+        "hash": "97e447e0"
+      },
+      {
+        "id": "223:2255",
+        "name": "S14 / 계정 설정",
+        "hash": "7276e579"
+      },
+      {
+        "id": "223:2320",
+        "name": "A01 / 정비 신청 관리",
+        "hash": "83145e30"
+      },
+      {
+        "id": "223:2409",
+        "name": "A01-D / 신청 상세·수동 처리",
+        "hash": "7a09891"
+      },
+      {
+        "id": "223:2482",
+        "name": "S10-E / 측정 실패",
+        "hash": "bd496116"
+      },
+      {
+        "id": "223:2544",
+        "name": "S11-Z / 추천 등장률 0%",
+        "hash": "9fd1f87c"
+      },
+      {
+        "id": "223:2633",
+        "name": "S13-C / 정비 승인 확인",
+        "hash": "af5ba3f2"
+      },
+      {
+        "id": "223:2667",
+        "name": "S14-D / 탈퇴 확인",
+        "hash": "768ebe2e"
+      },
+      {
+        "id": "223:2697",
+        "name": "M07 / 내 가게 · 모바일",
+        "hash": "f39389da"
+      },
+      {
+        "id": "223:2758",
+        "name": "M08 / 가게 등록 · 모바일",
+        "hash": "4993ef4"
+      },
+      {
+        "id": "223:2810",
+        "name": "M11 / 무료 진단 · 모바일",
+        "hash": "674542e6"
+      },
+      {
+        "id": "223:2896",
+        "name": "M13 / 정비안 · 모바일",
+        "hash": "ed047dce"
+      },
+      {
+        "id": "223:2939",
+        "name": "S01 / 멀티윈도 랜딩",
+        "hash": "5b1d10df"
+      },
+      {
+        "id": "224:445",
+        "name": "S02-R",
+        "hash": "9d02431e"
+      },
+      {
+        "id": "224:553",
+        "name": "S05-R",
+        "hash": "ac100ee7"
+      },
+      {
+        "id": "224:644",
+        "name": "S08-R",
+        "hash": "b1f417c9"
+      },
+      {
+        "id": "224:721",
+        "name": "S13-R",
+        "hash": "953fa25d"
+      },
+      {
+        "id": "224:815",
+        "name": "S15-C",
+        "hash": "fe3c7f0"
+      },
+      {
+        "id": "224:875",
+        "name": "M08-R",
+        "hash": "3237727"
+      },
+      {
+        "id": "224:935",
+        "name": "M13-R",
+        "hash": "f97cad2b"
+      },
+      {
+        "id": "224:983",
+        "name": "M10",
+        "hash": "ca166417"
+      },
+      {
+        "id": "224:996",
+        "name": "M15",
+        "hash": "5acaf08d"
+      },
+      {
+        "id": "224:1016",
+        "name": "M16",
+        "hash": "13f627ce"
+      },
+      {
+        "id": "224:1034",
+        "name": "O-APPROVE",
+        "hash": "77916f83"
+      },
+      {
+        "id": "224:1044",
+        "name": "O-M-APPROVE",
+        "hash": "3d49d73c"
+      },
+      {
+        "id": "224:1053",
+        "name": "O-REJECT",
+        "hash": "7d77cd0c"
+      },
+      {
+        "id": "224:1064",
+        "name": "O-SAVED",
+        "hash": "b8b6900b"
+      },
+      {
+        "id": "225:573",
+        "name": "S06-S / 재설정 메일 안내",
+        "hash": "60581fa"
+      },
+      {
+        "id": "225:639",
+        "name": "M13-P / 정보 정비 진행",
+        "hash": "f45b7db8"
+      },
+      {
+        "id": "225:651",
+        "name": "O-WITHDRAW / 탈퇴 확인",
+        "hash": "6de93682"
+      },
+      {
+        "id": "227:594",
+        "name": "M15-C / 지도 연결 완료",
+        "hash": "5d80bc13"
+      },
+      {
+        "id": "227:616",
+        "name": "S07-D / 전후 비교 완료",
+        "hash": "1dc9d9ae"
+      },
+      {
+        "id": "227:721",
+        "name": "M07-D / 전후 비교 완료",
+        "hash": "7c83d564"
+      },
+      {
+        "id": "679:627",
+        "name": "새 · 히어로 0 · 인트로 (스크롤 0)",
+        "hash": "382cae4c"
+      },
+      {
+        "id": "679:670",
+        "name": "새 · 자주 묻는 질문",
+        "hash": "f6841201"
+      },
+      {
+        "id": "679:708",
+        "name": "새 · 마무리 · 무료 진단 신청",
+        "hash": "22d6f375"
+      },
+      {
+        "id": "679:730",
+        "name": "새 · seelo를 써야 하는 이유",
+        "hash": "1b1399c8"
+      },
+      {
+        "id": "679:796",
+        "name": "새 · 히어로 1 · 스크롤 중간 (지도가 뒤에 깔림)",
+        "hash": "f29e9987"
+      },
+      {
+        "id": "679:914",
+        "name": "새 · 히어로 2 · 지도 배경 + 한 줄",
+        "hash": "67acf186"
+      },
+      {
+        "id": "679:1005",
+        "name": "추가 1 · 신뢰 3줄 (Ascent 히어로 특징 참고)",
+        "hash": "d2b7c585"
+      },
+      {
+        "id": "679:1029",
+        "name": "추가 3 · seelo가 대신 해드려요 (Cayde 기능 3개 참고)",
+        "hash": "aac4b343"
+      },
+      {
+        "id": "679:1073",
+        "name": "추가 4 · 숫자와 근거 (Cayde 평가 리포트 참고)",
+        "hash": "98cb990f"
+      },
+      {
+        "id": "679:1099",
+        "name": "추가 5 · 5~15분 흐름 (Ascent 25분 스텝 참고)",
+        "hash": "b9c82c06"
+      },
+      {
+        "id": "679:1134",
+        "name": "추가 6 · 정비 항목 탭+리스트 (Ascent 공고 목록 참고)",
+        "hash": "329fcf4a"
+      },
+      {
+        "id": "679:1180",
+        "name": "신 · S02 / 회원가입",
+        "hash": "73d53a4b"
+      },
+      {
+        "id": "679:1235",
+        "name": "신 · S03 / 이메일 인증 안내",
+        "hash": "94cdcf10"
+      },
+      {
+        "id": "679:1262",
+        "name": "신 · S04 / 카카오 이메일 입력",
+        "hash": "1e7e9875"
+      },
+      {
+        "id": "679:1288",
+        "name": "신 · S04-1 / 카카오 이메일 입력",
+        "hash": "b1307bca"
+      },
+      {
+        "id": "679:1317",
+        "name": "신 · S05 / 로그인",
+        "hash": "eb35c952"
+      },
+      {
+        "id": "679:1366",
+        "name": "신 · S06 / 비밀번호 재설정",
+        "hash": "ce3f4f8a"
+      },
+      {
+        "id": "679:1392",
+        "name": "신 · S06-B / 새 비밀번호 입력",
+        "hash": "8cb6fd83"
+      },
+      {
+        "id": "679:1421",
+        "name": "신 · S07-E / 가게 등록 전",
+        "hash": "451ed22b"
+      },
+      {
+        "id": "679:1455",
+        "name": "신 · S08 / 가게 등록",
+        "hash": "67002605"
+      },
+      {
+        "id": "679:1484",
+        "name": "신 · S09 / 가게 후보 선택",
+        "hash": "deee45d4"
+      },
+      {
+        "id": "679:1527",
+        "name": "신 · S10 / 수집·측정 진행",
+        "hash": "646ec92d"
+      },
+      {
+        "id": "679:1549",
+        "name": "신 · S10-E / 측정 실패",
+        "hash": "2631e2c6"
+      },
+      {
+        "id": "679:1580",
+        "name": "신 · S12 / 자동 정비 신청",
+        "hash": "8cd1bf40"
+      },
+      {
+        "id": "679:1637",
+        "name": "신 · S12-P / 정비 신청 진행",
+        "hash": "4436fa0a"
+      },
+      {
+        "id": "679:1663",
+        "name": "신 · S15 / Google·카카오 연결",
+        "hash": "158d8169"
+      },
+      {
+        "id": "679:1705",
+        "name": "신 · S15-G / Google 초대 안내",
+        "hash": "c0824a5a"
+      },
+      {
+        "id": "679:1756",
+        "name": "신 · S15-K / 카카오 초대 안내",
+        "hash": "50890ee1"
+      },
+      {
+        "id": "679:1800",
+        "name": "신 · S13 / 정비안 확인·승인",
+        "hash": "554fd019"
+      },
+      {
+        "id": "679:1941",
+        "name": "신 · S13-P / 정비 진행·반영 결과",
+        "hash": "4dc14894"
+      },
+      {
+        "id": "679:1988",
+        "name": "신 · S16 / 전후 비교 보고서",
+        "hash": "247b3f77"
+      },
+      {
+        "id": "679:2114",
+        "name": "신 · S14 / 계정 설정",
+        "hash": "df04d3ba"
+      },
+      {
+        "id": "679:2164",
+        "name": "신 · S14-D / 탈퇴 확인",
+        "hash": "cbddfbc3"
+      },
+      {
+        "id": "679:2197",
+        "name": "신 · S07 / 무료 진단 결과 (S07+S11 통합)",
+        "hash": "5f3499b4"
+      },
+      {
+        "id": "679:2253",
+        "name": "신 · S11-Z / 무료 진단 결과 · 추천 0% (통합)",
+        "hash": "8379834d"
+      },
+      {
+        "id": "679:2312",
+        "name": "신 · S07 / 내 가게, 로그인 시 뜨는 화면",
+        "hash": "a10e55fc"
+      },
+      {
+        "id": "679:2394",
+        "name": "신 · S03 / 이메일 인증 안내, 버튼 활성화",
+        "hash": "f81d3144"
+      },
+      {
+        "id": "679:2421",
+        "name": "신 · S06-1 / 비밀번호 재설정 메일 발송",
+        "hash": "3ce4dc68"
+      },
+      {
+        "id": "679:2449",
+        "name": "신 · S13-P2 / 정비 완료·반영 결과",
+        "hash": "946388f2"
+      },
+      {
+        "id": "687:626",
+        "name": "O-APPROVE / 정비 시작 확인",
+        "hash": "c48f423e"
+      },
+      {
+        "id": "687:637",
+        "name": "O-MAIL / 인증 메일 재발송 안내",
+        "hash": "761123b9"
+      },
+      {
+        "id": "687:645",
+        "name": "O-PW / 비밀번호 변경 완료",
+        "hash": "dd9fcda"
+      },
+      {
+        "id": "687:674",
+        "name": "신 · S02-R / 회원가입 입력 완료",
+        "hash": "3b61587"
+      },
+      {
+        "id": "687:735",
+        "name": "신 · S05-R / 로그인 입력 완료",
+        "hash": "ef9052f5"
+      },
+      {
+        "id": "687:788",
+        "name": "신 · S08-R / 가게 등록 입력 완료",
+        "hash": "d290f345"
+      },
+      {
+        "id": "689:11",
+        "name": "새 · 이용 방법",
+        "hash": "fdbbbf13"
+      },
+      {
+        "id": "689:44",
+        "name": "새 · 무료·유료 안내",
+        "hash": "21d1c8a4"
+      }
+    ],
+    "right": 25775,
+    "flows": [
+      {
+        "nodeId": "679:627",
+        "name": "홈 (처음 방문)"
+      },
+      {
+        "nodeId": "679:1180",
+        "name": "회원가입"
+      },
+      {
+        "nodeId": "679:1317",
+        "name": "로그인 → 내 가게"
+      },
+      {
+        "nodeId": "679:2312",
+        "name": "내 가게 (로그인 후)"
+      }
+    ]
+  }
+}

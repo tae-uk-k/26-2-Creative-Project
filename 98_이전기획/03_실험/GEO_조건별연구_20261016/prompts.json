@@ -1,0 +1,146 @@
+[
+  {
+    "prompt_id": "MD-general",
+    "area_id": "MD",
+    "intent": "general",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 추가 조건은 없어.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-solo",
+    "area_id": "MD",
+    "intent": "solo",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 혼자 방문하며, 1인 주문과 혼자 앉아 식사하기 편한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-budget",
+    "area_id": "MD",
+    "intent": "budget",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 추가 필수 주문을 포함해 1명이 한 끼를 1만 원 이하로 먹을 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-group",
+    "area_id": "MD",
+    "intent": "group",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 성인 6명이 한 테이블에서 함께 식사할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-child",
+    "area_id": "MD",
+    "intent": "child",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 만 5세 아이와 함께 방문하며, 아이가 먹을 수 있는 덜 매운 메뉴와 동반 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-parking",
+    "area_id": "MD",
+    "intent": "parking",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 승용차로 방문하며, 식당 전용 주차 또는 식당이 안내하는 제휴 주차가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-reservation",
+    "area_id": "MD",
+    "intent": "reservation",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 방문 전에 식사 좌석을 예약할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MD-vegan",
+    "area_id": "MD",
+    "intent": "vegan",
+    "prompt": "서울 명동과 주변에서 식당을 찾고 있어. 육류·생선·해산물·달걀·유제품과 동물성 육수 없이 먹을 수 있는 비건 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-general",
+    "area_id": "SS",
+    "intent": "general",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 추가 조건은 없어.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-solo",
+    "area_id": "SS",
+    "intent": "solo",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 혼자 방문하며, 1인 주문과 혼자 앉아 식사하기 편한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-budget",
+    "area_id": "SS",
+    "intent": "budget",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 추가 필수 주문을 포함해 1명이 한 끼를 1만 원 이하로 먹을 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-group",
+    "area_id": "SS",
+    "intent": "group",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 성인 6명이 한 테이블에서 함께 식사할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-child",
+    "area_id": "SS",
+    "intent": "child",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 만 5세 아이와 함께 방문하며, 아이가 먹을 수 있는 덜 매운 메뉴와 동반 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-parking",
+    "area_id": "SS",
+    "intent": "parking",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 승용차로 방문하며, 식당 전용 주차 또는 식당이 안내하는 제휴 주차가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-reservation",
+    "area_id": "SS",
+    "intent": "reservation",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 방문 전에 식사 좌석을 예약할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "SS-vegan",
+    "area_id": "SS",
+    "intent": "vegan",
+    "prompt": "서울 성수동과 서울숲 주변에서 식당을 찾고 있어. 육류·생선·해산물·달걀·유제품과 동물성 육수 없이 먹을 수 있는 비건 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-general",
+    "area_id": "MW",
+    "intent": "general",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 추가 조건은 없어.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-solo",
+    "area_id": "MW",
+    "intent": "solo",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 혼자 방문하며, 1인 주문과 혼자 앉아 식사하기 편한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-budget",
+    "area_id": "MW",
+    "intent": "budget",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 추가 필수 주문을 포함해 1명이 한 끼를 1만 원 이하로 먹을 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-group",
+    "area_id": "MW",
+    "intent": "group",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 성인 6명이 한 테이블에서 함께 식사할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-child",
+    "area_id": "MW",
+    "intent": "child",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 만 5세 아이와 함께 방문하며, 아이가 먹을 수 있는 덜 매운 메뉴와 동반 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-parking",
+    "area_id": "MW",
+    "intent": "parking",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 승용차로 방문하며, 식당 전용 주차 또는 식당이 안내하는 제휴 주차가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-reservation",
+    "area_id": "MW",
+    "intent": "reservation",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 방문 전에 식사 좌석을 예약할 수 있는 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  },
+  {
+    "prompt_id": "MW-vegan",
+    "area_id": "MW",
+    "intent": "vegan",
+    "prompt": "서울 망원동과 망원시장 주변에서 식당을 찾고 있어. 육류·생선·해산물·달걀·유제품과 동물성 육수 없이 먹을 수 있는 비건 식사가 가능한 곳을 원해.\n최신 공개 웹을 실제로 검색해서 현재 운영 정보를 확인해줘. 네이버 지도·카카오맵·구글 지도 정보를 우선 확인하되, 접근할 수 없으면 다른 공개 출처를 이용하고 그 출처를 명시해줘. URL 열기가 권한상 불가능하면 검색 결과에 보이는 정보로 판단하고 snippet으로 표시해줘. 추가 승인을 요청하거나 승인을 우회하지 마.\n디저트만 파는 카페는 제외하고 한 끼 식사할 식당을 최대 5곳 추천해줘. 조건을 확인한 곳이 부족하면 적게 추천하거나 0곳으로 답해도 돼. 모르는 조건을 충족한다고 단정하지 마. 이름만 넣은 지도 검색 URL을 읽은 상세 페이지처럼 제시하지 마.\n검색 질의는 최대 3개, 공개 페이지 열람은 최대 6개로 제한해줘. 로컬 파일·과거 대화·다른 에이전트는 사용하지 마. 파일이나 계정 설정을 변경하지 마.\n최종 출력은 코드 블록 없이 아래 JSON만 써줘. evidence_level은 body/snippet/inference/unknown 중 하나이며 네가 보고한 수준이라는 뜻이야. condition_status는 confirmed/partial/unknown 중 하나야. general 질문은 조건 판정 대신 not_applicable을 써줘. source_type은 map/official/tourism/guide/aggregator/blog/social/other 중 선택해줘. 근거는 짧게 요약하고 원문 인용은 하지 마.\n{\"access_note\":\"접근 제한\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"cuisine\":\"음식 종류\",\"reason\":\"추천 이유\",\"condition_status\":\"unknown\",\"condition_evidence\":\"조건 충족 근거 또는 알 수 없는 부분\",\"evidence_level\":\"unknown\",\"sources\":[{\"url\":\"실제 사용한 URL\",\"source_type\":\"other\"}]}]}\n"
+  }
+]

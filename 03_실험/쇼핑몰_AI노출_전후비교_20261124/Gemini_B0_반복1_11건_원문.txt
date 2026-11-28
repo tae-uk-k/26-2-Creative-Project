@@ -1,0 +1,1982 @@
+Gemini B0 반복 1 / 2026-11-24 / 비로그인 새 대화 / 자동 모드 / 세부 모델명 미표시
+
+
+## G02 / 제출 UTC 2026-11-23T18:12:44.313Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지…" [level=5]
+  - paragraph: 콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 콩이나 곡물 대신 씨앗(호박씨, 아마씨, 해바라기씨, 햄프씨드 등)을 원료로 사용한 단백질 분말 제품 3가지입니다.
+    - superscript
+    - button "안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰
+  - heading "1. [안국건강] 오가닉 씨드루틴 30포 (유기농 저당 단백질) 안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. [안국건강] 오가닉 씨드루틴 30포 (유기농 저당 단백질)
+    - superscript
+    - button "안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰
+  - list:
+    - paragraph: "판매처: 안국건강 공식몰 (AGH몰), 닥터다이어리몰 등 국내 온라인몰"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "안국건강 공식몰 상품 페이지":
+        - /url: https://shopagh.com/goods/goods_view.php?goodsNo=1000001481
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 오스트리아산 유기농 호박씨, 아마씨, 해바라기씨 분말과 유기농 프락토올리고당을 원료로 사용한 국내 스틱 포 형태 제품입니다.
+      - superscript
+      - button "안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 안국건강 | 자연이 주는 건강의 힘 안국건강 공식몰
+  - heading "2. Dr. Murray's (닥터 머레이) 슈퍼 푸드, 3종 씨앗 단백질 분말 (무맛, 908g) kr.iherb.id의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. Dr.
+    - text: Murray's (닥터 머레이) 슈퍼 푸드, 3종 씨앗 단백질 분말 (무맛, 908g)
+    - superscript
+    - button "kr.iherb.id의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: kr.iherb.id
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: iHerb (아이허브)
+      - superscript
+    - paragraph:
+      - text: "근거 링크:"
+      - link "iHerb 혼합 프로틴 카테고리":
+        - /url: https://kr.iherb.id/c/protein-blends
+      - superscript
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 대두나 곡물 없이 호박씨, 아마씨, 해바라기씨 등 3가지 씨앗을 배합해 만든 무맛(Unflavored) 비건 단백질 파우더입니다.
+      - superscript
+    - button "kr.iherb.id의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: kr.iherb.id
+  - heading "3. NOW Foods (나우푸드) 스포츠, 유기농 호박씨 단백질 분말 (무맛, 454g / 907g) kr.canada-pharmaci.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. NOW Foods (나우푸드) 스포츠, 유기농 호박씨 단백질 분말 (무맛, 454g / 907g)
+    - superscript
+    - button "kr.canada-pharmaci.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: kr.canada-pharmaci.com
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: iHerb (아이허브) 및 국내 해외직구 쇼핑몰
+      - superscript
+      - button "onejikgu.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: onejikgu.co.kr
+    - paragraph:
+      - text: "근거 링크:"
+      - link "단백질 가격비교 (ServingPrice)":
+        - /url: https://servingprice.com/ingredients/protein
+      - text: /
+      - link "11번가 상품 검색":
+        - /url: https://search.11st.co.kr/MW/search?searchKeyword=%ED%98%B8%EB%B0%95%EC%94%A8%EA%B0%80%EB%A3%A8&tabId=PRICE_COMPARE
+        - text: 11번가 상품 검색
+        - superscript
+      - button "servingprice.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: servingprice.com
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 단일 씨앗 원료인 유기농 호박씨만을 사용한 무맛 단백질 분말(907g 제품 기준 1회 제공량당 단백질 18g 표기)로, 복합 혼합물 없이 단일 원료를 찾는 경우에 적합합니다.
+      - superscript
+      - button "servingprice.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: servingprice.com
+  - paragraph: "(참고: 검색 결과에서 확인되지 않은 세부 전성분 배합비나 알레르기 교차오염 여부 등은 추정하여 기재하지 않았으므로, 구매 전 각 판매처 상세페이지의 영양성분표와 원재료명을 최종 확인하시기 바랍니다.)"
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## S02 / 제출 UTC 2026-11-23T18:12:45.995Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정…" [level=5]
+  - paragraph: 사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹에서 원재료와 중량, 탈지(착유 후 압착박 가공) 여부 및 판매처 정보가 명확히 확인되는
+    - generic: 사차인치 탈지 단백질 분말(Sacha Inchi Protein Powder)
+    - text: 3개 제품의 비교 결과입니다.
+    - superscript
+    - button "현대홈쇼핑의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 현대홈쇼핑
+  - paragraph: 국내 유통 일반 사차인치 분말은 원물 통분쇄인지 탈지(착유 후 압착박 가공)인지 상세 표기가 누락된 경우가 많아, ‘탈지(냉압착 후 압착박 가공)’ 공정과 ‘단일 원재료·중량’이 공식 상품 페이지에 명시된 해외 직구/글로벌 브랜드 제품 3종을 기준으로 정리했습니다.
+  - heading "사차인치 탈지 단백질 분말 3종 비교" [level=3]
+  - table:
+    - rowgroup:
+      - row "비교 항목 1. David Wolfe Sacha Inchi Protein Powder 2. Imlak'esh Organics Sacha Inchi Protein 3. Incaliving Sacha Inchi Protein Powder":
+        - columnheader "비교 항목"
+        - columnheader "1. David Wolfe Sacha Inchi Protein Powder"
+        - columnheader "2. Imlak'esh Organics Sacha Inchi Protein"
+        - columnheader "3. Incaliving Sacha Inchi Protein Powder"
+    - rowgroup:
+      - 'row "제품명 Sacha Inchi Protein Powder: Organic and Vegan-Friendly from Peru Sacha Inchi Protein Sacha Inchi Protein Powder, Organic & Vegan"':
+        - cell "제품명":
+          - generic: 제품명
+        - 'cell "Sacha Inchi Protein Powder: Organic and Vegan-Friendly from Peru"'
+        - cell "Sacha Inchi Protein"
+        - cell "Sacha Inchi Protein Powder, Organic & Vegan"
+      - row "판매처 David Wolfe 공식 스토어 Imlak'esh Organics 공식 스토어 Incaliving 공식 스토어":
+        - cell "판매처":
+          - generic: 판매처
+        - cell "David Wolfe 공식 스토어"
+        - cell "Imlak'esh Organics 공식 스토어"
+        - cell "Incaliving 공식 스토어"
+      - row "원재료 및 공정 유기농 사차인치 분말 100% (Plukenetia volubilis) (유기농 사차인치 씨앗을 냉압착해 오일을 추출한 뒤 남은 종자 케이크를 건조·분쇄) 유기농 사차인치 씨앗 단일 원료 (전분을 제거하는 젤라틴화 공정을 거친 고단백 분말) 유기농 사차인치 씨앗 분말 단일 원료 (페루 아마존산 사차인치를 저온 로스팅 후 분쇄)":
+        - cell "원재료 및 공정":
+          - generic: 원재료 및 공정
+        - cell "유기농 사차인치 분말 100% (Plukenetia volubilis) (유기농 사차인치 씨앗을 냉압착해 오일을 추출한 뒤 남은 종자 케이크를 건조·분쇄)":
+          - paragraph: 유기농 사차인치 분말 100% (Plukenetia volubilis)
+          - paragraph: (유기농 사차인치 씨앗을 냉압착해 오일을 추출한 뒤 남은 종자 케이크를 건조·분쇄)
+        - cell "유기농 사차인치 씨앗 단일 원료 (전분을 제거하는 젤라틴화 공정을 거친 고단백 분말)":
+          - paragraph: 유기농 사차인치 씨앗 단일 원료
+          - paragraph: (전분을 제거하는 젤라틴화 공정을 거친 고단백 분말)
+        - cell "유기농 사차인치 씨앗 분말 단일 원료 (페루 아마존산 사차인치를 저온 로스팅 후 분쇄)":
+          - paragraph: 유기농 사차인치 씨앗 분말 단일 원료
+          - paragraph: (페루 아마존산 사차인치를 저온 로스팅 후 분쇄)
+      - row "중량 (용량) 12 oz (약 340g) 12 oz (340.2g) / 대용량 4 lb 옵션 존재 0.5 lbs (8 oz, 약 227g)":
+        - cell "중량 (용량)":
+          - generic: 중량 (용량)
+        - cell "12 oz (약 340g)"
+        - cell "12 oz (340.2g) / 대용량 4 lb 옵션 존재"
+        - cell "0.5 lbs (8 oz, 약 227g)"
+      - row "단백질 함량 (확인된 표기) 1회 제공량(28g)당 단백질 17g (중량 대비 60% 이상) 1회 제공량당 단백질 8g (중량 대비 60% 수준) 1회 제공량당 단백질 9g":
+        - cell "단백질 함량 (확인된 표기)":
+          - generic: 단백질 함량 (확인된 표기)
+        - cell "1회 제공량(28g)당 단백질 17g (중량 대비 60% 이상)"
+        - cell "1회 제공량당 단백질 8g (중량 대비 60% 수준)"
+        - cell "1회 제공량당 단백질 9g"
+  - button "옵션 더보기":
+    - img: more_horiz
+  - heading "제품별 상세 정보 및 선택 이유" [level=3]
+  - heading "1. David Wolfe — Sacha Inchi Protein Powder (12 oz) David Wolfe Shop의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=4]:
+    - text: 1. David Wolfe — Sacha Inchi Protein Powder (12 oz)
+    - superscript
+    - button "David Wolfe Shop의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: David Wolfe Shop
+  - list:
+    - paragraph:
+      - text: "판매처 및 근거 링크:"
+      - link "David Wolfe 공식 스토어 상품 페이지":
+        - /url: https://davidwolfe.com/products/sacha-inchi-nut-powder-12-oz
+    - paragraph:
+      - text: "원재료·중량:"
+      - superscript
+      - text: 페루산 유기농 사차인치 분말(
+      - generic: Plukenetia volubilis
+      - text: ) 단일 원료, 감미료·첨가물 무첨가 / 중량
+      - generic: 12 oz (약 340g)
+      - text: .
+      - superscript
+      - button "David Wolfe Shop 및 David Wolfe Shop의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: David Wolfe Shop
+        - generic: + 1
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 상품 설명에 "사차인치 씨앗을 냉압착(cold-pressed)해 종자 케이크(seed cake)로 만든 뒤 탈수·분쇄했다"고 탈지 공정이 가장 명확하게 기재되어 있습니다.
+      - superscript
+      - text: 28g당 17g(60% 이상)의 높은 단백질 함량과 아미노산 구성표까지 투명하게 공개되어 있습니다.
+      - superscript
+      - button "David Wolfe Shop 및 David Wolfe Shop의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: David Wolfe Shop
+        - generic: + 1
+  - heading "2. Imlak'esh Organics — Sacha Inchi Protein (12 oz) Ubuy의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=4]:
+    - text: 2. Imlak'esh Organics — Sacha Inchi Protein (12 oz)
+    - superscript
+    - button "Ubuy의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Ubuy
+  - list:
+    - paragraph:
+      - text: "판매처 및 근거 링크:"
+      - link "Imlak'esh Organics 공식 스토어 상품 페이지":
+        - /url: https://imlakeshorganics.com/products/sacha-inchi-protein
+      - text: /
+      - link "상세 스펙 안내 페이지":
+        - /url: https://www.ubuy.com.gh/product/FVY8OAY-imlakesh-organics-sacha-inchi-protein-4-pound-gallon
+    - paragraph:
+      - text: "원재료·중량: 유기농 사차인치 단일 원료, 무첨가물 / 기본 용기"
+      - generic: 12 oz (340.2g)
+      - text: .
+      - superscript
+      - button "Ubuy의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Ubuy
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 사차인치 원물에서 전분을 제거하는 젤라틴화(Gelatinized) 공정을 거쳐 중량 대비 약 60%의 단백질 밀도와 소화 흡수율을 높인 제품입니다.
+      - superscript
+      - text: 소용량(12 oz) 외에 대용량(4 lb) 옵션도 판매처에서 확인되어 섭취량에 따라 선택하기 좋습니다.
+      - button "Imlak'esh Organics의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Imlak'esh Organics
+  - heading "3. Incaliving — Sacha Inchi Protein Powder, Organic & Vegan (0.5 lbs) Incaliving의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=4]:
+    - text: 3. Incaliving — Sacha Inchi Protein Powder, Organic & Vegan (0.5 lbs)
+    - superscript
+    - button "Incaliving의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Incaliving
+  - list:
+    - paragraph:
+      - text: "판매처 및 근거 링크:"
+      - link "Incaliving 공식 스토어 상품 페이지":
+        - /url: https://incalivingshop.com/product/sacha-inchi-protein/
+    - paragraph: "원재료·중량: 페루 아마존산 유기농 사차인치 씨앗 분말 단일 원료(감미료·검류·향료 무첨가) / 중량 0.5 lbs (약 227g)."
+    - paragraph: "선택 이유: 앞선 두 제품(340g)보다 가벼운 0.5 lbs(약 227g) 소포장 단위로 구성되어 있어, 사차인치 단백질 분말의 맛과 소화 적합성을 소량으로 먼저 테스트해 보려는 경우에 적합합니다. (※ 해당 제품은 원산지 로스팅·분쇄 공정은 명시되어 있으나, 냉압착 탈지 공정 여부는 상세 페이지에 별도 기재되어 있지 않습니다.)"
+  - paragraph: 참고 사항
+  - list:
+    - paragraph: 국내 온라인몰(다나와, 쿠팡 등)에서 검색되는 '리얼리프 사차인치 파우더 오리지널 300g' 등의 제품은 판매 페이지 스니펫상 중량(300g)과 형태(분말)는 확인되나, 탈지(착유 박) 가공 여부가 공식 텍스트로 검증되지 않아 비교 대상에서 제외했습니다.
+    - paragraph:
+      - text: 글로벌 B2B 원료사인
+      - generic: GUTINS
+      - text: (단백질 70% 농축 탈지 분말) 및
+      - generic: Asia Eco Farm
+      - text: (단백질 54~62% 탈지 종자 케이크 분말) 역시 탈지 사차인치 단백질 원료를 공급하지만, 소매 완제품이 아닌 벌크(B2B) 원료이므로 제외했습니다.
+      - superscript
+      - button "Asia Eco Farm의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Asia Eco Farm
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## W02 / 제출 UTC 2026-11-23T18:12:47.863Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하…" [level=5]
+  - paragraph: 수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 수박씨 단백질 분말은 일반적으로 수박씨에서 오일을 착유(압착·탈지)한 뒤 분쇄·농축하여 제조하며, 웹상에서 원재료와 중량 정보가 확인되는 시판 및 원료 제품 3가지는 다음과 같습니다.
+    - superscript
+    - button "Google의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Google
+  - heading "제품 비교표" [level=3]
+  - table:
+    - rowgroup:
+      - row "구분 1. Cut the Bull Watermelon Seed Protein Powder 2. Smash Melon Watermelon Seed Protein Powder (Raw) 3. GUTINS 수박씨 단백질 70% 농축물 (원료용)":
+        - columnheader "구분"
+        - columnheader "1. Cut the Bull Watermelon Seed Protein Powder"
+        - columnheader "2. Smash Melon Watermelon Seed Protein Powder (Raw)"
+        - columnheader "3. GUTINS 수박씨 단백질 70% 농축물 (원료용)"
+    - rowgroup:
+      - row "판매처 Cut the Bull Foods 공식몰 / TikTok Shop Ubuy (해외직구몰) / Mercado Libre 등 GUTINS (원료·대량 구매몰)":
+        - cell "판매처":
+          - generic: 판매처
+        - cell "Cut the Bull Foods 공식몰 / TikTok Shop"
+        - cell "Ubuy (해외직구몰) / Mercado Libre 등"
+        - cell "GUTINS (원료·대량 구매몰)"
+      - row "중량 16 oz (약 454 g) 2 lb (910 g) 50 g ~ 5 kg (선택 구매)":
+        - cell "중량":
+          - generic: 중량
+        - cell "16 oz (약 454 g)"
+        - cell "2 lb (910 g)"
+        - cell "50 g ~ 5 kg (선택 구매)"
+      - row "원재료 수박씨 단백질 (Watermelon Seed Protein) 100% 단일 원료 수박씨 (Watermelon Seeds) 100% 단일 원료 (냉압착) 수박씨 단백질 농축물 (70% 규격) (세부 원재료명 미표기)":
+        - cell "원재료":
+          - generic: 원재료
+        - cell "수박씨 단백질 (Watermelon Seed Protein) 100% 단일 원료"
+        - cell "수박씨 (Watermelon Seeds) 100% 단일 원료 (냉압착)"
+        - cell "수박씨 단백질 농축물 (70% 규격) (세부 원재료명 미표기)":
+          - generic: 수박씨 단백질 농축물 (70% 규격) (세부 원재료명 미표기)
+      - row "영양/규격 1회(28 g)당 단백질 20 g, 지방 3 g, 식이섬유 3 g 1회 제공량당 단백질 22 g, 탄수화물 3 g 단백질 함량 70% 농축물":
+        - cell "영양/규격":
+          - generic: 영양/규격
+        - cell "1회(28 g)당 단백질 20 g, 지방 3 g, 식이섬유 3 g"
+        - cell "1회 제공량당 단백질 22 g, 탄수화물 3 g"
+        - cell "단백질 함량 70% 농축물"
+  - button "옵션 더보기":
+    - img: more_horiz
+  - heading "제품별 상세 및 선택 이유" [level=3]
+  - paragraph: 1. Cut the Bull Watermelon Seed Protein Powder
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - link "Cut the Bull Foods 공식 스토어":
+        - /url: https://cutthebullfoods.com/product/watermelon-seed-protein/
+      - superscript
+      - button "Single Ingredient Plant Protein Powders의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Single Ingredient Plant Protein Powders
+    - paragraph:
+      - text: "원재료 및 중량: 16 oz(약 454 g) 포장으로, 원재료 표기(Ingredient Listing)에"
+      - generic: 수박씨 단백질(Watermelon Seed Protein)
+      - text: 단일 성분만 기재되어 있습니다.
+      - superscript
+      - text: 1회 섭취량 28 g 기준 지방 3 g, 단백질 20 g으로 탈지·농축 과정을 거친 수치입니다.
+      - superscript
+      - button "GoSupps.com 및 Single Ingredient Plant Protein Powders의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GoSupps.com
+        - generic: + 1
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 시판 완제품 중 원재료명과 1회 제공량당 영양성분(단백질·지방·탄수화물) 및 총중량이 명확히 공개되어 있어 비교 기준으로 적합합니다.
+      - superscript
+      - button "Single Ingredient Plant Protein Powders의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Single Ingredient Plant Protein Powders
+  - paragraph:
+    - text: 2. Smash Melon Watermelon Seed Protein Powder (Raw)
+    - superscript
+    - button "Ubuy Madagascar의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Ubuy Madagascar
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - link "Ubuy 상품 페이지":
+        - /url: https://www.ubuy.mg/en/product/LURCJ5AG0-watermelon-seed-protein-powder-single-serving-pack-single-ingredient-and-unflavored-cold-pressed-22g-of-plant-based-protein-per-serving-shake-or
+    - paragraph:
+      - text: "원재료 및 중량: 2 lb(910 g) 대용량 파우치 제품으로, 오일을 냉압착(Cold-Pressed) 방식으로 추출한 뒤 분말화한"
+      - generic: 수박씨(Watermelon Seeds) 단일 원료
+      - text: 제품입니다.
+      - superscript
+      - button "Ubuy Madagascar의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Ubuy Madagascar
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 제조 방식(냉압착 탈지)과 단일 원재료 여부, 중량(910 g)이 명시되어 있으며 대용량 제품군과의 중량·성분 비교가 가능하기 때문입니다.
+      - superscript
+      - text: (단, 1회 제공량 그램수는 해당 판매 페이지에서 확인되지 않습니다.)
+      - button "Ubuy Madagascar의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Ubuy Madagascar
+  - paragraph:
+    - text: 3. GUTINS 수박씨 단백질 – 70% 농축물
+    - superscript
+    - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: GUTINS
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - link "GUTINS 한국어 스토어":
+        - /url: https://gutins.com/ko/products/%EC%88%98%EB%B0%95%EC%94%A8-%EB%8B%A8%EB%B0%B1%EC%A7%88-70%ED%8D%BC%EC%84%BC%ED%8A%B8-%EB%86%8D%EC%B6%95%EB%AC%BC
+    - paragraph:
+      - text: "원재료 및 중량:"
+      - text: 제조·배합용으로 유통되는 70% 단백질 농축 파우더로, 50 g 소포장부터 5 kg 벌크 단위까지 중량을 선택할 수 있습니다.
+      - superscript
+      - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GUTINS
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 한국어 판매 페이지가 존재하고 소량(50 g)부터 대량(5 kg)까지 중량 단위가 구체적으로 명시되어 있으나, 식품 원료용 벌크 제품 특성상 완제품 라벨 형태의 전성분(부원료 유무 등)은 공개되어 있지 않습니다.
+      - superscript
+      - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GUTINS
+  - blockquote:
+    - paragraph: "참고: 국내 일반 소비자용 온라인 쇼핑몰에서 유통되는 '수박씨 탈지 단백질 분말' 완제품은 확인되지 않았으며, 검색된 완제품은 모두 해외 직구 또는 해외 브랜드 제품입니다."
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## S04 / 제출 UTC 2026-11-23T18:13:06.876Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 …" [level=5]
+  - paragraph: 사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph: 웹 검색을 통해 원재료 정보와 보관 방법이 상세 페이지에 명확히 기재되어 있는 사차인치 단백질 분말(Sacha Inchi Protein Powder) 제품 3가지를 선정했습니다. 확인된 사실만을 바탕으로 정리했습니다.
+  - heading "1. Terrasoul Superfoods - Sacha Inchi Protein Powder (60% Protein) Terrasoul Superfoods의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. Terrasoul Superfoods - Sacha Inchi Protein Powder (60% Protein)
+    - superscript
+    - button "Terrasoul Superfoods의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Terrasoul Superfoods
+  - list:
+    - paragraph: "판매처: Terrasoul Superfoods 공식 온라인 스토어"
+    - paragraph:
+      - text: "확인된 원재료: 유기농 사차인치 분말 (Organic Sacha Inchi Powder, 학명"
+      - generic: Plukenetia volubilis
+      - text: ) 100% 단일 원료
+      - superscript
+      - button "Exist Green의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Exist Green
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: 냉장 보관이 필요하지 않으며, 서늘하고 어두우며 건조한 곳(cool, dark, dry place)에 보관
+      - superscript
+      - button "희노애락2025 - 티스토리의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 희노애락2025 - 티스토리
+    - paragraph:
+      - text: "근거 링크:"
+      - link "https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein":
+        - /url: https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 첨가물 없이 페루산 유기농 사차인치 단일 원재료로 구성되어 있으며, 냉장 불필요 여부 및 빛·습기를 피하는 구체적인 보관 조건과 알레르기 유발 물질(견과류 처리 시설) 정보가 명확히 표기되어 있습니다.
+      - superscript
+      - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GUTINS
+  - heading "2. Food To Live - Organic Sacha Inchi Protein Powder" [level=3]
+  - list:
+    - paragraph: "판매처: Food To Live 공식 온라인 스토어"
+    - paragraph:
+      - text: "확인된 원재료:"
+      - text: 유기농 사차인치 (Organic Sacha Inchi) 단일 원료
+      - superscript
+      - button "Accio Work의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Accio Work
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: "직사광선을 피해 서늘하고 건조한 곳의 밀폐 용기(airtight container)에 보관 (보관 기간: 최대 2년)"
+      - superscript
+      - button "희노애락2025 - 티스토리의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 희노애락2025 - 티스토리
+    - paragraph:
+      - text: "근거 링크:"
+      - link "https://foodtolive.com/shop/organic-sacha-inchi-powder/":
+        - /url: https://foodtolive.com/shop/organic-sacha-inchi-powder/
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 단일 원재료 표기와 더불어 밀폐 용기 사용 권장 및 최대 보관 기간(최대 2년)까지 상세하게 안내되어 있어 장기 보관 기준을 확인하기 좋습니다.
+      - superscript
+      - button "Food To Live의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Food To Live
+  - heading "3. Nuts.com - Organic Sacha Inchi Protein Powder" [level=3]
+  - list:
+    - paragraph: "판매처: Nuts.com 공식 온라인 스토어"
+    - paragraph:
+      - text: "확인된 원재료:"
+      - text: 100% 유기농 껍질 벗긴 사차인치 씨앗 (100% Organic Hulled Sacha Inchi Seed)
+      - superscript
+      - button "Nuts.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Nuts.com
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: 냉장 보관이 필요하지 않으며, 서늘하고 건조한 곳에서 최대 1년 보관 (Store in a cool dry place for up to 1 year)
+      - superscript
+      - button "Flavor Stockroom의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Flavor Stockroom
+    - paragraph:
+      - text: "근거 링크:"
+      - link "https://nuts.com/products/organic-sacha-inchi-protein-powder":
+        - /url: https://nuts.com/products/organic-sacha-inchi-protein-powder
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 껍질을 제거한(Hulled) 원료를 사용했다는 가공 형태와 100% 단일 원재료 여부, 그리고 권장 보관 기간(최대 1년)과 교차 오염 가능 알레르기 원료(밀, 우유, 대두) 정보가 투명하게 공개되어 있습니다.
+      - superscript
+      - button "Scribd의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Scribd
+  - blockquote:
+    - paragraph:
+      - generic: "참고 사항:"
+      - text: 현재 국내 온라인 쇼핑몰의 경우 구운 사차인치 원물이나 복합 곡물 쉐이크 형태의 상품이 주를 이루며, 순수 사차인치 단백질 분말의 원재료 및 보관법이 웹상에 명확히 공개된 일반 소비자용 리테일 제품은 해외 직구 및 공식 스토어 위주로 확인됩니다.
+      - superscript
+      - text: (재고 상태는 판매처 사정에 따라 변동될 수 있습니다.)
+      - button "GS SHOP홈쇼핑의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GS SHOP홈쇼핑
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## G04 / 제출 UTC 2026-11-23T18:13:09.033Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려…" [level=5]
+  - paragraph: 플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹에서 원재료명(함량)과 내용량이 명확히 표시된 단일 씨앗 원료 분말 제품 3가지를 선정했습니다.
+    - superscript
+    - text: (아마씨가루 제품의 경우, 오아시스마켓의 '볶은아마씨가루'는 상품 후기상 분쇄되지 않은 통씨앗 상태라는 내용이 확인되어 제외하고, 원물 분말 표기가 명확한 제품들로 구성했습니다.)
+    - button "파파스마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 파파스마켓
+  - heading "1. [햇님마을] 국산 들깨가루 100g 한품의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. [햇님마을] 국산 들깨가루 100g
+    - superscript
+    - button "한품의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 한품
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 한품 (Hanpoom)
+      - superscript
+      - button "한품의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 한품
+    - paragraph: "확인된 표시 정보:"
+    - list:
+      - paragraph:
+        - text: "원재료명 및 함량:"
+        - text: 들깨(국산) 100%
+        - superscript
+      - paragraph:
+        - text: "내용량:"
+        - text: 100g
+        - superscript
+      - button "한품의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 한품
+    - paragraph:
+      - text: "근거 링크:"
+      - link "한품 상품 페이지":
+        - /url: https://hanpoom.com/products/%ED%96%87%EB%8B%98%EB%A7%88%EC%9D%84-%EB%93%A4%EA%B9%A8%EA%B0%80%EB%A3%A8-100g
+    - paragraph: "선택 이유: 다른 곡물이나 첨가물이 섞이지 않은 단일 국산 들깨 100% 분말이며, 100g 소용량 포장으로 산화되기 쉬운 씨앗 가루를 신선하게 소진하며 요거트에 곁들이기 적합합니다."
+  - heading "2. 싸리재 국산들깨 100% 거피 들깨가루 200g" [level=3]
+  - list:
+    - paragraph: "판매처: 11번가 (싸리재 입점몰)"
+    - paragraph: "확인된 표시 정보:"
+    - list:
+      - paragraph:
+        - text: "원재료명 및 함량:"
+        - text: 국산 들깨 100% (거피 낸 생들깨 원물 분쇄)
+        - superscript
+        - button "한품의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: 한품
+      - paragraph:
+        - text: "내용량:"
+        - text: 200g
+        - superscript
+        - button "오아시스마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: 오아시스마켓
+    - paragraph:
+      - text: "근거 링크:"
+      - link "11번가 상품 페이지":
+        - /url: https://www.11st.co.kr/products/7863388334
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 껍질을 벗긴(거피) 생들깨만을 100% 갈아 만든 제품으로, 껍질 특유의 거친 식감이 덜해 부드러운 플레인 요거트에 섞어 먹기 좋습니다.
+      - superscript
+      - button "11번가 - 모바일의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 11번가 - 모바일
+  - heading "3. 두레발아볶은들깨가루 (200g) 두레생협 장보기의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. 두레발아볶은들깨가루 (200g)
+    - superscript
+    - button "두레생협 장보기의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 두레생협 장보기
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 두레생협 장보기
+      - superscript
+    - paragraph: "확인된 표시 정보:"
+    - list:
+      - paragraph:
+        - text: "원재료명 및 함량:"
+        - text: 국산 들깨 100%
+        - superscript
+      - paragraph:
+        - text: "내용량:"
+        - text: 200g
+        - superscript
+    - paragraph:
+      - text: "근거 링크:"
+      - link "두레생협 장보기 상품 페이지":
+        - /url: https://ecoop.or.kr/DureShop/mobile/prod/goodsView.do?returnTypeGb=01&returnNo=21100&returnPlanNo=0
+      - superscript
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 발아 후 볶아서 분쇄한 국산 들깨 100% 제품으로, 생들깨 분말과 달리 볶음 공정을 거쳐 고소한 풍미가 강조되므로 무가당 플레인 요거트에 고소한 맛을 더할 때 활용하기 좋습니다.
+      - superscript
+    - button "두레생협 장보기, 두레생협 장보기 및 두레생협 장보기의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 두레생협 장보기
+      - generic: + 2
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## W04 / 제출 UTC 2026-11-23T18:13:11.019Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않…" [level=5]
+  - paragraph: 수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹 검색을 통해 제품 페이지에서 원재료(또는 원료 유래)와
+    - generic: 보관 방법
+    - text: 이 모두 명확하게 확인된 수박씨 단백질 분말 제품 3가지를 정리했습니다.
+    - superscript
+    - text: (확인되지 않은 세부 성분이나 보관 조건은 기재하지 않았으며, 해외 원료/B2B 및 직구 유통 제품이 포함됩니다.)
+    - button "veth77.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: veth77.com
+  - heading "1. 수박씨 단백질 – 70% 농축물 (GUTINS) GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. 수박씨 단백질 – 70% 농축물 (GUTINS)
+    - superscript
+    - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: GUTINS
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: GUTINS 공식 온라인 스토어 (50g ~ 5kg 단위 구매 가능)
+      - superscript
+    - paragraph:
+      - text: "확인된 원재료: 껍질을 제거하고 발아 및 탈지 과정을 거친 수박씨("
+      - generic: Citrullus lanatus
+      - text: )에서 추출한 70% 단백질 농축물
+      - superscript
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: 밀봉하여 서늘하고(25°C 미만) 건조하며 냄새가 없고 빛이 들지 않는 곳에 보관
+      - superscript
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 50g 소용량부터 구매할 수 있어 개인 단위 접근성이 있으며, 원료의 가공 방식(탈피·발아·탈지)과 구체적인 보관 온도 기준(25°C 미만)이 상세 페이지에 명시되어 있습니다.
+      - superscript
+    - paragraph:
+      - text: "근거 링크:"
+      - link "GUTINS 수박씨 단백질 – 70% 농축물 제품 페이지":
+        - /url: https://gutins.com/ko/products/%EC%88%98%EB%B0%95%EC%94%A8-%EB%8B%A8%EB%B0%B1%EC%A7%88-70%ED%8D%BC%EC%84%BC%ED%8A%B8-%EB%86%8D%EC%B6%95%EB%AC%BC
+      - superscript
+    - button "GUTINS, GUTINS 및 GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: GUTINS
+      - generic: + 2
+  - heading "2. Organic Watermelon Seed Protein Powder (Nutraonly) Nutraonly의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. Organic Watermelon Seed Protein Powder (Nutraonly)
+    - superscript
+    - button "Nutraonly의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Nutraonly
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: Nutraonly (B2B 제조사 직판, 최소 주문 수량 1kg부터 문의·구매 가능)
+      - superscript
+      - button "Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier
+    - paragraph:
+      - text: "확인된 원재료: 유기농 수박씨("
+      - generic: Citrullus lanatus
+      - text: ) 단일 원료 분말 (단백질 함량 60~80% 규격, 글루텐 프리)
+      - superscript
+      - button "Made-in-China.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Made-in-China.com
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: 서늘하고 건조하며 어두운 곳에 보관, 개봉 후에는 4°C 이하에서 냉장 밀봉 보관
+      - superscript
+      - button "Nutrition Refined의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Nutrition Refined
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 유기농 인증 원료 여부와 함께 개봉 전(서늘·건조·암소) 및 개봉 후(4°C 이하 밀봉)의 단계별 보관 방법이 구체적으로 안내되어 있습니다.
+      - superscript
+      - button "ACS Publications - American Chemical Society의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: ACS Publications - American Chemical Society
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Nutraonly Organic Watermelon Seed Protein Powder 제품 페이지":
+        - /url: https://www.nutraonly.com/organic-sports-vegan-protein/watermelon-seed-protein-powder.html
+  - heading "3. China Watermelon Seed Protein Powder (Organic Powder Supply)" [level=3]
+  - list:
+    - paragraph: "판매처: Organic Powder Supply (원료 제조·공급처)"
+    - paragraph:
+      - text: "확인된 원재료:"
+      - text: 탈지한 수박씨(Seed, defatted) 분말 (단백질 함량 40% / 50% / 60% 규격, 주요 알레르기 유발 물질 무첨가)
+      - superscript
+      - button "Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier
+    - paragraph:
+      - text: "확인된 보관 방법:"
+      - text: 밀봉 상태로 직사광선과 강한 냄새를 피해 서늘하고 건조한 곳에 보관
+      - superscript
+      - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GUTINS
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 탈지 수박씨를 사용한 단일 원재료 규격과 함께 냄새 흡수 방지를 포함한 보관 주의사항이 명시되어 있습니다.
+      - superscript
+      - button "Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Bulk Organic Fruit Powder/Herbal Extract Wholesale Supplier
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Organic Powder Supply Watermelon Seed Protein Powder 제품 페이지":
+        - /url: https://www.organicpowdersupply.com/watermelon-seed-protein-powder-1/
+  - paragraph: "(참고: 국내 일반 소비자용 리테일 몰에서는 수박씨 단일 단백질 분말보다 완두·대두·유청 혼합 제품 위주로 유통되고 있어, 제품명·원재료·보관법이 공식 페이지에서 모두 검증되는 전문 공급처 제품들로 선정했습니다.)"
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## G01 / 제출 UTC 2026-11-23T18:13:12.930Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마." [level=5]
+  - paragraph: 300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹 검색을 통해 확인된 300g 용량의 식물성 단백질 분말 제품 3가지를 안내해 드립니다.
+    - superscript
+    - text: (제공된 정보는 검색 결과 페이지에서 확인된 내용만을 바탕으로 작성되었습니다.)
+    - button "온누리마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 온누리마켓
+  - heading "1. 고소한 식물성 단백질, 국산콩 두부쉐이크 300g 두부가루 싸리재마을의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. 고소한 식물성 단백질, 국산콩 두부쉐이크 300g 두부가루
+    - superscript
+    - button "싸리재마을의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 싸리재마을
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: "싸리재마을 (제조사: 콩사랑)"
+      - superscript
+    - paragraph:
+      - text: "근거 링크:"
+      - link "싸리재마을 상품 페이지":
+        - /url: https://m.ssarijai.com/product/%EA%B3%A0%EC%86%8C%ED%95%9C-%EC%8B%9D%EB%AC%BC%EC%84%B1-%EB%8B%A8%EB%B0%B1%EC%A7%88-%EA%B5%AD%EC%82%B0%EC%BD%A9-%EB%91%90%EB%B6%80%EC%89%90%EC%9D%B4%ED%81%AC-300g-%EB%91%90%EB%B6%80%EA%B0%80%EB%A3%A8/478/
+      - superscript
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 300g 지퍼팩 용량으로 판매되고 있으며, 국산 NON-GMO 콩으로 만든 수제 손두부를 건조 및 분쇄해 만든 무첨가 식물성 단백질 분말(판매가 19,000원 기준)로 확인되어 선정했습니다.
+      - superscript
+    - button "싸리재마을 및 싸리재마을의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 싸리재마을
+      - generic: + 1
+  - heading "2. [루피니빈] 콩 볶은분말 100% 식물성 단백질 루핀분말 300g 온누리마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. [루피니빈] 콩 볶은분말 100% 식물성 단백질 루핀분말 300g
+    - superscript
+    - button "온누리마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 온누리마켓
+  - list:
+    - paragraph: "판매처: 누리마켓 (판매원: 주)에버에프앤씨)"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "누리마켓 상품 페이지":
+        - /url: https://nurimarket.co.kr/shop/item/1787478393
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 정확히 300g 규격이며, 루피니빈 콩을 볶아 분말화한 100% 식물성 단백질 제품으로 확인되어 선정했습니다.
+      - superscript
+      - button "온누리마켓의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 온누리마켓
+  - heading "3. 더뷰티셰프(The Beauty Chef) 바닐라 식물성 단백질 파우더 300g www.ivitamall.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. 더뷰티셰프(The Beauty Chef) 바닐라 식물성 단백질 파우더 300g
+    - superscript
+    - button "www.ivitamall.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: www.ivitamall.co.kr
+  - list:
+    - paragraph: "판매처: 아이비타몰 (호주 판매 상품 수입·판매처)"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "아이비타몰 상품 페이지":
+        - /url: https://www.ivitamall.co.kr/goods/goods_view.php?goodsNo=1000004352
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 300g 용량의 바닐라 맛 식물성 단백질 파우더로, 물 등에 타서 섭취할 수 있는 해외 브랜드 보충제 형태가 확인되어 선정했습니다.
+      - superscript
+      - button "www.ivitamall.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: www.ivitamall.co.kr
+  - paragraph:
+    - text: "(참고: 검색 결과상"
+    - code: NS 식물성 단백질 300g
+    - text: 등 다른 300g 보충제 제품도 존재하나, 현재 판매처 페이지에서 '품절' 상태로 확인되어 제외했습니다.)
+    - superscript
+    - button "NS 프로틴의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: NS 프로틴
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## S03 / 제출 UTC 2026-11-23T18:13:14.905Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마." [level=5]
+  - paragraph: 두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 두유에 섞어 드실 수 있도록 웹상에서 판매 및 등록이 확인되는
+    - generic: 사차인치 프로틴 및 순수 사차인치 분말 제품 3가지
+    - text: 입니다.
+    - superscript
+    - text: 국내 온라인 쇼핑몰에서는 전용 '프로틴 보충제'로 가공된 제품보다 원물 100% 분말 형태로 유통되는 경우가 많아, 사차인치 전용 프로틴 파우더 1종과 첨가물 없는 순수 사차인치 분말 2종을 함께 선정했습니다.
+    - superscript
+    - button "prod.danawa.com 및 조세일보의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: prod.danawa.com
+      - generic: + 1
+  - heading "1. 임라케쉬 오가닉 사차 인치 프로틴 단백 파우더 가루 분말 (12oz) 롯데ON의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. 임라케쉬 오가닉 사차 인치 프로틴 단백 파우더 가루 분말 (12oz)
+    - superscript
+    - button "롯데ON의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 롯데ON
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 롯데ON (해외직구/입점몰)
+      - superscript
+      - button "롯데ON의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 롯데ON
+    - paragraph:
+      - text: "근거 링크:"
+      - link "롯데ON 상품 페이지":
+        - /url: https://www.lotteon.com/p/product/LO2642019289
+      - superscript
+      - button "롯데ON의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 롯데ON
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 시중에 흔한 사차인치 원물 분쇄 가루와 달리, 해외 브랜드(Imlakesh Organics)에서 단백질 보충용(Sacha Inchi Protein Powder)으로 출시한 제품입니다.
+      - superscript
+      - text: 기름기를 압착해 단백질 함량을 높인 프로틴 파우더 형태로, 두유에 섞어 단백질 섭취 목적에 가장 직접적으로 활용할 수 있습니다.
+      - superscript
+      - text: (※ 상세 영양성분 및 현재 재고 여부는 판매처 링크에서 직접 확인이 필요합니다.)
+      - button "롯데ON 및 파이낸셜뉴스의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 롯데ON
+        - generic: + 1
+  - heading "2. 리얼리프 사차인치 분말 가루 파우더 200g (페루) realleaf.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. 리얼리프 사차인치 분말 가루 파우더 200g (페루)
+    - superscript
+    - button "realleaf.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: realleaf.co.kr
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 리얼리프코리아 공식 쇼핑몰
+      - superscript
+      - button "m.realleaf.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: m.realleaf.co.kr
+    - paragraph:
+      - text: "근거 링크:"
+      - link "리얼리프코리아 공식몰":
+        - /url: https://realleaf.co.kr/
+      - superscript
+      - button "realleaf.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: realleaf.co.kr
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 사차인치의 주산지인 페루산 원료 100%를 사용한 분말 제품입니다.
+      - superscript
+      - text: 당류나 합성첨가물이 섞이지 않은 단일 원료 분말이므로, 이미 기본 간이나 단맛이 있는 두유에 섞어도 맛의 충돌 없이 고소한 풍미와 식물성 단백질·불포화지방산을 보충하기에 적합합니다.
+      - superscript
+      - button "realleaf.co.kr 및 파이낸셜뉴스의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: realleaf.co.kr
+        - generic: + 1
+  - heading "3. 바이오후드텍 얼스팜 유기농 사차인치 분말 100g prod.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. 바이오후드텍 얼스팜 유기농 사차인치 분말 100g
+    - superscript
+    - button "prod.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: prod.danawa.com
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 다나와 가격비교 등록 상품 (제휴 오픈마켓 연동)
+      - superscript
+    - paragraph:
+      - text: "근거 링크:"
+      - link "다나와 상품 정보 페이지":
+        - /url: https://prod.danawa.com/info/?pcode=121402968
+      - superscript
+    - paragraph:
+      - text: "선택 이유:"
+      - text: 유기농 원료를 사용한 분말 제품으로, 100g 단위 소용량으로 구성되어 있어 대용량 구매 전 두유와의 궁합이나 목 넘김, 맛을 먼저 테스트해 보려는 경우에 부담이 적습니다.
+      - superscript
+      - generic: (※ 다나와 가격비교 페이지 내 입점 판매처별로 실시간 가격 및 품절 여부가 다를 수 있습니다.)
+      - superscript
+    - button "prod.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: prod.danawa.com
+  - paragraph: 섭취 시 참고사항
+  - list:
+    - paragraph:
+      - text: 100% 원물 분말 제품(2, 3번)은 탈지 과정을 거친 프로틴 파우더(1번)에 비해 사차인치 고유의 지방(오메가-3·6·9) 함량이 그대로 남아 있어 열량이 상대적으로 높고 물이나 두유에 녹는 정도(용해성)에 차이가 있을 수 있습니다.
+      - superscript
+      - button "연합뉴스의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 연합뉴스
+    - paragraph: 각 제품의 정확한 1회 제공량당 단백질 함량(g) 및 알레르기 유발 물질 정보는 구매 전 해당 판매 페이지의 영양성분표를 반드시 확인하시기 바랍니다.
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## W03 / 제출 UTC 2026-11-23T18:13:16.869Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 두유에 섞어 먹을 수박씨 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마." [level=5]
+  - paragraph: 두유에 섞어 먹을 수박씨 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph: 국내 일반 소비자용 소매 시장에서는 B2B 식품 원료 형태가 주를 이루며, 개인이 구매해 두유에 섞어 먹을 수 있는 완제품은 주로 해외 직구(미국·캐나다 등) 몰에서 판매되고 있습니다. 웹에서 실제 판매 페이지가 확인된 수박씨 프로틴 분말 제품 3가지를 정리했습니다.
+  - heading "1. NURTIVE Watermelon Seed Protein Powder (16 oz / 454g) GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. NURTIVE Watermelon Seed Protein Powder (16 oz / 454g)
+    - superscript
+    - button "GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: GoSupps.com
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: NURTIVE 공식 스토어 (아마존 병행 판매 명시)
+      - superscript
+      - button "NURTIVE의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: NURTIVE
+    - paragraph:
+      - text: "근거 링크:"
+      - link "NURTIVE Watermelon Seed Protein Powder 16 oz":
+        - /url: https://nurtive.co/products/watermelon-seed-protein
+      - superscript
+      - button "GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GoSupps.com
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 1스쿱(약 25g)당 단백질 14g, 식이섬유 4g을 제공하며 비건·글루텐프리·Non-GMO 제품입니다.
+        - superscript
+      - paragraph:
+        - text: 상세 페이지에서 스무디나 셰이크 등에 1~2테이블스푼씩 섞어 먹도록 안내하고 있으며, 향이 강하지 않고 입자가 고운 편이라 음료에 섞어 마시기 적합합니다.
+        - superscript
+      - button "NURTIVE 및 NURTIVE의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: NURTIVE
+        - generic: + 1
+  - heading "2. Sprout Living Simple Organic Protein Watermelon Seed (288g) Well.ca의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. Sprout Living Simple Organic Protein Watermelon Seed (288g)
+    - superscript
+    - button "Well.ca의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Well.ca
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: Well.ca (캐나다 온라인 헬스·뷰티 스토어)
+      - superscript
+      - button "Well.ca의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Well.ca
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Sprout Living Simple Organic Protein Watermelon Seed":
+        - /url: https://well.ca/products/sprout-living-simple-organic-protein_178334.html
+      - superscript
+      - button "Well.ca의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Well.ca
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 냉압착 수박씨 분말(Cold Pressed Watermelon Seed Powder) 단일 원료로만 구성된 유기농 제품입니다.
+        - superscript
+        - button "Ubuy Djibouti의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: Ubuy Djibouti
+      - paragraph: 1회 제공량(18g)당 식물성 단백질 12g을 함유하고 있으며, 약간 고소하면서 중립적인 맛(Slightly nutty, neutral flavor)을 띠어 두유의 본연의 고소한 맛을 해치지 않고 섞어 먹기 좋습니다.
+  - heading "3. Naked Seed - 4 Seed Protein Powder (1lb) GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. Naked Seed - 4 Seed Protein Powder (1lb)
+    - superscript
+    - button "GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: GoSupps.com
+  - list:
+    - paragraph: "판매처: Naked Nutrition 공식 스토어"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Naked Seed Protein Powder 1lb":
+        - /url: https://nakednutrition.com/products/seed-protein-powder
+      - superscript
+      - button "GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: GoSupps.com
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 수박씨 단백질 100% 단일 제품은 아니지만,
+        - generic: 수박씨·호박씨·해바라기씨·치아씨 4가지 씨앗 단백질만
+        - text: 을 배합한 무첨가·무향료 제품입니다.
+        - superscript
+        - button "GoSupps.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: GoSupps.com
+      - paragraph:
+        - text: 1회 제공량(2스쿱)당 단백질 20g(당류 0g)을 섭취할 수 있으며, 공식 사용법에 물이나 비유제품 우유(식물성 음료)에 섞어 마시도록 안내되어 있어 두유와 함께 활용하기 좋습니다.
+        - superscript
+        - button "GUTINS의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: GUTINS
+  - paragraph: 참고 사항
+  - list:
+    - paragraph: "국내 구매 환경: 한국 내 쇼핑몰에서는 일반 소비자용 소분 완제품 대신 대량 도매용(B2B) 원료 분말이 주로 검색되므로, 위 해외 판매처나 국내 직구 대행 플랫폼을 통해 구매해야 합니다."
+    - paragraph:
+      - text: "단독 출시 브랜드 제외:"
+      - text: 과거 수박씨 단일 프로틴을 출시했던 미국 브랜드 'Smash Melon'은 현재 공식 웹사이트에 영업 종료(closing up shop) 공지가 올라와 있어 추천 목록에서 제외했습니다.
+      - superscript
+      - button "EIN Presswire의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: EIN Presswire
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## G03 / 제출 UTC 2026-11-23T18:13:18.944Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추…" [level=5]
+  - paragraph: 우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 우유나 두유, 스무디에 섞어 마시기 좋은 식물성 단백질 분말 제품 3가지를 웹에서 확인된 사실만을 바탕으로 정리했습니다.
+    - superscript
+    - button "마이프로틴의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 마이프로틴
+  - heading "1. 마이프로틴 임팩트 소이 프로틴 (Impact Soy Protein) 마이프로틴의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. 마이프로틴 임팩트 소이 프로틴 (Impact Soy Protein)
+    - superscript
+    - button "마이프로틴의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 마이프로틴
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - superscript
+      - text: 마이프로틴 한국 공식 온라인 스토어
+      - button "11번가의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 11번가
+    - paragraph:
+      - text: "근거 링크:"
+      - link "마이프로틴 임팩트 소이 프로틴 상세 페이지":
+        - /url: https://www.myprotein.co.kr/p/sports-nutrition/impact-soy-protein/10529701/
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 대두 단백질 분리물(90% 등)로 만들어진 비건·채식주의자용 제품으로, 1회 제공량당 최대 25g의 높은 단백질(최대 83% 함량)과 낮은 당분·지방 함량(최대 106kcal)을 제공합니다.
+        - superscript
+      - paragraph:
+        - text: 살티드 카라멜, 바닐라 등 다양한 맛 옵션뿐만 아니라
+        - generic: 무향(Unflavoured) 버전
+        - text: 도 제공되어, 다른 재료의 맛을 해치지 않고 스무디에 섞어 먹기에 적합합니다.
+        - superscript
+      - button "마이프로틴 및 마이프로틴의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 마이프로틴
+        - generic: + 1
+  - heading "2. 홀블렌딩 식물단백 대용량 (그레인·카카오·쑥·블랙빈·메이플고구마) 홀블렌딩의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. 홀블렌딩 식물단백 대용량 (그레인·카카오·쑥·블랙빈·메이플고구마)
+    - superscript
+    - button "홀블렌딩의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 홀블렌딩
+  - list:
+    - paragraph: "판매처: 홀블렌딩 공식 온라인 스토어"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "홀블렌딩 식물단백 대용량 골라담기 상품 페이지":
+        - /url: https://wholeblending.com/product/%ED%99%80%EB%B8%94%EB%A0%8C%EB%94%A9-%EC%95%BD%EC%82%AC%EC%84%A4%EA%B3%84-%EB%8B%A8%EB%B0%B1%EC%A7%88-%EB%8C%80%EC%9A%A9%EB%9F%89-%EA%B3%A8%EB%9D%BC%EB%8B%B4%EA%B8%B0/4726/
+      - superscript
+      - button "홀블렌딩의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 홀블렌딩
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 약사 설계 컨셉의 1통 630g 대용량 식물성 단백질 분말로, 맛에 따라 18~24g의 단백질을 섭취할 수 있습니다.
+        - superscript
+      - paragraph:
+        - text: 그레인(곡물), 카카오, 쑥, 블랙빈, 메이플고구마 등 한국인에게 익숙한 구수하고 달콤한 맛 라인업으로 구성되어 있어 우유나 두유에 타서 식사 대용 쉐이크처럼 마시기 좋습니다.
+        - superscript
+      - button "wholeblending.com 및 홀블렌딩의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: wholeblending.com
+        - generic: + 1
+  - heading "3. 오허브 분리대두단백 식물성 단백질 보충제 파우더 1kg (500g×2) SSG.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. 오허브 분리대두단백 식물성 단백질 보충제 파우더 1kg (500g×2)
+    - superscript
+    - button "SSG.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: SSG.com
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: SSG.COM (신세계몰·이마트몰), 11번가 등 주요 오픈마켓 입점 스토어
+      - superscript
+      - button "이마트몰 - SSG.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 이마트몰 - SSG.com
+    - paragraph:
+      - text: "근거 링크:"
+      - link "SSG.COM 오허브 상품 페이지":
+        - /url: https://emart.ssg.com/disp/bundle.ssg?dispCtgId=6000213046&shppcstId=0003427458&grpAddrId=0074002704
+      - superscript
+      - button "이마트몰 - SSG.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: 이마트몰 - SSG.com
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph: 별도의 향료나 당류가 첨가되지 않은 순수 분리대두단백(ISP) 단일 원료 분말입니다.
+      - paragraph:
+        - text: 500g씩 2팩(총 1kg)으로 소분 포장되어 보관이 용이하며, 원재료 그대로의 형태라 과일 스무디나 두유 등에 원하는 비율로 섞어 먹기에 가성비가 좋습니다.
+        - superscript
+        - button "SSG.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: SSG.com
+  - blockquote:
+    - paragraph: "참고: 각 제품의 상세 영양성분표(알레르기 유발 물질 혼입 가능성, 당류·나트륨 정확한 수치 등)와 실시간 할인가 및 재고 여부는 구매 전 해당 판매처 링크에서 최종 확인하시기 바랍니다."
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중
+
+## S01 / 제출 UTC 2026-11-23T18:13:21.150Z
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 사차인치를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마." [level=5]
+  - paragraph: 사차인치를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹 검색을 통해 확인된
+    - generic: 사차인치(Sacha Inchi)를 원료로 한 300g 용량의 분말/단백질 제품
+    - text: 3가지를 안내해 드립니다.
+    - superscript
+    - text: (국내외 유통 제품 중 정확히 300g 단위 및 사차인치 원료 함유가 명시된 제품 기준입니다.)
+    - superscript
+    - button "쿠팡 및 IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 쿠팡
+      - generic: + 1
+  - heading "1. 리얼리프 사차인치 파우더 오리지널 300g prod.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 1. 리얼리프 사차인치 파우더 오리지널 300g
+    - superscript
+    - button "prod.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: prod.danawa.com
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: 리얼리프슈퍼푸드 (다나와 가격비교 연동)
+      - superscript
+      - button "realleaf.co.kr의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: realleaf.co.kr
+    - paragraph:
+      - text: "근거 링크:"
+      - link "다나와 상품 정보 페이지":
+        - /url: https://prod.danawa.com/info/?pcode=5241205
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 국내에서 유통되는 300g 규격의 단일 사차인치 분말 제품입니다.
+        - superscript
+        - button "m.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: m.danawa.com
+      - paragraph:
+        - text: 사차인치 원물(씨앗) 자체가 식물성 단백질과 오메가-3·6·9의 공급원이며, 별도의 부원료가 섞이지 않은 순수 분말(1회 섭취량 10g 기준) 형태로 확인할 수 있습니다.
+        - superscript
+        - generic: "(※ 참고: 순수 원물 분말이므로 단백질만 고함량으로 분리 농축한 '단백질 보충제(프로틴 파우더)'와는 가공 방식에 차이가 있을 수 있습니다.)"
+        - superscript
+        - button "HAOZE BIO 및 m.danawa.com의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: HAOZE BIO
+          - generic: + 1
+  - heading "2. Pik Pure Sacha Inchi Protein Powder (300g) IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. Pik Pure Sacha Inchi Protein Powder (300g)
+    - superscript
+    - button "IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: IndiaMART
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: Pikpure (인도 B2B·도소매 마켓플레이스 IndiaMART 입점 업체)
+      - superscript
+      - button "IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: IndiaMART
+    - paragraph:
+      - text: "근거 링크:"
+      - link "IndiaMART 상품 상세 페이지":
+        - /url: https://www.indiamart.com/proddetail/pik-pure-sacha-inchi-protein-powder-2855737186530.html
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: "'사차인치 단백질 분말(Sacha Inchi Protein Powder)'로 명시된"
+        - generic: 300g 포장 규격
+        - text: 제품입니다.
+        - superscript
+      - paragraph:
+        - text: 100% 비건(Vegan), Non-GMO, 유기농 원료의 단백질 보충용 파우더로 표기되어 있습니다.
+        - superscript
+      - button "IndiaMART 및 IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: IndiaMART
+        - generic: + 1
+  - heading "3. ORGANIC OASIS LAB Fine Body Therapy 300g Bioaura | The Purest Bio and Organic Cosmetics and Makeup의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 3. ORGANIC OASIS LAB Fine Body Therapy 300g
+    - superscript
+    - button "Bioaura | The Purest Bio and Organic Cosmetics and Makeup의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Bioaura | The Purest Bio and Organic Cosmetics and Makeup
+  - list:
+    - paragraph: "판매처: Bioaura (유럽 온라인 스토어)"
+    - paragraph:
+      - text: "근거 링크:"
+      - superscript
+      - link "Bioaura 상품 상세 페이지":
+        - /url: https://www.bioaura.eu/en/p/organic-oasis-lab-fine-body-therapy-300g
+      - button "IndiaMART의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: IndiaMART
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 순중량(Net weight)
+        - generic: 300g
+        - text: 제품으로, 원재료에 사차인치 단백질 분말(Sacha Inchi protein powder)이 포함되어 있습니다.
+        - superscript
+      - paragraph:
+        - text: 다만 단일 단백질 파우더가 아니라 표고버섯 분말, 발효 강황 분말, 유산균 등이 함께 배합된 복합 건강기능/영양 분말(1일 권장량 10g당 사차인치 단백질 분말 500mg 함유)입니다.
+        - superscript
+      - button "Bioaura | The Purest Bio and Organic Cosmetics and Makeup의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Bioaura | The Purest Bio and Organic Cosmetics and Makeup
+  - paragraph: "안내 및 참고사항:"
+  - list:
+    - paragraph:
+      - text: 국내 시중에는 사차인치 분말이 주로
+      - generic: 200g, 240g(8.5oz), 500g, 1kg
+      - text: 단위로 유통되거나 완두콩 단백질 등과 혼합된 대용량 제품이 많아, 정확히
+      - generic: 300g
+      - text: 이면서 고농축 사차인치 단백질(프로틴)만으로 구성된 국내 상시 판매 제품은 확인이 제한적입니다.
+      - superscript
+    - button "왓푸드의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: 왓푸드
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중

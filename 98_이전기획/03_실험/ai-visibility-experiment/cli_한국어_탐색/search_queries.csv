@@ -1,0 +1,699 @@
+﻿run_id,backend,query
+CLI-KO-AGY-MD01-R1,agy,명동 맛집 추천 미쉐린 가이드 블루리본
+CLI-KO-AGY-MD01-R1,agy,"""명동교자 본점"" 주소 가격 2024 OR 2025"
+CLI-KO-AGY-MD01-R1,agy,"""하동관 명동본점"" 주소 곰탕 가격"
+CLI-KO-AGY-MD01-R1,agy,"""남포면옥"" 주소 냉면 가격"
+CLI-KO-AGY-MD01-R1,agy,"""명동 함흥면옥"" 주소 가격 냉면"
+CLI-KO-AGY-MD01-R1,agy,"""육통령 명동본점"" 주소 1인분 삼겹살 가격"
+CLI-KO-AGY-MD03-R1,agy,명동 혼밥 식당 추천 평일 저녁
+CLI-KO-AGY-MD03-R1,agy,"""혼고집 명동직영점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R1,agy,"""명동교자 본점"" 주소 칼국수 가격"
+CLI-KO-AGY-MD03-R1,agy,"""미성옥"" 명동 설렁탕 주소 가격"
+CLI-KO-AGY-MD03-R1,agy,"""명동돈가스"" 주소 메뉴 로스가스 가격"
+CLI-KO-AGY-MD03-R1,agy,"""스시로 명동점"" 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R1,agy,성수동 한식 점심 맛집
+CLI-KO-AGY-SS02-R1,agy,"""할머니의 레시피"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R1,agy,"""난포"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R1,agy,"""고우성수"" 주소 가격 메뉴 성수"
+CLI-KO-AGY-SS02-R1,agy,"""계월곰탕"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R1,agy,"""금금"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-MD04-R1,agy,명동 맛집 국수 만두 국밥 고기 한정식
+CLI-KO-AGY-MD04-R1,agy,명동교자 본점 주소 가격 칼국수
+CLI-KO-AGY-MD04-R1,agy,하동관 명동본점 주소 곰탕 가격
+CLI-KO-AGY-MD04-R1,agy,명동 고기구이 맛집 왕비집 명동본점 주소 가격
+CLI-KO-AGY-MD04-R1,agy,명동 한정식 명동정 주소 메뉴 가격
+CLI-KO-AGY-MD04-R1,agy,남포면옥 주소 메뉴 어복쟁반 만두국 냉면 가격
+CLI-KO-AGY-MD04-R1,agy,명동교자 본점 서울 중구 명동10길 29
+CLI-KO-AGY-MW04-R1,agy,망원동 맛집 밥집 식당 점심 저녁
+CLI-KO-AGY-MW04-R1,agy,망원동 소바식당 망원점 메뉴 가격 주소
+CLI-KO-AGY-MW04-R1,agy,망원동 맛집 밥집 식당 최신 영업 2024 2025
+CLI-KO-AGY-MW04-R1,agy,망원동 헤키 주소 가격 메뉴
+CLI-KO-AGY-MW04-R1,agy,망원동 청어람 곱창전골 주소 가격
+CLI-KO-AGY-MW04-R1,agy,망원동즉석우동 주소 메뉴 가격
+CLI-KO-AGY-MW04-R1,agy,망원동 최강금돈까스 합정동 주소
+CLI-KO-AGY-MW04-R1,agy,망원동 만두란 주소 가격 메뉴
+CLI-KO-AGY-MW04-R1,agy,망원동 가정식고바우식당 백반 주소 메뉴 가격
+CLI-KO-AGY-MW04-R1,agy,망원동 맛집 헤키 청어람 망원동즉석우동 만두란 고바우식당
+CLI-KO-AGY-SS04-R1,agy,성수 혼밥 맛집 추천 가격 위치
+CLI-KO-AGY-SS04-R1,agy,성수동 텐동식당 주소 메뉴 가격
+CLI-KO-AGY-SS04-R1,agy,소문난성수감자탕 단독 가격 주소
+CLI-KO-AGY-MD02-R1,agy,명동 맛집 한식 2025 2026 명동교자 하동관 진남포면옥 백제정육점
+CLI-KO-AGY-MD02-R1,agy,"명동 한식 맛집 25000원 이하 ""명동교자"" ""하동관"" ""남박"" ""란주라미엔"" ""명동 할머니국수"" ""원조한치"" ""곰국시집"""
+CLI-KO-AGY-MD02-R1,agy,"명동 미향각 정태민 명동칼국수 삼통치킨 남산골산채집 미우가 ""명동"" 한식 맛집"
+CLI-KO-AGY-MD02-R1,agy,"""명동"" 노포 한식 ""미성옥"" 설렁탕 가격 주소"
+CLI-KO-AGY-MD02-R1,agy,"""명동교자 본점"" 주소 가격 11000원"
+CLI-KO-AGY-MD02-R1,agy,"""하동관 명동본점"" 주소 가격 곰탕 보통"
+CLI-KO-AGY-MD02-R1,agy,"""명동할머니국수 본점"" 주소 가격 메뉴 서울 중구 명동"
+CLI-KO-AGY-MD02-R1,agy,"""곰국시집"" 주소 서울 중구 명동 메뉴 가격 전골국수 곰국수"
+CLI-KO-AGY-MW02-R1,agy,망원시장 맛집 1인 만원 가성비 혼밥
+CLI-KO-AGY-MW02-R1,agy,"망원시장 ""고향집"" ""망원식당"" ""고향손칼국수"" 주소 메뉴 가격"
+CLI-KO-AGY-MW02-R1,agy,"""우이락"" 망원 본점 주소 메뉴 가격 고추튀김"
+CLI-KO-AGY-MW02-R1,agy,"망원시장 맛집 ""망원떡갈비"" 주소 가격 메뉴"
+CLI-KO-AGY-MW02-R1,agy,"""망원수제고로케"" 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R1,agy,성수 맛집 현대적 한식 다이닝 캐주얼
+CLI-KO-AGY-SS03-R1,agy,"""성수"" ""난포"" 메뉴 가격 주소"
+CLI-KO-AGY-SS03-R1,agy,"""성수"" 현대적 한식 주점 다이닝 맛집 쵸리상경 주주 호족반 제스티살룬"
+CLI-KO-AGY-SS03-R1,agy,"""쵸리상경"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R1,agy,"""성수"" 모던 한식 다이닝 바 ""온량"" ""중앙감속기"" ""미도림"" ""주아성수"" ""도원스타일"""
+CLI-KO-AGY-SS03-R1,agy,"""중앙감속기"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R1,agy,"""성수"" 한식 주점 현대적 맛집 캐주얼 다이닝 ""다모토리"" ""호족반"" ""달맞이"" ""서울숲"" ""녹마"" ""사계"" ""성수옥상"""
+CLI-KO-AGY-SS03-R1,agy,"""성수동"" ""다반"" 주소 메뉴 가격"
+CLI-KO-AGY-SS03-R1,agy,"""녹마"" 성수 주소 메뉴 가격 한식"
+CLI-KO-AGY-SS03-R1,agy,"""이태리국시"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS01-R1,agy,성수동 맛집 식당 추천 2024 2025
+CLI-KO-AGY-SS01-R1,agy,소문난성수감자탕 메뉴 가격 주소 네이버 플레이스
+CLI-KO-AGY-SS01-R1,agy,중앙감속기 성수 주소 가격 네이버 플레이스
+CLI-KO-AGY-SS01-R1,agy,성수다락 주소 메뉴 가격 네이버 플레이스
+CLI-KO-AGY-SS01-R1,agy,성수족발 주소 메뉴 가격 네이버 플레이스
+CLI-KO-AGY-SS01-R1,agy,죠죠 성수점 주소 메뉴 가격
+CLI-KO-AGY-MW01-R1,agy,망원시장 맛집 망원동 식당 추천 2024 2025
+CLI-KO-AGY-MW01-R1,agy,"""일등식당"" 망원동 주소 가격"
+CLI-KO-AGY-MW01-R1,agy,"""망원수제고로케"" 망원동 주소 가격 OR ""홍두깨손칼국수"" 망원시장 주소 가격"
+CLI-KO-AGY-MW01-R1,agy,"""우이락"" 망원본점 주소 메뉴 가격 고추튀김"
+CLI-KO-AGY-MW01-R1,agy,"""만복기사식당"" 망원동 주소 고추장불백 가격 OR ""소바식당"" 망원동 주소 가격"
+CLI-KO-AGY-MW01-R1,agy,"""큐스닭강정"" 망원시장 주소 가격"
+CLI-KO-AGY-MW03-R1,agy,망원시장 맛집 튀김 만두 국수 호떡
+CLI-KO-AGY-MW03-R1,agy,"""우이락 망원본점"" 주소 가격 메뉴 고추튀김"
+CLI-KO-AGY-MW03-R1,agy,"""훈훈호떡"" 망원시장 주소 가격 메뉴"
+CLI-KO-AGY-MW03-R1,agy,"""망원동좋은머글거리홍두깨손칼국수"" OR ""망원시장 홍두깨손칼국수"" 주소 가격 메뉴"
+CLI-KO-AGY-MW03-R1,agy,망원시장 만두 만두란 맛집 주소 가격
+CLI-KO-AGY-MW03-R1,agy,"""망원시장"" ""맛양값"" OR ""망원수제고로케"" OR ""원당수제고로케"" 주소 가격 메뉴"
+CLI-KO-AGY-MW03-R1,agy,"""만두란"" 망원동 메뉴 가격 네이버"
+CLI-KO-AGY-MW03-R1,agy,"망원시장 만두 ""송이네"" OR ""원당수제고로케"" 만두 찐만두"
+CLI-KO-AGY-MW03-R1,agy,"""연만두"" 망원 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R2,agy,명동 혼밥 식당 추천 평일 저녁
+CLI-KO-AGY-MD03-R2,agy,"""혼고집 명동직영점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R2,agy,"""명동교자 본점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R2,agy,"""명동돈가스"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R2,agy,"""미성옥"" 명동 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R2,agy,"""1992 덮밥&짜글이 명동점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD01-R2,agy,서울 명동 맛집 추천 미쉐린 명동교자 하동관
+CLI-KO-AGY-MD01-R2,agy,명동 미쉐린 가이드 맛집 명동교자 본점 하동관 본점 란주칼면 미성옥 진남포면옥
+CLI-KO-AGY-MD01-R2,agy,미쉐린 가이드 서울 명동교자 본점 하동관 본점 미성옥 주소 가격
+CLI-KO-AGY-MD01-R2,agy,"""란주칼면"" 명동 주소 가격 ""남포면옥"" 주소 가격"
+CLI-KO-AGY-MD01-R2,agy,명동 맛집 백제정육점 오다리집 딘타이펑 명동점 주소 가격
+CLI-KO-AGY-MD02-R4,agy,명동 한식 맛집 25000원 이하 현지 노포
+CLI-KO-AGY-MD02-R4,agy,명동 미성옥 주소 메뉴 가격
+CLI-KO-AGY-MD02-R4,agy,명동 원조한치 주소 메뉴 가격
+CLI-KO-AGY-MD02-R4,agy,명동 명동교자 본점 주소 메뉴 가격
+CLI-KO-AGY-MD02-R4,agy,명동 하동관 본점 곰탕 가격 주소
+CLI-KO-AGY-MD02-R4,agy,명동함흥면옥 주소 메뉴 가격
+CLI-KO-AGY-MD02-R5,agy,명동 한식 맛집 명동교자 본점 가격 메뉴 주소
+CLI-KO-AGY-MD02-R5,agy,명동 하동관 본점 가격 주소
+CLI-KO-AGY-MD02-R5,agy,명동 미성옥 가격 주소 설렁탕
+CLI-KO-AGY-MD02-R5,agy,명동 남산도담 가격 주소 김치찜
+CLI-KO-AGY-MD02-R5,agy,명동 백제정육점 백제원 순두부 아니면 명동 할머니국수 본점 가격 주소
+CLI-KO-AGY-SS01-R5,agy,서울 성수 맛집 식당 추천 2025 2026
+CLI-KO-AGY-SS01-R5,agy,소문난성수감자탕 주소 메뉴 가격
+CLI-KO-AGY-SS01-R5,agy,능동미나리 성수점 주소 메뉴 가격
+CLI-KO-AGY-SS01-R5,agy,난포 성수 주소 가격 메뉴
+CLI-KO-AGY-SS01-R5,agy,성수다락 성수 주소 가격 메뉴
+CLI-KO-AGY-SS01-R5,agy,제스티살룬 성수 주소 가격 메뉴
+CLI-KO-AGY-MW01-R2,agy,망원시장 맛집 한끼 식사 망원동 맛집
+CLI-KO-AGY-MW01-R2,agy,"""홍두깨손칼국수"" 망원시장 주소 가격"
+CLI-KO-AGY-MW01-R2,agy,"""우이락"" 망원본점 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R2,agy,"망원동 ""소바식당"" 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R2,agy,"망원동 ""황금옥순대"" 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R2,agy,"""망원동즉석우동"" 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R5,agy,망원시장 망원동 맛집 한끼 든든한 식당 2025 2026
+CLI-KO-AGY-MW01-R5,agy,"""홍두깨손칼국수"" ""망원시장"" 주소 가격"
+CLI-KO-AGY-MW01-R5,agy,"""일등식당"" 망원동 주소 가격"
+CLI-KO-AGY-MW01-R5,agy,"""우이락 망원본점"" 주소 가격 메뉴"
+CLI-KO-AGY-MW01-R5,agy,"망원동 ""만복기사식당"" 주소 가격 메뉴"
+CLI-KO-AGY-MW01-R5,agy,"""망원동즉석우동"" 본점 주소 가격 메인메뉴"
+CLI-KO-AGY-SS04-R3,agy,성수 혼밥 맛집 식당 추천 2024 OR 2025 OR 2026
+CLI-KO-AGY-SS04-R3,agy,"성수동 ""텐동식당"" 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R3,agy,카카모루 성수점 주소 가격 메뉴
+CLI-KO-AGY-SS04-R3,agy,"""소문난성수감자탕"" 주소 가격 1인 감자국"
+CLI-KO-AGY-SS04-R3,agy,"""멘야하나비 성수점"" 주소 가격 메뉴 OR ""멘야코노하 성수"""
+CLI-KO-AGY-SS04-R3,agy,"""헤비스테이크 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD04-R5,agy,명동 한식 맛집 명동교자 하동관 왕비집 아미소 삼거리푸줏간
+CLI-KO-AGY-MD04-R5,agy,명동교자 본점 주소 메뉴 가격
+CLI-KO-AGY-MD04-R5,agy,하동관 명동본점 주소 가격 곰탕
+CLI-KO-AGY-MD04-R5,agy,왕비집 명동본점 주소 가격 메뉴
+CLI-KO-AGY-MD04-R5,agy,명동 아미소 주소 가격 메뉴 한정식
+CLI-KO-AGY-MD04-R5,agy,명동 백제정계삼계탕 OR 이남장 OR 부원면옥 OR 진주회관 명동 맛집 한식
+CLI-KO-AGY-MD04-R5,agy,"""이남장 명동점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R3,agy,명동 혼밥 식당 추천 평일 저녁
+CLI-KO-AGY-MD03-R3,agy,"""명동교자 본점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R3,agy,"""혼고집 명동직영점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R3,agy,"""명동돈가스"" 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R3,agy,"""미성옥"" 명동 설렁탕 주소 가격 메뉴"
+CLI-KO-AGY-MD03-R3,agy,"""멘텐"" 명동 라멘 주소 가격 or ""금산제면소"" 명동 주소 가격"
+CLI-KO-AGY-MW04-R2,agy,망원동 맛집 점심 저녁 식당 추천
+CLI-KO-AGY-MW04-R2,agy,망원동즉석우동 주소 메뉴 가격
+CLI-KO-AGY-MW04-R2,agy,망원동 소바식당 주소 메뉴 가격
+CLI-KO-AGY-MW04-R2,agy,"""소바식당"" 망원 단새우냉소바 가격"
+CLI-KO-AGY-MW04-R2,agy,망원동 맛집 밥집 식당 2024 OR 2025
+CLI-KO-AGY-MW04-R2,agy,헤키 망원 주소 메뉴 가격
+CLI-KO-AGY-MW04-R2,agy,카밀로 라자네리아 망원 주소 메뉴 가격
+CLI-KO-AGY-MW04-R2,agy,망원동 밥집 식당 망원동 주소
+CLI-KO-AGY-MW04-R2,agy,"""순대일번지"" 망원동 메뉴 가격 주소"
+CLI-KO-AGY-MW04-R2,agy,"""일등식당"" 망원동 메뉴 가격 주소"
+CLI-KO-AGY-MW04-R2,agy,"""우이락"" 망원본점 메뉴 가격"
+CLI-KO-AGY-MW04-R5,agy,망원동 맛집 점심 저녁 식당 추천
+CLI-KO-AGY-MW04-R5,agy,망원동 헤키 메뉴 가격 주소
+CLI-KO-AGY-MW04-R5,agy,망원동즉석우동 주소 가격 메뉴
+CLI-KO-AGY-MW04-R5,agy,망원동 소바식당 주소 메뉴 가격
+CLI-KO-AGY-MW04-R5,agy,"""소바식당"" 망원 단새우 냉소바 가격"
+CLI-KO-AGY-MW04-R5,agy,망원동 진평926 메뉴 가격 주소 OR 망원동 일등식당 주소 메뉴 가격
+CLI-KO-AGY-MW04-R5,agy,망원동 청기와숯불갈비 주소 메뉴 가격
+CLI-KO-AGY-SS04-R5,agy,성수 혼밥 맛집 식당 추천 2024 OR 2025 OR 2026
+CLI-KO-AGY-SS04-R5,agy,"""멘츠루 성수"" 메뉴 가격 주소"
+CLI-KO-AGY-SS04-R5,agy,"""헤비스테이크 성수점"" 메뉴 가격 주소"
+CLI-KO-AGY-SS04-R5,agy,"""소문난성수감자탕"" 주소 감자국 가격"
+CLI-KO-AGY-SS04-R5,agy,"""텐동식당"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R5,agy,"""계월곰탕"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-MD01-R3,agy,명동 맛집 추천 미쉐린 칼국수 돈까스 곰탕
+CLI-KO-AGY-MD01-R3,agy,"""명동교자 본점"" 주소 가격 메뉴 2024 2025 2026"
+CLI-KO-AGY-MD01-R3,agy,"""하동관 명동본점"" 주소 가격 2024 2025 2026"
+CLI-KO-AGY-MD01-R3,agy,"""명동돈가스"" 주소 가격 메뉴 2024 2025 2026"
+CLI-KO-AGY-MD01-R3,agy,명동 맛집 추천 백제삼계탕 란주라미엔 딘타이펑 가격 주소
+CLI-KO-AGY-SS01-R3,agy,서울 성수동 맛집 식당 추천 2024 2025
+CLI-KO-AGY-SS01-R3,agy,소문난성수감자탕 본점 주소 가격
+CLI-KO-AGY-SS01-R3,agy,성수동 난포 서울숲 주소 메뉴 가격
+CLI-KO-AGY-SS01-R3,agy,성수족발 본점 서울 성수동 주소 가격
+CLI-KO-AGY-SS01-R3,agy,제스티살룬 성수 주소 메뉴 가격
+CLI-KO-AGY-SS01-R3,agy,성수다락 본점 성수 주소 오므라이스 파스타 가격
+CLI-KO-AGY-SS01-R2,agy,성수동 맛집 식당 추천 2025 2026
+CLI-KO-AGY-SS01-R2,agy,난포 성수 주소 가격 메뉴
+CLI-KO-AGY-SS01-R2,agy,소문난성수감자탕 주소 가격 메뉴
+CLI-KO-AGY-SS01-R2,agy,중앙감속기 성수 주소 가격 메뉴
+CLI-KO-AGY-SS01-R2,agy,성수다락 주소 가격 메뉴 오므라이스
+CLI-KO-AGY-SS01-R2,agy,라무라 성수 주소 가격 메뉴
+CLI-KO-AGY-MD03-R4,agy,명동 혼밥 식당 추천 평일 저녁
+CLI-KO-AGY-MD03-R4,agy,혼고집 명동직영점 주소 가격 1992 덮밥 짜글이 명동점 미성옥 명동교자 본점 명동돈가스
+CLI-KO-AGY-MD03-R4,agy,명동 미성옥 설렁탕 가격 명동돈가스 가격 메뉴
+CLI-KO-AGY-MD03-R4,agy,1992 덮밥&짜글이 명동점 주소
+CLI-KO-AGY-SS01-R4,agy,서울 성수 맛집 식당 2024 2025
+CLI-KO-AGY-SS01-R4,agy,소문난성수감자탕 주소 가격 메뉴
+CLI-KO-AGY-SS01-R4,agy,난포 성수 주소 가격 메뉴
+CLI-KO-AGY-SS01-R4,agy,제스티살룬 성수 주소 가격 메뉴 와사비 쉬림프
+CLI-KO-AGY-SS01-R4,agy,성수다락 주소 가격 오므라이스 파스타 메뉴
+CLI-KO-AGY-SS01-R4,agy,소바식당 성수 주소 가격 메뉴
+CLI-KO-AGY-SS02-R4,agy,성수동 한식 점심 맛집 메뉴 가격
+CLI-KO-AGY-SS02-R4,agy,성수동 소문난 성수 감자탕 주소 메뉴 가격
+CLI-KO-AGY-SS02-R4,agy,할머니의 레시피 성수 주소 메뉴 가격
+CLI-KO-AGY-SS02-R4,agy,성수동 뚝도농원 or 온량 or 꿉당 or 쵸리상경 or 난포 성수 주소 메뉴 가격
+CLI-KO-AGY-SS02-R4,agy,정선곤드레밥 성수 주소 메뉴 가격
+CLI-KO-AGY-MD01-R4,agy,서울 명동 맛집 추천 2024 2025 2026
+CLI-KO-AGY-MD01-R4,agy,명동교자 본점 하동관 명동본점 미성옥 명동돈가스 주소 가격 2024 2025
+CLI-KO-AGY-MD01-R4,agy,왕비집 명동본점 주소 가격 서울 중구 명동
+CLI-KO-AGY-MD01-R4,agy,site:mdkj.co.kr 명동교자 본점 주소
+CLI-KO-AGY-MD01-R5,agy,서울 명동 맛집 추천 명동교자 하동관 란주라미엔 목역 진주회관 미쉐린
+CLI-KO-AGY-MD01-R5,agy,명동교자 본점 주소 가격 11000원 12000원 하동관 명동본점 주소 가격 란주라미엔 주소 가격 목멱산방 주소 가격
+CLI-KO-AGY-MD01-R5,agy,"""백제삼계탕"" 명동본점 주소 가격 서울 중구 명동길"
+CLI-KO-AGY-MD01-R5,agy,"""명동교자 본점"" 주소 서울 중구 명동10길 29 퇴계로 129"
+CLI-KO-AGY-SS02-R3,agy,성수동 한식 점심 맛집
+CLI-KO-AGY-SS02-R3,agy,"""난포"" 성수 가격 강된장쌈밥 주소"
+CLI-KO-AGY-SS02-R3,agy,"""할머니의 레시피"" 성수 주소 가격"
+CLI-KO-AGY-SS02-R3,agy,"""소문난성수감자탕"" 가격 주소 성수"
+CLI-KO-AGY-SS02-R3,agy,"""계월곰탕"" 성수 주소 가격"
+CLI-KO-AGY-SS02-R3,agy,"""고우성수"" 주소 가격 메뉴 성수"
+CLI-KO-AGY-SS02-R5,agy,성수동 한식 점심 맛집
+CLI-KO-AGY-SS02-R5,agy,"""난포"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R5,agy,소문난성수감자탕 주소 가격 감자국
+CLI-KO-AGY-SS02-R5,agy,소문난성수감자탕 감자국 일반 가격 10000 11000
+CLI-KO-AGY-SS02-R5,agy,"""할머니의 레시피"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R5,agy,"""고우성수"" 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R5,agy,"""계월곰탕"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-MW04-R4,agy,망원동 맛집 점심 저녁 식당 추천
+CLI-KO-AGY-MW04-R4,agy,"망원동 맛집 ""헤이로지"" OR ""발리인망원"" OR ""진평9"" OR ""망원만두"" OR ""가마덴"" 식당 점심 저녁 메뉴 가격 주소"
+CLI-KO-AGY-MW04-R4,agy,청어람 망원본점 주소 메뉴 가격 식신 망원동
+CLI-KO-AGY-MW04-R4,agy,소바식당 망원동 주소 메뉴 가격 site:siksinhot.com OR site:tistory.com
+CLI-KO-AGY-MW04-R4,agy,"망원동 ""만다복"" OR ""진진"" OR ""헤키"" OR ""만복국수"" OR ""망원동즉석우동"" 주소 메뉴 가격"
+CLI-KO-AGY-MW04-R4,agy,헤키 망원점 본점 서울 마포구 월드컵로17길 38 siksinhot
+CLI-KO-AGY-MW03-R3,agy,망원시장 맛집 튀김 만두 국수 호떡
+CLI-KO-AGY-MW03-R3,agy,"""우이락 망원본점"" 주소 가격 고추튀김 메뉴"
+CLI-KO-AGY-MW03-R3,agy,"""훈훈호떡"" 주소 메뉴 가격"
+CLI-KO-AGY-MW03-R3,agy,"""고향집"" 망원시장 칼국수 주소 가격 메뉴"
+CLI-KO-AGY-MW03-R3,agy,"""망원수제고로케"" 망원시장 주소 가격"
+CLI-KO-AGY-MW03-R3,agy,"""만두란"" 망원 주소 가격 만두 메뉴"
+CLI-KO-AGY-MW03-R3,agy,"""허니돈"" 망원 주소 가격 탕수육 국수 만두"
+CLI-KO-AGY-MW03-R3,agy,"""송이네"" 망원시장 주소 가격 튀김 분식"
+CLI-KO-AGY-MW03-R5,agy,망원시장 맛집 튀김 만두 국수 호떡
+CLI-KO-AGY-MW03-R5,agy,우이락 망원본점 주소 메뉴 가격
+CLI-KO-AGY-MW03-R5,agy,훈훈호떡 망원시장 주소 가격 뿌링클호떡
+CLI-KO-AGY-MW03-R5,agy,망원동 홍두깨손칼국수 주소 가격 메뉴 망원시장
+CLI-KO-AGY-MW03-R5,agy,망원수제고로케 망원시장 주소 가격
+CLI-KO-AGY-MW03-R5,agy,망원동 못난이만두국수 망원만두 만두 맛집 망원시장
+CLI-KO-AGY-MW03-R5,agy,망원동 만두란 주소 메뉴 가격
+CLI-KO-AGY-MD03-R5,agy,명동 혼밥 식당 추천 평일 저녁
+CLI-KO-AGY-MD03-R5,agy,명동교자 본점 주소 가격 메뉴
+CLI-KO-AGY-MD03-R5,agy,혼고집 명동직영점 주소 가격 메뉴
+CLI-KO-AGY-MD03-R5,agy,미성옥 주소 가격 메뉴 설렁탕
+CLI-KO-AGY-MD03-R5,agy,멘텐 명동 라멘 주소 가격 혼밥
+CLI-KO-AGY-MD03-R5,agy,1992 덮밥 짜글이 명동점 주소 가격 메뉴
+CLI-KO-AGY-MW01-R3,agy,망원시장 망원동 맛집 밥집 식당 2024 2025
+CLI-KO-AGY-MW01-R3,agy,"""일등식당"" 망원동 주소 가격 해장국"
+CLI-KO-AGY-MW01-R3,agy,"""홍두깨손칼국수"" 망원시장 주소 가격"
+CLI-KO-AGY-MW01-R3,agy,"""망원동막국수"" 주소 가격 메뉴"
+CLI-KO-AGY-MW01-R3,agy,"""우이락"" 망원본점 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R3,agy,"""황금옥순대"" 망원 주소 메뉴 가격"
+CLI-KO-AGY-MW01-R4,agy,망원시장 망원동 맛집 한끼 식당 가격 주소
+CLI-KO-AGY-MW01-R4,agy,"""망원동"" ""순대국"" OR ""칼국수"" OR ""백반"" 식당 가격 주소"
+CLI-KO-AGY-MW02-R3,agy,망원시장 맛집 1인 가성비 칼국수 돈까스 식당
+CLI-KO-AGY-MW02-R3,agy,망원동 홍두깨손칼국수 주소 메뉴 가격
+CLI-KO-AGY-MW02-R3,agy,망원동 즉석우동 도로명 주소 메뉴 가격
+CLI-KO-AGY-MW02-R3,agy,망원시장 고향집 칼국수 도로명 주소 가격
+CLI-KO-AGY-MW02-R3,agy,"""일등식당"" 망원 해장국 도로명 주소 가격"
+CLI-KO-AGY-MW02-R3,agy,망원 만두란 도로명 주소 가격
+CLI-KO-AGY-MD04-R4,agy,명동교자 본점 대표메뉴 칼국수 만두 가격 주소
+CLI-KO-AGY-MD04-R4,agy,명동 하동관 본점 곰탕 가격 주소
+CLI-KO-AGY-MD04-R4,agy,명동 왕비집 육호점 본점 고기구이 주소 가격
+CLI-KO-AGY-MD04-R4,agy,명동 진사댁 한정식 주소 메뉴 가격
+CLI-KO-AGY-MD04-R4,agy,미성옥 명동 설렁탕 수육 가격 주소
+CLI-KO-AGY-MW03-R2,agy,망원시장 맛집 튀김 만두 국수 호떡
+CLI-KO-AGY-MW03-R2,agy,망원시장 우이락 망원본점 주소 메뉴 가격
+CLI-KO-AGY-MW03-R2,agy,망원시장 훈훈호떡 주소 메뉴 가격
+CLI-KO-AGY-MW03-R2,agy,망원시장 홍두깨손칼국수 고향집 주소 가격
+CLI-KO-AGY-MW03-R2,agy,망원시장 만두 만두란 맛있는집 주소 가격
+CLI-KO-AGY-MW03-R2,agy,"망원시장 만두집 손만두 주소 가격 ""망원시장"""
+CLI-KO-AGY-MD02-R2,agy,명동 한식 맛집 2025 2026 명동교자 하동관 백제정육점 진주회관 산동교자
+CLI-KO-AGY-MD02-R2,agy,명동 한식 맛집 1인 25000원 이하 하동관 곰탕 가격 명동교자 본점 칼국수 가격
+CLI-KO-AGY-MD02-R2,agy,명동 한식 맛집 미향 남산도담 삼통치킨 전주중앙회관 명동할머니국수 진아춘 이남장
+CLI-KO-AGY-MD02-R2,agy,"""명동할머니국수"" 본점 주소 메뉴 가격"
+CLI-KO-AGY-MD02-R2,agy,"명동 한식 백반 찌개 ""명동영양센터"" ""삼통치킨"" ""고궁"" ""남산골산채집"" ""명동서서갈비"" ""명동순두부"""
+CLI-KO-AGY-MD02-R2,agy,"""명동교자 본점"" 주소 서울 중구 명동10길 29"
+CLI-KO-AGY-MD02-R2,agy,"""하동관 명동본점"" 주소 서울 중구 명동9길 12"
+CLI-KO-AGY-MD02-R2,agy,"""명동영양센터"" 본점 주소 메뉴 가격"
+CLI-KO-AGY-MD02-R2,agy,"""이남장 명동점"" 주소 메뉴 가격"
+CLI-KO-AGY-SS03-R2,agy,성수 맛집 현대 한식 한식 다이닝 저녁
+CLI-KO-AGY-SS03-R2,agy,성수 난포 주소 가격
+CLI-KO-AGY-SS03-R2,agy,"""금금"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R2,agy,성수 한식 다이닝 와인바 주소 메뉴 가격
+CLI-KO-AGY-SS03-R2,agy,"""다반 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R2,agy,"""소와나"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R3,agy,성수동 맛집 한식 컨템포러리 다이닝 추천 2025 2026
+CLI-KO-AGY-SS03-R3,agy,"""난포"" 성수 주소 가격"
+CLI-KO-AGY-SS03-R3,agy,"""도믹스"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R3,agy,"""기엔탄"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R3,agy,"""다반"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R3,agy,"""리파인 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-SS02-R2,agy,성수동 한식 점심 맛집
+CLI-KO-AGY-SS02-R2,agy,"""난포"" 성수 주소 메뉴 가격"
+CLI-KO-AGY-SS02-R2,agy,"""할머니의 레시피"" 성수 주소 메뉴 가격"
+CLI-KO-AGY-SS02-R2,agy,"""고우성수"" 주소 메뉴 가격"
+CLI-KO-AGY-SS02-R2,agy,"""소문난 성수 감자탕"" 주소 메뉴 가격"
+CLI-KO-AGY-SS02-R2,agy,"""뚝도농원"" 성수 or ""성수다락"" or 성수동 한식 점심 맛집"
+CLI-KO-AGY-SS02-R2,agy,풍조미역 성수 주소 가격 메뉴
+CLI-KO-AGY-SS02-R2,agy,풍조미역 성수본점 소고기미역국 가격
+CLI-KO-AGY-SS03-R4,agy,성수 맛집 한식 컨템포러리 다이닝 추천
+CLI-KO-AGY-SS03-R4,agy,"""성수"" ""난포"" 주소 메뉴 가격"
+CLI-KO-AGY-SS03-R4,agy,"""어물전 청 성수"" 주소 가격 메뉴"
+CLI-KO-AGY-SS03-R4,agy,"""성수동"" 한식 다이닝 주점 ""주소"" 가격"
+CLI-KO-AGY-SS03-R4,agy,성수 매튜 MATTHEW 주소 가격 런치 디너
+CLI-KO-AGY-SS03-R4,agy,성수 이태리국시 주소 가격 메뉴
+CLI-KO-AGY-MW02-R2,agy,망원시장 맛집 1인 만원 이하 칼국수 돈까스
+CLI-KO-AGY-MW02-R2,agy,망원동 순대국 고향집 망원 만원 이하 맛집 식당
+CLI-KO-AGY-MW02-R2,agy,망원시장 우이락 망원떡갈비 망원수제고로케 망원만두 가격 주소
+CLI-KO-AGY-MW03-R4,agy,망원시장 맛집 튀김 만두 국수 호떡
+CLI-KO-AGY-MW03-R4,agy,망원시장 우이락 본점 주소 가격 고추튀김
+CLI-KO-AGY-MW03-R4,agy,망원시장 홍두깨손칼국수 주소 가격 메뉴
+CLI-KO-AGY-MW03-R4,agy,망원시장 훈훈호떡 주소 가격 메뉴
+CLI-KO-AGY-MW03-R4,agy,망원시장 진성만두 주소 가격
+CLI-KO-AGY-MW03-R4,agy,망원시장 망원수제고로케 주소 가격 메뉴
+CLI-KO-AGY-MW04-R3,agy,망원동 맛집 밥집 식당 점심 저녁
+CLI-KO-AGY-MW04-R3,agy,망원동 최강금돈까스 합정동 일등식당 주소 메뉴 가격
+CLI-KO-AGY-MW04-R3,agy,망원동 즉석우동 망원본점 주소 메뉴 가격
+CLI-KO-AGY-MW04-R3,agy,망원동 소바식당 주소 메뉴 가격
+CLI-KO-AGY-MW04-R3,agy,망원동 만리장성 or 망원동 헤키 or 망원동 강동원 주소 가격
+CLI-KO-AGY-SS03-R5,agy,성수동 한식 맛집 현대적 다이닝
+CLI-KO-AGY-SS03-R5,agy,난포 성수 주소 가격 메뉴
+CLI-KO-AGY-SS03-R5,agy,금금 성수 주소 가격 메뉴
+CLI-KO-AGY-SS03-R5,agy,"성수 ""어물전 청"" 주소 가격 코스 메뉴"
+CLI-KO-AGY-SS03-R5,agy,성수 한식 다이닝 맛집 호족반 쵸리상경 미생 주소 가격
+CLI-KO-AGY-SS03-R5,agy,"성수 ""능동미나리"" 지점 주소 메뉴 가격"
+CLI-KO-AGY-SS03-R5,agy,"""다반 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-MD04-R3,agy,명동 칼국수 만두 맛집 명동교자 본점 주소 가격
+CLI-KO-AGY-MD04-R3,agy,명동 하동관 본점 주소 곰탕 가격
+CLI-KO-AGY-MD04-R3,agy,명동 왕비집 육칠팔 고기구이 주소 가격
+CLI-KO-AGY-MD04-R3,agy,명동 한정식 아미소 진사댁 주소 가격 메뉴
+CLI-KO-AGY-MD04-R3,agy,명동 아미소 불고기정식 가격 네이버 플레이스
+CLI-KO-AGY-MD04-R3,agy,명동 미성옥 설렁탕 수육 주소 가격
+CLI-KO-AGY-MD04-R3,agy,명동 한정식 추천 식당 주소 가격
+CLI-KO-AGY-MW02-R4,agy,망원시장 맛집 1인 가격 만원대 식당 메뉴
+CLI-KO-AGY-MW02-R4,agy,"""망원동"" 맛집 식당 ""15,000원"" 이하 혼밥 식사 메뉴 주소"
+CLI-KO-AGY-MW02-R4,agy,"망원동 ""진평9"" OR ""망원만두"" OR ""하모니순대"" OR ""일등식당"" OR ""만복기사식당"" 주소 가격 메뉴"
+CLI-KO-AGY-MW02-R4,agy,망원시장 고향집 손칼국수 순대국 주소 가격
+CLI-KO-AGY-MW02-R4,agy,"""순대일번지"" 서울 마포구 월드컵로 117 가격 메뉴 2024 2025"
+CLI-KO-AGY-MW02-R5,agy,망원시장 맛집 1인 가격 메뉴 주소
+CLI-KO-AGY-MW02-R5,agy,"""홍두깨손칼국수"" 망원 손칼국수 가격 주소 메뉴"
+CLI-KO-AGY-MW02-R5,agy,"망원동 맛집 ""망원원당수제고로케"" OR ""원당수제고로케"" OR ""맛양값"" OR ""망원식당"" 가격 주소"
+CLI-KO-AGY-MW02-R5,agy,"망원시장 ""고향집"" 칼국수 순두부 가격 주소"
+CLI-KO-AGY-MW02-R5,agy,망원떡갈비 망원본점 메뉴 가격 주소
+CLI-KO-AGY-MD02-R3,agy,명동 한식 맛집 명동교자 본점 가격 칼국수
+CLI-KO-AGY-MD02-R3,agy,명동 하동관 본점 곰탕 가격 주소
+CLI-KO-AGY-MD02-R3,agy,명동 맛집 백제정육점 백채 김치찌개 미성옥 설렁탕 가격 주소
+CLI-KO-AGY-MD02-R3,agy,"""명동"" 노포 ""전주중앙회관"" OR ""진주회관"" OR ""산동교자"" OR ""명동서민준밀밭"" OR ""남산도담"" OR ""틈새라면 본점"" OR ""란주라미엔"" OR ""강남면옥"" OR ""오우가"""
+CLI-KO-AGY-MD02-R3,agy,명동 남산도담 보쌈정식 김치찜 가격 주소
+CLI-KO-AGY-MD02-R3,agy,명동 순남시래기 명동점 or 명동 순두부 백반 or 삼통치킨 or 이남장 명동점 or 명동 할머니국수 본점
+CLI-KO-AGY-MD02-R3,agy,명동 할머니국수 본점 가격 메뉴 주소
+CLI-KO-AGY-MD02-R3,agy,명동 남산골산채집 비빔밥 돈까스 가격 주소
+CLI-KO-AGY-MD02-R3,agy,명동교자 본점 서울 중구 명동10길 29
+CLI-KO-AGY-SS04-R2,agy,성수동 혼밥 맛집 식당 추천 1인
+CLI-KO-AGY-SS04-R2,agy,"""소문난 성수 감자탕"" 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R2,agy,"""텐동식당"" 성수 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R2,agy,"""카카모루 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R2,agy,"""헤비스테이크 성수점"" 주소 가격 메뉴"
+CLI-KO-AGY-SS04-R2,agy,"""능동미나리 성수점"" 주소 가격 메뉴"
+CLI-KO-CODEX-MD01-R1,codex,명동교자 본점 메뉴 가격 2026 주소 ...
+CLI-KO-CODEX-MD01-R1,codex,명동교자 공식 본점 이전 퇴계로 129 메뉴 ...
+CLI-KO-CODEX-MD01-R1,codex,"""명동교자"" ""공식"" ""본점"" ..."
+CLI-KO-CODEX-MD01-R1,codex,https://bizw.kr/brand/197097
+CLI-KO-CODEX-MD01-R1,codex,
+CLI-KO-CODEX-MD03-R1,codex,명동교자 본점 영업시간 칼국수 2026 가격 ...
+CLI-KO-CODEX-MD03-R1,codex,명동교자 공식 본점 메뉴 가격 영업시간 ...
+CLI-KO-CODEX-MD03-R1,codex,"""명동교자"" ""본점"" ""11,000"" ""21"" ..."
+CLI-KO-CODEX-MD03-R1,codex,명동교자 본점 site.tabling.co.kr/place ...
+CLI-KO-CODEX-MD03-R1,codex,명동교자 본점 주소 혼밥 영업시간 가격 2026 ...
+CLI-KO-CODEX-MD03-R1,codex,"""명화당 명동1호점"" ""혼밥"" ..."
+CLI-KO-CODEX-SS02-R1,codex,성수동 한식 점심 소문난성수감자탕 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS02-R1,codex,site.tabling.co.kr 성수 한식 메뉴 ...
+CLI-KO-CODEX-SS02-R1,codex,https://www.tabling.co.kr/place/677cd63666de5f0698909516
+CLI-KO-CODEX-SS02-R1,codex,"""훼미리손칼국수보쌈"" ""15,000"" 주소 ..."
+CLI-KO-CODEX-SS02-R1,codex,"""더반푸드"" 성수 2026 8000 ..."
+CLI-KO-CODEX-MD04-R1,codex,명동교자 본점 주소 메뉴 가격 2026 ...
+CLI-KO-CODEX-MD04-R1,codex,명동교자 공식 본점 메뉴 가격 주소 ...
+CLI-KO-CODEX-MD04-R1,codex,"""명동교자"" ""mdbg"" ..."
+CLI-KO-CODEX-MD04-R1,codex,명동교자 공식 홈페이지 ...
+CLI-KO-CODEX-MD04-R1,codex,'서울'
+CLI-KO-CODEX-MD04-R1,codex,
+CLI-KO-CODEX-MW04-R1,codex,망원동 식당 정식 헤키 가격 주소 영업 2026 ...
+CLI-KO-CODEX-MW04-R1,codex,"망원동 식당 ""포케"" ""가격"" ""주소"" ..."
+CLI-KO-CODEX-MW04-R1,codex,
+CLI-KO-CODEX-MW04-R1,codex,"""멘지 망원점"" ""2026"" ..."
+CLI-KO-CODEX-MW04-R1,codex,"""만두란"" ""폐업"" 2026 ..."
+CLI-KO-CODEX-MW04-R1,codex,"""만두란"" ""2026"" ""영업"" ..."
+CLI-KO-CODEX-SS04-R1,codex,성수 혼밥 식당 소바식당 성수점 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS04-R1,codex,성수 혼밥 우마이도 성수 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-SS04-R1,codex,
+CLI-KO-CODEX-SS04-R1,codex,솔솥 성수점 혼밥 주소 메뉴 17000 ...
+CLI-KO-CODEX-MD02-R1,codex,명동교자 본점 칼국수 12000 2026 주소 ...
+CLI-KO-CODEX-MD02-R1,codex,명동교자 본점 메뉴 가격 칼국수 2026 ...
+CLI-KO-CODEX-MD02-R1,codex,명동교자 공식 홈페이지 메뉴 본점 ...
+CLI-KO-CODEX-MD02-R1,codex,"""영양센터 본점"" ""삼계탕"" ""원"" ..."
+CLI-KO-CODEX-MD02-R1,codex,"""명동교자"" ""본점"" ""12,000"" ""명동10길"" ..."
+CLI-KO-CODEX-MD02-R1,codex,명동교자 공식 홈페이지 퇴계로 129 본점
+CLI-KO-CODEX-MD02-R1,codex,http://m.mdkj.co.kr/store/store01.php
+CLI-KO-CODEX-MD02-R1,codex,https://www.diningcode.com/profile.php?rid=NQr0pngXyXEo
+CLI-KO-CODEX-MW02-R1,codex,망원시장 맛집 홍두깨손칼국수 가격 2026 ...
+CLI-KO-CODEX-MW02-R1,codex,홍두깨손칼국수 망원 다이닝코드 ...
+CLI-KO-CODEX-MW02-R1,codex,"""홍두깨손칼국수"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW02-R1,codex,"""홍두깨"" ""망원"" site:diningcode.com/profile.php ..."
+CLI-KO-CODEX-MW02-R1,codex,
+CLI-KO-CODEX-MW02-R1,codex,
+CLI-KO-CODEX-SS03-R1,codex,성수 난포 성수점 메뉴 가격 주소 영업 ...
+CLI-KO-CODEX-SS03-R1,codex,난포 성수 캐치테이블 ...
+CLI-KO-CODEX-SS03-R1,codex,"""난포"" ""성수"" ""캐치"" 메뉴 ..."
+CLI-KO-CODEX-SS03-R1,codex,난포 성수점 다이닝코드 ...
+CLI-KO-CODEX-SS03-R1,codex,https://polle.com/place/3anPye/뚝도농원
+CLI-KO-CODEX-SS03-R1,codex,"""난포"" ""성수"" ""2026"" 메뉴 영업 ..."
+CLI-KO-CODEX-SS03-R1,codex,난포 성수 본점 2026 영업 메뉴
+CLI-KO-CODEX-SS01-R1,codex,성수동 맛집 성수점 메뉴 가격 2026 난포 ...
+CLI-KO-CODEX-SS01-R1,codex,난포 성수 본점 site:tabling.co.kr ...
+CLI-KO-CODEX-SS01-R1,codex,"""다로베"" ""성수"" 영업시간 가격 ..."
+CLI-KO-CODEX-SS01-R1,codex,"""마하차이 성수본점"""
+CLI-KO-CODEX-SS01-R1,codex,"""말방국밥 성수본점"" ""2026"" ..."
+CLI-KO-CODEX-MW01-R1,codex,망원동 망원시장 맛집 우이락 망원본점 메뉴 가격 2026 ...
+CLI-KO-CODEX-MW01-R1,codex,
+CLI-KO-CODEX-MW01-R1,codex,망원동즉석우동 본점 다이닝코드 ...
+CLI-KO-CODEX-MW01-R1,codex,"""망원동즉석우동"" ""2026"" ""가격"" ..."
+CLI-KO-CODEX-MW01-R1,codex,'서울'
+CLI-KO-CODEX-MW01-R1,codex,"""망원떡갈비"" ""주소"" ""포은로"" ..."
+CLI-KO-CODEX-MW03-R1,codex,망원시장 맛집 호떡 만두 국수 튀김 가격 2026 ...
+CLI-KO-CODEX-MW03-R1,codex,망원시장 훈훈호떡 가격 주소 2026 ...
+CLI-KO-CODEX-MW03-R1,codex,
+CLI-KO-CODEX-MW03-R1,codex,
+CLI-KO-CODEX-MD02-R4,codex,명동교자 본점 칼국수 11000 2026 주소 영업 ...
+CLI-KO-CODEX-MD02-R4,codex,명동교자 공식 메뉴 가격 본점 ...
+CLI-KO-CODEX-MD02-R4,codex,"""미성옥"" ""설렁탕"" ""원"" ""테이블링"" ..."
+CLI-KO-CODEX-MD02-R4,codex,https://www.tabling.co.kr/place/677cc7b866de5f0698754167
+CLI-KO-CODEX-MD03-R2,codex,명동교자 본점 공식 영업시간 메뉴 가격 ...
+CLI-KO-CODEX-MD03-R2,codex,명동교자 공식 홈페이지 영업시간 본점 ...
+CLI-KO-CODEX-MD03-R2,codex,"site.tabling.co.kr ""명동교자"" ""본점"" ..."
+CLI-KO-CODEX-MD03-R2,codex,명동교자 본점 2026 12000 영업시간 21 ...
+CLI-KO-CODEX-MD03-R2,codex,https://www.mdkj.co.kr
+CLI-KO-CODEX-MD01-R2,codex,명동교자 본점 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-MD01-R2,codex,명동교자 공식 본점 퇴계로 129 메뉴 ...
+CLI-KO-CODEX-MD01-R2,codex,명동교자 공식 홈페이지 mdky oja 매장 안내 ...
+CLI-KO-CODEX-MD01-R2,codex,명동교자 site:mdkj.co.kr ...
+CLI-KO-CODEX-MD01-R2,codex,'서울'
+CLI-KO-CODEX-MD01-R2,codex,
+CLI-KO-CODEX-MW03-R3,codex,망원시장 바삭마차 우이락 호떡 만두 국수 가격 2026 ...
+CLI-KO-CODEX-MW03-R3,codex,우이락 망원본점 고추튀김 가격 주소 다이닝코드 ...
+CLI-KO-CODEX-MW03-R3,codex,"""우이락"" ""망원"" ""고추튀김"" ""원"" ""2026"" ..."
+CLI-KO-CODEX-MW03-R3,codex,우이락 망원본점 메뉴 가격 주소 ...
+CLI-KO-CODEX-MW03-R3,codex,'원'
+CLI-KO-CODEX-MD04-R4,codex,명동교자 본점 메뉴 가격 2026 주소 ...
+CLI-KO-CODEX-MD04-R4,codex,명동교자 공식 본점 메뉴 가격 13000 만두 ...
+CLI-KO-CODEX-MD04-R4,codex,명동교자 공식 홈페이지 ...
+CLI-KO-CODEX-MD04-R4,codex,"""명동교자"" ""m교자"" 메뉴 ..."
+CLI-KO-CODEX-MD04-R4,codex,"""명동채움"" ""정식"" ""원"""
+CLI-KO-CODEX-MD04-R4,codex,"""명동채움"" ""한정식"" ""25000"" ..."
+CLI-KO-CODEX-SS01-R4,codex,성수동 식당 성수다락 메뉴 가격 주소 영업 ...
+CLI-KO-CODEX-SS01-R4,codex,성수다락 캐치테이블 ...
+CLI-KO-CODEX-SS01-R4,codex,"""호호식당 성수"" ""영업시간"" ""가격"" ..."
+CLI-KO-CODEX-SS01-R4,codex,"""난포"" ""성수"" site:diningcode.com/profile ..."
+CLI-KO-CODEX-SS01-R4,codex,https://www.diningcode.com/profile.php?rid=wvVRBGEF8K3a
+CLI-KO-CODEX-SS01-R4,codex,
+CLI-KO-CODEX-MW02-R2,codex,망원시장 맛집 홍두깨손칼국수 가격 2026 ...
+CLI-KO-CODEX-MW02-R2,codex,망원시장 망원정 잔치국수 메뉴 가격 ...
+CLI-KO-CODEX-MW02-R2,codex,"""큐스닭강정"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW02-R2,codex,
+CLI-KO-CODEX-MW02-R2,codex,홍두깨손칼국수 site:diningcode.com/profile.php
+CLI-KO-CODEX-SS04-R5,codex,성수 혼밥 식당 미도인 성수 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS04-R5,codex,성수 혼밥 미도인 성수 다이닝코드
+CLI-KO-CODEX-SS04-R5,codex,가가호호 성수점 주소 메뉴 가격 혼밥 ...
+CLI-KO-CODEX-SS04-R5,codex,"""가가호호"" ""성수점"" 식당"
+CLI-KO-CODEX-SS04-R5,codex,'서울특별시'
+CLI-KO-CODEX-MW04-R2,codex,망원동 식당 점심 저녁 메뉴 가격 2026 헤키 ...
+CLI-KO-CODEX-MW04-R2,codex,청어람 망원 본점 다이닝코드 ...
+CLI-KO-CODEX-MW04-R2,codex,헤키 망원 본점 2026 가격 히레카츠 상로스카츠 영업 ...
+CLI-KO-CODEX-MW04-R2,codex,
+CLI-KO-CODEX-MW04-R2,codex,청어람 망원점 다이닝코드 곱창전골 2026 ...
+CLI-KO-CODEX-MW04-R2,codex,
+CLI-KO-CODEX-MD04-R2,codex,명동교자 본점 메뉴 가격 2026 주소 ...
+CLI-KO-CODEX-MD04-R2,codex,명동교자 공식 본점 칼국수 만두 가격 주소 ...
+CLI-KO-CODEX-MD04-R2,codex,왕비집 본점 다이닝코드 ...
+CLI-KO-CODEX-MD04-R2,codex,왕비집 본점 명동8가길 26 2층 돼지갈비 2026 가격 ...
+CLI-KO-CODEX-SS02-R3,codex,성수동 한식 점심 소문난성수감자탕 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS02-R3,codex,"site.tabling.co.kr ""소문난 성수 감자탕"" ..."
+CLI-KO-CODEX-SS02-R3,codex,"""할머니의레시피"" ""테이블링"" ..."
+CLI-KO-CODEX-SS02-R3,codex,할머니의레시피 메뉴 가격 영업시간 2026 ...
+CLI-KO-CODEX-SS02-R3,codex,"""할머니의레시피"" 가격 ..."
+CLI-KO-CODEX-SS02-R3,codex,"""할머니의 레시피"" ""다이닝코드"" ..."
+CLI-KO-CODEX-SS02-R3,codex,
+CLI-KO-CODEX-MW01-R5,codex,망원시장 맛집 홍두깨손칼국수 가격 2026 ...
+CLI-KO-CODEX-MW01-R5,codex,순대일번지 망원 가격 주소 다이닝코드 ...
+CLI-KO-CODEX-MW01-R5,codex,"""홍두깨손칼국수"" ""다이닝코드"""
+CLI-KO-CODEX-MW01-R5,codex,"""망원시장"" ""고향집"" ""가격"""
+CLI-KO-CODEX-MW01-R5,codex,"""순대일번지"" ""망원"" ""가격"""
+CLI-KO-CODEX-MW01-R5,codex,"""헤키"" ""망원"" ""다이닝코드"""
+CLI-KO-CODEX-MW01-R5,codex,"""헤키"" ""망원"" ""다이닝코드"""
+CLI-KO-CODEX-MW01-R5,codex,"""망원시장"" ""고향집"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW01-R5,codex,
+CLI-KO-CODEX-MW01-R5,codex,"""고향집"" ""망원"" ""2026"" ""칼제비"" ..."
+CLI-KO-CODEX-SS04-R3,codex,성수 혼밥 식당 소바식당 성수점 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS04-R3,codex,성수 멘야코노하 다이닝코드 ...
+CLI-KO-CODEX-SS04-R3,codex,"""성수"" ""혼밥"" ""다이닝코드"" ""라멘"" ..."
+CLI-KO-CODEX-SS04-R3,codex,
+CLI-KO-CODEX-SS04-R3,codex,
+CLI-KO-CODEX-SS04-R3,codex,
+CLI-KO-CODEX-MD01-R3,codex,명동교자 본점 메뉴 가격 2026 주소 공식 ...
+CLI-KO-CODEX-MD01-R3,codex,명동교자 공식 홈페이지 메뉴 13000 본점 ...
+CLI-KO-CODEX-MD01-R3,codex,https://www.mdkj.co.kr/
+CLI-KO-CODEX-MD01-R3,codex,"""명동교자"" ""본점"" ""13,000"" ..."
+CLI-KO-CODEX-MD01-R3,codex,'명동10길'
+CLI-KO-CODEX-MD01-R3,codex,명동교자 공식 md-kyoja.co.kr 본점 명동10길 29 ...
+CLI-KO-CODEX-MW01-R3,codex,망원시장 망원동 맛집 2026 우이락 망원본점 가격 ...
+CLI-KO-CODEX-MW01-R3,codex,망원 홍두깨손칼국수 다이닝코드 메뉴 가격 ...
+CLI-KO-CODEX-MW01-R3,codex,"""망원"" ""홍두깨손칼국수"" ..."
+CLI-KO-CODEX-MW01-R3,codex,
+CLI-KO-CODEX-MW01-R3,codex,'메뉴'
+CLI-KO-CODEX-MD02-R3,codex,명동교자 본점 칼국수 12000 2026 주소 ...
+CLI-KO-CODEX-MD02-R3,codex,명동함흥면옥 테이블링 ...
+CLI-KO-CODEX-MD02-R3,codex,"""성원전주콩나물국밥"" 가격 영업시간 ..."
+CLI-KO-CODEX-MD02-R3,codex,영양센터 본점 명동 삼계탕 가격 영업시간 ...
+CLI-KO-CODEX-MD02-R3,codex,"""성원전주콩나물국밥"" ""콩나물국밥"" ""원"" ""2026"" ..."
+CLI-KO-CODEX-MD02-R3,codex,명동 할머니국수 본점 가격 테이블링
+CLI-KO-CODEX-SS04-R2,codex,성수 혼밥 식당 멘야코노 성수점 가격 주소 ...
+CLI-KO-CODEX-SS04-R2,codex,"성수 혼밥 ""2026"" ""라멘"" ..."
+CLI-KO-CODEX-SS04-R2,codex,
+CLI-KO-CODEX-SS04-R2,codex,"""핵밥 성수본점"" ""주소"" ..."
+CLI-KO-CODEX-SS04-R2,codex,"""핵밥 성수본점"" ""영업"" ""2026"" ..."
+CLI-KO-CODEX-MD03-R3,codex,명동교자 본점 메뉴 가격 영업시간 공식 ...
+CLI-KO-CODEX-MD03-R3,codex,명동교자 공식 홈페이지 가격 2026 13000 영업시간 ...
+CLI-KO-CODEX-MD03-R3,codex,"""명동교자"" ""공식"" ""mkj"" ..."
+CLI-KO-CODEX-MD03-R3,codex,명동교자 본점 site.tabling.co.kr/place ...
+CLI-KO-CODEX-MD03-R3,codex,명동교자 본점 site:diningcode.com/profile.php ...
+CLI-KO-CODEX-MD03-R3,codex,https://www.diningcode.com/profile.php?rid=7uS05Gqy62KS
+CLI-KO-CODEX-MD03-R3,codex,https://www.diningcode.com/profile.php?rid=NQr0pngXyXEo
+CLI-KO-CODEX-MD01-R4,codex,명동교자 본점 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-MD01-R4,codex,명동교자 공식 홈페이지 본점 메뉴 가격 ...
+CLI-KO-CODEX-MD01-R4,codex,명동교자 공식 mkj.co.kr ...
+CLI-KO-CODEX-MD01-R4,codex,
+CLI-KO-CODEX-MD01-R4,codex,"명동교자 ""퇴계로 129"" 공식 ..."
+CLI-KO-CODEX-MD01-R4,codex,http://www.mdkj.co.kr/
+CLI-KO-CODEX-MW04-R5,codex,망원동 식당 점심 저녁 2026 헤키 ...
+CLI-KO-CODEX-MW04-R5,codex,헤키 망원 본점 돈카츠 가격 영업 ...
+CLI-KO-CODEX-MW04-R5,codex,순대일번지 망원 2026 11000 영업 ...
+CLI-KO-CODEX-MW04-R5,codex,
+CLI-KO-CODEX-MW04-R5,codex,가원 망원동 다이닝코드 유니짜장 2026 ...
+CLI-KO-CODEX-MW03-R5,codex,망원시장 바삭마차 홍두깨손칼국수 맛있는집 만두 호떡 가격 2026 ...
+CLI-KO-CODEX-MW03-R5,codex,망원시장 우이락 망원본점 고추튀김 가격 주소 ...
+CLI-KO-CODEX-MW03-R5,codex,"""홍두깨 손칼국수"" ""망원"" 가격 ..."
+CLI-KO-CODEX-MW03-R5,codex,"""우이락 망원본점"" site:diningcode.com ..."
+CLI-KO-CODEX-MW03-R5,codex,
+CLI-KO-CODEX-MW03-R5,codex,"'3,500'"
+CLI-KO-CODEX-MD04-R3,codex,명동교자 본점 메뉴 가격 2026 주소 ...
+CLI-KO-CODEX-MD04-R3,codex,명동교자 공식 본점 이전 퇴계로129 메뉴 ...
+CLI-KO-CODEX-MD04-R3,codex,명동교자 공식 홈페이지 ...
+CLI-KO-CODEX-MD04-R3,codex,"""명동함흥면옥"" ""13,000"" ""영업"" ..."
+CLI-KO-CODEX-MD04-R3,codex,"site:mdkj.co.kr ""129"" ..."
+CLI-KO-CODEX-MD04-R3,codex,명동교자 본점 2026 칼국수 12000 다이닝코드 ...
+CLI-KO-CODEX-MW01-R4,codex,망원시장 우이락 망원본점 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-MW01-R4,codex,망원동 맛집 헤키 로컬식당 메뉴 가격 영업 ...
+CLI-KO-CODEX-MW01-R4,codex,망원동 소금집델리 망원점 잠봉뵈르 2026 가격 주소 ...
+CLI-KO-CODEX-MW01-R4,codex,'서울'
+CLI-KO-CODEX-MW01-R4,codex,"""소금집"" ""망원"" ""2026"" ""잠봉"" 가격"
+CLI-KO-CODEX-MW01-R4,codex,
+CLI-KO-CODEX-SS02-R4,codex,성수동 한식 점심 소문난성수감자탕 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS02-R4,codex,성수 제제 국밥 메뉴 가격 영업시간 ...
+CLI-KO-CODEX-SS02-R4,codex,할머니의 레시피 성수 쌈밥정식 2026 가격 ...
+CLI-KO-CODEX-SS02-R4,codex,
+CLI-KO-CODEX-SS02-R4,codex,"""담솥 성수점"" ""연무장7길 8-1"""
+CLI-KO-CODEX-SS03-R3,codex,성수 난포 성수점 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS03-R3,codex,난포 성수 site:tabling.co.kr ...
+CLI-KO-CODEX-SS03-R3,codex,난포 성수 테이블링 영업시간 메뉴 ...
+CLI-KO-CODEX-SS03-R3,codex,"""난포"" ""성수"" ""영업시간"" ""2026"" ..."
+CLI-KO-CODEX-SS03-R3,codex,https://mystory90011.tistory.com/7
+CLI-KO-CODEX-SS02-R5,codex,성수동 한식 점심 소문난성수감자탕 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-SS02-R5,codex,site.tabling.co.kr 소문난성수감자탕 ...
+CLI-KO-CODEX-SS02-R5,codex,"""소문난성수감자탕"" ""감자국"" ""11,000"" ..."
+CLI-KO-CODEX-SS02-R5,codex,https://www.diningcode.com/profile.php?rid=J20diROkHGEl
+CLI-KO-CODEX-SS02-R5,codex,
+CLI-KO-CODEX-SS02-R5,codex,"""소문난 성수 감자탕"" ""테이블링"" ..."
+CLI-KO-CODEX-SS03-R2,codex,성수동 제제 서울숲 난포 성수점 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS03-R2,codex,난포 성수 본점 메뉴 영업시간 가격 서울숲4길 ...
+CLI-KO-CODEX-SS03-R2,codex,"""성수"" ""미만"" ""키친"" 식당 ..."
+CLI-KO-CODEX-SS03-R2,codex,팩피 site:guide.michelin.com ...
+CLI-KO-CODEX-SS03-R2,codex,https://www.tabling.co.kr/place/68103bae60fa39d16f0c68c6
+CLI-KO-CODEX-SS03-R2,codex,"""쏘옥 성수"" ""영업시간"" ""원"" ..."
+CLI-KO-CODEX-SS03-R4,codex,성수 제제 서울숲 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS03-R4,codex,성수 미쉐린 2026 팩피 가격 주소 ...
+CLI-KO-CODEX-SS03-R4,codex,"""팩피"" ""미쉐린""  ..."
+CLI-KO-CODEX-SS03-R4,codex,팩피 성수 레스토랑
+CLI-KO-CODEX-SS03-R4,codex,할머니의레시피 성수 2026 메뉴 영업시간 ...
+CLI-KO-CODEX-SS03-R4,codex,성수족발
+CLI-KO-CODEX-SS03-R4,codex,할머니의 레시피 site:tabling.co.kr ...
+CLI-KO-CODEX-SS03-R4,codex,"""할머니의 레시피"" ""테이블링"""
+CLI-KO-CODEX-MD04-R5,codex,명동교자 본점 메뉴 가격 2026 주소 ...
+CLI-KO-CODEX-MD04-R5,codex,명동교자 공식 본점 이전 퇴계로 129 메뉴 ...
+CLI-KO-CODEX-MD04-R5,codex,명동교자 site:mdkj.co.kr ...
+CLI-KO-CODEX-MD04-R5,codex,Myeongdong Kyoja official website menu 12000 13000 ...
+CLI-KO-CODEX-MD04-R5,codex,https://www.mdkj.co.kr
+CLI-KO-CODEX-MD04-R5,codex,명동교자 분점 명동10길 10 가격 영업 ...
+CLI-KO-CODEX-MW02-R3,codex,망원시장 맛집 홍두깨손칼국수 2026 가격 ...
+CLI-KO-CODEX-MW02-R3,codex,망원시장 송이네 2026 떡볶이 가격 주소 ...
+CLI-KO-CODEX-MW02-R3,codex,"""망원떡갈비"" ""가격"" ""2026"" ..."
+CLI-KO-CODEX-MW02-R3,codex,망원 홍두깨손칼국수 망원로8길 29 테이블링
+CLI-KO-CODEX-MW02-R3,codex,"'12,000'"
+CLI-KO-CODEX-MW02-R4,codex,망원시장 맛집 홍두깨손칼국수 가격 2026 ...
+CLI-KO-CODEX-MW02-R4,codex,망원시장 홍두깨손칼국수 다이닝코드 ...
+CLI-KO-CODEX-MW02-R4,codex,"""홍두깨손칼국수"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW02-R4,codex,
+CLI-KO-CODEX-MW02-R4,codex,"""망원시장손칼국수"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW02-R4,codex,
+CLI-KO-CODEX-MW04-R4,codex,망원동 식당 헤키 망원점 메뉴 가격 주소 ...
+CLI-KO-CODEX-MW04-R4,codex,헤키 망원 본점 site:polle.com/place ...
+CLI-KO-CODEX-MW04-R4,codex,"""헤키"" ""망원"" ""2026"" ..."
+CLI-KO-CODEX-MW04-R4,codex,순대일번지 망원 메뉴 영업시간 주소
+CLI-KO-CODEX-MW04-R4,codex,
+CLI-KO-CODEX-MW04-R4,codex,
+CLI-KO-CODEX-MD02-R2,codex,명동교자 본점 칼국수 12000 2026 주소 ...
+CLI-KO-CODEX-MD02-R2,codex,명동교자 본점 메뉴 가격 12000 주소 ...
+CLI-KO-CODEX-MD02-R2,codex,site.mdkj.co.kr 가격 본점 ...
+CLI-KO-CODEX-MD02-R2,codex,"""명동교자"" ""공식"" ""가격"" ..."
+CLI-KO-CODEX-MD02-R2,codex,"""미성옥"" ""설렁탕"" ""13,000"" ..."
+CLI-KO-CODEX-MD02-R2,codex,
+CLI-KO-CODEX-SS01-R2,codex,성수동 식당 2026 난포 성수 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS01-R2,codex,난포 성수 캐치테이블 ...
+CLI-KO-CODEX-SS01-R2,codex,site.tabling.co.kr/place 성수 파스타 ...
+CLI-KO-CODEX-SS01-R2,codex,"""성수"" ""파스타"" ""site:tabling.co.kr/place"" ..."
+CLI-KO-CODEX-SS01-R2,codex,https://www.diningcode.com/profile.php?rid=GwT3CemQ7wpS
+CLI-KO-CODEX-SS01-R2,codex,"""대엽"" ""성수"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MW04-R3,codex,망원동 식당 점심 저녁 소금집 델리 망원 가격 영업 ...
+CLI-KO-CODEX-MW04-R3,codex,망원동 식당 site.catchtable.net ...
+CLI-KO-CODEX-MW04-R3,codex,"""망원동"" ""청어람"" ""영업시간"" ..."
+CLI-KO-CODEX-MW04-R3,codex,헤키 망원 다이닝코드 ...
+CLI-KO-CODEX-MW04-R3,codex,
+CLI-KO-CODEX-MW04-R3,codex,
+CLI-KO-CODEX-SS03-R5,codex,성수 제제 서울숲 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS03-R5,codex,성수 쵸리상경 캐치테이블 메뉴 ...
+CLI-KO-CODEX-SS03-R5,codex,"""쵸리상경"" ""성수"" 메뉴 영업시간 ..."
+CLI-KO-CODEX-SS03-R5,codex,"""온량"" ""서울숲"" ""영업시간"" ""2026"""
+CLI-KO-CODEX-SS03-R5,codex,'메뉴정보'
+CLI-KO-CODEX-MW03-R2,codex,망원시장 홍두깨손칼국수 가격 2026 ...
+CLI-KO-CODEX-MW03-R2,codex,망원시장 만두 맛집 김진아 옹골찬만두 가격 ...
+CLI-KO-CODEX-MW03-R2,codex,훈훈호떡 site:diningcode.com/profile ...
+CLI-KO-CODEX-MW03-R2,codex,"""훈훈호떡"" ""포은로"" ""2026"" ..."
+CLI-KO-CODEX-MW03-R2,codex,
+CLI-KO-CODEX-MD01-R5,codex,명동교자 본점 주소 메뉴 가격 2026 공식 ...
+CLI-KO-CODEX-MD01-R5,codex,명동교자 본점 13000 2026 메뉴 주소 ...
+CLI-KO-CODEX-MD01-R5,codex,명동교자 본점 site.tabling.co.kr/place ...
+CLI-KO-CODEX-MD01-R5,codex,명동교자 공식 홈페이지 본점 메뉴 가격 ...
+CLI-KO-CODEX-MD01-R5,codex,
+CLI-KO-CODEX-MD01-R5,codex,http://m.mdkj.co.kr/store/store01.php
+CLI-KO-CODEX-MD01-R5,codex,"site.mdkj.co.kr ""퇴계로 129"" ..."
+CLI-KO-CODEX-SS04-R4,codex,성수 혼밥 미도인 성수 메뉴 가격 주소 ...
+CLI-KO-CODEX-SS04-R4,codex,"site.diningcode.com 성수 혼밥 ""메뉴"" ""주소"" 라멘 ..."
+CLI-KO-CODEX-SS04-R4,codex,
+CLI-KO-CODEX-SS04-R4,codex,"""소바식당"" ""혼밥"" ""2026"" ..."
+CLI-KO-CODEX-SS04-R4,codex,"site.diningcode.com ""성수"" ""혼밥"" ""쌀국수"" ..."
+CLI-KO-CODEX-SS01-R5,codex,성수동 식당 성수다락 메뉴 가격 주소 2026 ...
+CLI-KO-CODEX-SS01-R5,codex,팩피 성수 미쉐린 2026 주소 예약 ...
+CLI-KO-CODEX-SS01-R5,codex,"""팩피"" ""guide.michelin.com"" ..."
+CLI-KO-CODEX-SS01-R5,codex,https://polle.com/place/4TDLFg/숯골
+CLI-KO-CODEX-SS02-R2,codex,성수동 한식 점심 소문난성수감자탕 메뉴 가격 2026 ...
+CLI-KO-CODEX-SS02-R2,codex,소문난성수감자탕 감자국식사 11000 주소 ...
+CLI-KO-CODEX-SS02-R2,codex,"""소문난성수감자탕"" ""감자국식사"" ..."
+CLI-KO-CODEX-SS02-R2,codex,훼미리손칼국수보쌈 성수 메뉴 주소 영업시간 ...
+CLI-KO-CODEX-SS02-R2,codex,https://www.seongsu-koreanbbq.kr/ko/menu
+CLI-KO-CODEX-MW03-R4,codex,망원시장 맛집 호떡 만두 국수 튀김 가격 2026 ...
+CLI-KO-CODEX-MW03-R4,codex,"망원시장 ""홍두깨손칼국수"" 가격 주소 ..."
+CLI-KO-CODEX-MW03-R4,codex,https://www.diningcode.com/profile.php?rid=S6FebqC0lJ5i
+CLI-KO-CODEX-MW03-R4,codex,'씨앗호떡'
+CLI-KO-CODEX-MW01-R2,codex,망원시장 우이락 망원본점 메뉴 가격 2026 ...
+CLI-KO-CODEX-MW01-R2,codex,홍두깨손칼국수 망원시장 다이닝코드 ...
+CLI-KO-CODEX-MW01-R2,codex,"""망원"" ""홍두깨"" ""칼국수"" 가격 2026 ..."
+CLI-KO-CODEX-MW01-R2,codex,https://www.diningcode.com/profile.php?rid=Cu2ydzWNXjyB
+CLI-KO-CODEX-MW01-R2,codex,"""망원동즉석우동"" ""2026"" ""8,000"" ..."
+CLI-KO-CODEX-MD03-R4,codex,명동교자 본점 영업시간 메뉴 가격 2026 ...
+CLI-KO-CODEX-MD03-R4,codex,명동교자 공식 홈페이지 본점 가격 ...
+CLI-KO-CODEX-MD03-R4,codex,"""명동돈가스"" ""영업시간"" ""가격"" ..."
+CLI-KO-CODEX-MD03-R4,codex,"""명동"" ""혼밥"" ""멘텐"" ""다이닝코드"" ..."
+CLI-KO-CODEX-MD03-R4,codex,"""틈새라면 명동본점"" 영업시간 가격 주소 ..."
+CLI-KO-CODEX-MD03-R4,codex,
+CLI-KO-CODEX-MD03-R5,codex,명동교자 본점 영업시간 메뉴 가격 2026 ...
+CLI-KO-CODEX-MD03-R5,codex,가마마루이 명동점 영업시간 메뉴 가격 혼밥 ...
+CLI-KO-CODEX-MD03-R5,codex,"""멘텐"" ""명동"" ""영업시간"" ..."
+CLI-KO-CODEX-MD03-R5,codex,"""명동교자"" 공식 영업시간 가격 ..."
+CLI-KO-CODEX-MD03-R5,codex,"""돈돈정 명동점"" ..."
+CLI-KO-CODEX-MD03-R5,codex,"site:mdkj.co.kr ""13,000"" ..."
+CLI-KO-CODEX-MD03-R5,codex,https://nowyeogi.com/posts/myeongdong-food-2026-09/
+CLI-KO-CODEX-MD03-R5,codex,'mdkj'
+CLI-KO-CODEX-MD03-R5,codex,
+CLI-KO-CODEX-SS01-R3,codex,성수동 식당 성수점 메뉴 가격 2026 난포 ...
+CLI-KO-CODEX-SS01-R3,codex,"site.tabling.co.kr ""난포"" ""성수"" ..."
+CLI-KO-CODEX-SS01-R3,codex,쵸리상경 성수 메뉴 영업시간 주소 ...
+CLI-KO-CODEX-SS01-R3,codex,쵸리상경 서울숲점 site.diningcode.com/profile.php ...
+CLI-KO-CODEX-MW02-R5,codex,망원시장 맛집 2026 홍두깨손칼국수 가격 ...
+CLI-KO-CODEX-MW02-R5,codex,망원시장 만두란 메뉴 가격 2026 ...
+CLI-KO-CODEX-MW02-R5,codex,"""망원"" ""할머니빈대떡"" 가격 ..."
+CLI-KO-CODEX-MW02-R5,codex,
+CLI-KO-CODEX-MW02-R5,codex,
+CLI-KO-CODEX-MD02-R5,codex,명동교자 본점 메뉴 가격 2026 칼국수 11000 ...
+CLI-KO-CODEX-MD02-R5,codex,"""명동교자"" ""칼국수"" ""12,000"" ..."
+CLI-KO-CODEX-MD02-R5,codex,명동 함흥면옥 회냉면 가격 2026 주소 ...
+CLI-KO-CODEX-MD02-R5,codex,https://www.diningcode.com/profile.php?rid=NQr0pngXyXEo

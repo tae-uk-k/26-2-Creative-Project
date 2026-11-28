@@ -1,0 +1,323 @@
+{
+  "run_id": "gemini-api-B0-S04-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:03:37+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S04",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹상에서 공식 상세 정보(원재료 및 보관 방법)를 명확하게 확인할 수 있는 사차인치 관련 단백질 분말 제품 3가지를 정리해 드립니다.\n\n---\n\n### 1. 테라소울 슈퍼푸드 유기농 사차인치 단백질 파우더 (Terrasoul Superfoods Organic Sacha Inchi Protein Powder)\n* **판매처:** 테라소울 공식 온라인 스토어 (Terrasoul Superfoods)\n* **근거 링크:** [Terrasoul Superfoods 공식 제품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder)\n* **확인된 정보:**\n  * **원재료:** 유기농 사차인치 분말 100% (Organic Sacha Inchi Powder [Plukenetia volubilis])\n  * **보관 방법:** 냉장 보관 불필요, 서늘하고 어둡고 건조한 곳에 보관 (Refrigeration not required. Store in a cool, dark, dry place.)\n* **선택 이유:** 다른 부재료나 감미료, 향료 없이 사차인치 단일 원료만을 사용해 약 60% 함량의 식물성 단백질을 제공하는 순수 단백질 파우더입니다. 공식 제품 설명란에 전 성분과 직사광선을 피한 상온 건조 보관 안내가 투명하게 공개되어 있습니다.\n\n---\n\n### 2. 스프라우트 리빙 에픽 프로틴 오리지널 (Sprout Living, Epic Protein, Organic Plant Protein + Superfoods, Original)\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [iHerb 제품 페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-original-2-lb-912-g/71597)\n* **확인된 정보:**\n  * **원재료:** 에픽 프로틴 베이스(옐로우 완두콩, 호박씨, 해바라기씨, 사차인치, 크랜베리씨), 돼지감자(Jerusalem Artichoke) (모두 유기농 성분, 인공 첨가물 및 검류 무첨가)\n  * **보관 방법:** 서늘하고 건조한 곳에 보관 (Store in a cool, dry place)\n* **선택 이유:** 사차인치 종자를 핵심 단백질 공급원 중 하나로 포함한 비건 식물성 복합 단백질 분말입니다. 국내에서 구매 접근성이 높은 해외직구 플랫폼(iHerb)을 통해 상세 원재료 배합과 실온 건냉소 보관 지침을 확인할 수 있습니다.\n\n---\n\n### 3. 바보약초 페루산 프리미엄급 사차인치분말 (500g)\n* **판매처:** 바보약초 공식몰\n* **근거 링크:** [바보약초 공식몰 제품 페이지](http://www.baboyakcho.co.kr/product/detail.html?product_no=61)\n* **확인된 정보:**\n  * **원재료:** 페루산 사차인치분말 100% (기타 첨가물 및 부재료 무첨가)\n  * **보관 방법:** 개봉 후에는 밀봉하여 냉장 보관\n* **선택 이유:** 국내 유통 판매처에서 제공하는 순수 페루산 사차인치 100% 분말 제품입니다. 사차인치는 식물성 단백질 외에도 불포화지방산(오메가 지방산) 함량이 높아 산패 위험이 있는데, 판매처 상품 안내 고시에 '개봉 후 냉장 보관' 원칙을 명시해 두고 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHARrn_TWwy5QsVpnFCiOVIX15z3gzYSrraIxJiI34KkpjWbffYeOt7-cvNmegzjUgrWEUWOqP1Iqk8MD8xpB7HLzmq3BbOCLgZ3ACMVs6jpCkCW3OJ_xLJrjeRm_LA_MSy8acsumfL3qzWWg2Xe2CEDbGR0BkTJ79sg3oypBU=",
+      "title": "terrasoul.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsz5j68fJneci3wBXCWu6cl-PbZ3Hk9RTonyL1XNWa18F6gzZ2Gf4XWEplK-M4GILsqSvVG-rDXspiYhMhQNITSbQJ0Am-8soM1gQj-0mO6R_8HYBL-Ijcq8XKrI4SaMsefqSbD1rdNJQZZKKGLa2fWWOb5WDcKipnctjjVx00ZSPgeZJOtXGfX1TJjRnYYrjaakVYi5dkks89K4PgDxaqKoo=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs2HMOT2tnN_XCXRKHP4Q14wNnzZQpeyMMOPs3fjNy1QRvL9_0CdqrW8DXhMvEjf94jxmMnRvl-XcOEqqOKeiDIb8PpaFelFivFgTu5MxpAvwdHizQ2qz56ydFa32bp_BdqmlKymWEs74C3DKs1sEyyvtK4DEaYfhXvCHx08Sc0Lm6xjE3m0x0TD5-RaTnYThMqh3BqG7mxutWs-M3oKBlTHwz",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMOMTdUomMQCFRrDd2B93sLtoAGpxDC4iNzwi0VUSkfP8Yr3dReoqbucSeMA6Ili2IMguhygOpR6UevtgkV-U_Zb9G4B31FJ5Wuu69P2Z_TJd7xors8Pms8fAXIAkhlCHzCDypZOq00mSFiGKwrUT9W8oEQdLyYsR0YCR-e1a3y6aonHiCa-K-8G7B",
+      "title": "nationalnutrition.ca"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv-sKB7XKOh9KQyvUmnQdPaFlE8xs_dySV8zSmpovX5f6m7eoquSGnyEMyrqSeROldl8_9elJ4WxKQCPixJZnAOUU1IdY3DBxVLoD13nn4bRC99ZFDZu2ZsD8fn6UE2-jBs-qAFWJem93tFfrl3vJFOyYij_9K0oqTZUgQx-7XduIca3TC-n3AXJGpDZz_zgMAdoPmEYOit-UWeSA23Udm-Fub",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF7dBti-877e772nATucA5QEyQlY2xvtZTpT_x3gLB3bRt5fl6789fcrrazfP_iDRPc5j9AxpB3A4X4__rnch6EUD87Cb5G_qNlhYTGTc4gdO2Bf5RTJwQvx6ND6keSCDxE6Fu2I0lvLRY7WqSmVgl",
+      "title": "baboyakcho.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3CCxTcTG2d92BLYM7xBUX1ObgUP-v5Pwr3Jj60DGjRiyUjgVKakw7fWnVNL5FJ4fj0_bTiIbyEsUWuEZvReFTzaFNIBTNJ0g25Plwbx4kaxxHGUsB2o1Vgmn1dWUzGpPhIT-hCiUjWXw2wa0x8rTf7y0=",
+      "title": "nongupin.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "efAEa8upAZuU9tMP5Ont0Ac",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "사차인치 단백질 분말 원재료 보관방법",
+    "\"Sprout Living\" \"Epic Protein\" site:kr.iherb.com \"보관\" OR \"원재료\" OR \"성분\"",
+    "\"Terrasoul Superfoods\" \"Sacha Inchi Protein Powder\" \"Ingredients\" \"storage\" OR \"store\"",
+    "\"Epic Protein\" \"Original\" \"Sprout Living\" \"Storage\" OR \"Store in\" OR \"보관\"",
+    "\"사차인치\" \"분말\" \"100%\" \"보관\""
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹상에서 공식 상세 정보(원재료 및 보관 방법)를 명확하게 확인할 수 있는 사차인치 관련 단백질 분말 제품 3가지를 정리해 드립니다.\n\n---\n\n### 1. 테라소울 슈퍼푸드 유기농 사차인치 단백질 파우더 (Terrasoul Superfoods Organic Sacha Inchi Protein Powder)\n* **판매처:** 테라소울 공식 온라인 스토어 (Terrasoul Superfoods)\n* **근거 링크:** [Terrasoul Superfoods 공식 제품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder)\n* **확인된 정보:**\n  * **원재료:** 유기농 사차인치 분말 100% (Organic Sacha Inchi Powder [Plukenetia volubilis])\n  * **보관 방법:** 냉장 보관 불필요, 서늘하고 어둡고 건조한 곳에 보관 (Refrigeration not required. Store in a cool, dark, dry place.)\n* **선택 이유:** 다른 부재료나 감미료, 향료 없이 사차인치 단일 원료만을 사용해 약 60% 함량의 식물성 단백질을 제공하는 순수 단백질 파우더입니다. 공식 제품 설명란에 전 성분과 직사광선을 피한 상온 건조 보관 안내가 투명하게 공개되어 있습니다.\n\n---\n\n### 2. 스프라우트 리빙 에픽 프로틴 오리지널 (Sprout Living, Epic Protein, Organic Plant Protein + Superfoods, Original)\n* **판매처:** 아이허브 (iHerb)\n* **근거 링크:** [iHerb 제품 페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-original-2-lb-912-g/71597)\n* **확인된 정보:**\n  * **원재료:** 에픽 프로틴 베이스(옐로우 완두콩, 호박씨, 해바라기씨, 사차인치, 크랜베리씨), 돼지감자(Jerusalem Artichoke) (모두 유기농 성분, 인공 첨가물 및 검류 무첨가)\n  * **보관 방법:** 서늘하고 건조한 곳에 보관 (Store in a cool, dry place)\n* **선택 이유:** 사차인치 종자를 핵심 단백질 공급원 중 하나로 포함한 비건 식물성 복합 단백질 분말입니다. 국내에서 구매 접근성이 높은 해외직구 플랫폼(iHerb)을 통해 상세 원재료 배합과 실온 건냉소 보관 지침을 확인할 수 있습니다.\n\n---\n\n### 3. 바보약초 페루산 프리미엄급 사차인치분말 (500g)\n* **판매처:** 바보약초 공식몰\n* **근거 링크:** [바보약초 공식몰 제품 페이지](http://www.baboyakcho.co.kr/product/detail.html?product_no=61)\n* **확인된 정보:**\n  * **원재료:** 페루산 사차인치분말 100% (기타 첨가물 및 부재료 무첨가)\n  * **보관 방법:** 개봉 후에는 밀봉하여 냉장 보관\n* **선택 이유:** 국내 유통 판매처에서 제공하는 순수 페루산 사차인치 100% 분말 제품입니다. 사차인치는 식물성 단백질 외에도 불포화지방산(오메가 지방산) 함량이 높아 산패 위험이 있는데, 판매처 상품 안내 고시에 '개봉 후 냉장 보관' 원칙을 명시해 두고 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EB%B3%B4%EA%B4%80%EB%B0%A9%EB%B2%95&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 분말 원재료 보관방법</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Sprout+Living%22+%22Epic+Protein%22+site:kr.iherb.com+%22%EB%B3%B4%EA%B4%80%22+OR+%22%EC%9B%90%EC%9E%AC%EB%A3%8C%22+OR+%22%EC%84%B1%EB%B6%84%22&client=app-vertex-grounding&safesearch=active\">&quot;Sprout Living&quot; &quot;Epic Protein&quot; site:kr.iherb.com &quot;보관&quot; OR &quot;원재료&quot; OR &quot;성분&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Terrasoul+Superfoods%22+%22Sacha+Inchi+Protein+Powder%22+%22Ingredients%22+%22storage%22+OR+%22store%22&client=app-vertex-grounding&safesearch=active\">&quot;Terrasoul Superfoods&quot; &quot;Sacha Inchi Protein Powder&quot; &quot;Ingredients&quot; &quot;storage&quot; OR &quot;store&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Epic+Protein%22+%22Original%22+%22Sprout+Living%22+%22Storage%22+OR+%22Store+in%22+OR+%22%EB%B3%B4%EA%B4%80%22&client=app-vertex-grounding&safesearch=active\">&quot;Epic Protein&quot; &quot;Original&quot; &quot;Sprout Living&quot; &quot;Storage&quot; OR &quot;Store in&quot; OR &quot;보관&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22+%22%EB%B6%84%EB%A7%90%22+%22100%25%22+%22%EB%B3%B4%EA%B4%80%22&client=app-vertex-grounding&safesearch=active\">&quot;사차인치&quot; &quot;분말&quot; &quot;100%&quot; &quot;보관&quot;</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHARrn_TWwy5QsVpnFCiOVIX15z3gzYSrraIxJiI34KkpjWbffYeOt7-cvNmegzjUgrWEUWOqP1Iqk8MD8xpB7HLzmq3BbOCLgZ3ACMVs6jpCkCW3OJ_xLJrjeRm_LA_MSy8acsumfL3qzWWg2Xe2CEDbGR0BkTJ79sg3oypBU=",
+                "title": "terrasoul.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsz5j68fJneci3wBXCWu6cl-PbZ3Hk9RTonyL1XNWa18F6gzZ2Gf4XWEplK-M4GILsqSvVG-rDXspiYhMhQNITSbQJ0Am-8soM1gQj-0mO6R_8HYBL-Ijcq8XKrI4SaMsefqSbD1rdNJQZZKKGLa2fWWOb5WDcKipnctjjVx00ZSPgeZJOtXGfX1TJjRnYYrjaakVYi5dkks89K4PgDxaqKoo=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs2HMOT2tnN_XCXRKHP4Q14wNnzZQpeyMMOPs3fjNy1QRvL9_0CdqrW8DXhMvEjf94jxmMnRvl-XcOEqqOKeiDIb8PpaFelFivFgTu5MxpAvwdHizQ2qz56ydFa32bp_BdqmlKymWEs74C3DKs1sEyyvtK4DEaYfhXvCHx08Sc0Lm6xjE3m0x0TD5-RaTnYThMqh3BqG7mxutWs-M3oKBlTHwz",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMOMTdUomMQCFRrDd2B93sLtoAGpxDC4iNzwi0VUSkfP8Yr3dReoqbucSeMA6Ili2IMguhygOpR6UevtgkV-U_Zb9G4B31FJ5Wuu69P2Z_TJd7xors8Pms8fAXIAkhlCHzCDypZOq00mSFiGKwrUT9W8oEQdLyYsR0YCR-e1a3y6aonHiCa-K-8G7B",
+                "title": "nationalnutrition.ca"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv-sKB7XKOh9KQyvUmnQdPaFlE8xs_dySV8zSmpovX5f6m7eoquSGnyEMyrqSeROldl8_9elJ4WxKQCPixJZnAOUU1IdY3DBxVLoD13nn4bRC99ZFDZu2ZsD8fn6UE2-jBs-qAFWJem93tFfrl3vJFOyYij_9K0oqTZUgQx-7XduIca3TC-n3AXJGpDZz_zgMAdoPmEYOit-UWeSA23Udm-Fub",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF7dBti-877e772nATucA5QEyQlY2xvtZTpT_x3gLB3bRt5fl6789fcrrazfP_iDRPc5j9AxpB3A4X4__rnch6EUD87Cb5G_qNlhYTGTc4gdO2Bf5RTJwQvx6ND6keSCDxE6Fu2I0lvLRY7WqSmVgl",
+                "title": "baboyakcho.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3CCxTcTG2d92BLYM7xBUX1ObgUP-v5Pwr3Jj60DGjRiyUjgVKakw7fWnVNL5FJ4fj0_bTiIbyEsUWuEZvReFTzaFNIBTNJ0g25Plwbx4kaxxHGUsB2o1Vgmn1dWUzGpPhIT-hCiUjWXw2wa0x8rTf7y0=",
+                "title": "nongupin.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 401,
+                "endIndex": 529,
+                "text": "**근거 링크:** [Terrasoul Superfoods 공식 제품 페이지](https://www.terrasoul.com/products/sacha-inchi-protein-powder)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 558,
+                "endIndex": 659,
+                "text": "**원재료:** 유기농 사차인치 분말 100% (Organic Sacha Inchi Powder [Plukenetia volubilis])"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 784,
+                "endIndex": 818,
+                "text": "Store in a cool, dark, dry place.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 821,
+                "endIndex": 1017,
+                "text": "**선택 이유:** 다른 부재료나 감미료, 향료 없이 사차인치 단일 원료만을 사용해 약 60% 함량의 식물성 단백질을 제공하는 순수 단백질 파우더입니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1019,
+                "endIndex": 1152,
+                "text": "공식 제품 설명란에 전 성분과 직사광선을 피한 상온 건조 보관 안내가 투명하게 공개되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1336,
+                "endIndex": 1490,
+                "text": "**근거 링크:** [iHerb 제품 페이지](https://kr.iherb.com/pr/sprout-living-epic-protein-organic-plant-protein-superfoods-original-2-lb-912-g/71597)"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1519,
+                "endIndex": 1675,
+                "text": "**원재료:** 에픽 프로틴 베이스(옐로우 완두콩, 호박씨, 해바라기씨, 사차인치, 크랜베리씨), 돼지감자(Jerusalem Artichoke)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1519,
+                "endIndex": 1740,
+                "text": "**원재료:** 에픽 프로틴 베이스(옐로우 완두콩, 호박씨, 해바라기씨, 사차인치, 크랜베리씨), 돼지감자(Jerusalem Artichoke) (모두 유기농 성분, 인공 첨가물 및 검류 무첨가)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1745,
+                "endIndex": 1829,
+                "text": "**보관 방법:** 서늘하고 건조한 곳에 보관 (Store in a cool, dry place)"
+              },
+              "groundingChunkIndices": [
+                4,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1832,
+                "endIndex": 1974,
+                "text": "**선택 이유:** 사차인치 종자를 핵심 단백질 공급원 중 하나로 포함한 비건 식물성 복합 단백질 분말입니다"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1976,
+                "endIndex": 2143,
+                "text": "국내에서 구매 접근성이 높은 해외직구 플랫폼(iHerb)을 통해 상세 원재료 배합과 실온 건냉소 보관 지침을 확인할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2265,
+                "endIndex": 2388,
+                "text": "**근거 링크:** [바보약초 공식몰 제품 페이지](http://www.baboyakcho.co.kr/product/detail.html?product_no=61)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2417,
+                "endIndex": 2508,
+                "text": "**원재료:** 페루산 사차인치분말 100% (기타 첨가물 및 부재료 무첨가)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2513,
+                "endIndex": 2575,
+                "text": "**보관 방법:** 개봉 후에는 밀봉하여 냉장 보관"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2578,
+                "endIndex": 2697,
+                "text": "**선택 이유:** 국내 유통 판매처에서 제공하는 순수 페루산 사차인치 100% 분말 제품입니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2699,
+                "endIndex": 2930,
+                "text": "사차인치는 식물성 단백질 외에도 불포화지방산(오메가 지방산) 함량이 높아 산패 위험이 있는데, 판매처 상품 안내 고시에 '개봉 후 냉장 보관' 원칙을 명시해 두고 있습니다"
+              },
+              "groundingChunkIndices": [
+                6,
+                5
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "사차인치 단백질 분말 원재료 보관방법",
+            "\"Sprout Living\" \"Epic Protein\" site:kr.iherb.com \"보관\" OR \"원재료\" OR \"성분\"",
+            "\"Terrasoul Superfoods\" \"Sacha Inchi Protein Powder\" \"Ingredients\" \"storage\" OR \"store\"",
+            "\"Epic Protein\" \"Original\" \"Sprout Living\" \"Storage\" OR \"Store in\" OR \"보관\"",
+            "\"사차인치\" \"분말\" \"100%\" \"보관\""
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1898,
+      "candidatesTokenCount": 993,
+      "totalTokenCount": 6693,
+      "cachedContentTokenCount": 1529,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1898
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1529
+        }
+      ],
+      "thoughtsTokenCount": 3802,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "efAEa8upAZuU9tMP5Ont0Ac"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:04:59+09:00"
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "업종 판정 목록(07 5장). D-11: 테스트 가게 20곳 + 비대상 5곳으로 확정 [PoC]",
+  "google": {
+    "restaurant": { "exact": ["restaurant", "meal_takeaway", "food_court"], "suffix": ["_restaurant"] },
+    "cafe": { "exact": ["cafe", "coffee_shop", "tea_house", "bakery", "dessert_shop"] },
+    "bar": { "exact": ["bar", "pub", "wine_bar", "bar_and_grill"] }
+  },
+  "kakao": {
+    "groupCode": { "FD6": "restaurant", "CE7": "cafe" },
+    "barKeywords": ["술집", "호프", "요리주점", "이자카야", "포장마차", "와인바", "칵테일바", "바"]
+  },
+  "naver": {
+    "cafe": ["카페", "디저트", "베이커리", "커피"],
+    "bar": ["술집", "주점", "호프", "이자카야", "포차", "와인", "칵테일", "바(BAR)"],
+    "restaurant": ["음식점", "한식", "중식", "일식", "양식", "분식", "육류", "고기", "해물", "국수", "뷔페", "아시아음식", "식당"]
+  }
+}

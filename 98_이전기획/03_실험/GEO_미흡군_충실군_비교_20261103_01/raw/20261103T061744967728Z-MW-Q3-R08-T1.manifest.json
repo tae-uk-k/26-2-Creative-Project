@@ -1,0 +1,18 @@
+{
+  "attempt_id": "20261103T061744967728Z-MW-Q3-R08-T1",
+  "cell_id": "MW-Q3-R08",
+  "started_at": "2026-11-03T06:17:44.967728+00:00",
+  "ended_at": "2026-11-03T06:17:53.486825+00:00",
+  "process_status": "model_or_process_failure",
+  "returncode": 1,
+  "raw_path": "raw\\20261103T061744967728Z-MW-Q3-R08-T1.jsonl",
+  "stderr_path": "raw\\20261103T061744967728Z-MW-Q3-R08-T1.stderr.txt",
+  "model_requested": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "prompt": "망원에서 대표 메뉴를 먹어볼 만한 식당 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마.",
+  "working_directory": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01\\20261103T061744967728Z-MW-Q3-R08-T1",
+  "readiness_only": false,
+  "raw_sha256": "9c5c10fe42417a1a2f1966cfeabc7cbc5336bf9991534ae3fa71c86b1656c4c3",
+  "stderr_sha256": "32970d6b4191381642dc9f14ab4f283c0c98f2a93d58e17d4799d1e740a5c246"
+}

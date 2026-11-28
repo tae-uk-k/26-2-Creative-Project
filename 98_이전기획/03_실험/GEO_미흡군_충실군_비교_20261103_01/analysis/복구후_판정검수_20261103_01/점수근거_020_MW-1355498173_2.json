@@ -1,0 +1,27 @@
+{
+  "store_id": "MW-1355498173",
+  "item": 2,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "공식 프로필 연결 예약에서 실제 세트별 인원·선예약·콜키지 조건이 연결됨.",
+  "sources": [
+    {
+      "quote": "2인 세트 주문 시 와인 콜키지 1병 가능",
+      "source_url": "https://map.naver.com/p/entry/place/1539428285?placePath=%2Fbooking%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202611031109%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh",
+      "observed_at": "2026-11-03T02:12:00.766Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\226_MW-1355498173_official_official_booking_overview.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "부르고뉴 2인 세트는 예약 하실 때 체크해 주셔야 주문 가능합니다",
+      "source_url": "https://map.naver.com/p/entry/place/1539428285?placePath=%2Fbooking%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202611031109%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh",
+      "observed_at": "2026-11-03T02:12:00.766Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\226_MW-1355498173_official_official_booking_overview.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

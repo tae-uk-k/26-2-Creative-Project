@@ -1,0 +1,498 @@
+{
+  "run_id": "gemini-api-B0-W02-r3",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:07:33+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "W02",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "watermelon"
+  ],
+  "prompt": "수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹에서 확인 가능한 대표적인 **수박씨 단백질(탈지/냉압착 가공) 분말** 3종의 원재료, 중량, 판매처 및 상세 정보는 다음과 같습니다.\n\n---\n\n### 1. 제품 목록 및 상세 정보\n\n#### ① Smash Melon Watermelon Seed Protein Powder (Raw Cold-Pressed)\n* **제품명**: Smash Melon Watermelon Seed Protein Powder (Single Ingredient Unflavored)\n* **판매처**: 아마존(Amazon), Smash Melon 공식 스토어\n* **원재료**: **수박씨 100%** (화학적 용매 없이 냉압착 공정으로 착유 및 탈지 과정을 거쳐 분말화한 단일 원재료, 감미료·인공 첨가물 무첨가)\n* **중량**: **2 lbs (약 32.8 oz / 약 930g)**\n* **근거 링크**: [Amazon 상품 상세 페이지](https://www.amazon.com/dp/B0CV5NZ21G)\n* **선택 이유**: 첨가물 없는 단일 원재료(Single-ingredient) 제품이며, 1회 제공량당 22g의 고함량 단백질을 제공하는 대용량(약 930g) 규격 제품입니다.\n\n---\n\n#### ② NURTIVE Watermelon Seed Protein Powder\n* **제품명**: NURTIVE Watermelon Seed Protein Powder 16 oz\n* **판매처**: NURTIVE 공식 온라인 몰, GoSupps\n* **원재료**: **수박씨 단백질 분말 100%** (비건, 글루텐 프리, Non-GMO 식물성 수박씨 단일 원료)\n* **중량**: **16 oz (약 454g / 21회 제공량)**\n* **근거 링크**: [NURTIVE 공식 판매처](https://nurtive.co/products/watermelon-seed-protein-powder-16-oz)\n* **선택 이유**: 스무디나 쉐이크 등에 섞어 먹기 좋은 입자로 가공된 순수 수박씨 식물성 단백질 파우더로, 16 oz(454g)의 표준적인 규격을 갖추고 있습니다.\n\n---\n\n#### ③ Cut the Bull Watermelon Seed Protein Powder\n* **제품명**: Cut the Bull Watermelon Seed Protein Powder\n* **판매처**: Cut the Bull Foods 공식 온라인 몰, 틱톡샵\n* **원재료**: **수박씨 단백질 분말 100%** (첨가물, 증점제, 인공 향료 무첨가 단일 원재료)\n* **중량**: **16 oz (약 454g)**\n* **근거 링크**: [Cut the Bull Foods 공식 판매처](https://cutthebullfoods.com/product/watermelon-seed-protein-powder/)\n* **선택 이유**: 불필요한 부원료나 인공 첨가물을 배제하고 수박씨 본연의 영양(1회 28g 기준 단백질 20g 및 마그네슘, 망간 등)을 단일 원재료 형태로 섭취할 수 있는 제품입니다.\n\n---\n\n### 2. 원재료 및 중량 비교 요약\n\n| 제품명 | 원재료 구성 | 표기 중량 | 비고 |\n| :--- | :--- | :--- | :--- |\n| **Smash Melon** | 수박씨 100% (냉압착·단일 성분) | **약 930g** (2 lbs / 32.8 oz) | 대용량 파우치 패키징, 1회당 단백질 22g |\n| **NURTIVE** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 표준 파우치 규격, 21회 제공량 |\n| **Cut the Bull** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 무첨가 단일 원재료, 1회당 단백질 20g |\n\n* **원재료 특징**: 세 제품 모두 기타 부형제, 인공 감미료, 착향료 없이 **수박씨 단일 원료 100%**로 구성되어 있습니다.\n* **중량 차이**: Smash Melon은 약 **930g(2 lbs)**의 대용량 구성이며, NURTIVE와 Cut the Bull은 약 **454g(16 oz)** 용량으로 제공됩니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu_YTc6TgIg1iu8E9eBoVooWit90u0mRT3L5LRdpA4f0DPVvd41cSqwLQ6L1IXM95McCM2Ki0_0e5Fo3YdPVwxU4c18KrZhhysmKEtjC3Hy2ALM650Asfwpkog1gS-t0rOqHKtOruWXKyqR6O3oNw6aWZX6jkIyKWFYXJViaoIvXUs88JugtlFI3Ngz2yAEGEkHF4wyBB_-HkIAUfe5B6IXZ_QdnJd6Fe0Tjm32CeIR1vx2nAB",
+      "title": "desertcart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKLbMw8LtbBuZaarkul5GvCqD6BeciSogiLN45tru8wgchefxrFvesRjzh2t50zbgeikHF5Q03DtW6U-FyIcvJzTR8pz8EWJMkpKj-dhVHH76bUC7_QJj-ZERQ-VfYWO_r25Ubgz6xbqHDAoLwYf5NfoxiX1W_rSh3wKMT9pSLpZ_BZDIJ3d51jsUDWGswRGjKJFTSzz8UCIp9wPPJFxTJT0oET0OPJGnKPJXULxjrlcauBuAgxcQtTF6SzpxEH2CgP7wFzRxZcOy5EQTS",
+      "title": "einpresswire.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ4I2MPPugXpOEiGZKHS5tvHcrXZHjHCy5mu5O_G8vTHWIV2SwHJqMN1h_ri6ywYhFbrZzfJKNzjNWIuqiehCKSkfFU188beyT_Vh0dbI0Q_aPrQRDslclQbTDscw0fA3sk5aPLPQPJdpknAgx-2CBSjceAG5xgcrFE3Gc9Cp5-bQoipPmY4dHT-bVbp5maYWFbmB0jh5xgw8eFQdgz1XBJNFpbVx-l-m_9OQ=",
+      "title": "mercadolivre.com.br"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGj2kwFy9eXvWKT2htZS4vldAMI3xAVXEhkI9EJDjNk7ymnTdwL1-WH8Jx5Hed1GpgdDMvQiVlof4zB7ITA64wCBDxAbuDO9KlBkTKj5rXBMUS8We1CbqkREkwEsUIJzuiFk1KjtB0aM=",
+      "title": "nurtive.co"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm0VQzLoIpe-zu_qgnVSQTISiFkAGE4eV4fsgotJuIsSr0ucmIE9V_RacHFhdz4uVyvUaWxaQ9HmN7qQ-iN0QBQh8DEIVMoDd57UAkJl74yzDc7dL7TCLk3vu_PVZK6ariOqfzg_I2_bOFys-MLRjVdf2Ht1gyuIN6kq6SisHgtoy5sEyEyfqYWBH-3LN_1zuI06U0uKIVl1HYEl13jKijqmS6IKYzDt4VIlvhL0BBTBwhzu1pJVVMaNG3jVsy4bt5NzRAuleXihR1D-Iwbe3XAJWqaJXd8vwzUjcNHxRVPv3WzqKEi-ALTFOU4hWtXaUNQiOUof23QXp9ebcnMA4VUg==",
+      "title": "gosupps.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTHTB1S3uilp-391iYa1zqE85KtuiBNLtUyB3NNh-ooqypoleNCw8Rvul9tIRVbHZiNojT6B1WqnqrR4SixItiXgl8SQED-W3lSGcxkAkkC0z4K2JQ371ED9yi0t62iOH7KGol9Of0lxbUR2A6vPBwtzv3",
+      "title": "onsetworldwide.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzA8jv6o00c2Qw6MZPZwCmhEq6Fgm1is6jnpXtHdiVpJF8lHV4HBxWoFZUnfWDAZEg782JFayXL118IyThw4jqbZqOPEVlumIO8Uqn-sgwgLefoDJHIEOC4fdvSqPA5oJDiSZbOL5Rk0oYW2Ke8XTR-4c=",
+      "title": "cutthebullfoods.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiLXKGSHhigAjEvWk0l1WFC8MGPF384gkK6cxZE8lWwWHeZF29TymvReu4-9HC-Yr-ceWFCowgniTHnRFjmcELDQWkeb9-2huJWgNthr2u3cDTF8AuzO95vsHQxBWVuwLaIUmdRG_Kosh9FfWwnPAD87M=",
+      "title": "cutthebullfoods.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPBugarSQO8KJ-xr9JpEIKe7ZYzxLToFd4Hshy-AHle6uZcSZAAYaFcT_HOTSQoxOcEzTN-5XrKe2RfPiGOqz-erUMV_62NbGjC30KJl75E91q47H1jU1Eu2EiyEgphKF5tOxS8pA3jlGo2yMruc5aZEfNPO0ZgvVenFr2jnoTTFDSpyrx8tVs-Qblz7UiipUoU0PKRxR0xYXl-PlZ1uWSkHvb6S0jc5FeFiDo5WmBbNRR",
+      "title": "tiktok.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzA8jv6o00c2Qw6MZPZwCmhEq6Fgm1is6jnpXtHdiVpJF8lHV4HBxWoFZUnfWDAZEg782JFayXL118IyThw4jqbZqOPEVlumIO8Uqn-sgwgLefoDJHIEOC4fdvSqPA5oJDiSZbOL5Rk0oYW2Ke8XTR-4c=",
+      "title": "cutthebullfoods.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2JJ1l7ongqJsOCqEXhcRuBi7vkTwrtWLRweKIgaonAYBs_ix_1kDfLq_fTEqb_EAmdkzB-JhTOQjYaJ8AXFknHlUeBMVtuZwg-cQ0YPkcCYVWYQG3fIvP3u7cDpo45zZkuR_v5mwf6M1ZrRdwFC5_AqJvsBU_lTQccETDmFIVxEE2drn7gQOh2b31cQgcOG8UoApknJ4jshNg0dKw13tBZtfVsw==",
+      "title": "mynetdiary.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "ZfEEa8GlJ5js2roP3b6XqQ0",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "\"Cut the Bull\" \"Watermelon Seed Protein Powder\" ingredients net weight",
+    "watermelon seed protein powder",
+    "\"Smash Melon\" \"Watermelon Seed Protein Powder\" net weight oz or grams",
+    "\"watermelon seed protein powder\" amazon",
+    "\"Cut the Bull\" \"Watermelon Seed Protein Powder\" oz OR grams OR lbs"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹에서 확인 가능한 대표적인 **수박씨 단백질(탈지/냉압착 가공) 분말** 3종의 원재료, 중량, 판매처 및 상세 정보는 다음과 같습니다.\n\n---\n\n### 1. 제품 목록 및 상세 정보\n\n#### ① Smash Melon Watermelon Seed Protein Powder (Raw Cold-Pressed)\n* **제품명**: Smash Melon Watermelon Seed Protein Powder (Single Ingredient Unflavored)\n* **판매처**: 아마존(Amazon), Smash Melon 공식 스토어\n* **원재료**: **수박씨 100%** (화학적 용매 없이 냉압착 공정으로 착유 및 탈지 과정을 거쳐 분말화한 단일 원재료, 감미료·인공 첨가물 무첨가)\n* **중량**: **2 lbs (약 32.8 oz / 약 930g)**\n* **근거 링크**: [Amazon 상품 상세 페이지](https://www.amazon.com/dp/B0CV5NZ21G)\n* **선택 이유**: 첨가물 없는 단일 원재료(Single-ingredient) 제품이며, 1회 제공량당 22g의 고함량 단백질을 제공하는 대용량(약 930g) 규격 제품입니다.\n\n---\n\n#### ② NURTIVE Watermelon Seed Protein Powder\n* **제품명**: NURTIVE Watermelon Seed Protein Powder 16 oz\n* **판매처**: NURTIVE 공식 온라인 몰, GoSupps\n* **원재료**: **수박씨 단백질 분말 100%** (비건, 글루텐 프리, Non-GMO 식물성 수박씨 단일 원료)\n* **중량**: **16 oz (약 454g / 21회 제공량)**\n* **근거 링크**: [NURTIVE 공식 판매처](https://nurtive.co/products/watermelon-seed-protein-powder-16-oz)\n* **선택 이유**: 스무디나 쉐이크 등에 섞어 먹기 좋은 입자로 가공된 순수 수박씨 식물성 단백질 파우더로, 16 oz(454g)의 표준적인 규격을 갖추고 있습니다.\n\n---\n\n#### ③ Cut the Bull Watermelon Seed Protein Powder\n* **제품명**: Cut the Bull Watermelon Seed Protein Powder\n* **판매처**: Cut the Bull Foods 공식 온라인 몰, 틱톡샵\n* **원재료**: **수박씨 단백질 분말 100%** (첨가물, 증점제, 인공 향료 무첨가 단일 원재료)\n* **중량**: **16 oz (약 454g)**\n* **근거 링크**: [Cut the Bull Foods 공식 판매처](https://cutthebullfoods.com/product/watermelon-seed-protein-powder/)\n* **선택 이유**: 불필요한 부원료나 인공 첨가물을 배제하고 수박씨 본연의 영양(1회 28g 기준 단백질 20g 및 마그네슘, 망간 등)을 단일 원재료 형태로 섭취할 수 있는 제품입니다.\n\n---\n\n### 2. 원재료 및 중량 비교 요약\n\n| 제품명 | 원재료 구성 | 표기 중량 | 비고 |\n| :--- | :--- | :--- | :--- |\n| **Smash Melon** | 수박씨 100% (냉압착·단일 성분) | **약 930g** (2 lbs / 32.8 oz) | 대용량 파우치 패키징, 1회당 단백질 22g |\n| **NURTIVE** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 표준 파우치 규격, 21회 제공량 |\n| **Cut the Bull** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 무첨가 단일 원재료, 1회당 단백질 20g |\n\n* **원재료 특징**: 세 제품 모두 기타 부형제, 인공 감미료, 착향료 없이 **수박씨 단일 원료 100%**로 구성되어 있습니다.\n* **중량 차이**: Smash Melon은 약 **930g(2 lbs)**의 대용량 구성이며, NURTIVE와 Cut the Bull은 약 **454g(16 oz)** 용량으로 제공됩니다.",
+              "thoughtSignature": "ErsbCrgbAWkUfRN5aMwVIe1K9Vf+RsbeGquN6k1sLVAxpdWB323Q4bJ4QQO8P2uHLj00Xx0gyZYONMW2MSog/XW0DLmBlEP8VXgXHFQfkv2EZ7aTy06Ao2x97qcTaiODP++xFxgzxjsHLBt1o2IsqApnHAloFm//sZzXCxkg6GRPGFno71IoraP+jBDanvnb4A0q76NlQa4WhumFmslzQfEB0LGHcSJhbPehwvulsoQ1LqBziWUgyeEsBvbuXVdUo7aWHALoWyUeDMZzSKgYbEUKX/Dge1WYbrsKzAylOGfXinjSKQ/Emaeb3OQQow2NNw0B0YbkqSBy8A4ddvCyoLtGSvkNnjyknUkj5/W+Mh+8nlp6Tk/P0WLJg4V7EbY3+bVIEYW9gSHX6a5f7/+MQbN80zetXVh+PbRUaoAHc5/8L78zEmLMhATbwBpowsHZwL/Z43/pzk6Xzma1pX+0Zz8CQB94k7OkZIMBk0ZCEbHsaXpNDJhE+asOwlDki4rlbjwA6l7R8qjDv6mT0jMdpnQLpq/DKYr/gT49Pp6KnrJ1K9gbfVuUV2ZN0eIlZUDVFLPbsWOPSSI2BU6lwwgGhjT9nUqVP1o4bhawLOXnM3RHLYO4knMUX1E4MR0g83Q+JOG6z0oe4Td3ulwAkawdSTP7akP9y4pt/o3gN6F+aHw8ylzhcyH6NXMvw0vF+AqM0OLsYbZIHfClme+ofKQCgzBIKOq4D2DFzc2ns7AzZVKuyEwm5aDWle0ILF7XxrCeHTWWgbpDaDwdsHO8pe2XoAgjShIyFjuuBePzamAoX2sF2Nhpw6A/yYKjnuR0s7cwq5OXFfy3LK+YnPoUBYv0BoH7jzkgGoVPd8TnFDLxrxISIzj/Yck0t857ZXoqv0xx/hSRUCQXJNVKdPBUyY1C/Ehnkd8Jtx3yUanhPFNeVmIQuPVtQbKp/aRwCxpsPTPExSdmfmAvXMZbZjsY9CY8N0FvryMa1pFL+su8sQAejU/uTTntMW/nGZCEDS6bTEdQL4hkIfHHHpQM3qffc4ri6U+YAvoluZDHN6M8GLg4zCpmBegQ/jegDw6rbwyvo1eZI0tngcxE2iLcUe0GNnAOIqYle3AkrlK+zLUaolCS2svMqHEnYRZaexZLvlHAwDLdN3xn0Psz60TyYZf4/JoQAE04Qx1ROXax3mBQIWZQfoqX4HdKTiezweC11oXGlDZg+lAn1wzdFA1EsIoiy5DGVuZY+Vzyv4QnEz2kSbJaHrtDoTARcUHpJwCtziwekMAQtAVQ1kEYx13BsKPR/DYyQhEeF6OfDFZnpc8tpUN8F79t6gGM9f0zIuHhuyHwBczeQNC+A/hzXHgH8wLRPqJLA8ML90qlVPY9ZFMVmoz9miugs898gBraxF7iuYwezDdNYB583h5AMvaBl71q800uWzqCDYYbw3J6wSrhc9EsptlnF12MwT9BeNF5UXUO/VZGFx+ro/KVNpqiUJIJ9CtjfENeV3zs/WM5bNe/WfEHp+s2hF5IluDqyV7bafmY/v0LdWXj+4wpAB/zIuLOJ2cpgkIp2RXil6QgQHAaVYR2DuHDw6CWW/keElaYRu+AUNUTskdSbb9Y/jSUVcs1797/q9VgO9PNfGcAbUHSGyFcJ0/pEgYA0oLn2fXORj/g1haXXVahQIOEuAnRkizucRJ0u2Jfol0Us/Q3bWxgB1VftfqCLoSNnUbXe5W3oI8Wr48fNQFLjuJY2ZzY1N9Ko+nz1WwqmMIe3T+0/XbTzTujrcs4ph+mF78q1Q9fZKWDo7KUsqjTFUvejCpDQKF5mHCxLDdr6gTAw46jrQNcbEp6ZHghfzy8j3pSufSyYotIuVxlkf8BT49Oqj2XC81aHffr3r0ghMfLmzGo2aaZNBwV0DPy3h4to/f8tBOH2YyCkmTrJ2zEUnrDYWcTl6VmzgEb5fCYVLDABqRlJuLxYk1O4RXp4c1G/K9afTWqoESJ2OTRPTe7CrJFdikMfab61Ag+TePEe48yNX6JN3c9zS+J8ari3TuzQgPxfZfrdCc8dw0Hj6N9SVsiDZb0ikEJoJBgV/xcUxZMmMZW4/rdFQLTBVEKuV4+U8GEEdEpJ+U5uBqsZNxLi4n+1QRX8OXLpF1cTxrinS0Krn4Y7vOtGz96rJD1M5MfY9ye19dw2mwJYmXHSfv9yRig1s+yfhZnUSiTNz7mD7bWOB9OiYspBPdEOP1JCoGZamdVNxhPsobGpe7oqHvdob7aOLHLYvarMo8LmxkPJ09hrtJXj+zv9s+udm6/93y2NnImviwBrSjU6/CFDeXBY7IIvWclIhMDhvt3zRLvftNe7gfvLvdQg8/6xEnMGuJAuFGs/BSBlIWfW5r/KJ/pqYRmdejdlTEFVCnorKzOlaGFEgFiDvEZtfgO6w7Uvw46KPxS/tPdFtPF7vOMegMkpLVE61ojx83u6Qdstpm+VNQ1Pyba/s8WsR6tTw4Ggk4WagEeKUe1KfHF37qSvHt+H1J9DsNYzKYkKytGKkFPYqJ2x/+aDBeABVyJwZrbV52+J1dPC0fxp2P+ZE2TyR9ZG/151mw1TnfRfxhDq6VFaI0TTRavkKgjOW2xoMcWkOkdI6/tuqZrYxkLKAQPFe1RCqjlGec47guOuiQX4Xbg1T0ZNc2aM6Ov/dG+KBZDoXidCOb6uczw/4xeXR/PSfXbKbXamKy9q9ByhHEb5K5JiJYgcVIEv9EzX87XtLwwZCmjnouwhogjGZyTJbmr6UQnx1STxQOiDr5Ld/P5q5DnZuf1vr5aYt1cDP26ztekwM+38Fnuy3aeu2uQOEAOYL8B4y+XPM1JzLi7HElIgwADFDjIyWzrDomUE8u17xMmv/HHe0A/DuN4h16xOdDv1mFU7eFsVN5muRB+D1ymyBfm4IatEI7j2J0Z/AocdZA3ox2AOaTGW0kOpuzq9GWZGDRRC1LlxF7aJtBhncI+iAoCek5Ah0eN3sFPOya0T+n8O5uHwUwA3cH0iUySmyPui6L7k36T/9nJAWGpIJpbZJnl4ljy9UulgsKnDY71UJuftfdwbR5lu/K+5MIZl3IPvMVoIV43DGKwCe7fv6+bn+nZ795dE6ToyTSKW3XGCHzPcuMazcO/nWk0qhZEo19i28h0EtSdu0VFKnILQSAdBBGG2H1aofYQ0TDNv9qhl8lQJudjP73Ng6jD4cUYnUWOJCA6Q9Yp0egSxyCIktGQu3aIGXlNj5OpzLyu+q7PnHo3uuBEibUO1xRvPwJLp3l4ivQ+AOpIq35n5zIsjYmRpMbgfoPhsMIkYw17/Nkl4MwhGh3He3Ss6PKiGVbkxZiJk2f9qQWI4hc8M2H+S74U30Na/nMQCPDzcBDQV2oU/bDcJQGUf+J9TqiysN9XWC3/G89WnZeFui72TYIPGRDbH++Fb1v1xe/ZWIQrnA2MpdxkMhRAJH2D9ZMHlVQ6BhG0vkqnOwQSAfx9E2YsSkK/MHjjuXG9up2jTk+o1/4EMzUgl4bZU9ZYijY6Vdy1p6PmgUYUY24wgqVJZxl/GpiaMkIa5HJgg0R0oa+sDey7R2nTiTHsyYrtAXYbLef16PgXWai+2q6RgeSMBaKh+Wv7MNN7Sg60bUn5h10Rkr8ENm0/BzQUIuiMWRyTe7+yZmPYqTeW2bYW2H9kOCfiMdclQVd7nEg3DoCetPgNjrwWHDPShjq4gO2vDXLDWQoddc/45jehY/WI/oiEra4Ex5bs04vxNTWplgEBJonFHkEiphcwfhGVrIluniGLlPmxobqKuQD4mlVd+/BQHQjFty3Cd+xnImL/ohBuuEV+5IiHXY9puohT2pnCfvoTc0wuh37raqqien/c/XuWHAUP4C4xHGPez1RDXvNLpGlzF/WcwcqDHTqhlJ9xthsveL0bF94uq96GuOP9yzy3w1VmT+8ISXZLAMVgUI7QaHtKAOM2p7nY7Iu1bxGtyvW8mOBn8heZu3Xn7PuPld474wdSYWVKRhT4Q4SzL2DKrlylhBh3QV8JA2xApSFikJBJKrIK6Ka6b/OEEoKydbsfo9AMpUZ05v5LQmhXWAqhQLNzlfp1SKYtjvwdX7MwWVL/cKnqjrbWQxlNvKA/tp9AY08fS8qfhCZOqJoMbIigyUhDtSZT/IQSgNxSa/rOzYXNjNU8JtMbFoYWXwYcef4yzSVcTDy8k+WkcBhQ2DDv/cD+W3EWfplQxvuHLkVgliHW7YHpVmNPwhceDAvneU515oxn2M8w83M4M3RGP3YWYhQ9lfqVNzCoP5CmGtF4U52pnsGGcXLYqc0aGZW9M3JRwk/xgVMaJ6JpLpxJyJ25Ji8ZWVfCLKoyDVeNjnv13aF+lEa/3lstVEeleb8ZPjYT+epR6tBTomUDduwQX9Q1PF/QezrQGf7s4RGIUb88f3XVf8hyO/SBsedOH+Dm9BVHFslTMbZ4d6MiaxpCNITMcYlOTFBQV4btL/sGphfuNJGZE9cis4k4JJLsatwQSnKo0oiuauB6SnNpnhS4GuS7e7QgXOC4y+aI6VpQjEZyTnfTZRvtXXXj6BQ+wq2p48s3n69nvUyRYpcaemFDGMxiAnVP6q9KRfNvVEv31/h/iJf2r8m58CTL3sjSGq0PQ9VqT9GJoqyuAylaBRjwYcPkTcBWFflPuekNUpwPS/zuuP9CQXdJJGwCs+mHJdkaemdXQ5JHT6Y="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Cut+the+Bull%22+%22Watermelon+Seed+Protein+Powder%22+ingredients+net+weight&client=app-vertex-grounding&safesearch=active\">&quot;Cut the Bull&quot; &quot;Watermelon Seed Protein Powder&quot; ingredients net weight</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=watermelon+seed+protein+powder&client=app-vertex-grounding&safesearch=active\">watermelon seed protein powder</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Smash+Melon%22+%22Watermelon+Seed+Protein+Powder%22+net+weight+oz+or+grams&client=app-vertex-grounding&safesearch=active\">&quot;Smash Melon&quot; &quot;Watermelon Seed Protein Powder&quot; net weight oz or grams</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22watermelon+seed+protein+powder%22+amazon&client=app-vertex-grounding&safesearch=active\">&quot;watermelon seed protein powder&quot; amazon</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Cut+the+Bull%22+%22Watermelon+Seed+Protein+Powder%22+oz+OR+grams+OR+lbs&client=app-vertex-grounding&safesearch=active\">&quot;Cut the Bull&quot; &quot;Watermelon Seed Protein Powder&quot; oz OR grams OR lbs</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu_YTc6TgIg1iu8E9eBoVooWit90u0mRT3L5LRdpA4f0DPVvd41cSqwLQ6L1IXM95McCM2Ki0_0e5Fo3YdPVwxU4c18KrZhhysmKEtjC3Hy2ALM650Asfwpkog1gS-t0rOqHKtOruWXKyqR6O3oNw6aWZX6jkIyKWFYXJViaoIvXUs88JugtlFI3Ngz2yAEGEkHF4wyBB_-HkIAUfe5B6IXZ_QdnJd6Fe0Tjm32CeIR1vx2nAB",
+                "title": "desertcart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKLbMw8LtbBuZaarkul5GvCqD6BeciSogiLN45tru8wgchefxrFvesRjzh2t50zbgeikHF5Q03DtW6U-FyIcvJzTR8pz8EWJMkpKj-dhVHH76bUC7_QJj-ZERQ-VfYWO_r25Ubgz6xbqHDAoLwYf5NfoxiX1W_rSh3wKMT9pSLpZ_BZDIJ3d51jsUDWGswRGjKJFTSzz8UCIp9wPPJFxTJT0oET0OPJGnKPJXULxjrlcauBuAgxcQtTF6SzpxEH2CgP7wFzRxZcOy5EQTS",
+                "title": "einpresswire.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ4I2MPPugXpOEiGZKHS5tvHcrXZHjHCy5mu5O_G8vTHWIV2SwHJqMN1h_ri6ywYhFbrZzfJKNzjNWIuqiehCKSkfFU188beyT_Vh0dbI0Q_aPrQRDslclQbTDscw0fA3sk5aPLPQPJdpknAgx-2CBSjceAG5xgcrFE3Gc9Cp5-bQoipPmY4dHT-bVbp5maYWFbmB0jh5xgw8eFQdgz1XBJNFpbVx-l-m_9OQ=",
+                "title": "mercadolivre.com.br"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGj2kwFy9eXvWKT2htZS4vldAMI3xAVXEhkI9EJDjNk7ymnTdwL1-WH8Jx5Hed1GpgdDMvQiVlof4zB7ITA64wCBDxAbuDO9KlBkTKj5rXBMUS8We1CbqkREkwEsUIJzuiFk1KjtB0aM=",
+                "title": "nurtive.co"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm0VQzLoIpe-zu_qgnVSQTISiFkAGE4eV4fsgotJuIsSr0ucmIE9V_RacHFhdz4uVyvUaWxaQ9HmN7qQ-iN0QBQh8DEIVMoDd57UAkJl74yzDc7dL7TCLk3vu_PVZK6ariOqfzg_I2_bOFys-MLRjVdf2Ht1gyuIN6kq6SisHgtoy5sEyEyfqYWBH-3LN_1zuI06U0uKIVl1HYEl13jKijqmS6IKYzDt4VIlvhL0BBTBwhzu1pJVVMaNG3jVsy4bt5NzRAuleXihR1D-Iwbe3XAJWqaJXd8vwzUjcNHxRVPv3WzqKEi-ALTFOU4hWtXaUNQiOUof23QXp9ebcnMA4VUg==",
+                "title": "gosupps.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTHTB1S3uilp-391iYa1zqE85KtuiBNLtUyB3NNh-ooqypoleNCw8Rvul9tIRVbHZiNojT6B1WqnqrR4SixItiXgl8SQED-W3lSGcxkAkkC0z4K2JQ371ED9yi0t62iOH7KGol9Of0lxbUR2A6vPBwtzv3",
+                "title": "onsetworldwide.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzA8jv6o00c2Qw6MZPZwCmhEq6Fgm1is6jnpXtHdiVpJF8lHV4HBxWoFZUnfWDAZEg782JFayXL118IyThw4jqbZqOPEVlumIO8Uqn-sgwgLefoDJHIEOC4fdvSqPA5oJDiSZbOL5Rk0oYW2Ke8XTR-4c=",
+                "title": "cutthebullfoods.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiLXKGSHhigAjEvWk0l1WFC8MGPF384gkK6cxZE8lWwWHeZF29TymvReu4-9HC-Yr-ceWFCowgniTHnRFjmcELDQWkeb9-2huJWgNthr2u3cDTF8AuzO95vsHQxBWVuwLaIUmdRG_Kosh9FfWwnPAD87M=",
+                "title": "cutthebullfoods.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPBugarSQO8KJ-xr9JpEIKe7ZYzxLToFd4Hshy-AHle6uZcSZAAYaFcT_HOTSQoxOcEzTN-5XrKe2RfPiGOqz-erUMV_62NbGjC30KJl75E91q47H1jU1Eu2EiyEgphKF5tOxS8pA3jlGo2yMruc5aZEfNPO0ZgvVenFr2jnoTTFDSpyrx8tVs-Qblz7UiipUoU0PKRxR0xYXl-PlZ1uWSkHvb6S0jc5FeFiDo5WmBbNRR",
+                "title": "tiktok.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzA8jv6o00c2Qw6MZPZwCmhEq6Fgm1is6jnpXtHdiVpJF8lHV4HBxWoFZUnfWDAZEg782JFayXL118IyThw4jqbZqOPEVlumIO8Uqn-sgwgLefoDJHIEOC4fdvSqPA5oJDiSZbOL5Rk0oYW2Ke8XTR-4c=",
+                "title": "cutthebullfoods.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2JJ1l7ongqJsOCqEXhcRuBi7vkTwrtWLRweKIgaonAYBs_ix_1kDfLq_fTEqb_EAmdkzB-JhTOQjYaJ8AXFknHlUeBMVtuZwg-cQ0YPkcCYVWYQG3fIvP3u7cDpo45zZkuR_v5mwf6M1ZrRdwFC5_AqJvsBU_lTQccETDmFIVxEE2drn7gQOh2b31cQgcOG8UoApknJ4jshNg0dKw13tBZtfVsw==",
+                "title": "mynetdiary.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 297,
+                "endIndex": 385,
+                "text": "**제품명**: Smash Melon Watermelon Seed Protein Powder (Single Ingredient Unflavored)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 388,
+                "endIndex": 420,
+                "text": "**판매처**: 아마존(Amazon)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 388,
+                "endIndex": 450,
+                "text": "**판매처**: 아마존(Amazon), Smash Melon 공식 스토어"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 453,
+                "endIndex": 639,
+                "text": "**원재료**: **수박씨 100%** (화학적 용매 없이 냉압착 공정으로 착유 및 탈지 과정을 거쳐 분말화한 단일 원재료, 감미료·인공 첨가물 무첨가)"
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 642,
+                "endIndex": 688,
+                "text": "**중량**: **2 lbs (약 32.8 oz / 약 930g)**"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 783,
+                "endIndex": 972,
+                "text": "**선택 이유**: 첨가물 없는 단일 원재료(Single-ingredient) 제품이며, 1회 제공량당 22g의 고함량 단백질을 제공하는 대용량(약 930g) 규격 제품입니다"
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1030,
+                "endIndex": 1089,
+                "text": "**제품명**: NURTIVE Watermelon Seed Protein Powder 16 oz"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1092,
+                "endIndex": 1144,
+                "text": "**판매처**: NURTIVE 공식 온라인 몰, GoSupps"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1147,
+                "endIndex": 1267,
+                "text": "**원재료**: **수박씨 단백질 분말 100%** (비건, 글루텐 프리, Non-GMO 식물성 수박씨 단일 원료)"
+              },
+              "groundingChunkIndices": [
+                5,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1270,
+                "endIndex": 1320,
+                "text": "**중량**: **16 oz (약 454g / 21회 제공량)**"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1437,
+                "endIndex": 1638,
+                "text": "**선택 이유**: 스무디나 쉐이크 등에 섞어 먹기 좋은 입자로 가공된 순수 수박씨 식물성 단백질 파우더로, 16 oz(454g)의 표준적인 규격을 갖추고 있습니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1701,
+                "endIndex": 1759,
+                "text": "**제품명**: Cut the Bull Watermelon Seed Protein Powder"
+              },
+              "groundingChunkIndices": [
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1762,
+                "endIndex": 1827,
+                "text": "**판매처**: Cut the Bull Foods 공식 온라인 몰, 틱톡샵"
+              },
+              "groundingChunkIndices": [
+                6,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1830,
+                "endIndex": 1945,
+                "text": "**원재료**: **수박씨 단백질 분말 100%** (첨가물, 증점제, 인공 향료 무첨가 단일 원재료)"
+              },
+              "groundingChunkIndices": [
+                9,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1948,
+                "endIndex": 1980,
+                "text": "**중량**: **16 oz (약 454g)**"
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2111,
+                "endIndex": 2342,
+                "text": "**선택 이유**: 불필요한 부원료나 인공 첨가물을 배제하고 수박씨 본연의 영양(1회 28g 기준 단백질 20g 및 마그네슘, 망간 등)을 단일 원재료 형태로 섭취할 수 있는 제품입니다"
+              },
+              "groundingChunkIndices": [
+                9,
+                10,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2481,
+                "endIndex": 2542,
+                "text": "| **Smash Melon** | 수박씨 100% (냉압착·단일 성분)"
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2481,
+                "endIndex": 2575,
+                "text": "| **Smash Melon** | 수박씨 100% (냉압착·단일 성분) | **약 930g** (2 lbs / 32.8 oz)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2481,
+                "endIndex": 2630,
+                "text": "| **Smash Melon** | 수박씨 100% (냉압착·단일 성분) | **약 930g** (2 lbs / 32.8 oz) | 대용량 파우치 패키징, 1회당 단백질 22g"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2633,
+                "endIndex": 2680,
+                "text": "| **NURTIVE** | 수박씨 단백질 분말 100%"
+              },
+              "groundingChunkIndices": [
+                5,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2633,
+                "endIndex": 2703,
+                "text": "| **NURTIVE** | 수박씨 단백질 분말 100% | **약 454g** (16 oz)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2633,
+                "endIndex": 2746,
+                "text": "| **NURTIVE** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 표준 파우치 규격, 21회 제공량"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2749,
+                "endIndex": 2801,
+                "text": "| **Cut the Bull** | 수박씨 단백질 분말 100%"
+              },
+              "groundingChunkIndices": [
+                9,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2749,
+                "endIndex": 2824,
+                "text": "| **Cut the Bull** | 수박씨 단백질 분말 100% | **약 454g** (16 oz)"
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2749,
+                "endIndex": 2876,
+                "text": "| **Cut the Bull** | 수박씨 단백질 분말 100% | **약 454g** (16 oz) | 무첨가 단일 원재료, 1회당 단백질 20g"
+              },
+              "groundingChunkIndices": [
+                9,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2882,
+                "endIndex": 3036,
+                "text": "**원재료 특징**: 세 제품 모두 기타 부형제, 인공 감미료, 착향료 없이 **수박씨 단일 원료 100%**로 구성되어 있습니다"
+              },
+              "groundingChunkIndices": [
+                3,
+                2,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3040,
+                "endIndex": 3119,
+                "text": "**중량 차이**: Smash Melon은 약 **930g(2 lbs)**의 대용량 구성이며"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3040,
+                "endIndex": 3196,
+                "text": "**중량 차이**: Smash Melon은 약 **930g(2 lbs)**의 대용량 구성이며, NURTIVE와 Cut the Bull은 약 **454g(16 oz)** 용량으로 제공됩니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                8
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "\"Cut the Bull\" \"Watermelon Seed Protein Powder\" ingredients net weight",
+            "watermelon seed protein powder",
+            "\"Smash Melon\" \"Watermelon Seed Protein Powder\" net weight oz or grams",
+            "\"watermelon seed protein powder\" amazon",
+            "\"Cut the Bull\" \"Watermelon Seed Protein Powder\" oz OR grams OR lbs"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1455,
+      "candidatesTokenCount": 1366,
+      "totalTokenCount": 5216,
+      "cachedContentTokenCount": 1036,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1455
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1036
+        }
+      ],
+      "thoughtsTokenCount": 2395,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "ZfEEa8GlJ5js2roP3b6XqQ0"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:08:08+09:00"
+}

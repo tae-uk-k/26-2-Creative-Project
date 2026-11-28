@@ -1,0 +1,215 @@
+.skip {
+  position: absolute;
+  top: -3rem;
+  left: var(--s-4);
+  z-index: 100;
+  padding: var(--s-2) var(--s-4);
+  border-radius: var(--s-r-md);
+  color: #fff;
+  background: var(--s-grey900);
+}
+.skip:focus {
+  top: var(--s-2);
+}
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2) var(--s-4);
+  padding: var(--s-2) var(--s-4);
+  color: var(--s-grey100);
+  background: var(--s-grey900);
+  font-size: var(--s-t7);
+}
+.demoLabel {
+  color: var(--s-grey400);
+  font-weight: 600;
+}
+.persona {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border-radius: var(--s-r-sm);
+  background: var(--s-grey800);
+}
+.persona button {
+  padding: 0.25rem 0.7rem;
+  border: 0;
+  border-radius: calc(var(--s-r-sm) - 2px);
+  color: var(--s-grey400);
+  background: transparent;
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+.persona button[aria-pressed="true"] {
+  color: var(--s-grey900);
+  background: var(--s-paper);
+}
+.demoLink {
+  padding: 0;
+  border: 0;
+  color: var(--s-grey300);
+  background: transparent;
+  font-size: var(--s-t7);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.demoLink:hover {
+  color: var(--s-paper);
+}
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid var(--s-grey200);
+  background: rgb(255 255 255 / 0.92);
+  backdrop-filter: saturate(1.8) blur(14px);
+}
+.inner {
+  display: flex;
+  align-items: center;
+  gap: var(--s-6);
+  width: min(var(--s-content), calc(100% - 2 * var(--s-edge)));
+  height: var(--s-header);
+  margin: 0 auto;
+}
+.brand img {
+  width: 4.25rem;
+  height: auto;
+}
+.nav {
+  display: flex;
+  gap: var(--s-1);
+}
+.navLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-height: 2.5rem;
+  padding: 0 var(--s-3);
+  border-radius: var(--s-r-md);
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.navLink svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.navLink:hover {
+  color: var(--s-grey900);
+  background: var(--s-grey100);
+}
+.navLink[aria-current="page"] {
+  color: var(--s-grey900);
+}
+.end {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin-left: auto;
+}
+.account {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  max-width: 14rem;
+  min-height: 2.5rem;
+  padding: 0 var(--s-3);
+  border-radius: var(--s-r-md);
+  color: var(--s-grey700);
+  font-size: var(--s-t6);
+  font-weight: 500;
+}
+.account:hover {
+  background: var(--s-grey100);
+}
+.account span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.avatar {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  color: var(--s-blue700);
+  background: var(--s-blue50);
+  font-size: var(--s-t7);
+  font-weight: 700;
+}
+.mobileNav {
+  display: none;
+}
+@media (max-width: 48rem) {
+  .nav,
+  .account span {
+    display: none;
+  }
+  .mobileNav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+    display: grid;
+    grid-template-columns: repeat(var(--tabs), minmax(0, 1fr));
+    padding: var(--s-1) var(--s-2)
+      calc(var(--s-1) + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--s-grey200);
+    background: rgb(255 255 255 / 0.96);
+    backdrop-filter: blur(14px);
+  }
+  .mobileNav a {
+    display: grid;
+    justify-items: center;
+    gap: 0.15rem;
+    padding: var(--s-2) 0;
+    color: var(--s-grey500);
+    font-size: 0.6875rem;
+    font-weight: 600;
+  }
+  .mobileNav a svg {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+  .mobileNav a[aria-current="page"] {
+    color: var(--s-grey900);
+  }
+  .body {
+    padding-bottom: 4.5rem;
+  }
+}
+@media print {
+  .bar,
+  .demo,
+  .mobileNav,
+  .skip {
+    display: none;
+  }
+}
+
+/* 플랫폼 표시 */
+.platform {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: var(--size, 2.75rem);
+  height: var(--size, 2.75rem);
+  border-radius: var(--s-r-lg);
+  background: var(--s-grey50);
+  box-shadow: inset 0 0 0 1px var(--s-grey200);
+}
+.platform img {
+  width: 62%;
+  height: auto;
+  max-height: 62%;
+  object-fit: contain;
+}
+.platform.cafe24 img {
+  width: 76%;
+}

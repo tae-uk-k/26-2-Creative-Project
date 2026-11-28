@@ -1,0 +1,329 @@
+{
+  "run_id": "gemini-api-B0-G04-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:05:03+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G04",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "플레인 요거트에 곁들이기 적합한 씨앗 원료 분말 제품 3종의 제품명, 판매처, 원재료, 내용량 및 링크입니다.\n\n---\n\n### 1. 밥스레드밀 유기농 골든 아마씨 가루 (Bob's Red Mill, Organic Golden Flaxseed Meal)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 453g (16 oz)\n* **원재료:** 유기농 골든 아마씨 (Organic whole golden flaxseed) 100%\n* **근거 링크:** [아이허브(iHerb) 밥스레드밀 골든 아마씨 가루 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro)\n* **선택 이유:** 아마씨는 껍질이 단단해 통째로 먹으면 영양 흡수가 어렵지만, 분쇄된 형태라 플레인 요거트에 잘 섞여 섭취 흡수율을 높여줍니다. 요거트 특유의 시큼한 맛을 완화해 주는 고소한 맛을 더하며, 오메가-3 지방산과 식이섬유를 보충하기에 적합합니다.\n\n---\n\n### 2. 나비타스 오가닉스 유기농 치아 분말 (Navitas Organics, Organic Chia Powder)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 227g (8 oz)\n* **원재료:** 유기농 인증 치아씨 분말 (*Salvia hispanica*) 100%\n* **근거 링크:** [아이허브(iHerb) 나비타스 오가닉스 유기농 치아 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnUVmRo2LzhSWUT4vjKi55GitvRGxSUruYmJl3b4bO2SsrFdYn1wt17uePO8K8mkx7DYtNih3JOyMGXFCFvNguj7PBCn20oRfrOMuwsaIkFUWHoaWgk-jwUJeHsL0r99jwXQAE_f-3izg1_5NPaKoad13vWudwDo6TfqIKVOYD8pupVQ==)\n* **선택 이유:** 통 치아씨드와 달리 치아 사이에 끼는 불편함이 적고 가루 형태로 부드럽게 요거트와 섞입니다. 치아씨드 분말이 요거트의 수분을 머금으면 푸딩과 같은 점성을 만들어내어 포만감을 높여주는 특징이 있습니다.\n\n---\n\n### 3. 누티바 유기농 헴프 단백질 파우더 (Nutiva, Organic Hemp Protein Powder)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 454g (1 lb)\n* **원재료:** 유기농 대마종자(헴프씨드) 단백질 분말 (Organic hemp seed protein) 100%\n* **근거 링크:** [아이허브(iHerb) 누티바 헴프 프로틴 파우더 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBt_ydvQ4JYyCyoDJtiv6JdyHndZMnE_AU64GvRchzLJ-i_wgOkfV_B5jmJwzz8uIjsgloWjFBW3z6DGioN68xTwfIAYwTQPtQGhi4UmKUV0qo1kMum5jT26mcNEklLBGhnqPtVTXt5pfd8vp1ipvhl6ZLjULLvXyXTyyvLa10Dr7n7evxI9brP-w=)\n* **선택 이유:** 다른 인공 감미료나 부원료 없이 대마 씨앗 원물만을 가공한 고단백·고식이섬유 분말입니다. 향미가 과하지 않고 은은한 견과류 풍미가 있어 플레인 요거트 본연의 맛을 해치지 않으면서 식물성 영양소를 곁들여 먹기 좋습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Ee1Sv1rEzbCAaGspdxol-BMDBXkV-xz-iA2PdcTaZUunqSTkZHEIT5bBWN_tHh_NhNi9To8UQu2RzATS6vcAVE1CgUcTCjB9XoDlDZTO8hRPQmlOX9EF5tTSIZhU7HfndXh-jrgYMzLumbTYl0_xvGlxGQKDjaiULztlLGdTNiMSg==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnUVmRo2LzhSWUT4vjKi55GitvRGxSUruYmJl3b4bO2SsrFdYn1wt17uePO8K8mkx7DYtNih3JOyMGXFCFvNguj7PBCn20oRfrOMuwsaIkFUWHoaWgk-jwUJeHsL0r99jwXQAE_f-3izg1_5NPaKoad13vWudwDo6TfqIKVOYD8pupVQ==",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUsogDA45c03jFY-bMb-z6fxuVLuEi_xyv7h84jeP0s1pBsYFXm3U9z-WVEYNuvOymNoOb8ZD4d96x7o1g2a2xJW0PzDpEZTu-hw3V94jn92g7yxZbQXbOhDxL3XA5_Vjtp33Et6DHiDMc6TsuA==",
+      "title": "wikipedia.org"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBt_ydvQ4JYyCyoDJtiv6JdyHndZMnE_AU64GvRchzLJ-i_wgOkfV_B5jmJwzz8uIjsgloWjFBW3z6DGioN68xTwfIAYwTQPtQGhi4UmKUV0qo1kMum5jT26mcNEklLBGhnqPtVTXt5pfd8vp1ipvhl6ZLjULLvXyXTyyvLa10Dr7n7evxI9brP-w=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ds9S-ClUzZzTXTSWW9mOnTGRTXcEvnL3yK8bqbqVnxOhdLMEL1p_ecFYrRgsBTDWQPNJ-BTmuOqu9LLi6BMgMXvhLpI13VsD3vBHPJ8suN1pKe09HQLg707v0c9Qs1RGIPHkBPiN0S5MBKt0ir_UEWiI-hUrM0u7OPl_IEE1_dNypmnPAUxXtQ==",
+      "title": "vitacost.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtdFXuPUeDjNlkSDUrXFilCNRpjlrqzg-EfjLHKV6MIbdgBRp0DIzcN3a5Nstc1PZ35bZ8CsHWmVQRgxMQIOkFshO5Kca3_LZu71L8dbt-qUHuyNQ6TmQFXdpia2txMWxJmMrnzA==",
+      "title": "walmart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO4MHzHAEJwwMAvrArThsXRIjvnWpbhYnuIoDpWelo0wQ_-_D-A_aVu_Cs-0l-2WdhGKELL5GNlMGQCGOuG3FGAPBrF-pxfrIMQQdK99mtDyJGj_0SCYSUX-7kPPik",
+      "title": "k-greenbio.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "z_AEa6GkF-qD2roPwfqzuQc",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "site:kr.iherb.com \"Chia Seed\" powder OR meal",
+    "site:kr.iherb.com \"Navitas Organics\" \"치아 분말\" OR \"Chia Powder\"",
+    "site:kr.iherb.com \"Bob's Red Mill\" \"Organic Flaxseed Meal\" \"907\" OR \"453\"",
+    "site:kr.iherb.com \"Bob's Red Mill\" \"Flaxseed Meal\"",
+    "치아씨드 분말 내용량 원재료명",
+    "\"Nutiva\" \"Hemp Protein Powder\" \"Ingredients\" OR \"성분\" 454g",
+    "햄프씨드 분말 내용량 원재료명"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "플레인 요거트에 곁들이기 적합한 씨앗 원료 분말 제품 3종의 제품명, 판매처, 원재료, 내용량 및 링크입니다.\n\n---\n\n### 1. 밥스레드밀 유기농 골든 아마씨 가루 (Bob's Red Mill, Organic Golden Flaxseed Meal)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 453g (16 oz)\n* **원재료:** 유기농 골든 아마씨 (Organic whole golden flaxseed) 100%\n* **근거 링크:** [아이허브(iHerb) 밥스레드밀 골든 아마씨 가루 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro)\n* **선택 이유:** 아마씨는 껍질이 단단해 통째로 먹으면 영양 흡수가 어렵지만, 분쇄된 형태라 플레인 요거트에 잘 섞여 섭취 흡수율을 높여줍니다. 요거트 특유의 시큼한 맛을 완화해 주는 고소한 맛을 더하며, 오메가-3 지방산과 식이섬유를 보충하기에 적합합니다.\n\n---\n\n### 2. 나비타스 오가닉스 유기농 치아 분말 (Navitas Organics, Organic Chia Powder)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 227g (8 oz)\n* **원재료:** 유기농 인증 치아씨 분말 (*Salvia hispanica*) 100%\n* **근거 링크:** [아이허브(iHerb) 나비타스 오가닉스 유기농 치아 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnUVmRo2LzhSWUT4vjKi55GitvRGxSUruYmJl3b4bO2SsrFdYn1wt17uePO8K8mkx7DYtNih3JOyMGXFCFvNguj7PBCn20oRfrOMuwsaIkFUWHoaWgk-jwUJeHsL0r99jwXQAE_f-3izg1_5NPaKoad13vWudwDo6TfqIKVOYD8pupVQ==)\n* **선택 이유:** 통 치아씨드와 달리 치아 사이에 끼는 불편함이 적고 가루 형태로 부드럽게 요거트와 섞입니다. 치아씨드 분말이 요거트의 수분을 머금으면 푸딩과 같은 점성을 만들어내어 포만감을 높여주는 특징이 있습니다.\n\n---\n\n### 3. 누티바 유기농 헴프 단백질 파우더 (Nutiva, Organic Hemp Protein Powder)\n* **판매처:** 아이허브 (iHerb)\n* **내용량:** 454g (1 lb)\n* **원재료:** 유기농 대마종자(헴프씨드) 단백질 분말 (Organic hemp seed protein) 100%\n* **근거 링크:** [아이허브(iHerb) 누티바 헴프 프로틴 파우더 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBt_ydvQ4JYyCyoDJtiv6JdyHndZMnE_AU64GvRchzLJ-i_wgOkfV_B5jmJwzz8uIjsgloWjFBW3z6DGioN68xTwfIAYwTQPtQGhi4UmKUV0qo1kMum5jT26mcNEklLBGhnqPtVTXt5pfd8vp1ipvhl6ZLjULLvXyXTyyvLa10Dr7n7evxI9brP-w=)\n* **선택 이유:** 다른 인공 감미료나 부원료 없이 대마 씨앗 원물만을 가공한 고단백·고식이섬유 분말입니다. 향미가 과하지 않고 은은한 견과류 풍미가 있어 플레인 요거트 본연의 맛을 해치지 않으면서 식물성 영양소를 곁들여 먹기 좋습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22Chia+Seed%22+powder+OR+meal&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;Chia Seed&quot; powder OR meal</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22Navitas+Organics%22+%22%EC%B9%98%EC%95%84+%EB%B6%84%EB%A7%90%22+OR+%22Chia+Powder%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;Navitas Organics&quot; &quot;치아 분말&quot; OR &quot;Chia Powder&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22Bob%27s+Red+Mill%22+%22Organic+Flaxseed+Meal%22+%22907%22+OR+%22453%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;Bob&#39;s Red Mill&quot; &quot;Organic Flaxseed Meal&quot; &quot;907&quot; OR &quot;453&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22Bob%27s+Red+Mill%22+%22Flaxseed+Meal%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;Bob&#39;s Red Mill&quot; &quot;Flaxseed Meal&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%B9%98%EC%95%84%EC%94%A8%EB%93%9C+%EB%B6%84%EB%A7%90+%EB%82%B4%EC%9A%A9%EB%9F%89+%EC%9B%90%EC%9E%AC%EB%A3%8C%EB%AA%85&client=app-vertex-grounding&safesearch=active\">치아씨드 분말 내용량 원재료명</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Nutiva%22+%22Hemp+Protein+Powder%22+%22Ingredients%22+OR+%22%EC%84%B1%EB%B6%84%22+454g&client=app-vertex-grounding&safesearch=active\">&quot;Nutiva&quot; &quot;Hemp Protein Powder&quot; &quot;Ingredients&quot; OR &quot;성분&quot; 454g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%ED%96%84%ED%94%84%EC%94%A8%EB%93%9C+%EB%B6%84%EB%A7%90+%EB%82%B4%EC%9A%A9%EB%9F%89+%EC%9B%90%EC%9E%AC%EB%A3%8C%EB%AA%85&client=app-vertex-grounding&safesearch=active\">햄프씨드 분말 내용량 원재료명</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAUT2cHElUeZTrlY65-99LFMEFe2kKuy0yCVvFeQx89QEH2yrS-uWayjmTRppozqfDRAtAJxh7D2H6rqbfcPXiN9Vy6Q_DmZHTfMiLRYtFD8Fi6yAo8EIeLEcoVckrtap6eHJeJ5D-QCutrYa8bY1UaYYaEBbKKnJSD5cqsMXcZEVh2Cf176KqZro",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuN4U9mnAXVv15NqIJZtQ4UJyY1qQyo9ZhLi7JYtrWkzipZqlWzuGBxLBdvil-VpbrJW4i17uZGOyg-pG0apvO1XBeJhuMChC7H6o2NmPQ66vHWjWrhBstX3XeJj3T0HNI9kKf86vUBNc1-euWs18=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Ee1Sv1rEzbCAaGspdxol-BMDBXkV-xz-iA2PdcTaZUunqSTkZHEIT5bBWN_tHh_NhNi9To8UQu2RzATS6vcAVE1CgUcTCjB9XoDlDZTO8hRPQmlOX9EF5tTSIZhU7HfndXh-jrgYMzLumbTYl0_xvGlxGQKDjaiULztlLGdTNiMSg==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnUVmRo2LzhSWUT4vjKi55GitvRGxSUruYmJl3b4bO2SsrFdYn1wt17uePO8K8mkx7DYtNih3JOyMGXFCFvNguj7PBCn20oRfrOMuwsaIkFUWHoaWgk-jwUJeHsL0r99jwXQAE_f-3izg1_5NPaKoad13vWudwDo6TfqIKVOYD8pupVQ==",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUsogDA45c03jFY-bMb-z6fxuVLuEi_xyv7h84jeP0s1pBsYFXm3U9z-WVEYNuvOymNoOb8ZD4d96x7o1g2a2xJW0PzDpEZTu-hw3V94jn92g7yxZbQXbOhDxL3XA5_Vjtp33Et6DHiDMc6TsuA==",
+                "title": "wikipedia.org"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBt_ydvQ4JYyCyoDJtiv6JdyHndZMnE_AU64GvRchzLJ-i_wgOkfV_B5jmJwzz8uIjsgloWjFBW3z6DGioN68xTwfIAYwTQPtQGhi4UmKUV0qo1kMum5jT26mcNEklLBGhnqPtVTXt5pfd8vp1ipvhl6ZLjULLvXyXTyyvLa10Dr7n7evxI9brP-w=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1ds9S-ClUzZzTXTSWW9mOnTGRTXcEvnL3yK8bqbqVnxOhdLMEL1p_ecFYrRgsBTDWQPNJ-BTmuOqu9LLi6BMgMXvhLpI13VsD3vBHPJ8suN1pKe09HQLg707v0c9Qs1RGIPHkBPiN0S5MBKt0ir_UEWiI-hUrM0u7OPl_IEE1_dNypmnPAUxXtQ==",
+                "title": "vitacost.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtdFXuPUeDjNlkSDUrXFilCNRpjlrqzg-EfjLHKV6MIbdgBRp0DIzcN3a5Nstc1PZ35bZ8CsHWmVQRgxMQIOkFshO5Kca3_LZu71L8dbt-qUHuyNQ6TmQFXdpia2txMWxJmMrnzA==",
+                "title": "walmart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO4MHzHAEJwwMAvrArThsXRIjvnWpbhYnuIoDpWelo0wQ_-_D-A_aVu_Cs-0l-2WdhGKELL5GNlMGQCGOuG3FGAPBrF-pxfrIMQQdK99mtDyJGj_0SCYSUX-7kPPik",
+                "title": "k-greenbio.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 296,
+                "endIndex": 323,
+                "text": "**내용량:** 453g (16 oz)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 326,
+                "endIndex": 404,
+                "text": "**원재료:** 유기농 골든 아마씨 (Organic whole golden flaxseed) 100%"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 764,
+                "endIndex": 956,
+                "text": "**선택 이유:** 아마씨는 껍질이 단단해 통째로 먹으면 영양 흡수가 어렵지만, 분쇄된 형태라 플레인 요거트에 잘 섞여 섭취 흡수율을 높여줍니다"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 958,
+                "endIndex": 1112,
+                "text": "요거트 특유의 시큼한 맛을 완화해 주는 고소한 맛을 더하며, 오메가-3 지방산과 식이섬유를 보충하기에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                4,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1257,
+                "endIndex": 1283,
+                "text": "**내용량:** 227g (8 oz)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1286,
+                "endIndex": 1360,
+                "text": "**원재료:** 유기농 인증 치아씨 분말 (*Salvia hispanica*) 100%"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1869,
+                "endIndex": 2019,
+                "text": "치아씨드 분말이 요거트의 수분을 머금으면 푸딩과 같은 점성을 만들어내어 포만감을 높여주는 특징이 있습니다"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2159,
+                "endIndex": 2185,
+                "text": "**내용량:** 454g (1 lb)"
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2188,
+                "endIndex": 2289,
+                "text": "**원재료:** 유기농 대마종자(헴프씨드) 단백질 분말 (Organic hemp seed protein) 100%"
+              },
+              "groundingChunkIndices": [
+                9
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2646,
+                "endIndex": 2788,
+                "text": "**선택 이유:** 다른 인공 감미료나 부원료 없이 대마 씨앗 원물만을 가공한 고단백·고식이섬유 분말입니다"
+              },
+              "groundingChunkIndices": [
+                8,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2790,
+                "endIndex": 2966,
+                "text": "향미가 과하지 않고 은은한 견과류 풍미가 있어 플레인 요거트 본연의 맛을 해치지 않으면서 식물성 영양소를 곁들여 먹기 좋습니다"
+              },
+              "groundingChunkIndices": [
+                11,
+                10
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "site:kr.iherb.com \"Chia Seed\" powder OR meal",
+            "site:kr.iherb.com \"Navitas Organics\" \"치아 분말\" OR \"Chia Powder\"",
+            "site:kr.iherb.com \"Bob's Red Mill\" \"Organic Flaxseed Meal\" \"907\" OR \"453\"",
+            "site:kr.iherb.com \"Bob's Red Mill\" \"Flaxseed Meal\"",
+            "치아씨드 분말 내용량 원재료명",
+            "\"Nutiva\" \"Hemp Protein Powder\" \"Ingredients\" OR \"성분\" 454g",
+            "햄프씨드 분말 내용량 원재료명"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1201,
+      "candidatesTokenCount": 1224,
+      "totalTokenCount": 5821,
+      "cachedContentTokenCount": 966,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1201
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 966
+        }
+      ],
+      "thoughtsTokenCount": 3396,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "z_AEa6GkF-qD2roPwfqzuQc"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:06:05+09:00"
+}

@@ -1,0 +1,4 @@
+﻿backend,attempts,successful_unique_runs,technical_failures,timeouts,response_format_errors,responses_used_after_process_error,search_observed_successful_runs
+agy,67,60,1,6,0,0,60
+codex,63,60,0,5,0,2,60
+gemini,1,0,1,0,0,0,0

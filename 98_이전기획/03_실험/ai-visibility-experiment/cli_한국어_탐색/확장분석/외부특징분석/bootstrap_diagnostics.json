@@ -1,0 +1,2002 @@
+[
+  {
+    "label": "bootstrap_reviews_0",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.611502236797406e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.42
+  },
+  {
+    "label": "bootstrap_reviews_1",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.769381273028728e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.48
+  },
+  {
+    "label": "bootstrap_reviews_2",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.06204458555959e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.34
+  },
+  {
+    "label": "bootstrap_reviews_3",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.389020081736362e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.53
+  },
+  {
+    "label": "bootstrap_reviews_4",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.998643113903524e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "label": "bootstrap_reviews_5",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.45875343280511e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.69
+  },
+  {
+    "label": "bootstrap_reviews_6",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.83580165708564e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.53
+  },
+  {
+    "label": "bootstrap_reviews_7",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.012654258953255e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.62
+  },
+  {
+    "label": "bootstrap_reviews_8",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.917807993720658e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.58
+  },
+  {
+    "label": "bootstrap_reviews_9",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.997993593354067e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "label": "bootstrap_reviews_10",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.495173508007767e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.78
+  },
+  {
+    "label": "bootstrap_reviews_11",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.814343391448041e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.67
+  },
+  {
+    "label": "bootstrap_reviews_12",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.498334140933817e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "label": "bootstrap_reviews_13",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.210476235863794e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.5
+  },
+  {
+    "label": "bootstrap_reviews_14",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.380239226557507e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.41
+  },
+  {
+    "label": "bootstrap_reviews_15",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.985980826463734e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.45
+  },
+  {
+    "label": "bootstrap_reviews_16",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.725944811300735e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.45
+  },
+  {
+    "label": "bootstrap_reviews_17",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.612587937191108e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.38
+  },
+  {
+    "label": "bootstrap_reviews_18",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.304798305047711e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.36
+  },
+  {
+    "label": "bootstrap_reviews_19",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.717727701118642e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.78
+  },
+  {
+    "label": "bootstrap_reviews_20",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.980680874515201e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.55
+  },
+  {
+    "label": "bootstrap_reviews_21",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.674795455965167e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.59
+  },
+  {
+    "label": "bootstrap_reviews_22",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.480361257832357e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.52
+  },
+  {
+    "label": "bootstrap_reviews_23",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.36859569821857e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.48
+  },
+  {
+    "label": "bootstrap_reviews_24",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.699491971242423e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.56
+  },
+  {
+    "label": "bootstrap_reviews_25",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.4990621875508054e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.78
+  },
+  {
+    "label": "bootstrap_reviews_26",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.166074270870126e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.55
+  },
+  {
+    "label": "bootstrap_reviews_27",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.292779000105497e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.41
+  },
+  {
+    "label": "bootstrap_reviews_28",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.70227563190551e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.23
+  },
+  {
+    "label": "bootstrap_reviews_29",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.2938328087261937e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.34
+  },
+  {
+    "label": "bootstrap_reviews_30",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.911878423359163e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.53
+  },
+  {
+    "label": "bootstrap_reviews_31",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.693122450027403e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.58
+  },
+  {
+    "label": "bootstrap_reviews_32",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.819250704559465e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "label": "bootstrap_reviews_33",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.5066261655732404e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.61
+  },
+  {
+    "label": "bootstrap_reviews_34",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.863577063422667e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.45
+  },
+  {
+    "label": "bootstrap_reviews_35",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.538568847165195e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.55
+  },
+  {
+    "label": "bootstrap_reviews_36",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.380454630581454e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.41
+  },
+  {
+    "label": "bootstrap_reviews_37",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.852417692382318e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.45
+  },
+  {
+    "label": "bootstrap_reviews_38",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.9430852434871895e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.58
+  },
+  {
+    "label": "bootstrap_reviews_39",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.042918850481584e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.53
+  },
+  {
+    "label": "bootstrap_reviews_40",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.56407759938882e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "label": "bootstrap_reviews_41",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.674674062956409e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.55
+  },
+  {
+    "label": "bootstrap_reviews_42",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.12435094643682e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.61
+  },
+  {
+    "label": "bootstrap_reviews_43",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.088679182589487e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.83
+  },
+  {
+    "label": "bootstrap_reviews_44",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.244339400470535e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.5
+  },
+  {
+    "label": "bootstrap_reviews_45",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.907388466676935e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.42
+  },
+  {
+    "label": "bootstrap_reviews_46",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.993307354015045e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.25
+  },
+  {
+    "label": "bootstrap_reviews_47",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.403136708801107e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.22
+  },
+  {
+    "label": "bootstrap_reviews_48",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.781477574602235e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_49",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.566519587776099e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.2
+  },
+  {
+    "label": "bootstrap_reviews_50",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.174103987510726e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_51",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.701055104560652e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.2
+  },
+  {
+    "label": "bootstrap_reviews_52",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.794516095227522e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_53",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.019778848427194e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_54",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.421729475954144e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_55",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.866320434648301e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_56",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.059464998488863e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_57",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.118581378420032e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_58",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.581304329955628e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_59",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.949659778015093e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_60",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 2.362850297310537e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_61",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.822514020983107e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_62",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.838947591067177e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_63",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.082527320815151e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_64",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.367093644794487e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_65",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.663743496200137e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_66",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.910935200307947e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_67",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.067670766997992e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_68",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.851617839728988e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.2
+  },
+  {
+    "label": "bootstrap_reviews_69",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.016929108929261e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_70",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.970494481198017e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_71",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.564135544618766e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_72",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.134752019690495e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_73",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.314422703354808e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_74",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.910798925918964e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_75",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.21658282115878e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_76",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.374322882254148e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_77",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.40932827092422e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_78",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.3931732567089625e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_79",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.904738159312473e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_80",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.910255128860342e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_81",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.2928539825949343e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_82",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.200757512621948e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_83",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.200602923917998e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_84",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.53424505939293e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_85",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.904837933224828e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_86",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.366096898664409e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_87",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.953900171444374e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_88",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.911142840863941e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_89",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.644774671802026e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_90",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.58634012926396e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_91",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.195435374640624e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_92",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.850647634199959e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_93",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.940046291845306e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_94",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.195366947294502e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_95",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.08617278100121e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_96",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.823978667943377e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_97",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.989104736929377e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_98",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.297624678770376e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_99",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.104208514961073e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_100",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.332706227325403e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_101",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.793080629037163e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_102",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 2.3582219201775945e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_103",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.159649810211221e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_104",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.41544349386536e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_105",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.361325303241074e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_106",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.733029399188297e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_107",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.017507245489444e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_108",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.0866865786722855e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_109",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.448875928352862e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_110",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.753275148263516e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_111",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.18016695047774e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_112",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.160219485160326e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.11
+  },
+  {
+    "label": "bootstrap_reviews_113",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.619916150223503e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_114",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.1864422699065e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_115",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.694096181789291e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_116",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.315397555134439e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_117",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.772323998236132e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_118",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.277183680403198e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_119",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.676813376269244e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_120",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.012833967337315e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_121",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.361788779469691e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_122",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.908474625724523e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_123",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.427295392879117e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_124",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.2399552482883536e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_125",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.526174808423434e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_126",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.424315699720239e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_127",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.1287479340138105e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_128",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.868896298031004e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_129",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.638366168847497e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_130",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.800997343572092e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_131",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.662842314764106e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_132",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.027065004862272e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_133",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.291487318677014e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_134",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.088301768432004e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_135",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.840130826610505e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_136",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.843607430668698e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_137",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.947810656050436e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_138",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.1873932776522764e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_139",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.9203394574547374e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_140",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.871111622621441e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_141",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.3545366712729845e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_142",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.800071848224066e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_143",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.332381787821362e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_144",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.401718195128467e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_145",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.342316064641198e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_146",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.169546048593542e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_147",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.559693484537888e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_148",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.763066191825764e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_149",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.404283321939877e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_150",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.872486708000338e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_151",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.730029287140617e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_152",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.800732321510239e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_153",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.92108792690982e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_154",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.472717927306302e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_155",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.938796763833466e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_156",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.296566286121077e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_157",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.849059986466457e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_158",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.90673446019008e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_159",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.881829458212698e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_160",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.950847077831114e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_161",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.707619468279916e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_162",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.2794024119062755e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.2
+  },
+  {
+    "label": "bootstrap_reviews_163",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.947332096331806e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_164",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.846559881174997e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_165",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.550452779612414e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_166",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.501063014643151e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_167",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.5428905530472434e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_168",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.23692598813479e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_169",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.9865857899607e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_170",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.134393787357808e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_171",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.908755846828484e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_172",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.8470518745347135e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_173",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.714188337197946e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_174",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.510656462523998e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_175",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 2.513202710829887e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_176",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.425126757221179e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_177",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 6.112536286906334e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_178",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.038041931086482e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_179",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.281511095134306e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_180",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.486177967892417e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.2
+  },
+  {
+    "label": "bootstrap_reviews_181",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.674292811594597e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_182",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.306578489158944e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.22
+  },
+  {
+    "label": "bootstrap_reviews_183",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.475692312215344e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_184",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.788158816358527e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_185",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 7.245946102685252e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_186",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.4041276764096295e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_187",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.331233243059062e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_188",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.192191471647962e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.12
+  },
+  {
+    "label": "bootstrap_reviews_189",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.309194759244406e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_190",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.724728410986927e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_191",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 9.136495071615514e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_192",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.340156847141955e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_193",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.706937965730077e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_194",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.658796069926922e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.17
+  },
+  {
+    "label": "bootstrap_reviews_195",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 8.158339357855482e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  },
+  {
+    "label": "bootstrap_reviews_196",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.708110418720878e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.19
+  },
+  {
+    "label": "bootstrap_reviews_197",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 5.558190226295778e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_198",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 3.98672368340236e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.16
+  },
+  {
+    "label": "bootstrap_reviews_199",
+    "variant": "reviews",
+    "optimizer_success": true,
+    "max_abs_gradient": 4.5156364443244e-06,
+    "warnings": [],
+    "rows": 600,
+    "independent_stores": 30,
+    "elapsed_seconds": 0.14
+  }
+]

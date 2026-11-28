@@ -1,0 +1,40 @@
+{
+  "note": "14 2.6 손 계산 예시 그대로. 질문 2개, openai만, 응답 4개(모두 추출 성공). A·B는 등장 수가 같고 평균 순위로 A가 앞.",
+  "providers": ["openai"],
+  "question_ids": [1, 2],
+  "failed": 0,
+  "total": 4,
+  "responses": [
+    {"id": 1, "provider": "openai", "question_id": 1, "ok": true, "sources": ["tripadvisor.com", "blog.naver.com"],
+     "recs": [{"name": "A", "rank": 1}, {"name": "우리", "rank": 2, "target": true, "sources": ["tripadvisor.com"]}, {"name": "B", "rank": 3}]},
+    {"id": 2, "provider": "openai", "question_id": 1, "ok": true, "sources": ["tripadvisor.com"],
+     "recs": [{"name": "A", "rank": 1}, {"name": "B", "rank": 2}]},
+    {"id": 3, "provider": "openai", "question_id": 2, "ok": true, "sources": ["google.com"],
+     "recs": [{"name": "우리", "rank": 1, "target": true, "sources": ["google.com"]}]},
+    {"id": 4, "provider": "openai", "question_id": 2, "ok": true, "sources": [], "recs": []}
+  ],
+  "expected": {
+    "failure_rate": 0.0,
+    "target": {
+      "openai": {
+        "all": [[4, null], [2, 4], [0.5, 4], [1.5, 2]],
+        "1": [[2, null], [1, 2], [0.5, 2], [2.0, 1]],
+        "2": [[2, null], [1, 2], [0.5, 2], [1.0, 1]]
+      }
+    },
+    "competitors": [
+      {"name": "a", "display": "A", "openai": [[4, null], [2, 4], [0.5, 4], [1.0, 2]]},
+      {"name": "b", "display": "B", "openai": [[4, null], [2, 4], [0.5, 4], [2.5, 2]]}
+    ],
+    "sources": {
+      "openai": {
+        "tripadvisor.com": [[2, 4], [1, 2]],
+        "blog.naver.com": [[1, 4], [0, 2]],
+        "google.com": [[1, 4], [1, 2]]
+      }
+    },
+    "position": [2, 3],
+    "top_sources": [["tripadvisor.com", 2], ["blog.naver.com", 1], ["google.com", 1]],
+    "target_sources": [["google.com", 1], ["tripadvisor.com", 1]]
+  }
+}

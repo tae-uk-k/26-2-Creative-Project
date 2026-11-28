@@ -1,0 +1,52 @@
+[
+  {
+    "file": "signup.html",
+    "title": "회원가입",
+    "referenceNode": "713:920"
+  },
+  {
+    "file": "login.html",
+    "title": "로그인",
+    "referenceNode": "713:1117"
+  },
+  {
+    "file": "home.html",
+    "title": "내 가게",
+    "referenceNode": "713:1585"
+  },
+  {
+    "file": "store.html",
+    "title": "가게 등록",
+    "referenceNode": "713:1315"
+  },
+  {
+    "file": "diagnosis.html",
+    "title": "무료 진단",
+    "referenceNode": "713:1460"
+  },
+  {
+    "file": "apply.html",
+    "title": "정비 신청",
+    "referenceNode": "713:1671"
+  },
+  {
+    "file": "connect.html",
+    "title": "지도 연결",
+    "referenceNode": "713:1764"
+  },
+  {
+    "file": "plan.html",
+    "title": "정비안 승인",
+    "referenceNode": "713:1916"
+  },
+  {
+    "file": "fix.html",
+    "title": "정비 진행",
+    "referenceNode": "713:2062"
+  },
+  {
+    "file": "report.html",
+    "title": "전후 비교",
+    "referenceNode": "713:2146"
+  }
+]

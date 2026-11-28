@@ -1,0 +1,87 @@
+/* seelo 앱 토큰. 토스 디자인 시스템(TDS) 색·글자 위계를 따르고, 랜딩 시안(dark.html)의 값과 맞춘다. */
+@font-face {
+  font-family: Pretendard;
+  src: url("/fonts/PretendardVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  /* TDS grey */
+  --s-grey50: #f9fafb;
+  --s-grey100: #f2f4f6;
+  --s-grey200: #e5e8eb;
+  --s-grey300: #d1d6db;
+  --s-grey400: #b0b8c1;
+  --s-grey500: #8b95a1;
+  --s-grey600: #6b7684;
+  --s-grey700: #4e5968;
+  --s-grey800: #333d4b;
+  --s-grey900: #191f28;
+  /* TDS blue: 주 행동 500, 강조 글자 700(랜딩 시안 강조색) */
+  --s-blue50: #e8f3ff;
+  --s-blue100: #c9e2ff;
+  --s-blue200: #90c2ff;
+  --s-blue500: #3182f6;
+  --s-blue600: #2272eb;
+  --s-blue700: #1b64da;
+  /* 상태 */
+  --s-green50: #f0faf6;
+  --s-green100: #aeefd5;
+  --s-green500: #03b26c;
+  --s-green700: #029359;
+  --s-orange50: #fff3e0;
+  --s-orange100: #ffe0b0;
+  --s-orange500: #fe9800;
+  --s-orange700: #f57800;
+  --s-red50: #ffeeee;
+  --s-red100: #ffd4d6;
+  --s-red500: #f04452;
+  --s-red700: #d22030;
+  /* 표면 */
+  --s-paper: #ffffff;
+  --s-canvas: #f2f4f6;
+  --s-stage: #080808;
+  --s-line: var(--s-grey200);
+  --s-ink: var(--s-grey900);
+  --s-muted: var(--s-grey700);
+  --s-faint: var(--s-grey500);
+  /* 글자: TDS Typography 1~7 */
+  --s-t1: 1.875rem; /* 30 */
+  --s-t2: 1.625rem; /* 26 */
+  --s-t3: 1.375rem; /* 22 */
+  --s-t4: 1.25rem; /* 20 */
+  --s-t5: 1.0625rem; /* 17 */
+  --s-t6: 0.9375rem; /* 15 */
+  --s-t7: 0.8125rem; /* 13 */
+  /* 간격: 4px 단위 */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.25rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+  --s-10: 2.5rem;
+  --s-12: 3rem;
+  --s-16: 4rem;
+  /* 모서리 */
+  --s-r-sm: 0.5rem;
+  --s-r-md: 0.625rem;
+  --s-r-lg: 0.85rem;
+  --s-r-xl: 1rem;
+  --s-r-2xl: 1.375rem;
+  --s-r-full: 999px;
+  /* 그림자: 떠 있는 요소에만 쓴다 */
+  --s-shadow-float: 0 8px 24px rgb(0 0 0 / 0.08), 0 2px 6px rgb(0 0 0 / 0.04);
+  --s-shadow-pop: 0 16px 48px rgb(0 0 0 / 0.16);
+  /* 움직임 */
+  --s-ease: cubic-bezier(0.2, 0, 0, 1);
+  --s-fast: 120ms;
+  --s-base: 200ms;
+  /* 레이아웃 */
+  --s-edge: clamp(1rem, 4vw, 2.5rem);
+  --s-content: 70rem;
+  --s-narrow: 34rem;
+  --s-header: 3.75rem;
+}

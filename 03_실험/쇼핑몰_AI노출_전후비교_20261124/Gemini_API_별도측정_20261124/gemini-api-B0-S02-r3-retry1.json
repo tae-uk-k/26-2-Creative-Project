@@ -1,0 +1,425 @@
+{
+  "run_id": "gemini-api-B0-S02-r3-retry1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:10:59+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S02",
+  "repeat_no": 3,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹상에서 확인된 사차인치 관련 단백질/분말 제품 3종의 원재료, 중량 및 상세 정보를 정리한 내용입니다.\n\n---\n\n### 1. 제품별 상세 정보\n\n#### 1) MRM Nutrition, 유기농 생 사차 인치 분말 (MRM Nutrition Organic Raw Sacha Inchi Powder)\n* **판매처:** 아이허브(iHerb)\n* **근거 링크:** [아이허브(iHerb) MRM Nutrition 유기농 생 사차 인치 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgsjPVEUKg6amuziNa97aevcOM1fQ1_UAVR7IXrKi8-DzHex-nU-749Y7OO7qWPgTE_Nc_SfrA4BaRckcwA1eeMkSFAFQCnpL81aPR4Hk-m0286uLRNb1-bD4hqpNXFYD1cnjvYonQtAKQKbmGCFg37VbclXEAuetWuM6lcxuzM-qYM8StB49X5Qpjoie0787cqpE=)\n* **원재료:** 유기농 사차인치 분말 100% (인공 감미료, 보존제, 글루텐 등 무첨가)\n* **중량:** 240g (8.5oz)\n* **선택 이유:** 다른 부재료나 감미료 없이 100% 유기농 사차인치 씨앗 분말만으로 구성된 대표적인 단일 원료 제품으로, 소용량 포장이라 보관 및 시범 섭취에 적합합니다.\n\n#### 2) 푸드투리브 오가닉 사차인치 파우더 (Food to Live Organic Sacha Inchi Powder)\n* **판매처:** SSG.COM 해외직구\n* **근거 링크:** [SSG.COM 푸드투리브 오가닉 사차인치 파우더 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKRs7N5wjfkaoj1J5yHNcyAZ_2pVVDHYHNpZyBaXeNtSY1FbvuABBgDwVgu6Ew7IpGIws5wvOspBiHk5HjRhCkGmv-kcfeUtO_PGe8W3ijQIGBTjBVaWU1d9vB_CCxwA8msGuBYdSCcZXyvX-hJMe)\n* **원재료:** 유기농 사차인치 종자 분말 100%\n* **중량:** 1.81kg (옵션에 따라 907g 등도 유통됨)\n* **선택 이유:** 단일 원료(100% 사차인치) 파우더이면서 1.81kg 수준의 대용량 패키지로 판매되어, 스무디나 베이킹 등에 단백질 보충용으로 장기간 꾸준히 섭취하기에 경제적입니다.\n\n#### 3) 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (단백질 밸런스형)\n* **판매처:** 왓푸드 공식몰\n* **근거 링크:** [왓푸드(whatfood) 공식몰 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOUS2Nox3QLwDXmJRxwvrgGB0ao22aEO9rJl8LgS1RTLwXKYoetGSwRrlhR01SQtP8v6m-zTpq-m2r-ucMDyDvAN3EtMWuA962fC7wNwztJ9nOoC1XT7xKgivUMhXjf7j2wUOiq55PYc_BhWhtP9g0Nc6L0n7jSRVjWrrKUwvET3nwlgv637govEUnuxTLp2D__qOr0pf5ROJSu-AvlGJZCKwc2AA8uSZHbqTDo0fXud4CIz3Ys4VRDh0KdR6ZvEZQIyY-LTpjGuWD5bFaSomlldUcBbStHpEjGGqnBbIM0HK17Bs5_oUOfOJLBT37TcDf7sFiL7WZEoy5SIgZigiXH_Ch_ZmFLD4yfeAQpNmCPVzoQwQGSkoIH7742eN5oWXsEsQB1-7Tgzxt8z1K6iMnyCj_7LErp_iDOfmNU6hE0OF4rLPa9a-B)\n* **원재료:** 완두콩 단백질 분말 및 사차인치 분말 혼합 (식물성 복합 배합)\n* **중량:** 1kg (1,000g)\n* **선택 이유:** 사차인치 단일 원료 특유의 거친 식감이나 맛을 보완하기 위해 완두콩 단백질과 결합한 국내 유통 대용량 단백질 보충 분말로, 단백질 밸런스를 고려한 일상 음용용으로 구성되었습니다.\n\n---\n\n### 2. 원재료 및 중량 비교 요약\n\n| 제품명 | 판매처 | 주요 원재료 | 내용량 (중량) | 제품 특징 |\n| :--- | :--- | :--- | :--- | :--- |\n| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브 | 유기농 사차인치 100% | 240g | 소용량, 순수 단일 원료, 비건/무첨가 |\n| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM | 유기농 사차인치 100% | 1.81kg | 대용량 벌크형, 순수 단일 원료 |\n| **왓푸드 완두콩 N 사차인치** | 왓푸드 | 완두 단백 + 사차인치 배합 | 1kg (1,000g) | 복합 식물성 단백질 파우더 형태 |\n\n* **원재료 측면:** MRM과 푸드투리브는 첨가물이나 다른 원료 없이 사차인치 100%로만 구성되어 있어 순수 사차인치의 단백질과 영양소만을 섭취하고자 할 때 적합합니다. 반면 왓푸드 제품은 완두 단백질이 혼합되어 있어 아미노산 균형과 음용성을 조율한 단백질 쉐이크 형태입니다.\n* **중량 측면:** 240g(소용량)부터 1kg(중용량), 1.81kg(대용량)까지 규격 차이가 크므로 섭취 주기와 소비 속도에 맞춰 선택할 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgsjPVEUKg6amuziNa97aevcOM1fQ1_UAVR7IXrKi8-DzHex-nU-749Y7OO7qWPgTE_Nc_SfrA4BaRckcwA1eeMkSFAFQCnpL81aPR4Hk-m0286uLRNb1-bD4hqpNXFYD1cnjvYonQtAKQKbmGCFg37VbclXEAuetWuM6lcxuzM-qYM8StB49X5Qpjoie0787cqpE=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKRs7N5wjfkaoj1J5yHNcyAZ_2pVVDHYHNpZyBaXeNtSY1FbvuABBgDwVgu6Ew7IpGIws5wvOspBiHk5HjRhCkGmv-kcfeUtO_PGe8W3ijQIGBTjBVaWU1d9vB_CCxwA8msGuBYdSCcZXyvX-hJMe",
+      "title": "ssg.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2wWgzMXwQCXEVnKtsh5eLYEY5mUQsUCs2Uxi9CZepT-43q7SEH6CcyHftRtfjk1UXZXZRnFRfw9hS9gyV4X46gxhdhb3SPNwbsc5Z8W0UdNNSh9uBBIqJQFTiJIfA9TzhUV9_d6fHbblRCSNAI2W3LmGyhar2umwfwaLJY7dkU_w2JNA5xV-bDPdvKtIduCATSBYqO7XwdFNOAFx_Ls957oeB6euocbBcYQ==",
+      "title": "recipal.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH99Ob8OsmV9RN2UVrMsUU02mzoh4hpNlq4K4sON31w1rMl3SoCC4KmO_zsrIov1YcjEu_IqOmGnEDTkG1-M65aaHpW_zSSA5pkO_jEJ5wzIfEgjY2Nps7j_4l8zkcg3-D5_ocd0GTb",
+      "title": "food2live.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpimW-1X0byKzy60lubPiSZYw_XPoL5NGpPPZI_kXWC2jaiCWks8BbE6Cn_Cqmz11jdEc7TEc9OHqZjTgdmEdaOfZvGkQHZ59rM15119_S2v-wa2Hymy0i6HeRN3dB3MTvQsJ5YLtfzXM9Kp_w0-terzNcgxJTxQS",
+      "title": "croket.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOUS2Nox3QLwDXmJRxwvrgGB0ao22aEO9rJl8LgS1RTLwXKYoetGSwRrlhR01SQtP8v6m-zTpq-m2r-ucMDyDvAN3EtMWuA962fC7wNwztJ9nOoC1XT7xKgivUMhXjf7j2wUOiq55PYc_BhWhtP9g0Nc6L0n7jSRVjWrrKUwvET3nwlgv637govEUnuxTLp2D__qOr0pf5ROJSu-AvlGJZCKwc2AA8uSZHbqTDo0fXud4CIz3Ys4VRDh0KdR6ZvEZQIyY-LTpjGuWD5bFaSomlldUcBbStHpEjGGqnBbIM0HK17Bs5_oUOfOJLBT37TcDf7sFiL7WZEoy5SIgZigiXH_Ch_ZmFLD4yfeAQpNmCPVzoQwQGSkoIH7742eN5oWXsEsQB1-7Tgzxt8z1K6iMnyCj_7LErp_iDOfmNU6hE0OF4rLPa9a-B",
+      "title": "whatfood.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": "gemini-api-B0-S02-r3",
+  "model_version": "gemini-3.8-flash",
+  "response_id": "M_IEa5S5MezW1e8Pv_ij8Ao",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "사차인치 단백질 파우더",
+    "\"Food to Live\" \"사차인치\" OR \"Sacha Inchi\"",
+    "사차인치 탈지 단백질 분말",
+    "Food to Live Sacha Inchi Powder 원재료 중량"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹상에서 확인된 사차인치 관련 단백질/분말 제품 3종의 원재료, 중량 및 상세 정보를 정리한 내용입니다.\n\n---\n\n### 1. 제품별 상세 정보\n\n#### 1) MRM Nutrition, 유기농 생 사차 인치 분말 (MRM Nutrition Organic Raw Sacha Inchi Powder)\n* **판매처:** 아이허브(iHerb)\n* **근거 링크:** [아이허브(iHerb) MRM Nutrition 유기농 생 사차 인치 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgsjPVEUKg6amuziNa97aevcOM1fQ1_UAVR7IXrKi8-DzHex-nU-749Y7OO7qWPgTE_Nc_SfrA4BaRckcwA1eeMkSFAFQCnpL81aPR4Hk-m0286uLRNb1-bD4hqpNXFYD1cnjvYonQtAKQKbmGCFg37VbclXEAuetWuM6lcxuzM-qYM8StB49X5Qpjoie0787cqpE=)\n* **원재료:** 유기농 사차인치 분말 100% (인공 감미료, 보존제, 글루텐 등 무첨가)\n* **중량:** 240g (8.5oz)\n* **선택 이유:** 다른 부재료나 감미료 없이 100% 유기농 사차인치 씨앗 분말만으로 구성된 대표적인 단일 원료 제품으로, 소용량 포장이라 보관 및 시범 섭취에 적합합니다.\n\n#### 2) 푸드투리브 오가닉 사차인치 파우더 (Food to Live Organic Sacha Inchi Powder)\n* **판매처:** SSG.COM 해외직구\n* **근거 링크:** [SSG.COM 푸드투리브 오가닉 사차인치 파우더 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKRs7N5wjfkaoj1J5yHNcyAZ_2pVVDHYHNpZyBaXeNtSY1FbvuABBgDwVgu6Ew7IpGIws5wvOspBiHk5HjRhCkGmv-kcfeUtO_PGe8W3ijQIGBTjBVaWU1d9vB_CCxwA8msGuBYdSCcZXyvX-hJMe)\n* **원재료:** 유기농 사차인치 종자 분말 100%\n* **중량:** 1.81kg (옵션에 따라 907g 등도 유통됨)\n* **선택 이유:** 단일 원료(100% 사차인치) 파우더이면서 1.81kg 수준의 대용량 패키지로 판매되어, 스무디나 베이킹 등에 단백질 보충용으로 장기간 꾸준히 섭취하기에 경제적입니다.\n\n#### 3) 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (단백질 밸런스형)\n* **판매처:** 왓푸드 공식몰\n* **근거 링크:** [왓푸드(whatfood) 공식몰 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOUS2Nox3QLwDXmJRxwvrgGB0ao22aEO9rJl8LgS1RTLwXKYoetGSwRrlhR01SQtP8v6m-zTpq-m2r-ucMDyDvAN3EtMWuA962fC7wNwztJ9nOoC1XT7xKgivUMhXjf7j2wUOiq55PYc_BhWhtP9g0Nc6L0n7jSRVjWrrKUwvET3nwlgv637govEUnuxTLp2D__qOr0pf5ROJSu-AvlGJZCKwc2AA8uSZHbqTDo0fXud4CIz3Ys4VRDh0KdR6ZvEZQIyY-LTpjGuWD5bFaSomlldUcBbStHpEjGGqnBbIM0HK17Bs5_oUOfOJLBT37TcDf7sFiL7WZEoy5SIgZigiXH_Ch_ZmFLD4yfeAQpNmCPVzoQwQGSkoIH7742eN5oWXsEsQB1-7Tgzxt8z1K6iMnyCj_7LErp_iDOfmNU6hE0OF4rLPa9a-B)\n* **원재료:** 완두콩 단백질 분말 및 사차인치 분말 혼합 (식물성 복합 배합)\n* **중량:** 1kg (1,000g)\n* **선택 이유:** 사차인치 단일 원료 특유의 거친 식감이나 맛을 보완하기 위해 완두콩 단백질과 결합한 국내 유통 대용량 단백질 보충 분말로, 단백질 밸런스를 고려한 일상 음용용으로 구성되었습니다.\n\n---\n\n### 2. 원재료 및 중량 비교 요약\n\n| 제품명 | 판매처 | 주요 원재료 | 내용량 (중량) | 제품 특징 |\n| :--- | :--- | :--- | :--- | :--- |\n| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브 | 유기농 사차인치 100% | 240g | 소용량, 순수 단일 원료, 비건/무첨가 |\n| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM | 유기농 사차인치 100% | 1.81kg | 대용량 벌크형, 순수 단일 원료 |\n| **왓푸드 완두콩 N 사차인치** | 왓푸드 | 완두 단백 + 사차인치 배합 | 1kg (1,000g) | 복합 식물성 단백질 파우더 형태 |\n\n* **원재료 측면:** MRM과 푸드투리브는 첨가물이나 다른 원료 없이 사차인치 100%로만 구성되어 있어 순수 사차인치의 단백질과 영양소만을 섭취하고자 할 때 적합합니다. 반면 왓푸드 제품은 완두 단백질이 혼합되어 있어 아미노산 균형과 음용성을 조율한 단백질 쉐이크 형태입니다.\n* **중량 측면:** 240g(소용량)부터 1kg(중용량), 1.81kg(대용량)까지 규격 차이가 크므로 섭취 주기와 소비 속도에 맞춰 선택할 수 있습니다.",
+              "thoughtSignature": "EsZxCsNxAWkUfRP8qEnsy+Sa3lLSZGamI3Yhq5WzoVuJWInobtYx/OEa0xEDJ7iMlRzCS0gjCrJoGdpsTTqLfFd4VsPVQoMPluvvpMzPPBpjHBGxS3YOcT3b9Ztdfz3WCBXDmHvl09rA468KOS6KXmxQryfYBkC7Njzn/WaY43S10ny6Jkq3+gXkZ4GG4wMcqNRlowrdw5oj9bzHYZypfF+QRVYCSULYAT1fcohwZvxt5bi1WlYEtYMKvxxBcxx8vTFItzf2xqCc5q9M//ieGRdKWozMYPve6bGAVaHKtIb2zcoGDfeR3YMQASy2yhv68tOppAR73GljrTtlTkn2K6qvU2Y2gmjp2MizObiQav9PNsUpcmgdWicKoHnb7colJasoNO0/D+2VPwo7I8Nic4Q9w8fcYZKT6RNSUKyf6RKGco03wS2pXINwDXDIEx27Pg+i9iI2omw94SndYmGgQmnJnT7IgeE76LGeAjrL1amMnG0DF4+f0b8R1ucNErPTNQTPzsvkixJmuPyOw32FWbT5XkNqE6J7/CE1JMUks6xLuOa4ARA/g0wXWCAc7CqySV2H+U6ObAFGJOgfDuRUlRHi/QyuAiKqx7CifLel0quB1wbD275oVIG9A/CzUqtCpke9jafCdHG+F7HD7Hji1zOj53z5c3rw5tjj9hGlBBPtPyW1lYKVEWuEXZNDDRsE07M/D3R8CXOi1yzQAWrDqbHTyoRFgVUwavpgJD5VMxMJBgedHSP10nZkfiQh6dyyI7JNw3dv/WLQ1I5uHiizfg3KWrfHl/qECBp1tHv/YYlH7QiEDBb6wSXwEwx9J8ODsxPeB3JUAGy13Wl7Giv/zR61cU7KLJqmBdyg5tsqsT68TALHjlR6QhmnGpfnqXrN4VqBoPsBPN8QW1eR40buisZfqtcNqHFM+G8wPqzpVVmuMM11ZJ6Zcvir+8Ld2iziGtJq1RSRjHnLzJVdl2D7FAk5Y6YrnjLZjf6ScjalPFuAwtvhHeC4VSi3Kw3VPXPF/Y3ZmXH2ziXPDXK8/52MbeMzp1ynEtyMmi/G7vv3vMq71FIaq3PMBW/knavD7n3w5ica+N78zip9XVhSrD6iaqZWdM7cu165GzQGcPIFMjPY73+GtK6mlmbFORSSArdx8DOdcSK2t3Qscxs0jNAkOVvW/CkueXeoyTJUtUcY4xAc+BqhgDq6qa6sVUFcs38S9n5YsZ3pEXgZ9JFz7Vl8ABiTbefEVUQjx+C7bQwtsVSOqIJa3IkxXe88se+5haknuo995+K1G67I4qzWclrBxslyjK/myZNf2Hb6SkcDZR3rBcaIjh4lspdnbfd10sQ6Dmi9ozJDV3uenFk5gLo4j+fWxxG0RLmXF6de1kzhXOuxf7z8QcNhEgT64zmsdtNvXc9oFZeQjwYYPFDAlAo2f2koLbYFU4wnfPoeMWLrWbLqOEpTkAYYaKY4nutcDdRLd0yPbW4842UBNucY44FDnsgKmDRpns1RCfpn2VcmhyntvzBYluNgK/DOGdsDyMS14zDqHNw9z5DRFA3MfJ35VyLSRz9EjCkKEWjNA2sTMmq+Z4rwDTzvtlMe+2VMunp/Pg2Hx55vZK758xx4crgDRuEWFjuHXmRQQQ/JHVu/+NivTkNC/R6rud/pAmIf/s6ESttcSdy+cIFhJsAgttWz7Di6roq03TUeI0hXqk12sV2oIb1VrqXXM7U5UweLRR07birwa6LJHHCcarXxWfo3NzroWxx/ZRcY/ZmO+CjaOv0Fltjtkd7KMUNRKQIw7ST1RLfHi+vyKxZY7KDMQXw4aShvpUta7ijCJrV5k/PRUzZ97J5ANAx9oka2+LP8Dh0nChUpUpcKYG9ewTMGfuF9uEpT1Vi/2G9zFk5Lgy0ABkfLB42OdDuLKPIfKmlKRzaoKKbsE/ncrb8BjdbgeWYvbRtM/D9yWPG/YgaLOt22oFiuGByMd/8axCG9Ohh7Gf3F2H9CqdUKZXuOrZ+2HGTXh9QusBj9rCQ5mrLfeU3xngb3JtTZ1OolE5nSndbO1wbPTh8Wowqq6vvX1QnR7UV7WFnlOj8iQ0GpCkc3Lb+40Ly8iuiHx+Z9fQjPaGcLmOovgryH7+zS4uHVGKZFnKVHhupHCj6K4JFdvSh0/o0fdGubuL65ZMAZFQmjMHsf9bXc1b6qsQnth8E8/b3fWlNqy6WiysvHNUcqzO5OJd5oF1LKYTbPeYy+V9nl43bKSFrkxRjN7RZY3tv2BmZK3UAuXmQwp9FtzncQtNNDdDSwB7HfGjAFF2Rrv+fwFzsPt6sXoka85kJWGv+WJ51jXMH7USZemi/UJ44TgRsQ12MB6c6Ba7hk6XmrxKqf4pn20JjA0KgHTCUufHCKsmV3g2+AjowuUuDQkOD4qC1yE6yMgVscLJdDD4UymrLxg/XS8L8yZZJPRBnAQjsjSFk/FP6g2WSZDiw2OkIWnkW1wPshVKjgXY8bNJy8QS9FU15twVG8CEZVOWc0U28s5E+DxJlwo3GynIvzT4HojhTgi6rmJ9YCDSoYKJ7jkQ5i2S4qzXCxs3NGs0RZkHvIpXmwMy1eKAV0e9uGqx6/YJ9E0dsNMQZFr4q34a7IT1f9mJkE9URhdpFpM044Uv1ERBSbJyPiTOQNoZz1GVTKANivazpbD+jpyHmbhkD4yEXiH3xiiijYY7f5h4emiSBUFo5knPm2ZpVW0iue/prYeZbc0UwTFccWT/WHCw14lFHU6fjSZKilKVOaUFUuMRK6Tk5kSfG/elFk2vO9I11ZKr/kdlzUpyeIyVJWZNJZciqN622/jzEU0GRJg/7bvC3w9qwagG4bpeAvNfSweVVdqGc8bCWFyeLywvOBurUTrNVTu7qkQLgb39o9hVZPf2vhMZ6KVQP4YJZ2zN6DYnHRuv08kcxUuLDJHuRVTW+GADzxIxjG7Lm+EOdJ3HviHd1vumeg/KLTH4ZqtMkzH1RcmQE4c2d61I79tE0bylLRVg1t1LDPBHyJxqVTHi8koyXUZffV+3gfJ1aXmdOsrxX4QzuuLaFuP6OTUAYFT0aN6wMXEpmhFsrMa5ZO9BaY8ZdsS0w8TqG0qqjydiuWh0qUIZOd4NFNGbXWSzT0EVFY6PwvCXzrtij9+B6JWZfuTLuH5Kwp4R4UNFA+zSkq0DwJOjrQb1L8QhLctQRz+Oz0eVp9tUiq/TMKD3BYax5iVv8D34KiOCW4QMEwKSRza9IzN6tpjvnvi9VXf9/pPPp0Ks6oWyEG46Z/c7c2Nktj/orWvTg9mfhcDB/NwqeZprr2FumSqjUt5KojbHcBYYT7kb9xTnhsKh4+2Yvd8AfgRqKfZdiG7e5T5NRSLKM7h5pQokx1bt3JwKiKXKcZpJh40wkCax+BVlZGAQwl+W6MeRZZkh7Wp7KgfxS7klwHAMlpy6txlt8xIUBqmPGWWxm+f6yzz0n//C2k4xPwv8h1GmJVlZDDKi1FqoC+cEKw2YbyyrlyrM2TFHfml8Pa82AQK3+10NXK2DwsCo7Qtnzk4FZBZPfbP+XIdXgVpjBx2ZmS6cvic0Z8TQDQfDMu9HTsK+Cct4jeoGyvvuQPohFfknCMI8FyKaAclQiDo/jVEjUbyIcl2JnSfiI4N170iq76BYu3b/PLaLnihZrPwCIy/UrkuyoifZp10FjEBIYPCNOmZoLMGPh7tobyDxoylVTDM/H1DwSCnCeE7UQJNhMt6sCuGXxAyPdYjJguA8G2G6f4fu6PPeXX0h90gtO8PlILmILZFP0o28ha5DDXttCcD4JLWBU/+UYn0nLel5dpdbg5HonsQ5kcLUgg5XQRHDAnsahXtNvHdq7M/y4ZlrXM+rbyc9xiRbtSwanNHzFEsX15ccQBZ6rdC6ING0p4Xc4bJtKm55h9Ki/lgjnl4gqwH7IDNGnCSIOCkWS0WAsZjVay6geN2HFyWXG269JR2rIzJxRmTo6jzPANnRnKz2+LJAFKy/3oDbJTnHVdPCN1P4knIIZYlKYfbIa9BUZtr5eXtZqUpFnjX+R3hvLJ6DsSC7mWUuU1jC4NTQ+1AhcY7sxQfiqp9S2YhmpJHGgI0GGd4zu0wQNmtAcbaZwcRf++XkT80IftHYhGTl9SvT/9qVy0coBQJ4qWZSfKGw1URsmBXO2EsheUIw04laUQSoLPWXoJ8uaCEnJ49qqlmgJbTNpWd3ObmuNxtT07cohPHDI+Ml8hDEUelh3JVnOTzZ3U7WGC+dUbp+z3tq2qzJAxxll6s0+62t5K54wvMLGu7sF6gf6K2tvxYdd0vw8Z/JuhGn0MNvlem0Q5kvB4FGqJyMP0odrTVQ7RohSaFExex2pyNDtOULvKmJTSBqN7K5xHPRlY7nZ3CmzAk5Ily1txue7WXxkikuQIg38c9INviSXyJfRwYj9JFIIVu7HJUSaM5JXics8dD8PFEz5HYYLrp/4dV9n5Ly2IwCCGessdApVBOU3ZddtelEvul42JZM3J8iTZO1fSnv5HO8aOn/NY80KWLZrAkWLWle1Of/sThGTmdp34jrHhjqz4JxqwH7O01wM3SFJi+OF+mZ9EdOW4bDGR/50v7GFTyruw7KUtL+4NEs79Y4LL9XOkZm5fF09LP4SmKgec97mHbeiqf53mHDrOarnx340XmiOB5TFnphLuGE5Wj8w9AFBHtA40EnsO8D3dPQO/jaDmW6QYTxpyFStQs6vsX09irCfg6dXqZWiXPoU5k5J1Wf/LKkxW7SXSqiq/LqZNIXGGrYBrCYXjkVjYUN214juWFopTIYYXJV/bs308LzbrTMiFf9guvbJ6TrXydTtwqWa4WsXQVQOHGpX4p8rMR/RLhrDdVAC3J+BgydllDQwc70TdS48v3hEvvS72rfm4aKpbL19C65hpB3PcZoqnAcAFvneJmNoBah2gRlS48FGHk0WKr/B2q8qqFy5DajQykaMRjcyrnYyJBT2RPq+JVEfeG2vZQREmDMXh9HaZPzno3V07lJRAAMBaGKvpaKdBoCIdOz2trLH3Yd9ypnMjvP+FucbgQMAB4Dtr/z7j2JJIttGxVsPXflUk9CN+0gRg6IOAr5wMtDqbQtOECQP8PWpWmNYiKTvuPHsE2oCaV3iw4wsWQln5hOzzTkap34RFP9LFW8GyFEwUv/5bhW8eJkRvZ2O3cl4FbEepMDjPjNiuqE6w+gf/OAIQzU1etEBEK6mXkNRix62dfY9j/5RN7PQ44Cs29xN8UQDynqv6AUo96AY9ImO/mxuiPfdJ/AB90DvPYb1MhJGf8CK3LY26ILG+uJpCIDIWrMpcV/egS7YprcnumGYWAEAtaJLj7aF0X2K8m7yb/jnoicitteO3IDZc3psL+IZLdX23+C2ecxO+6J1GIENDs942te6rTsm9mnI3uJRZM74+ajbAO6AYx4nFMgKwxJd64PsjdvyHjflpvVoeEe5acmuLrGCPjko8sHhH14IugTnMNM99+HV6pgLyrTFoxHkaup+JXqbF2jC8r6QGwtesk0oqo2Ea1Rr6jb8a8oCEWcaqqpQ1PrAzZ2nHLq74jGAFuDdUd5bIJboiKxxmdGlAqk047iFYAuFNn+QP+MHeUAPQo3hQa3v+sgVoZc3KbsWK8cKyL+0erzCQ+TU4vumAqw9ctsTBMgstTsyKO3viri2cXM9MvudceQZAfhHlfhORG/utLSwHn9+qt+nQ4UkiOEKd3qfWTvmeA67sBoeO+zYZLNp6P/DDtDqV21ZSCa41CbywBa1DME67SSuljjwbvlQnJSsBn0jh0K+P5z68KByzHiw6e4ohaRvLHp3+DHk6ro23x/F1RYl/swOQmvWOEBLTahNoAIxre8flvugvTaUiqX4uRANPjmA1aW5cKa5cb6Gao4WlpCQq7UCsXv70uZQldewK4oJDdLARgWYEAUxcgdiueKleMRPqcEuiTMZb7lAw/asDsWUxF8pT5GyghYFXGckIyl4yH/uXT2G18pxtRDGOzV/DuVY+eF0+6OOds3yAGeg3kPCpUnb9ycjLHWsoDSzT2Nb1UTxpRsb0oU27Fm3vaDcF92O05hs5gCe0BKDmsixbZwEziTEExj8vhyVoWjrt5FMun+x4fL8vBAEAWQSbatA8E/fbqtou80IPaCZZ4Z3CCJspQrY0uywCvoovzXX/q+X+gjjDyWqzLPJuIam1BGsOs4oaGLaduiNg/TVXoLvI5TmPkVEkSQaZCyuni5L7y7v8YryM+k2pvmn1ZHJ08nyZVEG7dxXNF1VGfUgzG+N7YGAylRBAEOMmj/WQFo0SVQao/A9xqpYrPWhoTwSqRrkoxJD0jTFZiVZMf+oy5DH7b45oKR7SlCcLY4XR1in40cw+q45BaTozu4jmwqm/0yYO3N6Y67FP2PKzIXzbn6V8W2ZowpxCceOAODpx9ChDKPa50jrazIG5vwJPZpS7/d2dqC5Kr+pN4AUY67+ZthJM9SKK8lBaBrmgCjA/0MaTbuUry9i64dgy8Bc0sp1PA399jV8Ug6YAdWIfM9QyMBKbjs9rUREvVBE7FF/HI4LZH8wqSHZhy953mpmwrkLqpdxOT7/EzzW3zyMAIKYxH5gd2Si8ypn87fk0JKL+BI0s8Wcbo+MFm21flV/J1vkC/PXWT9on7Wgc3E29Hl8+hfXbXnHsIdong2PCNE9vQrek9SQjoPFseJZ8oy3gjJT+T0ZjHAGy2z4ZDCkoRCYgBMf9UpwRJlSjMDffZnGv2kmugOmcdBfA2qOmsOYExC6HgFaOslGkWUmMLHmuqdrp724t5VejkLZYKnxHi71QhrScikTAgJQsIX8gC8uVFGNhVxmVLDXWFpxYxdYQEzbzSymrbOVNFwHFLK3GWc8jhpVKZgYJdxn5l5pd2lhLzdvDsBUsDmqoILRcqQ9Z+no1SGXJxbmiFR4+dAwHne0EOnskTM0MpfgI+tFLxQg7w2tvmR04liv7jPTxueYubmcU0Ip8+95t8zNEkFghaze54+UEDFw4Av8rhEIXoqcbxiD8yN8vAcM8kzWKiwToRbLu8q29MiEjujysR8CeJldL1LVmTcKvjqORDYm12/SOOATKUJ7EMyjdeyZZF9XiAhfuWPibfCrCaElFoqZ6bHEGtZy5M56OAT/+SGlwkIFrH3fi3EfY7R/8jFp+St6H93m0oQ9eFLXyDqkToen4Iv4XLHnmwyogpMlDi1BzRJy8NIbGhKpiZg/2bhztmmwE+qVfMMJdrni/QWGJuUReoMRUx7x2ZM2Dpq8xYNSsLSjMj8ZeDzbDxmIra5OqeEK/eka4eKMTsO+CBWG7xPWYeLdU99/+fsC3KPvzmSn8M4Ah0DZZdLy2AVH37gQGaVdt8OJC/TGnabqL6KKkSue3fWzqXz0vF6+dy2cmJIzRJDyTE+ZWVvVwqbTN1GrOMut21EyOH4p+Z2lDjT3vxpTQq/ZSbMynsJ0ceLgLZrhhLDJPM/yYFMqdawT88lwg/dOkqdVXiE8GFN6N/5Pg3ge1XNQqH3JT/EonUrpEH74hcDu+VHsiwSi8luVGQRfZEhPTUCB3Qf5WYFVmqAcHleaSzCgbkwSASGOrA/j0ChUg6YudktvC1ovDavwMHjywFYbmeIe68AcwmQeqq1CjTGtHyskvmdIqRkw0n/PFoq7a+mqZK1KuVPPlMU5YaepECsEoY1J1WLQAaOCgVb6ccHeOTeJKfBcdwY/fh4Z8zFRSZqsCmNEPMYzIq3w7ofGrKYDHoDVdo9Yac7VogDOGCG0XqrXBpxoDEi32sTjf27xP3I/TpsBWiNGQmuvXksEF74M1ae9ixXYCHWBcoMHa0VMVDj1PlmT9R+pU1PtoxQ2imHpkFFZ5fJZpG3GKBSa/r1KqkFlD7C7dLkfsAc1/686R0NsFJyVf/YY2b0GQFMNaVozPTDi0rpc5zh41XGY7VWM8lhU99FxE/3q5yH/c5EhAGW+JK9+FLzMvS3DTuGSQwkDg+gzw2hHUM71CStKDCp+pFOTnv7geUsi5bDHEaQXAUOv197PFnPO0gtO+ZOjqktKYFuYKQRuteXxfCx7Wpr50sUTwXrezxPv0pMhqL7tWwJ64U6ciVgRig86CuvknnxnqCnJ+1C6BOMVJm8jZDwwQ5EugIqZtIIfQPsDSQoXWaCkWRtwNgV8JSFKg442srBvmA5SHGcYlL9BgPVsmJR1ToaSoIFnDgN3osbl/IJ5iwHpGeHKsK3PpQQ2Us0Gr1HeAVTIIZj6t0nbKssdu2cFx7YuMW0RqjWJ5gctT9No5LClDey7g7ZXIDautbmXhrY+bwjYFLo4q0H+GUB3mr179rT/5QFfdY8w2M79St1d6jySSdThdZe3QdMwMJ6faQtW58qhXGqIiIctCvHYlqunxEOAfTApANaL/rBlq/qWBymIO9zxOvBSY6FOZS20JT0N6RVaz5OuuC+pVao5B4b9xSzN9BTZO1RjCnpWwY12QVh5GtEJ1jw4S4h2IsdH2bupk8p1pCWcRZKv0SO+d5iUQzeeL/rSXt1v2AlBNMUB3cqBQO/XqnxNbYM3KqPbwkAGqkuOzS2S0zAM49CE3GOy4v6dOK2WQ7kgU6d05pjgkVIE58oOCo7Yv8LwvZeIJB0uP4knbd5OeowJDcz+4+uFvKLODp1AfqLsMDyEA564c/OlWAadTh9xuvN/+U4dmuiy4Yoxfdav2xOdcBBuWtF+hItHCqrB2YwenMmOo5ggMRQrz4uJL20ej3g/b5KsOwCgGAxIwDWwTpHUfT7M6n0kcvQiq87wyFXOlfpNqQOZU7jOdwOuka1LTQ5t2L4HA4+WfDAku5j6L8OqKJs0+BAEf/kACaD1oXGLjFRt0BOrKhZDXPgNdO9CSP3a/fTdddGBPGFdxm+zlKIAYJgAfFBxrb1v8oLqA0eUenAQcIvImYC31rKD46jerNyCy4phmhI5PPf4gdDYBsgalxqC4WlMNfLuddBFVgvTsnZlxhsDdhEnngtME9qGa9/pC/K0TPlbzaVRUa1k24NlXhbixTTBot6uyOMNUGTvgSAd+OnHWlJeLHWBCsF5yao+aRHcjzSWpmQY/HuywaFNE1dvgBTqxaVRG6sKEituGdkMQq4ym0y24jRiBAYIg8OGrDXJoIKR+lbFartT5+FyBVvJRUDmZ6b2Z7hh46JYQuCuX8U0nylYy9qfYF1pjLgLEqZbafSb+ukSGGnFTOljStH2DQwkExx3X4sZwm4atQ79SujuKgH1IgtbS1eV1XSgz771iuIuzW9xEm5Dj0VuuABMBVJn7NYDwIzoOAbqyRlilSyaDPHp58D+61FuCGziz9rCZskCOR1tOJBFRrOGTOXwnrMjdJ0lIkBrlV27+PF7fTXC5roLXJUqbP69AD+CvvNWWM4RO0WcmDPaBiOR3l5HiMJNdkvrrvE56aUhx0KJO5P37eN7Q0JJ9E0ryl2WdSIcvzKUvBL69U3raU50TYf2PmxS5W/+krcC/U0drUK53Q80SXaUvdY8B3RZWRsVQlgj5cHKtAwslJUEZbEzb0WrNtr148VERONZPMeL7++HpYrR1m2FHMaU9IX4lj8fNHt7TM99sjKo3tCgsgYDetCQjF2v23/RgaM9/+aXNyvsQGGwrkdQR6EeL4vFMsCw9as9mWOnWm/Uu9dBOFbEePkopwUtB/eTLnmqduadI/KKyNU9w8hGNuQjT4IKhgbTV3HlWfswX64msgtBMbZtBKjJuXtuqcH1I5MZKehSXtSpLMBBxlGoXw81pYWFuoAiObL8sMK7J1gZN2rxbu8W17KJ69VFpi+LjKw/Mi70PpYmnEnJn3YBLqMZ6iD2dj1LkM+Pa4FVTIkKm2eS1iDlKptHX0B5Hff5sllBMWufI3aIK7CMa0sXESNpsGuqViwUTSvLluHJ/OXGGnKfYsLch1tGYb+jlbG03PWrAXHenRKQn7AFFdkiSYqygpHV0yFTR8iqGrfaBDymRIm9sJr4b/rdoj7dVvsWm2MLZQt1Ts4ArqC51MYbQge949hASwQjJce+s8vaNNf8W/gQMExgfCAU4Av5AdqVYKnFJFUgAc6sMn6eKiSpTnxaNrIcx2g2WV3s4oWIxxkVn+FsntyVQkkOdlH+L/rYlDSUXBBdZXrCvbV7EcPoF4g0p26LOSGetfzOTLQtSVePDrW+ROL7NAU4mQea7UxG6Yv1MQL4v8oNw+biJ7qLb9DvgA43sN5gt0i8f8Xi8d+MUAL0njGoYQRZikpqu8HJOP4zY5IAZMCmi+4Ib9d/wkc4X5OxHVKNIPXtvEReJaxmcBWfB0wJ8QSq70fQzkw9i6PnR2OuUHJfxeCqeusuTcnnNdT8G+9tgF39K/QtEJesuOIunoORdPQTxtt+URqk9VsqGfrwg+UvydAC9dugDKf0yu9TW2AspCsImJpj5amxfYS7DrRdV3nwKRFfIfsV+P4HzfcVC8Yx9rwcizVhYoVttUyp3EYcmxHkhV98uUpsknunuTKkW3aCwC8+eOpwkEhltC6XI1/SXyle3a/rcN7kBQ0+kxHDZ3OCurGrXZz2oDsouyqvPp5rKMkwwKpM9S/migSqKP7qgfneUb1KiWmIEvu6/rHYmnlMqv4E0XUFr7ZaU2tkK/KF2lmsvgmJfXbAtNn9SlY6GEB92mZf6O/0UFYDYbucVH7QE0NsGGOvuudZiobwFMErwLAGIwGXhWdp10ivLlvLYhrkcK5ekvhFyxjwODXLLBD4ZJ71FjaQbNCusKYeDceJiBl8fuCNVe06PkBEWw0a7hSdDDPeK8q+WZu1/OLkCyVGNfS4FaigCmPoxptIgR0szPpkl3g0o0bFwt0DMJIOkyvTfv0e8pQDddrE2ncdT3X/NCIXplWe6oriwBRG4n+9C+bGmtjiMuWnXoV6ACVKjM7HZGFuZ3hjqd0cIST3rLxaRkLKLCFZX3NNBgBFRQiXuk5YIp4TAlFOFCErRkBKbiliTstgn/NcPgNFZKoV03tB+7Ikq8N2QLsrsk+tszCWhQO4wG0SKpkk7ikIub0jir9k/5yzDu/HFKSsoRCxBxbyG2ziP57tad5d7zwr3v6AYu+GvgC3pFEPmj0XfmvS768ydXQxqQU9DGZI0OS7nCipoQlmg9/J4nSJ97uD1UENsZWJ+a7RItcPvmELdOSQCp5T3hE22gyjodh6fPKbAyXW6nnw6SdZ2AKuZdTMEgZsroi2u7O1qOttTp8yyfoiyK5hMYTxGm67/SMR9sjn+VeVpR0OygjfT6mMtI656pzLE3ECm51iwHid92BL769rOgnjhIC9YkehOJaqnfGSJEn/h7TPwYNu5YgqZHn/4D0ksC49N2RLmvdFY09/2fD6yFqRghqIP4y/3KpIcoXmSdZRPy7wP8K3DTt0Oqd92FIBjhC4SScVv+t713sBmpF84aEVHdvzfCLt5wSvNjgGTR8XJjeP551IqdaVuLo8v8UwFq1z+d2Pfmof+NPfD7ftaD9exeUKResgkey+Q0xl3DF58k+PxPx9l890l4ftT6eFcB7W3EY+BEcrjkJjvqMGgFi469coOJglh3l36iQfhkjFHHw4xRNUcCvnFm9dJGWM99HEJ9ms/7C60pE1NFl5r41sZts+P07TsZfqzXxlrNBZppI92YQxBwQL4qaOqBIRD7sPateqUzeL7dsYz1/3+/zGJ194tOeV6bpKY3gsM9uUE3biQ8qLUUGZCNx/8iyptvkLud+56tIxDBfv/dVVZCDQ1ymgd0eVvaOsJL+j6a6vj1ThXVZorDNCxTRjezwlm/ess2MMitk18MZzFMELyknqSzOhaN3H3z8de/kDQmfqx0UKCcYnLWG2iDgWzGAql5QC0LnRtBo+lW2D3z6pWGu0xnq/2BsjY0cvI2SunB0Na4Hogpo03d3+8Ex/q2AvHqWX5Gd3oRqnxBZ2hfQoehfQHX1SSm6fFBo9FaiWlshPiTQ0j+b/Lv8llH4mHQKOmPlyadV8J4LGK4AHWJeRTASe5Uyw+6cjduEgsElT3YVsaKQTxe6WxHUFtu162RpivLpbLw5DeP85GCtoFxhu5lLaKQr/27DLK73G86ecoSiduDGK/iS9G4nNZySRPzQCsecbJb87RRxdIOpvjwpKWFv+mLLWZr4T2xZdas1e8XDlvV7ZntE7gFaBQ9HlIkIMGfISCD7/b+8H4RFrVNQ4YT9EpbOLp0gIKl4Fqg9g1oDDII1WrScfXZaIHgsdGJcaifu0/Pn03LVP/v29yto/rXhawQhiKFnMAkvdFrO/Vt7VDClKFEPFbL3KeIils27/MnVxUiSPFzGnTfGLPMTsts67jKlRStd/fNhLhwaD63lgLoNMe4FllhWShJB8eES0Zy35fYN0pZl7DK9HnTKP3UfmVRBCoGX74YfsqGKAUhGVuP1veeVFm4X0hYVhcbSNtpxAXALvMb4uO8Gj3one6ML4TcZOYGl3IF2WNeHZL07FbLgwluQ/k7f6F0FJnJvF+9D5vc9oR0lcRtI2Q/IJbx5Ce9seXqY+IeS/meLo0w6phtHjxH3nJCwufJ2NdZQ72zOgKl2IqtxV2hH/D9TFN0Hhjbfve1NtYGcsS/2nb9uMdBf1zuE2dmPEwlFLWzAtVianq9n8ups5tzObCbaLVB5hVQK8brCnTW459T93QC3d9zreoLzFc+yqUtSuCPAMYj9DORp+C5YPRqZk3pEQomKiPuQ2zWQOvBeMa3wp2KJKNKxuOIa6J3gx9soPqHeng2XA+I//Y/8Wfry/a7sO3MseyQvpav3EvDLD8tiH+R5f1mzzt7N2oQ/JsPThpLERuE791tfMj6znv0DOd3h8JeHNwJHAJ8UbJpCLyvnie03NXt1Q4Ovia9eNk5CJRmSaWN0POKOayA/XhDhdFK1OiUTnQj3oerFsmyDJTi+HLje8E7NCA82Gk/RI8NEkKtqqdmPPSZuIXsYXWK7ujWcIbt/+ntbY714tq2eS2qx00yDUegpn1tbRuiBrlfun4OecFCui882oIygNDiZQWECzmAuDyBCXQkfwGi9pP2UUfJkQj96qzIhFmcuRHsowVCdGr0nRsidrlkDyGEbmex+1WYfgeqRVLjpCX8yVkqkgAG1eEfkhfisBc0LLmZTy0rpbYJTwMgA/mGHNCm8/pgZfg0WjnT68rF0LdD56lUlkr+AaBZQwwou6cMimO3YczPPLYYV7lTC3FcIxmevy9F2RrXd03m7smRiGQJd6tErG22VqFo75kSAK/TVvwfazpnr//fBIraHvE47i6FxNVucw5OKs0ylDlXNkABO/Ss2XvG8K6zmDmp913eVRyrcnObVqAzlTPbwj+1kA4hWsxcKzyOif96VDJn2fsUaHsddc2RdwjwBLwqmi9bT/xRduUPLrrvgl36el9yF/2m1R18S9u4ubH6Srv4QEV6J2f90R3AZJW//XWZRhgJH+UD2Z/672FmPMLa5giI/nvSUeqMc9+dt8iKMT9tJb+wgWcvst7GG9rn5+9G8ekWqJXkzxusxRaWodE0TltcjR+DWNAJzgq9xUJqPohHIMFytWYf6+Fdid4Jsyc+ueX83g3SDrjinJKygiy62oa8Lm4BDIiQZRCUQXPX1Ejk7cHi6ERWYM3dPcF2vtp2Q+v0hCxL9QrS2UGA0vr/56E9Vu9oxX/mg8+aaso0OStzdKzp74MvX9fNsSuLvlakZBYLzUvn8cX4cWSfQXd1MBAoM0d7abvMhtEiA3pHi/OKP1eha+/Bbb5efLvjTSZ5aNOZ+Ps8apDOOemGoCyQEQCHYUOfRNkl+DvyVveM8V/lSOXLei8JeKclvO/5+WBvSLQ3bbBqJ817az8ICt9ihDUf7JRew/9pARgvJ1tf3LRZzzJTTQ5H3fAUGfBzw98rpUhbZClEJzB4g2ldzX+uKGjScAdfGRWcB9nzfhP5/WfpP92UfxFaH3pF7K9W0hzEgJEGB52Cf3578LGy7eO9v8Bx1FQsLYSQlGVZBn3ebzeHInntFY/TRb/EUThHuaItmhbgmjT50rG1qI7w8QSEDg7zP+QX3sE79qfDUKHoMd/0Xzhk4TIWODPGsOTJstyl7n/+YQ60S5FeoHuxJPQ2UN1HZZvmjTonMzTd6VSs+7/eFeCMziGtALijI13IYPuPILlBtZBNnoeXIHHqkIAnxVZcozBM34mnmmf8upITSBc6kzQsZ4l8P5BMlw0W87HQ19tu0jxE0m22AhQ/I61nAfSt6Bn+kgdliqK7bgAQOVNSYqudv5xVW6T8CAbX7HrsAw5lmSI6tYmUB2ODdT+pWpEa1Nop7OS/Ulkq+QMVwmtDSQ1PlK0oBlyUVA8MK+EMw17wN3gYcy+TXfHAJhVYsi9UctMgjpvzBd0nJV/RfAm1g4XTsj/XgKOwUFH8pvDn6JPO7bzamG7sa8g5TYuPhcHbGDE1ODoRM6sNeT+c1bkHTzza3YxoiiWBgNl4NRzyVS2zIyXFuFrtD1AVIA+u3aS16gCWTPvPH+2lyCGARs5HlQFcaWlWGIyuCvs5CDX+mNJ9Y27lb7uVRa1NPUlOw5JMXMIPzjgteA49LKX8XLgHScHzWleRp+qi056WKEFGYKVmx5PncvjYV4unvZaCSK6n8SBrNQXEzK++w8edvgw1yGAH3JiXF9OYzds7Q4SQs/FEatnGCEkZ4w7vnpuE4Tm0hkuymzYAy5KzSdHHSmP56PsT5OkQAprvdPCiY5MljerB79VNNqnlU17zWvhf0wCbUnBLaOpRKyAmMqTUwU5aeqWfsoZ8cf1n6mWoZW0ADG1vvdSudefRzdJanh4p1ozTi/2+TaeMUkX/DH34f8ItgXEScHIj11fxLITmLS8p/LoKlvpwHpoO/u3Fr8PKYKfkgpnBqtplqwOp2CWkx8pOz9WrnTvoyEBeHdAi4zkt8lAEsYyiu2gKEhagRGAyn9nYEfQPEfQNnX425iyYtdx1q5LEyBroJvr4jgEmB0tFE15xHSDOFGHOwcPwayCsMqFeMwRCokerw/OcTrHdQwI6zUZBxFVc32KJWe7yGTvGTeHsd+h4vaRzOdfHSRfsPuypguJtxq2MgKryVJRP4rzG3mwVgGn3NEVQydyzHeFU1CY77V+P0dbQUIY7NFSbehfI8wbVMvLpOy3Ow8C/ZyrQqYnGV4qujMcd/Tb4fcIZjGpYaMApcZrGXQR8Jis7e4C3ElGnEUOu21ZL8tpLFOv0864UtiGuNwlcP1jezar+/R1D+fPkxtcVD6Klm0AKAbW1gj09C8weLUTGroKIGchHWhSYvuFyCfw6ldPwO9AGqCmOaBIiqxnHwdjkot2Kv9dU4UKXAE97eS62BVQeBXCVktIj8dY0HGDOXkBZ0Nh7mZpvXYyNGWEmfjwueFVi3UUsuQ3QXP3kXSp0ksHHUL0Bj4FkzlD9A/vSNrcA86p+sGGpBe8qATiCFDFst5cYR0k8T55J0pMjGY3lVyGmZIWMB97WXTu9kzhUC6aXhM/tEWWzB0vNPG7Y9gpLqfAztW8kPANgyFxhPHhu1kAtMU0dIJIhWFnTmPAtdJmvjDQKJOtfva0tUAdWcDfh3XKNcbqOAer78wnJ9Pwvj18V0Dght7tYxdT8AZVyDYyoMX8vD4czSBeiQwSTmEaYwSARG4M6KKd0T0vrlns6Dw3gDb26Mr+5UqeMzk0zYQ/jh2oou1xTBVeOVHvlAJOzp+lTvgYSN/BO6HZnUnh6K9c3aLn6hD7z1xI7yXk8dYWIyqDiIKGKSPtiCMR/al9MFRVY9WzXl/6Px8wUe5/12GN0NW32tPbAhmSZuGMYvwAqW5QqVADy0ItwPXhpOHE+YykKcAi9ZNidClYXE16YWxUbt4PBJoSPT4B1JsHORciEHiLXtAhi9vpJ8aEbSJEfCcsacC1zqbWQJaOTqSoH3uFWA0wrGY21tDLw2js4of/7bRqOtjKnJdDR80t86oDrD1tE052tpWIFgQkJ6r57nz178uySWgLEXm3roR5gTo7JebTihVG/Kl2pMtRh+wpIC1MX7cHTA/C+Vg2mvWSpwetdDuuZi4KfHHGa+STQC97wiixP0yaSM3Pm4uA4x8U/pA2aOrhN9UtDeeIiq9Uef9QmXZ3580Nzrm7wUzJkf9Kt/arHiRK5QrdsMZsS21WOgXkRAJyHrBZepK6KA/yz5VRfqIXWYIgh1MBuYr/iVMKfvboee81LTZ6aXucobXFZkE5Ivn9gye7+7KAN/eHe0nFCIop9S1wU9dSyInpaNIhdFq+vjTBy7Av4BpRWLUvoTIDCmG+9gHIKsh+dyPAA7YGpK0/20KkumMyKYlm93lNAuSdRR7YLYDuMA9/ETiBakSaRpc6JeDX4ZZwbOOk9c+VsbuqI0VC3lcCPcRB/43Fc+zQqlShQx9ccJ6UIKVpZIs9IABgdSqdCpHtq8udo2DVCxoMdyjtarE5h/e4FRjZgvdGkaq+wFsgzm2Q5Ns9eZ5u6CSJkF1QXcVjuSh9020mEeia8NGQ+5dzqnPgAZj/u7hCEu4697cp4hLpKLu7D14XnBlNK5qyh5+KrRGjeWJSff6nh4w6pjk+/VIwo4Ks4T0iqobZ70jtnRyQGuBhMX4dni7RKCOAUy8G4ve6naOUpM6m0KAzjkDeJ8CnHl1ONE/3G0oBB4rf8Q4M72zEjb6KV4yT5aLZaUBZRqJPxP2Zhw7xDoqhNguU9EWcjcJj8nLwtscKqr3F7ILeVLFV4z0630gu2IEnynAm7wp9BDcWZbTjxuqShzzxis9MKLVIjUnpLVDFjuNdSzhf20GBD3vFleDNxNljRU67j8NeGjJLY62DxJQcDmEJLaszHbD/TtWyk9yT5GogIVDjynG10UKHpjZydpznZFmCm5D4XiftnNLLKe9IUd04W3yTiV1jLQXfv+n2Rx+T0tgxlyzIjN4pBJeEVSrelb63DydOXP+/yutsfoe5X+XmsgSbXR6Gmx3tSnBkFFj93HRfkBei7hxO+WJoxnVEQdFj+9kDO7+W+2oxQrzx+nlJtkuV2gO6h49EwUafKZVfS2GUSsvqERqv6AzB2ZYEu/cOE8q4dq0cAzWKZRZDSHjYm9+OG+t5uvQLdAfkVXihOtjwVEtju79Gzj8pp9GyZkNZU8vePyKtscyN86td9Fn1PkU5YU3/5CfywLkuYisc4XwKG8R2XTILL0ApC7Wob41qyOsLqnalLVj3a6/Bsgw3v9+M3qHdhFqjJ+v/chIBlc5xZrevrL81F3f43lh2OWj2dkxhVZptOxH5iB0Du5oJDycb+QSp3CjXrWbr8u/QI8TJzZosgK8jsxJzRqU87GrgSzVDtlxqhvkAl26dWG0mU2QDq0EPi/cHP9peQyfc/KXWxOE6UdxPu2hOuuOHzQE/UhXUpxc8tsPA2mQOyDrye9jJa7GsbNaWuv8iSRZdmBuk0DFFF7ntW7CBBc1lsdJLgCNbfdTgfLeacza+67FrGp7yPUxD8L+mKX1+1pGExR/RrvpvAerdmxryNHLHb+2Bk3s85n+tD4vj0gq/ONOHu2/YwOJkdvS2ILjFN6/0eFK2zoZHvp9F5uvfaXu2Z4LA757Djtg3HWmobh2I+yGAbRL8rksj1avmfcZkFZcwO3X5WUklXLScJyNP7xMX8V8P2mhEas4TydLxq6gzDjdUyFUDG0lf7B+Xb/Og3bBVIpznfbEa/AwQ/6kx7YDACU9tnS9doigkisCuWB/rkIKG8YAAzz0JsH4DR7321T9JqePVBY6emkFJgC7Qa4L6Cp29dQnqRT8fXkLd2YO4RV/AuOCPmgEWTq9KAUwRkZ3b70yqXDyR/613xNMLwezIVMbpRhkz83ZbiQHj0sIOXTY1nnL35Nqi1M71kUW0oRPphBNcOKEqsa6Rmda0BcmVbFN1jpGNc2jDDLufZREa6FChBN2S0OyGKBxsKmEWBJIzbKF7eoK0+xU47tFPFOksYdzLpWI51g8R01TpbKagCOlz4l2uwwDRJXG6SBtD4AOO+cYn1Uk+HW0OOnh2Ep2yOIoQdIRQM5FshaQOG5xvttNhioBOIGCiIKY9iv6XC+OKD4Vg8Ereco7ehPy4c8snWxJG81bYhAI2GCP+ehtL+ZOppuaZN1oR8BQ6kNbBxl6Ig++52rBaZNcabWhenrrlHNvM/4Rh1bVZW5pPUTWLOd0/HskX9V/b/cZXYk0lNnEDIr5tYwbIM+pwqK76gp4ejOXsgE2//6GfklXwFgmXOytLrR8uWxsYFZj22G78BPNgUiquov00y5FeXE5fMmXoZ7AQDc2Vt3mjyqaT3jnVZRMtqDLKtwDLTqi65763OVhEd+06KgJAjXptrMPTM5kzSp+e+n9XH3sIA7LWj9d+Y5YM57FiHk5IxgEJfIympCKHXNQA1AqyHnK97vIEOyOS6+Ayuq0H4MLwNCq4kk1Nwta/fCyVVQyz+sBfF1Ia5VsiGsVpL29alau+jY5N340fDGajAe9s9XVs8s5z2d90EeP6gEPs8tOWvJnARHMMjRisXGtrXiNbJyvmCDx0BO+AQpP/RXkL+7nhNdtHybI8krkP6X7nblKrN9H4fLc4X+JRANFKY8VmoPSgUKBqE710nInoFQAcDdKE4HO02uGAwondC4S0JiSivBcxsKjARmQ7PR+66oyxUBZAZhdygLHFXFMht8Y2B9QmB2ToCKYM/y1VdmIie7HvNZxRBuYpNcyWytKpUjOW9qGh6a/oPz3d1AtHnGmf1N8LfZB+XPHybyw0D1fmlEVbxq+iWt8pCoXXDuC/EA07Lfti3NwmqP2NWQTE1QsrM6nqOHTGGr3nPuXnOXeV7Hh/BNrUnLzI56fpyEplxr0i4AS0hxb+82cGtwMoDNXr26WUmiuIyG+/j6yy9viNIWOpN5cMW5nCd0CKM1OP3jwg7bU7a1GsLYUF933SuaHyaH+nmgZcFXies8E+CU0WTmxRAKyJaOQQzmPVnRGuVAUBpf6bodCFjAe8kerX7z6s6wO0uuvWHZiOZish+SKA4Kt6WK76+LqfFB2qANrMJIgplRH0qckdXJpBKPDbi9pTlG6LuUIhglK15IRDO6PV0hIGi0bn/faCID5ORoJsBQMOm61O4r2G2EZlMa4iX6Cpazaw3uPJ09gFeuajS7zSC9w0RD+Ua0sRSgzQpqf0Wu9fVGaiQU8TUDF/RIK3n9tBQB9+i/UKH284aAU2YgEMnqzm/bgvBHtcktYUa7Qd2bUWwq/QbnFoawSiJRvOi/Ih95XDEerb+iDFxv369FCSZbjq+fg2azEtNlTWGlaVvJ1icL4aHi4oZSBlcK8UVtqLab8lda74xEnMT9Iq6gjCf/cJF16+VVJvNOcQFueBcMQtNyfTzF8tUsHK5nU3nFIvNqdy3EJTb8tk3wH1oesJiG3JSdyuffGN+S7Bie1pGWsQ0BHtbIyXulk="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%ED%8C%8C%EC%9A%B0%EB%8D%94&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 파우더</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22Food+to+Live%22+%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98%22+OR+%22Sacha+Inchi%22&client=app-vertex-grounding&safesearch=active\">&quot;Food to Live&quot; &quot;사차인치&quot; OR &quot;Sacha Inchi&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%83%88%EC%A7%80+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">사차인치 탈지 단백질 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=Food+to+Live+Sacha+Inchi+Powder+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EC%A4%91%EB%9F%89&client=app-vertex-grounding&safesearch=active\">Food to Live Sacha Inchi Powder 원재료 중량</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgsjPVEUKg6amuziNa97aevcOM1fQ1_UAVR7IXrKi8-DzHex-nU-749Y7OO7qWPgTE_Nc_SfrA4BaRckcwA1eeMkSFAFQCnpL81aPR4Hk-m0286uLRNb1-bD4hqpNXFYD1cnjvYonQtAKQKbmGCFg37VbclXEAuetWuM6lcxuzM-qYM8StB49X5Qpjoie0787cqpE=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKRs7N5wjfkaoj1J5yHNcyAZ_2pVVDHYHNpZyBaXeNtSY1FbvuABBgDwVgu6Ew7IpGIws5wvOspBiHk5HjRhCkGmv-kcfeUtO_PGe8W3ijQIGBTjBVaWU1d9vB_CCxwA8msGuBYdSCcZXyvX-hJMe",
+                "title": "ssg.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2wWgzMXwQCXEVnKtsh5eLYEY5mUQsUCs2Uxi9CZepT-43q7SEH6CcyHftRtfjk1UXZXZRnFRfw9hS9gyV4X46gxhdhb3SPNwbsc5Z8W0UdNNSh9uBBIqJQFTiJIfA9TzhUV9_d6fHbblRCSNAI2W3LmGyhar2umwfwaLJY7dkU_w2JNA5xV-bDPdvKtIduCATSBYqO7XwdFNOAFx_Ls957oeB6euocbBcYQ==",
+                "title": "recipal.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH99Ob8OsmV9RN2UVrMsUU02mzoh4hpNlq4K4sON31w1rMl3SoCC4KmO_zsrIov1YcjEu_IqOmGnEDTkG1-M65aaHpW_zSSA5pkO_jEJ5wzIfEgjY2Nps7j_4l8zkcg3-D5_ocd0GTb",
+                "title": "food2live.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpimW-1X0byKzy60lubPiSZYw_XPoL5NGpPPZI_kXWC2jaiCWks8BbE6Cn_Cqmz11jdEc7TEc9OHqZjTgdmEdaOfZvGkQHZ59rM15119_S2v-wa2Hymy0i6HeRN3dB3MTvQsJ5YLtfzXM9Kp_w0-terzNcgxJTxQS",
+                "title": "croket.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOUS2Nox3QLwDXmJRxwvrgGB0ao22aEO9rJl8LgS1RTLwXKYoetGSwRrlhR01SQtP8v6m-zTpq-m2r-ucMDyDvAN3EtMWuA962fC7wNwztJ9nOoC1XT7xKgivUMhXjf7j2wUOiq55PYc_BhWhtP9g0Nc6L0n7jSRVjWrrKUwvET3nwlgv637govEUnuxTLp2D__qOr0pf5ROJSu-AvlGJZCKwc2AA8uSZHbqTDo0fXud4CIz3Ys4VRDh0KdR6ZvEZQIyY-LTpjGuWD5bFaSomlldUcBbStHpEjGGqnBbIM0HK17Bs5_oUOfOJLBT37TcDf7sFiL7WZEoy5SIgZigiXH_Ch_ZmFLD4yfeAQpNmCPVzoQwQGSkoIH7742eN5oWXsEsQB1-7Tgzxt8z1K6iMnyCj_7LErp_iDOfmNU6hE0OF4rLPa9a-B",
+                "title": "whatfood.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 323,
+                "endIndex": 698,
+                "text": "**근거 링크:** [아이허브(iHerb) MRM Nutrition 유기농 생 사차 인치 분말 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgsjPVEUKg6amuziNa97aevcOM1fQ1_UAVR7IXrKi8-DzHex-nU-749Y7OO7qWPgTE_Nc_SfrA4BaRckcwA1eeMkSFAFQCnpL81aPR4Hk-m0286uLRNb1-bD4hqpNXFYD1cnjvYonQtAKQKbmGCFg37VbclXEAuetWuM6lcxuzM-qYM8StB49X5Qpjoie0787cqpE=)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 701,
+                "endIndex": 805,
+                "text": "**원재료:** 유기농 사차인치 분말 100% (인공 감미료, 보존제, 글루텐 등 무첨가)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 808,
+                "endIndex": 832,
+                "text": "**중량:** 240g (8.5oz)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 835,
+                "endIndex": 1059,
+                "text": "**선택 이유:** 다른 부재료나 감미료 없이 100% 유기농 사차인치 씨앗 분말만으로 구성된 대표적인 단일 원료 제품으로, 소용량 포장이라 보관 및 시범 섭취에 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1201,
+                "endIndex": 1516,
+                "text": "**근거 링크:** [SSG.COM 푸드투리브 오가닉 사차인치 파우더 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKRs7N5wjfkaoj1J5yHNcyAZ_2pVVDHYHNpZyBaXeNtSY1FbvuABBgDwVgu6Ew7IpGIws5wvOspBiHk5HjRhCkGmv-kcfeUtO_PGe8W3ijQIGBTjBVaWU1d9vB_CCxwA8msGuBYdSCcZXyvX-hJMe)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1519,
+                "endIndex": 1575,
+                "text": "**원재료:** 유기농 사차인치 종자 분말 100%"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1578,
+                "endIndex": 1637,
+                "text": "**중량:** 1.81kg (옵션에 따라 907g 등도 유통됨)"
+              },
+              "groundingChunkIndices": [
+                4,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1640,
+                "endIndex": 1875,
+                "text": "**선택 이유:** 단일 원료(100% 사차인치) 파우더이면서 1.81kg 수준의 대용량 패키지로 판매되어, 스무디나 베이킹 등에 단백질 보충용으로 장기간 꾸준히 섭취하기에 경제적입니다"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2012,
+                "endIndex": 2588,
+                "text": "**근거 링크:** [왓푸드(whatfood) 공식몰 상품 페이지](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOUS2Nox3QLwDXmJRxwvrgGB0ao22aEO9rJl8LgS1RTLwXKYoetGSwRrlhR01SQtP8v6m-zTpq-m2r-ucMDyDvAN3EtMWuA962fC7wNwztJ9nOoC1XT7xKgivUMhXjf7j2wUOiq55PYc_BhWhtP9g0Nc6L0n7jSRVjWrrKUwvET3nwlgv637govEUnuxTLp2D__qOr0pf5ROJSu-AvlGJZCKwc2AA8uSZHbqTDo0fXud4CIz3Ys4VRDh0KdR6ZvEZQIyY-LTpjGuWD5bFaSomlldUcBbStHpEjGGqnBbIM0HK17Bs5_oUOfOJLBT37TcDf7sFiL7WZEoy5SIgZigiXH_Ch_ZmFLD4yfeAQpNmCPVzoQwQGSkoIH7742eN5oWXsEsQB1-7Tgzxt8z1K6iMnyCj_7LErp_iDOfmNU6hE0OF4rLPa9a-B)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2591,
+                "endIndex": 2689,
+                "text": "**원재료:** 완두콩 단백질 분말 및 사차인치 분말 혼합 (식물성 복합 배합)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2692,
+                "endIndex": 2716,
+                "text": "**중량:** 1kg (1,000g)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2719,
+                "endIndex": 2984,
+                "text": "**선택 이유:** 사차인치 단일 원료 특유의 거친 식감이나 맛을 보완하기 위해 완두콩 단백질과 결합한 국내 유통 대용량 단백질 보충 분말로, 단백질 밸런스를 고려한 일상 음용용으로 구성되었습니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3154,
+                "endIndex": 3223,
+                "text": "| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3154,
+                "endIndex": 3253,
+                "text": "| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브 | 유기농 사차인치 100%"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3154,
+                "endIndex": 3260,
+                "text": "| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브 | 유기농 사차인치 100% | 240g"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3154,
+                "endIndex": 3312,
+                "text": "| **MRM Nutrition 유기농 생 사차 인치 분말** | 아이허브 | 유기농 사차인치 100% | 240g | 소용량, 순수 단일 원료, 비건/무첨가"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3315,
+                "endIndex": 3379,
+                "text": "| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3315,
+                "endIndex": 3409,
+                "text": "| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM | 유기농 사차인치 100%"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3315,
+                "endIndex": 3418,
+                "text": "| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM | 유기농 사차인치 100% | 1.81kg"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3315,
+                "endIndex": 3462,
+                "text": "| **푸드투리브 오가닉 사차인치 파우더** | SSG.COM | 유기농 사차인치 100% | 1.81kg | 대용량 벌크형, 순수 단일 원료"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3465,
+                "endIndex": 3517,
+                "text": "| **왓푸드 완두콩 N 사차인치** | 왓푸드"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3465,
+                "endIndex": 3555,
+                "text": "| **왓푸드 완두콩 N 사차인치** | 왓푸드 | 완두 단백 + 사차인치 배합"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3465,
+                "endIndex": 3570,
+                "text": "| **왓푸드 완두콩 N 사차인치** | 왓푸드 | 완두 단백 + 사차인치 배합 | 1kg (1,000g)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3465,
+                "endIndex": 3616,
+                "text": "| **왓푸드 완두콩 N 사차인치** | 왓푸드 | 완두 단백 + 사차인치 배합 | 1kg (1,000g) | 복합 식물성 단백질 파우더 형태"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3622,
+                "endIndex": 3842,
+                "text": "**원재료 측면:** MRM과 푸드투리브는 첨가물이나 다른 원료 없이 사차인치 100%로만 구성되어 있어 순수 사차인치의 단백질과 영양소만을 섭취하고자 할 때 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3844,
+                "endIndex": 3992,
+                "text": "반면 왓푸드 제품은 완두 단백질이 혼합되어 있어 아미노산 균형과 음용성을 조율한 단백질 쉐이크 형태입니다"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3996,
+                "endIndex": 4171,
+                "text": "**중량 측면:** 240g(소용량)부터 1kg(중용량), 1.81kg(대용량)까지 규격 차이가 크므로 섭취 주기와 소비 속도에 맞춰 선택할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                5,
+                0,
+                1
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "사차인치 단백질 파우더",
+            "\"Food to Live\" \"사차인치\" OR \"Sacha Inchi\"",
+            "사차인치 탈지 단백질 분말",
+            "Food to Live Sacha Inchi Powder 원재료 중량"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 900,
+      "candidatesTokenCount": 1881,
+      "totalTokenCount": 9332,
+      "cachedContentTokenCount": 544,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 900
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 544
+        }
+      ],
+      "thoughtsTokenCount": 6551,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "M_IEa5S5MezW1e8Pv_ij8Ao"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:12:24+09:00"
+}

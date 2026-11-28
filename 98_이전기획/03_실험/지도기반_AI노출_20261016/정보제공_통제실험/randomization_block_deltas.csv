@@ -1,0 +1,13 @@
+﻿area_id,repeat,factor,delta
+MD,1,menu_price_detail,1.0
+MD,1,keyword_repetition,0.0
+MD,2,menu_price_detail,1.0
+MD,2,keyword_repetition,0.0
+SS,1,menu_price_detail,1.0
+SS,1,keyword_repetition,0.0
+SS,2,menu_price_detail,1.0
+SS,2,keyword_repetition,0.0
+MW,1,menu_price_detail,0.625
+MW,1,keyword_repetition,0.125
+MW,2,menu_price_detail,1.0
+MW,2,keyword_repetition,0.0

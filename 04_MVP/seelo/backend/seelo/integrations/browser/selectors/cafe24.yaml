@@ -1,0 +1,35 @@
+# 2026-11-24 실제 카페24 상품 편집 화면에서 관찰한 요소다.
+edit_url: "https://{external_id}.cafe24.com/disp/admin/shop{shop_no}/product/ProductRegister?product_no={product_no}"
+ready: "#product_name"
+product_id: {selector: "#product_no"}
+name: {selector: "#product_name"}
+# 다중 쇼핑몰: 최종 화면 주소의 shop 번호가 등록한 쇼핑몰 번호와 같아야 저장한다.
+shop_no: {url_regex: 'https://[a-z0-9_-]+\.cafe24\.com/disp/admin/shop([1-9][0-9]*)/product/ProductRegister\?.*'}
+save: "#eProductModify"
+saved_ready: ""
+saved_alert: "상품이 수정되었습니다\\."
+fields:
+  description:
+    selector: 'textarea[autocorrect="off"]'
+    open: "#html-1"
+    opened: '#html-1[aria-pressed="true"]'
+    ready_frame: "#product_description_IFRAME"
+    close: "#html-1"
+    select_all: true
+  summary_description: {selector: 'input[name="summary_desc"]'}
+  simple_description: {selector: 'textarea[name="simple_desc"]'}
+  seo.meta_title: {selector: "#meta_title"}
+  seo.meta_description: {selector: "#meta_description"}
+  seo.meta_keywords: {selector: "#meta_keywords"}
+protected:
+  price: {selector: "#product_price"}
+  display: {selector: 'input[name="is_display[1]"]:checked'}
+  selling: {selector: 'input[name="selling_status[1]"]:checked'}
+  stock_management: {selector: 'input[name="sp_use_manage_stock"]:checked'}
+  stock_quantity: {selector: "#eSingleStockNumberValue"}
+  soldout: {selector: "#eSingleUseSoldOut"}
+  purchase_mode: {selector: 'input[name="global_buy_limit"]:checked'}
+  purchase_groups: {selector: 'input[name="buy_group_list[]"]', multiple: true}
+  minimum_quantity: {selector: "#product_min"}
+  maximum_enabled: {selector: 'input[name="product_max_type"]:checked'}
+  maximum_quantity: {selector: "#product_max"}

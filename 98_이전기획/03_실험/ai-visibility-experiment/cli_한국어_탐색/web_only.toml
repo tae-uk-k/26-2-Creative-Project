@@ -1,0 +1,9 @@
+[[rule]]
+toolName = "*"
+decision = "deny"
+priority = 900
+
+[[rule]]
+toolName = ["google_web_search", "web_fetch"]
+decision = "allow"
+priority = 950

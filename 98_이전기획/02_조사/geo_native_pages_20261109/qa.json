@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "kakao.html": {
+      "local_links": true,
+      "app_script_only": true
+    },
+    "kakao_menu.html": {
+      "local_links": true,
+      "app_script_only": true
+    },
+    "google.html": {
+      "local_links": true,
+      "app_script_only": true
+    },
+    "google_menu.html": {
+      "local_links": true,
+      "app_script_only": true
+    },
+    "google_info.html": {
+      "local_links": true,
+      "app_script_only": true
+    }
+  },
+  "live_map_write": false,
+  "source_dom_used": true,
+  "native_component_css": 11,
+  "kakao_geometry_verified_in_browser": {
+    "source_and_example_panel_px": 602,
+    "source_and_example_photo_grid_px": 552,
+    "source_and_example_menu_font": "16px / 20px",
+    "source_and_example_tab_font": "15px / 20px"
+  },
+  "google_source_panel_width_px": 408,
+  "source_files": [
+    "g-asset-manifest.json",
+    "geometry-qa.json",
+    "google-bundle.json",
+    "google-home-bundle.json",
+    "google-home-css.json",
+    "google-home.json",
+    "google-hours-row.json",
+    "google-info.json",
+    "google-menu.json",
+    "google-parco-attributes.json",
+    "google-pizza-overview-info.json",
+    "k-asset-manifest.json",
+    "kakao-home.json",
+    "kakao-intro-template.json",
+    "kakao-menu.json"
+  ],
+  "google_geometry_verified_in_browser": {
+    "googleSource": {
+      "panel": 408,
+      "search": 376,
+      "text": "14px / 20px \"Google Sans Text\", \"Google Sans\", Roboto, \"Noto Sans KR\", Arial, sans-serif",
+      "title": "22px / 28px \"Google Sans\", Roboto, \"Noto Sans KR\", Arial, sans-serif"
+    },
+    "googleExample": {
+      "panel": 408,
+      "search": 376,
+      "text": "14px / 20px \"Google Sans Text\", \"Google Sans\", Roboto, \"Noto Sans KR\", Arial, sans-serif",
+      "title": "22px / 28px \"Google Sans\", Roboto, \"Noto Sans KR\", Arial, sans-serif"
+    }
+  },
+  "browser_interactions_verified": [
+    "Google 메뉴·정보·개요 전환",
+    "Google 영업시간 펼침",
+    "카카오 메뉴 전환·해시 위치 이동",
+    "비교 화면 Google 전환"
+  ],
+  "final_screenshots": [
+    "google-final-home",
+    "kakao-final-home",
+    "google-final-menu",
+    "kakao-final-menu",
+    "google-final-info"
+  ]
+}

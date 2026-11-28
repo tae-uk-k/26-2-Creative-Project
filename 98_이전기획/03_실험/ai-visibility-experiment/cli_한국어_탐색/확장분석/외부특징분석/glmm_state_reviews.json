@@ -1,0 +1,11 @@
+{
+  "variant": "reviews",
+  "numeric": {
+    "log_review_count": {
+      "median": 3.650573902928016,
+      "mean": 3.466924904994576,
+      "sd": 1.1826346880188283
+    }
+  },
+  "unit_mode": "meal"
+}

@@ -1,0 +1,329 @@
+{
+  "run_id": "gemini-api-B0-S01-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:03:37+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S01",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "웹 검색을 통해 확인된 사차인치 원료 기반의 300g 규격 분말 제품 및 300g 세트 제품 3가지를 정리해 드립니다. 사차인치는 식물성 단백질(약 27~30% 이상)과 필수지방산이 풍부한 식품이며, 시장 내 300g 용량으로 확인된 제품 정보는 다음과 같습니다.\n\n---\n\n### 1. 리얼리프 사차인치 파우더 오리지널 300g\n* **제품명**: 리얼리프 사차인치 파우더 오리지널 300g\n* **판매처**: 다나와 가격비교 등록 판매처 및 리얼리프 공식몰\n* **근거 링크**: [다나와 리얼리프 사차인치 파우더 300g 상품 페이지](https://prod.danawa.com/info/?pcode=5733575)\n* **선택 이유**: 단일 용기 규격이 정확히 300g으로 출시된 사차인치 100% 분말 제품입니다. 1회 10g 섭취 가이드가 제공되며, 사차인치 원물의 단백질과 불포화지방산을 분말 형태로 간편하게 섭취할 수 있어 적합합니다.\n\n---\n\n### 2. Pik Pure 사차인치 프로틴 파우더 (Pik Pure Sacha Inchi Protein Powder) 300g\n* **제품명**: Pik Pure Sacha Inchi Protein Powder 300g\n* **판매처**: 인디아마트(IndiaMART) 유통/공급 플랫폼\n* **근거 링크**: [IndiaMART Pik Pure 사차인치 프로틴 파우더 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2481407588.html)\n* **선택 이유**: 제품 분류 및 규격 자체가 **단백질 파우더(Sacha Inchi Protein Powder)**이자 포장 용량이 **300g(Packaging Size: 300g)**으로 명시된 해외 비건 식물성 단백질 파우더 제품입니다. 알레르기 유발 가능성이 낮고 아미노산 및 섬유질이 풍부한 비건 단백질 공급원으로 제공됩니다.\n\n---\n\n### 3. 바이오후드텍 얼스팜 유기농 사차인치 분말 100g (3개 묶음, 총 300g)\n* **제품명**: 바이오후드텍 얼스팜 유기농 사차인치 분말 100g × 3개\n* **판매처**: 다나와 가격비교 등록 온라인 쇼핑몰\n* **근거 링크**: [다나와 바이오후드텍 얼스팜 유기농 사차인치 분말 100g 3개 세트 페이지](https://prod.danawa.com/info/?pcode=5733574)\n* **선택 이유**: 국내 시판 중인 사차인치 분말류는 소포장(100g 단위) 유통이 많은 편으로, 100g 분말 3개를 묶어 총 300g 용량으로 구성·판매되는 제품입니다. 유기농 사차인치를 원료로 하여 분말 형태로 단백질과 영양을 보충하고자 할 때 300g 단위로 구매할 수 있는 선택지입니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJzMAT2zb1w5Le5qjioTATjHYO6w_O6TnusKsGqmSBLqIwxyIj8ZO3hzRjVxyBnIVB-MRlcWyoHiOfyOL0xGy-iagcNbqads5mP-_z-KCV_xknawzOwfGaibyrZuI3P42KO7A=",
+      "title": "hankyung.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbXLHfpBHi57i9PJYzvIhWE616rtG5L-EDCcZeI0vIFXQ4ytzO3bO442fNZMs8j_2LM38ipCa6OwZrSh1LFm419ToQq-OeQxy0tVa7ruOcY_AyIevYF3VBtpfkjJCulMs=",
+      "title": "danawa.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ6J9gQKtso4D7q-cqVLaGw3oiPthaztXdMb7aEu9ns03DiAhiE7OG9m0Xanf9RRk2JdcQTiO9p0cRrnEZqHwgOwsWVuyyUf5f1cqtOMdwbDj1O5yvKUu-Oqu1JyKucwGoCvIoLEkiRUEfHFt60R1-7VWb2OM7BSGhjGh868KP9SAKdoy8L4vTv3VObefvS4bg",
+      "title": "indiamart.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHixbGLDMi3RR_XJS9F2mat3voxlyyKVdcmfax8uFUx3-kCJHfWvWTITDJfVOiEaPHw4ELgcYFzhmgFQZc-LReXk0XB1SSVYwNt2momRDu__GxQ0JAyn8Q6bXO6wizgXOS9t0g=",
+      "title": "danawa.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYcG_j53I0MoX6KG1nd4in_5nVqvlvWVGQLYQBfgomslpxVIQUxTfWZwveoex2YHdo0ee_Tf5NtXCAj3CAFdfD9ZGVbm9PYGqEFHW4H8FsxZajrF1r1zHVfjb0XDJZf2lSBksMzk-9K9rI0g==",
+      "title": "realleaf.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHktXoOFsfLwiBZ_2fB8JEsLRa_kb-AagHHa6Jmpnpc3tCzh1EQJCz_HkSiBnvzN8m8ASsb16daIvoAwB4NJmA4FipYVGdqH14K-6JJHjeCKCiIhgSMBJt3IO6kZ_at5FrbMRSdHNC4BoKVlvgtkx0Qu4koNuWq-w85DIx84wuPCsNKuaQST82_O4HeiPI6VSJvO7ioG6-A3qitw4lbvqdpxbYDvnP8VPilTOQR7QdNyqRzaCMM7cYU30ytfd8EVpjeL1q9_xS_3VRJAlThILpH",
+      "title": "gutins.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ5hWFlLe-tJFnHHx7kaTpBW0lDOV0h7_awfrf68AVlOybtfciiiv-0wengZpsqNjpn8gMNOaC3Aq1-hMXptOXG6T-0qKoy9hjXchpaecYehpHAN-MW9CBwI0Nr4N9v2ykTEximqHDHVrHEp-jamVB_AMSZq98",
+      "title": "gsshop.com"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "efAEa-hq3d7aug-YzL3JDw",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "리얼리프 사차인치 파우더 오리지널 300g",
+    "\"sacha inchi powder\" 300g",
+    "사차인치 단백질 분말 300g",
+    "사차인치 프로틴 파우더 300g",
+    "\"사차인치 분말\" 300g",
+    "유기농 사차인치 단백질 분말 300g"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "웹 검색을 통해 확인된 사차인치 원료 기반의 300g 규격 분말 제품 및 300g 세트 제품 3가지를 정리해 드립니다. 사차인치는 식물성 단백질(약 27~30% 이상)과 필수지방산이 풍부한 식품이며, 시장 내 300g 용량으로 확인된 제품 정보는 다음과 같습니다.\n\n---\n\n### 1. 리얼리프 사차인치 파우더 오리지널 300g\n* **제품명**: 리얼리프 사차인치 파우더 오리지널 300g\n* **판매처**: 다나와 가격비교 등록 판매처 및 리얼리프 공식몰\n* **근거 링크**: [다나와 리얼리프 사차인치 파우더 300g 상품 페이지](https://prod.danawa.com/info/?pcode=5733575)\n* **선택 이유**: 단일 용기 규격이 정확히 300g으로 출시된 사차인치 100% 분말 제품입니다. 1회 10g 섭취 가이드가 제공되며, 사차인치 원물의 단백질과 불포화지방산을 분말 형태로 간편하게 섭취할 수 있어 적합합니다.\n\n---\n\n### 2. Pik Pure 사차인치 프로틴 파우더 (Pik Pure Sacha Inchi Protein Powder) 300g\n* **제품명**: Pik Pure Sacha Inchi Protein Powder 300g\n* **판매처**: 인디아마트(IndiaMART) 유통/공급 플랫폼\n* **근거 링크**: [IndiaMART Pik Pure 사차인치 프로틴 파우더 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2481407588.html)\n* **선택 이유**: 제품 분류 및 규격 자체가 **단백질 파우더(Sacha Inchi Protein Powder)**이자 포장 용량이 **300g(Packaging Size: 300g)**으로 명시된 해외 비건 식물성 단백질 파우더 제품입니다. 알레르기 유발 가능성이 낮고 아미노산 및 섬유질이 풍부한 비건 단백질 공급원으로 제공됩니다.\n\n---\n\n### 3. 바이오후드텍 얼스팜 유기농 사차인치 분말 100g (3개 묶음, 총 300g)\n* **제품명**: 바이오후드텍 얼스팜 유기농 사차인치 분말 100g × 3개\n* **판매처**: 다나와 가격비교 등록 온라인 쇼핑몰\n* **근거 링크**: [다나와 바이오후드텍 얼스팜 유기농 사차인치 분말 100g 3개 세트 페이지](https://prod.danawa.com/info/?pcode=5733574)\n* **선택 이유**: 국내 시판 중인 사차인치 분말류는 소포장(100g 단위) 유통이 많은 편으로, 100g 분말 3개를 묶어 총 300g 용량으로 구성·판매되는 제품입니다. 유기농 사차인치를 원료로 하여 분말 형태로 단백질과 영양을 보충하고자 할 때 300g 단위로 구매할 수 있는 선택지입니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EB%A6%AC%EC%96%BC%EB%A6%AC%ED%94%84+%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%8C%8C%EC%9A%B0%EB%8D%94+%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90+300g&client=app-vertex-grounding&safesearch=active\">리얼리프 사차인치 파우더 오리지널 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22sacha+inchi+powder%22+300g&client=app-vertex-grounding&safesearch=active\">&quot;sacha inchi powder&quot; 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g&client=app-vertex-grounding&safesearch=active\">사차인치 단백질 분말 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%94%84%EB%A1%9C%ED%8B%B4+%ED%8C%8C%EC%9A%B0%EB%8D%94+300g&client=app-vertex-grounding&safesearch=active\">사차인치 프로틴 파우더 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%B6%84%EB%A7%90%22+300g&client=app-vertex-grounding&safesearch=active\">&quot;사차인치 분말&quot; 300g</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%9C%A0%EA%B8%B0%EB%86%8D+%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90+300g&client=app-vertex-grounding&safesearch=active\">유기농 사차인치 단백질 분말 300g</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJzMAT2zb1w5Le5qjioTATjHYO6w_O6TnusKsGqmSBLqIwxyIj8ZO3hzRjVxyBnIVB-MRlcWyoHiOfyOL0xGy-iagcNbqads5mP-_z-KCV_xknawzOwfGaibyrZuI3P42KO7A=",
+                "title": "hankyung.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbXLHfpBHi57i9PJYzvIhWE616rtG5L-EDCcZeI0vIFXQ4ytzO3bO442fNZMs8j_2LM38ipCa6OwZrSh1LFm419ToQq-OeQxy0tVa7ruOcY_AyIevYF3VBtpfkjJCulMs=",
+                "title": "danawa.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ6J9gQKtso4D7q-cqVLaGw3oiPthaztXdMb7aEu9ns03DiAhiE7OG9m0Xanf9RRk2JdcQTiO9p0cRrnEZqHwgOwsWVuyyUf5f1cqtOMdwbDj1O5yvKUu-Oqu1JyKucwGoCvIoLEkiRUEfHFt60R1-7VWb2OM7BSGhjGh868KP9SAKdoy8L4vTv3VObefvS4bg",
+                "title": "indiamart.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHixbGLDMi3RR_XJS9F2mat3voxlyyKVdcmfax8uFUx3-kCJHfWvWTITDJfVOiEaPHw4ELgcYFzhmgFQZc-LReXk0XB1SSVYwNt2momRDu__GxQ0JAyn8Q6bXO6wizgXOS9t0g=",
+                "title": "danawa.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYcG_j53I0MoX6KG1nd4in_5nVqvlvWVGQLYQBfgomslpxVIQUxTfWZwveoex2YHdo0ee_Tf5NtXCAj3CAFdfD9ZGVbm9PYGqEFHW4H8FsxZajrF1r1zHVfjb0XDJZf2lSBksMzk-9K9rI0g==",
+                "title": "realleaf.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHktXoOFsfLwiBZ_2fB8JEsLRa_kb-AagHHa6Jmpnpc3tCzh1EQJCz_HkSiBnvzN8m8ASsb16daIvoAwB4NJmA4FipYVGdqH14K-6JJHjeCKCiIhgSMBJt3IO6kZ_at5FrbMRSdHNC4BoKVlvgtkx0Qu4koNuWq-w85DIx84wuPCsNKuaQST82_O4HeiPI6VSJvO7ioG6-A3qitw4lbvqdpxbYDvnP8VPilTOQR7QdNyqRzaCMM7cYU30ytfd8EVpjeL1q9_xS_3VRJAlThILpH",
+                "title": "gutins.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ5hWFlLe-tJFnHHx7kaTpBW0lDOV0h7_awfrf68AVlOybtfciiiv-0wengZpsqNjpn8gMNOaC3Aq1-hMXptOXG6T-0qKoy9hjXchpaecYehpHAN-MW9CBwI0Nr4N9v2ykTEximqHDHVrHEp-jamVB_AMSZq98",
+                "title": "gsshop.com"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 145,
+                "endIndex": 324,
+                "text": "사차인치는 식물성 단백질(약 27~30% 이상)과 필수지방산이 풍부한 식품이며, 시장 내 300g 용량으로 확인된 제품 정보는 다음과 같습니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 395,
+                "endIndex": 463,
+                "text": "**제품명**: 리얼리프 사차인치 파우더 오리지널 300g"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 466,
+                "endIndex": 547,
+                "text": "**판매처**: 다나와 가격비교 등록 판매처 및 리얼리프 공식몰"
+              },
+              "groundingChunkIndices": [
+                1,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 550,
+                "endIndex": 683,
+                "text": "**근거 링크**: [다나와 리얼리프 사차인치 파우더 300g 상품 페이지](https://prod.danawa.com/info/?pcode=5733575)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 686,
+                "endIndex": 800,
+                "text": "**선택 이유**: 단일 용기 규격이 정확히 300g으로 출시된 사차인치 100% 분말 제품입니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 802,
+                "endIndex": 969,
+                "text": "1회 10g 섭취 가이드가 제공되며, 사차인치 원물의 단백질과 불포화지방산을 분말 형태로 간편하게 섭취할 수 있어 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1071,
+                "endIndex": 1126,
+                "text": "**제품명**: Pik Pure Sacha Inchi Protein Powder 300g"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1129,
+                "endIndex": 1194,
+                "text": "**판매처**: 인디아마트(IndiaMART) 유통/공급 플랫폼"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1197,
+                "endIndex": 1367,
+                "text": "**근거 링크**: [IndiaMART Pik Pure 사차인치 프로틴 파우더 상품 페이지](https://www.indiamart.com/proddetail/sacha-inchi-protein-powder-2481407588.html)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1370,
+                "endIndex": 1605,
+                "text": "**선택 이유**: 제품 분류 및 규격 자체가 **단백질 파우더(Sacha Inchi Protein Powder)**이자 포장 용량이 **300g(Packaging Size: 300g)**으로 명시된 해외 비건 식물성 단백질 파우더 제품입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1607,
+                "endIndex": 1735,
+                "text": "알레르기 유발 가능성이 낮고 아미노산 및 섬유질이 풍부한 비건 단백질 공급원으로 제공됩니다"
+              },
+              "groundingChunkIndices": [
+                5,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1840,
+                "endIndex": 1926,
+                "text": "**제품명**: 바이오후드텍 얼스팜 유기농 사차인치 분말 100g × 3개"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1929,
+                "endIndex": 1993,
+                "text": "**판매처**: 다나와 가격비교 등록 온라인 쇼핑몰"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1996,
+                "endIndex": 2157,
+                "text": "**근거 링크**: [다나와 바이오후드텍 얼스팜 유기농 사차인치 분말 100g 3개 세트 페이지](https://prod.danawa.com/info/?pcode=5733574)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2160,
+                "endIndex": 2362,
+                "text": "**선택 이유**: 국내 시판 중인 사차인치 분말류는 소포장(100g 단위) 유통이 많은 편으로, 100g 분말 3개를 묶어 총 300g 용량으로 구성·판매되는 제품입니다"
+              },
+              "groundingChunkIndices": [
+                6,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2364,
+                "endIndex": 2525,
+                "text": "유기농 사차인치를 원료로 하여 분말 형태로 단백질과 영양을 보충하고자 할 때 300g 단위로 구매할 수 있는 선택지입니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "리얼리프 사차인치 파우더 오리지널 300g",
+            "\"sacha inchi powder\" 300g",
+            "사차인치 단백질 분말 300g",
+            "사차인치 프로틴 파우더 300g",
+            "\"사차인치 분말\" 300g",
+            "유기농 사차인치 단백질 분말 300g"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1242,
+      "candidatesTokenCount": 958,
+      "totalTokenCount": 4774,
+      "cachedContentTokenCount": 841,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1242
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 841
+        }
+      ],
+      "thoughtsTokenCount": 2574,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "efAEa-hq3d7aug-YzL3JDw"
+  },
+  "completed_timestamp_kst": "2026-11-24T11:04:09+09:00"
+}

@@ -1,0 +1,832 @@
+{
+  "originals": {
+    "records": [
+      {
+        "id": "366:76",
+        "hash": "73f672ff"
+      },
+      {
+        "id": "366:23",
+        "hash": "59fc8336"
+      },
+      {
+        "id": "366:66",
+        "hash": "3d1455"
+      },
+      {
+        "id": "382:2379",
+        "hash": "e04ea53f"
+      },
+      {
+        "id": "382:2380",
+        "hash": "34078efc"
+      },
+      {
+        "id": "366:18",
+        "hash": "b213e9f"
+      },
+      {
+        "id": "366:135",
+        "hash": "874d3d0c"
+      },
+      {
+        "id": "366:125",
+        "hash": "8bafab63"
+      },
+      {
+        "id": "365:2354",
+        "hash": "5da897af"
+      },
+      {
+        "id": "365:2355",
+        "hash": "7dfe8339"
+      },
+      {
+        "id": "365:2356",
+        "hash": "5bdbcecb"
+      },
+      {
+        "id": "365:2357",
+        "hash": "cc488fb1"
+      },
+      {
+        "id": "365:2358",
+        "hash": "495f172"
+      },
+      {
+        "id": "382:2374",
+        "hash": "f39580ea"
+      },
+      {
+        "id": "382:2375",
+        "hash": "d57d86cd"
+      },
+      {
+        "id": "382:2376",
+        "hash": "d4f8d207"
+      },
+      {
+        "id": "382:2377",
+        "hash": "e1d0f101"
+      },
+      {
+        "id": "382:2378",
+        "hash": "d7bd73d2"
+      },
+      {
+        "id": "394:2406",
+        "hash": "78d6243"
+      },
+      {
+        "id": "394:2407",
+        "hash": "98019a5c"
+      },
+      {
+        "id": "394:2408",
+        "hash": "41ff9bc1"
+      },
+      {
+        "id": "394:2409",
+        "hash": "7221cc49"
+      },
+      {
+        "id": "394:2410",
+        "hash": "2231d397"
+      },
+      {
+        "id": "382:2360",
+        "hash": "ab32e395"
+      },
+      {
+        "id": "382:2361",
+        "hash": "df114b04"
+      },
+      {
+        "id": "382:2362",
+        "hash": "a2d80ebc"
+      },
+      {
+        "id": "382:2363",
+        "hash": "91268c6c"
+      },
+      {
+        "id": "382:2364",
+        "hash": "83047b24"
+      },
+      {
+        "id": "394:2400",
+        "hash": "871c7b56"
+      },
+      {
+        "id": "394:2401",
+        "hash": "2840d12"
+      },
+      {
+        "id": "394:2402",
+        "hash": "65462437"
+      },
+      {
+        "id": "394:2403",
+        "hash": "d62b25e"
+      },
+      {
+        "id": "394:2404",
+        "hash": "689c249d"
+      },
+      {
+        "id": "382:2366",
+        "hash": "d9ac15ec"
+      },
+      {
+        "id": "382:2367",
+        "hash": "a860936a"
+      },
+      {
+        "id": "382:2368",
+        "hash": "90dcb1c9"
+      },
+      {
+        "id": "382:2369",
+        "hash": "9275e082"
+      },
+      {
+        "id": "382:2370",
+        "hash": "79b4ef23"
+      },
+      {
+        "id": "394:2394",
+        "hash": "23cb951e"
+      },
+      {
+        "id": "394:2395",
+        "hash": "cd403794"
+      },
+      {
+        "id": "394:2396",
+        "hash": "b8c44083"
+      },
+      {
+        "id": "394:2397",
+        "hash": "21fb95f"
+      },
+      {
+        "id": "394:2398",
+        "hash": "4fecfc2c"
+      },
+      {
+        "id": "382:2372",
+        "hash": "1159943c"
+      },
+      {
+        "id": "394:2384",
+        "hash": "501ccbbc"
+      },
+      {
+        "id": "394:2385",
+        "hash": "64dfdfdb"
+      },
+      {
+        "id": "394:2387",
+        "hash": "569026fe"
+      },
+      {
+        "id": "394:2389",
+        "hash": "ccf7a0f5"
+      },
+      {
+        "id": "394:2390",
+        "hash": "1d5309c7"
+      },
+      {
+        "id": "394:2392",
+        "hash": "6aa87987"
+      },
+      {
+        "id": "394:2399",
+        "hash": "c3c5b296"
+      },
+      {
+        "id": "394:2405",
+        "hash": "beb8a4a2"
+      }
+    ],
+    "right": 2221,
+    "top": -1538
+  },
+  "sources": [
+    {
+      "id": "382:2374",
+      "name": "Triangle mark / N02",
+      "type": "FRAME",
+      "x": 935,
+      "y": -1251,
+      "w": 126,
+      "h": 126,
+      "fingerprint": "279b220d",
+      "vectors": [
+        {
+          "id": "382:2375",
+          "w": 52.849998474121094,
+          "h": 46.830322265625,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "79a22f31",
+          "bounds": {
+            "x": 940.5999755859375,
+            "y": -1240.798828125,
+            "width": 52.849998474121094,
+            "height": 46.830322265625
+          }
+        },
+        {
+          "id": "382:2376",
+          "w": 52.849998474121094,
+          "h": 46.830322265625,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "60fd6df3",
+          "bounds": {
+            "x": 976,
+            "y": -1246,
+            "width": 52.849998474121094,
+            "height": 46.830322265625
+          }
+        },
+        {
+          "id": "382:2377",
+          "w": 52.849998474121094,
+          "h": 46.830318450927734,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "202e8950",
+          "bounds": {
+            "x": 941,
+            "y": -1188,
+            "width": 52.849998474121094,
+            "height": 46.830318450927734
+          }
+        },
+        {
+          "id": "382:2378",
+          "w": 52.849998474121094,
+          "h": 46.830318450927734,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "79a22f31",
+          "bounds": {
+            "x": 976,
+            "y": -1183,
+            "width": 52.849998474121094,
+            "height": 46.830318450927734
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "366:66",
+          "name": "seelo",
+          "x": 1042,
+          "y": -1251,
+          "w": 295,
+          "h": 148,
+          "font": {
+            "family": "Space Mono",
+            "style": "Bold"
+          },
+          "characters": "seelo"
+        },
+        "score": 52
+      },
+      "key": "Y01",
+      "wordId": "366:66",
+      "font": {
+        "family": "Space Mono",
+        "style": "Bold"
+      },
+      "originalIds": [
+        "365:2354",
+        "382:2374"
+      ]
+    },
+    {
+      "id": "394:2406",
+      "name": "Triangle mark / N02",
+      "type": "FRAME",
+      "x": 1871,
+      "y": -631,
+      "w": 110,
+      "h": 102,
+      "fingerprint": "4017751a",
+      "vectors": [
+        {
+          "id": "394:2407",
+          "w": 46.138885498046875,
+          "h": 37.91025924682617,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "cda15a0b",
+          "bounds": {
+            "x": 1875.888916015625,
+            "y": -622.741943359375,
+            "width": 46.138885498046875,
+            "height": 37.91025924682617
+          }
+        },
+        {
+          "id": "394:2408",
+          "w": 46.138885498046875,
+          "h": 37.91025924682617,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "9a9322e5",
+          "bounds": {
+            "x": 1906.793701171875,
+            "y": -626.952392578125,
+            "width": 46.138885498046875,
+            "height": 37.91025924682617
+          }
+        },
+        {
+          "id": "394:2409",
+          "w": 46.138885498046875,
+          "h": 37.910255432128906,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "8905790e",
+          "bounds": {
+            "x": 1876.238037109375,
+            "y": -580,
+            "width": 46.138885498046875,
+            "height": 37.910255432128906
+          }
+        },
+        {
+          "id": "394:2410",
+          "w": 46.138885498046875,
+          "h": 37.910255432128906,
+          "cornerRadius": 0,
+          "vertices": 6,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "cda15a0b",
+          "bounds": {
+            "x": 1906.793701171875,
+            "y": -575.952392578125,
+            "width": 46.138885498046875,
+            "height": 37.910255432128906
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "394:2405",
+          "name": "seelo",
+          "x": 1981,
+          "y": -631,
+          "w": 238,
+          "h": 113,
+          "font": {
+            "family": "Dela Gothic One",
+            "style": "Regular"
+          },
+          "characters": "seelo"
+        },
+        "score": 16.5
+      },
+      "key": "Y02",
+      "wordId": "394:2405",
+      "font": {
+        "family": "Dela Gothic One",
+        "style": "Regular"
+      },
+      "originalIds": [
+        "394:2406"
+      ]
+    },
+    {
+      "id": "394:2400",
+      "name": "Symbol / D03",
+      "type": "FRAME",
+      "x": 1866,
+      "y": -761,
+      "w": 105,
+      "h": 105,
+      "fingerprint": "1d3f0b55",
+      "vectors": [
+        {
+          "id": "394:2401",
+          "w": 40.532623291015625,
+          "h": 40.532623291015625,
+          "cornerRadius": 0,
+          "vertices": 39,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "81500832",
+          "bounds": {
+            "x": 1876.2174072265625,
+            "y": -754,
+            "width": 40.532623291015625,
+            "height": 40.532623291015625
+          }
+        },
+        {
+          "id": "394:2402",
+          "w": 40.23906707763672,
+          "h": 43.70940017700195,
+          "cornerRadius": 0,
+          "vertices": 57,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "934817c4",
+          "bounds": {
+            "x": 1923.760986328125,
+            "y": -753.9594116210938,
+            "width": 40.23906707763672,
+            "height": 43.70940017700195
+          }
+        },
+        {
+          "id": "394:2403",
+          "w": 43.711761474609375,
+          "h": 40.219810485839844,
+          "cornerRadius": 0,
+          "vertices": 60,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "6c419ab9",
+          "bounds": {
+            "x": 1873,
+            "y": -703.25,
+            "width": 43.711761474609375,
+            "height": 40.219810485839844
+          }
+        },
+        {
+          "id": "394:2404",
+          "w": 37.02168655395508,
+          "h": 37.032623291015625,
+          "cornerRadius": 0,
+          "vertices": 39,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "94b6f426",
+          "bounds": {
+            "x": 1926.978271484375,
+            "y": -703.25,
+            "width": 37.02168655395508,
+            "height": 37.032623291015625
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "394:2399",
+          "name": "seelo",
+          "x": 1983,
+          "y": -765,
+          "w": 238,
+          "h": 113,
+          "font": {
+            "family": "Dela Gothic One",
+            "style": "Regular"
+          },
+          "characters": "seelo"
+        },
+        "score": 12
+      },
+      "key": "Y03",
+      "wordId": "394:2399",
+      "font": {
+        "family": "Dela Gothic One",
+        "style": "Regular"
+      },
+      "originalIds": [
+        "382:2360",
+        "394:2400"
+      ]
+    },
+    {
+      "id": "394:2394",
+      "name": "Symbol / D01",
+      "type": "FRAME",
+      "x": 1871,
+      "y": -895,
+      "w": 100,
+      "h": 100,
+      "fingerprint": "30d7d85f",
+      "vectors": [
+        {
+          "id": "394:2395",
+          "w": 40.770999908447266,
+          "h": 40.769248962402344,
+          "cornerRadius": 0,
+          "vertices": 55,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "ba0b7364",
+          "bounds": {
+            "x": 1877.72900390625,
+            "y": -888.3333129882812,
+            "width": 40.770999908447266,
+            "height": 40.769248962402344
+          }
+        },
+        {
+          "id": "394:2396",
+          "w": 40.76925277709961,
+          "h": 40.770999908447266,
+          "cornerRadius": 0,
+          "vertices": 56,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "cdb0b3dc",
+          "bounds": {
+            "x": 1925.230712890625,
+            "y": -888.27099609375,
+            "width": 40.76925277709961,
+            "height": 40.770999908447266
+          }
+        },
+        {
+          "id": "394:2397",
+          "w": 40.769248962402344,
+          "h": 40.770999908447266,
+          "cornerRadius": 0,
+          "vertices": 56,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "3ad5528f",
+          "bounds": {
+            "x": 1877.730712890625,
+            "y": -840.77099609375,
+            "width": 40.769248962402344,
+            "height": 40.770999908447266
+          }
+        },
+        {
+          "id": "394:2398",
+          "w": 40.770999908447266,
+          "h": 40.76925277709961,
+          "cornerRadius": 0,
+          "vertices": 56,
+          "loopCounts": [
+            1
+          ],
+          "fingerprint": "385e3c87",
+          "bounds": {
+            "x": 1925.1666259765625,
+            "y": -840.7692260742188,
+            "width": 40.770999908447266,
+            "height": 40.76925277709961
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "394:2392",
+          "name": "seelo",
+          "x": 1983,
+          "y": -895,
+          "w": 238,
+          "h": 113,
+          "font": {
+            "family": "Dela Gothic One",
+            "style": "Regular"
+          },
+          "characters": "seelo"
+        },
+        "score": 31.5
+      },
+      "key": "Y04",
+      "wordId": "394:2392",
+      "font": {
+        "family": "Dela Gothic One",
+        "style": "Regular"
+      },
+      "originalIds": [
+        "382:2366",
+        "394:2394"
+      ]
+    },
+    {
+      "id": "394:2384",
+      "name": "Abstract / P01",
+      "type": "FRAME",
+      "x": 499,
+      "y": -697,
+      "w": 112,
+      "h": 112,
+      "fingerprint": "678368ea",
+      "vectors": [
+        {
+          "id": "394:2385",
+          "w": 97.06666564941406,
+          "h": 100.80000305175781,
+          "cornerRadius": 4.5,
+          "vertices": 15,
+          "loopCounts": [
+            4
+          ],
+          "fingerprint": "9e7a5c87",
+          "bounds": {
+            "x": 506.4666748046875,
+            "y": -689.5333251953125,
+            "width": 97.06666564941406,
+            "height": 100.80000305175781
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "394:2392",
+          "name": "seelo",
+          "x": 1983,
+          "y": -895,
+          "w": 238,
+          "h": 113,
+          "font": {
+            "family": "Dela Gothic One",
+            "style": "Regular"
+          },
+          "characters": "seelo"
+        },
+        "score": 9999
+      },
+      "key": "Y05",
+      "wordId": "394:2392",
+      "font": {
+        "family": "Dela Gothic One",
+        "style": "Regular"
+      },
+      "originalIds": [
+        "394:2384",
+        "394:2387"
+      ]
+    },
+    {
+      "id": "394:2390",
+      "name": "Vector",
+      "type": "VECTOR",
+      "x": 1866,
+      "y": -476,
+      "w": 97.06666564941406,
+      "h": 89.5999984741211,
+      "fingerprint": "58cab007",
+      "vectors": [
+        {
+          "id": "394:2390",
+          "w": 97.06666564941406,
+          "h": 89.5999984741211,
+          "cornerRadius": 4.5,
+          "vertices": 8,
+          "loopCounts": [
+            2
+          ],
+          "fingerprint": "88ca6435",
+          "bounds": {
+            "x": 1866,
+            "y": -476,
+            "width": 97.06666564941406,
+            "height": 89.5999984741211
+          }
+        }
+      ],
+      "pair": {
+        "t": {
+          "id": "394:2392",
+          "name": "seelo",
+          "x": 1983,
+          "y": -895,
+          "w": 238,
+          "h": 113,
+          "font": {
+            "family": "Dela Gothic One",
+            "style": "Regular"
+          },
+          "characters": "seelo"
+        },
+        "score": 9999
+      },
+      "key": "Y06",
+      "wordId": "394:2392",
+      "font": {
+        "family": "Dela Gothic One",
+        "style": "Regular"
+      },
+      "originalIds": [
+        "394:2390"
+      ]
+    }
+  ],
+  "palettes": [
+    {
+      "key": "K01",
+      "name": "Yellow",
+      "kind": "solid",
+      "colors": [
+        "#FEE500"
+      ],
+      "label": "옐로우 단색"
+    },
+    {
+      "key": "K02",
+      "name": "Charcoal",
+      "kind": "split",
+      "colors": [
+        "#FEE500",
+        "#191919"
+      ],
+      "label": "옐로우 + 차콜"
+    },
+    {
+      "key": "K03",
+      "name": "Cobalt",
+      "kind": "split",
+      "colors": [
+        "#FEE500",
+        "#335CFF"
+      ],
+      "label": "옐로우 + 코발트"
+    },
+    {
+      "key": "K04",
+      "name": "Plum",
+      "kind": "split",
+      "colors": [
+        "#FEE500",
+        "#704070"
+      ],
+      "label": "옐로우 + 플럼"
+    },
+    {
+      "key": "K05",
+      "name": "Copper",
+      "kind": "split",
+      "colors": [
+        "#FEE500",
+        "#B86C28"
+      ],
+      "label": "옐로우 + 코퍼"
+    },
+    {
+      "key": "K06",
+      "name": "Tonal",
+      "kind": "gradient",
+      "colors": [
+        "#FFF4B8",
+        "#FEE500",
+        "#F3B900"
+      ],
+      "label": "크림 → 옐로우 → 골드"
+    },
+    {
+      "key": "K07",
+      "name": "Citrus",
+      "kind": "gradient",
+      "colors": [
+        "#FEE500",
+        "#FF9A3D"
+      ],
+      "label": "옐로우 → 오렌지"
+    },
+    {
+      "key": "K08",
+      "name": "Lavender",
+      "kind": "gradient",
+      "colors": [
+        "#FEE500",
+        "#AD8DDC"
+      ],
+      "label": "옐로우 → 라벤더"
+    }
+  ]
+}

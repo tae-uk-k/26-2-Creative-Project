@@ -1,0 +1,146 @@
+[
+  {
+    "query_id": "S01",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "W04",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "W03",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "G02",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "W02",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "G04",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "W01",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "S04",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "S02",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "G01",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "S03",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "G03",
+    "repeat_no": 1
+  },
+  {
+    "query_id": "W01",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "W03",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "W04",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "G03",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "S03",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "W02",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "S04",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "S01",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "G01",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "G02",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "G04",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "S02",
+    "repeat_no": 2
+  },
+  {
+    "query_id": "G01",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "W04",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "G03",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "G04",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "S01",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "W02",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "W03",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "S03",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "S04",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "G02",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "W01",
+    "repeat_no": 3
+  },
+  {
+    "query_id": "S02",
+    "repeat_no": 3
+  }
+]

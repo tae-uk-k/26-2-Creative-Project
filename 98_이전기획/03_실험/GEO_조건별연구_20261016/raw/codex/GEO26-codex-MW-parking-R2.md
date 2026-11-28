@@ -1,0 +1,3 @@
+검색 3회·페이지 열람 6회 이내에서 영업 정보와 전용·제휴 주차 근거를 확인하겠습니다.
+
+{"access_note":"검색 질의 3개, 페이지 열람 4개 사용. 네이버 지도·카카오맵은 열기 오류, 구글 지도는 식당 상세정보가 표시되지 않아 대체 공개 출처를 확인했다. 지도나 식당 공식 안내로 현재 운영·주차 조건을 확정하지 못해 아래 1곳을 부분 확인 후보로 제시한다.","restaurants":[{"rank":1,"name":"마포밤바다","branch":null,"address":"서울특별시 마포구 월드컵로 146 1층","cuisine":"활어회·오징어회·세꼬시","reason":"회와 물회·코다리찜·조개탕 등을 함께 먹을 수 있는 식사 후보. 망원시장 바로 옆보다는 마포구청역 인근에 있다.","condition_status":"partial","condition_evidence":"Superchart의 2026년 8월 18일 방문 기준 협찬 후기 본문에 식당 옆 전용 주차 6대와 매일 12:00~다음 날 01:00 영업이 안내되어 있다. 현재 운영 여부, 주차요금·승용차 제한은 공식 출처로 확인하지 못했다.","evidence_level":"body","sources":[{"url":"https://superchart.com/ko/@food-drink-place/mapo-bambada-live-squid-sashimi-sekoshi/","source_type":"aggregator"}]}]}

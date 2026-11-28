@@ -1,0 +1,94 @@
+{
+  "reportId": "demo-mangwon-noodle",
+  "isDemo": true,
+  "store": {
+    "nameKo": "망원 골목국수",
+    "nameEn": "Mangwon Golmok Noodles",
+    "categoryKo": "한식당",
+    "categoryEn": "Korean noodle restaurant",
+    "areaKo": "서울 마포구 망원동",
+    "areaEn": "Mangwon-dong, Mapo-gu, Seoul",
+    "primaryUrl": "https://example.com/mangwon-noodle",
+    "fictional": true
+  },
+  "measurement": {
+    "promptCount": 20,
+    "repeatCount": 5,
+    "models": ["ChatGPT", "Gemini"],
+    "language": "English",
+    "responseCount": 200,
+    "method": "같은 질문·언어·모델·반복 횟수로 정비 전후를 비교하는 시연 설정"
+  },
+  "before": {
+    "appearanceRate": 9,
+    "averageRank": 4.2,
+    "accuracy": 68,
+    "conditionCoverage": 12
+  },
+  "after": {
+    "appearanceRate": 26,
+    "averageRank": 2.8,
+    "accuracy": 93,
+    "conditionCoverage": 58
+  },
+  "issues": [
+    {
+      "type": "조건 정보 부족",
+      "severity": "높음",
+      "title": "관광객의 구체적인 질문과 연결할 정보가 부족해요",
+      "description": "영문 메뉴, 혼밥 가능 여부, 채식 선택지, 해외 카드 결제 정보가 확인되지 않습니다.",
+      "evidence": "대표 채널의 메뉴와 이용 안내가 이미지 또는 한국어로만 제공됨",
+      "fix": "영문 메뉴·가격·혼밥·채식·해외 결제 정보를 텍스트로 추가합니다."
+    },
+    {
+      "type": "채널 불일치",
+      "severity": "높음",
+      "title": "영업시간이 채널마다 달라요",
+      "description": "Google 지도와 Instagram에 표시된 월요일 영업 여부가 서로 다릅니다.",
+      "evidence": "Google 지도: 월요일 휴무 · Instagram: 월요일 11:30~20:30",
+      "fix": "사장님이 확인한 최신 영업시간을 기준으로 모든 채널을 일치시킵니다."
+    },
+    {
+      "type": "외부 근거 부족",
+      "severity": "보통",
+      "title": "AI가 인용할 수 있는 영문 소개 페이지가 없어요",
+      "description": "가게의 대표 메뉴와 가격을 텍스트로 확인할 수 있는 공식 영문 페이지가 없습니다.",
+      "evidence": "공식 웹페이지 없음 · 메뉴 가격이 SNS 이미지에만 존재",
+      "fix": "AI가 읽을 수 있는 공개 영문 소개 페이지와 구조화된 가게 정보를 만듭니다."
+    }
+  ],
+  "improvements": {
+    "englishDescription": "Mangwon Golmok Noodles is a small Korean noodle restaurant near Mangwon Market. It welcomes solo diners and offers an English menu with clearly listed prices. Vegetarian broth is available on request, and international credit cards are accepted.",
+    "beforeCopy": "Local Korean restaurant near Mangwon Market.",
+    "afterCopy": "Small Korean noodle restaurant near Mangwon Market for solo diners. English menu and prices are available. Vegetarian broth can be requested, and international credit cards are accepted.",
+    "facts": [
+      {"label": "대표 메뉴", "value": "Anchovy broth noodles · ₩8,000"},
+      {"label": "이용 조건", "value": "Solo dining · English menu"},
+      {"label": "식이 정보", "value": "Vegetarian broth on request"},
+      {"label": "결제", "value": "International credit cards accepted"}
+    ],
+    "channelActions": [
+      {"channel": "Google Maps", "action": "영문 설명·영업시간·결제수단을 동일하게 수정", "status": "수정 문안 준비"},
+      {"channel": "Naver Place", "action": "메뉴명과 가격을 이미지가 아닌 텍스트로 추가", "status": "수정 문안 준비"},
+      {"channel": "Instagram", "action": "프로필 영업시간을 지도 정보와 일치시킴", "status": "확인 필요"},
+      {"channel": "Public page", "action": "구조화된 영문 소개 페이지를 공개", "status": "미리보기 가능"}
+    ]
+  },
+  "publicPage": {
+    "name": "Mangwon Golmok Noodles",
+    "eyebrow": "Independent Korean restaurant in Mangwon",
+    "description": "Mangwon Golmok Noodles is a small Korean noodle restaurant near Mangwon Market. It welcomes solo diners and offers an English menu with clearly listed prices. Vegetarian broth is available on request, and international credit cards are accepted.",
+    "address": "21 World Cup-ro 13-gil, Mapo-gu, Seoul",
+    "hours": "Tue–Sun 11:30–20:30 · Break 15:00–17:00 · Closed Monday",
+    "payment": "Visa · Mastercard · Cash",
+    "languages": "Korean · Basic English",
+    "dietary": "Vegetarian broth on request · Allergy information available",
+    "menu": [
+      {"name": "Anchovy Broth Noodles", "description": "Thin wheat noodles in a clear anchovy broth", "price": "₩8,000"},
+      {"name": "Spicy Mixed Noodles", "description": "Cold noodles with a sweet and spicy sauce", "price": "₩9,000"},
+      {"name": "Handmade Dumplings", "description": "Six pork and vegetable dumplings", "price": "₩6,000"}
+    ],
+    "notice": "This is a fictional store page created for the Hanoon MVP demonstration."
+  },
+  "disclaimer": "이 보고서의 가게와 수치는 서비스 흐름 검증을 위한 시연용 데이터입니다. 실제 AI 추천 순위나 노출을 보장하지 않습니다."
+}

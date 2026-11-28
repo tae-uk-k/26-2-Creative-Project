@@ -1,0 +1,3 @@
+Reading additional input from stdin...
+2026-11-03T06:08:07.954447Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-11-03T06:08:08.035844Z  WARN codex_core_plugins::remote::remote_installed_plugin_sync: failed to persist identity for cached remote installed plugin remote_plugin_id=plugin_asdk_app_69312da8e4dc81919370cb86fd172b6c plugin=app-69312da8e4dc81919370cb86fd172b6c marketplace=openai-curated-remote error=failed to persist remote plugin install metadata: 액세스가 거부되었습니다. (os error 5)

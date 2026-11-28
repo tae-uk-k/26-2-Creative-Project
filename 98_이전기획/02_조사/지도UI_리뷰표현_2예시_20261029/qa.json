@@ -1,0 +1,12 @@
+{
+  "selfContained": false,
+  "localDependency": "../지도UI_비포애프터_명동피자_20261028/ 폴더와 assets 유지 필요",
+  "noRemoteAssets": true,
+  "reviewReplyEditingExcluded": true,
+  "pizzaPricesUnchanged": true,
+  "priceFieldsAddedOrChanged": 0,
+  "changedReviewReplies": 0,
+  "changedMenuDescriptions": 9,
+  "linkedPagesExist": true,
+  "browserVerification": "브라우저 비활성화로 정적 검사만 수행."
+}

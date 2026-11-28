@@ -1,0 +1,23 @@
+{
+  "run_id": "gemini-api-B0-W01-r2",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T11:00:50+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "W01",
+  "repeat_no": 2,
+  "eligible_targets": [
+    "watermelon"
+  ],
+  "prompt": "수박씨를 원료로 한 300g 단백질 분말을 찾아줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "",
+  "citations": [],
+  "search_used": false,
+  "valid_for_scoring": false,
+  "error_type": "TimeoutError",
+  "retry_of": null,
+  "completed_timestamp_kst": "2026-11-24T11:02:20+09:00"
+}

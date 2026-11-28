@@ -1,0 +1,31 @@
+entity_id,profile_rid,expected_road,name_review_note
+MD-R01,L4miF0diqkcW,명동10길 29,본점 공사와 임시 이전 리뷰가 있어 현재 지점 운영은 별도 확인 필요
+MD-R02,Hb8688CMZCBd,명동9길 12,
+MD-R03,GliZBNBh127Y,명동8가길 26,
+MD-R04,XPyGh8womFaz,삼일대로 299,
+MD-R05,ftgnrUZMFFWI,명동10길 35-19,
+MD-R06,KhCvIeW4YVI7,명동길 25-11,
+MD-R07,NxKjMwL1wjy7,명동길 66,
+MD-R08,p3Xa5G8pQEt4,명동8나길 47,
+MD-R09,G4vHWroH4Awc,명동9길 21,
+MD-R10,ikXjNJi9zZhT,명동10길 19-10,다이닝코드의 성원식당 명칭과 공식 관광정보의 성원전주콩나물국밥 주소 및 전화 일치
+SS-R01,jAL2mG45kQKq,연무장길 45,
+SS-R02,zhxMQPl9dpA8,아차산로7길 7,
+SS-R03,wvVRBGEF8K3a,뚝섬로9길 20,
+SS-R04,prrErC7GYVjG,연무장5길 9-16,
+SS-R05,,왕십리로5길 3,동일 지점 다이닝코드 프로필 미발견
+SS-R06,0L2XPyHIz8R1,아차산로 137,
+SS-R07,Qr3PSPSqxNXo,왕십리로10길 6,띄어쓰기 변형 유어 네이키드 치즈로 본점 프로필 확인 해운대점 수치는 제외
+SS-R08,OHHZtgfztiGO,서울숲2길 44-12,
+SS-R09,AJhL8NqzuJgA,아차산로1길 11,
+SS-R10,gbzRN1AnoeON,아차산로7길 36,
+MW-R01,I0l1OJxNIO5l,포은로8길 22,
+MW-R02,CjDKMXFW1jdO,망원로8길 27,
+MW-R03,,,정확한 매장 명칭 및 도로명 주소 미확정
+MW-R04,S6FebqC0lJ5i,포은로6길 25,원본 흥흥호떡은 오기 가능성 영어명 Hoon-Hoon 및 주소는 훈훈호떡과 대응 원본 라벨은 유지
+MW-R05,NZYIJtDqkUL2,포은로 67,
+MW-R06,hI8HuREl1vU7,망원로 97,
+MW-R07,gMIobKY5o6wg,망원로8길 29,
+MW-R08,P16GK4qSC2VZ,방울내로 82,
+MW-R09,gaOIEq2PkaFR,월드컵로13길 9,
+MW-R10,Cu2ydzWNXjyB,동교로 83,

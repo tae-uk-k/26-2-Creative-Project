@@ -1,0 +1,291 @@
+{
+  "run_id": "gemini-api-B0-S02-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:58:34+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "S02",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "sacha"
+  ],
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "사차인치(Sacha Inchi) 씨앗을 압착·탈지하여 단백질 보충용으로 활용하는 국내외 제품 3종의 원재료와 중량 비교 정보입니다.\n\n---\n\n### 사차인치 단백질 분말 제품 3종 비교\n\n| 구분 | 1. MRM Nutrition 유기농 생 사차 인치 분말 | 2. 닥터 머레이 유기농 식물성 단백질 (무가당) | 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 |\n| :--- | :--- | :--- | :--- |\n| **원재료 구성** | 유기농 사차인치 분말 100% | 유기농 완두콩 단백질, 유기농 해바라기씨/사차인치 단백질 혼합 (단 4가지 성분) | 완두콩 단백질 분말, 사차인치 단백질 분말 등 복합 식물성 단백질 |\n| **중량 (용량)** | 240g (8.5 oz) | 453.59g (16 oz / 1 lb) | 1,000g (1kg) |\n| **단백질 형태** | 사차인치 단일 원료 분말 | 식물성 혼합 분말 (사차인치 포함) | 식물성 혼합 분말 (사차인치 포함) |\n| **판매처** | 아이허브(iHerb) 등 | 아이허브(iHerb) | 왓푸드(whatfood) 공식몰 |\n\n---\n\n### 제품별 상세 정보\n\n#### 1. MRM Nutrition 유기농 생 사차 인치 분말\n* **제품명**: MRM Nutrition, 유기농 생 사차 인치 분말 (Organic Raw Sacha Inchi Powder)\n* **판매처**: [아이허브(iHerb) MRM 공식 판매 페이지](https://kr.iherb.com/pr/mrm-nutrition-organic-raw-sacha-inchi-powder-8-5-oz-240-g/82071)\n* **원재료**: 유기농 사차인치 분말 100% (글루텐, 감미료, 인공 첨가물 무첨가)\n* **중량**: 240g (8.5 oz)\n* **선택 이유**: 완제품 형태의 순수 100% 사차인치 종자 단일 원료 분말로, 합성 첨가물 없이 사차인치 고유의 필수 아미노산과 단백질을 섭취하려는 경우에 가장 적합합니다.\n\n#### 2. Dr. Murray's 유기농 식물성 단백질 무맛 및 무가당\n* **제품명**: Dr. Murray's, Organic Plant-Based Protein Powder, Unflavored & Unsweetened\n* **판매처**: [아이허브(iHerb) Dr. Murray's 판매 페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-powder-unflavored-unsweetened-16-oz-453-59-g/106670)\n* **원재료**: 유기농 완두콩 단백질, 유기농 가용성 타피오카, 유기농 사차인치 단백질, 유기농 해바라기/호박씨 단백질 혼합 블렌드\n* **중량**: 453.59g (16 oz)\n* **선택 이유**: 단일 사차인치만으로는 부족할 수 있는 아미노산 구성을 보완하기 위해 사차인치 단백질과 완두콩·씨앗 단백질을 배합한 비건 보충제이며, 인공 감미료와 향료를 배제한 클린 라벨 제품입니다.\n\n#### 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치\n* **제품명**: 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (단백질 밸런스형)\n* **판매처**: [왓푸드(whatfood) 공식몰 상품 페이지](https://whatfood.co.kr/product/detail.html?product_no=335)\n* **원재료**: 완두콩 단백질 분말, 사차인치 단백질 분말 혼합 식물성 단백질\n* **중량**: 1,000g (1kg)\n* **선택 이유**: 국내에서 유통되는 식물성 단백질 제품 중 사차인치 단백질 분말을 주성분 배합으로 명시하고 있으며, 1kg 대용량 패키지로 일상적인 식단 관리에 활용하기 용이합니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwQng5BkklJFGkkb7L6Ft1DLtojRzrq-3WYuornVCi_WfKsdVt8A9im-AIt7dMiqvATyrFge2bXULDh-EfsasS0kSvzWg2LNd7RSMWKT4gNI0zmAbDecU9zbDGhCaACDeuPJaZ1l9eP8GFQ1_5IQHPa2VAn3uHxXdVQ4Mt6FeXagqszNHm4wHwhbwLalxMabGrtZw=",
+      "title": "canada-pharmaci.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGxOFFZ9p4HhkCAkpbcxOpJXjLT22k0qpVzVQ5jpJOsAFQxBvQSHTglBeCW1bWXfvEjCeK_h7cz3ttTdK378Ag7DfYlzGz1ZkpPib9ZKRr20HsCTI3RIHii4cT90zy27CYndanXCz4Z7HUfDNcAvOkE7a0P_hLX7VgjMxeyuVvA==",
+      "title": "chosun.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7JToTtzISz-vEvTvrHgy4ZxarXk1JYM9cth1DlqZxxZs5QlWHA3CnnNbZd6Zj-n8g1ZSoQxyV9DH7_7SLHpQmRs19Fj612jhcFdfHzGN0GwoDimBEJBse0U3W",
+      "title": "ebay.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgIwwr7BrQNEcgFd6zihqBSSZT65XWpEzICyvG8Sysor_LzAbf3XxmDsYoIH_JJ4C6PHgs-JGxsj-a0v2B-5xXRSwqlbMJ-QCnMdvhSISZGf18ZiNziaKaoD3jAcC4OzVzmiwtpDw1rtC0wgxpetdKvTX2_WMBPK4rnKynvwtLAkQP3jKbTRpNgcOWOF6ePEmMuqObOM8ql0pgWRFTQ4BWsqk=",
+      "title": "iherb.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkAS7EgcUW3uX5YGBcAihimShziF-geZP6MNA0atxgZ3CuREbvwOnExLbhbDcrWJCgpoVdXLPdd0oSzSgi4xxPABUw_pRYewgQR2zbmS87HlmSbAd_FjfDNPX5D6bQbrgXXr79D_zsshT8oUL2EbZwcINrHUizhDy-tqKlIB7Je41FHD0ji80DO-B3fJFau0D-5zkQjK4ICbc29__wahHfkG5YjrpArpV2wNccMnFnoBV2leQn9NJ0WG9FWHNsM8DQ5tEFORXJIPNIP3JLpQOkHcbc8-HwOSWe65WgrRXLxSa-SotK2lPgOH2CYDah2ih6MLLFfl6THNNArBBhhou6DE_wqKSFhTffplL10SOQO2ByIdnSKf8vUgUilkI0oyjQ3XN8EBH_O5Ia05L6SmfgG3RbDSxW07BPpIVEsXbWeSCLGT4rh-ZH",
+      "title": "whatfood.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "Su8Ea9XAGIrmosUP4JO48Qk",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "site:kr.iherb.com \"사차인치 단백질\" OR \"사차 인치 단백질\"",
+    "\"사차인치 단백질\"",
+    "사차인치 탈지 단백질 분말",
+    "\"sacha inchi\" protein powder iherb"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "사차인치(Sacha Inchi) 씨앗을 압착·탈지하여 단백질 보충용으로 활용하는 국내외 제품 3종의 원재료와 중량 비교 정보입니다.\n\n---\n\n### 사차인치 단백질 분말 제품 3종 비교\n\n| 구분 | 1. MRM Nutrition 유기농 생 사차 인치 분말 | 2. 닥터 머레이 유기농 식물성 단백질 (무가당) | 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 |\n| :--- | :--- | :--- | :--- |\n| **원재료 구성** | 유기농 사차인치 분말 100% | 유기농 완두콩 단백질, 유기농 해바라기씨/사차인치 단백질 혼합 (단 4가지 성분) | 완두콩 단백질 분말, 사차인치 단백질 분말 등 복합 식물성 단백질 |\n| **중량 (용량)** | 240g (8.5 oz) | 453.59g (16 oz / 1 lb) | 1,000g (1kg) |\n| **단백질 형태** | 사차인치 단일 원료 분말 | 식물성 혼합 분말 (사차인치 포함) | 식물성 혼합 분말 (사차인치 포함) |\n| **판매처** | 아이허브(iHerb) 등 | 아이허브(iHerb) | 왓푸드(whatfood) 공식몰 |\n\n---\n\n### 제품별 상세 정보\n\n#### 1. MRM Nutrition 유기농 생 사차 인치 분말\n* **제품명**: MRM Nutrition, 유기농 생 사차 인치 분말 (Organic Raw Sacha Inchi Powder)\n* **판매처**: [아이허브(iHerb) MRM 공식 판매 페이지](https://kr.iherb.com/pr/mrm-nutrition-organic-raw-sacha-inchi-powder-8-5-oz-240-g/82071)\n* **원재료**: 유기농 사차인치 분말 100% (글루텐, 감미료, 인공 첨가물 무첨가)\n* **중량**: 240g (8.5 oz)\n* **선택 이유**: 완제품 형태의 순수 100% 사차인치 종자 단일 원료 분말로, 합성 첨가물 없이 사차인치 고유의 필수 아미노산과 단백질을 섭취하려는 경우에 가장 적합합니다.\n\n#### 2. Dr. Murray's 유기농 식물성 단백질 무맛 및 무가당\n* **제품명**: Dr. Murray's, Organic Plant-Based Protein Powder, Unflavored & Unsweetened\n* **판매처**: [아이허브(iHerb) Dr. Murray's 판매 페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-powder-unflavored-unsweetened-16-oz-453-59-g/106670)\n* **원재료**: 유기농 완두콩 단백질, 유기농 가용성 타피오카, 유기농 사차인치 단백질, 유기농 해바라기/호박씨 단백질 혼합 블렌드\n* **중량**: 453.59g (16 oz)\n* **선택 이유**: 단일 사차인치만으로는 부족할 수 있는 아미노산 구성을 보완하기 위해 사차인치 단백질과 완두콩·씨앗 단백질을 배합한 비건 보충제이며, 인공 감미료와 향료를 배제한 클린 라벨 제품입니다.\n\n#### 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치\n* **제품명**: 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (단백질 밸런스형)\n* **판매처**: [왓푸드(whatfood) 공식몰 상품 페이지](https://whatfood.co.kr/product/detail.html?product_no=335)\n* **원재료**: 완두콩 단백질 분말, 사차인치 단백질 분말 혼합 식물성 단백질\n* **중량**: 1,000g (1kg)\n* **선택 이유**: 국내에서 유통되는 식물성 단백질 제품 중 사차인치 단백질 분말을 주성분 배합으로 명시하고 있으며, 1kg 대용량 패키지로 일상적인 식단 관리에 활용하기 용이합니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kr.iherb.com+%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88%22+OR+%22%EC%82%AC%EC%B0%A8+%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88%22&client=app-vertex-grounding&safesearch=active\">site:kr.iherb.com &quot;사차인치 단백질&quot; OR &quot;사차 인치 단백질&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%EB%8B%A8%EB%B0%B1%EC%A7%88%22&client=app-vertex-grounding&safesearch=active\">&quot;사차인치 단백질&quot;</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%82%AC%EC%B0%A8%EC%9D%B8%EC%B9%98+%ED%83%88%EC%A7%80+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%B6%84%EB%A7%90&client=app-vertex-grounding&safesearch=active\">사차인치 탈지 단백질 분말</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%22sacha+inchi%22+protein+powder+iherb&client=app-vertex-grounding&safesearch=active\">&quot;sacha inchi&quot; protein powder iherb</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwQng5BkklJFGkkb7L6Ft1DLtojRzrq-3WYuornVCi_WfKsdVt8A9im-AIt7dMiqvATyrFge2bXULDh-EfsasS0kSvzWg2LNd7RSMWKT4gNI0zmAbDecU9zbDGhCaACDeuPJaZ1l9eP8GFQ1_5IQHPa2VAn3uHxXdVQ4Mt6FeXagqszNHm4wHwhbwLalxMabGrtZw=",
+                "title": "canada-pharmaci.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGxOFFZ9p4HhkCAkpbcxOpJXjLT22k0qpVzVQ5jpJOsAFQxBvQSHTglBeCW1bWXfvEjCeK_h7cz3ttTdK378Ag7DfYlzGz1ZkpPib9ZKRr20HsCTI3RIHii4cT90zy27CYndanXCz4Z7HUfDNcAvOkE7a0P_hLX7VgjMxeyuVvA==",
+                "title": "chosun.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7JToTtzISz-vEvTvrHgy4ZxarXk1JYM9cth1DlqZxxZs5QlWHA3CnnNbZd6Zj-n8g1ZSoQxyV9DH7_7SLHpQmRs19Fj612jhcFdfHzGN0GwoDimBEJBse0U3W",
+                "title": "ebay.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgIwwr7BrQNEcgFd6zihqBSSZT65XWpEzICyvG8Sysor_LzAbf3XxmDsYoIH_JJ4C6PHgs-JGxsj-a0v2B-5xXRSwqlbMJ-QCnMdvhSISZGf18ZiNziaKaoD3jAcC4OzVzmiwtpDw1rtC0wgxpetdKvTX2_WMBPK4rnKynvwtLAkQP3jKbTRpNgcOWOF6ePEmMuqObOM8ql0pgWRFTQ4BWsqk=",
+                "title": "iherb.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkAS7EgcUW3uX5YGBcAihimShziF-geZP6MNA0atxgZ3CuREbvwOnExLbhbDcrWJCgpoVdXLPdd0oSzSgi4xxPABUw_pRYewgQR2zbmS87HlmSbAd_FjfDNPX5D6bQbrgXXr79D_zsshT8oUL2EbZwcINrHUizhDy-tqKlIB7Je41FHD0ji80DO-B3fJFau0D-5zkQjK4ICbc29__wahHfkG5YjrpArpV2wNccMnFnoBV2leQn9NJ0WG9FWHNsM8DQ5tEFORXJIPNIP3JLpQOkHcbc8-HwOSWe65WgrRXLxSa-SotK2lPgOH2CYDah2ih6MLLFfl6THNNArBBhhou6DE_wqKSFhTffplL10SOQO2ByIdnSKf8vUgUilkI0oyjQ3XN8EBH_O5Ia05L6SmfgG3RbDSxW07BPpIVEsXbWeSCLGT4rh-ZH",
+                "title": "whatfood.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1143,
+                "endIndex": 1240,
+                "text": "**제품명**: MRM Nutrition, 유기농 생 사차 인치 분말 (Organic Raw Sacha Inchi Powder)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1243,
+                "endIndex": 1396,
+                "text": "**판매처**: [아이허브(iHerb) MRM 공식 판매 페이지](https://kr.iherb.com/pr/mrm-nutrition-organic-raw-sacha-inchi-powder-8-5-oz-240-g/82071)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1399,
+                "endIndex": 1499,
+                "text": "**원재료**: 유기농 사차인치 분말 100% (글루텐, 감미료, 인공 첨가물 무첨가)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1502,
+                "endIndex": 1527,
+                "text": "**중량**: 240g (8.5 oz)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1530,
+                "endIndex": 1757,
+                "text": "**선택 이유**: 완제품 형태의 순수 100% 사차인치 종자 단일 원료 분말로, 합성 첨가물 없이 사차인치 고유의 필수 아미노산과 단백질을 섭취하려는 경우에 가장 적합합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1834,
+                "endIndex": 1923,
+                "text": "**제품명**: Dr. Murray's, Organic Plant-Based Protein Powder, Unflavored & Unsweetened"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1926,
+                "endIndex": 2109,
+                "text": "**판매처**: [아이허브(iHerb) Dr. Murray's 판매 페이지](https://kr.iherb.com/pr/dr-murray-s-organic-plant-based-protein-powder-unflavored-unsweetened-16-oz-453-59-g/106670)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2112,
+                "endIndex": 2285,
+                "text": "**원재료**: 유기농 완두콩 단백질, 유기농 가용성 타피오카, 유기농 사차인치 단백질, 유기농 해바라기/호박씨 단백질 혼합 블렌드"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2288,
+                "endIndex": 2315,
+                "text": "**중량**: 453.59g (16 oz)"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2318,
+                "endIndex": 2593,
+                "text": "**선택 이유**: 단일 사차인치만으로는 부족할 수 있는 아미노산 구성을 보완하기 위해 사차인치 단백질과 완두콩·씨앗 단백질을 배합한 비건 보충제이며, 인공 감미료와 향료를 배제한 클린 라벨 제품입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2668,
+                "endIndex": 2769,
+                "text": "**제품명**: 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 (단백질 밸런스형)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2772,
+                "endIndex": 2894,
+                "text": "**판매처**: [왓푸드(whatfood) 공식몰 상품 페이지](https://whatfood.co.kr/product/detail.html?product_no=335)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2897,
+                "endIndex": 2996,
+                "text": "**원재료**: 완두콩 단백질 분말, 사차인치 단백질 분말 혼합 식물성 단백질"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2999,
+                "endIndex": 3023,
+                "text": "**중량**: 1,000g (1kg)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3026,
+                "endIndex": 3267,
+                "text": "**선택 이유**: 국내에서 유통되는 식물성 단백질 제품 중 사차인치 단백질 분말을 주성분 배합으로 명시하고 있으며, 1kg 대용량 패키지로 일상적인 식단 관리에 활용하기 용이합니다"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "site:kr.iherb.com \"사차인치 단백질\" OR \"사차 인치 단백질\"",
+            "\"사차인치 단백질\"",
+            "사차인치 탈지 단백질 분말",
+            "\"sacha inchi\" protein powder iherb"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1723,
+      "candidatesTokenCount": 1239,
+      "totalTokenCount": 6124,
+      "cachedContentTokenCount": 1070,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1723
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1070
+        }
+      ],
+      "thoughtsTokenCount": 3162,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "Su8Ea9XAGIrmosUP4JO48Qk"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:59:25+09:00"
+}

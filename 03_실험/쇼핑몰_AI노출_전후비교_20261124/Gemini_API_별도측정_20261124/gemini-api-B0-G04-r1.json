@@ -1,0 +1,362 @@
+{
+  "run_id": "gemini-api-B0-G04-r1",
+  "phase": "B0",
+  "timestamp_kst": "2026-11-24T10:57:26+09:00",
+  "surface": "Gemini Developer API",
+  "engine": "Gemini",
+  "model_or_mode": "gemini-3.8-flash",
+  "account_environment": "사용자 제공 Gemini Developer API 키",
+  "search_setting": "Google Search grounding",
+  "query_id": "G04",
+  "repeat_no": 1,
+  "eligible_targets": [
+    "watermelon",
+    "sacha"
+  ],
+  "prompt": "플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘.\n\n웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "raw_answer": "플레인 요거트에 곁들이기 좋은 씨앗 원료 100% 분말 제품 3가지를 소개합니다.\n\n---\n\n### 1. 착한습관 볶은아마씨가루 200g\n* **판매처**: 착한습관\n* **근거 링크**: [착한습관 볶은아마씨 가루 팩 200g 상품 페이지](https://m.goodhabit.care/product/detail.html?product_no=120)\n* **원재료 및 함량**: 아마씨 100% (원산지: 캐나다산)\n* **내용량**: 200g\n* **선택 이유**: \n  * 아마씨는 식물성 오메가-3 지방산(알파리놀렌산)과 식이섬유가 풍부한 대표적인 슈퍼푸드 씨앗입니다. \n  * 통씨앗 상태로는 외피가 단단해 소화·흡수가 어려울 수 있으나, 볶은 뒤 곱게 분말화하여 요거트에 섞었을 때 영양 흡수율이 높고 특유의 고소한 맛을 더해 플레인 요거트의 산미를 부드럽게 잡아줍니다.\n\n---\n\n### 2. [햇님마을] 껍질벗겨 부드러운 국산 들깨가루 100g\n* **판매처**: 마켓컬리\n* **근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063073)\n* **원재료 및 함량**: 국산 들깨 100%\n* **내용량**: 100g\n* **선택 이유**: \n  * 들깨 씨앗은 식물성 오메가-3와 불포화지방산이 풍부한 식재료입니다.\n  * 껍질을 벗겨낸 들깨 속살만을 곱게 갈아 만들어 까끌까끌함 없이 식감이 부드럽습니다. \n  * 플레인 요거트에 섞었을 때 부드럽게 녹아들며 진한 고소함을 주며, 100g 소용량 지퍼백 포장으로 산패되기 쉬운 유지류 씨앗 분말을 신선하게 보관하며 섭취할 수 있습니다.\n\n---\n\n### 3. [햇님마을] 햇빛에 검게 그을린 흑임자가루 100g\n* **판매처**: 마켓컬리\n* **근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063076)\n* **원재료 및 함량**: 검정깨 100%\n* **내용량**: 100g\n* **선택 이유**: \n  * 검정깨(흑임자) 씨앗을 천천히 볶아 곱게 분쇄한 분말입니다.\n  * 안토시아닌, 칼슘, 불포화지방산이 풍부하며, 플레인 요거트 위에 한두 스푼 토핑하거나 섞어 먹으면 흑임자 요거트 디저트와 같은 고소하고 진한 풍미를 간편하게 낼 수 있습니다.",
+  "citations": [
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7rp_NR1OiwLgEVkBBtwT-DpinOiwF1HWUSucxxH7OonUDimko_DpW7BlYh9kP26wSFxlCu52uWI-YS6qCKSpfImsng8cZPP3x4apDV9fSD8q7Qw9WgL4xEDFDql6J97I6hHMUTEZTIuLZec-OGH33nq-bdphsklF7QglHHIHcxWq5WnPZV0E_Y1txZQigS3Jq-MBT4LlOiTS3jxN0I308MvGllzDwtFVOzHxGFCTr0H7Gv2-lSDi6p_5ImhlQHV2DqA7tmov4UBJrejCiR5LfdmYf7ehbLjTX-aPLG08iG0mdJbhKTA9LAUxOKGhnT7gs6AaV4HaBtTUdholT7Ounmw1IsE_Z6xDGmphMVfU9zzwgkMY=",
+      "title": "giftgift.net"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6PBq9H1zRJmcmOwl_kOR0jg0RFCzVxM2Eg_aZEW1X6pCVpED5x0XNYWeRNMUNpWquSvBaapZyxacAqOKfnH0nGq4vRXafQ7FRLYJBZtxyF5MCKi-nIz_P5eAtVA==",
+      "title": "kurly.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUSmcoaFnyX6UzWgMGo1h6SrquLOoYdoWyMjDKJvovGg07IDAzXs_V49FcgtJ6HDO9kNM45bQJNozTpKTwbmf4ClWK_iy1QlBW4NCMUnnmYnYNlCo9662CpmM30A==",
+      "title": "kurly.com"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdsDrD9FVBkNDf1gFRBwkdEYjyCgvhV1hJhIVl_dvoBJ_aXyt4IOUvTNp_8dIRQGCyvgHloeLCtjH_ybLF21fLjBipYpS4EzpZi0ecTG5cmP_KbxT2HoT0ujfvLjL0DJToCLYnweYVCs-PK3p_By_ow-yyVIIZTYLOtT--7Xi334Jb17oRlOYE9CXQbRgauIT_BBLYn2Gr05C52wxqovG85qPIpUOXnQvkzQ==",
+      "title": "goodhabit.care"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkd3lLUMooTsei_agGk2TzoZUJkBjPKb1QDokGnIgrIYCL_wJVMwclNQjwmhScK1SBSZIVQpuwTlZlVE4HKJdeG0DVw7dOmNRikHUVRGgIl_kOo_zz9jyySy8F_pk6",
+      "title": "fooddict.co.kr"
+    },
+    {
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1q_9vESES3ovAbY6T36cY75NP9I3MlKOUMGOwGxS7tE9YEqm9f_GHF9ugx69ZlFYwQszOCxDkloFvmuUOhlfw1BClmJGwG68lJm6b36sk2EA6fGxQjLxxrZowKd1UFSQ1hjJsh5xAUGlg5h-4_efk8gI5H16IRK11JU=",
+      "title": "metlife.co.kr"
+    }
+  ],
+  "search_used": true,
+  "valid_for_scoring": true,
+  "error_type": null,
+  "retry_of": null,
+  "model_version": "gemini-3.8-flash",
+  "response_id": "Bu8Ea4CtELLK2roPhdPl0QE",
+  "finish_reason": "STOP",
+  "search_queries": [
+    "치아씨드 분말 원재료 내용량",
+    "site:kurly.com \"검은깨가루\" OR \"흑임자가루\" 원재료 내용량",
+    "볶은 아마씨 가루 원재료 내용량",
+    "site:kurly.com \"들깨가루\" 원재료 내용량"
+  ],
+  "raw_api_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "플레인 요거트에 곁들이기 좋은 씨앗 원료 100% 분말 제품 3가지를 소개합니다.\n\n---\n\n### 1. 착한습관 볶은아마씨가루 200g\n* **판매처**: 착한습관\n* **근거 링크**: [착한습관 볶은아마씨 가루 팩 200g 상품 페이지](https://m.goodhabit.care/product/detail.html?product_no=120)\n* **원재료 및 함량**: 아마씨 100% (원산지: 캐나다산)\n* **내용량**: 200g\n* **선택 이유**: \n  * 아마씨는 식물성 오메가-3 지방산(알파리놀렌산)과 식이섬유가 풍부한 대표적인 슈퍼푸드 씨앗입니다. \n  * 통씨앗 상태로는 외피가 단단해 소화·흡수가 어려울 수 있으나, 볶은 뒤 곱게 분말화하여 요거트에 섞었을 때 영양 흡수율이 높고 특유의 고소한 맛을 더해 플레인 요거트의 산미를 부드럽게 잡아줍니다.\n\n---\n\n### 2. [햇님마을] 껍질벗겨 부드러운 국산 들깨가루 100g\n* **판매처**: 마켓컬리\n* **근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063073)\n* **원재료 및 함량**: 국산 들깨 100%\n* **내용량**: 100g\n* **선택 이유**: \n  * 들깨 씨앗은 식물성 오메가-3와 불포화지방산이 풍부한 식재료입니다.\n  * 껍질을 벗겨낸 들깨 속살만을 곱게 갈아 만들어 까끌까끌함 없이 식감이 부드럽습니다. \n  * 플레인 요거트에 섞었을 때 부드럽게 녹아들며 진한 고소함을 주며, 100g 소용량 지퍼백 포장으로 산패되기 쉬운 유지류 씨앗 분말을 신선하게 보관하며 섭취할 수 있습니다.\n\n---\n\n### 3. [햇님마을] 햇빛에 검게 그을린 흑임자가루 100g\n* **판매처**: 마켓컬리\n* **근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063076)\n* **원재료 및 함량**: 검정깨 100%\n* **내용량**: 100g\n* **선택 이유**: \n  * 검정깨(흑임자) 씨앗을 천천히 볶아 곱게 분쇄한 분말입니다.\n  * 안토시아닌, 칼슘, 불포화지방산이 풍부하며, 플레인 요거트 위에 한두 스푼 토핑하거나 섞어 먹으면 흑임자 요거트 디저트와 같은 고소하고 진한 풍미를 간편하게 낼 수 있습니다.",
+              "thoughtSignature": "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"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0,
+        "groundingMetadata": {
+          "searchEntryPoint": {
+            "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EC%B9%98%EC%95%84%EC%94%A8%EB%93%9C+%EB%B6%84%EB%A7%90+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EB%82%B4%EC%9A%A9%EB%9F%89&client=app-vertex-grounding&safesearch=active\">치아씨드 분말 원재료 내용량</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kurly.com+%22%EA%B2%80%EC%9D%80%EA%B9%A8%EA%B0%80%EB%A3%A8%22+OR+%22%ED%9D%91%EC%9E%84%EC%9E%90%EA%B0%80%EB%A3%A8%22+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EB%82%B4%EC%9A%A9%EB%9F%89&client=app-vertex-grounding&safesearch=active\">site:kurly.com &quot;검은깨가루&quot; OR &quot;흑임자가루&quot; 원재료 내용량</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=%EB%B3%B6%EC%9D%80+%EC%95%84%EB%A7%88%EC%94%A8+%EA%B0%80%EB%A3%A8+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EB%82%B4%EC%9A%A9%EB%9F%89&client=app-vertex-grounding&safesearch=active\">볶은 아마씨 가루 원재료 내용량</a>\n<a class=\"chip\" href=\"https://www.google.com/search?q=site:kurly.com+%22%EB%93%A4%EA%B9%A8%EA%B0%80%EB%A3%A8%22+%EC%9B%90%EC%9E%AC%EB%A3%8C+%EB%82%B4%EC%9A%A9%EB%9F%89&client=app-vertex-grounding&safesearch=active\">site:kurly.com &quot;들깨가루&quot; 원재료 내용량</a>\n  </div>\n</div>"
+          },
+          "groundingChunks": [
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7rp_NR1OiwLgEVkBBtwT-DpinOiwF1HWUSucxxH7OonUDimko_DpW7BlYh9kP26wSFxlCu52uWI-YS6qCKSpfImsng8cZPP3x4apDV9fSD8q7Qw9WgL4xEDFDql6J97I6hHMUTEZTIuLZec-OGH33nq-bdphsklF7QglHHIHcxWq5WnPZV0E_Y1txZQigS3Jq-MBT4LlOiTS3jxN0I308MvGllzDwtFVOzHxGFCTr0H7Gv2-lSDi6p_5ImhlQHV2DqA7tmov4UBJrejCiR5LfdmYf7ehbLjTX-aPLG08iG0mdJbhKTA9LAUxOKGhnT7gs6AaV4HaBtTUdholT7Ounmw1IsE_Z6xDGmphMVfU9zzwgkMY=",
+                "title": "giftgift.net"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6PBq9H1zRJmcmOwl_kOR0jg0RFCzVxM2Eg_aZEW1X6pCVpED5x0XNYWeRNMUNpWquSvBaapZyxacAqOKfnH0nGq4vRXafQ7FRLYJBZtxyF5MCKi-nIz_P5eAtVA==",
+                "title": "kurly.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUSmcoaFnyX6UzWgMGo1h6SrquLOoYdoWyMjDKJvovGg07IDAzXs_V49FcgtJ6HDO9kNM45bQJNozTpKTwbmf4ClWK_iy1QlBW4NCMUnnmYnYNlCo9662CpmM30A==",
+                "title": "kurly.com"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdsDrD9FVBkNDf1gFRBwkdEYjyCgvhV1hJhIVl_dvoBJ_aXyt4IOUvTNp_8dIRQGCyvgHloeLCtjH_ybLF21fLjBipYpS4EzpZi0ecTG5cmP_KbxT2HoT0ujfvLjL0DJToCLYnweYVCs-PK3p_By_ow-yyVIIZTYLOtT--7Xi334Jb17oRlOYE9CXQbRgauIT_BBLYn2Gr05C52wxqovG85qPIpUOXnQvkzQ==",
+                "title": "goodhabit.care"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkd3lLUMooTsei_agGk2TzoZUJkBjPKb1QDokGnIgrIYCL_wJVMwclNQjwmhScK1SBSZIVQpuwTlZlVE4HKJdeG0DVw7dOmNRikHUVRGgIl_kOo_zz9jyySy8F_pk6",
+                "title": "fooddict.co.kr"
+              }
+            },
+            {
+              "web": {
+                "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1q_9vESES3ovAbY6T36cY75NP9I3MlKOUMGOwGxS7tE9YEqm9f_GHF9ugx69ZlFYwQszOCxDkloFvmuUOhlfw1BClmJGwG68lJm6b36sk2EA6fGxQjLxxrZowKd1UFSQ1hjJsh5xAUGlg5h-4_efk8gI5H16IRK11JU=",
+                "title": "metlife.co.kr"
+              }
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "endIndex": 102,
+                "text": "플레인 요거트에 곁들이기 좋은 씨앗 원료 100% 분말 제품 3가지를 소개합니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 159,
+                "endIndex": 186,
+                "text": "**판매처**: 착한습관"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 189,
+                "endIndex": 332,
+                "text": "**근거 링크**: [착한습관 볶은아마씨 가루 팩 200g 상품 페이지](https://m.goodhabit.care/product/detail.html?product_no=120)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 335,
+                "endIndex": 401,
+                "text": "**원재료 및 함량**: 아마씨 100% (원산지: 캐나다산)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 404,
+                "endIndex": 423,
+                "text": "**내용량**: 200g"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 450,
+                "endIndex": 585,
+                "text": "아마씨는 식물성 오메가-3 지방산(알파리놀렌산)과 식이섬유가 풍부한 대표적인 슈퍼푸드 씨앗입니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 592,
+                "endIndex": 861,
+                "text": "통씨앗 상태로는 외피가 단단해 소화·흡수가 어려울 수 있으나, 볶은 뒤 곱게 분말화하여 요거트에 섞었을 때 영양 흡수율이 높고 특유의 고소한 맛을 더해 플레인 요거트의 산미를 부드럽게 잡아줍니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 944,
+                "endIndex": 971,
+                "text": "**판매처**: 마켓컬리"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 974,
+                "endIndex": 1061,
+                "text": "**근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063073)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1064,
+                "endIndex": 1108,
+                "text": "**원재료 및 함량**: 국산 들깨 100%"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1111,
+                "endIndex": 1130,
+                "text": "**내용량**: 100g"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1157,
+                "endIndex": 1249,
+                "text": "들깨 씨앗은 식물성 오메가-3와 불포화지방산이 풍부한 식재료입니다"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1255,
+                "endIndex": 1370,
+                "text": "껍질을 벗겨낸 들깨 속살만을 곱게 갈아 만들어 까끌까끌함 없이 식감이 부드럽습니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1377,
+                "endIndex": 1605,
+                "text": "플레인 요거트에 섞었을 때 부드럽게 녹아들며 진한 고소함을 주며, 100g 소용량 지퍼백 포장으로 산패되기 쉬운 유지류 씨앗 분말을 신선하게 보관하며 섭취할 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1685,
+                "endIndex": 1712,
+                "text": "**판매처**: 마켓컬리"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1715,
+                "endIndex": 1802,
+                "text": "**근거 링크**: [마켓컬리 상품 페이지](https://www.kurly.com/goods/5063076)"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1805,
+                "endIndex": 1845,
+                "text": "**원재료 및 함량**: 검정깨 100%"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1848,
+                "endIndex": 1867,
+                "text": "**내용량**: 100g"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1894,
+                "endIndex": 1974,
+                "text": "검정깨(흑임자) 씨앗을 천천히 볶아 곱게 분쇄한 분말입니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1980,
+                "endIndex": 2039,
+                "text": "안토시아닌, 칼슘, 불포화지방산이 풍부하며"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1980,
+                "endIndex": 2218,
+                "text": "안토시아닌, 칼슘, 불포화지방산이 풍부하며, 플레인 요거트 위에 한두 스푼 토핑하거나 섞어 먹으면 흑임자 요거트 디저트와 같은 고소하고 진한 풍미를 간편하게 낼 수 있습니다"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ],
+          "webSearchQueries": [
+            "치아씨드 분말 원재료 내용량",
+            "site:kurly.com \"검은깨가루\" OR \"흑임자가루\" 원재료 내용량",
+            "볶은 아마씨 가루 원재료 내용량",
+            "site:kurly.com \"들깨가루\" 원재료 내용량"
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 3272,
+      "candidatesTokenCount": 913,
+      "totalTokenCount": 8517,
+      "cachedContentTokenCount": 1791,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 3272
+        }
+      ],
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1791
+        }
+      ],
+      "thoughtsTokenCount": 4332,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.8-flash",
+    "responseId": "Bu8Ea4CtELLK2roPhdPl0QE"
+  },
+  "completed_timestamp_kst": "2026-11-24T10:58:30+09:00"
+}

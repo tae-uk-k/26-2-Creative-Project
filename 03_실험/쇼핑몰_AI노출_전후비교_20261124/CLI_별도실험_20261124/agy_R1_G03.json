@@ -1,0 +1,28 @@
+{
+  "run_id": "agy_R1_G03",
+  "timestamp_utc": "2026-11-24T01:42:25.442814+00:00",
+  "query_id": "G03",
+  "repeat": 1,
+  "prompt": "우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Antigravity CLI; 별도 실험군",
+  "model": "gemini-3.8-flash-low",
+  "session": "새 CLI 프로세스 및 신규 대화",
+  "search_used": true,
+  "exit_code": 0,
+  "valid": true,
+  "result": {
+    "conversation_id": "db0e3280-bea9-469a-b241-8573e4c1bb5d",
+    "status": "SUCCESS",
+    "response": "우유나 두유, 스무디에 섞어 먹기 좋은 식물성(비건) 단백질 분말 3종에 대한 정보입니다. 확인된 공식 판매처 및 객관적 제품 특성을 기반으로 정리했습니다.\n\n---\n\n### 1. 올게인 오가닉 플랜트 프로틴 파우더 (Orgain Organic Plant Protein)\n* **판매처**: [쿠팡](https://www.coupang.com), [아이허브(iHerb)](https://kr.iherb.com), 온누리스토어 등\n* **근거 링크**: [iHerb 올게인 브랜드 페이지](https://kr.iherb.com/c/orgain)\n* **선택 이유**:\n  * 완두콩·현미·치아씨드 등을 원료로 한 식물성 유기농(USDA Organic) 인증 분말입니다.\n  * 식물성 단백질 특유의 거친 풀맛이나 흙맛이 적고 크리미한 질감을 가져, 우유·두유 또는 바나나 베이스 스무디와 블렌딩 시 목넘김이 매우 부드럽습니다.\n\n---\n\n### 2. 가든오브라이프 로우 오가닉 프로틴 파우더 (Garden of Life Raw Organic Protein)\n* **판매처**: [아이허브(iHerb)](https://kr.iherb.com), 쿠팡 직구\n* **근거 링크**: [iHerb 가든오브라이프 로우 오가닉 프로틴](https://kr.iherb.com/c/garden-of-life)\n* **선택 이유**:\n  * 유기농 완두콩과 발아 곡물·씨앗 기반의 홀푸드(Raw) 단백질 분말입니다.\n  * 가공 시 열 변성을 최소화하고 소화 효소와 프로바이오틱스(유산균)가 첨가되어 있어, 유제품 섭취 시 속이 더부룩하거나 소화가 민감한 분들이 스무디나 식물성 음료(두유, 아몬드밀크)에 타 마시기에 적합합니다.\n\n---\n\n### 3. 마이프로틴 비건 프로틴 블렌드 (Myprotein Vegan Protein Blend)\n* **판매처**: 마이프로틴 공식 온라인몰\n* **근거 링크**: [마이프로틴 코리아 공식 홈페이지](https://www.myprotein.co.kr)\n* **선택 이유**:\n  * 완두콩 단백질과 파바빈(작두콩/잠두) 단백질 등을 블렌딩한 식물성 분말입니다.\n  * 초콜릿, 솔티드 카라멜, 바닐라 등 맛의 선택지가 다양해 무가당 두유나 과일 스무디 제조 시 별도의 시럽 없이도 취향에 맞춰 섞기 좋습니다.\n",
+    "duration_seconds": 59.0890121,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 22223,
+      "output_tokens": 814,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 51250,
+      "total_tokens": 23037
+    }
+  },
+  "stderr": ""
+}

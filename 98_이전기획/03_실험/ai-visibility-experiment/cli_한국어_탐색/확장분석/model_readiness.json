@@ -1,0 +1,45 @@
+{
+  "cohort": "reviewed-expanded",
+  "independent_restaurants": 35,
+  "restaurant_backend_rows": 70,
+  "rows_are_not_independent_stores": true,
+  "min_stores_workflow_setting": 50,
+  "usable_numeric_80pct_coverage": [
+    "own_website_external"
+  ],
+  "usable_categorical_80pct_coverage": [
+    "area",
+    "menu_family_external"
+  ],
+  "dependencies": {
+    "numpy": false,
+    "pandas": false,
+    "sklearn": false,
+    "xgboost": false,
+    "shap": false
+  },
+  "ready_for_exploratory_training": false,
+  "blocking_reasons": [
+    "Only 35 independent restaurants; workflow guard is 50.",
+    "Fewer than 3 varying external restaurant features reach 80% coverage; collect features first.",
+    "Training runtime dependencies are unavailable."
+  ],
+  "model_training_performed": false,
+  "interpretation": "Prediction associations only; neither SHAP nor importance establishes causality.",
+  "readiness_scope": "Original 162-candidate broad-feature pipeline; separate completed pilots below",
+  "completed_pilot": {
+    "restaurant_count": 30,
+    "restaurant_predictor_count": 2,
+    "model_training_performed": true,
+    "report_path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\확장분석\\혼합효과분석\\결과_요약.md"
+  },
+  "completed_external_feature_pilot": {
+    "restaurant_count": 30,
+    "collected_profiles": 28,
+    "restaurant_predictor_count_full": 8,
+    "model_training_performed": true,
+    "review_glmm_brier": 0.1764652073757282,
+    "causal_validation": false,
+    "report_path": "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\확장분석\\외부특징분석\\결과_요약.md"
+  }
+}

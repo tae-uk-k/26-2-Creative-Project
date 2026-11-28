@@ -1,0 +1,15 @@
+{
+  "run_id": "codex_R1_G04",
+  "timestamp_utc": "2026-11-23T18:39:08.910752+00:00",
+  "query_id": "G04",
+  "repeat": 1,
+  "prompt": "플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "판매 페이지에 **원재료와 내용량이 모두 표시된 씨앗 분말 3개**를 골랐어요.\n\n| 제품명 | 판매처 | 표시된 원재료 · 내용량 | 선택 이유 | 근거 |\n|---|---|---|---|---|\n| 비이츠 흑임자가루 | 쿠팡 | 검은깨 100% (중국산) · 200g | 플레인 요거트에 흑임자 맛을 더하고 싶을 때 고르기 좋아요. | [쿠팡 상품 상세](https://www.coupang.com/vp/products/9191997641?itemId=27126314808&vendorItemId=94102525929) |\n| 볶은아마씨가루 | 오아시스마켓 | 아마씨앗 100% (캐나다산) · 200g | 볶은 아마씨를 가루로 만든 제품이라 따로 갈지 않고 요거트에 섞을 수 있어요. | [오아시스마켓 상품필수정보](https://m.oasis.co.kr/product/detail/71058) |\n| 국산 들깨가루 | 오아시스마켓 | 들깨 100% (국산) · 200g | 껍질을 제거한 들깨를 곱게 빻은 제품으로, 요거트에 들깨 향을 더하고 싶을 때 좋아요. | [오아시스마켓 상품 상세](https://m.oasis.co.kr/product/detail/994-880?categoryId=631) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-23T18:39:09.791707Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n"
+}

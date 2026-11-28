@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block title %}한눈 | AI 가게 노출 진단{% endblock %}
+
+{% block content %}
+<section class="hero shell">
+    <div class="hero-copy">
+        <span class="eyebrow">외국인 관광객 대상 AI 노출 지원</span>
+        <h1>AI가 우리 가게를<br>추천하는지 한눈에</h1>
+        <p class="hero-description">
+            관광객이 ChatGPT·Gemini에 장소를 물어보는 순간,<br class="desktop-only">
+            가게가 정확하게 발견되도록 진단하고 정보를 정비합니다.
+        </p>
+        <div class="hero-actions">
+            <a class="button button-primary button-large" href="{{ url_for('demo') }}">무료 진단 체험</a>
+            <a class="text-link" href="#how-it-works">서비스 방식 보기 <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="microcopy">신용카드·회원가입 없이 시연할 수 있어요.</p>
+    </div>
+
+    <div class="hero-report" aria-label="진단 보고서 예시">
+        <div class="report-preview-head">
+            <div>
+                <span class="demo-label">시연용 예시</span>
+                <p>망원 골목국수</p>
+            </div>
+            <span class="report-date">오늘 진단</span>
+        </div>
+        <div class="score-row">
+            <div>
+                <span class="score-label">AI 노출 준비도</span>
+                <strong>42</strong><span class="score-unit">점</span>
+            </div>
+            <div class="score-ring" aria-hidden="true"><span>42</span></div>
+        </div>
+        <div class="preview-list">
+            <div class="preview-item">
+                <span class="status-icon status-danger" aria-hidden="true">!</span>
+                <div><strong>관광객 조건 정보 부족</strong><span>영문 메뉴·혼밥·결제 정보</span></div>
+            </div>
+            <div class="preview-item">
+                <span class="status-icon status-danger" aria-hidden="true">!</span>
+                <div><strong>채널 정보 불일치</strong><span>월요일 영업 여부가 다름</span></div>
+            </div>
+            <div class="preview-item">
+                <span class="status-icon status-info" aria-hidden="true">i</span>
+                <div><strong>외부 근거 보강 필요</strong><span>공식 영문 소개 페이지 없음</span></div>
+            </div>
+        </div>
+        <div class="preview-footer">고칠 항목 3개를 찾았어요</div>
+    </div>
+</section>
+
+<section class="trust-strip" aria-label="서비스 핵심 기능">
+    <div class="shell trust-items">
+        <span>AI 추천 등장 여부</span>
+        <span>잘못된 정보 탐지</span>
+        <span>영문 정보 제작</span>
+        <span>개선 전후 비교</span>
+    </div>
+</section>
+
+<section id="how-it-works" class="section shell">
+    <div class="section-heading">
+        <span class="eyebrow">진단에서 개선까지</span>
+        <h2>가게 사장님이 할 일은<br>정보를 확인하는 것뿐이에요</h2>
+    </div>
+    <ol class="process-grid">
+        <li class="process-card">
+            <span class="step-number">01</span>
+            <h3>AI 노출을 진단해요</h3>
+            <p>관광객이 실제로 물어볼 질문을 기준으로 추천 등장률과 정보 정확도를 확인합니다.</p>
+        </li>
+        <li class="process-card">
+            <span class="step-number">02</span>
+            <h3>정보를 정비해요</h3>
+            <p>영문 메뉴·가격·결제·식이 정보와 채널별 수정 문안을 만들고 사장님이 승인합니다.</p>
+        </li>
+        <li class="process-card">
+            <span class="step-number">03</span>
+            <h3>같은 조건으로 다시 봐요</h3>
+            <p>같은 질문·언어·모델·반복 횟수로 측정해 정비 전후의 변화를 비교합니다.</p>
+        </li>
+    </ol>
+</section>
+
+<section id="difference" class="section section-soft">
+    <div class="shell comparison-layout">
+        <div class="section-heading compact">
+            <span class="eyebrow">검색 등록만으로는 부족해요</span>
+            <h2>SEO 다음의 질문,<br>AI는 무엇을 근거로 추천할까요?</h2>
+            <p>한눈은 검색 순위를 대신 관리하는 서비스가 아니라, 생성형 AI가 관광객의 조건과 가게를 연결할 수 있도록 정보를 보완하는 GEO 지원 서비스입니다.</p>
+        </div>
+        <div class="difference-card">
+            <div class="difference-row difference-head">
+                <span></span><strong>SEO</strong><strong>GEO</strong>
+            </div>
+            <div class="difference-row">
+                <span>목표</span><p>검색 결과의 순위</p><p>AI 답변의 선택·인용·추천</p>
+            </div>
+            <div class="difference-row">
+                <span>핵심 정보</span><p>검색어·페이지·지도 등록</p><p>질문 조건·출처·정보 일관성</p>
+            </div>
+            <div class="difference-row">
+                <span>측정</span><p>순위·클릭·방문</p><p>등장률·순서·정확도</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section shell result-section">
+    <div class="section-heading">
+        <span class="eyebrow">보고서에서 바로 확인</span>
+        <h2>어디서 빠지고,<br>무엇을 고쳐야 하는지 보여드려요</h2>
+    </div>
+    <div class="result-grid">
+        <article class="result-card">
+            <div class="result-icon" aria-hidden="true">1</div>
+            <h3>조건 정보 부족</h3>
+            <p>혼밥, 채식, 영어 메뉴, 해외 결제처럼 관광객이 질문하는 정보를 확인합니다.</p>
+        </article>
+        <article class="result-card">
+            <div class="result-icon" aria-hidden="true">2</div>
+            <h3>채널 정보 불일치</h3>
+            <p>지도, 홈페이지, SNS의 주소·영업시간·메뉴 정보가 같은지 비교합니다.</p>
+        </article>
+        <article class="result-card">
+            <div class="result-icon" aria-hidden="true">3</div>
+            <h3>외부 근거 부족</h3>
+            <p>AI가 읽고 확인할 수 있는 공식 영문 소개와 텍스트 기반 정보를 보강합니다.</p>
+        </article>
+        <article class="result-card accent-card">
+            <span class="demo-label dark">시연 가능</span>
+            <h3>3분 안에 전체 흐름을 확인해 보세요</h3>
+            <a class="button button-white" href="{{ url_for('demo') }}">진단 시작하기</a>
+        </article>
+    </div>
+</section>
+
+<section class="final-cta">
+    <div class="shell final-cta-inner">
+        <div>
+            <h2>AI 추천에서 놓친 정보를<br>지금 확인해 보세요</h2>
+            <p>가상 매장과 시연용 수치로 작동하는 MVP입니다.</p>
+        </div>
+        <a class="button button-primary button-large" href="{{ url_for('demo') }}">무료 진단 체험</a>
+    </div>
+</section>
+{% endblock %}

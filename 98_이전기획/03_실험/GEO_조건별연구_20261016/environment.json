@@ -1,0 +1,14 @@
+{
+  "observed_date_kst": "2026-10-16",
+  "codex_cli_version_stdout": "codex-cli 0.162.0-alpha.17.2",
+  "antigravity_cli_version_stdout": "1.4.0",
+  "requested_models": {"codex": "gpt-6.1-sol", "agy": "Gemini 3.8 Flash (Low)"},
+  "actual_provider_model_identity": "not independently verified; reported_models retained per attempt",
+  "language": "ko",
+  "location_control": false,
+  "fresh_sessions": true,
+  "consumer_UI_measurement": false,
+  "initial_timeout_seconds": 210,
+  "timeout_only_retry_policy": "Codex initial timeouts retried once with 300-second limit; permission denials not bypassed",
+  "candidate_names_or_experiment_files_in_prompt": false
+}

@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-06",
+  "fictional": true,
+  "views_rendered_and_captured": 8,
+  "checks": {
+    "kakao_intro_before_after": true,
+    "kakao_menu_before_after": true,
+    "google_intro_before_after": true,
+    "google_menu_before_after": true,
+    "intro_menu_toggle": true,
+    "map_case_toggle_both_directions": true,
+    "source_details_open_close": true,
+    "source_cards_per_case": 4,
+    "readable_menu_boards_per_case": 2,
+    "kakao_after_description_bottoms": [377, 476, 593],
+    "google_after_menu_bottoms": [377, 452, 543],
+    "render_viewport_height": 720,
+    "google_menu_board_images_loaded": true,
+    "all_six_base_prices_preserved": true,
+    "live_map_write": false
+  },
+  "presentation": "전후 비교와 가상 원자료, 정비 스토리를 한 화면에서 확인. PNG 2개는 소개와 메뉴를 위아래로 모두 포함.",
+  "intermediate_captures": "images의 *_render.png는 상단 여백 조정 전 기록. 최종 비교는 *_final.png에서 생성."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "incomplete_blocked_at_cohort_formation",
+  "scope": "사전 고정 검색 틀과 현재 검수 범위",
+  "natural_search_cards": 360,
+  "sponsored_cards": 1,
+  "possible_crossmap_candidates": 36,
+  "fully_read_kakao_detail_stores": 6,
+  "fully_read_google_detail_stores": 6,
+  "preliminary_baseline_pairs": 21,
+  "confirmed_pairs": 0,
+  "group_A_stores": 0,
+  "group_B_stores": 0,
+  "planned_cells": 90,
+  "actual_recommendation_calls": 0,
+  "valid_responses": 0,
+  "actual_recommendation_failures": 0,
+  "unstarted_cells": 90,
+  "unknown_score_cells": 91,
+  "known_score_cells": 17,
+  "exposure_A_pct": null,
+  "exposure_B_pct": null,
+  "pair_uncertainty_interval": null,
+  "reason": "추천 측정 전 집단 구성 미성립. 미실행은 실패나 미노출이 아님. 전체 지역에 적합 매장이 없다는 뜻이 아님.",
+  "region_candidates": {
+    "MD": 20,
+    "SS": 4,
+    "MW": 12
+  },
+  "region_baseline_pairs": {
+    "MD": 14,
+    "SS": 0,
+    "MW": 7
+  }
+}

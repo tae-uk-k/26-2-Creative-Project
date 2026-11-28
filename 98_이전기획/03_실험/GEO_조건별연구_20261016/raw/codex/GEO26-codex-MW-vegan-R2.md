@@ -1,0 +1,3 @@
+지도 정보를 우선 검색하고, 접근 가능한 공개 출처로 영업 여부와 비건 식사 조건을 확인하겠습니다. 검색은 3회, 페이지 열람은 6개 이내로 제한하겠습니다.
+
+{"access_note":"검색 질의 3개, 공개 페이지 열람 6개를 사용했다. 지도 검색 결과에서는 구글 지도의 제한된 화면 안내만 확인했으며 식당 상세 정보를 확보하지 못했다. 대체 공개 출처 본문을 확인했지만, 현재 운영과 모든 식재료 조건을 함께 확인한 식당은 없어 추천을 보류했다. 어라운드그린은 Restaurant Guru의 영업 정보와 뽈레의 폐점 표시가 충돌했다(https://restaurantguru.com/amp/Around-Green-Seoul, https://polle.com/place/5E5l9t/어라운드%20그린). 대안부엌 풀은 소개 본문 내 비건·치즈 설명과 영업시간이 서로 모순되고 공식 사이트 본문을 읽을 수 없었다(https://rockpin.ai/en/Mangwon/restaurants/pul-2, https://pul.cargo.site/). 까페빈틈은 비건 라면 소개가 있지만 재료 확인과 메뉴 상시 제공에 불확실성이 명시되어 제외했다(https://spinach.guide/venues/cafe-beanteum-215929/).","restaurants":[]}

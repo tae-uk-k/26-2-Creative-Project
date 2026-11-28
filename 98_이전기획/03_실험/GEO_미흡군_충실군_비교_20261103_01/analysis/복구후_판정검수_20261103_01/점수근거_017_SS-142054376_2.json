@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-142054376",
+  "item": 2,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "동일 지점 공식 예약에 1~6명, 초과인원 연락, 반려동물 접종증명, 예약 지각 취소와 주문 마감 안내가 연결됨.",
+  "sources": [
+    {
+      "quote": "예약 인원 6인까지",
+      "source_url": "https://booking.naver.com/booking/6/bizes/1673271/items/7756340",
+      "observed_at": "2026-11-03T02:03:00.563Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\209_SS-142054376_official_official_booking_conditions.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "라스트오더는 20:00 입니다",
+      "source_url": "https://booking.naver.com/booking/6/bizes/1673271/items/7756340",
+      "observed_at": "2026-11-03T02:03:00.563Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\209_SS-142054376_official_official_booking_conditions.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

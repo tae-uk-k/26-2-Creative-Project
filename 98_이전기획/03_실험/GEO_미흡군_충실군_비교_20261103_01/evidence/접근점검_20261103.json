@@ -1,0 +1,19 @@
+{
+  "study": "GEO 정보 미흡군과 충실군의 CLI 추천 등장률 비교",
+  "checked_date_kst": "2026-11-03",
+  "ui_inventory": {
+    "tool": "mcp__cua_repl.js cua.getState",
+    "browsers": [],
+    "error": "Browsers: Error: Local browser use is disabled in Work settings",
+    "state": "local_browser_disabled",
+    "detail_read_success": false
+  },
+  "web_open_checks": [
+    {"url":"https://place.map.kakao.com/1226420399","state":"tool_inaccessible","detail_read_success":false},
+    {"url":"https://place.map.kakao.com/15526158","state":"tool_inaccessible","detail_read_success":false},
+    {"url":"https://www.google.com/maps/place/%ED%97%A4%ED%82%A4/data=!4m5!3m4!1s0x357c99db60b9a17d:0xffc174f594955b8a!16s%2Fg%2F11h6dg8zds!19sChIJfaG5YNuZfDURiluVlPV0wf8","state":"tool_inaccessible","detail_read_success":false}
+  ],
+  "handling": "스니펫으로 상세 확인을 대체하지 않음. 미확인 점수를0으로 변환하지 않음. 새 집단 확정 전 추천90회는 시작하지 않음. 이전 API 권한·로컬 브라우저 설정을 변경하거나 우회하지 않음.",
+  "restaurant_measurement_calls": 0,
+  "readiness_not_restaurant_measurements": true
+}

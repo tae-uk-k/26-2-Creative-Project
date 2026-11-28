@@ -1,0 +1,17 @@
+{
+  "reviewed_stores": 43,
+  "item_rows": 129,
+  "scored_review_items": 23,
+  "pending_items": 106,
+  "candidate_classes": {
+    "채점 미완료": 36,
+    "B 점수 범위 후보": 2,
+    "A 점수 범위 후보": 2,
+    "4점 제외 후보": 3
+  },
+  "finalized_pairs": 0,
+  "restaurant_attempts": 0,
+  "recommendation_results_seen": false,
+  "scoring_note": "모든 점수는 조사 근거에 대한 검토값. 최종 채널 범위·매칭 확정 전이므로 주분석 집단에 편입하지 않음.",
+  "checked_at_utc": "2026-11-03T04:26:14.825151+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "store_id": "SS-16879903",
+  "item": 2,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "확인한 주메뉴표와 사진3장에서는 일반 이용시간과 음식 목록만 연결됨. 별도 최소주문 서비스가 없다고 추정하거나 0점 감점하지 않음.",
+  "sources": [
+    {
+      "quote": "06:00 ~ 21:00",
+      "source_url": "https://place.map.kakao.com/16879903",
+      "observed_at": "2026-11-02T19:31:46.539Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\129_SS-16879903_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "가정식백반 7,000 / 된장찌개 9,000",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA4MDdfMTI0%2FMDAxNzU0NTY1OTg2NzQy.jqJxRQkjlhJjFbwtcF_4QcAX-bHP3WFr8MCipsdGbvIg.FodiMLR8gaC-WMhLuGAA0Qw4QutGdeyNVgFgWsh4hTIg.JPEG%2FSE-176278c1-6186-4327-aec3-a71a3ed8db31.jpg%3Ftype%3Dw966",
+      "observed_at": "2026-11-03",
+      "evidence_file": "analysis\\상세검수_20261103_05\\menu_photos\\SS-16879903_5b4f6d33f6df0d9c.jpg",
+      "evidence_type": "manual_transcription_of_visually_read_photo",
+      "author_status": "uploader_not_assumed_owner",
+      "observed_date_note": "판독일; 사진 촬영일 아님"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

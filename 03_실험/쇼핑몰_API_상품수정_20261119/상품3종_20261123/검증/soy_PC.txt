@@ -1,0 +1,391 @@
+Browser tab: 682043689, Title: "seelo 볶은 서리태분말 300g : seelo", URL: "https://smartstore.naver.com/seelo/products/13890968875".
+0 AXWebArea seelo 볶은 서리태분말 300g : seelo, URL: smartstore.naver.com/seelo/products/13890968875
+	1 container MAIN_CONTENT_ROOT_ID
+		2 link Description: 본문으로 바로가기, Value: smartstore.naver.com/seelo/products/13890968875#content
+		3 container wrap
+			4 container header
+				5 container
+					6 link Description: 네이버, Value: naver.com/
+					7 link Description: 네이버플러스 스토어 홈, Value: shopping.naver.com/ns/home?
+				8 content list
+					9 link Description: 관심 스토어, Value: shopping.naver.com/my/keep-stores
+					10 link Description: 마이페이지 펼치기, Value: smartstore.naver.com/seelo/products/13890968875#
+					11 link Description: 장바구니, Value: shopping.naver.com/cart?channelNo=1100280682
+				35 container gnb
+					36 text 사용자 링크
+					37 content list gnb_lst
+						38 link Description: 태욱 내정보 보기, Value: javascript:;, ID: gnb_my
+						39 link Description: 서비스 더보기, Value: javascript:;
+				12 container
+					13 link Description: 매일의 식탁에 더하는 곡물과 달콤함, seelo, Value: smartstore.naver.com/seelo/profile
+					14 button 관심고객수 0, ID: tooltip_text_:Raclah:
+						15 text 관심고객수  0
+					16 pop up button (collapsed) 도움말, Secondary Actions: Expand
+						17 image
+						18 text 도움말
+					19 button 검색어를 입력해주세요
+						20 text 검색어를 입력해주세요
+						21 image
+			22 container
+				23 container
+					24 checkbox 알림받기, Value: 0
+						25 image
+						26 text 알림받기
+				27 heading seelo, Value: 1
+					28 link Description: seelo, Value: smartstore.naver.com/seelo
+				29 container
+					30 container
+						31 text 오늘  2 전체  16
+				32 container
+					40 content list
+						41 link Description: 식품 하위 메뉴 있음, Value: smartstore.naver.com/seelo/category/50000006?cp=1
+						42 link Description: 전체상품, Value: smartstore.naver.com/seelo/category/ALL?cp=1
+						43 link Description: 신상품, Value: smartstore.naver.com/seelo/new-products?cp=1
+						44 link Description: FOR YOU, Value: smartstore.naver.com/seelo/for-you?cp=1
+					33 content list
+						45 link Description: 공지사항, Value: smartstore.naver.com/seelo/notice?cp=1
+						46 link Description: 쇼핑스토리, Value: smartstore.naver.com/seelo/shoppingstory/list?cp=1
+						47 link Description: 리뷰이벤트, Value: smartstore.naver.com/seelo/review-event/list?cp=1
+						48 link Description: 묻고 답하기, Value: smartstore.naver.com/seelo/qna?cp=1
+						34 link Description: 판매자 정보, Value: smartstore.naver.com/seelo/profile?cp=1
+			49 container container
+				50 container
+					51 button 네이버플러스 스토어 알림 받고 혜택 받아보세요! 알림받기
+						52 image
+						53 text 네이버플러스 스토어
+						54 text 알림 받고 혜택 받아보세요!
+						55 text 알림받기
+						56 image
+					57 container
+						58 container
+							59 container
+								60 text 2개 중 1번째
+								61 button 대표이미지 이미지 상세보기
+									62 image 대표이미지
+									63 text 이미지 상세보기
+								64 text 2개 중 2번째
+								65 button 대표이미지 이미지 상세보기
+									66 image 대표이미지
+									67 text 이미지 상세보기
+							68 button 이전
+								69 image
+								70 text 이전
+							71 button 다음
+								72 image
+								73 text 다음
+							74 container
+								75 text 현재 1 상품 이미지
+							76 container
+								77 text / 전체 2 상품 이미지
+						78 button 이전
+							79 image
+							80 text 이전
+						81 content list
+							82 button 추가이미지0
+								83 image 추가이미지0
+							84 button 추가이미지1
+								85 image 추가이미지1
+						86 button 다음
+							87 image
+							88 text 다음
+						89 heading seelo 볶은 서리태분말 300g [원산지:확인 후 안내], Value: 3
+							90 text seelo 볶은 서리태분말 300g [원산지:확인 후 안내]
+						91 container
+							92 image
+							93 text 평점
+							94 text 0.0
+							95 text 0건 리뷰
+						96 container
+							97 container
+								98 button 할인 전 가격 25,800원, ID: tooltip_text_:r5:
+									99 text 할인 전 가격 25,800 원
+								100 pop up button (collapsed) 도움말, Secondary Actions: Expand
+									101 image
+									102 text 도움말
+								103 text 상품 가격 23,220 원
+								104 pop up button (collapsed) 최대할인가 자세히 보기, Secondary Actions: Expand
+									105 text 최대할인가
+									106 text 자세히 보기
+								107 button 쿠폰 받기 오늘까지
+									108 image
+									109 text 쿠폰 받기
+									110 text 오늘까지
+								111 image
+								112 text 배송비 무료배송
+							113 text 적립
+							114 button 네이버플러스 멤버십 최대 적립 포인트 3,632원
+								115 image 네이버플러스 멤버십
+								116 text 최대 적립 
+								117 text 포인트
+								118 text 3,632
+								119 text 원
+								120 image
+							121 text 혜택
+							122 link Description: 네이버 현대카드 Ed3 결제 시 최대 2,322 포인트 적립, Value: smartstore.naver.com/seelo/products/13890968875#
+							123 link Description: 행사카드 결제 시 최대 3% 추가 할인, Value: smartstore.naver.com/seelo/products/13890968875#
+							124 text 배송 무료배송
+							125 button 자세히 보기
+								126 text 자세히 보기
+								127 image
+							128 container
+								129 text 수량 선택
+								130 button (disabled) 수량감소
+								131 stepper (settable, integer) Description: 수량, Value: 2
+								132 button 수량증가
+							133 container
+								134 text 총
+								135 text 2
+								136 text 개
+								137 container
+									138 button 총 금액 25,800원, ID: tooltip_text_:r1:
+										139 text 총 금액 25,800 원
+									140 pop up button (collapsed) 도움말, Secondary Actions: Expand
+										141 image
+										142 text 도움말
+							143 link Description: 네이버플러스스토어 앱 에서 최대 혜택으로 구매해보세요!, Value: smartstore.naver.com/seelo/products/13890968875#
+							144 button 구매하기
+								145 image
+								146 text 구매하기
+							147 checkbox 찜 하기, Value: 0
+								148 image
+								149 text 찜
+								150 text 하기
+							151 button 장바구니
+								152 image
+								153 text 장바구니
+					154 content list
+						155 link Description: 단골되면 +5% 추가 적립 멤버십은 살 때마다 재구매 혜택, Value: smartstore.naver.com/seelo/products/13890968875#
+					156 content list
+						157 button 상세정보
+						158 button 리뷰
+						159 button Q&A
+						160 button 판매자정보
+						161 button 추천
+					162 container
+						163 image
+						164 text 판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 결제/입력하지 마시고  즉시
+						165 link Description: 고객센터로 신고, Value: help.pay.naver.com/faq/content.help?faqId=14188
+						166 text 해주세요.
+						167 text 상품정보
+						168 content list
+							169 container
+								170 text 상품번호 13890968875
+								171 button 상품번호 복사
+									172 image
+									173 text 복사
+							174 container
+								175 text 품번 SEELO-SOY-300
+							176 container
+								177 text 원산지 확인 후 안내
+							178 container
+								179 text 소비기한 또는 품질유지기한 확인 후 안내
+						180 container
+							181 button 신고하기
+							182 button 상품정보제공고시 보기
+						183 container
+							184 text seelo 진하게 고소한 검은콩 한 스푼
+							185 heading 볶은 서리태분말, Value: 2
+								186 text 볶은 서리태분말
+							187 text 300g 볶은 서리태를 분말로 담았습니다. 우유나 두유에 섞어 마시거나 요거트에 곁들여 검은콩의 고소함을 즐겨 보세요.
+							188 image seelo 볶은 서리태분말 300g 패키지
+							189 text 식탁에서 즐기는 방법
+							190 heading 취향대로 곁들이는 한 스푼, Value: 2
+								191 text 취향대로 곁들이는 한 스푼
+							192 image 볶은 서리태분말 활용 음식
+							193 text 01
+							194 heading 우유나 두유에, Value: 3
+								195 text 우유나 두유에
+							196 text 분말을 조금씩 넣고 충분히 저어 고소하게 즐기세요. 02
+							197 heading 플레인 요거트에, Value: 3
+								198 text 플레인 요거트에
+							199 text 한 스푼씩 더해 원하는 만큼 곡물 맛을 조절하세요. 03
+							200 heading 취향에 맞는 음료로, Value: 3
+								201 text 취향에 맞는 음료로
+							202 text 물에 섞어 농도를 조절하고 기호에 따라 꿀을 곁들이세요.
+							203 heading 상품 구성, Value: 2
+								204 text 상품 구성
+							205 table
+								206 row
+									207 cell
+										208 text 내용량
+									209 cell
+										210 text 300g
+								211 row
+									212 cell
+										213 text 포장 구성
+									214 cell
+										215 text 지퍼 파우치 1개
+								216 row
+									217 cell
+										218 text 원재료
+									219 cell
+										220 text 서리태 100% · 대두 함유
+							221 heading 보관 방법, Value: 2
+								222 text 보관 방법
+							223 text 직사광선과 습기를 피해 서늘한 곳에 보관하세요. 개봉 후에는 지퍼를 꼭 닫고 물기가 없는 도구를 사용하세요.
+							224 heading 섭취 전 확인, Value: 2
+								225 text 섭취 전 확인
+							226 text 대두를 함유합니다. 대두 알레르기가 있는 분은 섭취하지 마세요. 분말은 소량씩 넣고 충분히 섞어 주세요. seelo 식탁에 더하는 곡물과 달콤함
+						227 button (collapsed) 상세정보 펼쳐보기, Secondary Actions: Expand
+							228 text 상세정보 
+							229 text 펼쳐보기
+							230 image
+					231 text 같이 둘러볼 만한 다양한 스토어 상품
+					232 container
+						233 text 관련 숏클립
+					234 container REVIEW
+						235 text 리뷰
+					236 container qna
+						237 text Q&A
+						238 button Q&A 전체보기
+							239 text Q&A 전체보기
+							240 image
+					241 container SELLER
+						242 container
+							243 link smartstore.naver.com/seelo
+							244 link Description: seelo, Value: smartstore.naver.com/seelo
+							245 text 신규 오픈 스토어 NEW 매일의 식탁에 더하는 곡물과 달콤함, seelo
+						246 button 최대 혜택 적용 가능 쿠폰 1개 오늘까지 쿠폰 받기
+							247 image
+							248 text 최대 혜택 적용 가능 쿠폰
+							249 text 1개
+							250 text 오늘까지
+							251 text 쿠폰 받기
+							252 image
+						253 content list
+							254 checkbox 알림받기, Value: 0
+								255 image
+								256 text 알림받기
+							257 link Description: 스토어홈, Value: smartstore.naver.com/seelo
+					258 container RECOMMEND
+						259 text 함께 찾는 다양한 스토어 상품
+						260 text 콩가루 인기상품
+						261 container
+							262 text seelo 인기상품
+							263 link Description: 전체보기, Value: smartstore.naver.com/seelo/category/ALL
+						264 container
+							265 text FOR YOU 당신이 좋아할 만한 상품
+							266 button AiTEMS, ID: tooltip_text_:r6:
+								267 image
+								268 text AiTEMS
+							269 pop up button (collapsed) 도움말, Secondary Actions: Expand
+								270 image
+								271 text 도움말
+					272 content list
+						273 button 구매 추가정보
+							274 text 구매 추가정보
+							275 image
+						276 button 상품정보 제공고시
+							277 text 상품정보 제공고시
+							278 image
+						279 button 반품/교환안내
+							280 text 반품/교환안내
+							281 image
+						282 button 판매자정보
+							283 text 판매자정보
+							284 image
+						285 button 주의사항
+							286 text 주의사항
+							287 image
+						288 link Description: 쇼핑 안전거래 TIP, Value: safety.smartstore.naver.com/main/rules/safety/tip
+						289 button 상품정보 신고
+							290 text 상품정보 신고
+							291 image
+					292 text 네이버파이낸셜
+					293 text 결제대금예치업 등록번호 : 02-006-00056
+					294 text 네이버파이낸셜㈜은 전자금융거래법에 따라 결제대금예치업을 운영할 수 있는 전자금융업자로 금융위원회로 등록되었으며, 본 판매자는 구매금액, 결제수단에 관계없이 모든 거래에 대해 자동적으로 네이버파이낸셜㈜이 제공하는 구매안전서비스를 적용하고 있습니다.
+					295 button 서비스 가입사실 확인, ID: tooltip_text_:r2:
+					296 pop up button (collapsed) 도움말, Secondary Actions: Expand
+						297 image
+						298 text 도움말
+					299 definition list
+						300 container
+							301 container 상호명
+								302 text 상호명
+							303 text 김태욱  (개인 판매자)
+						304 container
+							305 container 대표자
+								306 text 대표자
+							307 text 김태욱
+							308 button 판매자 상세정보 확인
+								309 text 판매자 상세정보 확인
+								310 image
+					311 container
+						312 button 공유하기
+						313 button 맨위로
+							314 image 맨위로
+					315 container
+						316 text 상품 구매 옵션
+						317 container
+							318 text 수량 선택
+							319 button (disabled) 수량감소
+							320 stepper (settable, integer) Description: 수량, Value: 2
+							321 button 수량증가
+						322 container
+							323 text 총
+							324 text 2
+							325 text 개
+							326 container
+								327 button 총 금액 25,800원, ID: tooltip_text_:r4:
+									328 text 총 금액 25,800 원
+								329 pop up button (collapsed) 도움말, Secondary Actions: Expand
+									330 image
+									331 text 도움말
+						332 text 구매정보 최소구매 2개  |  최대구매 2개(1회) / 2개(1인) 배송정보
+						333 text 택배
+						334 container
+							335 text 배송비 무료
+						336 button 지금 다운로드 시 2,580원 추가할인 쿠폰 받기
+							337 image
+							338 text 지금 다운로드 시 
+							339 text 2,580원
+							340 text  추가할인
+							341 text 쿠폰 받기
+							342 image
+					343 button 구매하기
+						344 image
+						345 text 구매하기
+					346 checkbox 찜 하기, Value: 0
+						347 image
+						348 text 찜
+						349 text 하기
+					350 button 장바구니
+						351 image
+						352 text 장바구니
+				353 heading 하위영역, Value: 2
+					354 text 하위영역
+				355 container
+					356 link Description: 네이버 이용약관, Value: naver.com/rules/service.html
+					357 link Description: 네이버페이 이용약관, Value: new-m.pay.naver.com/member/terms-policy/npay-usage
+					358 link Description: 개인정보처리방침, Value: naver.com/rules/privacy.html
+					359 link Description: 법적고지 및 주의사항, Value: shopping.naver.com/help/legal-basis
+					360 link Description: 입점안내, Value: join.shopping.naver.com/index.nhn
+					361 link Description: 쇼핑윈도 노출안내, Value: sell.smartstore.naver.com/#/home/about?tipModal=WINDOW_EXPOSURE&tap=smartstore
+					362 link Description: 쇼핑파트너센터, Value: center.shopping.naver.com/
+					363 link Description: 스마트스토어센터, Value: sell.storefarm.naver.com/#/home/about
+					364 link Description: 안전거래센터, Value: safety.shopping.naver.com/
+					365 link Description: 전자금융거래약관, Value: new-m.pay.naver.com/member/terms-policy/finance
+					366 link Description: 쇼핑&페이 고객센터, Value: help.pay.naver.com/
+				367 text 네이버㈜는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다.
+				368 container
+					369 text 사업자등록번호 : 220-81-62517
+					370 text 통신판매업신고번호 : 제2006-경기성남-0692호
+					371 text 대표이사 : 최수연
+					372 link Description: 사업자등록정보확인, Value: ftc.go.kr/bizCommPop.do?wrkr_no=2208162517
+					373 text 이메일 :
+					374 link Description: helpcustomer@naver.com, Value: mailto:helpcustomer@naver.com
+				375 container
+					376 text 주소 : 경기도 성남시 분당구 정자일로 95,  NAVER  1784, 13561
+					377 link Description: 1:1 문의 바로가기, Value: help.pay.naver.com/mail/form.help
+					378 text 호스팅 서비스 제공 :  NAVER Cloud
+				379 container
+					380 text 쇼핑&페이 구매자 고객센터 1588-3819
+					381 text 네이버 대표전화 1588-3820
+					382 text 네이버플러스 멤버십 전용 고객센터 1599-1399
+				383 container
+					384 link Description: NAVER, Value: naver.com/
+					385 text Copyright © 
+					386 link Description: NAVER Corp., Value: navercorp.com/ko/index.nhn
+					387 text   All Rights Reserved.
+
+The focused UI element is 0 AXWebArea seelo 볶은 서리태분말 300g : seelo, URL: smartstore.naver.com/seelo/products/13890968875

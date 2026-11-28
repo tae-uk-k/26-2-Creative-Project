@@ -1,0 +1,8 @@
+{
+  "specified_at_utc":"2026-10-16T07:34:25Z",
+  "timing":"After CLI collection started, before inspecting selected candidates or condition effects. This is a supplemental analysis specification, not a fully preregistered inferential test.",
+  "primary":"Model-specific 2x2 selection counts and within-store differences; four candidates, two selected; 12 independent stores.",
+  "supplemental_randomization_test":"For each of six area-repeat blocks shared across backends, jointly flip the menu-detail or repetition factor labels for all four rotations. Enumerate 2^6 flips of block contrasts under a sharp null of no effect of that factor on any choice. Preserve positions and the other factor. Two-sided p; Holm adjust the two factor tests. Only use complete balanced blocks.",
+  "limitations":"Six randomized blocks, twelve fixed stores, supplied corpus, two fixed backends. Not independent 192-store data or a population sample; menu detail changes menu identities, price values, information quantity and text length together.",
+  "choice_model":"Supplementary ridge conditional choice likelihood over the six possible 2-of-4 subsets, store contrasts within area plus position contrasts, centered detail and repetition and their interaction. Fixed ridge lambda=1, model-specific fits. No predictive cross-validation, causal map-ranking claim, coefficient confidence interval or XGBoost fit."
+}

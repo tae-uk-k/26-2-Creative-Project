@@ -1,0 +1,17 @@
+﻿column,missing,total,missing_rate,usable_as_predictor_now
+own_website_external,131,162,0.808641975308642,1
+menu_price_public_external,155,162,0.9567901234567902,1
+signature_price_krw_external,156,162,0.9629629629629629,1
+solo_seating_external,161,162,0.9938271604938271,1
+tourism_individual_page_external,157,162,0.9691358024691358,1
+guide_individual_page_external,160,162,0.9876543209876543,1
+established_year_external,160,162,0.9876543209876543,1
+log1p_google_review_count,162,162,1.0,0
+google_star_rating,162,162,1.0,0
+log1p_naver_review_count,162,162,1.0,0
+log1p_photo_count,162,162,1.0,0
+recent_review_age_days,162,162,1.0,0
+channel_address_consistent,162,162,1.0,0
+schema_restaurant_external,162,162,1.0,0
+category_external,126,162,0.7777777777777778,1
+menu_family_external,126,162,0.7777777777777778,1

@@ -1,0 +1,21 @@
+{
+  "candidate_count": 60,
+  "area_counts": {
+    "MD": 20,
+    "SS": 20,
+    "MW": 20
+  },
+  "unique_kakao_place_ids": 60,
+  "detail_name_address_verified": 12,
+  "selection_used_ai_response": false,
+  "selection_rule": "First 20 native places per regional 식당 query; first 15 in all-results view, next five after 장소 더보기; ACTIVE page 2 verified in all three tabs; Myeongdong page 1 returned same initial four.",
+  "native_search_context": "Current browser, no login or manual location/center control; region means map search vicinity, not administrative border.",
+  "source_map": "kakao",
+  "google_naver_matches_complete": false,
+  "brand_groups_complete": false,
+  "selected_for_future_natural_search_only": true,
+  "frozen_after_controlled_experiment_started": true,
+  "interpretation": "Do not retroactively label absent candidates as non-selected in the 12-store provided-information experiments. No future main natural-search labels exist yet.",
+  "source_sha256": "a642793d5686c09b2a814b2bb1a88df4272609cfaa2586971bcece450f203eda",
+  "frame_sha256": "cb61e11d7135cee08389ed6f7a4b4ccef08f4d8b3cc4a830e12d0bbb317d5d38"
+}

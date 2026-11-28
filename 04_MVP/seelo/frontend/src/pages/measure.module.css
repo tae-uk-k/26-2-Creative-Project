@@ -1,0 +1,83 @@
+.form {
+  display: grid;
+  gap: var(--s-4);
+}
+.more summary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  color: var(--s-grey800);
+  font-size: var(--s-t6);
+  font-weight: 600;
+  cursor: pointer;
+}
+.more[open] summary {
+  margin-bottom: var(--s-4);
+}
+.queries {
+  display: grid;
+  gap: var(--s-2);
+  margin-bottom: var(--s-3);
+  counter-reset: none;
+}
+.queries li {
+  display: flex;
+  gap: var(--s-3);
+  color: var(--s-grey800);
+  font-size: var(--s-t6);
+}
+.qid {
+  flex: none;
+  min-width: 2.75rem;
+  color: var(--s-grey500);
+  font-size: var(--s-t7);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.targets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-bottom: var(--s-4);
+}
+.runForm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  align-items: end;
+  gap: var(--s-3);
+  margin: var(--s-4) 0;
+}
+.tableWrap {
+  overflow-x: auto;
+  margin: 0 calc(var(--s-6) * -1);
+  padding: 0 var(--s-6);
+}
+.table {
+  width: 100%;
+  min-width: 46rem;
+  border-collapse: collapse;
+  font-size: var(--s-t7);
+  font-variant-numeric: tabular-nums;
+}
+.table th,
+.table td {
+  padding: var(--s-3) var(--s-2);
+  border-top: 1px solid var(--s-grey100);
+  text-align: left;
+  vertical-align: middle;
+}
+.table thead th {
+  border-top: 0;
+  color: var(--s-grey600);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.table tbody th {
+  display: grid;
+  gap: 0.15rem;
+  font-weight: 700;
+}
+.table small {
+  color: var(--s-grey500);
+  font-weight: 500;
+}

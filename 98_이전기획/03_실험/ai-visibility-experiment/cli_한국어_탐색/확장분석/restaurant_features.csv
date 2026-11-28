@@ -1,0 +1,163 @@
+﻿entity_id,name_ko,area,sampling_cohort,identity_status,category_external,own_website_external,menu_price_public_external,signature_price_krw_external,solo_seating_external,tourism_individual_page_external,guide_individual_page_external,established_year_external,google_review_count,google_star_rating,naver_review_count,photo_count,recent_review_age_days,channel_address_consistent,schema_restaurant_external,feature_snapshot_date,evidence_urls,menu_family_external,log1p_google_review_count,log1p_naver_review_count,log1p_photo_count,category_external_missing,own_website_external_missing,menu_price_public_external_missing,signature_price_krw_external_missing,solo_seating_external_missing,tourism_individual_page_external_missing,guide_individual_page_external_missing,established_year_external_missing,google_review_count_missing,google_star_rating_missing,naver_review_count_missing,photo_count_missing,recent_review_age_days_missing,channel_address_consistent_missing,schema_restaurant_external_missing,menu_family_external_missing
+MD-R01,명동교자,myeongdong,original30_preselected,legacy_source_checked_not_current,Kalguksu and dumplings,1,,,,,1,1966,,,,,,,,2026-10-13,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja,noodles_dumplings,,,,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,0
+MD-R02,하동관,myeongdong,original30_preselected,legacy_source_checked_not_current,Gomtang,1,,,,,1,1939,,,,,,,,2026-10-13,https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan,soups_stews,,,,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,0
+MD-R03,왕비집 명동본점,myeongdong,original30_preselected,legacy_source_checked_not_current,Korean charcoal barbecue,1,,,,,,,,,,,,,,2026-10-13,,barbecue,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R04,명동정,myeongdong,original30_preselected,legacy_source_checked_not_current,Royal Korean set meals,1,,,,,,,,,,,,,,2026-10-13,,set_meals,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R05,명동함흥면옥,myeongdong,original30_preselected,legacy_source_checked_not_current,Hamheung-style naengmyeon,0,1,14000,,1,,,,,,,,,,2026-10-13,https://english.visitseoul.net/restaurants/Myeongdong-Hamheung-Myeonok/ENP005228,noodles_dumplings,,,,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,0
+MD-R06,미성옥,myeongdong,original30_preselected,legacy_source_checked_not_current,Seolleongtang and suyuk,0,,,,,,,,,,,,,,2026-10-13,,soups_stews,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R07,세븐티포 명동성당본점,myeongdong,original30_preselected,legacy_source_checked_not_current,Italian pizza and pasta,1,,,,,,,,,,,,,,2026-10-13,,western_dining,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R08,하수오곰탕 명동점,myeongdong,original30_preselected,needs_identity_review,Gomtang and Korean dishes,1,1,13000,,,,,,,,,,,,2026-10-13,https://www.myeongdong-restaurant.com/ko|https://www.myeongdong-restaurant.com/ko/menu,soups_stews,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R09,고시레 명동본점,myeongdong,original30_preselected,needs_identity_review,Korean charcoal barbecue,1,1,,,,,,,,,,,,,2026-10-13,https://www.myeongdongkoreanbbq.kr/ko,barbecue,,,,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+MD-R10,성원전주콩나물국밥,myeongdong,original30_preselected,legacy_source_checked_not_current,Bean-sprout gukbap,0,,,,,,,,,,,,,,2026-10-13,,soups_stews,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R01,소문난성수감자탕,seongsu,original30_preselected,legacy_source_checked_not_current,Korean pork-bone stew,0,,,1,1,,,,,,,,,,2026-10-13,https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk,soups_stews,,,,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0
+SS-R02,성수족발,seongsu,original30_preselected,legacy_source_checked_not_current,Korean braised pig feet,0,,,,1,,,,,,,,,,2026-10-13,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=51924,jokbal,,,,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0
+SS-R03,성수다락,seongsu,original30_preselected,legacy_source_checked_not_current,Omurice and pasta,0,,,,,,,,,,,,,,2026-10-13,,western_dining,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R04,칙피스 성수점,seongsu,original30_preselected,legacy_source_checked_not_current,Mediterranean and Middle Eastern,1,,,,,,,,,,,,,,2026-10-13,,other_meals,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R05,퀴버 서울숲점,seongsu,original30_preselected,legacy_source_checked_not_current,Brunch steak and wine bar,0,,,,,,,,,,,,,,2026-10-13,,western_dining,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R06,잠수교집 성수 직영점,seongsu,original30_preselected,legacy_source_checked_not_current,Frozen pork belly barbecue,0,,,,,,,,,,,,,,2026-10-13,,barbecue,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R07,유어네이키드치즈,seongsu,original30_preselected,legacy_source_checked_not_current,Cheese dining and wine bar,1,,,,,,,,,,,,,,2026-10-13,,western_dining,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R08,할머니의 레시피,seongsu,original30_preselected,legacy_source_checked_not_current,Korean home-style set meals,0,,,,,,,,,,,,,,2026-10-13,,set_meals,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R09,선채 성수,seongsu,original30_preselected,legacy_source_checked_not_current,Seasonal Korean dining,0,,,,,,,,,,,,,,2026-10-13,,set_meals,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+SS-R10,돼지곰탕 하우 성수본점,seongsu,original30_preselected,legacy_source_checked_not_current,Pork gomtang and cold noodles,0,,,,,,,,,,,,,,2026-10-13,,soups_stews,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R01,우이락 망원본점,mangwon,original30_preselected,legacy_source_checked_not_current,Stuffed chili fritters and makgeolli,0,,,,,,,,,,,,,,2026-10-13,https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836,market_snacks,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R02,큐스닭강정,mangwon,original30_preselected,needs_identity_review,Sweet crispy chicken,0,,,,,,,,,,,,,,2026-10-13,,market_snacks,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R03,황인호 크로켓,mangwon,original30_preselected,needs_identity_review,Croquettes and doughnuts,0,,,,,,,,,,,,,,2026-10-13,,market_snacks,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R04,흥흥호떡,mangwon,original30_preselected,legacy_source_checked_not_current,Hotteok,0,,,,,,,,,,,,,,2026-10-13,,market_snacks,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R05,발리인망원,mangwon,original30_preselected,legacy_source_checked_not_current,Indonesian,0,,,,,,,,,,,,,,2026-10-13,,other_meals,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R06,청어람 망원점,mangwon,original30_preselected,needs_identity_review,Gopchang hot pot,0,,,,,,,,,,,,,,2026-10-13,,soups_stews,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R07,홍두깨손칼국수,mangwon,original30_preselected,needs_identity_review,Handmade noodles and sujebi,0,,,,,,,,,,,,,,2026-10-13,,noodles_dumplings,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R08,일등식당,mangwon,original30_preselected,needs_identity_review,Pork-bone hangover soup,0,,,,,,,,,,,,,,2026-10-13,,soups_stews,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R09,진성만두 망원시장점,mangwon,original30_preselected,needs_identity_review,Large steamed dumplings,0,,,,,,,,,,,,,,2026-10-13,,noodles_dumplings,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+MW-R10,망원동즉석우동 본점,mangwon,original30_preselected,needs_identity_review,Udon and pork cutlet,0,,,,,,,,,,,,,,2026-10-13,,noodles_dumplings,,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+DISC-f89be5e9d4,명동돈가스,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,Japanese pork cutlet,,,,,1,,,,,,,,,,2026-10-13,https://korean.visitseoul.net/restaurants/%EB%AA%85%EB%8F%99%EB%8F%88%EA%B0%80%EC%8A%A4/KOP010843,cutlet,,,,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0
+DISC-f9c862234a,영양센터,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e773f45b13,을지돈가스,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-6a8f75e5f7,명화당,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-a8cc6fc325,멘텐,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,Japanese ramen,,1,12500,,,,,,,,,,,,2026-10-13,https://www.tabling.co.kr/place/677ccc9366de5f06987f5a6a,noodles_dumplings,,,,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+DISC-42f9b3d0cb,훼미리손칼국수보쌈,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-aa44484f82,풍조미역,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e7ee89ab11,제주국수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-68eb7dd1c3,더반푸드,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-fd0fdea2ec,헤키,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,Japanese pork cutlet,,1,15500,,,,,,,,,,,,2026-10-13,https://www.diningcode.com/profile.php?rid=6mufoSr4FzxH,cutlet,,,,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+DISC-7affbed9b7,저집,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-79176a11c5,만두란,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-232074bb6e,스키야,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-7662262bc6,미분당,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1f01e74053,멘야코노하,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1032d7c226,면화손칼국수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-32e21d836e,멘츠루,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-84954f3215,솔솥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-dadb8b93af,송이네,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-03c249a8ad,망원떡갈비,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-88e1149bcb,난포,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,Korean contemporary,,,,,1,,,,,,,,,,2026-10-13,https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=dae5c4d0-ae7d-4d84-bd02-41df453fd64c,set_meals,,,,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0
+DISC-005c65cbb3,능동미나리,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,Korean gomtang and beef,,1,15000,,,,,,,,,,,,2026-10-13,https://www.tabling.co.kr/restaurant/10713,soups_stews,,,,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+DISC-b6cac48741,다로베,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8e55025c3f,마하차이,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-67901345ba,말방국밥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ecef678225,망원식당(못난이만두),mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-41a12b19ca,고손수제군만두,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-887f02137d,망원식당,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-da5894deb0,틈새라면,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c85d804cdb,명동채움 한정식,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-d053f6c1d1,호호식당,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-4663c628dc,멘야포모,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-f6e217f002,할머니 빈대떡,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-be6c55e3e0,가가호호,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-5ebf3dde2e,온센,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-65941169e3,강동원,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1dfeafd4a8,순대일번지,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1a5a8d1301,진국당성수국밥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-579a422e31,고향집,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8e18142b72,록멘,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1b8fb0e244,밀본,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-65ada2d9c4,미도인,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-36e891b809,소바식당,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-24d3ea39d9,광장동가온,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e302e1638a,전설의왕만두,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c3cdbab506,명동할머니국수,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,Korean noodles,,1,6000,,,,,,,,,,,,2026-10-13,https://www.tabling.co.kr/place/677cc7b866de5f0698754292,noodles_dumplings,,,,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+DISC-2fbb887804,멘야마쯔리,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-abf00474b7,핵밥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-2e62bac1b6,금산제면소,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c585d78169,육통령,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-464769a7bb,파동,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8d11a225da,가원,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-7fc849a64d,타코닷,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-fbbc8f59f8,바삭마차,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-3c45714a9e,오하루 수육국밥,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8c13ca1613,소금집델리,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,1,,,,,,,,,,,,,,2026-10-13,https://m.salthousekorea.com/board/faq.html,,,,,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-6ac62b39c3,인생제육,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-02912b1b0f,성수막국수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-bc4a7f4557,담솥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-69596ab441,성수온실,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-b6a4785ae9,대성갈비,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-4e6d57698f,부우이,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-40d290e0fe,비스트로성수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-b6e40ed79b,훼미리손칼국수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-a98ae2803b,숯골,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-43e10f06fe,등촌샤브칼국수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-b155e65c5a,쏘옥,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-6fa196805d,제제,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-f8fce9749f,팩피,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-5dfaee3ea4,망원시장손칼국수,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-4434234066,맛있는집,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-743b287101,키친 갈매기,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-88cb34fcf1,목멱산방,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e7e3b82ebb,강남면옥,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e67bbaf4ee,르프리크,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-d0bd56f7b4,대엽,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ebe2bde8f5,만복기사식당,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-509b44a973,포썸,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-409629d0fc,초한초마,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-fac6b13ee4,쵸리상경,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-00d84f8fad,중앙가속기,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-9c63947978,온량,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-3165bb61f5,망원수제고로케,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-464828a963,딘타이펑,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-845c7929aa,멘노아지,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-2b9d7aebda,일미락,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-98ea1e2cee,한성식당,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-561a84fa41,병아리김밥,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-68dacbd4d4,이남장,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ab0dc39604,심퍼티쿠시,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-0ad647f159,초이다이닝,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-fc002efe16,남포면옥,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-3cec462395,혼고집,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ed2dfe29ee,스시로,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-4950f38fc7,고우성수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-28418610f0,계월곰탕,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-a8d93f7fed,금금,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-1b17e22de9,가정식고바우식당,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8eb4ac1d6e,헤비스테이크,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-a68849c700,카카모루,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-7415e068dd,텐동식당,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-af6c41fc47,곰국시집,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ad28315c90,고향손칼국수,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-6251adf1f3,다반,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-7cd3794a5b,중앙감속기,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-bea8e72a31,이태리국시,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-e9ad74128f,죠죠,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-87a9034c81,연만두,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-712e4ee333,1992덮밥&짜글이,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-bf5a114cbd,란주칼면,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c46738176d,원조한치,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-7a14a97e6b,남산도담,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-609d2e9d52,제스티살룬,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-14ddddd61d,황금옥순대,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-3b4dc505a5,소바식당,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ac3e340e14,아미소,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-16e6480b19,원조청기와숯불갈비,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-f1039e127a,백제삼계탕,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-8e1ab1ef6f,란주라미엔,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-dd0e9b18dc,라무라,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-f9a324ab6a,정선부뚜막,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-d2e5706d62,진평925,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c640fb73dd,망원동막국수,mangwon,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-a9657a2a81,진사댁,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-d30ab44910,소와나,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-9425aa6870,움 성수,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-c9b376434d,기엔탄,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-ebeb3aea94,도믹스,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-aab2ed4964,리파인,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-d0aa4aaf7b,매튜,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-74cb1ee7eb,대취,seongsu,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DISC-08dc83243f,남산골산채집,myeongdong,baseline_discovery_prospective_only,model_candidate_unverified,,,,,,,,,,,,,,,,2026-10-13,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1

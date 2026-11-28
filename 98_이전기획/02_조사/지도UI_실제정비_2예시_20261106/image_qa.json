@@ -1,0 +1,15 @@
+{
+  "google_original_pixels_unchanged_outside_description_region": true,
+  "kakao_header_and_menu_board_pixels_unchanged": true,
+  "kakao_native_before_ui_difference_bbox": [
+    728,
+    160,
+    929,
+    289
+  ],
+  "note": "카카오 DOM 재현과 원본의 작은 차이는 세 번째 메뉴판 사진 주변에 한정. 비교 PNG에서는 정비와 무관한 상단 원본 픽셀 보존.",
+  "preview_files": [
+    "images/kakao_before_after.png",
+    "images/google_before_after.png"
+  ]
+}

@@ -1,0 +1,10 @@
+.leave {
+  justify-self: center;
+  margin-top: var(--s-4);
+  color: var(--s-grey500);
+  font-size: var(--s-t6);
+}
+.hint {
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}

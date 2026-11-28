@@ -1,0 +1,12 @@
+{
+  "checked_at_kst": "2026-11-03T10:40:58.806418+09:00",
+  "action": "CUA js_reset followed by exactly one cua.getState()",
+  "result": "not_recovered",
+  "browsers_returned": 0,
+  "error": "Browsers: Error: Local browser use is disabled in Work settings",
+  "cause_confirmed": false,
+  "settings_changed": false,
+  "app_or_pc_restarted": false,
+  "checkpoint_preserved": "analysis/상세검수_20261103_03",
+  "restaurant_measurements_started": 0
+}

@@ -1,0 +1,30 @@
+{
+  "renderer": "정적 문서 이미지 합성. 브라우저 재검수 아님.",
+  "layout": [
+    {
+      "platform": "kakao",
+      "state": "before",
+      "content_bottom": 612,
+      "fits_720": true
+    },
+    {
+      "platform": "kakao",
+      "state": "after",
+      "content_bottom": 712,
+      "fits_720": true
+    },
+    {
+      "platform": "google",
+      "state": "before",
+      "content_bottom": 588,
+      "fits_720": true
+    },
+    {
+      "platform": "google",
+      "state": "after",
+      "content_bottom": 656,
+      "fits_720": true
+    }
+  ],
+  "fictional": true
+}

@@ -1,0 +1,19 @@
+{
+  "store_id": "SS-623393395",
+  "item": 2,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "공식 프로필에서 연결된 해당 지점 예약 화면에 인원·룸별 최소 주문 조건이 연결됨. 지도 메뉴만 읽었을 때의 미확인 판정과 구분.",
+  "sources": [
+    {
+      "quote": "200,000",
+      "source_url": "https://m.place.naver.com/restaurant/1232058547/booking",
+      "observed_at": "2026-11-03T01:50:34.674Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\192_SS-623393395_official_official_booking_conditions.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

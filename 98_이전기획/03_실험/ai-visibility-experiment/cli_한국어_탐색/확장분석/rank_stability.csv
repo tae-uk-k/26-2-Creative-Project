@@ -1,0 +1,7 @@
+﻿backend,area,independent_store_count,spearman_baseline_vs_prospective,ever_exposed_store_count,spearman_among_ever_exposed,note
+codex,myeongdong,10,0.9779009779014669,7,0.9910312089651149,original cohort; ties included; descriptive; also report excluding persistent zeros
+codex,seongsu,10,0.9031627305042449,5,0.7,original cohort; ties included; descriptive; also report excluding persistent zeros
+codex,mangwon,10,0.9602491384534761,8,0.9221722216732094,original cohort; ties included; descriptive; also report excluding persistent zeros
+agy,myeongdong,10,0.901721540705724,6,0.9276336570439175,original cohort; ties included; descriptive; also report excluding persistent zeros
+agy,seongsu,10,0.9961464211187491,4,0.9486832980505138,original cohort; ties included; descriptive; also report excluding persistent zeros
+agy,mangwon,10,0.95,9,0.9437317866626201,original cohort; ties included; descriptive; also report excluding persistent zeros

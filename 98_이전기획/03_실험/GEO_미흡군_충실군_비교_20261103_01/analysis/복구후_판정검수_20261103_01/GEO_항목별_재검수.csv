@@ -1,0 +1,137 @@
+﻿store_id,item,score,status,reason,quote,source_url,observed_at,evidence_file,frozen
+SS-16879903,1,1,reviewed_provisional,백반·찌개 주메뉴 가격은 연결되나 인분 미표기. 삼겹살 200g 한 항목을 전체 2점으로 일반화하지 않음.,"가정식백반
+
+7,000원 | 삼겹살(200g)",https://place.map.kakao.com/16879903#menuInfo;https://place.map.kakao.com/16879903#menuInfo,2026-11-02T19:31:46.781Z;2026-11-02T19:31:46.781Z,analysis\복구후_판정검수_20261103_01\점수근거_001_SS-16879903_1.json,False
+SS-16879903,2,1,reviewed_provisional,확인한 주메뉴표와 사진3장에서는 일반 이용시간과 음식 목록만 연결됨. 별도 최소주문 서비스가 없다고 추정하거나 0점 감점하지 않음.,"06:00 ~ 21:00 | 가정식백반 7,000 / 된장찌개 9,000",https://place.map.kakao.com/16879903;https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA4MDdfMTI0%2FMDAxNzU0NTY1OTg2NzQy.jqJxRQkjlhJjFbwtcF_4QcAX-bHP3WFr8MCipsdGbvIg.FodiMLR8gaC-WMhLuGAA0Qw4QutGdeyNVgFgWsh4hTIg.JPEG%2FSE-176278c1-6186-4327-aec3-a71a3ed8db31.jpg%3Ftype%3Dw966,2026-11-02T19:31:46.539Z;2026-11-03,analysis\복구후_판정검수_20261103_01\점수근거_002_SS-16879903_2.json,False
+SS-16879903,3,1,reviewed_provisional,같은 지점 전화는 일치하나 공개 주간 영업시간·일요일 휴무가 다름. 어느 쪽이 정답인지 확정하지 않음.,"일(11/8)
+휴무일 | 02-464-5852",https://place.map.kakao.com/16879903;https://www.google.com/maps/place/%EC%9E%A5%ED%9D%A5%EC%8B%9D%EB%8B%B9/data=!3m1!4b1!4m4!3m3!1s0x357ca499e91e4335:0x19dc4c654e0b84c6!16s%2Fg%2F11f64dxyjs!20s8Q99G2WX%2B8XF?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D,2026-11-02T19:31:46.539Z;2026-11-03T01:50:58.912Z,analysis\복구후_판정검수_20261103_01\점수근거_003_SS-16879903_3.json,False
+MD-23961602,1,1,reviewed_provisional,주요 돈까스 단품은 메뉴·가격 연결. 정식/세트 단위는 일부 항목에만 존재. 1인1메뉴 이용 규정을 모든 메뉴의 1인분 중량 표시로 바꾸지 않음.,"남산 왕 돈까스
+
+14,000원",https://place.map.kakao.com/23961602#menuInfo,2026-11-02T19:26:31.123Z,analysis\복구후_판정검수_20261103_01\점수근거_004_MD-23961602_1.json,False
+MD-23961602,2,2,reviewed_provisional,한 펼침의 전체 주메뉴에 제공·리필 조건과 추가주문 할인이 연결되고 세트·플래터 구성도 명시됨.,"밥, 스프, 샐러드 무한리필, 단 1인 1메뉴 주문 시 제공 | 1인 1메뉴 주문하시면, 추가 주문 시 3,000원 할인",https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjNfMzkg%2FMDAxNzkyNzYwNjczMTU4.GcBlCSITr5j5thxCHH9ZUm2zi_Bm_oyz7JLZLhwq5vog.bkRsGOnB0KNKriBcowuKFZT3tQNLHsYXSaFg0cDVTPYg.JPEG%2FSE-5567A7AD-C0A6-41EA-B175-1263818FE8DA.jpg%3Ftype%3Dw966;https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjNfMzkg%2FMDAxNzkyNzYwNjczMTU4.GcBlCSITr5j5thxCHH9ZUm2zi_Bm_oyz7JLZLhwq5vog.bkRsGOnB0KNKriBcowuKFZT3tQNLHsYXSaFg0cDVTPYg.JPEG%2FSE-5567A7AD-C0A6-41EA-B175-1263818FE8DA.jpg%3Ftype%3Dw966,2026-11-03;2026-11-03,analysis\복구후_판정검수_20261103_01\점수근거_005_MD-23961602_2.json,False
+MD-23961602,3,2,reviewed_provisional,"카카오·Google 동일 도로명 주소, 전화, 매일11~22 일치. 웹사이트 미등록 자체는 감점하지 않음.",070-8847-8685 | 070-8847-8685,https://place.map.kakao.com/23961602;https://www.google.com/maps/place/%EC%9B%90%EC%A1%B0%EB%82%A8%EC%82%B0%EC%99%95%EB%8F%88%EA%B9%8C%EC%8A%A4+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2ee2b660ea7:0xf995a84313ac1eea!16s%2Fg%2F1w1103ty!20s8Q98HX7M%2BVCH?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D,2026-11-02T19:26:30.898Z;2026-11-03T02:05:47.894Z,analysis\복구후_판정검수_20261103_01\점수근거_006_MD-23961602_3.json,False
+MD-27244728,1,1,reviewed_provisional,주메뉴6개 전체 가격은 메뉴판과 일치하지만 인분·중량·개수 판매 단위가 없음. 사용자 확정에 따라 1점.,"남산왕돈까스
+
+13,500원 | 돈까스 13,500",https://place.map.kakao.com/27244728#menuInfo;https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjlfODkg%2FMDAxNzkzMjUyNDQ5MTk1.ybgjbdJb2EuPB33ODmMsRgeCqD-tMwxeOBIIgJT2Mqkg.E0onh6v25FcNoBX4o45vv7wU2oqm2MWeq6wkEETCf9Eg.JPEG%2Foutput%25EF%25BC%25BF3946282701.jpg%3Ftype%3Dw466,2026-11-03T02:07:40.701Z;2026-11-03,analysis\복구후_판정검수_20261103_01\점수근거_007_MD-27244728_1.json,False
+MD-27244728,2,1,reviewed_provisional,반반 구성·셀프 제공 안내는 일부 명확하나 일반 영업시간과 개별 메뉴 주문 조건의 연결은 부분적. 존재가 확인되지 않은 제한을 가정하지 않음.,돈까스와 바삭하고 부드러운 생선까스가 함께 나오는 메뉴 | 고추와 깍두기는 셀프 제공,https://place.map.kakao.com/27244728#menuInfo;https://place.map.kakao.com/27244728#menuInfo,2026-11-03T02:07:40.701Z;2026-11-03T02:07:40.701Z,analysis\복구후_판정검수_20261103_01\점수근거_008_MD-27244728_2.json,False
+MD-27244728,3,1,reviewed_provisional,동일 주소·전화·공식 사이트 연결은 일치하지만 카카오22시와Google21:30 마감이 다름.,09:00 ~ 22:00 | 오전 9:00~오후 9:30,https://place.map.kakao.com/27244728;https://www.google.com/maps/place/23%EB%B2%88%EC%A7%80+%EB%82%A8%EC%82%B0%EB%8F%88%EA%B9%8C%EC%8A%A4/data=!3m1!4b1!4m4!3m3!1s0x357ca387f5b8f501:0x9da5391cef7a7d54!16s%2Fg%2F11nm_yw6hx!20s8Q98HX4H%2BCVV?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D,2026-11-03T02:07:36.885Z;2026-11-03T04:13:27.073Z,analysis\복구후_판정검수_20261103_01\점수근거_009_MD-27244728_3.json,False
+SS-487665317,1,1,reviewed_provisional,"대부분 파스타는 가격만, 일부 스테이크에만 중량. 주요 메뉴 전반에 단위가 있다는 2점은 부여하지 않음.",랍스타 바질올리오,https://place.map.kakao.com/487665317#menuInfo,2026-11-02T19:48:43.210Z,analysis\복구후_판정검수_20261103_01\점수근거_010_SS-487665317_1.json,False
+SS-487665317,2,2,reviewed_provisional,"식사 주문 시 기본 제공 구성과 공식 연결 홈의 주문마감 시간이 연결됨. 포장22,900원은 매장21,900원과 판매 경로를 구분함.",주문 시 콘스프와 빵을 제공 | 20:20,https://booking.kakao.com/detail/ticket/763879?t_src=kakaomap&t_ch=mapdetail_products;https://pcmap.place.naver.com/restaurant/38590315/home?from=map&fromPanelNum=1&locale=ko&svcName=map_pcv5,2026-11-03T01:47:30.619Z;2026-11-03T01:48:20.298Z,analysis\복구후_판정검수_20261103_01\점수근거_011_SS-487665317_2.json,False
+SS-487665317,3,2,reviewed_provisional,동일 지점 연락처·주간시간 대조. 네이버0507은 실제 스마트콜 연결 설명을 확인하여 다른 지점 전화라고 오판하지 않음.,02-461-0089 | 02-461-0089 | 스마트콜 번호입니다.,https://place.map.kakao.com/487665317;https://www.google.com/maps/place/%EB%AF%B8%ED%85%8C%EC%9D%B4%EB%B8%94+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca49bfffe981b:0xf6209f42bccf84c3!16s%2Fg%2F11c5hj58mj!19sChIJG5j-_5ukfDURw4TPvEKfIPY!20s8Q99G2WW%2BJ45;https://pcmap.place.naver.com/restaurant/38590315/home?from=map&fromPanelNum=1&locale=ko&svcName=map_pcv5,2026-11-02T19:48:42.930Z;2026-11-02T19:47:45.683Z;2026-11-03T01:48:11.047Z,analysis\복구후_판정검수_20261103_01\점수근거_012_SS-487665317_3.json,False
+SS-623393395,1,1,reviewed_provisional,일부 개수/중량 표시만으로 전체 주요 메뉴에 단위가 있다는2점을 주지 않음.,메뉴 목록,https://place.map.kakao.com/623393395#menuInfo,2026-11-02T19:47:47.335Z,analysis\복구후_판정검수_20261103_01\점수근거_013_SS-623393395_1.json,False
+SS-623393395,2,2,reviewed_provisional,공식 프로필에서 연결된 해당 지점 예약 화면에 인원·룸별 최소 주문 조건이 연결됨. 지도 메뉴만 읽었을 때의 미확인 판정과 구분.,"200,000",https://m.place.naver.com/restaurant/1232058547/booking,2026-11-03T01:50:34.674Z,analysis\복구후_판정검수_20261103_01\점수근거_014_SS-623393395_2.json,False
+SS-623393395,3,1,reviewed_provisional,카카오11:30과Google11시 개점 차이. 동일 지점 소스 간 차이를 병기.,11:30 | 오전 11:00,https://place.map.kakao.com/623393395#menuInfo;https://www.google.com/maps/place/SZIMPATIKUS+Restaurant+Seongsu+(%EC%8B%AC%ED%8D%BC%ED%8B%B0%EC%BF%A0%EC%8B%9C+%EC%84%B1%EC%88%98%EC%A0%90)/data=!4m5!3m4!1s0x357ca59d69650fa5:0xe30b2b8e798c2358!16s%2Fg%2F11l5zbyf5q!19sChIJpQ9laZ2lfDURWCOMeY4rC-M!20s8Q99G2XW%2B428,2026-11-02T19:47:47.335Z;2026-11-02T19:48:41.238Z,analysis\복구후_판정검수_20261103_01\점수근거_015_SS-623393395_3.json,False
+SS-142054376,1,1,reviewed_provisional,주요 파스타·피자 메뉴명과 가격은 연결되나 판매 단위는 전반적으로 미표기. 다른 상호 사진2장은 제외.,까르보나라,https://place.map.kakao.com/142054376#menuInfo,2026-11-02T19:46:23.592Z,analysis\복구후_판정검수_20261103_01\점수근거_016_SS-142054376_1.json,False
+SS-142054376,2,2,reviewed_provisional,"동일 지점 공식 예약에 1~6명, 초과인원 연락, 반려동물 접종증명, 예약 지각 취소와 주문 마감 안내가 연결됨.",예약 인원 6인까지 | 라스트오더는 20:00 입니다,https://booking.naver.com/booking/6/bizes/1673271/items/7756340;https://booking.naver.com/booking/6/bizes/1673271/items/7756340,2026-11-03T02:03:00.563Z;2026-11-03T02:03:00.563Z,analysis\복구후_판정검수_20261103_01\점수근거_017_SS-142054376_2.json,False
+SS-142054376,3,1,reviewed_provisional,양 지도 주말 휴게시간 표기 차이를 병기. 공식 지점 링크로 Dos/Tres 분리 확인.,15:00 ~ 17:00 | 오전 11:00~오후 9:00,https://place.map.kakao.com/142054376;https://www.google.com/maps/place/%EB%88%84%EB%A9%94%EB%A1%9C%EB%8F%84%EC%8A%A4/data=!4m5!3m4!1s0x357ca55bac9c0b1f:0xfaa19b9e1ae3b764!16s%2Fg%2F11gt__367j!19sChIJHwucrFulfDURZLfjGp6bofo!20s8Q99G2WW%2BGWG,2026-11-02T19:46:23.360Z;2026-11-02T19:46:42.547Z,analysis\복구후_판정검수_20261103_01\점수근거_018_SS-142054376_3.json,False
+MW-1355498173,1,1,reviewed_provisional,2인 세트는 있으나 주요 단품 파스타·리조또 전반에는 판매 단위가 없어 일부 명확1점.,2인,https://place.map.kakao.com/1355498173#menuInfo,2026-11-02T18:54:31.124Z,analysis\복구후_판정검수_20261103_01\점수근거_019_MW-1355498173_1.json,False
+MW-1355498173,2,2,reviewed_provisional,공식 프로필 연결 예약에서 실제 세트별 인원·선예약·콜키지 조건이 연결됨.,2인 세트 주문 시 와인 콜키지 1병 가능 | 부르고뉴 2인 세트는 예약 하실 때 체크해 주셔야 주문 가능합니다,"https://map.naver.com/p/entry/place/1539428285?placePath=%2Fbooking%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202611031109%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh;https://map.naver.com/p/entry/place/1539428285?placePath=%2Fbooking%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202611031109%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh",2026-11-03T02:12:00.766Z;2026-11-03T02:12:00.766Z,analysis\복구후_판정검수_20261103_01\점수근거_020_MW-1355498173_2.json,False
+MW-1355498173,3,1,reviewed_provisional,카카오·공식 프로필과Google 개점/마감 표기 차이가 남아 있음.,11:00 | 오전 10:00,https://place.map.kakao.com/1355498173#menuInfo;https://www.google.com/maps/place/%EC%8B%9C%EC%B9%A0%EB%A6%AC%EB%B8%94%EB%A3%A8%EC%8A%A4/data=!4m5!3m4!1s0x357c994afb2beb67:0x1f8b7fd3e20007e9!16s%2Fg%2F11ffv5ntp8!19sChIJZ-sr-0qZfDUR6QcA4tN_ix8!20s8Q98HW33%2BPJW,2026-11-02T18:54:31.124Z;2026-11-02T19:27:19.878Z,analysis\복구후_판정검수_20261103_01\점수근거_021_MW-1355498173_3.json,False
+MW-1992765166,1,1,reviewed_provisional,"매장 주메뉴 일부는 200g·210g·2p, 모짜/카레 등은 단위가 없어 전반2점 보류. 배달18메뉴와 매장7메뉴를 혼합하지 않음.",등심돈카츠(210g) | 모짜체다카츠(한정),https://place.map.kakao.com/1992765166#menuInfo;https://place.map.kakao.com/1992765166#menuInfo,2026-11-03T04:16:32.250Z;2026-11-03T04:16:32.250Z,analysis\복구후_판정검수_20261103_01\점수근거_022_MW-1992765166_1.json,False
+MW-1992765166,2,1,reviewed_provisional,한정수량이라는 실제 조건은 있지만 확인한 전체 매장 메뉴표에는 수량·주문시간이 연결되지 않음. 다른 일부 구성은 명확하여1점 검토값.,"모짜 체다 카츠(한정수량) 13,000",https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjJfMTA1%2FMDAxNzkyNjY5NjkzNDg3.Ead1GlZcqaKfH_WzK3_uUwvW8e_fWMNlHwVoSeTkcD8g.XkN3b4GdQFRN_UfxNDx3JguA2a34LlM4_TIKQJ6jUXcg.JPEG%2FIMG%25EF%25BC%25BF0633.jpg%3Ftype%3Dw773,2026-11-03,analysis\복구후_판정검수_20261103_01\점수근거_023_MW-1992765166_2.json,False
+MD-10372376,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-10372376,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-10372376,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-12706932,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-12706932,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-12706932,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-13050974,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-13050974,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-13050974,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-140582374,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-140582374,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-140582374,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1630232349,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1630232349,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1630232349,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1642591897,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1642591897,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1642591897,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1655259519,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1655259519,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-1655259519,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-2113707976,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-2113707976,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-2113707976,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-453813079,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-453813079,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-453813079,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-651364551,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-651364551,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-651364551,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-7872029,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-7872029,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-7872029,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-8138069,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-8138069,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MD-8138069,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1100082903,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1100082903,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1100082903,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1181461605,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1181461605,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1181461605,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1226420399,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1226420399,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1226420399,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-13605010,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-13605010,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-13605010,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-15526158,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-15526158,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-15526158,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-16047613,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-16047613,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-16047613,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-18527536,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-18527536,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-18527536,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-1992765166,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-2143093783,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-2143093783,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-2143093783,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-232654305,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-232654305,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-232654305,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-401923604,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-401923604,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-401923604,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-54314344,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-54314344,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-54314344,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-740043035,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-740043035,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-740043035,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-8279183,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-8279183,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-8279183,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-950232540,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-950232540,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-950232540,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-961509654,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-961509654,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+MW-961509654,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1064667788,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1064667788,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1064667788,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1294031469,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1294031469,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1294031469,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1349429702,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1349429702,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1349429702,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1632057090,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1632057090,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-1632057090,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-19009694,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-19009694,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-19009694,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-465733251,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-465733251,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-465733251,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-59493118,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-59493118,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-59493118,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-93396236,1,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-93396236,2,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False
+SS-93396236,3,,not_yet_adjudicated,채널·주요 메뉴 범위 또는 지점 일관성 추가 검수 필요. 0점 대체 금지.,,,,,False

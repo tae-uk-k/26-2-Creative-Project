@@ -1,0 +1,28 @@
+# 2026-11-24 실제 seelo 편집 화면 확인. 기존 HTML 방식 상품만 지원한다.
+edit_url: "https://sell.smartstore.naver.com/#/products/edit/{product_no}"
+ready: 'textarea[ng-model="vm.editorContent"]'
+# 운영자가 위임 확인 때 기록한 화면 스토어 이름(storeName)과 정확히 같아야 한다. 기록이 없으면 스토어 ID.
+# 위임 가게 목록 전환(store_switch)·상품 목록(catalog)은 실제 화면 확인 후 몰별 설정 폴더에 추가한다.
+shop_identity: {selector: 'a[data-action-location-id="goStore"] span.shop', expected: "{store_name}"}
+product_id: {url_regex: 'https://sell\.smartstore\.naver\.com/#/products/edit/([1-9][0-9]*)'}
+name: {selector: 'input[name="product.name"]'}
+save: 'button[data-nclicks-code="flt.save"] >> nth=0'
+saved_ready: '.modal-dialog:has-text("상품수정이 완료되었습니다.")'
+saved_alert: ""
+prepare:
+  - open: 'text=구매/리뷰 혜택 조건'
+    ready: '#prd_min'
+fields:
+  description: {selector: 'textarea[ng-model="vm.editorContent"]'}
+protected:
+  price: {selector: '#prd_price2'}
+  stock: {selector: '#stock'}
+  minimum: {selector: '#prd_min'}
+  maximum_enabled: {selector: 'input[ng-model="vm.viewData.isUseMaxPurchaseQuantityPerOrder"]'}
+  maximum: {selector: 'input[ng-model="vm.product.detailAttribute.purchaseQuantityInfo.maxPurchaseQuantityPerOrder"]'}
+  maximum_per_id_enabled: {selector: 'input[ng-model="vm.viewData.isUseMaxPurchaseQuantityPerId"]'}
+  maximum_per_id: {selector: 'input[ng-model="vm.product.detailAttribute.purchaseQuantityInfo.maxPurchaseQuantityPerId"]'}
+  sale_period: {selector: 'input[name="period"]:checked'}
+  channels: {selector: 'input[ng-model="vm.singleChannelProductMap[channelServiceType].channelServiceType"]', multiple: true}
+  channel_display: {selector: 'input[ng-model="vm.singleChannelProductMap[channelServiceType].channelProductDisplayStatusType"]:checked', multiple: true}
+  options: {selector: 'input[name^="product.detailAttribute.optionInfo.option"]', multiple: true}

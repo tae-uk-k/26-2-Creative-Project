@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_W04_retry1",
+  "timestamp_utc": "2026-11-24T02:02:31.859058+00:00",
+  "query_id": "W04",
+  "repeat": 2,
+  "prompt": "수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "원재료와 보관 방법이 제품 페이지에 모두 명시된 수박씨 단백질 분말 3개를 찾았습니다. 세 제품 모두 제조·가공용 원료입니다. 한국 배송 가능 여부는 미확인입니다.\n\n| 제품명 | 판매처 | 원재료 | 보관 방법 | 선택 이유 및 근거 |\n|---|---|---|---|---|\n| Onset Worldwide Watermelon Seed Protein Powder, Conventional (WA106) | Ingredi | 수박씨 알맹이 100% | 원래 포장을 닫아 건조하고 어두운 곳에 보관. 권장 온도 18°C 이하, 상대습도 70% 미만. | 단일 원재료와 온도·습도 기준이 명확합니다. 섭취 전 미생물 저감 처리가 필요한 원료입니다. [Ingredi 제품 상세](https://ingredi.com/watermelon-seed-protein-powder-conventional-44-lb-bag/) |\n| Watermelon Seed Protein – 60% Concentrate | GUTINS | 발아·탈지 수박씨에서 얻은 단백질 | 25°C 미만의 건조하고 냄새가 없는 곳에 밀봉해 보관. 빛을 피하고 사용 후 다시 밀봉. | 개봉 후 보관 방법이 구체적이고 50g 시험용 포장이 명시돼 있습니다. [GUTINS 제품 상세](https://gutins.com/products/watermelon-seed-protein-60-percent-concentrate) |\n| Watermelon Seed Protein Powder | KH (Organic Powder Supply, 견적 문의) | 탈지 수박씨 | 서늘하고 건조한 곳에 밀봉 보관. 직사광선과 강한 냄새를 피함. | 원료로 쓰는 부위와 보관 조건을 명시하며, 단백질 함량 40%·50%·60% 옵션을 제공합니다. [KH 제품 상세](https://www.organicpowdersupply.com/watermelon-seed-protein-powder-1/) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T02:02:32.145343Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:03:13.712725+00:00",
+  "retry_of": "codex_R2_W04",
+  "errors": [],
+  "timeout": false
+}

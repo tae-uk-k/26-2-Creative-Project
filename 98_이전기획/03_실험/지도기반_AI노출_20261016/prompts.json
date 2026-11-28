@@ -1,0 +1,83 @@
+[
+  {
+    "prompt_id": "naver_MD",
+    "map_id": "naver",
+    "map_label": "네이버 지도",
+    "area_id": "MD",
+    "area_label": "서울 명동",
+    "intent": "general_meal",
+    "prompt": "네이버 지도 기준으로 서울 명동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "naver_SS",
+    "map_id": "naver",
+    "map_label": "네이버 지도",
+    "area_id": "SS",
+    "area_label": "서울 성수동",
+    "intent": "general_meal",
+    "prompt": "네이버 지도 기준으로 서울 성수동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "naver_MW",
+    "map_id": "naver",
+    "map_label": "네이버 지도",
+    "area_id": "MW",
+    "area_label": "서울 망원동과 망원시장 주변",
+    "intent": "general_meal",
+    "prompt": "네이버 지도 기준으로 서울 망원동과 망원시장 주변에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "kakao_MD",
+    "map_id": "kakao",
+    "map_label": "카카오맵",
+    "area_id": "MD",
+    "area_label": "서울 명동",
+    "intent": "general_meal",
+    "prompt": "카카오맵 기준으로 서울 명동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "kakao_SS",
+    "map_id": "kakao",
+    "map_label": "카카오맵",
+    "area_id": "SS",
+    "area_label": "서울 성수동",
+    "intent": "general_meal",
+    "prompt": "카카오맵 기준으로 서울 성수동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "kakao_MW",
+    "map_id": "kakao",
+    "map_label": "카카오맵",
+    "area_id": "MW",
+    "area_label": "서울 망원동과 망원시장 주변",
+    "intent": "general_meal",
+    "prompt": "카카오맵 기준으로 서울 망원동과 망원시장 주변에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "google_MD",
+    "map_id": "google",
+    "map_label": "구글 지도",
+    "area_id": "MD",
+    "area_label": "서울 명동",
+    "intent": "general_meal",
+    "prompt": "구글 지도 기준으로 서울 명동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "google_SS",
+    "map_id": "google",
+    "map_label": "구글 지도",
+    "area_id": "SS",
+    "area_label": "서울 성수동",
+    "intent": "general_meal",
+    "prompt": "구글 지도 기준으로 서울 성수동에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  },
+  {
+    "prompt_id": "google_MW",
+    "map_id": "google",
+    "map_label": "구글 지도",
+    "area_id": "MW",
+    "area_label": "서울 망원동과 망원시장 주변",
+    "intent": "general_meal",
+    "prompt": "구글 지도 기준으로 서울 망원동과 망원시장 주변에서 한 끼 식사할 식당 5곳을 추천해줘. 디저트만 판매하는 카페는 제외해줘.\n지금 실제로 웹 검색해서 답해줘. 지점이 여러 개면 구분하고, 각 식당을 선정할 때 실제 사용한 출처 URL을 남겨줘.\n지정 지도의 상세 페이지를 직접 읽었는지, 검색 결과에 표시된 지도 정보만 봤는지, 다른 사이트로 판단했는지 구분해줘.\n지도 접근이 안 되면 그 사실을 명시해줘. 지도에 없거나 읽지 않은 소개문을 지어내지 말고, 상호를 넣은 지도 검색 링크를 직접 본 상세 페이지인 것처럼 쓰지 마.\n확인된 식당이 부족하면 억지로 5곳으로 채우지 않아도 돼. 주소나 필드를 확인 못 했으면 null로 표시해줘.\n최종 출력은 코드 블록 없이 아래 JSON 구조만 작성해줘. source_level은 direct_detail/search_snippet/other_sources/unverified 중 선택해줘.\n{\"access_note\":\"접근 상황\",\"restaurants\":[{\"rank\":1,\"name\":\"상호\",\"branch\":null,\"address\":null,\"reason\":\"선정 근거\",\"map_url\":null,\"sources\":[\"실제 근거 URL\"],\"source_level\":\"unverified\",\"map_fields_read\":[\"실제 확인한 필드명\"],\"map_text_excerpt\":null}]}\n로컬 파일·과거 대화·실험 자료는 읽거나 수정하지 말고 웹 검색과 공개 페이지 열람만 사용해줘. 다른 에이전트를 호출하지 마.\n"
+  }
+]

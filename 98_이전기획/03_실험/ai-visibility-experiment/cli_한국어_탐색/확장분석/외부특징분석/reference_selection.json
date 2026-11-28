@@ -1,0 +1,217 @@
+[
+  {
+    "entity_id": "MD-R01",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/eat/Myeongdongkyoja-EN/ENP008570"
+  },
+  {
+    "entity_id": "MD-R01",
+    "source_type": "own_website_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R02",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R02",
+    "source_type": "own_website_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R03",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R03",
+    "source_type": "own_website_registry",
+    "url": "https://www.wangbijib-restaurant.com/reservations"
+  },
+  {
+    "entity_id": "MD-R04",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=58977"
+  },
+  {
+    "entity_id": "MD-R04",
+    "source_type": "own_website_registry",
+    "url": "https://en.hanjeongsik.co.kr/"
+  },
+  {
+    "entity_id": "MD-R05",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/area/Myeongdong-Hamheung-Myeonok/ENP005228"
+  },
+  {
+    "entity_id": "MD-R06",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/attractions--/Miseongok/ENP002876"
+  },
+  {
+    "entity_id": "MD-R07",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R07",
+    "source_type": "own_website_registry",
+    "url": "https://myeongdongrestaurant.imweb.me/About"
+  },
+  {
+    "entity_id": "MD-R08",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R08",
+    "source_type": "own_website_registry",
+    "url": "https://www.myeongdong-restaurant.com/en"
+  },
+  {
+    "entity_id": "MD-R09",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R09",
+    "source_type": "own_website_registry",
+    "url": "https://www.myeongdongkoreanbbq.kr/en"
+  },
+  {
+    "entity_id": "MD-R10",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/restaurants/SeongwonJeonjuKongnamulGukbap/ENPwmqzyh"
+  },
+  {
+    "entity_id": "SS-R01",
+    "source_type": "official_tourism_registry",
+    "url": "https://stage-kr.visitseoul.net/restaurants/SeongsuGamjatang/KOPlceoxk"
+  },
+  {
+    "entity_id": "SS-R02",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=51924"
+  },
+  {
+    "entity_id": "SS-R03",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/restaurants/Seongsudarak/ENPmmx0cv"
+  },
+  {
+    "entity_id": "SS-R04",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=187045"
+  },
+  {
+    "entity_id": "SS-R04",
+    "source_type": "own_website_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "SS-R05",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/accessible-seoul/SeongsuCourse/ENNysm1n0"
+  },
+  {
+    "entity_id": "SS-R06",
+    "source_type": "official_tourism_registry",
+    "url": "https://stage-kr.visitseoul.net/restaurants/jamsugyojib/KOP47h48o"
+  },
+  {
+    "entity_id": "SS-R07",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/area/yournakedcheese/ENP04d1r9"
+  },
+  {
+    "entity_id": "SS-R07",
+    "source_type": "own_website_registry",
+    "url": "https://yournakedcheese.com/"
+  },
+  {
+    "entity_id": "SS-R08",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "SS-R09",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/area/seon-chae/ENPcgf2vx"
+  },
+  {
+    "entity_id": "SS-R10",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/restaurants/hau/ENP2aitm6"
+  },
+  {
+    "entity_id": "MW-R01",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836"
+  },
+  {
+    "entity_id": "MW-R02",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950"
+  },
+  {
+    "entity_id": "MW-R03",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950"
+  },
+  {
+    "entity_id": "MW-R04",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitkorea.or.kr/svc/thingsToDo/foodTrip/special_view.do?vcontsId=187836"
+  },
+  {
+    "entity_id": "MW-R05",
+    "source_type": "official_tourism_registry",
+    "url": "https://english.visitseoul.net/area/BaliinMangwon/ENP7ejzo2"
+  },
+  {
+    "entity_id": "MW-R06",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MW-R07",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MW-R08",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MW-R09",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MW-R10",
+    "source_type": "official_tourism_registry",
+    "url": ""
+  },
+  {
+    "entity_id": "MD-R01",
+    "source_type": "official_guide",
+    "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/myeongdong-kyoja"
+  },
+  {
+    "entity_id": "MD-R02",
+    "source_type": "official_guide",
+    "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/hadongkwan"
+  },
+  {
+    "entity_id": "SS-R07",
+    "source_type": "official_tourism_registry",
+    "url": "https://korean.visitseoul.net/area/yournakedcheese/KOP04d1r9"
+  },
+  {
+    "entity_id": "MD-R10",
+    "source_type": "official_tourism_registry",
+    "url": "https://stage-kr.visitseoul.net/restaurants/SeongwonJeonjuKongnamulGukbap/KOPwmqzyh"
+  }
+]

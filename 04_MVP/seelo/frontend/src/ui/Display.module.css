@@ -1,0 +1,260 @@
+/* 카드 */
+.panel {
+  padding: var(--s-6);
+  border-radius: var(--s-r-2xl);
+  background: var(--s-paper);
+}
+.panel.flat {
+  background: var(--s-grey50);
+}
+.panel.tight {
+  padding: var(--s-4) var(--s-5);
+}
+.panelHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-bottom: var(--s-4);
+}
+.panelTitle {
+  font-size: var(--s-t4);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.panelTitle.small {
+  font-size: var(--s-t5);
+}
+@media (max-width: 38rem) {
+  .panel {
+    padding: var(--s-5) var(--s-4);
+    border-radius: var(--s-r-xl);
+  }
+}
+
+/* 배지 */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 1.5rem;
+  padding: 0 0.55rem;
+  border-radius: var(--s-r-sm);
+  font-size: var(--s-t7);
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+.badge svg {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.neutral {
+  color: var(--s-grey700);
+  background: var(--s-grey100);
+}
+.blue {
+  color: var(--s-blue700);
+  background: var(--s-blue50);
+}
+.green {
+  color: var(--s-green700);
+  background: var(--s-green50);
+}
+.orange {
+  color: var(--s-orange700);
+  background: var(--s-orange50);
+}
+.red {
+  color: var(--s-red700);
+  background: var(--s-red50);
+}
+.dot::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* 알림 띠 */
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-3);
+  padding: var(--s-4);
+  border-radius: var(--s-r-lg);
+  font-size: var(--s-t6);
+  line-height: 1.5;
+}
+.notice > svg {
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.05rem;
+}
+.noticeBody {
+  display: grid;
+  flex: 1;
+  gap: var(--s-1);
+  min-width: 0;
+}
+.noticeTitle {
+  font-weight: 700;
+}
+.noticeAction {
+  flex: none;
+  align-self: center;
+}
+.notice.info {
+  color: var(--s-grey800);
+  background: var(--s-grey100);
+}
+.notice.info > svg {
+  color: var(--s-grey600);
+}
+.notice.progress {
+  color: var(--s-blue700);
+  background: var(--s-blue50);
+}
+.notice.success {
+  color: var(--s-green700);
+  background: var(--s-green50);
+}
+.notice.warning {
+  color: #8a4b00;
+  background: var(--s-orange50);
+}
+.notice.warning > svg {
+  color: var(--s-orange500);
+}
+.notice.error {
+  color: var(--s-red700);
+  background: var(--s-red50);
+}
+
+/* 빈 화면 */
+.empty {
+  display: grid;
+  justify-items: center;
+  gap: var(--s-3);
+  padding: var(--s-10) var(--s-6);
+  text-align: center;
+}
+.emptyArt {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-bottom: var(--s-2);
+  border-radius: 50%;
+  background: var(--s-grey100);
+  font-size: 2.1rem;
+  line-height: 1;
+}
+.emptyImage {
+  width: min(22rem, 100%);
+  aspect-ratio: 16 / 9;
+  margin-bottom: var(--s-3);
+  border-radius: var(--s-r-xl);
+  object-fit: cover;
+}
+.emptyTitle {
+  font-size: var(--s-t4);
+  font-weight: 700;
+}
+.emptyText {
+  max-width: 30ch;
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.emptyAction {
+  margin-top: var(--s-3);
+}
+
+/* 불러오는 중 */
+.skeleton {
+  display: block;
+  border-radius: var(--s-r-sm);
+  background: linear-gradient(
+    90deg,
+    var(--s-grey100) 25%,
+    var(--s-grey200) 37%,
+    var(--s-grey100) 63%
+  );
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+@keyframes shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.spin {
+  animation: rotate 0.9s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 키-값 목록 */
+.facts {
+  display: grid;
+  gap: 0;
+}
+.facts > div {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding: var(--s-3) 0;
+  border-top: 1px solid var(--s-grey100);
+  font-size: var(--s-t6);
+}
+.facts > div:first-child {
+  border-top: 0;
+}
+.facts dt {
+  flex: none;
+  color: var(--s-grey600);
+}
+.facts dd {
+  min-width: 0;
+  color: var(--s-grey900);
+  font-weight: 600;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+/* 칩 */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  max-width: 100%;
+  min-height: 1.875rem;
+  padding: 0 var(--s-3);
+  border-radius: var(--s-r-full);
+  color: var(--s-grey800);
+  background: var(--s-grey100);
+  font-size: var(--s-t7);
+  font-weight: 500;
+}
+.chip svg {
+  flex: none;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.chip span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a.chip:hover {
+  background: var(--s-grey200);
+}

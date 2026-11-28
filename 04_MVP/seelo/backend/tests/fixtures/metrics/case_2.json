@@ -1,0 +1,55 @@
+{
+  "note": "두 공급자. 실행 8개 중 실패 2(응답 없음), openai 응답 2는 추출 실패(분모에서 뺌). gemini는 질문 20 답변이 없어 측정하지 못함(None). '명동칼국수 본점'·'명동칼국수'는 한 가게로 묶이고 화면 이름은 더 많이 나온 '명동칼국수'. 출처 unknown은 넣지 않음.",
+  "providers": ["openai", "gemini"],
+  "question_ids": [10, 20],
+  "failed": 2,
+  "total": 8,
+  "responses": [
+    {"id": 1, "provider": "openai", "question_id": 10, "ok": true, "sources": ["tripadvisor.com", "google.com"],
+     "recs": [{"name": "명동칼국수 본점", "rank": 1, "sources": ["tripadvisor.com"]},
+              {"name": "우리", "rank": 2, "target": true, "sources": ["tripadvisor.com", "google.com"]}]},
+    {"id": 2, "provider": "openai", "question_id": 10, "ok": false, "sources": ["tripadvisor.com"], "recs": []},
+    {"id": 3, "provider": "openai", "question_id": 20, "ok": true, "sources": ["visitkorea.or.kr"],
+     "recs": [{"name": "명동칼국수", "rank": 1}, {"name": "을지면옥", "rank": 2}]},
+    {"id": 4, "provider": "gemini", "question_id": 10, "ok": true, "sources": ["unknown", "blog.naver.com"],
+     "recs": [{"name": "을지면옥", "rank": 1}, {"name": "명동칼국수", "rank": 2},
+              {"name": "우리", "rank": 3, "target": true, "sources": ["unknown", "blog.naver.com"]}]},
+    {"id": 5, "provider": "gemini", "question_id": 10, "ok": true, "sources": [], "recs": []}
+  ],
+  "expected": {
+    "failure_rate": 0.25,
+    "target": {
+      "openai": {
+        "all": [[2, null], [1, 2], [0.5, 2], [2.0, 1]],
+        "10": [[1, null], [1, 1], [1.0, 1], [2.0, 1]],
+        "20": [[1, null], [0, 1], [0.0, 1], [null, 0]]
+      },
+      "gemini": {
+        "all": [[2, null], [1, 2], [0.5, 2], [3.0, 1]],
+        "10": [[2, null], [1, 2], [0.5, 2], [3.0, 1]],
+        "20": [[0, null], [0, 0], [null, 0], [null, 0]]
+      }
+    },
+    "competitors": [
+      {"name": "명동칼국수", "display": "명동칼국수",
+       "openai": [[2, null], [2, 2], [1.0, 2], [1.0, 2]],
+       "gemini": [[2, null], [1, 2], [0.5, 2], [2.0, 1]]},
+      {"name": "을지면옥", "display": "을지면옥",
+       "openai": [[2, null], [1, 2], [0.5, 2], [2.0, 1]],
+       "gemini": [[2, null], [1, 2], [0.5, 2], [1.0, 1]]}
+    ],
+    "sources": {
+      "openai": {
+        "google.com": [[1, 2], [1, 1]],
+        "tripadvisor.com": [[1, 2], [1, 1]],
+        "visitkorea.or.kr": [[1, 2], [0, 1]]
+      },
+      "gemini": {
+        "blog.naver.com": [[1, 2], [1, 1]]
+      }
+    },
+    "position": [3, 3],
+    "top_sources": [["blog.naver.com", 1], ["google.com", 1], ["tripadvisor.com", 1], ["visitkorea.or.kr", 1]],
+    "target_sources": [["blog.naver.com", 1], ["google.com", 1], ["tripadvisor.com", 1]]
+  }
+}

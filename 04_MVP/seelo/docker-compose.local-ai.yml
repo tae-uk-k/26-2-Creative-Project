@@ -1,0 +1,22 @@
+# docker-compose.prod.yml과 함께 사용한다. 공개 TCP 포트·CLI 로그인 파일을 서버에 추가하지 않는다.
+x-local-ai-socket: &local-ai-socket
+  type: bind
+  source: ${LOCAL_AI_SOCKET_DIR:?private SSH socket directory required}
+  target: /run/seelo-ai
+  read_only: true
+  bind:
+    create_host_path: false
+
+services:
+  api:
+    volumes: [*local-ai-socket]
+  worker-main:
+    volumes: [*local-ai-socket]
+    # 실제 발송 승인 전에는 email 큐를 소비하지 않는다.
+    command: [python, -m, seelo.worker.run, --queues, "collect,measure,plan,report,periodic", --concurrency, "2", --name, main]
+  worker-ai-openai:
+    volumes: [*local-ai-socket]
+    command: [python, -m, seelo.worker.run, --queues, ai_openai, --concurrency, "1", --name, local-codex]
+  worker-ai-gemini:
+    volumes: [*local-ai-socket]
+    command: [python, -m, seelo.worker.run, --queues, ai_gemini, --concurrency, "1", --name, local-gemini]

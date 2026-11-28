@@ -1,0 +1,34 @@
+[
+  {
+    "backend": "codex",
+    "choice_sets": 24,
+    "ridge_lambda": 1,
+    "success": true,
+    "optimizer_message": "Optimization terminated successfully.",
+    "gradient_max_abs": 3.107554136239088e-08,
+    "menu_detail_beta_at_average_repetition": 2.941197570263629,
+    "repetition_beta_at_average_detail": -6.907408307421601e-14,
+    "interaction_beta": -2.940805767573137e-15,
+    "detail_conditional_odds_ratio_repeat_absent": 18.938512937038915,
+    "detail_conditional_odds_ratio_repeat_present": 18.938512937038865,
+    "repetition_conditional_odds_ratio_detail_absent": 0.9999999999999324,
+    "repetition_conditional_odds_ratio_detail_present": 0.9999999999999295,
+    "interpretation": "Regularized 2-of-4 subset-choice coefficient; no CI, predictive score, or real map exposure interpretation."
+  },
+  {
+    "backend": "agy",
+    "choice_sets": 24,
+    "ridge_lambda": 1,
+    "success": true,
+    "optimizer_message": "Optimization terminated successfully.",
+    "gradient_max_abs": 9.118606403291096e-08,
+    "menu_detail_beta_at_average_repetition": 3.108867560269715,
+    "repetition_beta_at_average_detail": 0.3200200622741075,
+    "interaction_beta": -0.013234721399251767,
+    "detail_conditional_odds_ratio_repeat_absent": 22.544359936161978,
+    "detail_conditional_odds_ratio_repeat_present": 22.247957342580584,
+    "repetition_conditional_odds_ratio_detail_absent": 1.3862987459695852,
+    "repetition_conditional_odds_ratio_detail_present": 1.3680723450006709,
+    "interpretation": "Regularized 2-of-4 subset-choice coefficient; no CI, predictive score, or real map exposure interpretation."
+  }
+]

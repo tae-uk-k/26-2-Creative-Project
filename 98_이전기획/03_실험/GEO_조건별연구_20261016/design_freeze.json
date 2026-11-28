@@ -1,0 +1,46 @@
+{
+  "version": "geo-intent-cli-v1",
+  "date": "2026-10-16",
+  "cells": 96,
+  "areas": {
+    "MD": "서울 명동과 주변",
+    "SS": "서울 성수동과 서울숲 주변",
+    "MW": "서울 망원동과 망원시장 주변"
+  },
+  "intents": {
+    "general": "추가 조건은 없어.",
+    "solo": "혼자 방문하며, 1인 주문과 혼자 앉아 식사하기 편한 곳을 원해.",
+    "budget": "추가 필수 주문을 포함해 1명이 한 끼를 1만 원 이하로 먹을 수 있는 곳을 원해.",
+    "group": "성인 6명이 한 테이블에서 함께 식사할 수 있는 곳을 원해.",
+    "child": "만 5세 아이와 함께 방문하며, 아이가 먹을 수 있는 덜 매운 메뉴와 동반 식사가 가능한 곳을 원해.",
+    "parking": "승용차로 방문하며, 식당 전용 주차 또는 식당이 안내하는 제휴 주차가 가능한 곳을 원해.",
+    "reservation": "방문 전에 식사 좌석을 예약할 수 있는 곳을 원해.",
+    "vegan": "육류·생선·해산물·달걀·유제품과 동물성 육수 없이 먹을 수 있는 비건 식사가 가능한 곳을 원해."
+  },
+  "models_requested": {
+    "codex": "gpt-6.1-sol",
+    "agy": "Gemini 3.8 Flash (Low)"
+  },
+  "repeats": 2,
+  "candidate_names_provided": false,
+  "source_policy": "prefer three maps; accessible public fallback allowed and labeled; differs from map-only access pilot",
+  "endpoints": [
+    "recommendation inclusion by intent and model",
+    "rank",
+    "self-reported constraint confirmation",
+    "cited domains",
+    "retrieval query and citation consistency"
+  ],
+  "primary_analysis": "descriptive within-area intent differences; per-model estimates; repeated runs are not independent stores",
+  "missing": "technical errors excluded, unknown facts retained, unverified identity not merged",
+  "causality": "natural answers show conditional association; reasons and generated condition labels are not independent restaurant features",
+  "prompts_sha256": "3642e59bcf4619c85e566c35ed5c430a6dace6dcb077da82a53ba4ed68a37097",
+  "manifest_sha256": "1a6c5c3d5005150ede001112782ba9161c84e27832b08bf02bd05b7539fb7b3d",
+  "protected_sha256": {
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\attempts.jsonl": "31845ede3c3f60498757456b4d4107cdf13f313ca6788cc785ea8264a9998f12",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\정보제공_통제실험\\attempts.jsonl": "c87a344a8ef3ace1d2b3c9efdf9a9dda36f7f9c4299c8b0608074dd701fa6bea",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\지도기반_AI노출_20261016\\정보제공_통제실험\\동일정보_표현비교\\attempts.jsonl": "5f0da987421ec81b16fd515ec1147732397fdd64a017c5c438b89fe0b8a5d6e5",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\results_codex.jsonl": "c6c75e451ce209921b01cb9f5e55c9d53da8f2644060c39243382a22b4094a8b",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\results_agy.jsonl": "da63f0f1d1182b9d36ef26b9f21b2429f9748c99e6629f1a490a0a040a96d09d"
+  }
+}

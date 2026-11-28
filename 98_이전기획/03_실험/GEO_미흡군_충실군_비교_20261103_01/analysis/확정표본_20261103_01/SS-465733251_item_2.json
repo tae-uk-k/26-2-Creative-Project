@@ -1,0 +1,38 @@
+{
+  "store_id": "SS-465733251",
+  "item": 2,
+  "score": 1,
+  "status": "confirmed",
+  "reason": "메뉴 옵션과 예약 인원 일부는 명확하지만, 식사 서비스를 이용할 수 있는 마감 시간이 카카오 21:30, Google 화~일 20:00 및 월 22:30으로 다름. 공통 채점의 채널별 차이=1점 적용. 존재 미확인 최소주문·라스트오더를 가정하지 않음. 이 영업시간 차이가 항목3에도 기여하므로 두 항목을 독립 특성으로 해석하지 않음.",
+  "sources": [
+    {
+      "quote": "1~4명",
+      "source_url": "https://pcmap.place.naver.com/restaurant/1227244952/booking?fromPanelNum=1&additionalHeight=76&timestamp=202611031356&locale=ko&svcName=map_pcv5",
+      "observed_at": "2026-11-03T05:55:07.757Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\294_SS-465733251_official_linked_booking.json",
+      "sha256": "46c1e3a6ac28ba9c516a4fc887dee57cbd7d32f2f59688cd1502b9ab61a3508d",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    },
+    {
+      "quote": "11:30 ~ 21:30",
+      "source_url": "https://place.map.kakao.com/465733251",
+      "observed_at": "2026-11-02T19:46:21.841Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\155_SS-465733251_kakao_home_hours.json",
+      "sha256": "87dfa004478e07e4460e2d6d1d369508b56db43f57604ee93f524a93c2b47ef7",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    },
+    {
+      "quote": "오후 5:00~8:00",
+      "source_url": "https://www.google.com/maps/place/%ED%8C%8C%EB%A5%B4%EC%BD%94/data=!4m5!3m4!1s0x357ca541aeb27643:0xa4f093a0d1257ce!16s%2Fg%2F11jn4yw8wq!19sChIJQ3ayrkGlfDURzlcSDToJTwo!20s8Q99G2WV%2BG97",
+      "observed_at": "2026-11-02T19:46:41.119Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\159_SS-465733251_google_overview_hours.json",
+      "sha256": "2681131c4b57eb925ef85f293f35551541480718e2f4cf031276be71773b420d",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    }
+  ],
+  "adjudicated_at_utc": "2026-11-03T06:07:46.571603+00:00",
+  "recommendation_outputs_seen": false
+}

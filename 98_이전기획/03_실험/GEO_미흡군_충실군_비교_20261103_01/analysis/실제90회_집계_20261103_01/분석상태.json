@@ -1,0 +1,378 @@
+{
+  "target_pairs": 12,
+  "actual_pairs": 1,
+  "target_stores": 24,
+  "actual_stores": 2,
+  "target_initial_cells": 90,
+  "actual_attempts": 90,
+  "valid_cells": 0,
+  "unstarted_cells": 0,
+  "failed_attempts": 90,
+  "unresolved_attempts": 0,
+  "exposure_A_pct": null,
+  "exposure_B_pct": null,
+  "pair_confidence_interval": null,
+  "ci_note": "미산출. 반복 응답을 매장 표본으로 세지 않음.",
+  "excluded_attempts": [
+    {
+      "attempt_id": "20261103T060806750985Z-MW-Q2-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T060806751986Z-MD-Q3-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T060806751986Z-SS-Q2-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T060914430940Z-MD-Q2-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T060924736319Z-SS-Q1-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T060940781068Z-MW-Q2-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061022103738Z-SS-Q2-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061028393341Z-MD-Q3-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061044203880Z-MW-Q1-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061135505973Z-SS-Q3-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061146582721Z-MD-Q2-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061158555755Z-MD-Q3-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061252135684Z-MD-Q2-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061323136871Z-MD-Q3-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061344084262Z-SS-Q2-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061432200880Z-MD-Q1-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061436803718Z-MW-Q2-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061502196472Z-MW-Q2-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061510277354Z-MD-Q3-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061510318083Z-MW-Q1-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061512839087Z-SS-Q3-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061516691238Z-MD-Q1-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061516752537Z-SS-Q2-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061520621720Z-MW-Q3-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061521077022Z-MD-Q1-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061524178897Z-MD-Q3-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061527441173Z-MD-Q1-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061528408645Z-MW-Q3-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061529913617Z-MW-Q1-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061534256180Z-SS-Q2-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061534500214Z-MD-Q3-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061535973139Z-SS-Q1-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061540729831Z-MD-Q2-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061540964337Z-MD-Q1-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061541038008Z-SS-Q2-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061546328536Z-SS-Q1-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061548105866Z-SS-Q1-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061548125187Z-MW-Q1-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061554017622Z-SS-Q3-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061554672786Z-MD-Q3-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061555359195Z-MW-Q3-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061558525207Z-SS-Q2-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061601725782Z-SS-Q3-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061601969721Z-SS-Q3-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061607577670Z-MW-Q3-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061608550769Z-SS-Q1-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061613144358Z-MD-Q1-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061613686437Z-MW-Q2-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061614542283Z-MD-Q3-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061620267068Z-SS-Q3-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061622102439Z-MW-Q2-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061624570665Z-SS-Q1-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061624664991Z-MW-Q1-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061627421707Z-SS-Q1-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061630209596Z-MW-Q3-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061634012969Z-MW-Q1-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061636642776Z-SS-Q3-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061636642776Z-MD-Q2-R09-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061639668903Z-MD-Q2-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061643798604Z-MD-Q1-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061644108426Z-MW-Q3-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061648679399Z-MW-Q1-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061649328366Z-MW-Q2-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061649377836Z-SS-Q1-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061653646938Z-MW-Q3-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061654321151Z-MD-Q1-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061657408011Z-MW-Q2-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061658514278Z-SS-Q2-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061702263156Z-MD-Q2-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061707097384Z-MD-Q2-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061709010380Z-MW-Q1-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061710214099Z-MW-Q3-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061712593477Z-MW-Q2-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061715966326Z-MW-Q3-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061717079164Z-SS-Q3-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061717167971Z-MW-Q1-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061721953043Z-MD-Q2-R05-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061722433669Z-MW-Q2-R10-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061727265058Z-SS-Q1-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061727510529Z-MW-Q1-R01-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061728353356Z-MD-Q1-R07-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061733500855Z-MD-Q2-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061737146526Z-MD-Q3-R06-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061737687399Z-MD-Q1-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061740145578Z-SS-Q1-R04-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061743252500Z-SS-Q2-R02-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061744069176Z-SS-Q2-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061744967728Z-MW-Q3-R08-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061750327020Z-SS-Q3-R03-T1",
+      "reason": "failure"
+    },
+    {
+      "attempt_id": "20261103T061750877176Z-SS-Q3-R04-T1",
+      "reason": "failure"
+    }
+  ]
+}

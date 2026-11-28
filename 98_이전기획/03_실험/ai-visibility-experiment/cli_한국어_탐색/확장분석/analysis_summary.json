@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "run_count": 240,
+    "baseline_runs": 120,
+    "prospective_runs": 120,
+    "planned_run_count": 240,
+    "candidate_registry_count": 162,
+    "original_store_count": 30,
+    "discovery_candidate_count": 132,
+    "registry_area_counts": {
+      "myeongdong": 39,
+      "seongsu": 78,
+      "mangwon": 45
+    },
+    "trial_rows": 12960,
+    "recommended_slots": 1200,
+    "unmatched_slots": 54,
+    "model_table_rows": 324,
+    "stores_with_minimal_website_category": 30,
+    "raw_files_missing": 0,
+    "web_search_missing": 0,
+    "feature_learning_not_yet_run": true
+  },
+  "original_zero_exposure_count": 9,
+  "discovery_mentioned_again": 77,
+  "discovery_not_mentioned_again": 55,
+  "website_permutation": {
+    "independent_stores": 20,
+    "areas_with_both_website_groups": [
+      "myeongdong",
+      "seongsu"
+    ],
+    "area_standardized_difference_pp": -13.720238095238098,
+    "permutations": 5000,
+    "p_two_sided_exploratory": 0.5050989802039592,
+    "causal": false,
+    "selection_warning": "original cohort is purposively selected, not representative"
+  },
+  "mean_within_model_overlap": {
+    "codex": 2.6351851851851853,
+    "agy": 3.087037037037037
+  },
+  "cross_model_overlap": 2.1083333333333334
+}

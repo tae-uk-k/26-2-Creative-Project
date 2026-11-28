@@ -1,0 +1,646 @@
+[
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\283_SS-488171850_home_hours.json",
+    "sha256": "afe0041e7b78db0cae53432962449f736b9d60e3bceeaf2b145acf08723d3df9",
+    "source_url": "https://place.map.kakao.com/488171850",
+    "observed_at": "2026-11-03T05:43:47.743Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\284_SS-488171850_menu.json",
+    "sha256": "161cf43973e5e59e3d330d7dfdf9a9fcfac3a64a765809b5a4e95deaebbeeb1b",
+    "source_url": "https://place.map.kakao.com/488171850#menuInfo",
+    "observed_at": "2026-11-03T05:43:48.046Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\285_SS-16903213_home.json",
+    "sha256": "df279b3cd7e74fdc7c8b11f41a6fa96415bfb3842d6eccee0f8efaf77c26c5a7",
+    "source_url": "https://place.map.kakao.com/16903213",
+    "observed_at": "2026-11-03T05:44:08.678Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\286_SS-16903213_menu.json",
+    "sha256": "4329f2bcd65aecd2f3c8b08cf27a9edfe6b3cfe23fe7ccd79d952913d87564f1",
+    "source_url": "https://place.map.kakao.com/16903213#menuInfo",
+    "observed_at": "2026-11-03T05:44:08.935Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\287_PAIR-MD-23-ORIGINAL_walking_geography.json",
+    "sha256": "0b7bb36a893c173c63cddc07d276c99e0b68ab919486e723fa2d7ca9be17924e",
+    "source_url": "https://map.kakao.com/",
+    "observed_at": "2026-11-03T05:45:08.950Z",
+    "evidence_role": "pair_geography"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\288_SS-465733251_menu_photo_bundle.json",
+    "sha256": "94d8a43940825dc668b8c6f66e1a12c6d527a3afa4effd2f5c812691f0eb2153",
+    "source_url": "https://place.map.kakao.com/465733251#photoList?type=menuboard&pidx=0",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_7d1a35aba48f08a4",
+    "sha256": "748af8d30d20bcb5c70a85f5e567d305c1e8ce3c774df529dc1987cb3979bc61",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMTQ3%2FMDAxNzg3MTE0Njg0NzQz.etyzEFSlhq6NRaOpQpDXARtYx2--I51xcofDHhoN9AAg.4CfRjcNdb9k3Np0veytpu_VnY6tRwzK2lwWcLfP2AAUg.JPEG%2F900_20260817_191113.jpg%3Ftype%3Dw386",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_1ab31335c6620ad7",
+    "sha256": "f63e6e2fc34337fdd01f30e1e8c35a0239db63139384b26c572b69e45fa0e243",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDRfMjg0%2FMDAxNzkxMTAwNTQ4NTQy.doiI3UhW004YncjOqO7NwBVNxqtcdvQ2wxuAxqOgJXAg.RQ1OMxGtHvjBkTP7cdUSw4jlUHCPBLcdXX7U4cWqJoMg.JPEG%2F900_20261003_164159.jpg%3Ftype%3Dw466",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_e5cfa044bed38b1e",
+    "sha256": "54a782a0f872c21db1a3fc57d2375bbab663fd2457e8e329215fbea10c40c3f1",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTlfMjEg%2FMDAxNzg3MTE0NjgyOTE0.iag-SWRpcIBAez4LNjD6FbANP49FhCVeKGBsNiMCKMgg.B2YAoQRh4q9v_kZ4_OhHdY4t6JyOUsKdE6KcqAwxLZsg.JPEG%2F900_20260817_191127.jpg%3Ftype%3Dw386",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_046f614fbd41abaa",
+    "sha256": "de2d59799ce2ee141083999974c74922ed6045036e6a2670b8d3892430b99bb1",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDVfMTkg%2FMDAxNzkxMTkzMjExMDE5.pQ09MHwQV51hG609D7F1JymsJMZrzEmFa1Wr7pT5Wy8g.41W8qKNTxbKD3RhvzFZ1ZmFn1LTqhI0hyItonvysV8Qg.JPEG%2FSE-757C2D64-A6FA-4039-9E0F-03D86F42E945.jpg%3Ftype%3Dw466",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_5771ca02ec49e5c2",
+    "sha256": "417bdb8b7aa6a46b7c09a4500d41c49d82370651fda3c6c20272e67c1052ff3a",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMjAx%2FMDAxNzg4NzU1NzE0MjQx.VsDi-0T-aQy2m72SgKsFxzte-4zzkS4TZOXlEXSmzI4g.Fm1_xrWeUex1-tbP9iNQKWE5ZxriZskBZ5wjatR9IxUg.JPEG%2F900_20260905_120150.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_d84864c5598e43b7",
+    "sha256": "17745681c83cfe04d9a327b671d49cc6413d1316b56fae21f6377b72b50da212",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMTY5%2FMDAxNzg4NzU1NzE1MjQw.RpDJffQTNp0V7zUVDWMSH9T3TsTBWMjg_WQZo_FuOmEg.Dfc75qDR_mBrdQobhLPGXiQ5-vnJW6Os7GpXONzADB8g.JPEG%2F900_20260905_120159.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_98badf3f49c1df01",
+    "sha256": "41f8a6e65958ecd35841d190c4f020060b10f2d1a48b305d91a0dbc941fef392",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F5dfbdce8e0d79951c2997715dc86eeb8ae4a72b6%3Foriginal",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_cdc39051f83cb792",
+    "sha256": "575dd93a45dd80046af2ebb031bf50e320c54e2a9c764216c792daf7a7007608",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fc97838b02aa760c8e18250c09c32e117d7966767%3Foriginal",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_7c37cdbff9cbd15c",
+    "sha256": "31f150fd59474a8b160c2a9192752b0671e15c16324939a1c5d18abe8bfd2972",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDdfMjg1%2FMDAxNzg4NzU1NzE2MjU5.Y-7iaDVVykoyWAzi1gK842ONxNE5O33nvqLStOupFs0g.cyqEqT7lybIcTL-3ZYFH4LLBs8Eirfphyjb6hWahXKog.JPEG%2F900_20260905_120204.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_b089100b24247d6f",
+    "sha256": "12aeb5f2c64ed637c87ff83b50e88b3708ab2ecf12fbfefc09eebbe3cbb1070e",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMjc3%2FMDAxNzg3NTc3NjI3NDcz.kcQEiGqz1xDdpRLncL04HiHy-AMpYHf27SW2phVSCNYg.HlCjY4KOEIRiTlnNFaAEEHU7b4EU_ZMr_Aa4gx9QZK0g.JPEG%2FIMG%25EF%25BC%25BF6481.jpg%3Ftype%3Dw386",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_5272d8f76403c26b",
+    "sha256": "f6f6e01dfadfc20ecbcb0be486c0c37705378d43a61a0a6bead79f032fafa86d",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMTMg%2FMDAxNzg3NTc3NjI3NDcy.JTNwn4gFS67EbVfmHBvCZBGN3M-r0Kuk1JAmK3Ae5_Yg.gxXPPbpgl2E8I7XQ9aVktwi8xQrUCkDwDVVkuoTEu5og.JPEG%2FIMG%25EF%25BC%25BF6480.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_1bd64e9b2902227b",
+    "sha256": "76a65521b0498130390f9ef347251fb05679f8224b868aab96eb7c19a56d3f3d",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMTY4%2FMDAxNzg3NTc3NjI4MDEw.afLfSEaeYwRcuLP_bdHiQ_AepxYvrZj7DY8TwGWV0ukg.4I_TGxEgfWbftls_UaXjqCAfTtNv_dDifzmfxb5OVwEg.JPEG%2FIMG%25EF%25BC%25BF6479.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_6eb5c61f5a7a92b4",
+    "sha256": "ee4c70edb56ba7422d0bba28cca01f9804c9ddebc8c3f630c0b75f122f58208c",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjVfMjA1%2FMDAxNzg3NjYyMDAwOTAw.cJFL5aiJRhOsS-lNiIA-ZiFsf0vrPaPSHFWBwL2ixX4g.dhVr8YyeQLRVzn0zsEOV3uStL0IinLQNBCkO-9hwIEQg.JPEG%2FSE-01E68BCC-30A0-4C36-8416-F44218CC9392.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_3375695744943516",
+    "sha256": "418dffd2f4cf400c4f46e7fdef772dac19ca7e70ae48a43ce2b9fab6aedf597c",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTVfNzAg%2FMDAxNzg2NzYzNTc4NDU0.IN2fzNrrGzM2HS3Gcp40oMRPTpHyrENQgezbSvftOIcg.LSgbfdfOb9N1xYdYd-djcY85iBBFnmJiOH9rKfTAZsgg.JPEG%2FSE-68d89387-c691-4922-9c19-8486ddce5ab7.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_d78efbe065b5ac38",
+    "sha256": "1611cb3207cd31c372a169635728c5a36170964088fed848be990f0e1f48d14d",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTVfNjgg%2FMDAxNzg2NzYzNTgwNzY5.6-18PnNHfVbSEb5MTV7ef9vrBOxsCCVFvLcs37RnKf0g.8ts7RUgM33Zzgs6QQfSZhsPuFxKFtxhKpaoPeShLezMg.JPEG%2FSE-50a55e68-e9f8-4200-8167-5a7cad5be3a6.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_5928ab15046ef5ac",
+    "sha256": "4f91942f25177df16589a55cdb038460380b9c1bdefb29d28501fb8591635a82",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MTJfMTA5%2FMDAxNzgzODQxNDY5OTU0.-cPLXQUP6W9WOEvXP-06So2ly2PGclsi_7CTgXrV5J8g.chf9sbq8lLVy83yW_EVr0W_m7xasvn8qqfNAWF2sAUgg.JPEG%2F900_20260711_170949.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_109dd64278976c96",
+    "sha256": "c4f8cbc3dec83e1aa186a9e49e5b2227c4f153c459612254c66ea998afc445e9",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MDdfMTU4%2FMDAxNzgzMzk3ODI5NTU4.kJ4LA3GfFwnmWF1ZPmOGXLRt_R0PQPFjwsii9gpfsCAg.xVcdJwlzCspJDrr1wVqvuO20_3LmujQm83C9Y7awlhgg.JPEG%2FIMG%25EF%25BC%25BF8898.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\SS-465733251_14fba46dc9a7fde6",
+    "sha256": "2dd8fe3c69855104f42c7c0e7a220c98e6964358c8306a29cdf1fe32a22f454f",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTJfMTUz%2FMDAxNzg2NTE0NTAxNjk5.evUmc8uz9_b8MOsIDZv6rg0pHz71jXIUu_0l0wZb4_Yg.AYRQxIx5PPN-M4pg6ncpKiuGtha4gEVECiFFfQCk-lMg.JPEG%2FSE-8c773a65-7e9c-461f-8426-ee284ae18356.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:46:15.856Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\289_SS-1349429702_official_profile.json",
+    "sha256": "1be8359cda605cd3e7b7dfdefcca1631d3439ca10e7ec3bae4c4b936e41edd1f",
+    "source_url": "https://www.instagram.com/corner.room_seoul",
+    "observed_at": "2026-11-03T05:47:48.663Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\290_SS-1349429702_official_booking.json",
+    "sha256": "5ca313484a00069cefbbb6add80eb7feee71b894ce1cc4c7e4bd56efcb4ce96d",
+    "source_url": "https://m.place.naver.com/restaurant/1688205316/booking",
+    "observed_at": "2026-11-03T05:48:14.386Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\292_SS-1349429702_linked_home_hours.json",
+    "sha256": "14721b8f6a8085885db150dfe0283f73f63b5f883126b70358abec38e93af1ef",
+    "source_url": "https://m.place.naver.com/restaurant/1688205316/home",
+    "observed_at": "2026-11-03T05:54:24.199Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\293_SS-1349429702_linked_menu.json",
+    "sha256": "a90fd51cbe1eba0bc9e2affd575406fb032259b5a9cdf5d4546393c78b529400",
+    "source_url": "https://m.place.naver.com/restaurant/1688205316/menu/list",
+    "observed_at": "2026-11-03T05:54:29.843Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\294_SS-465733251_linked_booking.json",
+    "sha256": "46c1e3a6ac28ba9c516a4fc887dee57cbd7d32f2f59688cd1502b9ab61a3508d",
+    "source_url": "https://pcmap.place.naver.com/restaurant/1227244952/booking?fromPanelNum=1&additionalHeight=76&timestamp=202611031356&locale=ko&svcName=map_pcv5",
+    "observed_at": "2026-11-03T05:55:07.757Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\295_MW-950232540_menu_photo_bundle.json",
+    "sha256": "847a346c7241967c6ecf1e7c9c7a65a6ebab0c20e445240b891912f7eea863ef",
+    "source_url": "https://place.map.kakao.com/950232540#photoList?type=menuboard&pidx=0",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_a95bc983239b092b",
+    "sha256": "92b3783599e07d74d3eb2af6270c3b5d16a8114dbe3604e61a2b6b7e94ba208c",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjdfNTkg%2FMDAxNzkzMDc0ODg1MTUx.iRCFot48VjYVSv-XGqtPfb_atl69dbhysGzDYfOL2GIg.6Q_56z5N10ND4dd49F1Gd9QptgSSw2GrJ0Ov7coL4eIg.JPEG%2F900_20261027_121429.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_dc1aabf360f6ae41",
+    "sha256": "073f0679f80b067d88f58d30a1c468e2017ac82f39f98aae1f41f9a4a49534e2",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMThfMjU5%2FMDAxNzkyMzI1NzAwNTg0._F5HJmfCzCzFhBrNqHmBLxUYf_snbUCp1i9mJ8GaZxsg.7IFKW_UZt99LlEeElN77lcLwAGHneLeDeglID2wIOEUg.JPEG%2FIMG%25EF%25BC%25BF6704.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_157ae1d52aa8523d",
+    "sha256": "6e9dd89018187848f04acc8425c7d8a02c6bcf1def20b6283a647481fa1109f4",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MDRfMjg2%2FMDAxNzg1ODE5ODg4OTM4.QwrI5rZTizzmtogV_c-wFFZissOmWpnUNrctmlBuqJMg.cn47oYdu0NFp3jZVW5LPqeEH2-0DL0YvSKyYSC3f1e0g.JPEG%2FR0015336.JPG%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_1276111e42b993b6",
+    "sha256": "0a79bcadd7291dd94ab0d4fcf6acb8248cd0edbd7743dc87b163be774ee69ad3",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MThfMjgy%2FMDAxNzg5NzI0NDk0NzY0.ZdlTN4U7iEGQHMoOcyfw8NzbrB8qcduZaM-xXgdEgmkg.yzToXQ4ELkkiHugQ-17YtpjiNuCsYqfQUUuAIVk_EuMg.JPEG%2FIMG%25EF%25BC%25BF2737.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_7afecf5dd029e0e0",
+    "sha256": "49a08e50fe74eaa198bbf9a6b66be2db78174dff745af2b5be225673c43aea81",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MTdfMjQg%2FMDAxNzg2ODk3ODkyNzg5.HwiV0d41OWGEFm23Yi2Q2_-BIbUYDgrSTFQc4YDVOeYg.qfyhwMgH_3a8ZYhSYu-OWl4b0jpLKpEn4PEGeyBdks0g.JPEG%2F%25EB%25A7%259D%25EC%259B%2590%25EB%258F%2599%25EB%25A7%259B%25EC%25A7%2591-%25EB%25A7%259D%25EC%259B%2590%25EB%258F%2599%25EB%258F%2588%25EA%25B9%258C%25EC%258A%25A4-%25EC%25A0%2595%25EA%25B4%2591%25EC%2588%2598%25EC%259D%2598%25EB%258F%2588%25EA%25B9%258C%25EC%258A%25A4%25EA%25B0%2580%25EA%25B2%258C_(4).jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_34fd8b4e0e6ea85a",
+    "sha256": "911f7d161761c16d904cecbdadda59f2246d904419e4884f3c65f1bc954b300b",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA2MjFfMjI5%2FMDAxNzgyMDE4NjIyNjIz.Ph4FizJCRxFrbk0u9dDUepKivjAqLXPw3PWIIHiFo0Ug.b8ZJ59x9Aj3tDb1aMB74c6ezb7pswPr2bOT5GSEPZocg.JPEG%2F900_20260619_105922.jpg%3Ftype%3Dw580",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_8968660a1546d5c7",
+    "sha256": "44b2c83037948d65f437f73c95919ad009d708b95f6c648a7629b2c579b913ea",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA0MTRfMjI0%2FMDAxNzc2MTc2NzY0MDMx.y9FzhkGVEenD3d2Fwvt2mwJYhKBmlyecd6Khpg5r7Mkg.B1OItHSmdwyLW3H-Rrh8YBSt7AtQFz4JPPzlNV3DD8Ag.JPEG%2FSE-6c0ab60f-a205-4cfc-9c5b-61a7cdca3570.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_3a1f50df8a03b5c6",
+    "sha256": "272e1347881fd9a614f0b4ed6ff46537939d47c820ebd2a72ea4b00a8879ed73",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MTRfNjkg%2FMDAxNzg0MDI2Njk0ODI2.BO42kyEuQMc4QI9fdsUpmiqmV_Riv7ZN6i5aMTSJQcIg.7Yt3o9uWqN472eO1_SUHFoOMBu07KoqqIMKXsexGhdsg.JPEG%2F02_%25ED%2582%25A4%25EC%2598%25A4%25EC%258A%25A4%25ED%2581%25AC%25EB%25A9%2594%25EB%2589%25B4.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_407b986aa1fca06d",
+    "sha256": "cce0a2a0155ac0f3366b32841bc642b12e2a367b0047da84a32a9536ef354c55",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA2MDlfMjQ4%2FMDAxNzgwOTgwNTc2MzE3.PhgEkNzQCBWGtBlLphxWjAiHeYRukPnOdCR8CUgPknUg.4ufZEX4Zl6PoI2k4ab9smADf-FqW81tV8STwf1plnNsg.JPEG%2FSE-67faf5c0-63b0-11f1-9e26-fdb97ae1aefc.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_33d7fd8cf7ee9e09",
+    "sha256": "83d962465450965e97fff0f8258f13ff52a4d923484634852fa5b663fa40e2a3",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA0MjRfNTgg%2FMDAxNzc2OTg2NDQ1NzM1.4f9gyGWRUIAde5ZklPCn7kLCE8dEsLkOvUu1UlFL9dYg.3gZW3wVn-_ccFYb9BG0Pg41qVHrLtMnczGY9YOZEJnQg.JPEG%2F900_1776986436081.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_fbfce5cf298fbce0",
+    "sha256": "fa92ec5ebcfe0774afe1ecdd25351497ab256c07664986f09c60ea2ec1dd7178",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MjhfOTkg%2FMDAxNzg1MjMxMzgwNTg1.Ivz6zK3EY-_79lZpzjlZZuq9MNvzHe7nui4Ml_PXf4Ag.xE2MOBG1XRIcEOertLG1o8UXWBIa4KjHaLujdXrjF_Yg.JPEG%2FIMG_0832.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_6cdedf1105344b60",
+    "sha256": "8fb2a33385e1592d85555df7e490a83e72a56485acc774f4333817572169f389",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA0MjBfMTc2%2FMDAxNzc2NjY4NDM3Nzky.prYZwSnlfR75Qqs-jMgtQjf4Uz2swnln3e83CMpSbS4g.lPuu5EpIoQak2GBFHP2vB2-TY_Z8AIje1LA0biZoz-4g.PNG%2Fimage.png%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_0e90ccd62748d893",
+    "sha256": "7531d93d517e7580bfae37190d3ac6df70746600dc69b354e562e34bd8320fb4",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA5MjZfMTcw%2FMDAxNzU4ODczMTk5Mjgx.N5PAT6BaQysGRH8vJlMnu7R8io_5R5nofK7pG8amEFwg.vzg1M3v2-xG95YpHFdo4b0CWRFUGH-DkkU_7TJpl7Lgg.JPEG%2FIMG_3765.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_0af339832d7758bb",
+    "sha256": "c91cdafc279144632e8cc1a8f6f52f65304450683b6263ba702a90c94abea042",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjAxMjRfMjk2%2FMDAxNzY5MjU4NTc5ODAz.3ccSzdcu_R6cdevv4lLfjXP5Vf0ZEbzHQDBIf8BczEwg.3nMqJm8yme0EEYI4JwE0jQEvbsXMnFxyZy5K1g4YAOAg.JPEG%2FIMG_9581.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_99f11fc1f2ffbe83",
+    "sha256": "793b03d2fea1b4f40e16c05062e3645033c37b0f06d8ea1fe91edd57152aa73e",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjAxMThfMzYg%2FMDAxNzY4NjYyNjIxMDAx.lH_gny-QZ5K17PXw5N-zJ4Tyy0xa8FT5sLNp3kXJU1Eg.WGWq_OVjo9nf2-8PeAxVv3pvdKhoQbLxk7M0RvQAnccg.JPEG%2FSE-bb2b9d52-892a-4137-b031-dbb013432e73.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_881b4f6c83ff4346",
+    "sha256": "eedcc8088e6db3d3349319bfec66f5adefb83ebaaed433f1e9c46dceef461b6b",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA4MTlfMjA5%2FMDAxNzU1NTgxMDQyMTEw.4rF5QyLbl1xgPo3hDg2TUgH9KfCf12TqtpFtgpTO_o4g.BV5Q60DXkTAcybPiyDkosed8NYm1Tqag50IojE_7qhsg.JPEG%2FIMG_9078.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_507110d9a229991a",
+    "sha256": "b69b7d2e9858336e3d5b1532eaa2b4db89865aa53ac2e940858ea1732f5f9ce2",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA3MjlfNzUg%2FMDAxNzUzNzQ1MDExNzAz.cKg-sc27v_z2nNgLMep8-yFA-qDMrRGEWZGWQtHHBo4g.HI6CjvgHKLCQvuKqasUcqLwdnp9STJ1pHY_bl4NVBv8g.JPEG%2FIMG%25EF%25BC%25BF0985.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_c48cebe8bdaa462e",
+    "sha256": "8e793636d96af7808f77080bf23de51f212c34ce2cbbf592eec1e3808caf6116",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA2MDdfMTMy%2FMDAxNzQ5MjgxMzg5NzMy.Kk4aZjG674MBdCn4hkbdw41M5xqqd3t1FEFaHmgnsjEg.twunzu3rSdG_s-f4JDaggH7QdlCUHB9NHqoyuWquyiUg.JPEG%2FIMG%25EF%25BC%25BF4612.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_63a1417ff72ec1e6",
+    "sha256": "4412b607f894183faee71052bc1e44aecfbc055ec8da5a5d82fcd2bda7ab93fd",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTAyMjVfMTU1%2FMDAxNzQwNDEzMjUyNzcy.4FS43-9U2Cor5yGwFwhkRYUGah-N8R2aAv7FYkGsaxAg.aGWx63alIiMKGPI5xeLIvXxkZwhwvcq9h0tqNo_HNWIg.JPEG%2F20250201_173723.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_2fb683a67805661e",
+    "sha256": "34abad36acf7a329ae57ee961afe794a34b82467064e3c71c650122019a260a2",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTAzMDZfNSAg%2FMDAxNzQxMjI1MzI3OTA4.58udRKtlCJ3p3oQ8qo3qcUsNqgdZlyuNtzoC8nicRlEg.xwqllb3EmuL7PQngCUREm6E4F45AUzfjDKoOYvDsHPog.JPEG%2F%25EB%25A9%2594%25EB%2589%25B4.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-950232540_6f8bb473fc01a675",
+    "sha256": "de0abd7ccf350a01ef0d9588965d93594c9aee021602d41e4f8692bfcc757aa0",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDEyMTlfMjEz%2FMDAxNzM0NTY1NTcwMzk1.zv2z14LRh0b0dL0IHVNj_R4X_vZw2ODJu0PdzefJtE0g.QwxoPKkOiLZtD1UqsBotVs_iMXPz1QFQdbnKwL4fwY4g.JPEG%2Foutput_1998008410.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T05:58:47.218Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\296_MW-2143093783_menu_photo_bundle.json",
+    "sha256": "17892904fcdbc19ede979351fdd618a5a53e377dc5eefcb21e18a91d10c09e3a",
+    "source_url": "https://place.map.kakao.com/2143093783#photoList?type=menuboard&pidx=0",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_538757436693e2b3",
+    "sha256": "09de0b74314554f51794451b026cef5a5876475825edf1820770ba61125eccb7",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjhfMTMy%2FMDAxNzkzMTYyNDU2NDgw.g06rHnJYpacQyQEYywx_yh0wsIlt44aYlI9OwxDqB8Yg.4SxbWmEpOG0o3roML0Syu3m_9FKe2t3CeerhidrM1Hgg.JPEG%2FKakaoTalk_20261026_150546866_26.jpg%3Ftype%3Dw386",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_8ccaecf717d91ca4",
+    "sha256": "d56c1188aaf28071618a83daabefdcac99acd032d290fca6633210fe777841f7",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMzFfMjc3%2FMDAxNzkzNDAxMDEzMjI2.bDRi24fNU2NVxCCc9C5Mta9XA5wEuwwQHEgCvJCV3Jog.VCu5Dq_R1F4tJOUGtT3B7b88MNcdYMzJchmqgKhX__gg.JPEG%2FIMG%25EF%25BC%25BF5377.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_29ace51ad6236406",
+    "sha256": "8ffa63404a837bcda4812843e8a144f025618f53e4baccb5eb296dd604197ae8",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjlfMTc5%2FMDAxNzkzMjAxMDI1Njg0.0b5zuXOeI6bHgjjWowb3CqYFsb7OSizcFEqIB3GPrD0g.tCQROPVGM8sOPX9i8-QqKLd9suDoQbI2zgoyzBW9XR4g.JPEG%2F20260927_122029.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_38056e6a5c6feb0c",
+    "sha256": "d56bec2e9018d5638ec3620dbbfe7574212b221bf67d27f89d92103bb64b2429",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjlfMjE5%2FMDAxNzkzMjAxMDI1NzM4.fY0D8WXPtXd-jjgh7NhQvkIiI_hbo3FfSgPdc3OUueAg.ooVoMhzFtaZ0Lose2zf20YwIVvXfse1lC35s2ZGjfgQg.JPEG%2F20260927_122034.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_95bdb12e47760fb3",
+    "sha256": "edf49660a6197fbfc2f48b491e43f688547a58e29e41b524852d5f3aede39723",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTRfMTQ4%2FMDAxNzkxOTU2MzU2OTQz.D--Vh65V5j9hUCmd1cxOWsRrQIsOaswwQrvCKOD_8Kog.a8bY_t4Rrn3CU3wSvHBI7oh5SxoXzheaWOJFbrud48Yg.JPEG%2F900_20261004_142633.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_f64ebba9c86e6a4a",
+    "sha256": "756cb7d593626acd27990645cd23450a2168a38233f60a6e389b14a7f11099f2",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTRfMjQz%2FMDAxNzkxOTU2MzU1NjU1.YWL43eqFbSlHpAZVHkm5Oe-ysdoiBKTdh0hVR-H_Gk0g._nHbmRCLRA3HfQ4v-b1Z23ItB6yYObeigZoTowqfrCAg.JPEG%2F900_20261004_142647.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_3eb22497e7adcec4",
+    "sha256": "c5dec709a82113a8888557045380187cdb2ff297e06ca7178db716ba034015f1",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F9445c0093b039209199a1075ba771f080e26faa7%3Foriginal",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_80af48ac513f3bb4",
+    "sha256": "2895dd85e5b96f72c2260c2d4ed7da89c4d6156037d845b2da7f2efd9265434a",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTJfODEg%2FMDAxNzkxODExMTc4MTY4.bQoHmtQZATyw1Wa96p2Qtp_WioaG-x7b9HNfkx-yrEgg.i5uCNH4WmhM4zRQv9_q0QrUcHbGl7Qg-rwdH2-mWnrkg.JPEG%2FIMG%25EF%25BC%25BF8631.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_77bc4530b8522b9f",
+    "sha256": "4c03e9476da3ecba1b859bf0c7710e8a9fa882934b62035f823e8ddcb21d845b",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTNfMjYw%2FMDAxNzkxODkyMTAxODY1.0oPq4_O_YJzQrkoUqMyNmm3lvpsTEwq5wYFg05OI1RIg.wM-sPyx-grTpFo5mBrY1OdmFewSgaVi0X2IZpISEbKUg.JPEG%2F900_20261009_142323.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_5908839982f5676a",
+    "sha256": "357d2aa80152daa6eb258956614bf9879874f1a0cbea183997bb8143a67e6b7a",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fc5fd8f46f9daf2f884ee754cb49785154e6a5ae7%3Foriginal",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_e47bd614c74f281d",
+    "sha256": "62b67f8c65b6712c69376a32cc579cfad3938d0633222b675fcc203b493bb264",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTJfMjM4%2FMDAxNzkxODExMTc4OTk3.JroG9a7tNt0AMVliG4JRSM7ZWyI0UWXPG3c9UXlFUhEg.97iJ_2GQ9Z51kVUGlSfu6narXnuWvsS9_1oIpwZZiVcg.JPEG%2FIMG%25EF%25BC%25BF8632.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_2cdbe48b53f63451",
+    "sha256": "c29ee0d4bae7df12178dae952feb5237ebffbc0f71f7c33d17c1cde4cce6d4f6",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMTJfMTU1%2FMDAxNzkxODExMTc4MTU5.NdQrpuNSBYRdus0-6xIWgg0HQLumDhZOR724bDGdjh4g.CVmpJTfj0xoWHx68QKIh1o90NLnFx_8FzyZj9jX8hrcg.JPEG%2FIMG%25EF%25BC%25BF8634.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_c70ef705040833c6",
+    "sha256": "541e01e07b41f2c5c8873b09b28d68de3fa34356a83f996a325062e49c51357f",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMDFfMjY0%2FMDAxNzkwODM2MTk0ODA3.9PjOSoVC70xQrlVYRQ6VgGJzEQS1g68DLdTvdvmDhSIg.y1VIZnuFlNDG2r4YNJOjgrGN4dKrDMWimx5BP5_QHmgg.JPEG%2F900_20261001_132234.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_f96b6d3e9ba667f1",
+    "sha256": "eb641c3923e54890c373c4f178fd228b0473177a285361d6ce42a66520738372",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MjdfNDgg%2FMDAxNzkwNTA4NjAyMzgy.LLGknF4uMrUl49iD3BwdSUlHbXOKVilAqTo93mMSSxwg.RciaLDOdRsIxzVtOupdIfm9Xsa2Sd1s2Emp_hPRTDYEg.JPEG%2FIMG%25EF%25BC%25BF3834.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_9b7289e541996147",
+    "sha256": "f84916ffd0361b185a9b6a669e14a7d3284e4f837b312a32c734206b64369f61",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MTRfNTQg%2FMDAxNzg5MzEyODQ2Njgz.ndqR4HuHqsVkjXTqqGxATPPluF3V3bT4ZcYj0x2I6Nkg.F2h9M7VqG3YzJ4zfIGoWTtMt6kistD7fE357lvCDf7sg.JPEG%2FSE-c25edefe-0d02-470c-8d43-5a183ce0a5b0.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_b0485be86b1a4c42",
+    "sha256": "d0dded313d7a86905ee903e1574489cc4443e28a096e9621e4259f3f486c29c6",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MjdfMTky%2FMDAxNzkwNTA3Nzg4MDE0.kFlFu_hnvyNJSJE5n0jaIyBQhKvDUHTUE38f5EPFXbIg.7zOYF1LKw-HSfuTkw4dzUpb5oYYLtumYglSJKEtLElkg.JPEG%2FIMG%25EF%25BC%25BF3831.JPG%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_d42fe8faaf07598e",
+    "sha256": "b1b742ec7e9fc46662d9bcceaac5a044c35129f283b377b12b2579bbcbaba9d4",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MThfMTg3%2FMDAxNzg5NzI2NTk5Mzk4.NFxAX8WnEAAxfpJOwfROZ5Ur7HxkfW6mxfbDlzAbOfAg.qub7isZP8SYHSiBrYldLnyk_U1BZ9L-HKE3HLDsdvjUg.JPEG%2F900_20260917_154952.jpg%3Ftype%3Dw580",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_8d7a0d28f8b96ece",
+    "sha256": "ef609ff8d70d58e9dee82b0de967207927079115457ec4e22927f2e8512e06e1",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDhfMjU2%2FMDAxNzg4ODUxNTI1MTY3.lBO-cEpfWUeT_pN6V6Ov7-dQEXBrGc-BTCYp12a1_Ysg.DMwyiFiWD0rJaI4cohLKBCJZhE7iR1SKy3cJVooWnJAg.JPEG%2FKakaoTalk_20260908_152415778_09.jpg%3Ftype%3Dw466",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_e0c91d33af79624b",
+    "sha256": "7ea2b79925c789992ef3f6333a828156c9b82d3a41ce6989f4663c6d4a0d8e0d",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNTA5MThfMjMx%2FMDAxNzU4MTcwMTMzMzkw.hV1RHs3jP7vnrAfyBCKyIAI6r_ouUyQI-5wVz4E84L4g.2Bd45IpgvAlt-AXCrBL_Zp9-fNEmScrLoZmRGmy0VyUg.JPEG%2FIMG%25EF%25BC%25BF1621.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_3200b8d8cee50f10",
+    "sha256": "f5e5942a6dac77c2bca0aa108a4f435412f375a64e6e7655fe438c34b9a763b6",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MzFfMTg3%2FMDAxNzg4MTYyODUzNDE5.JIQpOVBulaa-DvOQyTW5r3Fmc02G-1KV3Py9L02aegkg.JxR3omrcbDG9lfAO-kbpiS139GalhaKQ5dygtjY1WrUg.JPEG%2FIMG%25EF%25BC%25BF3608.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_e1118ede48ce661d",
+    "sha256": "b34d96e072eaf3985fcc3f873e52e1d208b4857b70e8a7ef781ce09e150771f9",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDJfODEg%2FMDAxNzg4MzMyOTA5NzI0.ksSD_JntbPaEX8E1N3W4crNMPwn_rzrgG0Uic2g4CxYg.LT7mCdtQHw3CaiBhgTCBtN8vtZFJbMsbMIWEqtjlyHQg.JPEG%2Foutput%25EF%25BC%25BF1499569816.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_c996efc6b39c5e58",
+    "sha256": "f64aefee52bca2d869a7554bae46a71d9f27669075e42f7e1a03f97254716504",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDZfMjM5%2FMDAxNzg4NjYxOTcyMjUw.WT9CM43RR9-e7hVXaLnvpyYWEJr28ECtwR-Kvs-oyTUg.z8eXGZYodItOQ_dZ78jCrN5b1NxVBs6-20KN17Kw0TMg.JPEG%2Foutput%25EF%25BC%25BF814028332.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_f3ea58e8a3d33331",
+    "sha256": "d3986d165f0fd82c4520ea4cee2525d55834cf8e4d0287bc7ddc3995797e00ac",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MzBfMjc3%2FMDAxNzg1NDA5MzQ1OTU0.rWBGUlTsR59WuzcP5H6aD0Vfw8SXvIX85MZ6JLbOW-wg.azYPdUeBF1_FhC6H4Vgsn7f3YRWgYxV7Ys2z-mXgEHEg.JPEG%2F1785409345108.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_fe649eb72af4dbe3",
+    "sha256": "422322b10523edc0b2572da33a2a36365c185669b1757e444be23bf2a315ab77",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MTVfMTIy%2FMDAxNzg0MTI1NjEwMTg0.WOzBDfocTMoBrWBGrAQmA6pLOXNjbFWQfW-FNsgojbUg.Pr4_0EIen5X2qHq0bvZ2uiKW-DdgT3pPF5rScSCHTAAg.JPEG%2FKakaoTalk_20260715_231556065_18.jpg%3Ftype%3Dw466",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_e981e266ac6dc0db",
+    "sha256": "9d62ae4ee8b93677bfe769469efdddc33f88311b581b06429696a85dc5518ab5",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MDZfOTYg%2FMDAxNzgzMzQ3OTY5NzU0.HipPGy3HPCpe4xjz90BwCceiHeRYMZ2C14TDvGbiprQg.ob-8ousNSi1B6SzSZDKDgEJO5zG-19Z1BJhS-AoC0qAg.JPEG%2FIMG%25EF%25BC%25BF3943.jpg%3Ftype%3Dw580",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_242b64aa556e7eaf",
+    "sha256": "ad6587b13586fbdb162d5af0f346bd54898cb398b60442ce9bcccb8e2bc35a93",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MDZfMjQg%2FMDAxNzgzMzQ3OTQ4NTQ3.faV9kD-ouZE2VHGW_ufR970pULMlNqjlTigFN-MAGBMg.Tj07-aPqjr-JUh7zUOCbclU3ZGJy70TSmt3kMNupKN8g.JPEG%2FIMG%25EF%25BC%25BF3942.jpg%3Ftype%3Dw580",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_4c7a01e133b1c43f",
+    "sha256": "57aafa46078205b4760002eeda9a37dac707b48414e8fdce6651c962f2745bb7",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA0MTJfMjkg%2FMDAxNzc1OTg3ODQwMjg2.pIz93BvE6yge70hEoOetxvhB477v75rRwNgj6r0MI_0g.NWKXsvYLBtP-wl1nEmgLzQbcUCZoNztLKsrRHGz2ZEkg.JPEG%2FIMG%25EF%25BC%25BF3901.jpg%3Ftype%3Dw466",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_758781e8a9e8ed35",
+    "sha256": "8a0be6d53fe4dcd59635dcbe04748ec441a27a0d6f8d385c9e7558a34fb95b77",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA2MTFfMTgz%2FMDAxNzgxMTY0Njk5NDIz.qxJ85YhVni7dlk-HXGG1GmYdsDPU-OFAnXuAInt001cg.m4nKhlxEk-ObeJ4tIWMt1rqfzbW5181kO__QQGoxMewg.JPEG%2FSE-eb4bcc30-b75f-458a-8f24-0d2a8532ca50.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_c85c8cd5ddb76db2",
+    "sha256": "31d5b5335e4ca5b281f86aa710c066afbd389fa59490160e9f728ddee844a830",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA0MTNfMjAw%2FMDAxNzc2MDA3MTQ5NTIx.tx-xMlWlyCGAsGd-4hwkU_CXMYWN1n7j_2-cRi_TrTkg.8yXppVhO55KYeRAtE105R7bnsoolJucs9L8DH0n-KBsg.JPEG%2FSE-750C3B77-7F7A-408B-B795-0DADFBC07677.jpg%3Ftype%3Dw580",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-2143093783_c1fe8122e900775c",
+    "sha256": "cf159de9db38fd776e90b7a88e9a075f99c9cf8e8166ffcbd56a6b6ddee707d5",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Ffiy_reboot%2Fplace%2F782339C404064FA8B095FFD96657E2DC",
+    "observed_at": "2026-11-03T06:00:36.539Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\297_MW-8279183_overview_hours.json",
+    "sha256": "dad017c8fa815575fed318ec8a725a14cf04c1bc0dc1297f80564d1c12ad14dd",
+    "source_url": "https://www.google.com/maps/place/%EB%98%90%EB%98%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!3m1!4b1!4m4!3m3!1s0x357c99268aa8769d:0xdde1b89d75720010!16s%2Fg%2F1td23ccj!20s8Q98HW54%2B3R3?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+    "observed_at": "2026-11-03T06:01:46.165Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\298_MD-140582374_overview_hours.json",
+    "sha256": "dea2bc6752b0d921540e442ee275894ba74f91d79f8873878ad9afd6fcd4637c",
+    "source_url": "https://www.google.com/maps/place/%EB%B0%80%ED%94%BC%EC%9C%A0/data=!3m1!4b1!4m4!3m3!1s0x357ca2efda8b45f3:0xa5c9dcc9eca9f8e1!16s%2Fg%2F11g0kjjbxx!20s8Q98HX7P%2B82Q?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+    "observed_at": "2026-11-03T06:02:28.295Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\299_MW-18856246_home_hours.json",
+    "sha256": "2ee5e8989c7d8bc574cc31b75076c2ac3d5f181ffa6f22ae37ee540a54c42039",
+    "source_url": "https://place.map.kakao.com/18856246",
+    "observed_at": "2026-11-03T06:02:28.735Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\300_MW-18856246_menu.json",
+    "sha256": "0b236d9b959a8b20287fa28ab596321657a4411c4081b42e50b11755a22d1488",
+    "source_url": "https://place.map.kakao.com/18856246#menuInfo",
+    "observed_at": "2026-11-03T06:02:39.626Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\records\\301_MW-18856246_menu_photo_bundle.json",
+    "sha256": "18b1c43269e6e29bbbc820039becbb9fda22bb9e7b84ac985caaa45ea3581db9",
+    "source_url": "https://place.map.kakao.com/18856246#photoList?type=menuboard&pidx=0",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "restaurant_detail"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-18856246_2a5bd5a3033c36c7",
+    "sha256": "bda9f1b97fe10907484debed5642c3fa91c59bd970ed102fcf995f780f36eb9c",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MDFfMTc5%2FMDAxNzg4MjU1ODQ4Njc2.bn3E29i4Q9nCFbZkwmUf8JydSvZwrNaoH-pviBGWXEog.LmIXh37zSeepAbZbjMlOos9vkZTZSlII9w1bhnpbI-Eg.JPEG%2FIMG_3265.jpeg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-18856246_19e144b1feea4cd8",
+    "sha256": "f90d91f3fb3048558688ebab790c06d90e340d39a075d7d8b40daa577268be34",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MjJfMjcy%2FMDAxNzkwMDczMjU4NjYw.Gf2ATnDySSUSnGRJC9dXSQ65Kc-BWkd1wyqzSxdmBbQg.ZkyRzSAVhjD5I-QNmTTr_UyjMRGG85D5q7XP1bOIILgg.JPEG%2F1790073256516.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-18856246_0a7c66fe00c0195a",
+    "sha256": "4dc82bbcd01c93e38ecb33442578bc1c115831d1384a3bc1ceb5636566557cec",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MTNfMjY1%2FMDAxNzgzOTI0ODcwNDk3.T9jAcPT00TcV9erS01c5HI9t_fZXcdA7IftMix1BMR4g.287D9Z8lJkoq3XQirlFYn_fRR36ZHKRdodw1Wzzvuugg.JPEG%2FIMG%25EF%25BC%25BF4663.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-18856246_36a1eece148e2f68",
+    "sha256": "858f07706b14a8e4fb4a0989266ddb84aebafcd7d74d7e9023bde121f6eec614",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA3MThfMjU1%2FMDAxNzg0MzQzOTk3ODQ1.3aRwHZOyqUe39Iuvh3PhygbfSCchK1R6O-DSTBhJp5og.NOHUxnuEWByBwb5az0wJp2xksS5qNmRT-qcKBVdc2aYg.JPEG%2Foutput%25EF%25BC%25BF1282939622.jpg%3Ftype%3Dw966",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  },
+  {
+    "file": "evidence\\추가상세_20261103_실측시작\\photos\\MW-18856246_b0889b2b206b23d4",
+    "sha256": "107728fa623a65f3e2ccbce6f5039d633076a4924f333ffecff4e72d5fc0797b",
+    "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA1MTJfMTIx%2FMDAxNzc4NTM4Njg3OTgx.nvxUpyo_UWR51zZMEUzo6FSRTbUo5WhILpLhRMcILmQg.VkeYT5_a8_Lmi7vI50aHIgk2gKkJOddZ3WZgBvtAJk8g.JPEG%2FSE-eea830bf-4625-11f1-8156-e5c5f02cf639.jpg%3Ftype%3Dw773",
+    "observed_at": "2026-11-03T06:02:40.303Z",
+    "evidence_role": "observed_image_not_automatically_read"
+  }
+]

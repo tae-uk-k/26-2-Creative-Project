@@ -1,0 +1,174 @@
+.hero {
+  display: grid;
+  gap: var(--s-5);
+}
+.heroHead {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--s-4);
+}
+.art {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: var(--s-r-xl);
+  background: var(--s-grey100);
+  font-size: 1.75rem;
+}
+.art.blue {
+  background: var(--s-blue50);
+}
+.art.green {
+  background: var(--s-green50);
+}
+.art.orange {
+  background: var(--s-orange50);
+}
+.art.red {
+  background: var(--s-red50);
+}
+.heroTitle {
+  font-size: var(--s-t3);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+}
+.heroText {
+  margin-top: 0.2rem;
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+/* 되돌리기처럼 드물게 쓰는 행동. 주요 버튼과 달리 늘리지 않는다. */
+.subtle {
+  display: flex;
+}
+@media (max-width: 38rem) {
+  /* 카드의 주요 버튼은 엄지로 누르기 쉽게 한 줄 가득 채운다. */
+  .actions > * {
+    flex: 1 1 100%;
+  }
+}
+.questions {
+  display: grid;
+  gap: var(--s-4);
+}
+.question {
+  display: grid;
+  gap: var(--s-3);
+  padding: var(--s-5);
+  border-radius: var(--s-r-xl);
+  background: var(--s-grey50);
+}
+.question :global(input) {
+  background: var(--s-paper);
+}
+.qIndex {
+  color: var(--s-blue700);
+  font-size: var(--s-t7);
+  font-weight: 700;
+}
+.changeList {
+  display: grid;
+  gap: var(--s-2);
+}
+.changeItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: var(--s-3) var(--s-4);
+  border-radius: var(--s-r-lg);
+  background: var(--s-grey50);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.factList {
+  display: grid;
+  gap: var(--s-1);
+}
+.fact {
+  display: grid;
+  justify-items: start;
+  gap: var(--s-1);
+  padding: var(--s-3) 0;
+  border-top: 1px solid var(--s-grey100);
+}
+.fact:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.factHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-3);
+}
+.factLabel {
+  color: var(--s-grey600);
+  font-size: var(--s-t7);
+  font-weight: 600;
+}
+.factValue {
+  color: var(--s-grey900);
+  font-size: var(--s-t6);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.muted {
+  color: var(--s-grey600);
+  font-size: var(--s-t6);
+}
+.more summary {
+  color: var(--s-grey700);
+  font-size: var(--s-t6);
+  font-weight: 600;
+  cursor: pointer;
+}
+.more[open] summary {
+  margin-bottom: var(--s-4);
+}
+.moreBody {
+  display: grid;
+  gap: var(--s-4);
+}
+.fieldset {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.fieldset legend {
+  margin-bottom: var(--s-2);
+  color: var(--s-grey700);
+  font-size: var(--s-t6);
+  font-weight: 600;
+}
+.source {
+  max-height: 12rem;
+  overflow: auto;
+  padding: var(--s-3);
+  border-radius: var(--s-r-md);
+  color: var(--s-grey700);
+  background: var(--s-grey50);
+  font-size: var(--s-t7);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.metrics {
+  display: grid;
+  gap: var(--s-3);
+}
+.form {
+  display: grid;
+  gap: var(--s-4);
+}
+.operator {
+  border: 1.5px dashed var(--s-grey300);
+}

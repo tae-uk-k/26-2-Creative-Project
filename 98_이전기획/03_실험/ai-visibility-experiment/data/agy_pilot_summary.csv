@@ -1,0 +1,4 @@
+﻿prompt_id,scenario,repeat,area,return_code,response_chars,url_count,sample_match_count,matched_restaurant_ids,eligible_for_primary_visibility_analysis
+MD01,pre_trip_us,1,myeongdong,0,2896,0,3,MD-R01|MD-R02|MD-R03,False
+SS01,pre_trip_us,1,seongsu,0,3186,0,3,SS-R01|SS-R02|SS-R08,False
+MW01,pre_trip_us,1,mangwon,0,3281,10,3,MW-R01|MW-R07|MW-R08,False

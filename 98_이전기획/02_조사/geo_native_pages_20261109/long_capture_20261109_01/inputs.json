@@ -1,0 +1,12 @@
+[
+  {
+    "name": "kakao",
+    "url": "http://127.0.0.1:8879/long_capture_20261109_01/kakao-long.html",
+    "selector": "#mainContent"
+  },
+  {
+    "name": "google",
+    "url": "http://127.0.0.1:8879/long_capture_20261109_01/google-long.html",
+    "selector": "#capture-google"
+  }
+]

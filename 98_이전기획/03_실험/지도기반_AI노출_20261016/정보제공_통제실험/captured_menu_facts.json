@@ -1,0 +1,19 @@
+{
+  "method":"Live rendered Kakao detail pages through CUA browser; title and address matched selected list; first two priced text-menu entries in display order.",
+  "author_type":"unknown",
+  "unit_rule":"Preserve units in item names. If absent, do not assume serving size, minimum order, or meal total.",
+  "profiles":[
+    {"restaurant_id":"MD01","observed_at_utc":"2026-10-16T07:27:52.297Z","menus":[{"name":"쉬림프 팟타이","price_display":"14,000원"},{"name":"후라이드비프누들","price_display":"15,000원"}]},
+    {"restaurant_id":"MD02","observed_at_utc":"2026-10-16T07:27:53.420Z","menus":[{"name":"치즈닭갈비","price_display":"15,000원"},{"name":"장인볶음밥(김치+날치알)","price_display":"3,000원"}]},
+    {"restaurant_id":"MD03","observed_at_utc":"2026-10-16T07:27:55.636Z","menus":[{"name":"파이브치즈 피자","price_display":"23,000원"},{"name":"명동 파스타","price_display":"19,500원"}]},
+    {"restaurant_id":"MD04","observed_at_utc":"2026-10-16T07:27:56.724Z","menus":[{"name":"소 양념왕갈비 (280g)","price_display":"48,000원"},{"name":"한우육회 150g","price_display":"38,000원"}]},
+    {"restaurant_id":"SS01","observed_at_utc":"2026-10-16T07:28:07.468Z","menus":[{"name":"체다크림치즈돈카츠","price_display":"14,000원"},{"name":"매콤돈카츠","price_display":"14,000원"}]},
+    {"restaurant_id":"SS02","observed_at_utc":"2026-10-16T07:28:08.531Z","menus":[{"name":"고기빠오즈","price_display":"9,000원"},{"name":"훈둔면","price_display":"9,000원"}]},
+    {"restaurant_id":"SS03","observed_at_utc":"2026-10-16T07:28:09.561Z","menus":[{"name":"비프 웰링턴","price_display":"48,000원"},{"name":"셰퍼드파이","price_display":"24,000원"}]},
+    {"restaurant_id":"SS04","observed_at_utc":"2026-10-16T07:28:10.502Z","menus":[{"name":"눈꽃 통삼겹 (180g)","price_display":"19,000원"},{"name":"눈꽃 특목살 (180g)","price_display":"19,000원"}]},
+    {"restaurant_id":"MW01","observed_at_utc":"2026-10-16T07:28:20.745Z","menus":[{"name":"직화소갈비된장찌개","price_display":"8,000원"},{"name":"눈꽃육회","price_display":"19,000원"}]},
+    {"restaurant_id":"MW02","observed_at_utc":"2026-10-16T07:28:21.848Z","menus":[{"name":"광어회무침","price_display":"50,000원"},{"name":"우럭회","price_display":"53,000원"}]},
+    {"restaurant_id":"MW03","observed_at_utc":"2026-10-16T07:28:22.905Z","menus":[{"name":"대패삼겹살(1인분)","price_display":"4,500원"},{"name":"생삼겹살(1인분)","price_display":"13,000원"}]},
+    {"restaurant_id":"MW04","observed_at_utc":"2026-10-16T07:28:23.912Z","menus":[{"name":"성북동돈까스","price_display":"13,500원"},{"name":"돈까스 비빔모밀정식","price_display":"13,000원"}]}
+  ]
+}

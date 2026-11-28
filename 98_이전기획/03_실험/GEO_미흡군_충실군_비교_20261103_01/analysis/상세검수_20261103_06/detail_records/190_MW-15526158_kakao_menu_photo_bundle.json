@@ -1,0 +1,29 @@
+{
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/png",
+        "id": "f84b7858d06839be",
+        "kind": "image",
+        "name": "C72x72.q50",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/d8bb5e10-71f7-40b5-b87a-54570d6aad33/f84b7858d06839be",
+        "url": "https://img1.kakaocdn.net/cthumb/local/C72x72.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Fprofile%2Fbb30fbc4c2595c06b952e2330ad5523a291efbf8%3Foriginal"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/d8bb5e10-71f7-40b5-b87a-54570d6aad33",
+    "failures": [],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/d8bb5e10-71f7-40b5-b87a-54570d6aad33/manifest.json",
+    "summary": {
+      "downloadedCount": 1,
+      "elapsedMs": 29.298300000024028,
+      "failedCount": 0,
+      "requestedCount": 1
+    }
+  },
+  "kind": "detail",
+  "observed_at": "2026-11-03T01:49:11.887Z",
+  "platform": "kakao",
+  "section": "menu_photo_bundle",
+  "store_id": "MW-15526158",
+  "url": "https://place.map.kakao.com/15526158#photoList?type=menuboard&pidx=0"
+}

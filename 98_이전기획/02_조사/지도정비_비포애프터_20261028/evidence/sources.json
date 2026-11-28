@@ -1,0 +1,128 @@
+[
+  {
+    "store": "힛사츠와자",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%ED%9E%9B%EC%82%AC%EC%B8%A0%EC%99%80%EC%9E%90(Hissatsuwaza)/data=!3m1!4b1!4m4!3m3!1s0x357c990006a61961:0x93b46c4afa816b00!16s%2Fg%2F11xsrqylhh!20s8Q98HW43%2B8W7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:25:37.095Z",
+    "views": [
+      "overview",
+      "menu-chashumen"
+    ]
+  },
+  {
+    "store": "힛사츠와자",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/1582808897#menuInfo",
+    "observedAt": "2026-10-28T06:26:18.966Z",
+    "views": [
+      "menu",
+      "menuboard-photo",
+      "hours-home"
+    ]
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/21748255",
+    "observedAt": "2026-10-28T06:28:09.843Z",
+    "views": [
+      "home",
+      "menu"
+    ]
+  },
+  {
+    "store": "육통령 명동본점",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%EC%9C%A1%ED%86%B5%EB%A0%B9+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f13d626cc5:0x7b842b6071e6ad06!16s%2Fg%2F11c6ts4sr0!20s8Q98HX6M%2BF48?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:28:44.375Z",
+    "views": [
+      "overview",
+      "info"
+    ]
+  },
+  {
+    "store": "오레노카츠 성수본점",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/2125770186",
+    "observedAt": "2026-10-28T06:29:54.618Z",
+    "views": [
+      "home"
+    ]
+  },
+  {
+    "store": "오레노카츠 성수본점",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%EC%98%A4%EB%A0%88%EB%85%B8%EC%B9%B4%EC%B8%A0+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca55eff3146bd:0xce498ffba233d690!16s%2Fg%2F11fll7h0qr!20s8Q99G2VX%2BVQQ?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:29:54.628Z",
+    "views": [
+      "overview",
+      "info"
+    ]
+  },
+  {
+    "store": "정각 서울망원본점",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/889810020",
+    "observedAt": "2026-10-28T06:30:30.533Z",
+    "views": [
+      "home"
+    ]
+  },
+  {
+    "store": "정각 서울망원본점",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%EC%A0%95%EA%B0%81+%EB%A7%9D%EC%9B%90%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99b205f3f7c5:0x16a93c36a090f0a3!16s%2Fg%2F11vc7jg6r3!20s8Q98HW33%2BQJR?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:31:20.910Z",
+    "views": [
+      "overview"
+    ]
+  },
+  {
+    "store": "명동피자 명동본점",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/19409195",
+    "observedAt": "2026-10-28T06:31:36.406Z",
+    "views": [
+      "home",
+      "menu"
+    ]
+  },
+  {
+    "store": "명동피자 명동본점",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%EB%AA%85%EB%8F%99%ED%94%BC%EC%9E%90+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f0fea87c87:0xb4e431567bb0fd3!16s%2Fg%2F1yg6nr1lq!20s8Q98HX6P%2BR89?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:31:36.411Z",
+    "views": [
+      "overview"
+    ]
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "kakao",
+    "url": "https://place.map.kakao.com/1684571578",
+    "observedAt": "2026-10-28T06:34:16.812Z",
+    "views": [
+      "home"
+    ]
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "google",
+    "url": "https://www.google.co.kr/maps/place/%ED%94%8C%EB%9E%9C%ED%8A%B8+%EC%97%B0%EB%82%A8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99191a9f8ddd:0x5b462cfdac369895!16s%2Fg%2F11q4m1l0g6!20s8Q98HW5F%2BV7J?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "observedAt": "2026-10-28T06:34:16.818Z",
+    "views": [
+      "overview",
+      "info"
+    ]
+  },
+  {
+    "store": "플랜트 연남점",
+    "provider": "official",
+    "url": "https://plantcafeseoul.com/plant-yeonnam/",
+    "observedAt": "2026-10-28T06:35:33.769Z",
+    "views": [
+      "branch",
+      "menu-photo"
+    ]
+  }
+]

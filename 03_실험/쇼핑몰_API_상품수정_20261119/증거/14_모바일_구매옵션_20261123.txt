@@ -1,0 +1,3 @@
+Browser tab: 682043614, Title: "[실험용] seelo 아카시아 벌꿀 500g : seelo", URL: "https://smartstore.naver.com/seelo/products/13883527217".
+There has been no change in the accessibility tree.
+The focused UI element is 228 container 상품 구매 옵션

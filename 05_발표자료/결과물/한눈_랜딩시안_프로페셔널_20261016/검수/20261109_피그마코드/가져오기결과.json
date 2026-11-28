@@ -1,0 +1,61 @@
+{
+  "pageId": "1097:11",
+  "pageName": "랜딩 시안 · 코드",
+  "layout": "2 columns",
+  "imports": [
+    {
+      "name": "키네틱 타이포",
+      "nodeId": "1098:12",
+      "status": "imported",
+      "preview": {
+        "status": "not_verified"
+      },
+      "fileUrl": "https://www.figma.com/design/M5WCPZN32W6PEeIaEvcRkC?node-id=1098-12"
+    },
+    {
+      "name": "멀티 윈도",
+      "nodeId": "1100:12",
+      "status": "imported",
+      "preview": {
+        "status": "not_verified"
+      },
+      "fileUrl": "https://www.figma.com/design/M5WCPZN32W6PEeIaEvcRkC?node-id=1100-12"
+    },
+    {
+      "name": "시내 탐험형",
+      "nodeId": "1102:12",
+      "status": "imported",
+      "preview": {
+        "status": "not_verified"
+      },
+      "fileUrl": "https://www.figma.com/design/M5WCPZN32W6PEeIaEvcRkC?node-id=1102-12"
+    },
+    {
+      "name": "가게 모델형",
+      "nodeId": "1104:12",
+      "status": "imported",
+      "preview": {
+        "status": "not_verified"
+      },
+      "fileUrl": "https://www.figma.com/design/M5WCPZN32W6PEeIaEvcRkC?node-id=1104-12"
+    },
+    {
+      "name": "지도 스팟",
+      "nodeId": "1106:12",
+      "status": "imported",
+      "preview": {
+        "status": "not_verified"
+      },
+      "fileUrl": "https://www.figma.com/design/M5WCPZN32W6PEeIaEvcRkC?node-id=1106-12"
+    }
+  ],
+  "verified": [
+    "5 imported receipts",
+    "5 CODE_INSTANCE nodes present",
+    "names and positions applied",
+    "entry HTML byte hashes match each source concept",
+    "all 169 non-secret project files packaged per layer"
+  ],
+  "preview": "not verified",
+  "screenshot": "Asset endpoint returned zero bytes; not used as evidence"
+}

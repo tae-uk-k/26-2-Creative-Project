@@ -1,0 +1,227 @@
+{
+  "note": "독립 손 계산: 공급자별 성공 2회, 주변 가게 1위, 우리 가게 2위. 사례 2",
+  "input": {
+    "beforeCount": 2,
+    "afterCount": 1,
+    "missingGemini": false,
+    "afterCompetitor": "B"
+  },
+  "expected": {
+    "schemaVersion": 1,
+    "measuredAt": {
+      "before": "2026-10-01T00:00:00Z",
+      "after": "2026-10-29T00:00:00Z"
+    },
+    "fixCompletedAt": "2026-10-15T00:00:00Z",
+    "intervalDays": 14,
+    "earlyRemeasure": false,
+    "summary": {
+      "providers": {
+        "openai": {
+          "before": {
+            "successCount": 2,
+            "appearanceCount": 2,
+            "rate": 1,
+            "avgRank": 2
+          },
+          "after": {
+            "successCount": 2,
+            "appearanceCount": 1,
+            "rate": 0.5,
+            "avgRank": 2
+          },
+          "rateDeltaPp": -50
+        },
+        "gemini": {
+          "before": {
+            "successCount": 2,
+            "appearanceCount": 2,
+            "rate": 1,
+            "avgRank": 2
+          },
+          "after": {
+            "successCount": 2,
+            "appearanceCount": 1,
+            "rate": 0.5,
+            "avgRank": 2
+          },
+          "rateDeltaPp": -50
+        }
+      },
+      "competitorPosition": {
+        "before": {
+          "position": 2,
+          "total": 2
+        },
+        "after": {
+          "position": 2,
+          "total": 2
+        }
+      },
+      "noChange": false,
+      "headline": "ChatGPT 추천 등장률이 100.0%에서 50.0%로 바뀌었어요."
+    },
+    "competitors": {
+      "beforeTop5": [
+        {
+          "name": "A",
+          "before": {
+            "openai": {
+              "successCount": 2,
+              "appearanceCount": 2,
+              "rate": 1,
+              "avgRank": 1
+            },
+            "gemini": {
+              "successCount": 2,
+              "appearanceCount": 2,
+              "rate": 1,
+              "avgRank": 1
+            }
+          },
+          "after": {
+            "openai": {
+              "successCount": 2,
+              "appearanceCount": 0,
+              "rate": 0,
+              "avgRank": null
+            },
+            "gemini": {
+              "successCount": 2,
+              "appearanceCount": 0,
+              "rate": 0,
+              "avgRank": null
+            }
+          }
+        }
+      ],
+      "newTop5After": [
+        {
+          "name": "B",
+          "after": {
+            "openai": {
+              "successCount": 2,
+              "appearanceCount": 2,
+              "rate": 1,
+              "avgRank": 1
+            },
+            "gemini": {
+              "successCount": 2,
+              "appearanceCount": 2,
+              "rate": 1,
+              "avgRank": 1
+            }
+          }
+        }
+      ],
+      "target": {
+        "before": {
+          "openai": {
+            "successCount": 2,
+            "appearanceCount": 2,
+            "rate": 1,
+            "avgRank": 2
+          },
+          "gemini": {
+            "successCount": 2,
+            "appearanceCount": 2,
+            "rate": 1,
+            "avgRank": 2
+          }
+        },
+        "after": {
+          "openai": {
+            "successCount": 2,
+            "appearanceCount": 1,
+            "rate": 0.5,
+            "avgRank": 2
+          },
+          "gemini": {
+            "successCount": 2,
+            "appearanceCount": 1,
+            "rate": 0.5,
+            "avgRank": 2
+          }
+        }
+      }
+    },
+    "questions": [
+      {
+        "orderNo": 1,
+        "lang": "en",
+        "text": "Where can I eat in Myeongdong?",
+        "textKo": "명동에서 식사할 곳은?",
+        "before": {
+          "openai": {
+            "appearanceCount": 2,
+            "successCount": 2
+          },
+          "gemini": {
+            "appearanceCount": 2,
+            "successCount": 2
+          }
+        },
+        "after": {
+          "openai": {
+            "appearanceCount": 1,
+            "successCount": 2
+          },
+          "gemini": {
+            "appearanceCount": 1,
+            "successCount": 2
+          }
+        },
+        "excludedProviders": []
+      }
+    ],
+    "sources": {
+      "targetSources": {
+        "before": [],
+        "after": []
+      },
+      "mapCitations": {
+        "before": {
+          "googleMaps": 0,
+          "kakaoMap": 0
+        },
+        "after": {
+          "googleMaps": 0,
+          "kakaoMap": 0
+        }
+      }
+    },
+    "changes": [
+      {
+        "provider": "google",
+        "field": "phone",
+        "fieldLabel": "전화번호",
+        "beforeValue": "확인하지 못함",
+        "appliedValue": "02-123-4567",
+        "status": "manual_done",
+        "method": "manual",
+        "verifiedAt": null,
+        "remeasureMatch": "unknown",
+        "note": null
+      }
+    ],
+    "conditions": {
+      "questionSetId": 1,
+      "repeatCount": 2,
+      "providers": [
+        "openai",
+        "gemini"
+      ],
+      "models": {
+        "before": {
+          "openai": "fake-openai",
+          "gemini": "fake-gemini"
+        },
+        "after": {
+          "openai": "fake-openai",
+          "gemini": "fake-gemini"
+        }
+      }
+    },
+    "notices": []
+  }
+}

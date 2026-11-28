@@ -1,0 +1,27 @@
+{
+  "store_id": "SS-487665317",
+  "item": 2,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "식사 주문 시 기본 제공 구성과 공식 연결 홈의 주문마감 시간이 연결됨. 포장22,900원은 매장21,900원과 판매 경로를 구분함.",
+  "sources": [
+    {
+      "quote": "주문 시 콘스프와 빵을 제공",
+      "source_url": "https://booking.kakao.com/detail/ticket/763879?t_src=kakaomap&t_ch=mapdetail_products",
+      "observed_at": "2026-11-03T01:47:30.619Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\184_SS-487665317_official_booking_seller_info.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "20:20",
+      "source_url": "https://pcmap.place.naver.com/restaurant/38590315/home?from=map&fromPanelNum=1&locale=ko&svcName=map_pcv5",
+      "observed_at": "2026-11-03T01:48:20.298Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\186_SS-487665317_official_linked_weekly_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

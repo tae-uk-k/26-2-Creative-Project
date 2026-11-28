@@ -1,0 +1,20 @@
+{
+  "kind": "screenshot",
+  "name": "google_original",
+  "geometry": {
+    "descriptionRect": {
+      "bottom": 319,
+      "height": 112,
+      "left": 96,
+      "right": 456,
+      "top": 207,
+      "width": 360,
+      "x": 96,
+      "y": 207
+    },
+    "font": "12px / 16px \"Google Sans Text\", \"Google Sans\", Roboto, \"Noto Sans KR\", Arial, sans-serif",
+    "h": 765,
+    "letterSpacing": "0.2px",
+    "w": 1440
+  }
+}

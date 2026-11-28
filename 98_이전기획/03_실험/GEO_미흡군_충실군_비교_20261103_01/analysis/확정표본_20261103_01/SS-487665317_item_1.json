@@ -1,0 +1,20 @@
+{
+  "store_id": "SS-487665317",
+  "item": 1,
+  "score": 1,
+  "status": "confirmed",
+  "reason": "주요 파스타의 메뉴·가격은 연결되지만 인분·중량은 미표시. 일부 스테이크250g·음료 용량만으로 주메뉴 전반을 2점 처리하지 않음.",
+  "sources": [
+    {
+      "quote": "랍스타 바질올리오",
+      "source_url": "https://place.map.kakao.com/487665317#menuInfo",
+      "observed_at": "2026-11-02T19:48:43.210Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\169_SS-487665317_kakao_menu.json",
+      "sha256": "2f268f32f107334626d44eeb97e73793d0f3a31c33253bf35af2f7bd3a980e0d",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    }
+  ],
+  "adjudicated_at_utc": "2026-11-03T06:07:46.582890+00:00",
+  "recommendation_outputs_seen": false
+}

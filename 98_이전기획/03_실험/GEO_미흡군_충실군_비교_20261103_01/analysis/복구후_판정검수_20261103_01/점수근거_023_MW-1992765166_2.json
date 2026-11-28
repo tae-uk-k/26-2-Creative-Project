@@ -1,0 +1,20 @@
+{
+  "store_id": "MW-1992765166",
+  "item": 2,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "한정수량이라는 실제 조건은 있지만 확인한 전체 매장 메뉴표에는 수량·주문시간이 연결되지 않음. 다른 일부 구성은 명확하여1점 검토값.",
+  "sources": [
+    {
+      "quote": "모짜 체다 카츠(한정수량) 13,000",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjJfMTA1%2FMDAxNzkyNjY5NjkzNDg3.Ead1GlZcqaKfH_WzK3_uUwvW8e_fWMNlHwVoSeTkcD8g.XkN3b4GdQFRN_UfxNDx3JguA2a34LlM4_TIKQJ6jUXcg.JPEG%2FIMG%25EF%25BC%25BF0633.jpg%3Ftype%3Dw773",
+      "observed_at": "2026-11-03",
+      "evidence_file": "analysis\\상세검수_20261103_05\\menu_photos\\MW-1992765166_b60d2d566cfd4f26.jpg",
+      "evidence_type": "manual_transcription_of_visually_read_photo",
+      "author_status": "uploader_not_assumed_owner",
+      "observed_date_note": "판독일; 사진 촬영일 아님"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

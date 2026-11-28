@@ -1,0 +1,16 @@
+[
+  {
+    "store_id": "MD-10372376",
+    "total": 4,
+    "group": null,
+    "included": false,
+    "reason": "사전 기준의 4점 제외. 0–3점 또는 5–6점으로 임의 변경하지 않음"
+  },
+  {
+    "store_id": "MD-7872029",
+    "total": 4,
+    "group": null,
+    "included": false,
+    "reason": "사전 기준의 4점 제외. 0–3점 또는 5–6점으로 임의 변경하지 않음"
+  }
+]

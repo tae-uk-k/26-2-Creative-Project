@@ -1,0 +1,29 @@
+{
+  "platform": "cafe24",
+  "external_id": "xodnrdl06066",
+  "shop_no": 1,
+  "product_no": "9",
+  "source_url": "https://xodnrdl06066.cafe24.com/disp/admin/shop1/product/ProductRegister?product_no=9",
+  "name": "샘플상품 1",
+  "fields": {
+    "description": "<p><span style=\"font: 12px/normal Gulim; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; float: none; display: inline !important; white-space: normal; -webkit-text-stroke-width: 0px;\">샘플상품 입니다.</span></p>\n",
+    "seo.meta_description": "",
+    "seo.meta_keywords": "",
+    "seo.meta_title": "",
+    "simple_description": "",
+    "summary_description": ""
+  },
+  "protected": {
+    "price": "5000",
+    "display": "{\"value\":\"T\",\"checked\":true}",
+    "selling": "{\"value\":\"T\",\"checked\":true}",
+    "stock_management": "{\"value\":\"F\",\"checked\":true}",
+    "stock_quantity": "0",
+    "soldout": "{\"value\":\"T\",\"checked\":false}",
+    "purchase_mode": "{\"value\":\"T\",\"checked\":true}",
+    "purchase_groups": "[{\"value\":\"1\",\"checked\":false},{\"value\":\"2\",\"checked\":false}]",
+    "minimum_quantity": "1",
+    "maximum_enabled": "{\"value\":\"F\",\"checked\":true}",
+    "maximum_quantity": "0"
+  }
+}

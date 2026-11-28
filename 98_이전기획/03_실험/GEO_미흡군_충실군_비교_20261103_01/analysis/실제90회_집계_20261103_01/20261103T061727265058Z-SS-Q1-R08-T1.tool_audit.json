@@ -1,0 +1,24 @@
+{
+  "thread_ids": [
+    "01a1a00e-32a8-74e3-84ef-39d5d981c333"
+  ],
+  "invalid_json_lines": [],
+  "provider_errors": [
+    {
+      "type": "error",
+      "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:50 PM."
+      }
+    }
+  ],
+  "forbidden_tool_items": [],
+  "search_events": [],
+  "agent_messages": [],
+  "final_message": "",
+  "automatic_valid": false,
+  "note": "검색 이벤트·URL·모델 자기보고만으로 지도 본문 접근 성공을 판정하지 않음."
+}

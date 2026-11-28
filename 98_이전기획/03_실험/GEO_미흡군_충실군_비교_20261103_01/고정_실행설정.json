@@ -1,0 +1,80 @@
+{
+  "study": "GEO 정보 미흡군과 충실군의 CLI 추천 등장률 비교",
+  "model_requested": "gpt-6.1-sol",
+  "resolved_model_snapshot": null,
+  "cli_executable": "C:\\Users\\xodnr\\AppData\\Local\\OpenAI\\Codex\\bin\\22cfb1d302613eae\\codex.EXE",
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "search_tool": "Codex builtin web_search",
+  "web_search": "live",
+  "reasoning_effort": "low",
+  "sandbox": "read-only",
+  "ephemeral": true,
+  "ignore_user_config": true,
+  "project_doc_max_bytes": 0,
+  "child_workdir_parent": "C:\\Users\\xodnr\\AppData\\Local\\seelo\\geo_cli_empty_20261103_01",
+  "timeout_seconds": 240,
+  "workers": 3,
+  "random_seed": 2026110301,
+  "max_retries_per_cell": 1,
+  "question_only_prompt": true,
+  "group_A_total_range": [
+    0,
+    3
+  ],
+  "group_B_total_range": [
+    5,
+    6
+  ],
+  "excluded_total": [
+    4
+  ],
+  "note": "요청 모델명은 고정. 내부 모델 스냅샷 ID는 CLI가 반환하지 않으면 미확인으로 유지.",
+  "created_at_utc": "2026-11-02T18:12:30.461681+00:00",
+  "prompts": [
+    {
+      "area_id": "MD",
+      "question_id": "Q1",
+      "prompt": "명동에서 한 끼 식사하기 좋은 음식점 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q2",
+      "prompt": "명동을 처음 방문하는 사람에게 추천할 음식점 5곳을 알려줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q3",
+      "prompt": "명동에서 대표 메뉴를 먹어볼 만한 식당 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q1",
+      "prompt": "성수에서 한 끼 식사하기 좋은 음식점 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q2",
+      "prompt": "성수를 처음 방문하는 사람에게 추천할 음식점 5곳을 알려줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q3",
+      "prompt": "성수에서 대표 메뉴를 먹어볼 만한 식당 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q1",
+      "prompt": "망원에서 한 끼 식사하기 좋은 음식점 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q2",
+      "prompt": "망원을 처음 방문하는 사람에게 추천할 음식점 5곳을 알려줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q3",
+      "prompt": "망원에서 대표 메뉴를 먹어볼 만한 식당 5곳을 추천해줘.\n카카오맵과 구글 지도의 공개 정보를 확인하고, 정확한 지점명, 추천 이유, 대표 메뉴·가격, 실제로 확인한 출처 링크를 제시해줘. 확인되지 않은 사실은 추측하지 마."
+    }
+  ]
+}

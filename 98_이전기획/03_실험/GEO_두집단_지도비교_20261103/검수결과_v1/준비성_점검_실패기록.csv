@@ -1,0 +1,4 @@
+﻿kind,target,status,error,evidence,included_in_exposure
+neutral_cli_readiness,카카오맵 공식 서비스 홈페이지 URL; 식당 검색 금지,process_success,,../readiness/20261102T160712Z.jsonl,False
+api_readiness,Google Places; 서울특별시청,access_failure,HTTP403 API_KEY_IP_ADDRESS_BLOCKED,../readiness/official_map_api_probe.json,False
+api_readiness,Kakao Local; 서울특별시청,access_failure,HTTP401 AccessDeniedError,../readiness/official_map_api_probe.json,False

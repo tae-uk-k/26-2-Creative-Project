@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="가게와 쇼핑몰에 제공할 GEO 정비 작업과 수정 전후 예시를 비교합니다.">
+  <title>가게·쇼핑몰 정비 비교</title>
+  <link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    @font-face { font-family:Pretendard; src:url("assets/PretendardVariable.woff2") format("woff2"); font-weight:100 900; font-style:normal; font-display:swap; }
+    :root { color-scheme:light; --text:#191f28; --sub:#4e5968; --muted:#6b7684; --line:#e5e8eb; --bg:#f9fafb; --blue:#1b64da; --blue-bg:#e8f3ff; --green:#0a7164; --green-bg:#edf8f5; --f14:.875rem; --f15:.9375rem; --f16:1rem; --f17:1.0625rem; --f20:1.25rem; --f24:1.5rem; --f30:1.875rem; }
+    * { box-sizing:border-box; }
+    html { font-size:16px; scroll-padding-top:24px; }
+    body { margin:0; background:#fff; color:var(--text); font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif; font-size:var(--f16); line-height:1.6; letter-spacing:-.015em; word-break:keep-all; overflow-wrap:anywhere; -webkit-font-smoothing:antialiased; }
+    main { max-width:1160px; padding:52px 32px 64px; margin:0 auto; }
+    h1,h2,h3,p { margin:0; }
+    h1 { font-size:var(--f30); line-height:1.34; letter-spacing:-.035em; font-weight:750; }
+    h2 { font-size:var(--f24); line-height:1.4; letter-spacing:-.025em; font-weight:720; }
+    h3 { font-size:var(--f20); line-height:1.45; font-weight:700; }
+    a { color:var(--blue); text-decoration-color:#a4c9ff; text-underline-offset:4px; }
+    a:focus-visible { outline:3px solid #3182f6; outline-offset:5px; border-radius:4px; }
+    .eyebrow { font-size:var(--f14); font-weight:650; color:var(--muted); margin-bottom:10px; letter-spacing:0; }
+    .header-bottom { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-top:14px; padding-bottom:28px; border-bottom:1px solid var(--line); }
+    .lead { color:var(--sub); font-size:var(--f17); line-height:1.5; }
+    nav { display:flex; gap:8px; flex-shrink:0; }
+    nav a { background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:8px 13px; color:var(--sub); font-size:var(--f14); font-weight:600; text-decoration:none; }
+    nav a:hover { background:#f2f4f6; }
+    section { margin-top:36px; }
+    .section-heading { display:flex; align-items:center; gap:10px; margin-bottom:18px; }
+    .section-number { display:grid; place-items:center; width:30px; height:30px; background:#f2f4f6; border-radius:8px; color:var(--muted); font-size:var(--f14); font-weight:700; font-variant-numeric:tabular-nums; flex-shrink:0; }
+    .table-shell { border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+    table { width:100%; border-collapse:collapse; table-layout:fixed; font-size:var(--f16); line-height:1.55; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
+    th,td { text-align:left; vertical-align:top; }
+    thead th { padding:19px 22px; border-bottom:1px solid var(--line); font-weight:700; }
+    thead th:first-child { width:18%; background:var(--bg); color:var(--muted); font-size:var(--f14); vertical-align:middle; }
+    thead th:not(:first-child) { width:41%; font-size:var(--f20); }
+    .store-heading { background:var(--blue-bg); color:var(--blue); }
+    .shop-heading { background:var(--green-bg); color:var(--green); }
+    .column-sub { display:block; margin-top:3px; font-size:var(--f14); font-weight:500; color:var(--sub); }
+    .phase-label { padding:10px 20px; background:var(--bg); border-bottom:1px solid var(--line); border-top:1px solid var(--line); color:var(--muted); font-size:var(--f14); font-weight:600; letter-spacing:0; }
+    tbody:first-of-type .phase-label { border-top:0; }
+    .work { padding:18px 20px; border-bottom:1px solid var(--line); font-size:var(--f15); font-weight:650; }
+    .work span { display:block; color:#8b95a1; font-size:.75rem; font-weight:600; letter-spacing:.04em; margin-bottom:3px; }
+    td { padding:18px 22px; border-bottom:1px solid var(--line); }
+    td + td { border-left:1px solid var(--line); }
+    tbody:last-of-type tr:last-child > * { border-bottom:0; }
+    .result { margin-top:7px; color:var(--muted); font-size:var(--f14); line-height:1.5; }
+    .result::before { content:"산출물  "; font-weight:650; }
+    .mobile-label { display:none; }
+    .common-note { display:flex; flex-wrap:wrap; gap:7px 20px; margin-top:15px; color:var(--muted); font-size:var(--f14); }
+    .common-note span::before { content:"·"; margin-right:7px; }
+    #examples { margin-top:44px; }
+    .examples-intro { margin-top:-8px; margin-bottom:20px; color:var(--muted); font-size:var(--f14); }
+    .examples-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+    .example-card { border:1px solid var(--line); border-radius:14px; padding:24px; }
+    .example-header { display:flex; align-items:center; gap:10px; margin-bottom:20px; }
+    .category { padding:4px 9px; border-radius:6px; background:var(--blue-bg); color:var(--blue); font-size:var(--f14); line-height:1.5; font-weight:650; white-space:nowrap; }
+    .shop .category { background:var(--green-bg); color:var(--green); }
+    .before { padding:17px 18px; background:var(--bg); border-radius:10px; color:var(--sub); }
+    .state { font-size:var(--f14); font-weight:700; margin-bottom:8px; }
+    .before .state { color:var(--muted); }
+    .after { padding-top:20px; margin-top:18px; border-top:1px solid var(--line); }
+    .after .state { color:var(--blue); }
+    .shop .after .state { color:var(--green); }
+    .owner-line { font-weight:600; margin-bottom:12px; }
+    dl { margin:0; }
+    .fact { display:grid; grid-template-columns:66px 1fr; gap:12px; padding:9px 0; }
+    .fact + .fact { border-top:1px solid #f2f4f6; }
+    dt { color:var(--muted); font-size:var(--f14); padding-top:2px; }
+    dd { margin:0; }
+    .spec-grid { display:grid; grid-template-columns:1fr 1fr; background:var(--green-bg); border-radius:10px; padding:4px 16px; margin-bottom:12px; gap:0 20px; }
+    .spec-grid .fact { display:block; padding:10px 0; }
+    .spec-grid .fact + .fact { border:0; }
+    .spec-grid dd { font-weight:650; margin-top:2px; }
+    .outcome { margin-top:17px; padding-top:14px; border-top:1px solid var(--line); color:var(--sub); font-size:var(--f14); }
+    .outcome strong { color:var(--text); }
+    @media(max-width:720px) {
+      main { padding:30px 20px 40px; }
+      h1 { font-size:var(--f24); }
+      h2 { font-size:var(--f20); }
+      .header-bottom { display:block; padding-bottom:22px; }
+      .lead { font-size:var(--f16); }
+      nav { margin-top:16px; }
+      section { margin-top:28px; }
+      .comparison,.comparison tbody,.comparison tr,.comparison td,.comparison th { display:block; width:100%; }
+      .comparison thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+      .comparison .phase-label { padding:11px 16px; border-top:1px solid var(--line); }
+      .comparison .work { padding:15px 16px 4px; border-bottom:0; font-size:var(--f16); }
+      .work span { display:inline; margin-right:7px; font-size:var(--f14); }
+      .comparison td { padding:12px 16px 15px; border-left:0; }
+      .comparison td:first-of-type { border-bottom:1px solid #f2f4f6; }
+      .mobile-label { display:inline-block; margin-bottom:7px; padding:2px 7px; border-radius:4px; background:var(--blue-bg); color:var(--blue); font-size:var(--f14); font-weight:650; }
+      td:last-child .mobile-label { background:var(--green-bg); color:var(--green); }
+      .common-note { display:block; }
+      .common-note span { display:block; margin:4px 0; }
+      .examples-grid { grid-template-columns:1fr; gap:18px; }
+      .example-card { padding:20px; }
+      .fact { grid-template-columns:58px 1fr; gap:9px; }
+    }
+    @media print {
+      main { max-width:none; padding:0; }
+      body { font-size:10pt; }
+      nav { display:none; }
+      section,#examples { margin-top:24px; }
+      h2,h3 { break-after:avoid; }
+      tr,.example-card { break-inside:avoid; }
+      .table-shell { overflow:visible; }
+      .example-card { padding:16px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">GEO 정비 · 작업과 예시</p>
+    <h1>가게·쇼핑몰 정비 비교</h1>
+    <div class="header-bottom">
+      <p class="lead">가게는 방문 정보를, 쇼핑몰은 상품의 선택 정보를 정리합니다.</p>
+      <nav aria-label="내용 바로가기">
+        <a href="#comparison">작업 비교</a>
+        <a href="#examples">수정 예시</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="comparison" aria-labelledby="comparison-heading">
+    <div class="section-heading">
+      <span class="section-number" aria-hidden="true">02</span>
+      <h2 id="comparison-heading">무엇을 정비하나요?</h2>
+    </div>
+    <div class="table-shell">
+      <table class="comparison">
+        <caption class="sr-only">가게와 쇼핑몰의 정비 작업과 산출물 비교</caption>
+        <thead><tr>
+          <th scope="col">작업</th>
+          <th scope="col" class="store-heading">가게<span class="column-sub">식당·카페의 지도와 공식 페이지</span></th>
+          <th scope="col" class="shop-heading">쇼핑몰<span class="column-sub">자사몰의 상품 상세페이지</span></th>
+        </tr></thead>
+        <tbody>
+          <tr><th colspan="3" class="phase-label">정보 확인</th></tr>
+          <tr>
+            <th scope="row" class="work"><span>01</span>현재 상태 진단</th>
+            <td><span class="mobile-label">가게</span><p>지도·사이트·메뉴 사진의 지점, 영업시간, 가격, 예약 정보가 서로 맞는지 확인합니다.</p><p class="result">출처별 차이표 · 수정 목록</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>상세페이지·상품 데이터·실제 판매값의 모델, 옵션, 가격, 재고 차이를 찾습니다.</p><p class="result">상품·옵션별 오류표</p></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr><th colspan="3" class="phase-label">내용 정비</th></tr>
+          <tr>
+            <th scope="row" class="work"><span>02</span>사진 속 정보</th>
+            <td><span class="mobile-label">가게</span><p>메뉴판의 메뉴명·가격·중량·추가금을 확인해 지도 메뉴나 공식 메뉴표에 옮깁니다.</p><p class="result">검수한 메뉴표</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>상세 이미지의 소재·치수·구성품·호환 정보를 읽을 수 있는 HTML 설명으로 바꿉니다.</p><p class="result">텍스트 상세페이지 · 사양표</p></td>
+          </tr>
+          <tr>
+            <th scope="row" class="work"><span>03</span>소개와 문장</th>
+            <td><span class="mobile-label">가게</span><p>사장님 소개를 살리고 중복·오류를 고칩니다. 필요한 사실은 소개·메뉴·이용 안내에 나눠 담습니다.</p><p class="result">소개 수정안 · 변경 이유</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>브랜드 문구를 살리면서 용도·차이·사용 조건을 구체화해 상품을 비교하기 쉽게 만듭니다.</p><p class="result">핵심 설명 · 적합한 사용 조건</p></td>
+          </tr>
+          <tr>
+            <th scope="row" class="work"><span>04</span>이용·선택 조건</th>
+            <td><span class="mobile-label">가게</span><p>주차 위치·요금, 입구 계단, 유아 의자, 단체 인원처럼 방문에 필요한 사실을 정리합니다.</p><p class="result">이용 안내 · 사장님 확인 질문</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>호환 모델·사이즈·세척·사용 제한을 정리합니다. 성능·인증은 적용 모델과 근거를 확인합니다.</p><p class="result">제품 Q&amp;A · 비교표</p></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr><th colspan="3" class="phase-label">데이터 연결·관리</th></tr>
+          <tr>
+            <th scope="row" class="work"><span>05</span>페이지와 수집</th>
+            <td><span class="mobile-label">가게</span><p>공식 사이트의 지점·메뉴·이용 안내를 정비하고 검색 접근을 점검합니다. 사이트 제작은 별도입니다.</p><p class="result">지점별 공개 페이지 · 접근 기록</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>로그인·수집 차단, 대표 URL, 내부 링크를 점검하고 핵심 사양을 이미지 밖에도 표시합니다.</p><p class="result">상품별 수집·색인 점검표</p></td>
+          </tr>
+          <tr>
+            <th scope="row" class="work"><span>06</span>구조화·피드</th>
+            <td><span class="mobile-label">가게</span><p>자체 사이트의 <a href="https://developers.google.com/search/docs/appearance/structured-data/local-business" target="_blank" rel="noopener noreferrer">식당 구조화 정보</a>를 주소·시간·메뉴와 맞춥니다. 지도는 지원 입력 항목을 정비합니다.</p><p class="result">설정·코드 · 검사 기록</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p><a href="https://developers.google.com/search/docs/appearance/structured-data/product" target="_blank" rel="noopener noreferrer">상품 구조화 정보</a>와 피드의 옵션·가격·재고를 맞춥니다. 피드 연결은 지원 시장·계정을 확인합니다.</p><p class="result">상품 피드 · 필드 대응표 · 수신 확인</p></td>
+          </tr>
+          <tr>
+            <th scope="row" class="work"><span>07</span>예약·구매 경로</th>
+            <td><span class="mobile-label">가게</span><p>예약 링크와 인원·시간·취소 조건을 확인합니다. 예약망 추가 연동은 지원·계약 조건에 맞춰 진행합니다.</p><p class="result">예약 경로 · 운영 확인표</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>AI 결과와 도착 페이지의 상품·옵션·가격이 맞는지 확인하고 품절·배송 제한을 반영합니다.</p><p class="result">상품 진입·구매 경로 확인표</p></td>
+          </tr>
+          <tr>
+            <th scope="row" class="work"><span>08</span>반영과 유지</th>
+            <td><span class="mobile-label">가게</span><p>업주 확인·제출·공개 반영을 기록하고 휴무·가격·계절 메뉴가 바뀌면 함께 갱신합니다.</p><p class="result">반영 기록 · 변경 점검 · 재측정</p></td>
+            <td><span class="mobile-label">쇼핑몰</span><p>배포·수집·피드 수신을 기록합니다. 할인·품절·사양 변경을 본문과 데이터에 함께 반영합니다.</p><p class="result">갱신 규칙 · 불일치 점검 · 재측정</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="common-note">
+      <span>확인한 사실만 사용</span>
+      <span>플랫폼·사이트의 편집 권한 안에서 작업</span>
+      <span>리뷰 원문 수정·답변 대행 제외</span>
+    </div>
+  </section>
+
+  <section id="examples" aria-labelledby="examples-heading">
+    <div class="section-heading">
+      <span class="section-number" aria-hidden="true">03</span>
+      <h2 id="examples-heading">이렇게 바뀝니다</h2>
+    </div>
+    <p class="examples-intro">작업을 보여 주는 가상 예시입니다. 실제 값은 고객 자료로 확인합니다.</p>
+    <div class="examples-grid">
+      <article class="example-card store">
+        <div class="example-header"><span class="category">가게</span><h3>피자집</h3></div>
+        <div class="before">
+          <p class="state">정비 전</p>
+          <p>“정성을 담아 굽습니다.”<br>메뉴·가격은 사진에만 있고, 지도와 사이트의 마감 시간이 다름.</p>
+        </div>
+        <div class="after">
+          <p class="state">정비 후</p>
+          <p class="owner-line">“정성을 담아 굽습니다.” 소개 유지</p>
+          <dl>
+            <div class="fact"><dt>메뉴</dt><dd>마르게리타 28cm · 18,000원</dd></div>
+            <div class="fact"><dt>시간</dt><dd>11:30–21:00<br>마지막 주문 20:30</dd></div>
+            <div class="fact"><dt>이용</dt><dd>입구 계단 3개 · 유아 의자 2개<br>주차 미제공</dd></div>
+          </dl>
+        </div>
+        <p class="outcome"><strong>메뉴·영업·방문 조건</strong>을 지도와 공식 안내에 맞춰 반영합니다.</p>
+      </article>
+
+      <article class="example-card shop">
+        <div class="example-header"><span class="category">쇼핑몰</span><h3>휴대용 보조배터리</h3></div>
+        <div class="before">
+          <p class="state">정비 전</p>
+          <p>“하루 종일 든든하게.”<br>사양은 긴 이미지에만 있고, 옵션별 재고·구성품이 불분명함.</p>
+        </div>
+        <div class="after">
+          <p class="state">정비 후</p>
+          <dl class="spec-grid">
+            <div class="fact"><dt>용량</dt><dd>10,000mAh</dd></div>
+            <div class="fact"><dt>출력</dt><dd>USB-C 최대 20W</dd></div>
+            <div class="fact"><dt>무게</dt><dd>185g</dd></div>
+            <div class="fact"><dt>구성</dt><dd>케이블 별도</dd></div>
+          </dl>
+          <p>지원 조건·모델명을 텍스트로 표시하고, 블랙·화이트의 상품 ID·가격·재고를 구분합니다.</p>
+        </div>
+        <p class="outcome"><strong>상품 사양·옵션 정보</strong>를 본문·구조화 데이터·지원 피드에 맞춥니다.</p>
+      </article>
+    </div>
+  </section>
+</main>
+</body>
+</html>

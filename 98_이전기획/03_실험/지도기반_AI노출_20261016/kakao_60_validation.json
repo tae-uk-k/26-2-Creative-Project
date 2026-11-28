@@ -1,0 +1,27 @@
+{
+  "fixed_candidates": 60,
+  "detailed_profiles": 60,
+  "unique_restaurant_ids": 60,
+  "area_counts": {
+    "MD": 20,
+    "SS": 20,
+    "MW": 20
+  },
+  "detail_name_address_match_count": 60,
+  "priced_menu_profiles": 57,
+  "priced_menu_item_rows": 221,
+  "unobserved_or_unpriced_profiles": 3,
+  "unpriced_name_only_menu_profile": "MN26-MW-09",
+  "platform_ai_summary_profiles": 60,
+  "business_verification_labels_observed": 30,
+  "short_store_info_paragraphs_author_unknown": 6,
+  "owner_attributed_descriptions": 0,
+  "first_two_omit_lower_visible_price_profiles": 23,
+  "exact_photo_count_available": 0,
+  "natural_cli_outcome_labels_available": 0,
+  "raw_capture_sha256": "cd6356f9c0b40b50881b18c8cb5322bc5d4d1f7138d33c50898f77d1e60fab84",
+  "frozen_candidate_csv_unchanged": true,
+  "causal_claim": false,
+  "complete_menu_collection": false,
+  "cross_map_matches_complete": false
+}

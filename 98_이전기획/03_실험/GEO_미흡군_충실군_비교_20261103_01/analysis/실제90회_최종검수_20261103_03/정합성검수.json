@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "attempts": 90,
+  "completed_recommendations": 15,
+  "usage_limit_failures": 75,
+  "map_verification_failures": 15,
+  "valid": 0,
+  "raw_hashes_unchanged": true,
+  "cohort_hashes_unchanged": true,
+  "rates_null": true,
+  "repeated_response_not_store_sample": true
+}

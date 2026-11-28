@@ -1,0 +1,14 @@
+{
+  "date_kst":"2026-11-03",
+  "purpose":"로컬 지도 접근이 막힌 동안 공개 웹 검색으로 후보 탐색 가능 여부 확인",
+  "queries":["명동 돈까스 카카오맵 구글 지도","성수 파스타 카카오맵 구글 지도","망원 백반 카카오맵 구글 지도"],
+  "observed_results_not_map_detail":[
+    {"name":"명동돈가스","url":"https://www.tripinfo.co.kr/info.html?content_id=398339&content_type_id=39","scope":"제3자 검색 결과; 카카오·Google 상세 열람·순위 확인을 대체하지 않음"},
+    {"name":"콩카세 성수","url":"https://superchart.com/ko/stores/concasse-seongsu/","scope":"제3자 검색 결과; 실제 지도 상세·양 지도 동일 지점·검색 순위 미확인"},
+    {"name":"연남토마 성수점","url":"https://www.k-spots.com/ko/Aosdin/kr-seoul-seongsu-yeonnam-toma/","scope":"제3자 검색 결과; 실제 지도 상세·양 지도 동일 지점·검색 순위 미확인"}
+  ],
+  "candidate_admission":"보류. 제3자 정보를 지도 원문이라고 기록하거나 GEO 채점에 쓰지 않음.",
+  "native_rank_collected":false,
+  "new_verified_stores":0,
+  "new_confirmed_pairs":0
+}

@@ -1,0 +1,565 @@
+{
+  "runs": 240,
+  "recommendations": 1200,
+  "prompt_success_counts": {
+    "MD01-agy": 10,
+    "MD02-agy": 10,
+    "MD03-agy": 10,
+    "MD04-agy": 10,
+    "MW01-agy": 10,
+    "MW02-agy": 10,
+    "MW03-agy": 10,
+    "MW04-agy": 10,
+    "SS01-agy": 10,
+    "SS02-agy": 10,
+    "SS03-agy": 10,
+    "SS04-agy": 10,
+    "MD01-codex": 10,
+    "MD02-codex": 10,
+    "MD03-codex": 10,
+    "MD04-codex": 10,
+    "MW01-codex": 10,
+    "MW02-codex": 10,
+    "MW03-codex": 10,
+    "MW04-codex": 10,
+    "SS01-codex": 10,
+    "SS02-codex": 10,
+    "SS03-codex": 10,
+    "SS04-codex": 10
+  },
+  "counts_by_intent_top": {
+    "MD01": [
+      {
+        "name": "하동관",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "명동교자",
+        "appearances": 19,
+        "successful_runs": 20,
+        "general_appearances": 19,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "명동돈가스",
+        "appearances": 12,
+        "successful_runs": 20,
+        "general_appearances": 12,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "명동함흥면옥",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 11,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "미성옥",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "왕비집 명동본점",
+        "appearances": 6,
+        "successful_runs": 20,
+        "general_appearances": 6,
+        "delta_vs_general_pp": 0.0
+      }
+    ],
+    "MD02": [
+      {
+        "name": "하동관",
+        "appearances": 19,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -5.000000000000004
+      },
+      {
+        "name": "명동교자",
+        "appearances": 18,
+        "successful_runs": 20,
+        "general_appearances": 19,
+        "delta_vs_general_pp": -4.999999999999993
+      },
+      {
+        "name": "미성옥",
+        "appearances": 17,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": 40.0
+      },
+      {
+        "name": "명동함흥면옥",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 11,
+        "delta_vs_general_pp": -5.000000000000004
+      },
+      {
+        "name": "명동할머니국수",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 50.0
+      },
+      {
+        "name": "영양센터",
+        "appearances": 8,
+        "successful_runs": 20,
+        "general_appearances": 3,
+        "delta_vs_general_pp": 25.0
+      }
+    ],
+    "MD03": [
+      {
+        "name": "명동교자",
+        "appearances": 18,
+        "successful_runs": 20,
+        "general_appearances": 19,
+        "delta_vs_general_pp": -4.999999999999993
+      },
+      {
+        "name": "미성옥",
+        "appearances": 18,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": 45.0
+      },
+      {
+        "name": "명동돈가스",
+        "appearances": 15,
+        "successful_runs": 20,
+        "general_appearances": 12,
+        "delta_vs_general_pp": 15.000000000000002
+      },
+      {
+        "name": "멘텐",
+        "appearances": 12,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 60.0
+      },
+      {
+        "name": "혼고집",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 55.00000000000001
+      },
+      {
+        "name": "명화당",
+        "appearances": 4,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 20.0
+      }
+    ],
+    "MD04": [
+      {
+        "name": "명동교자",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 19,
+        "delta_vs_general_pp": 5.000000000000004
+      },
+      {
+        "name": "하동관",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "왕비집 명동본점",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 6,
+        "delta_vs_general_pp": 70.0
+      },
+      {
+        "name": "명동정",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 50.0
+      },
+      {
+        "name": "명동함흥면옥",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 11,
+        "delta_vs_general_pp": -5.000000000000004
+      },
+      {
+        "name": "미성옥",
+        "appearances": 6,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": -15.000000000000002
+      }
+    ],
+    "SS01": [
+      {
+        "name": "소문난성수감자탕",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "성수다락",
+        "appearances": 17,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "난포",
+        "appearances": 17,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "제스티살룬",
+        "appearances": 8,
+        "successful_runs": 20,
+        "general_appearances": 8,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "성수족발",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 5,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "멘야포모",
+        "appearances": 4,
+        "successful_runs": 20,
+        "general_appearances": 4,
+        "delta_vs_general_pp": 0.0
+      }
+    ],
+    "SS02": [
+      {
+        "name": "소문난성수감자탕",
+        "appearances": 19,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -5.000000000000004
+      },
+      {
+        "name": "할머니의 레시피",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 55.00000000000001
+      },
+      {
+        "name": "난포",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": -29.999999999999993
+      },
+      {
+        "name": "고우성수",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 45.0
+      },
+      {
+        "name": "계월곰탕",
+        "appearances": 7,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 35.0
+      },
+      {
+        "name": "능동미나리",
+        "appearances": 6,
+        "successful_runs": 20,
+        "general_appearances": 2,
+        "delta_vs_general_pp": 20.0
+      }
+    ],
+    "SS03": [
+      {
+        "name": "난포",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 15.000000000000002
+      },
+      {
+        "name": "다반",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 50.0
+      },
+      {
+        "name": "소문난성수감자탕",
+        "appearances": 8,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -60.0
+      },
+      {
+        "name": "쵸리상경",
+        "appearances": 8,
+        "successful_runs": 20,
+        "general_appearances": 1,
+        "delta_vs_general_pp": 35.0
+      },
+      {
+        "name": "성수족발",
+        "appearances": 6,
+        "successful_runs": 20,
+        "general_appearances": 5,
+        "delta_vs_general_pp": 4.999999999999999
+      },
+      {
+        "name": "할머니의 레시피",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 25.0
+      }
+    ],
+    "SS04": [
+      {
+        "name": "소문난성수감자탕",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -55.00000000000001
+      },
+      {
+        "name": "헤비스테이크",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 45.0
+      },
+      {
+        "name": "텐동식당",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 45.0
+      },
+      {
+        "name": "멘야코노하",
+        "appearances": 7,
+        "successful_runs": 20,
+        "general_appearances": 1,
+        "delta_vs_general_pp": 30.0
+      },
+      {
+        "name": "멘츠루",
+        "appearances": 6,
+        "successful_runs": 20,
+        "general_appearances": 1,
+        "delta_vs_general_pp": 25.0
+      },
+      {
+        "name": "미도인",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 25.0
+      }
+    ],
+    "MW01": [
+      {
+        "name": "우이락 망원본점",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "홍두깨손칼국수",
+        "appearances": 17,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "망원동즉석우동 본점",
+        "appearances": 13,
+        "successful_runs": 20,
+        "general_appearances": 13,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "일등식당",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "망원떡갈비",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 5,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "헤키",
+        "appearances": 4,
+        "successful_runs": 20,
+        "general_appearances": 4,
+        "delta_vs_general_pp": 0.0
+      }
+    ],
+    "MW02": [
+      {
+        "name": "홍두깨손칼국수",
+        "appearances": 18,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 5.000000000000004
+      },
+      {
+        "name": "우이락 망원본점",
+        "appearances": 15,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -25.0
+      },
+      {
+        "name": "고향집",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 2,
+        "delta_vs_general_pp": 45.00000000000001
+      },
+      {
+        "name": "망원떡갈비",
+        "appearances": 9,
+        "successful_runs": 20,
+        "general_appearances": 5,
+        "delta_vs_general_pp": 20.0
+      },
+      {
+        "name": "망원동즉석우동 본점",
+        "appearances": 7,
+        "successful_runs": 20,
+        "general_appearances": 13,
+        "delta_vs_general_pp": -30.000000000000004
+      },
+      {
+        "name": "할머니 빈대떡",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 25.0
+      }
+    ],
+    "MW03": [
+      {
+        "name": "흥흥호떡",
+        "appearances": 20,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 100.0
+      },
+      {
+        "name": "우이락 망원본점",
+        "appearances": 19,
+        "successful_runs": 20,
+        "general_appearances": 20,
+        "delta_vs_general_pp": -5.000000000000004
+      },
+      {
+        "name": "홍두깨손칼국수",
+        "appearances": 19,
+        "successful_runs": 20,
+        "general_appearances": 17,
+        "delta_vs_general_pp": 9.999999999999998
+      },
+      {
+        "name": "망원수제고로케",
+        "appearances": 10,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 50.0
+      },
+      {
+        "name": "진성만두 망원시장점",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 25.0
+      },
+      {
+        "name": "고손수제군만두",
+        "appearances": 4,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 20.0
+      }
+    ],
+    "MW04": [
+      {
+        "name": "헤키",
+        "appearances": 16,
+        "successful_runs": 20,
+        "general_appearances": 4,
+        "delta_vs_general_pp": 60.00000000000001
+      },
+      {
+        "name": "망원동즉석우동 본점",
+        "appearances": 13,
+        "successful_runs": 20,
+        "general_appearances": 13,
+        "delta_vs_general_pp": 0.0
+      },
+      {
+        "name": "청어람 망원점",
+        "appearances": 11,
+        "successful_runs": 20,
+        "general_appearances": 0,
+        "delta_vs_general_pp": 55.00000000000001
+      },
+      {
+        "name": "만두란",
+        "appearances": 8,
+        "successful_runs": 20,
+        "general_appearances": 1,
+        "delta_vs_general_pp": 35.0
+      },
+      {
+        "name": "일등식당",
+        "appearances": 5,
+        "successful_runs": 20,
+        "general_appearances": 9,
+        "delta_vs_general_pp": -20.0
+      },
+      {
+        "name": "강동원",
+        "appearances": 4,
+        "successful_runs": 20,
+        "general_appearances": 1,
+        "delta_vs_general_pp": 15.000000000000002
+      }
+    ]
+  },
+  "inputs_sha256": {
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\확장분석\\runs_clean.csv": "546b7ba2c225fdb91c895da6af82175be733abe0a61d71489be9f51b18859f56",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\확장분석\\recommendations_clean.csv": "645491661db4e1ca34ef71e6ce6895be56014d4e385148f734e49a86802642bb",
+    "C:\\Users\\xodnr\\Desktop\\26-2-Creative-Project-main\\03_실험\\ai-visibility-experiment\\cli_한국어_탐색\\확장분석\\restaurant_registry.csv": "4ea3ff96cb1dea4d7bf5762106e65c09c207132d1f22cba6161043127122dad6"
+  }
+}

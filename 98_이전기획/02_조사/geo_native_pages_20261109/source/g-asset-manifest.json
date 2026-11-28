@@ -1,0 +1,612 @@
+{
+  "assets": [
+    {
+      "contentType": "text/css",
+      "id": "7642a30185cf2a08",
+      "kind": "stylesheet",
+      "name": "css",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/7642a30185cf2a08",
+      "url": "https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700"
+    },
+    {
+      "contentType": "text/css",
+      "id": "dc5e32077d89541c",
+      "kind": "stylesheet",
+      "name": "rs=ACT90oGmf2ZWGSv7YxCX1oPpxOiUeEcPJQ",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/dc5e32077d89541c",
+      "url": "https://www.google.co.kr/maps/_/ss/k=maps.m.uSsmrgpYHu4.L.W.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,omhq0,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,EUHafb,PwZekb,FRNZOb,iDMycd,OXJqAb,b/am=EKAMAADAQCYBSA/d=1/rs=ACT90oGmf2ZWGSv7YxCX1oPpxOiUeEcPJQ"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1b85ca5b78377ad6",
+      "kind": "image",
+      "name": "grid-image.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/1b85ca5b78377ad6.png",
+      "url": "https://maps.gstatic.com/tactile/basepage/grid-image.png"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "5b57298509553e87",
+      "kind": "image",
+      "name": "loader_beige_1x.gif",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/5b57298509553e87.gif",
+      "url": "https://maps.gstatic.com/tactile/basepage/loader_beige_1x.gif"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "f975716931c68208",
+      "kind": "image",
+      "name": "AABkmLeSqOjHgummK_cUkKop2EOprikfoLrXUvZ2GtkwwqWWRYJWd_mMJSOrvRYHefIpQEre1fTJvKVmKeTJoj7G-jNNyd7gdHWW9Pn_AXAjeopqqg0RJc-EU1iNHJ7ry1yG-AaghJNpJpOhG1BN=w224-h224-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/f975716931c68208",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeSqOjHgummK_cUkKop2EOprikfoLrXUvZ2GtkwwqWWRYJWd_mMJSOrvRYHefIpQEre1fTJvKVmKeTJoj7G-jNNyd7gdHWW9Pn_AXAjeopqqg0RJc-EU1iNHJ7ry1yG-AaghJNpJpOhG1BN=w224-h224-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "cc97f8dff9c45b4a",
+      "kind": "image",
+      "name": "AABkmLen_YLTghy1n00jxHiqGqf9WEJhnepENbE1lev98SRHiS3f7pPTAYaIiJnMJw2HV9OMFtTdr-UF0F2jGNdg80co3n2C3rl84kw2CeE0pW2LPHSHVg38vGBnF_OfG7VLVumAdzESQL34wcPj=w224-h224-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/cc97f8dff9c45b4a",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLen_YLTghy1n00jxHiqGqf9WEJhnepENbE1lev98SRHiS3f7pPTAYaIiJnMJw2HV9OMFtTdr-UF0F2jGNdg80co3n2C3rl84kw2CeE0pW2LPHSHVg38vGBnF_OfG7VLVumAdzESQL34wcPj=w224-h224-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "562c459ac2d332e8",
+      "kind": "image",
+      "name": "AABkmLdhtERfvFcSM8-mK669iRmkulHsIC-2YLshizYY6KjAWy51SG3VcbbFlZkb3ZzxTzMlJ3IyPjtEtsQR8-PuhYp3iMw5DQs1G3AfgllLdBiE72D6ig0hYeEC3LJMMXiD8-CAkaLXkWjYFR_o=w224-h224-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/562c459ac2d332e8",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhtERfvFcSM8-mK669iRmkulHsIC-2YLshizYY6KjAWy51SG3VcbbFlZkb3ZzxTzMlJ3IyPjtEtsQR8-PuhYp3iMw5DQs1G3AfgllLdBiE72D6ig0hYeEC3LJMMXiD8-CAkaLXkWjYFR_o=w224-h224-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "e06cecfc373d80be",
+      "kind": "image",
+      "name": "AABkmLc4h3xjZHB06WfPLQJsAJjCInb1YyM0rPojI-vQ5AChTF0nBJUwCOFCx9Cw3nZF9NAdSYv-fLQjTJ_oKptpWAOJwEaJR2PV2c-j_zC50_ubuJMqFECyp_ZoYAhmrKmqwzeVT9_3PuXdi1wE=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/e06cecfc373d80be",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4h3xjZHB06WfPLQJsAJjCInb1YyM0rPojI-vQ5AChTF0nBJUwCOFCx9Cw3nZF9NAdSYv-fLQjTJ_oKptpWAOJwEaJR2PV2c-j_zC50_ubuJMqFECyp_ZoYAhmrKmqwzeVT9_3PuXdi1wE=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "6a1573aab68d89ff",
+      "kind": "image",
+      "name": "AABkmLdyb1YPqIx_J4-dSiCgNkI7adAbNAxRM9WP3msC60S0eVvrasL2XYFrfaHVae6wF34qr7sahxmOhAR0zYPJkWUKDLEeD8DnVZxE59SCLKA2UemtHMP59y1wTMjuX3PGzgsOjhAOq9cTmuJa=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/6a1573aab68d89ff",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdyb1YPqIx_J4-dSiCgNkI7adAbNAxRM9WP3msC60S0eVvrasL2XYFrfaHVae6wF34qr7sahxmOhAR0zYPJkWUKDLEeD8DnVZxE59SCLKA2UemtHMP59y1wTMjuX3PGzgsOjhAOq9cTmuJa=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a30c828405f2cc7e",
+      "kind": "image",
+      "name": "AABkmLfkfL1DXo2u8hSTEOFbBCfCIRJkgSg9a9FRh-zXNNzPBUTwwJp8rHxu000jEg11cvMB35poN_1sdWQ8aLed6jRc2bijfB2_HLO61qdOJbDqFfbJ63LFG0JVS8NMaiE6VlLKem5_U3uhysES=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/a30c828405f2cc7e",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfkfL1DXo2u8hSTEOFbBCfCIRJkgSg9a9FRh-zXNNzPBUTwwJp8rHxu000jEg11cvMB35poN_1sdWQ8aLed6jRc2bijfB2_HLO61qdOJbDqFfbJ63LFG0JVS8NMaiE6VlLKem5_U3uhysES=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "3e7889c9d5e303ac",
+      "kind": "image",
+      "name": "AABkmLciop-_r_YUVqLQGmjRc8o3lMCwVbJkvZ7GV6v5yQxPOczs6VCQtbCNCi0_9RJVsmUBx0yrA1DKq1mp-hUETOdYpmWuEr3ThVTp9e1x0qqheKb0Xcwtbxr4E4C8k8MsGRVqfZy7BUfpfvDs=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/3e7889c9d5e303ac",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLciop-_r_YUVqLQGmjRc8o3lMCwVbJkvZ7GV6v5yQxPOczs6VCQtbCNCi0_9RJVsmUBx0yrA1DKq1mp-hUETOdYpmWuEr3ThVTp9e1x0qqheKb0Xcwtbxr4E4C8k8MsGRVqfZy7BUfpfvDs=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "03b8fe948fd9a613",
+      "kind": "image",
+      "name": "AABkmLcONcdcyix4zh6CzUALL93OopKmumWHbopEgw9B1LZz3IJG5iDYHES338kqUa5eVYtKaoFNi1dsDuJ4inu03RRfUaS-2REQSIdjvPNu5Ms5oAc4V7RnbIlfa2nYeEXP0lhcqdi7Qx6EXOWs=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/03b8fe948fd9a613",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcONcdcyix4zh6CzUALL93OopKmumWHbopEgw9B1LZz3IJG5iDYHES338kqUa5eVYtKaoFNi1dsDuJ4inu03RRfUaS-2REQSIdjvPNu5Ms5oAc4V7RnbIlfa2nYeEXP0lhcqdi7Qx6EXOWs=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "44fb333a169f13eb",
+      "kind": "image",
+      "name": "AABkmLf0EQNHbnFT7EyGyJAzY_OnHgS5YqF7DdZF0JDTVLUwfYqsvzMH4MByhwnmp4HPHycHBG74pAfDtH9lBPt-DOAfgMXZh4SGxYNmBaSG0JJJufthrNdANMFw22MSyas4D31Ui8ZPVXgBlCvO=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/44fb333a169f13eb",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0EQNHbnFT7EyGyJAzY_OnHgS5YqF7DdZF0JDTVLUwfYqsvzMH4MByhwnmp4HPHycHBG74pAfDtH9lBPt-DOAfgMXZh4SGxYNmBaSG0JJJufthrNdANMFw22MSyas4D31Ui8ZPVXgBlCvO=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "3a8a9c6e86edd9e8",
+      "kind": "image",
+      "name": "AABkmLcEwHngVeKe2en_56UpFooMJrczjACYIxu9X27oFNOTGhs-dbguKp_SS4o-4SpFfLjgMNoElgKSglXIErIFIgCQRcDkcbApSqrZVq-wqEzHRSPJ3jq_RlrYTvjUNG4kBzvc2eD28seae6UB=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/3a8a9c6e86edd9e8",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEwHngVeKe2en_56UpFooMJrczjACYIxu9X27oFNOTGhs-dbguKp_SS4o-4SpFfLjgMNoElgKSglXIErIFIgCQRcDkcbApSqrZVq-wqEzHRSPJ3jq_RlrYTvjUNG4kBzvc2eD28seae6UB=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4a1f933d7aee6f55",
+      "kind": "image",
+      "name": "AABkmLd4VrVpU65SSJA-zFIVVN4gABe6HDMUkt0g_wAiRyFp4Ji-hRdT1hQAaH3aHpUT4r21QVi8YzrklEQoBdqjzZ5dNXqNMrqdXKO-KYDl9mAsAfjA3i93lPQNBLieAGv9k3r_jVWTQb_HdXHA=w344-h448-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/4a1f933d7aee6f55",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4VrVpU65SSJA-zFIVVN4gABe6HDMUkt0g_wAiRyFp4Ji-hRdT1hQAaH3aHpUT4r21QVi8YzrklEQoBdqjzZ5dNXqNMrqdXKO-KYDl9mAsAfjA3i93lPQNBLieAGv9k3r_jVWTQb_HdXHA=w344-h448-p-k-no"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b075311bea9939e8",
+      "kind": "image",
+      "name": "GoogleMaps_Logo_WithLightOutline.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/b075311bea9939e8.png",
+      "url": "https://www.google.com/images/branding/mapslogo/2x/GoogleMaps_Logo_WithLightOutline.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "62db753cbb439063",
+      "kind": "image",
+      "name": "GoogleMaps_Logo_WithDarkOutline.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/62db753cbb439063.png",
+      "url": "https://www.google.com/images/branding/mapslogo/2x/GoogleMaps_Logo_WithDarkOutline.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "89daa4f727de6003",
+      "kind": "image",
+      "name": "cafe_pinlet_v3-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/89daa4f727de6003.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/cafe_pinlet_v3-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "a4ad2619ec6f91c9",
+      "kind": "image",
+      "name": "tree_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/a4ad2619ec6f91c9.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/tree_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "d66e0bf75d3ca13d",
+      "kind": "image",
+      "name": "bus-0-tiny.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/d66e0bf75d3ca13d.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-0-tiny.png,assets/icons/transit/quantum_v2/transit-round-container-outline_v3-0-tiny.png,assets/icons/transit/quantum_v2/transit-round-container_v3-0-tiny.png,assets/icons/transit/quantum_v2/bus-0-tiny.png&highlight=ff000000,ffffff,4a6276,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "0528985f2ba13247",
+      "kind": "image",
+      "name": "arrow-opaque-2-medium.png&highlight=7f8a96",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/0528985f2ba13247.png&highlight=7f8a96",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/road/arrow-opaque-2-medium.png&highlight=7f8a96?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "0099bda7801cfaff",
+      "kind": "image",
+      "name": "parking_lot_stripes",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/0099bda7801cfaff",
+      "url": "https://www.google.co.kr/maps/vt/texture/name=cartographic/parking_lot_stripes"
+    },
+    {
+      "contentType": "image/png",
+      "id": "11a81237a2ec023f",
+      "kind": "image",
+      "name": "restaurant_pinlet_v4-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/11a81237a2ec023f.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/restaurant_pinlet_v4-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "6b61fcca368855a9",
+      "kind": "image",
+      "name": "dot_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/6b61fcca368855a9.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/dot_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "5a4953b5ab48bb6d",
+      "kind": "image",
+      "name": "shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/5a4953b5ab48bb6d.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=1&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ffffffff&name=assets/icons/road/shield-rounded-outer-1-small.9.png,assets/icons/road/shield-rounded-inner-1-small.9.png,assets/icons/road/shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "4db5ec177f7e98ef",
+      "kind": "image",
+      "name": "bar_pinlet-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/4db5ec177f7e98ef.png&highlight=ff000000,ffffff,ff8126,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/bar_pinlet-2-medium.png&highlight=ff000000,ffffff,ff8126,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ce04f1d6627fe345",
+      "kind": "image",
+      "name": "shoppingbag_pinlet-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/ce04f1d6627fe345.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/shoppingbag_pinlet-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "6007a2c0b0a3322f",
+      "kind": "image",
+      "name": "school_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/6007a2c0b0a3322f.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/school_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "7f30aedf2be61ec8",
+      "kind": "image",
+      "name": "lodging_pinlet-2-medium.png&highlight=ff000000,ffffff,f848c7,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/7f30aedf2be61ec8.png&highlight=ff000000,ffffff,f848c7,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/lodging_pinlet-2-medium.png&highlight=ff000000,ffffff,f848c7,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "307d1763aad0cf57",
+      "kind": "image",
+      "name": "shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/307d1763aad0cf57.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=70&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ff444443&name=assets/icons/road/shield-hexagon_flat_crown-outer-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-inner-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-fill-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "900ed1a84ff434dc",
+      "kind": "image",
+      "name": "spotlight_pin_v4_dot-2-medium.png&highlight=c5221f,ea4335,b31412",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/900ed1a84ff434dc.png&highlight=c5221f,ea4335,b31412",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v4_outline-2-medium.png,assets/icons/spotlight/spotlight_pin_v4-2-medium.png,assets/icons/spotlight/spotlight_pin_v4_dot-2-medium.png&highlight=c5221f,ea4335,b31412?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ba94c058ced16e01",
+      "kind": "image",
+      "name": "shoppingcart_pinlet-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/ba94c058ced16e01.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/shoppingcart_pinlet-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b088f974b7f499ae",
+      "kind": "image",
+      "name": "metro-2-medium.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/b088f974b7f499ae.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-2-medium.png,assets/icons/transit/quantum_v2/transit-round-container-outline_v3-2-medium.png,assets/icons/transit/quantum_v2/transit-round-container_v3-2-medium.png,assets/icons/transit/quantum_v2/metro-2-medium.png&highlight=ff000000,ffffff,4a6276,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "e5a6ad408462046c",
+      "kind": "image",
+      "name": "dot_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/e5a6ad408462046c.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/dot_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "02ac9c99a795aeea",
+      "kind": "image",
+      "name": "camera_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/02ac9c99a795aeea.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/camera_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "e1d1d00e48682903",
+      "kind": "image",
+      "name": "ita_sprite8_2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/e1d1d00e48682903.png",
+      "url": "https://www.gstatic.com/inputtools/images/ita_sprite8_2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "134f19daceadf64d",
+      "kind": "image",
+      "name": "event_venue_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/134f19daceadf64d.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/event_venue_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1b210bc06a58e65a",
+      "kind": "image",
+      "name": "convenience_pinlet_v2-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/1b210bc06a58e65a.png&highlight=ff000000,ffffff,597ff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/convenience_pinlet_v2-2-medium.png&highlight=ff000000,ffffff,597ff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1aa5984974078fbc",
+      "kind": "image",
+      "name": "boating_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/1aa5984974078fbc.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/boating_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "5092939de2ddc675",
+      "kind": "image",
+      "name": "hiking_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/5092939de2ddc675.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/hiking_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "123e50538ebb948f",
+      "kind": "image",
+      "name": "shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/123e50538ebb948f.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=6&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ffffffff&name=assets/icons/road/shield-rounded-outer-1-small.9.png,assets/icons/road/shield-rounded-inner-1-small.9.png,assets/icons/road/shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b1db56b3d8d8ac30",
+      "kind": "image",
+      "name": "metro-1-small.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/b1db56b3d8d8ac30.png&highlight=ff000000,ffffff,4a6276,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-1-small.png,assets/icons/transit/quantum_v2/transit-round-container-outline_v3-1-small.png,assets/icons/transit/quantum_v2/transit-round-container_v3-1-small.png,assets/icons/transit/quantum_v2/metro-1-small.png&highlight=ff000000,ffffff,4a6276,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "0898ff64e3c8079d",
+      "kind": "image",
+      "name": "arrow-opaque-1-small.png&highlight=7f8a96",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/0898ff64e3c8079d.png&highlight=7f8a96",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/road/arrow-opaque-1-small.png&highlight=7f8a96?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "89455a585e57c64e",
+      "kind": "image",
+      "name": "shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/89455a585e57c64e.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=88&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ff444443&name=assets/icons/road/shield-hexagon_flat_crown-outer-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-inner-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-fill-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "92b1e241f548b0b9",
+      "kind": "image",
+      "name": "flower_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/92b1e241f548b0b9.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/flower_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "989100d6b4a9cd5a",
+      "kind": "image",
+      "name": "bridge_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/989100d6b4a9cd5a.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/bridge_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "4d8afdc9514ba1f8",
+      "kind": "image",
+      "name": "worship_temple_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/4d8afdc9514ba1f8.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/worship_temple_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "79963d74c9bf4faf",
+      "kind": "image",
+      "name": "museum_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/79963d74c9bf4faf.png&highlight=ff000000,ffffff,b56aff,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/museum_pinlet-2-medium.png&highlight=ff000000,ffffff,b56aff,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "e52baf818585def5",
+      "kind": "image",
+      "name": "shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/e52baf818585def5.png&highlight=d5e3ff,3878c7,3878c7&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=48&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ffffffff&name=assets/icons/road/shield-rounded-outer-1-small.9.png,assets/icons/road/shield-rounded-inner-1-small.9.png,assets/icons/road/shield-rounded-fill-1-small.9.png&highlight=d5e3ff,3878c7,3878c7&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "5966e92179f4ebd9",
+      "kind": "image",
+      "name": "medical_pinlet_v3-2-medium.png&highlight=ff000000,ffffff,f74a55,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/5966e92179f4ebd9.png&highlight=ff000000,ffffff,f74a55,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/medical_pinlet_v3-2-medium.png&highlight=ff000000,ffffff,f74a55,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "43d6a7e47fafed4b",
+      "kind": "image",
+      "name": "paw_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/43d6a7e47fafed4b.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/paw_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ae81dbeedf97135a",
+      "kind": "image",
+      "name": "shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/ae81dbeedf97135a.png&highlight=444443,ededed,ffffff,da6161&scale=4",
+      "url": "https://mt0.google.com/vt/icon/text=30&psize=9&font=fonts/NotoSansKR-Medium.otf&color=ff444443&name=assets/icons/road/shield-hexagon_flat_crown-outer-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-inner-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-fill-1-small.9.png,assets/icons/road/shield-hexagon_flat_crown-apex-1-small.9.png&highlight=444443,ededed,ffffff,da6161&scale=4"
+    },
+    {
+      "contentType": "image/png",
+      "id": "53798bf7a1172a0e",
+      "kind": "image",
+      "name": "stadium_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/53798bf7a1172a0e.png&highlight=ff000000,ffffff,17a773,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/stadium_pinlet-2-medium.png&highlight=ff000000,ffffff,17a773,ffffff?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1fc19e8ebf87afca",
+      "kind": "image",
+      "name": "arrow-opaque-2-medium.png&highlight=687b8f",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/1fc19e8ebf87afca.png&highlight=687b8f",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/road/arrow-opaque-2-medium.png&highlight=687b8f?scale=2"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ca5aec6dcdb1a0fc",
+      "kind": "image",
+      "name": "cemetery_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/ca5aec6dcdb1a0fc.png&highlight=ff000000,ffffff,78909c,ffffff",
+      "url": "https://www.google.co.kr/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png,assets/icons/poi/tactile/forage_outline_v1-2-medium.png,assets/icons/poi/tactile/forage_window_v1-2-medium.png,assets/icons/poi/quantum/modern_pinlet/cemetery_pinlet-2-medium.png&highlight=ff000000,ffffff,78909c,ffffff?scale=2"
+    },
+    {
+      "contentType": "text/css",
+      "id": "01162a539da5cb37",
+      "kind": "stylesheet",
+      "name": "rs=AA2YrTvJwWT_kUKJhBovYFypIp7jzkaHvA",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/01162a539da5cb37",
+      "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.gxc8Nhj2sSM.L.W.O/m=qcwid,qba,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvJwWT_kUKJhBovYFypIp7jzkaHvA"
+    },
+    {
+      "contentType": "image/png",
+      "id": "925e57d2427368ce",
+      "kind": "image",
+      "name": "ic_terrain-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/925e57d2427368ce.png",
+      "url": "https://maps.gstatic.com/tactile/layerswitcher/ic_terrain-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "71c89d5b9e6aae93",
+      "kind": "image",
+      "name": "ic_transit_colors2-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/71c89d5b9e6aae93.png",
+      "url": "https://maps.gstatic.com/tactile/layerswitcher/ic_transit_colors2-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "9d11dc10145fd0f3",
+      "kind": "image",
+      "name": "ic_traffic_colors2-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/9d11dc10145fd0f3.png",
+      "url": "https://maps.gstatic.com/tactile/layerswitcher/ic_traffic_colors2-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1775f6ea4155cdd9",
+      "kind": "image",
+      "name": "ic_bicycling_colors2-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/1775f6ea4155cdd9.png",
+      "url": "https://maps.gstatic.com/tactile/layerswitcher/ic_bicycling_colors2-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b6fca1a3d6002d60",
+      "kind": "image",
+      "name": "AF2bZyhDVprQtfAEjj8DwYlwLqlfLdOUry-qdsw4x96i5_uoMg=s64-c-mo",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/b6fca1a3d6002d60",
+      "url": "https://lh3.google.com/u/0/ogw/AF2bZyhDVprQtfAEjj8DwYlwLqlfLdOUry-qdsw4x96i5_uoMg=s64-c-mo"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "bf0f25f73b55a5c8",
+      "kind": "image",
+      "name": "AABkmLf0j6Q-tNeIaFQDOKn5gOc7HUUztYAEnaP1v1xDulxUXbMluI5quE6HOo4oMNgtmEHlAIuffKygpLfGhgAgXRgPlSUEpd7xclZfp4iJfUaWK_juyUOLw9WhnKu3s_Xrukk51-1q-8KbPVw1=w64-h64-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/bf0f25f73b55a5c8",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0j6Q-tNeIaFQDOKn5gOc7HUUztYAEnaP1v1xDulxUXbMluI5quE6HOo4oMNgtmEHlAIuffKygpLfGhgAgXRgPlSUEpd7xclZfp4iJfUaWK_juyUOLw9WhnKu3s_Xrukk51-1q-8KbPVw1=w64-h64-p-k-no"
+    },
+    {
+      "contentType": "image/png",
+      "id": "662faa0ba22e502a",
+      "kind": "image",
+      "name": "pr_32px_asknjuyerc.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/662faa0ba22e502a.png",
+      "url": "https://ssl.gstatic.com/gb/images/ring/pr_32px_asknjuyerc.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "167abd991f67e010",
+      "kind": "image",
+      "name": "no_street_view_2x_030525.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/167abd991f67e010.png",
+      "url": "https://maps.gstatic.com/tactile/reveal/no_street_view_2x_030525.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "80202637961f0e0d",
+      "kind": "image",
+      "name": "pegman-offscreen-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/80202637961f0e0d.png",
+      "url": "https://maps.gstatic.com/tactile/minimap/pegman-offscreen-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "e75b0d704627c668",
+      "kind": "image",
+      "name": "pegman-offscreen-base-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/e75b0d704627c668.png",
+      "url": "https://maps.gstatic.com/tactile/minimap/pegman-offscreen-base-2x.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "6e42a27e0a6098b3",
+      "kind": "image",
+      "name": "runway-2x.png",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/6e42a27e0a6098b3.png",
+      "url": "https://maps.gstatic.com/tactile/pegman_v3/default/runway-2x.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "0328d1107e260e84",
+      "kind": "image",
+      "name": "AABkmLcSU_9T4j584YBRWg8FJ_5H6uIKO1Iq4gqYK8chH5uRPxNIeOZ6MvshFK5xu2vjc20cTXVrYyKBGjblsJKEHNtDj6kRWIUU_aLR4AIVzzHnyH8qwkfikIHkZAvNovqCu4kohhI=w64-h64-p-k-no",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/0328d1107e260e84",
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcSU_9T4j584YBRWg8FJ_5H6uIKO1Iq4gqYK8chH5uRPxNIeOZ6MvshFK5xu2vjc20cTXVrYyKBGjblsJKEHNtDj6kRWIUU_aLR4AIVzzHnyH8qwkfikIHkZAvNovqCu4kohhI=w64-h64-p-k-no"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "28ff915a83b70e79",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27934!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/28ff915a83b70e79",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27934!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a901a7a17b8e94cf",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27934!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/a901a7a17b8e94cf",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27934!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "b89817ae2aa416bd",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27935!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/b89817ae2aa416bd",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27935!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "051dbc7be684f215",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27935!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/051dbc7be684f215",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27935!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "f4ca3780ab750268",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27936!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/f4ca3780ab750268",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27936!3i12691!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "555084ecdcac89f2",
+      "kind": "image",
+      "name": "pb=!1m5!1m4!1i14!2i27936!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/555084ecdcac89f2",
+      "url": "https://www.google.co.kr/maps/vt/pb=!1m5!1m4!1i14!2i27936!3i12690!4i128!2m2!1e1!3i1016!3m9!2sko!3skr!5e1105!12m1!1e4!12m1!1e47!12m1!1e3!4e0!5m2!1e0!5f2!23i1368782!23i1368785!23i4861626!23i10211310!23i1381938!23i47054629!23i47029525!23i72272233!23i72272234!23i72272236!23i94255677!23i72860224!23i100760045!23i100799651!23i72549439"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "c3851b081133e0be",
+      "kind": "image",
+      "name": "svg-1",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/c3851b081133e0be.svg",
+      "url": "inline-svg:c3851b081133e0be"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "c8c1f754d15dccba",
+      "kind": "image",
+      "name": "svg-2",
+      "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/02ed6a7f-d20f-4a19-9a5e-8054c1038504/c8c1f754d15dccba.svg",
+      "url": "inline-svg:c8c1f754d15dccba"
+    }
+  ]
+}

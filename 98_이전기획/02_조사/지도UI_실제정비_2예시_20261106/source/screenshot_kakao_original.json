@@ -1,0 +1,19 @@
+{
+  "kind": "screenshot",
+  "name": "kakao_original",
+  "geometry": {
+    "h": 720,
+    "menu": {
+      "bottom": 1757,
+      "height": 1462,
+      "left": 363,
+      "right": 917,
+      "top": 295,
+      "width": 554,
+      "x": 363,
+      "y": 295
+    },
+    "scrollY": 433,
+    "w": 1280
+  }
+}

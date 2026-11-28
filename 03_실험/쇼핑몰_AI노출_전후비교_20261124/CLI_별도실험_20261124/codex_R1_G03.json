@@ -1,0 +1,15 @@
+{
+  "run_id": "codex_R1_G03",
+  "timestamp_utc": "2026-11-23T18:39:08.910337+00:00",
+  "query_id": "G03",
+  "repeat": 1,
+  "prompt": "우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "| 제품명 | 판매처 | 선택 이유와 근거 |\n|---|---|---|\n| **나우푸드 스포츠 유기농 완두콩 단백질 분말 무맛, 680g** | 아이허브 | 무맛이라 스무디에 별도 향을 더하고 싶지 않을 때 고르기 좋습니다. 제조사도 스무디에 섞는 용도를 안내합니다. [판매 페이지](https://kr.iherb.com/pr/now-foods-sports-organic-pea-protein-powder-unflavored-1-5-lbs-680-g/62859), [제조사 안내](https://www.nowfoods.com/sites/default/files/clean-eating-now-sports-nutrition-guide.pdf) |\n| **마이프로틴 임팩트 소이 프로틴** | 마이프로틴 코리아 | 분리대두단백질을 원료로 씁니다. 공식 섭취법은 분말 30g을 물이나 대체 우유 300mL에 섞는 방식이라 두유에 타기 좋습니다. [공식 판매·섭취 안내](https://www.myprotein.co.kr/p/sports-nutrition/impact-soy-protein/10529701/) |\n| **올게인 컴플리트 식물성 단백질 분말 바닐라 맛, 912g** | 아이허브 | 바닐라 맛을 원할 때 고르기 좋습니다. 완두콩·현미·녹두 단백질을 배합했고, 1회분(2스쿱)에 단백질 30g이 들어 있습니다. 판매처는 식물성 우유에 섞는 방법을 안내합니다. [판매·성분·섭취 안내](https://kr.iherb.com/pr/orgain-complete-plant-protein-powder-vanilla-2-01-lb-912-g/118772) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-23T18:39:09.791719Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n"
+}

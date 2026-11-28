@@ -1,0 +1,29 @@
+{
+  "store_id": "MD-23961602",
+  "item": 2,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "한 펼침의 전체 주메뉴에 제공·리필 조건과 추가주문 할인이 연결되고 세트·플래터 구성도 명시됨.",
+  "sources": [
+    {
+      "quote": "밥, 스프, 샐러드 무한리필, 단 1인 1메뉴 주문 시 제공",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjNfMzkg%2FMDAxNzkyNzYwNjczMTU4.GcBlCSITr5j5thxCHH9ZUm2zi_Bm_oyz7JLZLhwq5vog.bkRsGOnB0KNKriBcowuKFZT3tQNLHsYXSaFg0cDVTPYg.JPEG%2FSE-5567A7AD-C0A6-41EA-B175-1263818FE8DA.jpg%3Ftype%3Dw966",
+      "observed_at": "2026-11-03",
+      "evidence_file": "analysis\\상세검수_20261103_05\\menu_photos\\MD-23961602_5a4ed22663ca84be.jpg",
+      "evidence_type": "manual_transcription_of_visually_read_photo",
+      "author_status": "uploader_not_assumed_owner",
+      "observed_date_note": "판독일; 사진 촬영일 아님"
+    },
+    {
+      "quote": "1인 1메뉴 주문하시면, 추가 주문 시 3,000원 할인",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjNfMzkg%2FMDAxNzkyNzYwNjczMTU4.GcBlCSITr5j5thxCHH9ZUm2zi_Bm_oyz7JLZLhwq5vog.bkRsGOnB0KNKriBcowuKFZT3tQNLHsYXSaFg0cDVTPYg.JPEG%2FSE-5567A7AD-C0A6-41EA-B175-1263818FE8DA.jpg%3Ftype%3Dw966",
+      "observed_at": "2026-11-03",
+      "evidence_file": "analysis\\상세검수_20261103_05\\menu_photos\\MD-23961602_5a4ed22663ca84be.jpg",
+      "evidence_type": "manual_transcription_of_visually_read_photo",
+      "author_status": "uploader_not_assumed_owner",
+      "observed_date_note": "판독일; 사진 촬영일 아님"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

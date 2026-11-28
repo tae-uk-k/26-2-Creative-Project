@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-11-03T05:01:07.313183+00:00",
+  "checks": [
+    {
+      "check": "analysis\\상세검수_20261103_06 sha256",
+      "passed": true
+    },
+    {
+      "check": "analysis\\복구후_판정검수_20261103_01 sha256",
+      "passed": true
+    },
+    {
+      "check": "previous_85_files_unchanged",
+      "passed": true
+    },
+    {
+      "check": "no_unfrozen_store_selected",
+      "passed": true
+    },
+    {
+      "check": "zero_recommendation_attempts",
+      "passed": true
+    },
+    {
+      "check": "90_unique_planned_cells",
+      "passed": true
+    },
+    {
+      "check": "unstarted_not_failed_and_null_rates",
+      "passed": true
+    },
+    {
+      "check": "neutral_7_outside_90",
+      "passed": true
+    },
+    {
+      "check": "neutral_6_map_failures_1_model_error",
+      "passed": true
+    },
+    {
+      "check": "222_menu_photos_90_read",
+      "passed": true
+    },
+    {
+      "check": "one_profile_and_two_uncertain_branches_separate",
+      "passed": true
+    }
+  ],
+  "study_complete": false,
+  "remaining": "cohort selection and 90 recommendation measurements and outcome source audit",
+  "report_sha256": "5df259497e0131445a05cd9137cfce2ffb92710e9b5660a8852574bae2670717"
+}

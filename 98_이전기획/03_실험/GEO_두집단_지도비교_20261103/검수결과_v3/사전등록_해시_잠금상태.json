@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-11-02T16:40:04.354958+00:00",
+  "restaurant_recommendation_calls_so_far": 0,
+  "cohort_ready": false,
+  "reason": "확정 쌍 0으로 측정 시작 요건 미충족. 이 파일은 완료된 A/B 집단 잠금 증명이 아님.",
+  "sha256": {
+    "연구규약.md": "30c5b76a47d074093c537d688b46a7d9e63cd1cb9603e9e3a41b849533b2e239",
+    "검색어_범위확정_20261103.json": "2bcdd2d92a2d02f4aaceea8f5613b0b7db9d017ce2665f62946dabb9c39a7c1c",
+    "browser_observed.jsonl": "4b3644160889bb7f4f3d52bd1b1e525ad976e25dd9fa337fe28b58fa8f60a4e3",
+    "search_cards.csv": "21ceeb9fcb03ab38a915c0ac43e90a1c3bb5fc349a0ea90474ef54aa126d1e13",
+    "수동검수_판정.json": "0c1d30cfce24cff2041447641a1b44ee88b17aca4d1be74d925a5d3b31f68b5f",
+    "추가_메뉴선별_판정.json": "4f116fc4580e1b7feecdebe55220cd13a8dca887a6a635915a13cd1108170768"
+  }
+}

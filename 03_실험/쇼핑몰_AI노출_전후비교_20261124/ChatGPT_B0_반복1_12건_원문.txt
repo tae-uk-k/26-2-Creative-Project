@@ -1,0 +1,2255 @@
+ChatGPT B0 반복 1 / 2026-11-24 / 비로그인 새 대화 / 웹 검색 선택 / 세부 모델명 미표시
+
+
+## S01 / 제출 UTC 2026-11-23T18:15:36.754Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 사차인치를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 웹 검색 결과,
+          - generic: 사차인치(Sacha Inchi, Plukenetia volubilis)를 원료로 한 300g 단백질 분말은 실제 판매 제품이 확인됩니다.
+          - text: 다만 300g 제품이라는 점과 사차인치가 주원료라는 점을 모두 확인할 수 있는 제품은 많지 않았습니다.
+        - paragraph: 확인된 제품을 아래에 정리했습니다.
+        - heading "확인된 제품" [level=2]
+        - img "インカグリーンナッツ プロテイン 300g | arcoiris"
+        - button "Open インカグリーンナッツ プロテイン 300g | arcoiris"
+        - paragraph:
+          - generic: 1. Hydrolyzed Sacha Inchi Protein 300g
+        - generic: 300g 및 원료 확인
+        - list:
+          - paragraph: "제조·판매처: Gala Export (에콰도르)"
+          - paragraph: "용량: 300g"
+          - paragraph: "원료: 가수분해 사차인치 단백질 및 천연 향료"
+          - paragraph: "맛: 초콜릿, 딸기, 바닐라"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 사차인치 단백질을 가수분해한 제품이며 300g 규격이 명시되어 있습니다.
+        - paragraph:
+          - text: "근거:"
+          - button "Gala Export 공식 제품 페이지":
+            - link "Gala Export 공식 제품 페이지":
+              - /url: https://www.galaexportec.com/en?utm_source=chatgpt.com
+              - generic: Gala Export 공식 제품
+              - generic: 페이지
+        - img "Harina Proteica de Sacha Inchi 300g | Alta Proteína Vegetal"
+        - button "Open Harina Proteica de Sacha Inchi 300g | Alta Proteína Vegetal"
+        - paragraph:
+          - generic: 2. Harina Proteica de Sacha Inchi 300g
+        - generic: 300g 및 원료 확인
+        - list:
+          - paragraph: "판매처: Sacha Inchi Online"
+          - paragraph: "용량: 300g"
+          - paragraph: "원료: 기름을 추출한 사차인치 씨앗의 부산물로 만든 단백질 분말"
+          - paragraph: "가격 표시: 33,000 (콜롬비아 페소)"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 사차인치 씨앗에서 기름을 추출한 후 얻은 원료로 만든 식물성 단백질 분말입니다. 300g 포장도 명시되어 있습니다.
+        - paragraph:
+          - text: "근거:"
+          - button "판매 제품 및 상세 설명":
+            - link "판매 제품 및 상세 설명":
+              - /url: https://www.sachainchionline.com/productos/harina-proteica-de-sacha-inchi-bolsa-doypack-x-300-grs-pijqt/?utm_source=chatgpt.com
+              - generic: 판매 제품 및 상세
+              - generic: 설명
+        - img "インカグリーンナッツプロテイン300ｇ | arcoiris"
+        - button "Open インカグリーンナッツプロテイン300ｇ | arcoiris"
+        - paragraph:
+          - generic: 3. Inca Green Nuts Protein 300g
+        - generic: 제품 규격 추가 확인 필요
+        - list:
+          - paragraph: "브랜드: Arcoiris Company"
+          - paragraph: "판매처: 일본 라쿠텐 입점 판매처"
+          - paragraph: "용량: 300g 제품 확인"
+          - paragraph: "원료: 사차인치(잉카인치) 단백질"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 사차인치 단백질 제품으로 소개되어 있으며 일본 온라인 유통 경로가 확인됩니다.
+        - paragraph:
+          - text: "근거:"
+          - button "일본 라쿠텐 검색 결과":
+            - link "일본 라쿠텐 검색 결과":
+              - /url: https://search.rakuten.co.jp/search/mall/sacha%2Binchi/?utm_source=chatgpt.com
+              - generic: 일본 라쿠텐 검색
+              - generic: 결과
+          - text: ·
+          - button "제품 관련 소개":
+            - link "제품 관련 소개":
+              - /url: https://note.com/mutencyan60/n/n8e2cde055930?hl=en&utm_source=chatgpt.com
+              - generic: 제품 관련
+              - generic: 소개
+        - paragraph: 단, 개별 판매 페이지의 상세 원재료와 300g 제품의 현재 판매 상태는 추가 확인이 필요합니다.
+        - heading "최종 추천" [level=2]
+        - paragraph: 현재 확인된 근거만 기준으로 보면 다음과 같습니다.
+        - list:
+          - paragraph:
+            - generic: "Gala Export:"
+            - text: 300g 규격과 가수분해 사차인치 단백질 원료가 명확하게 확인되어 가장 추천합니다.
+          - paragraph:
+            - generic: "Sacha Inchi Online:"
+            - text: 300g 규격과 원료 제조 방식이 구체적으로 설명되어 있어 추천합니다.
+          - paragraph:
+            - generic: "Arcoiris:"
+            - text: 제품 자체는 확인되지만 판매 규격과 현재 판매 상태의 추가 검증이 필요합니다.
+        - heading "구매 전 참고사항" [level=2]
+        - list:
+          - paragraph: 위 제품들의 국내 정식 수입 및 국내 배송 가능 여부는 확인되지 않았습니다.
+          - paragraph: 단백질 함량(100g당 단백질 g)은 확인 가능한 자료가 부족해 임의로 기재하지 않았습니다.
+          - paragraph: 300g 제품 중에서도 순수 사차인치 단백질인지, 사차인치 분말(탈지분말)인지 구분해서 구매하는 것이 좋습니다.
+        - paragraph:
+          - generic: 제 추천은 Gala Export 제품입니다.
+          - text: 요청하신 300g 규격과 사차인치 단백질 원료가 가장 명확하게 확인되기 때문입니다. 다만 실제 구매 전 판매처에 국제 배송 여부와 영양성분표를 확인해야 합니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+      - generic: 로그인하면 ChatGPT가 질문과 관련된 내용을 조사하고 출처를 비교해 링크가 포함된 상세한 보고서 초안을 작성할 수 있습니다.
+      - button "Google로 계속":
+        - generic: Google로 계속
+      - button "회원가입 또는 로그인":
+        - generic: 회원가입 또는 로그인
+      - paragraph: 이 채팅을 저장하려면 새 계정을 만드세요.
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## W01 / 제출 UTC 2026-11-23T18:16:07.492Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 수박씨를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph: 웹에서 수박씨 단백질(Watermelon Seed Protein) 분말을 검색했습니다.
+        - paragraph:
+          - generic: 검색 결과, 수박씨를 원료로 한 단백질 분말은 확인했지만, 300g 용량이 명시된 완제품은 확인하지 못했습니다.
+          - text: 따라서 300g 제품이라고 추정해 추천하지 않겠습니다.
+        - heading "확인된 제품 및 판매처" [level=2]
+        - img "Watermelon Seed Protein Powder - Protein Transparent PNG - 1200x1200 - Free Download on NicePNG"
+        - button "Open Watermelon Seed Protein Powder - Protein Transparent PNG - 1200x1200 - Free Download on NicePNG"
+        - paragraph:
+          - generic: 1. Watermelon Seed Protein Powder
+        - generic: 300g 여부 미확인
+        - list:
+          - paragraph: "판매처: Ubuy Korea"
+          - paragraph: "검색 가격: 약 122,755원"
+          - paragraph: "선택 이유: 수박씨 단백질 분말 제품으로 검색되며 한국 판매처가 확인됨."
+          - paragraph: "한계: 검색 결과에서 정확한 용량과 성분표를 확인하지 못함."
+        - img "Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - button "Open Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - paragraph:
+          - generic: 2. GUTINS Watermelon Seed Protein – 60% Concentrate
+        - generic: 300g 제품 아님
+        - list:
+          - paragraph: "판매처: GUTINS 공식 사이트"
+          - paragraph: "확인된 용량: 50g, 225g, 1kg, 5kg"
+          - paragraph: "선택 이유: 수박씨 유래 단백질이며 60% 농축 제품임이 명시되어 있음."
+          - paragraph: "한계: 300g 옵션은 확인되지 않음."
+        - button "GUTINS 공식 상품 페이지":
+          - link "GUTINS 공식 상품 페이지":
+            - /url: https://gutins.com/products/watermelon-seed-protein-60-percent-concentrate?_fid=f62ac2b64&_pos=24&_ss=c&utm_source=chatgpt.com
+            - generic: GUTINS 공식 상품
+            - generic: 페이지
+        - img "Smash Melon Protein Powder"
+        - button "Open Smash Melon Protein Powder"
+        - paragraph:
+          - generic: 3. SANMARK Watermelon Seed Protein Powder
+        - generic: 300g 제품 아님
+        - list:
+          - paragraph: "판매처: SANMARK"
+          - paragraph: "단백질 함량: 60%"
+          - paragraph: "확인된 포장: 12.5kg, 25kg, 맞춤 포장"
+          - paragraph: "선택 이유: 수박씨를 냉압착한 뒤 미세 분쇄하는 제조 방식과 단백질 함량이 공개되어 있음."
+          - paragraph: "한계: 일반 소비자용 300g 완제품은 확인되지 않음."
+        - button "SANMARK 공식 제품 정보":
+          - link "SANMARK 공식 제품 정보":
+            - /url: https://en.sanmarkltd.com/Product_details/52.html?utm_source=chatgpt.com
+            - generic: SANMARK 공식 제품
+            - generic: 정보
+        - heading "최종 검토" [level=2]
+        - table:
+          - rowgroup:
+            - row "확인 항목 결과":
+              - columnheader "확인 항목":
+                - paragraph: 확인 항목
+              - columnheader "결과":
+                - paragraph: 결과
+            - row "수박씨 유래 단백질 확인":
+              - cell "수박씨 유래 단백질":
+                - paragraph: 수박씨 유래 단백질
+              - cell "확인":
+                - paragraph: 확인
+            - row "분말 형태 확인":
+              - cell "분말 형태":
+                - paragraph: 분말 형태
+              - cell "확인":
+                - paragraph: 확인
+            - row "단백질 함량 공개 일부 제품 확인":
+              - cell "단백질 함량 공개":
+                - paragraph: 단백질 함량 공개
+              - cell "일부 제품 확인":
+                - paragraph: 일부 제품 확인
+            - row "정확히 300g 포장 확인 불가":
+              - cell "정확히 300g 포장":
+                - paragraph: 정확히 300g 포장
+              - cell "확인 불가":
+                - paragraph: 확인 불가
+            - row "국내 배송 및 최종 판매가격 확인 불가":
+              - cell "국내 배송 및 최종 판매가격":
+                - paragraph: 국내 배송 및 최종 판매가격
+              - cell "확인 불가":
+                - paragraph: 확인 불가
+        - paragraph:
+          - generic: "추천 의견:"
+          - text: 300g이라는 용량 조건이 필수라면 현재 확인된 자료만으로는 추천 가능한 제품이 없습니다. GUTINS의 225g 제품은 용량이 가장 가까운 대안이지만, 300g 제품과 동일하게 취급할 수는 없습니다.
+        - paragraph: 300g 제품을 반드시 찾으시는 목적이라면 해외 제품까지 포함해 제조사에 300g 소포장 또는 맞춤 포장이 가능한지 확인하는 방향이 가장 정확합니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## G01 / 제출 UTC 2026-11-23T18:16:23.360Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 웹에서 국내 판매 제품을 중심으로
+          - generic: 300g 전후(약 280~320g)의 식물성 단백질 분말
+          - text: 을 검색했습니다.
+        - paragraph: 제품 중량이 비슷한지만 보지 않고, 실제 판매 페이지에서 확인되는 제품명·중량·판매처를 기준으로 추렸습니다. 특히 식물성 단백질이라는 점이 명시된 제품을 우선했습니다.
+        - heading "추천 후보 3개" [level=2]
+        - img "건강한약속바른 바른 식물성 단백질 보충제 프로틴 쉐이크 (초코맛) 300g 1통"
+        - button "Open 건강한약속바른 바른 식물성 단백질 보충제 프로틴 쉐이크 (초코맛) 300g 1통"
+        - paragraph:
+          - generic: 1. 바른 식물성 단백질 당 제로 초코맛
+        - generic: 300g · 중량 일치
+        - list:
+          - paragraph: "판매처: 쿠팡"
+          - paragraph: "확인 가격: 16,500원"
+          - paragraph: "선택 이유: 제품명에 식물성 단백질과 당 제로가 명시되어 있고, 요청한 300g에 정확히 맞습니다."
+          - paragraph: 검색 결과에 상품평 541개가 표시되어 있습니다.
+        - paragraph: 근거 및 구매 링크
+        - button "쿠팡 상품 상세 페이지":
+          - link "쿠팡 상품 상세 페이지":
+            - /url: https://www.coupang.com/vp/products/7101572851?utm_source=chatgpt.com
+            - generic: 쿠팡 상품 상세
+            - generic: 페이지
+        - img "Pardon Our Interruption"
+        - button "Open Pardon Our Interruption"
+        - paragraph:
+          - generic: 2. 가든 오브 라이프 식물성 단백질 파우더 무향
+        - generic: 284g · 약 300g
+        - list:
+          - paragraph: "판매처: 쿠팡 (잭슨컴퍼니)"
+          - paragraph: "확인 가격: 68,000원"
+          - paragraph: "선택 이유: 284g으로 요청한 중량에 가깝고, 무향 제품으로 검색되어 있습니다."
+          - paragraph: 상품 페이지에는 10회 분량으로 표시되어 있습니다.
+        - paragraph: 근거 및 구매 링크
+        - button "쿠팡 상품 상세 페이지":
+          - link "쿠팡 상품 상세 페이지":
+            - /url: https://www.coupang.com/vp/products/9523355300?utm_source=chatgpt.com
+            - generic: 쿠팡 상품 상세
+            - generic: 페이지
+        - heading "추가 확인한 제품" [level=2]
+        - paragraph:
+          - generic: NS 식물성 단백질 300g
+        - list:
+          - paragraph: "판매처: NS 프로틴 공식몰"
+          - paragraph: "표시 가격: 17,800원"
+          - paragraph: "선택 이유: 300g 제품이며 유당 ZERO, 콜레스테롤 ZERO를 표시하고 있습니다."
+          - paragraph: 다만 공식몰에서 현재 품절로 확인되어 구매 추천에서는 제외했습니다.
+        - button "NS 프로틴 공식 상품 페이지":
+          - link "NS 프로틴 공식 상품 페이지":
+            - /url: https://nsprotein.com/product/detail.html?cate_no=108&display_group=1&product_no=259&utm_source=chatgpt.com
+            - generic: NS 프로틴 공식 상품
+            - generic: 페이지
+        - heading "비교 및 선택 의견" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 중량 확인 가격 확인 사항":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "중량":
+                - paragraph: 중량
+              - columnheader "확인 가격":
+                - paragraph: 확인 가격
+              - columnheader "확인 사항":
+                - paragraph: 확인 사항
+            - row "바른 300g 16,500원 당 제로":
+              - cell "바른":
+                - paragraph: 바른
+              - cell "300g":
+                - paragraph: 300g
+              - cell "16,500원":
+                - paragraph: 16,500원
+              - cell "당 제로":
+                - paragraph: 당 제로
+            - row "가든 오브 라이프 284g 68,000원 무향":
+              - cell "가든 오브 라이프":
+                - paragraph: 가든 오브 라이프
+              - cell "284g":
+                - paragraph: 284g
+              - cell "68,000원":
+                - paragraph: 68,000원
+              - cell "무향":
+                - paragraph: 무향
+            - row "NS 프로틴 300g 17,800원 품절":
+              - cell "NS 프로틴":
+                - paragraph: NS 프로틴
+              - cell "300g":
+                - paragraph: 300g
+              - cell "17,800원":
+                - paragraph: 17,800원
+              - cell "품절":
+                - paragraph: 품절
+        - paragraph:
+          - generic: 제일 먼저 살펴볼 제품은 바른 식물성 단백질 300g입니다.
+          - text: 중량이 정확히 일치하고 가격도 비교적 낮게 확인됩니다.
+        - paragraph: 다만 다음 사항은 구매 전 상세 페이지에서 추가 확인하는 것이 좋습니다.
+        - list:
+          - paragraph: 1회 섭취량당 실제 단백질 함량
+          - paragraph: 단백질 원료(완두, 대두, 쌀 등)의 구성
+          - paragraph: 첨가당 및 감미료 종류
+          - paragraph: 알레르기 유발 성분
+        - paragraph: ※ 가격과 판매 상태는 검색 당시 확인된 정보이며, 결제 시점에 달라질 수 있습니다. 확인되지 않은 원료 비율이나 영양성분은 임의로 기재하지 않았습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## S02 / 제출 UTC 2026-11-23T18:16:25.678Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - heading "사차인치 탈지 단백질 분말 검색 결과" [level=2]
+        - paragraph:
+          - text: 요청하신 제품은 일반 사차인치 분말이나 볶은 사차인치가 아니라,
+          - generic: 사차인치(Sacha Inchi) 종자에서 기름을 추출한 뒤 남은 탈지박을 분쇄한 단백질 분말
+          - text: 을 기준으로 조사했습니다.
+        - paragraph: 이 구분이 중요합니다.
+        - list:
+          - paragraph: "일반 사차인치 분말: 씨앗 자체를 분쇄한 제품"
+          - paragraph: "사차인치 단백질 분말: 단백질 원료로 가공한 제품"
+          - paragraph: "사차인치 탈지 단백질 분말: 기름을 추출한 뒤 남은 탈지 원료를 이용한 제품"
+        - paragraph: 따라서 제품명에 '사차인치' 또는 '단백질'이 들어간다는 이유만으로 탈지 단백질 제품으로 분류하지 않았습니다.
+        - heading "확인된 제품 및 후보 비교" [level=2]
+        - paragraph: 현재 확인 가능한 자료 중 탈지 공정이 명시된 제품은 다음과 같습니다.
+        - img "ORGANIC SACHA INCHI PROTEIN POWDER (250 g) – ALIKSIR"
+        - button "Open ORGANIC SACHA INCHI PROTEIN POWDER (250 g) – ALIKSIR"
+        - paragraph:
+          - generic: 1. Asia Eco Farm – Sacha Inchi Protein Powder
+        - generic: 탈지 공정 명시
+        - list:
+          - paragraph: "판매처: Asia Eco Farm"
+          - paragraph: "원재료: 사차인치 탈지 종자박"
+          - paragraph: "가공: 탈지 → 젤라틴화 → 분쇄"
+          - paragraph: "포장: 알루미늄 포일 백"
+          - paragraph: "최소 주문량: 100kg"
+          - paragraph: "샘플: 1kg 제공 가능(운송비 별도)"
+          - paragraph: "단백질: 100g당 일반 분석값 57.6g"
+          - paragraph: "지방: 100g당 11.8g"
+        - paragraph:
+          - text: "근거:"
+          - button "제품 규격 및 원료 사양서":
+            - link "제품 규격 및 원료 사양서":
+              - /url: https://www.asiaecofarm.com/spec-sheet.html?utm_source=chatgpt.com
+              - generic: 제품 규격 및 원료
+              - generic: 사양서
+        - img "Organic Sacha Inchi Protein Powder by Aliksir - Gluten Free - Natural -free From Additives or Preservatives, 60% Protein per Serving, Fiber. - Etsy"
+        - button "Open Organic Sacha Inchi Protein Powder by Aliksir - Gluten Free - Natural -free From Additives or Preservatives, 60% Protein per Serving, Fiber. - Etsy"
+        - paragraph:
+          - generic: 2. Organic Crops – Sacha Inchi Powder
+        - generic: 탈지 여부 추가 확인 필요
+        - list:
+          - paragraph: "판매처: Organic Crops"
+          - paragraph: "제품 규격서상 단백질: 61g/100g"
+          - paragraph: "지방: 5g/100g"
+          - paragraph: "탄수화물: 22g/100g"
+          - paragraph: "포장 중량: 확인 불가"
+          - paragraph: "탈지 공정: 공개된 해당 규격서에서 확인 불가"
+        - paragraph:
+          - text: "근거:"
+          - button "Sacha Inchi Powder 제품 규격서 PDF":
+            - link "Sacha Inchi Powder 제품 규격서 PDF":
+              - /url: https://organiccrops.net/bin/OC_Prod_Sacha_Inchi-Powder_06_EN.pdf?utm_source=chatgpt.com
+              - generic: Sacha Inchi Powder 제품 규격서
+              - generic: PDF
+        - paragraph: "선택 이유: 단백질과 지방 함량이 함께 공개되어 있어 영양성분 비교 후보로 가치가 있습니다. 다만 탈지 제품이라고 확정할 수는 없습니다."
+        - img "왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - button "Open 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - paragraph:
+          - generic: 3. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1kg
+        - generic: 혼합 제품 · 탈지 여부 미확인
+        - list:
+          - paragraph: "판매처: 왓푸드 공식몰"
+          - paragraph: "표시 중량: 1kg"
+          - paragraph: "단백질: 30g당 20g"
+          - paragraph: "판매 표시 가격: 19,800원"
+          - paragraph: "원재료별 배합 비율: 확인 불가"
+          - paragraph: "사차인치 탈지 여부: 확인 불가"
+        - paragraph:
+          - text: "근거:"
+          - button "왓푸드 공식 상품 페이지":
+            - link "왓푸드 공식 상품 페이지":
+              - /url: https://whatfood.co.kr/product/detail.html?item_code=P00000BZ000B&product_no=51&utm_source=chatgpt.com
+              - generic: 왓푸드 공식 상품
+              - generic: 페이지
+        - paragraph: "선택 이유: 국내에서 구매를 검토할 수 있는 사차인치 함유 식물성 단백질 제품입니다. 다만 완두콩과 사차인치의 배합 제품이므로 순수 사차인치 단백질과는 구별해야 합니다."
+        - heading "원재료와 중량 비교" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 원재료 및 가공 판매·포장 중량 단백질":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "원재료 및 가공":
+                - paragraph: 원재료 및 가공
+              - columnheader "판매·포장 중량":
+                - paragraph: 판매·포장 중량
+              - columnheader "단백질":
+                - paragraph: 단백질
+            - row "Asia Eco Farm 사차인치 탈지박 최소 100kg, 샘플 1kg 57.6g/100g":
+              - cell "Asia Eco Farm":
+                - paragraph: Asia Eco Farm
+              - cell "사차인치 탈지박":
+                - paragraph: 사차인치 탈지박
+              - cell "최소 100kg, 샘플 1kg":
+                - paragraph: 최소 100kg, 샘플 1kg
+              - cell "57.6g/100g":
+                - paragraph: 57.6g/100g
+            - row "Organic Crops 사차인치 분말, 탈지 여부 미확인 미확인 61g/100g":
+              - cell "Organic Crops":
+                - paragraph: Organic Crops
+              - cell "사차인치 분말, 탈지 여부 미확인":
+                - paragraph: 사차인치 분말, 탈지 여부 미확인
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "61g/100g":
+                - paragraph: 61g/100g
+            - row "왓푸드 완두콩 + 사차인치 1kg 20g/30g":
+              - cell "왓푸드":
+                - paragraph: 왓푸드
+              - cell "완두콩 + 사차인치":
+                - paragraph: 완두콩 + 사차인치
+              - cell "1kg":
+                - paragraph: 1kg
+              - cell "20g/30g":
+                - paragraph: 20g/30g
+        - paragraph: ※ 단백질 수치는 제품별 공개 규격을 그대로 옮겼습니다. 분석 기준과 배합 비율이 다르므로 단순히 수치만으로 제품 품질을 순위화할 수는 없습니다.
+        - heading "최종 선택 의견" [level=2]
+        - paragraph:
+          - generic: 탈지 사차인치 단백질 원료 자체를 찾는 목적이라면 Asia Eco Farm을 우선 추천합니다.
+        - paragraph: 이유는 다음과 같습니다.
+        - list:
+          - paragraph: 탈지 종자박을 사용한다는 제조 공정이 명시되어 있습니다.
+          - paragraph: 단백질과 지방 함량이 함께 공개되어 있습니다.
+          - paragraph: 1kg 샘플을 요청할 수 있어 대량 구매 전에 검토할 수 있습니다.
+        - paragraph: 다만 최소 주문량이 100kg이므로 일반 소비자용 소포장 제품을 찾는 경우에는 적합하지 않을 수 있습니다.
+        - heading "구매 전에 추가로 확인할 사항" [level=2]
+        - list:
+          - paragraph: 사차인치 원료 100%인지, 다른 식물성 원료가 혼합되었는지
+          - paragraph: 탈지 방식이 냉압착인지 용매 추출인지
+          - paragraph: 실제 단백질 함량을 확인할 수 있는 시험성적서(COA)
+          - paragraph: 원산지 및 원료의 식품용 적합성
+          - paragraph: 국내 수입 및 유통 가능 여부
+        - paragraph:
+          - generic: "조사 결론:"
+          - text: 현재 공개 자료로는 탈지 공정까지 확인되는 제품 1개와 비교 후보 2개를 찾았습니다. 요청하신 3개 모두를 탈지 사차인치 단백질 분말이라고 확정할 근거는 부족합니다. 확인되지 않은 제품을 억지로 추천하지 않았습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## G03 / 제출 UTC 2026-11-23T18:16:28.227Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 우유나 두유, 스무디에 섞어 먹는 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 우유, 두유 또는 스무디에 섞어 먹기 좋은
+          - generic: 식물성 단백질 분말 3종
+          - text: 을 찾아봤습니다.
+        - paragraph: 국내 판매 페이지에서 제품명, 식물성 단백질 원료, 단백질 함량 등을 확인할 수 있는 제품을 우선 선정했습니다. 특히 완두콩·대두·쌀·귀리 등 식물 유래 단백질을 사용하는 제품에 주목했습니다.
+        - heading "추천 제품 3가지" [level=2]
+        - img "살림의 왕 식물성 프로틴 파우더 100% 식물 유래 단백질 (완두 대두 쌀 귀리), 420g, 1개 - 복합 프로틴파우더 | 쿠팡"
+        - button "Open 살림의 왕 식물성 프로틴 파우더 100% 식물 유래 단백질 (완두 대두 쌀 귀리), 420g, 1개 - 복합 프로틴파우더 | 쿠팡"
+        - paragraph:
+          - generic: 1. 엔트리 식물성 프로틴 파우더
+        - generic: 균형 잡힌 원료 구성
+        - list:
+          - paragraph: "판매처: 하이리빙 공식몰"
+          - paragraph: "용량: 420g"
+          - paragraph: "판매 페이지 표시 가격: 42,500원"
+          - paragraph: "단백질: 1회 30g 섭취 기준 21g"
+          - paragraph: "원료: 대두, 완두, 쌀, 귀리 단백질"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 네 가지 식물성 단백질을 혼합한 제품입니다. 1회 섭취량과 단백질 함량이 구체적으로 공개되어 있어 영양 섭취량을 계산하기 좋습니다.
+        - paragraph: "확인된 추가 정보: 당류 1g, 지방 1g(30g 기준). 대두 함유."
+        - paragraph:
+          - button "하이리빙 공식 제품 상세 및 구매 페이지":
+            - link "하이리빙 공식 제품 상세 및 구매 페이지":
+              - /url: https://www.hiliving.co.kr/goods/detail?code=601518&utm_source=chatgpt.com
+              - generic: 하이리빙 공식 제품 상세 및 구매
+              - generic: 페이지
+          - text: ·
+          - button "상품상세 +1":
+            - generic: 상품상세
+            - generic: "+1"
+        - img "왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - button "Open 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - paragraph:
+          - generic: 2. 왓푸드 식물성 단백질 분말 완두콩 1kg
+        - generic: 단일 식물성 단백질 원료
+        - list:
+          - paragraph: "판매처: 왓푸드 공식몰"
+          - paragraph: "용량: 1kg"
+          - paragraph: "검색된 판매 가격: 22,250원"
+          - paragraph: "단백질: 30g당 22g(판매 페이지 표기)"
+          - paragraph: "주요 원료: 완두콩 단백질"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 완두콩 단백질 중심의 비교적 단순한 제품을 찾는다면 고려할 만합니다. 1kg 대용량이므로 우유나 두유, 스무디에 꾸준히 섞어 먹는 용도에 적합한 후보입니다.
+        - paragraph: "주의: 검색된 판매 페이지의 가격과 실제 구매 가능 여부는 결제 단계에서 재확인이 필요합니다."
+        - paragraph:
+          - button "왓푸드 공식 상품 상세 페이지":
+            - link "왓푸드 공식 상품 상세 페이지":
+              - /url: https://whatfood.co.kr/product/%EC%99%93%ED%91%B8%EB%93%9C-%EC%8B%9D%EB%AC%BC%EC%84%B1-%EB%8B%A8%EB%B0%B1%EC%A7%88-%EB%B6%84%EB%A7%90-%EC%99%84%EB%91%90%EC%BD%A9-1kg-%EB%8B%A8%EB%B0%B1%EC%A7%88-%EC%A7%91%EC%A4%91%ED%98%95/52/?utm_source=chatgpt.com
+              - generic: 왓푸드 공식 상품 상세
+              - generic: 페이지
+          - text: ·
+          - button "왓푸드 +1":
+            - generic: 왓푸드
+            - generic: "+1"
+        - img "닥터에스더 식물성 단백질 프리미엄 곡물맛 단백질·귀리식이섬유·비타민·미네랄 여에스더 박사의 맞춤배합 <br>☑ 식약처에서 인정한 5중 기능성, 기능성원료 단백질만으로 16.9g <br>☑ 혈당건강 복합기능성 귀리식이섬유 5,000mg <br>☑ 뼈 건강과 근육 기능 유지를 위한 미네랄 2종 & 비타민 2종 에스더몰 공식몰"
+        - button "Open 닥터에스더 식물성 단백질 프리미엄 곡물맛 단백질·귀리식이섬유·비타민·미네랄 여에스더 박사의 맞춤배합 <br>☑ 식약처에서 인정한 5중 기능성, 기능성원료 단백질만으로 16.9g <br>☑ 혈당건강 복합기능성 귀리식이섬유 5,000mg <br>☑ 뼈 건강과 근육 기능 유지를 위한 미네랄 2종 & 비타민 2종 에스더몰 공식몰"
+        - paragraph:
+          - generic: 3. 여에스더 식물성 단백질 그레인
+        - generic: 곡물 혼합형
+        - list:
+          - paragraph: "판매처: 에스더몰 공식몰"
+          - paragraph: "용량: 350g (45g × 7포)"
+          - paragraph: "단백질: 1포당 20g"
+          - paragraph: "주요 원료: 완두단백, 파바빈 단백질, 병아리콩, 쌀, 보리, 귀리 단백질"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 여러 종류의 식물성 단백질과 곡물 원료가 함께 들어 있습니다. 1회분씩 포장되어 있어 계량할 필요 없이 간편하게 섭취할 수 있다는 장점이 있습니다.
+        - paragraph: "확인된 추가 정보: 당류 0.4g, 식이섬유 6.4g(1포 기준). 가격은 확인된 자료에서 제외했습니다."
+        - paragraph:
+          - button "에스더몰 공식 제품 상세 페이지":
+            - link "에스더몰 공식 제품 상세 페이지":
+              - /url: https://www.esthermall.co.kr/goods/goods_view.php?goodsNo=1000003379&mtn=3322%5E%7C%5E%5B%EC%A2%85%EB%A3%8C%5D+%EC%8B%9D%EB%AC%BC%EC%84%B1+%EB%8B%A8%EB%B0%B1%EC%A7%88+%EB%9F%B0%EC%B9%AD%5E%7C%5Ey&utm_source=chatgpt.com
+              - generic: 에스더몰 공식 제품 상세
+              - generic: 페이지
+          - text: ·
+          - button "에스더몰 +1":
+            - generic: 에스더몰
+            - generic: "+1"
+        - heading "제품 비교" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 1회 단백질 주요 특징":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "1회 단백질":
+                - paragraph: 1회 단백질
+              - columnheader "주요 특징":
+                - paragraph: 주요 특징
+            - row "엔트리 21g 4종 식물성 단백질":
+              - cell "엔트리":
+                - paragraph: 엔트리
+              - cell "21g":
+                - paragraph: 21g
+              - cell "4종 식물성 단백질":
+                - paragraph: 4종 식물성 단백질
+            - row "왓푸드 22g 완두콩 단백질 중심":
+              - cell "왓푸드":
+                - paragraph: 왓푸드
+              - cell "22g":
+                - paragraph: 22g
+              - cell "완두콩 단백질 중심":
+                - paragraph: 완두콩 단백질 중심
+            - row "여에스더 20g 곡물·콩 혼합형":
+              - cell "여에스더":
+                - paragraph: 여에스더
+              - cell "20g":
+                - paragraph: 20g
+              - cell "곡물·콩 혼합형":
+                - paragraph: 곡물·콩 혼합형
+        - paragraph: ※ 각 제품의 1회 섭취량은 서로 다릅니다. 단백질 함량만으로 제품의 우열을 판단하기는 어렵습니다.
+        - heading "어떤 제품을 선택하면 좋을까요?" [level=2]
+        - list:
+          - paragraph:
+            - generic: "여러 종류의 식물성 단백질을 원한다면:"
+            - text: 엔트리
+          - paragraph:
+            - generic: "완두콩 단백질 위주의 대용량 제품을 원한다면:"
+            - text: 왓푸드
+          - paragraph:
+            - generic: "소포장과 곡물 혼합형을 원한다면:"
+            - text: 여에스더
+        - heading "구매 전 확인할 점" [level=2]
+        - list:
+          - paragraph: 우유나 두유에 섞어 먹을 계획이라면 제품의 섭취 방법에 액상 음료와 혼합 가능한지 확인하세요.
+          - paragraph: 단맛을 원하지 않는다면 감미료와 향료가 들어 있는지 확인하세요.
+          - paragraph: 대두, 완두, 기타 콩류에 알레르기가 있다면 원재료와 알레르기 표시를 확인하세요.
+          - paragraph: 가격과 재고는 변동될 수 있으므로 공식 판매 페이지에서 최종 확인이 필요합니다.
+        - paragraph:
+          - generic: 제일 먼저 살펴볼 제품은 엔트리 식물성 프로틴 파우더입니다.
+          - text: 4가지 식물성 단백질 원료와 1회 단백질 함량이 구체적으로 공개되어 있어 비교하기 편합니다.
+        - paragraph:
+          - text: 원하시면 다음 단계로
+          - generic: 무가당·저당 제품만 따로 추려서, 우유나 무가당 두유에 타 먹기 좋은 제품 3개
+          - text: 를 다시 비교해 드릴 수 있습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+        - button "추가 작업":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## W02 / 제출 UTC 2026-11-23T18:16:30.798Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 수박씨 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - heading "수박씨 탈지 단백질 분말 조사 결과" [level=2]
+        - paragraph: 2026년 11월 24일 기준으로 해외 제조사 및 원료 공급업체의 제품을 중심으로 검색했습니다.
+        - paragraph: 먼저 중요한 점이 있습니다. **수박씨 탈지분말(Defatted Watermelon Seed Flour)**과 **수박씨 단백질 농축분말(Watermelon Seed Protein Concentrate)**은 서로 다른 제품입니다.
+        - list:
+          - paragraph: "탈지분말: 수박씨에서 기름을 제거한 분말로, 단백질 외에 식이섬유 등도 포함합니다."
+          - paragraph: "단백질 농축분말: 탈지한 원료에서 단백질을 추가로 추출·농축한 제품입니다."
+        - paragraph: 따라서 제품 중량뿐 아니라 단백질 함량과 원재료 가공 형태도 구분해서 비교해야 합니다.
+        - heading "1. 확인된 제품 최대 3종" [level=2]
+        - img "Watermelon Seed Protein Powder 16 oz – NURTIVE"
+        - button "Open Watermelon Seed Protein Powder 16 oz – NURTIVE"
+        - paragraph:
+          - text: ①
+          - button "GUTINS Watermelon Seed Protein – 60% Concentrate"
+          - generic: GUTINS Watermelon Seed Protein – 60% Concentrate
+        - generic: 중량 확인
+        - list:
+          - paragraph: "판매처: GUTINS 공식 온라인몰"
+          - paragraph: "원재료: 수박씨 단백질(껍질 제거 및 탈지한 씨앗, 발아 원료 사용 가능)"
+          - paragraph: "단백질 규격: 60%"
+          - paragraph: "판매 중량: 50g, 225g, 1kg, 5kg"
+          - paragraph: "표시 가격: 50g 샘플 $19.14 (배송·관세 포함 가격은 별도 표시)"
+          - paragraph: "선택 이유: 소량 샘플부터 대량 구매까지 중량 선택이 가능하고, CoA 제공을 요청할 수 있음."
+        - paragraph:
+          - text: "근거:"
+          - button "GUTINS 공식 제품 상세 및 구매 페이지":
+            - link "GUTINS 공식 제품 상세 및 구매 페이지":
+              - /url: https://gutins.com/products/watermelon-seed-protein-60-percent-concentrate?utm_source=chatgpt.com
+              - generic: GUTINS 공식 제품 상세 및 구매
+              - generic: 페이지
+        - img "Watermelon Seed Protein Powder 250 grams | Daraz.pk"
+        - button "Open Watermelon Seed Protein Powder 250 grams | Daraz.pk"
+        - paragraph:
+          - text: ②
+          - button "GUTINS Watermelon Seed Protein – 70% Concentrate"
+          - generic: GUTINS Watermelon Seed Protein – 70% Concentrate
+        - generic: 중량 확인
+        - list:
+          - paragraph: "판매처: GUTINS 공식 온라인몰"
+          - paragraph: "원재료: 수박씨 단백질(껍질 제거 및 탈지한 씨앗, 발아 원료 사용 가능)"
+          - paragraph: "단백질 규격: 70%"
+          - paragraph: "판매 중량: 50g, 225g, 1kg, 5kg"
+          - paragraph: "표시 가격: 50g 샘플 $19.14 (배송·관세 포함 가격은 별도 표시)"
+          - paragraph: "선택 이유: 조사한 제품 중 단백질 규격이 가장 높아 고단백 원료를 찾는 경우 비교 가치가 있음."
+        - paragraph:
+          - text: "근거:"
+          - button "GUTINS 공식 제품 상세 및 구매 페이지":
+            - link "GUTINS 공식 제품 상세 및 구매 페이지":
+              - /url: https://gutins.com/products/watermelon-seed-protein-70-percent-concentrate?_fid=f62ac2b64&_pos=23&_ss=c&utm_source=chatgpt.com
+              - generic: GUTINS 공식 제품 상세 및 구매
+              - generic: 페이지
+        - img "China Organic Watermelon Seed Protein Powder Manufacturers Suppliers Factory - Good Price"
+        - button "Open China Organic Watermelon Seed Protein Powder Manufacturers Suppliers Factory - Good Price"
+        - paragraph:
+          - text: ③
+          - button "Tradin Organic Defatted Watermelon Seed Protein Powder"
+          - generic: Tradin Organic Defatted Watermelon Seed Protein Powder
+        - generic: 중량 미확인
+        - list:
+          - paragraph: "판매처: Tradin Organic 공식 공급업체"
+          - paragraph: "원재료: 유기농 수박씨 탈지 단백질 분말"
+          - paragraph: "단백질 함량: 60%"
+          - paragraph: "원산지: 중국"
+          - paragraph: "판매 중량: 공개 자료에서 확인 불가"
+          - paragraph: "판매 방식: 공식 홈페이지 문의 및 공급 상담"
+          - paragraph: "선택 이유: 유기농 원료를 찾는 경우 비교할 만하며, 제조사에서 탈지 및 단백질 함량을 명시하고 있음."
+        - paragraph:
+          - text: "근거:"
+          - button "Tradin Organic 공식 제품 정보":
+            - link "Tradin Organic 공식 제품 정보":
+              - /url: https://www.tradinorganic.com/organic-products/all/organic-watermelon?utm_source=chatgpt.com
+              - generic: Tradin Organic 공식 제품
+              - generic: 정보
+        - heading "2. 원재료 및 중량 비교" [level=2]
+        - table:
+          - rowgroup:
+            - row "비교 항목 GUTINS 60% GUTINS 70% Tradin Organic":
+              - columnheader "비교 항목":
+                - paragraph: 비교 항목
+              - columnheader "GUTINS 60%":
+                - paragraph: GUTINS 60%
+              - columnheader "GUTINS 70%":
+                - paragraph: GUTINS 70%
+              - columnheader "Tradin Organic":
+                - paragraph: Tradin Organic
+            - row "원료 수박씨 수박씨 유기농 수박씨":
+              - cell "원료":
+                - paragraph: 원료
+              - cell "수박씨":
+                - paragraph: 수박씨
+              - cell "수박씨":
+                - paragraph: 수박씨
+              - cell "유기농 수박씨":
+                - paragraph: 유기농 수박씨
+            - row "탈지 여부 O O O":
+              - cell "탈지 여부":
+                - paragraph: 탈지 여부
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+            - row "발아 원료 사용 가능 사용 가능 확인 불가":
+              - cell "발아 원료":
+                - paragraph: 발아 원료
+              - cell "사용 가능":
+                - paragraph: 사용 가능
+              - cell "사용 가능":
+                - paragraph: 사용 가능
+              - cell "확인 불가":
+                - paragraph: 확인 불가
+            - row "단백질 규격 60% 70% 60%":
+              - cell "단백질 규격":
+                - paragraph: 단백질 규격
+              - cell "60%":
+                - paragraph: 60%
+              - cell "70%":
+                - paragraph: 70%
+              - cell "60%":
+                - paragraph: 60%
+            - row "50g O O 미확인":
+              - cell "50g":
+                - paragraph: 50g
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+              - cell "미확인":
+                - paragraph: 미확인
+            - row "225g O O 미확인":
+              - cell "225g":
+                - paragraph: 225g
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+              - cell "미확인":
+                - paragraph: 미확인
+            - row "1kg O O 미확인":
+              - cell "1kg":
+                - paragraph: 1kg
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+              - cell "미확인":
+                - paragraph: 미확인
+            - row "5kg O O 미확인":
+              - cell "5kg":
+                - paragraph: 5kg
+              - cell "O":
+                - paragraph: O
+              - cell "O":
+                - paragraph: O
+              - cell "미확인":
+                - paragraph: 미확인
+            - row "원산지 미확인 미확인 중국":
+              - cell "원산지":
+                - paragraph: 원산지
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "중국":
+                - paragraph: 중국
+            - row "유기농 표시 미확인 미확인 O":
+              - cell "유기농 표시":
+                - paragraph: 유기농 표시
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "O":
+                - paragraph: O
+        - paragraph: ※ GUTINS의 발아 여부는 모든 원료가 발아 처리됐다는 뜻이 아니라 제조사 설명상 발아 원료가 사용될 수 있다는 의미입니다.
+        - paragraph: ※ 제품 페이지에 기재된 단백질 규격은 실제 구매 로트의 검사 성적서 수치와 다를 수 있습니다. 실제 함량은 CoA 확인이 필요합니다.
+        - heading "3. 선택할 때 참고할 연구 자료" [level=2]
+        - paragraph: 제품을 비교할 때 탈지분말과 단백질 농축분말의 차이를 이해하는 데 도움이 되는 연구가 있습니다.
+        - paragraph: 2025년 발표된 연구에서는 수박씨 원료를 탈지한 뒤 단백질을 농축한 결과 다음과 같은 수치를 보고했습니다.
+        - table:
+          - rowgroup:
+            - row "구분 단백질 함량 지방 함량":
+              - columnheader "구분":
+                - paragraph: 구분
+              - columnheader "단백질 함량":
+                - paragraph: 단백질 함량
+              - columnheader "지방 함량":
+                - paragraph: 지방 함량
+            - row "일반 수박씨 분말 32.08% 6.83%":
+              - cell "일반 수박씨 분말":
+                - paragraph: 일반 수박씨 분말
+              - cell "32.08%":
+                - paragraph: 32.08%
+              - cell "6.83%":
+                - paragraph: 6.83%
+            - row "탈지 수박씨 분말 34.71% 0.86%":
+              - cell "탈지 수박씨 분말":
+                - paragraph: 탈지 수박씨 분말
+              - cell "34.71%":
+                - paragraph: 34.71%
+              - cell "0.86%":
+                - paragraph: 0.86%
+            - row "단백질 농축물 82.52% 1.51%":
+              - cell "단백질 농축물":
+                - paragraph: 단백질 농축물
+              - cell "82.52%":
+                - paragraph: 82.52%
+              - cell "1.51%":
+                - paragraph: 1.51%
+        - paragraph: "단위: g/100g. 특정 연구에서 제조한 시료의 분석 결과이며, 위에서 소개한 상업 제품의 성분 수치는 아닙니다."
+        - paragraph:
+          - text: "연구 근거:"
+          - button "Molecules (2025) – Preliminary Data of the Nutritive, Antioxidative, and Functional Properties of Watermelon Flour and Seed Protein Concentrate":
+            - link "Molecules (2025) – Preliminary Data of the Nutritive, Antioxidative, and Functional Properties of Watermelon Flour and Seed Protein Concentrate":
+              - /url: https://www.mdpi.com/1420-3049/30/1/181?utm_source=chatgpt.com
+              - generic: Molecules (2025) – Preliminary Data of the Nutritive, Antioxidative, and Functional Properties of Watermelon Flour and Seed Protein
+              - generic: Concentrate
+          - text: .
+        - paragraph: 이 연구에서 확인할 수 있는 핵심은 탈지만 한 분말과 추가로 단백질을 추출한 농축분말은 단백질 함량이 상당히 다르다는 점입니다.
+        - heading "4. 최종 선택 의견" [level=2]
+        - paragraph: 목적에 따라 다음과 같이 추천합니다.
+        - list:
+          - paragraph:
+            - generic: "고단백 원료 우선:"
+            - text: GUTINS 70%. 표시 규격이 70%로 가장 높습니다.
+          - paragraph:
+            - generic: "유기농 원료 우선:"
+            - text: Tradin Organic. 유기농 및 60% 단백질 규격을 공식적으로 표시하고 있습니다.
+          - paragraph:
+            - generic: "소량 시험 구매 우선:"
+            - text: GUTINS 60%. 50g 샘플과 여러 중량 선택지가 확인됩니다.
+        - paragraph: 다만 세 제품 모두 국내 일반 소비자용 완제품인지, 식품 제조용 원료인지 구분해야 합니다. 특히 GUTINS는 제조·배합용 원료이며, 공식 안내에 농축 상태로 직접 섭취하는 완제품이 아니라고 명시되어 있습니다.
+        - heading "5. 구매 전 추가 확인이 필요한 사항" [level=2]
+        - paragraph: 실제 구매를 진행한다면 공급업체에 아래 자료를 요청하는 것을 권장합니다.
+        - list:
+          - paragraph: 원재료명 및 전체 배합비(첨가물 포함 여부)
+          - paragraph: 탈지 방식(냉압착, 용매 추출 등)
+          - paragraph: 단백질 함량 시험성적서(CoA)
+          - paragraph: 지방, 탄수화물, 식이섬유 함량
+          - paragraph: 원산지 및 유기농 인증서
+          - paragraph: 중금속 및 잔류 용매 검사 결과
+          - paragraph: 국내 식품 수입·판매 가능 여부
+        - paragraph:
+          - generic: "제 결론:"
+          - text: 현재 공개 자료로는 GUTINS 70% 제품이 단백질 함량 측면에서 가장 유력한 후보입니다. 다만 원재료의 순도와 실제 단백질 함량을 확정하려면 구매 로트의 CoA를 확인해야 합니다.
+        - paragraph: 원하시면 다음 단계로 국내에서 구매할 수 있는 수입 판매처와 국내 식품 원료 유통업체까지 범위를 넓혀 조사할 수 있습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## S04 / 제출 UTC 2026-11-23T18:16:33.504Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 사차인치 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - heading "사차인치 단백질 분말 제품 조사 결과" [level=2]
+        - paragraph: 2026년 11월 24일 기준으로 국내 온라인 판매 제품을 검색했습니다.
+        - paragraph:
+          - text: 먼저 구분할 점이 있습니다.
+          - generic: 사차인치 100% 견과류 제품
+          - text: 과
+          - generic: 사차인치가 원료로 들어간 식물성 단백질 분말
+          - text: 은 서로 다른 제품입니다. 요청하신 목적에 맞춰 후자를 우선적으로 살펴봤습니다.
+        - paragraph: 현재 검색 결과에서는 원재료와 보관 방법을 모두 확인할 수 있는 제품이 많지 않았습니다. 확인되지 않은 정보를 임의로 보충하지 않고 소개하겠습니다.
+        - heading "확인된 제품 최대 3개" [level=2]
+        - heading "1. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1kg" [level=3]
+        - generic: 국내 판매 제품
+        - img "왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - button "Open 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - paragraph:
+          - generic: "제품명:"
+          - text: 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1kg
+        - paragraph:
+          - generic: "판매처:"
+          - text: 왓푸드 공식 온라인몰
+        - paragraph:
+          - generic: "표시 가격:"
+          - text: 19,800원
+        - list:
+          - paragraph: "원재료: 제품명에 완두콩과 사차인치가 표시되어 있으나, 상세 원재료 배합비는 확인하지 못했습니다."
+          - paragraph: "단백질 함량: 판매 페이지에서 30g당 단백질 20g이라고 안내합니다."
+          - paragraph: "보관 방법: 확인 가능한 상세 페이지에서 구체적인 보관 조건을 찾지 못했습니다."
+          - paragraph: "판매 상태: 검색 당시 품절 표시가 있었습니다."
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 사차인치를 포함한 식물성 단백질 제품이라는 점과 단백질 함량이 표시되어 있다는 점입니다. 다만 보관 방법이 확인되지 않아 요청하신 조건을 완전히 충족하지는 않습니다.
+        - paragraph:
+          - text: "근거:"
+          - button "왓푸드 공식 판매 페이지":
+            - link "왓푸드 공식 판매 페이지":
+              - /url: https://whatfood.co.kr/product/detail.html?item_code=P00000BZ000B&product_no=51&utm_source=chatgpt.com
+              - generic: 왓푸드 공식 판매
+              - generic: 페이지
+          - text: /
+          - button "11번가 판매 페이지":
+            - link "11번가 판매 페이지":
+              - /url: https://www.11st.co.kr/products/7788682355?utm_source=chatgpt.com
+              - generic: 11번가 판매
+              - generic: 페이지
+        - heading "2. Terrasoul Superfoods Sacha Inchi Protein Powder 60%" [level=3]
+        - img "Sacha Inchi Protein Powder (60% Protein) – Terrasoul Superfoods"
+        - button "Open Sacha Inchi Protein Powder (60% Protein) – Terrasoul Superfoods"
+        - paragraph:
+          - generic: "제품명:"
+          - text: Sacha Inchi Protein Powder (60% Protein)
+        - paragraph:
+          - generic: "판매처:"
+          - text: Terrasoul Superfoods 공식 온라인몰
+        - paragraph:
+          - generic: "표시 가격:"
+          - text: 12oz 기준 16.99달러
+        - list:
+          - paragraph: "원재료: Organic Sacha Inchi Powder (Plukenetia volubilis) 단일 원료."
+          - paragraph: "보관 방법: 냉장 보관은 필요하지 않으며 서늘하고 어둡고 건조한 곳에 보관."
+          - paragraph: "원산지: 페루."
+          - paragraph: "인증 관련 표시: USDA Organic, Kosher, Non-GMO Project Verified."
+          - paragraph: "단백질 함량: 제품명에 60% 표시."
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 원재료가 단일 성분으로 명확하게 공개되어 있고, 보관 방법까지 공식 판매 페이지에 구체적으로 기재되어 있습니다. 이번 조사에서 요청 조건에 가장 잘 부합하는 제품입니다.
+        - paragraph:
+          - text: "근거:"
+          - button "Terrasoul 공식 제품 페이지":
+            - link "Terrasoul 공식 제품 페이지":
+              - /url: https://www.terrasoul.com/products/sacha-inchi-protein-powder-60-protein?utm_source=chatgpt.com
+              - generic: Terrasoul 공식 제품
+              - generic: 페이지
+        - heading "3. Imlak'esh Organics Organic Sacha Inchi Protein" [level=3]
+        - img "Organic Sacha Inchi Protein — Imlak'esh Organics"
+        - button "Open Organic Sacha Inchi Protein — Imlak'esh Organics"
+        - paragraph:
+          - generic: "제품명:"
+          - text: Organic Sacha Inchi Protein
+        - paragraph:
+          - generic: "판매처:"
+          - text: Imlak'esh Organics 공식 온라인몰
+        - paragraph:
+          - generic: "가격:"
+          - text: 이번 조사에서 확인되지 않음.
+        - list:
+          - paragraph: "원재료: Organic Gelatinized Sacha Inchi Protein Powder."
+          - paragraph: "원재료 구성: 사차인치 단일 원료라고 표시."
+          - paragraph: "보관 방법: 검색으로 확인한 공식 페이지 내용에서 구체적인 보관 조건을 확인하지 못했습니다."
+          - paragraph: "주의사항: 견과류를 취급하는 시설에서 포장한다고 안내합니다."
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 원재료가 단일 성분으로 명시되어 있어 첨가물 여부를 확인하기 쉽습니다. 다만 보관 방법이 확인되지 않아 완전한 조건 충족 제품으로 분류하지 않았습니다.
+        - paragraph:
+          - text: "근거:"
+          - button "Imlak'esh 공식 제품 페이지":
+            - link "Imlak'esh 공식 제품 페이지":
+              - /url: https://imlakeshorganics.com/products/sacha-inchi-protein/?utm_source=chatgpt.com
+              - generic: Imlak'esh 공식 제품
+              - generic: 페이지
+        - heading "최종 비교" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 원재료 확인 보관 방법 확인 평가":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "원재료 확인":
+                - paragraph: 원재료 확인
+              - columnheader "보관 방법 확인":
+                - paragraph: 보관 방법 확인
+              - columnheader "평가":
+                - paragraph: 평가
+            - row "왓푸드 부분 확인 미확인 조건 일부 충족":
+              - cell "왓푸드":
+                - paragraph: 왓푸드
+              - cell "부분 확인":
+                - paragraph: 부분 확인
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "조건 일부 충족":
+                - paragraph: 조건 일부 충족
+            - row "Terrasoul 확인 확인 조건 충족":
+              - cell "Terrasoul":
+                - paragraph: Terrasoul
+              - cell "확인":
+                - paragraph: 확인
+              - cell "확인":
+                - paragraph: 확인
+              - cell "조건 충족":
+                - paragraph: 조건 충족
+            - row "Imlak'esh 확인 미확인 조건 일부 충족":
+              - cell "Imlak'esh":
+                - paragraph: Imlak'esh
+              - cell "확인":
+                - paragraph: 확인
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "조건 일부 충족":
+                - paragraph: 조건 일부 충족
+        - heading "최종 추천" [level=2]
+        - paragraph:
+          - generic: Terrasoul Superfoods 제품을 가장 먼저 검토하는 것을 추천합니다.
+        - paragraph: 이유는 다음 세 가지입니다.
+        - list:
+          - paragraph: 원재료가 유기농 사차인치 분말 단일 성분으로 공개되어 있습니다.
+          - paragraph: 냉장 보관이 필요 없고, 서늘하고 어둡고 건조한 곳에 보관하라는 지침이 명시되어 있습니다.
+          - paragraph: 원산지와 제품 인증 정보도 함께 확인할 수 있습니다.
+        - paragraph: 다만 해외 직구 제품이므로 국내 수입·판매 가능 여부와 배송 조건은 별도로 확인해야 합니다.
+        - paragraph:
+          - generic: "조사상 한계:"
+          - text: 국내 판매 제품 중 원재료와 보관 방법이 모두 공개된 사차인치 단백질 분말은 이번 검색에서 확인하지 못했습니다. 따라서 확인되지 않은 제품을 조건 충족 제품인 것처럼 추천하지 않았습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - status:
+    - paragraph: 기본 모델을 사용 중입니다. 더 높은 추론 수준을 이용하려면 로그인하거나 가입하세요.
+    - button "로그인":
+      - generic: 로그인
+    - button "닫기":
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## G02 / 제출 UTC 2026-11-23T18:16:36.026Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 콩이나 곡물 대신 씨앗을 원료로 한 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 콩·완두콩·쌀·밀 등의 단백질을 주원료로 사용하지 않고,
+          - generic: 호박씨·해바라기씨·아마씨·수박씨·치아씨 등 씨앗에서 추출한 단백질 분말
+          - text: 을 중심으로 찾아봤습니다.
+        - paragraph: 아래 제품은 판매 페이지에서 원료 구성을 확인할 수 있는 제품들입니다. 씨앗 단백질을 주원료로 사용했는지, 다른 콩이나 곡물 단백질이 혼합되어 있는지를 중요한 선정 기준으로 삼았습니다.
+        - heading "추천 제품 3개" [level=2]
+        - img "Seed Protein Powder 1lb - Vegan & Gluten Free - Naked Pea"
+        - button "Open Seed Protein Powder 1lb - Vegan & Gluten Free - Naked Pea"
+        - paragraph:
+          - text: "1."
+          - button "Naked Seed Protein Powder"
+          - generic: Naked Seed Protein Powder
+        - generic: 씨앗 4종만 단백질 원료로 사용
+        - list:
+          - paragraph:
+            - generic: "판매처:"
+            - button "Naked Nutrition 공식 판매 페이지":
+              - link "Naked Nutrition 공식 판매 페이지":
+                - /url: https://nakednutrition.com/products/seed-protein-powder?utm_source=chatgpt.com
+                - generic: Naked Nutrition 공식 판매
+                - generic: 페이지
+          - paragraph:
+            - generic: "주요 원료:"
+            - text: 호박씨, 해바라기씨, 수박씨, 치아씨 단백질
+          - paragraph:
+            - generic: "단백질 함량:"
+            - text: 1회 제공량당 20g (판매 페이지 표기)
+          - paragraph:
+            - generic: "선택 이유:"
+            - text: 네 가지 씨앗을 혼합한 제품이며, 원료 목록에 콩이나 곡물 단백질이 없습니다. 무첨가 감미료·향료 제품을 찾는 경우에도 검토할 만합니다.
+          - paragraph:
+            - generic: "확인 사항:"
+            - text: 1lb 제품. 한국 배송 가능 여부는 확인되지 않았습니다.
+            - button "Naked Nutrition +1":
+              - generic: Naked Nutrition
+              - generic: "+1"
+        - img "Dr. Murray's, Super Foods, 3 Seed Vegan Protein Powder, Unflavored, 16 - Doctor Murray Superfoods"
+        - button "Open Dr. Murray's, Super Foods, 3 Seed Vegan Protein Powder, Unflavored, 16 - Doctor Murray Superfoods"
+        - paragraph:
+          - text: "2."
+          - button "Dr. Murray's Super Foods 3 Seed Protein Powder"
+          - generic: Dr. Murray's Super Foods 3 Seed Protein Powder
+        - generic: 콩·완두콩·쌀·햄프 단백질 제외
+        - list:
+          - paragraph:
+            - generic: "판매처:"
+            - button "Dr. Murray 공식 온라인 스토어":
+              - link "Dr. Murray 공식 온라인 스토어":
+                - /url: https://doctormurray.com/products/dr-murrays-super-foods-3-seed-protein-powder?utm_source=chatgpt.com
+                - generic: Dr. Murray 공식 온라인
+                - generic: 스토어
+          - paragraph:
+            - generic: "주요 원료:"
+            - text: 호박씨 단백질, 아마씨 단백질, 해바라기씨 단백질
+          - paragraph:
+            - generic: "제품 종류:"
+            - text: 초콜릿, 무향, 바닐라
+          - paragraph:
+            - generic: "선택 이유:"
+            - text: 제조사가 완두콩·대두·쌀·햄프 단백질을 사용하지 않는다고 명시했습니다. 씨앗 3종이 주 단백질 원료입니다.
+          - paragraph:
+            - generic: "주의:"
+            - text: 초콜릿 맛에는 코코아, MCT 분말, 천연 향료 등이 추가됩니다. 무향 제품을 선택하면 부원료를 줄이는 데 유리합니다.
+          - paragraph:
+            - generic: "한국 배송:"
+            - text: 확인되지 않았습니다.
+            - button "Dr. Murray":
+              - generic: Dr. Murray
+        - img "Pumpkin Seed Protein | 16oz Powder"
+        - button "Open Pumpkin Seed Protein | 16oz Powder"
+        - paragraph:
+          - text: "3."
+          - button "Horbäach Organic Pumpkin Seed Protein Powder"
+          - generic: Horbäach Organic Pumpkin Seed Protein Powder
+        - generic: 단일 씨앗 원료
+        - list:
+          - paragraph:
+            - generic: "판매처:"
+            - button "Piping Rock 한국 판매 페이지":
+              - link "Piping Rock 한국 판매 페이지":
+                - /url: https://www.pipingrock.com/en-kr/products/pumpkin-seed-protein-powder-organic-16-oz-454-g-bottle-cl14611?utm_source=chatgpt.com
+                - generic: Piping Rock 한국 판매
+                - generic: 페이지
+          - paragraph:
+            - generic: "주요 원료:"
+            - text: 유기농 호박씨 단백질 분말
+          - paragraph:
+            - generic: "용량:"
+            - text: 454g
+          - paragraph:
+            - generic: "단백질 함량:"
+            - text: 28g당 15g
+          - paragraph:
+            - generic: "판매 가격:"
+            - text: 확인 당시 ₩34,412
+          - paragraph:
+            - generic: "선택 이유:"
+            - text: 혼합 단백질이 아닌 호박씨 단일 원료 제품입니다. 다른 식물성 단백질 원료를 피하고 싶을 때 가장 단순한 선택입니다.
+          - paragraph:
+            - generic: "배송:"
+            - text: 한국 배송 가능이라고 판매 페이지에 명시되어 있습니다.
+            - button "Horbäach":
+              - generic: Horbäach
+        - heading "비교 및 선택 제안" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 단백질 원료 1회 단백질":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "단백질 원료":
+                - paragraph: 단백질 원료
+              - columnheader "1회 단백질":
+                - paragraph: 1회 단백질
+            - row "Naked Seed 씨앗 4종 20g":
+              - cell "Naked Seed":
+                - paragraph: Naked Seed
+              - cell "씨앗 4종":
+                - paragraph: 씨앗 4종
+              - cell "20g":
+                - paragraph: 20g
+            - row "Dr. Murray's 씨앗 3종 판매 페이지에서 명확한 수치 확인 불가":
+              - cell "Dr. Murray's":
+                - paragraph: Dr. Murray's
+              - cell "씨앗 3종":
+                - paragraph: 씨앗 3종
+              - cell "판매 페이지에서 명확한 수치 확인 불가":
+                - paragraph: 판매 페이지에서 명확한 수치 확인 불가
+            - row "Horbäach 호박씨 1종 15g":
+              - cell "Horbäach":
+                - paragraph: Horbäach
+              - cell "호박씨 1종":
+                - paragraph: 호박씨 1종
+              - cell "15g":
+                - paragraph: 15g
+        - heading "최종 추천" [level=2]
+        - list:
+          - paragraph:
+            - generic: "씨앗 종류가 다양하고 단백질 함량도 중요하다면:"
+            - text: Naked Seed
+          - paragraph:
+            - generic: "콩·완두콩·쌀 단백질을 명시적으로 제외하고 싶다면:"
+            - text: Dr. Murray's
+          - paragraph:
+            - generic: "원료를 최대한 단순하게 하고 한국 배송이 중요하다면:"
+            - text: Horbäach
+        - paragraph:
+          - generic: 구매 전 참고할 점
+        - list:
+          - paragraph: 씨앗 단백질 분말이라고 해도 제품마다 단백질 농도가 크게 다릅니다.
+          - paragraph: 대두 알레르기 때문에 찾는 것이라면 원재료뿐 아니라 제조시설의 교차접촉 안내도 확인해야 합니다.
+          - paragraph: 위 제품 중 한국 배송이 명시적으로 확인된 것은 Horbäach 제품입니다. 나머지 제품은 국내 구매 가능 여부를 확정하지 않았습니다.
+        - paragraph: 개인적으로는 원료의 단순성을 가장 중요하게 생각한다면 Horbäach, 다양한 씨앗을 활용하고 싶다면 Naked Seed를 우선 비교하겠습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+        - button "추가 작업":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## W03 / 제출 UTC 2026-11-23T18:16:38.494Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 두유에 섞어 먹을 수박씨 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph: 수박씨에서 추출한 식물성 단백질인 **Watermelon Seed Protein Powder(수박씨 단백질 분말)**를 중심으로 검색했습니다.
+        - paragraph: 검색 결과, 해외에서는 실제 판매 중인 제품과 원료용 분말을 확인했습니다. 다만 국내에서 일반 소비자가 소량 구매해 두유에 타 먹을 수 있는 제품은 선택지가 제한적입니다.
+        - heading "추천 제품 3가지" [level=2]
+        - img "Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - button "Open Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - paragraph:
+          - text: "1."
+          - button "NURTIVE Watermelon Seed Protein Powder"
+          - generic: NURTIVE Watermelon Seed Protein Powder
+        - generic: 일반 음용 목적 우선 검토
+        - list:
+          - paragraph: "판매처: NURTIVE 공식 온라인몰"
+          - paragraph: "용량: 16 oz"
+          - paragraph: "표시 가격: $29.95"
+          - paragraph: "단백질: 25g당 14g"
+          - paragraph: "사용법: 스무디, 셰이크, 베이킹에 1~2 테이블스푼 사용"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 실제 음료와 셰이크에 넣는 사용법이 안내되어 있고, 영양성분도 공개되어 있습니다.
+        - paragraph: 검색 당시 품절 표시가 있어 재입고 여부 확인이 필요합니다.
+        - button "NURTIVE 공식 제품 페이지":
+          - link "NURTIVE 공식 제품 페이지":
+            - /url: https://nurtive.co/products/watermelon-seed-protein?utm_source=chatgpt.com
+            - generic: NURTIVE 공식 제품
+            - generic: 페이지
+        - img "Watermelon Seed Protein Powder 16 oz – NURTIVE"
+        - button "Open Watermelon Seed Protein Powder 16 oz – NURTIVE"
+        - paragraph:
+          - text: "2."
+          - button "GUTINS Watermelon Seed Protein – 60% Concentrate"
+          - generic: GUTINS Watermelon Seed Protein – 60% Concentrate
+        - list:
+          - paragraph: "판매처: GUTINS 공식 온라인몰"
+          - paragraph: "용량: 50g, 225g, 1kg, 5kg 옵션"
+          - paragraph: "표시 가격: 50g $17.16"
+          - paragraph: "단백질 농도: 60%"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 소량 시험 구매 옵션이 있고 단백질 함량이 명시되어 있습니다. 원료가 수박씨라는 점도 명확합니다.
+        - paragraph:
+          - generic: "주의:"
+          - text: 제조·배합용 원료 성격이 있으므로 일반 음용 가능 여부와 식품 안전성 서류를 판매처에 확인해야 합니다.
+        - button "GUTINS 공식 제품 페이지":
+          - link "GUTINS 공식 제품 페이지":
+            - /url: https://gutins.com/products/watermelon-seed-protein-60-percent-concentrate?_fid=f62ac2b64&_pos=24&_ss=c&utm_source=chatgpt.com
+            - generic: GUTINS 공식 제품
+            - generic: 페이지
+        - img "Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - button "Open Watermelon Seed Protein Powder | Plant-Based Protein with Magnesium & Iron | 21 Servings for Post-Workout Recovery | Sustainable Nutrition | Buy Now with Express International Delivery | GoSupps.com"
+        - paragraph:
+          - text: "3."
+          - button "Onset Worldwide Watermelon Seed Protein Powder"
+          - generic: Onset Worldwide Watermelon Seed Protein Powder
+        - list:
+          - paragraph: "판매처: Ingredi.com"
+          - paragraph: "제조·공급사: Onset Worldwide"
+          - paragraph: "포장: 44 lb 대용량"
+          - paragraph: "단백질: 70% ± 7%"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 원료가 100% 수박씨 커널이라고 명시되어 있고 단백질 함량과 미생물 규격 등 상세 사양을 공개하고 있습니다.
+        - paragraph:
+          - generic: "주의:"
+          - text: 중요한 점은 이 제품이 생원료 상태이며 바로 먹을 수 없다는 것입니다. 적절한 살균 처리가 필요하다고 명시되어 있어 두유에 바로 섞어 먹는 용도로는 추천하지 않습니다.
+        - button "Ingredi 판매 페이지":
+          - link "Ingredi 판매 페이지":
+            - /url: https://ingredi.com/watermelon-seed-protein-powder-conventional-44-lb-bag/?utm_source=chatgpt.com
+            - generic: Ingredi 판매
+            - generic: 페이지
+        - heading "두유에 타 먹는 목적이라면" [level=2]
+        - paragraph: 현재 확인한 제품 중에서는 NURTIVE가 가장 적합한 후보입니다.
+        - paragraph: 다만 구매 전에 다음 사항을 확인하는 것이 좋습니다.
+        - list:
+          - paragraph: 두유에 직접 혼합해 섭취해도 되는 완제품인지
+          - paragraph: 별도의 가열이나 살균 처리가 필요한지
+          - paragraph: 1회 섭취량과 실제 단백질 함량
+          - paragraph: 첨가물 및 알레르기 유발 성분
+        - paragraph: 특히 원료용 수박씨 단백질과 바로 먹을 수 있는 완제품은 구분해야 합니다.
+        - heading "검색 결과에 대한 결론" [level=2]
+        - paragraph: 국내 판매처에서 구매할 수 있는 소포장 제품은 이번 검색에서 확실하게 확인하지 못했습니다. 해외 제품도 한국 배송 가능 여부와 관세·배송비는 확인되지 않았습니다.
+        - paragraph:
+          - generic: 한 가지 더 여쭤볼게요.
+        - paragraph: 국내 쇼핑몰에서 구매할 수 있는 제품만 원하시나요, 아니면 미국·유럽 해외 직구 제품도 괜찮으신가요?
+        - paragraph: 이 조건을 알면 두유에 바로 타 먹을 수 있는 제품 위주로 다시 좁혀드릴 수 있습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## S03 / 제출 UTC 2026-11-23T18:16:42.808Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 두유에 섞어 먹을 사차인치 프로틴 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 두유에 섞어 드실 목적이라면
+          - generic: 사차인치가 실제 원료로 들어간 분말
+          - text: 을 우선 추천합니다. 단순 사차인치 오일이나 볶은 사차인치 분말보다는 단백질 함량이 표시된 제품이 목적에 더 잘 맞습니다.
+        - paragraph: 2026년 11월 24일 기준으로 검색한 결과, 아래 제품들을 확인했습니다. 다만 제품별 판매 상태와 성분 확인 수준에 차이가 있어 구분해서 소개하겠습니다.
+        - heading "추천 제품 3가지" [level=2]
+        - img "왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - button "Open 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1Kg (단백질 밸런스형) | 왓푸드"
+        - generic: 우선 검토 추천
+        - paragraph:
+          - generic: 1. 왓푸드 식물성 단백질 분말 완두콩 N 사차인치 1kg
+        - list:
+          - paragraph: "판매처: 왓푸드 공식 쇼핑몰"
+          - paragraph: "검색 확인 가격: 19,800원"
+          - paragraph: "표시 단백질: 30g당 20g"
+          - paragraph: "선택 이유: 완두콩과 사차인치를 함께 사용한 식물성 단백질 제품이며, 1회 섭취량 기준 단백질 함량이 표시되어 있습니다."
+          - paragraph: "주의: 현재 상품 페이지에 품절 표시가 있어 구매 가능 여부를 확인해야 합니다."
+        - paragraph: "근거: 판매 페이지 상품명, 가격, 단백질 함량 및 재고 표시"
+        - button "왓푸드 공식 상품 페이지":
+          - link "왓푸드 공식 상품 페이지":
+            - /url: https://whatfood.co.kr/product/detail.html?item_code=P00000BZ000B&product_no=51&utm_source=chatgpt.com
+            - generic: 왓푸드 공식 상품
+            - generic: 페이지
+        - img "Proteína Orgánica de Sacha Inchi | 18g por porción · 9 Aminoácidos Ese – Ancestral Organics Colombia"
+        - button "Open Proteína Orgánica de Sacha Inchi | 18g por porción · 9 Aminoácidos Ese – Ancestral Organics Colombia"
+        - paragraph:
+          - generic: 2. Sacha Inchi 유기농 식물성 단백질 파우더 500g
+        - list:
+          - paragraph: "판매처: 쿠팡 입점 판매자 aVolte"
+          - paragraph: "검색 확인 가격: 60,190원"
+          - paragraph: "원산지: 페루산으로 상품명에 표시"
+          - paragraph: "선택 이유: 사차인치 자체를 주원료로 하는 단백질 파우더를 찾는 경우 검토할 만합니다."
+          - paragraph: "주의: 상세 영양성분과 실제 단백질 함량은 검색 결과만으로 확인하지 못했습니다. 리뷰도 0건으로 표시됩니다."
+        - paragraph: "근거: 쿠팡 상품 정보 및 판매자 표시"
+        - button "쿠팡 상품 페이지":
+          - link "쿠팡 상품 페이지":
+            - /url: https://www.coupang.com/vp/products/9591420683?utm_source=chatgpt.com
+            - generic: 쿠팡 상품
+            - generic: 페이지
+        - img "Organic Sacha Inchi Protein Powder, 8 Pounds — Non-GMO, Kosher, Raw, Vegan — by Food to Live - Walmart.com"
+        - button "Open Organic Sacha Inchi Protein Powder, 8 Pounds — Non-GMO, Kosher, Raw, Vegan — by Food to Live - Walmart.com"
+        - paragraph:
+          - generic: 3. Food to Live Organic Sacha Inchi Powder 907g
+        - list:
+          - paragraph: "판매처: SSG.COM"
+          - paragraph: "검색 확인 가격: 83,240원"
+          - paragraph: "용량: 907g"
+          - paragraph: "선택 이유: 사차인치 단일 원료에 가까운 파우더 제품을 비교하고 싶을 때 후보가 됩니다."
+          - paragraph: "주의: 영양성분과 단백질 함량이 상세설명 참조로만 표시되어 있어, 실제 함량을 확인한 뒤 구매하는 것이 좋습니다. 해외직배송 상품입니다."
+        - paragraph: "근거: SSG 상품 정보 및 배송 안내"
+        - button "SSG 상품 페이지":
+          - link "SSG 상품 페이지":
+            - /url: https://www.ssg.com/item/itemView.ssg?itemId=1000556635040&utm_source=chatgpt.com
+            - generic: SSG 상품
+            - generic: 페이지
+        - heading "세 제품 비교" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 확인된 단백질 함량 구매 판단":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "확인된 단백질 함량":
+                - paragraph: 확인된 단백질 함량
+              - columnheader "구매 판단":
+                - paragraph: 구매 판단
+            - row "왓푸드 완두콩+사차인치 30g당 20g 함량 확인 가능, 품절":
+              - cell "왓푸드 완두콩+사차인치":
+                - paragraph: 왓푸드 완두콩+사차인치
+              - cell "30g당 20g":
+                - paragraph: 30g당 20g
+              - cell "함량 확인 가능, 품절":
+                - paragraph: 함량 확인 가능, 품절
+            - row "Sacha Inchi 500g 미확인 영양성분 확인 필요":
+              - cell "Sacha Inchi 500g":
+                - paragraph: Sacha Inchi 500g
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "영양성분 확인 필요":
+                - paragraph: 영양성분 확인 필요
+            - row "Food to Live 907g 미확인 영양성분 확인 필요":
+              - cell "Food to Live 907g":
+                - paragraph: Food to Live 907g
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "영양성분 확인 필요":
+                - paragraph: 영양성분 확인 필요
+        - heading "두유에 섞어 먹을 때 선택 기준" [level=2]
+        - paragraph: 제가 가장 먼저 확인할 항목은 다음과 같습니다.
+        - list:
+          - paragraph:
+            - generic: "단백질 함량:"
+            - text: 1회 섭취량당 단백질이 몇 g인지 확인하세요.
+          - paragraph:
+            - generic: "원료 구성:"
+            - text: 사차인치 함량이 실제로 표시되어 있는지 확인하세요.
+          - paragraph:
+            - generic: "첨가당:"
+            - text: 두유 자체에도 당류가 있을 수 있으므로 무가당 제품이 유리합니다.
+          - paragraph:
+            - generic: "맛과 혼합성:"
+            - text: 사차인치 단일 분말은 두유에 섞었을 때 맛이나 질감이 다를 수 있습니다.
+        - paragraph:
+          - text: 참고로 한국소비자원도 단백질 보충 제품은 제품별 단백질 함량과 당류 차이가 크므로 영양정보를 비교하도록 안내하고 있습니다.
+          - button "한국소비자원":
+            - generic: 한국소비자원
+        - heading "최종 추천" [level=2]
+        - paragraph:
+          - text: 현재 확인된 정보만 놓고 보면
+          - generic: 왓푸드 완두콩 N 사차인치 제품
+          - text: 이 가장 목적에 잘 맞습니다. 30g당 단백질 20g이라는 구체적인 표시가 있기 때문입니다. 다만 품절 상태이므로 바로 구매할 수 있다고 말씀드릴 수는 없습니다.
+        - paragraph: 나머지 두 제품은 사차인치 분말이라는 점은 확인되지만 단백질 함량이 검증되지 않아 프로틴 제품으로 확정 추천하기 어렵습니다.
+        - paragraph:
+          - generic: 한 가지 더 여쭤볼게요.
+          - text: 원하시는 제품은 어떤 유형인가요?
+        - list:
+          - paragraph: 사차인치가 주원료인 100% 사차인치 단백질 분말
+          - paragraph: 사차인치와 완두콩 등을 혼합한 고단백 식물성 프로틴
+          - paragraph: 두 가지 모두 가능하지만 단백질 함량이 높은 제품
+        - paragraph: 이 기준을 정하면 실제 영양성분표까지 확인되는 제품 위주로 다시 좁힐 수 있습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+        - button "추가 작업":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## G04 / 제출 UTC 2026-11-23T18:16:47.394Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 플레인 요거트에 곁들일 씨앗 원료 분말을 찾아줘. 원재료와 내용량이 표시된 제품으로 골라줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph:
+          - text: 플레인 요거트에 섞어 먹기 좋은
+          - generic: 아마씨·햄프씨드 등 씨앗 원료 100% 또는 단일 원료 분말
+          - text: 을 우선으로 찾아봤습니다.
+        - paragraph: 선정 기준은 다음과 같습니다.
+        - list:
+          - paragraph: 씨앗이 주원료인 분말 제품
+          - paragraph: 원재료명과 내용량(g)이 확인되는 제품
+          - paragraph: 설탕이나 향료 등이 추가된 혼합 선식은 제외
+          - paragraph: 실제 판매 페이지에서 제품 정보를 확인할 수 있는 제품
+        - heading "추천 제품 3가지" [level=2]
+        - img "볶은아마씨분말 500g - 두손애약초 - 자연의 건강함 그대로, 백년장수의 길 [ handsherb ]"
+        - button "Open 볶은아마씨분말 500g - 두손애약초 - 자연의 건강함 그대로, 백년장수의 길 [ handsherb ]"
+        - generic: 우선 추천
+        - paragraph:
+          - generic: 1. 헬로우그린 볶은 아마씨 분말 500g
+        - list:
+          - paragraph: "판매처: GS SHOP"
+          - paragraph: "원재료: 볶은 아마씨앗 100%"
+          - paragraph: "원산지: 캐나다"
+          - paragraph: "내용량: 500g"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 원재료가 아마씨 100%로 확인되고, 용량도 명확하게 표시되어 있습니다. 요거트에 섞어 먹을 단일 원료 분말로 적합한 후보입니다.
+        - paragraph: "근거: GS SHOP 상품 상세정보 및 필수 표기 정보"
+        - button "제품 정보 및 판매 페이지 확인":
+          - link "제품 정보 및 판매 페이지 확인":
+            - /url: https://m.gsshop.com/prd/prd.gs?bnclick=prd-b02_prdb02A_apiPrdBrand&iid=1UICitP3Mk-cq&mseq=437159&prdid=1076336751&utm_source=chatgpt.com
+            - generic: 제품 정보 및 판매 페이지
+            - generic: 확인
+        - img "볶은아마씨분말 500g - 두손애약초 - 자연의 건강함 그대로, 백년장수의 길 [ handsherb ]"
+        - button "Open 볶은아마씨분말 500g - 두손애약초 - 자연의 건강함 그대로, 백년장수의 길 [ handsherb ]"
+        - paragraph:
+          - generic: 2. 두손애약초 볶은 아마씨 분말 500g
+        - list:
+          - paragraph: "판매처: 두손애약초"
+          - paragraph: "원재료: 볶은 아마씨 분말 제품"
+          - paragraph: "내용량: 500g"
+          - paragraph: "판매가 검색 확인: 8,900원"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 아마씨 분말 형태이며, 플레인 요거트에 곁들이기 좋은 후보입니다. 공식 쇼핑몰 상품 검색 결과에서 제품명과 용량, 판매가격을 확인했습니다.
+        - paragraph: "근거: 두손애약초 상품 검색 결과"
+        - button "두손애약초 판매처 확인":
+          - link "두손애약초 판매처 확인":
+            - /url: https://agapefood.cafe24.com/?utm_source=chatgpt.com
+            - generic: 두손애약초 판매처
+            - generic: 확인
+        - paragraph: "주의: 이번 검색에서 상세 원재료 함량 표기까지는 확인하지 못했습니다."
+        - img "씻어말린 햄프씨드 분말 가루 슈퍼푸드 천연식품 - 건강 분말 | 쿠팡"
+        - button "Open 씻어말린 햄프씨드 분말 가루 슈퍼푸드 천연식품 - 건강 분말 | 쿠팡"
+        - paragraph:
+          - generic: 3. 증안리약초마을 햄프씨드 분말
+        - list:
+          - paragraph: "판매처: 킴스오아시스"
+          - paragraph: "원재료: 삼씨앗 100%(캐나다산)"
+          - paragraph: "내용량: 상세페이지 참고로 기재"
+          - paragraph: "검색 확인 판매가: 14,800원"
+        - paragraph:
+          - generic: "선택 이유:"
+          - text: 햄프씨드 단일 원료 100%라는 점이 명확합니다. 다른 곡물이나 감미료가 혼합되지 않은 제품을 찾는 경우 고려할 만합니다.
+        - paragraph: "근거: 상품 필수정보 및 원재료 표시"
+        - button "킴스오아시스 상품 페이지":
+          - link "킴스오아시스 상품 페이지":
+            - /url: https://m.kimsoasis.com/product/detail/74416?utm_source=chatgpt.com
+            - generic: 킴스오아시스 상품
+            - generic: 페이지
+        - paragraph: "주의: 정확한 중량은 공개된 필수정보에서 확인되지 않았습니다."
+        - heading "비교 및 최종 선택" [level=2]
+        - table:
+          - rowgroup:
+            - row "제품 원재료 표시 내용량 확인 판단":
+              - columnheader "제품":
+                - paragraph: 제품
+              - columnheader "원재료 표시":
+                - paragraph: 원재료 표시
+              - columnheader "내용량 확인":
+                - paragraph: 내용량 확인
+              - columnheader "판단":
+                - paragraph: 판단
+            - row "헬로우그린 아마씨 100% 500g 추천":
+              - cell "헬로우그린 아마씨":
+                - paragraph: 헬로우그린 아마씨
+              - cell "100%":
+                - paragraph: 100%
+              - cell "500g":
+                - paragraph: 500g
+              - cell "추천":
+                - paragraph: 추천
+            - row "두손애약초 아마씨 상세 확인 필요 500g 추가 확인":
+              - cell "두손애약초 아마씨":
+                - paragraph: 두손애약초 아마씨
+              - cell "상세 확인 필요":
+                - paragraph: 상세 확인 필요
+              - cell "500g":
+                - paragraph: 500g
+              - cell "추가 확인":
+                - paragraph: 추가 확인
+            - row "증안리약초마을 햄프씨드 100% 미확인 추가 확인":
+              - cell "증안리약초마을 햄프씨드":
+                - paragraph: 증안리약초마을 햄프씨드
+              - cell "100%":
+                - paragraph: 100%
+              - cell "미확인":
+                - paragraph: 미확인
+              - cell "추가 확인":
+                - paragraph: 추가 확인
+        - paragraph:
+          - generic: 제일 추천하는 제품은 헬로우그린 볶은 아마씨 분말 500g입니다.
+        - paragraph: 원재료가 100%로 명확하고, 원산지와 내용량까지 확인되기 때문입니다.
+        - paragraph: 다만 요청하신 조건을 엄격하게 적용하면 현재 검색에서 원재료와 내용량을 모두 확인한 제품은 1번입니다. 나머지 두 제품은 조건을 완전히 충족한다고 단정하지 않겠습니다.
+        - paragraph: 요거트에 사용할 때는 처음에는 소량을 넣어 맛과 질감을 확인하고, 개봉 후에는 제품에 표시된 보관 방법을 따르는 것을 권합니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status
+
+## W04 / 제출 UTC 2026-11-23T18:16:50.530Z
+
+- banner:
+  - button "로그인"
+  - button "무료로 회원가입"
+- main:
+  - region "대화":
+    - list "대화":
+      - heading "나의 말:" [level=4]
+      - paragraph: 수박씨 단백질 분말 중 원재료와 보관 방법을 확인할 수 있는 제품을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+      - button "복사":
+      - status
+      - heading "ChatGPT의 말:" [active] [level=4]
+      - region "DIL content":
+        - paragraph: 웹에서 국내외 판매 제품과 상품 상세페이지를 검색했습니다. 다만 **수박씨 단백질 분말(Watermelon Seed Protein Powder)**과 일반 수박씨 분말, 수박과피(껍질) 분말은 구분해서 확인했습니다.
+        - heading "검색 결과" [level=2]
+        - generic: 조건 충족 제품 확인 불가
+        - paragraph: 현재 확인한 자료에서는 다음 세 가지 조건을 모두 충족하는 제품을 찾지 못했습니다.
+        - list:
+          - paragraph: 제품이 실제로 수박씨를 원료로 한 단백질 분말일 것
+          - paragraph: 구체적인 원재료명과 함량이 공개되어 있을 것
+          - paragraph: 제품의 보관 방법이 명시되어 있을 것
+        - paragraph: 따라서 확인되지 않은 제품을 추천 목록에 넣지는 않겠습니다.
+        - heading "검색 중 확인된 유사 제품" [level=2]
+        - paragraph: 아래 제품들은 수박씨 단백질 분말로 확인된 제품은 아니며, 검색 결과에서 혼동할 수 있는 유사 제품입니다.
+        - heading "1. 수박과피추출분말 1kg" [level=3]
+        - img "국산 말린 수박 껍질 과피 추출물 추출 분말 가루 건조 수박피 껍데기 차 서과피 과일 함유 haccp 인증"
+        - button "Open 국산 말린 수박 껍질 과피 추출물 추출 분말 가루 건조 수박피 껍데기 차 서과피 과일 함유 haccp 인증"
+        - paragraph:
+          - generic: "제품명:"
+          - text: 수박과피추출분말 1kg
+        - paragraph:
+          - generic: "판매처:"
+          - text: 오너클랜
+        - paragraph:
+          - generic: "확인된 원재료:"
+          - text: 수박과피추출액(고형분 2%) 71%, 덱스트린 29%
+        - paragraph:
+          - generic: "보관 방법:"
+          - text: 확인되지 않음
+        - paragraph: 수박씨가 아닌 수박 껍질 추출물 제품입니다.
+        - button "판매 및 상품정보 확인":
+          - link "판매 및 상품정보 확인":
+            - /url: https://ownerclan.com/V2/product/view.php?selfcode=WCDBD0E&utm_source=chatgpt.com
+            - generic: 판매 및 상품정보
+            - generic: 확인
+        - heading "2. 수박과피 추출물 분말 170g" [level=3]
+        - img "푸른들판 국산 수박 껍질 과피 추출 분말 가루 170g 1통 추출물 - GS SHOP"
+        - button "Open 푸른들판 국산 수박 껍질 과피 추출 분말 가루 170g 1통 추출물 - GS SHOP"
+        - paragraph:
+          - generic: "제품명:"
+          - text: 수박과피 추출물 분말 170g
+        - paragraph:
+          - generic: "판매처:"
+          - text: G마켓 입점 미니샵
+        - paragraph:
+          - generic: "확인된 정보:"
+          - text: 수박껍질 분말 관련 상품으로 판매되고 있음
+        - paragraph:
+          - generic: "원재료 세부 함량 및 보관 방법:"
+          - text: 확인되지 않음
+        - paragraph: 수박씨 단백질 제품이라는 근거가 없습니다.
+        - button "판매 상품 목록 확인":
+          - link "판매 상품 목록 확인":
+            - /url: https://m.gmarket.co.kr/n/minishop/prsan?utm_source=chatgpt.com
+            - generic: 판매 상품 목록
+            - generic: 확인
+        - heading "결론 및 추천" [level=2]
+        - paragraph: 현재 자료만으로는 추천 가능한 수박씨 단백질 분말 제품이 0개입니다.
+        - paragraph: 특히 수박씨 분말이라고 판매하더라도 다음 제품은 서로 다릅니다.
+        - list:
+          - paragraph: "수박씨 분말: 씨앗을 분쇄한 제품"
+          - paragraph: "수박씨 단백질 분말: 씨앗에서 단백질을 분리하거나 농축한 제품"
+          - paragraph: "수박과피 분말: 수박 껍질을 원료로 한 제품"
+        - paragraph:
+          - generic: "한 가지 제안:"
+          - text: 해외 직구 제품까지 포함해 검색 범위를 넓히고, 제조사 원재료표와 보관 지침이 모두 확인되는 수박씨 단백질 분말을 추가로 찾아보는 것이 좋겠습니다.
+      - status
+      - group "응답 작업":
+        - button "응답 복사":
+        - status
+        - button "공유하기":
+    - paragraph:
+      - generic: ChatGPT는 AI라 실수할 수 있습니다.
+- navigation "Sidebar shortcuts":
+  - link "ChatGPT 로고":
+    - /url: /
+    - img "ChatGPT"
+  - navigation "사이드바":
+    - link "새 채팅":
+      - /url: /?noauth_recent_chat_failed=1
+      - generic: 새 채팅
+    - link "이미지":
+      - /url: /images
+      - generic: 이미지
+    - link "플러그인":
+      - /url: /plugins?plugins_landing=1
+      - generic: 플러그인
+    - link "플랜 및 가격 보기":
+      - /url: https://openai.com/chatgpt/pricing/
+      - generic: 플랜 및 가격 보기
+    - link "도움말":
+      - /url: https://help.openai.com/ko-kr/collections/3742473-chatgpt
+      - generic: 도움말
+    - button "심층 리서치":
+      - generic: 심층 리서치
+    - link "설정":
+      - /url: /settings
+      - generic: 설정
+- complementary "사이드바":
+  - button "사이드바 닫기":
+  - heading "내게 맞춘 응답을 받으세요" [level=2]
+  - paragraph: 로그인해 저장된 채팅에 기반해 답변을 받고, 이미지 생성 및 파일 업로드도 이용하세요.
+  - button "로그인":
+    - generic: 로그인
+- contentinfo:
+  - generic: ChatGPT와 채팅
+  - textbox "ChatGPT와 채팅":
+    - /placeholder: 웹 검색
+  - button "파일 등 추가":
+  - button "웹 검색, 클릭하여 제거":
+    - generic: 웹 검색
+  - button "받아쓰기 시작":
+  - button "메시지 보내기" [disabled]:
+- alert
+- status

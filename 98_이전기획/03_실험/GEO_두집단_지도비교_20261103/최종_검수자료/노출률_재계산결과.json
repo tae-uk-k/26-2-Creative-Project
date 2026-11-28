@@ -1,0 +1,237 @@
+{
+  "confirmed_pair_count": 0,
+  "actual_attempt_count": 0,
+  "valid_cell_count": 0,
+  "duplicate_valid_attempts_excluded": 0,
+  "ambiguous_mentions": 0,
+  "stores": [],
+  "groups": [
+    {
+      "area_id": "MD",
+      "question_id": "Q1",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q1",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q2",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q2",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q3",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "Q3",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "ALL",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MD",
+      "question_id": "ALL",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q1",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q1",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q2",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q2",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q3",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "Q3",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "ALL",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "SS",
+      "question_id": "ALL",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q1",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q1",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q2",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q2",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q3",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "Q3",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "ALL",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "MW",
+      "question_id": "ALL",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q1",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q1",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q2",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q2",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q3",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "Q3",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "ALL",
+      "group": "A",
+      "store_count": 0,
+      "exposure_pct": null
+    },
+    {
+      "area_id": "ALL",
+      "question_id": "ALL",
+      "group": "B",
+      "store_count": 0,
+      "exposure_pct": null
+    }
+  ],
+  "pair_contrasts": [],
+  "uncertainty_interval": null,
+  "uncertainty_note": "미산출. 반복 응답을 독립 매장 표본으로 취급하지 않음."
+}

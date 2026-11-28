@@ -1,0 +1,17 @@
+{
+  "target_pairs": 12,
+  "actual_pairs": 0,
+  "target_stores": 24,
+  "actual_stores": 0,
+  "target_initial_cells": 90,
+  "actual_attempts": 0,
+  "valid_cells": 0,
+  "unstarted_cells": 90,
+  "failed_attempts": 0,
+  "unresolved_attempts": 0,
+  "exposure_A_pct": null,
+  "exposure_B_pct": null,
+  "pair_confidence_interval": null,
+  "ci_note": "미산출. 반복 응답을 매장 표본으로 세지 않음.",
+  "excluded_attempts": []
+}

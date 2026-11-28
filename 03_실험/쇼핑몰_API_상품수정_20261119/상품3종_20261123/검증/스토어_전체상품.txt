@@ -1,0 +1,142 @@
+Browser tab: 682043677, Title: "seelo", URL: "https://smartstore.naver.com/seelo".
+1 AXWebArea seelo, URL: smartstore.naver.com/seelo
+	2 container MAIN_CONTENT_ROOT_ID
+		3 link Description: 본문으로 바로가기, Value: smartstore.naver.com/seelo#content
+		4 container wrap
+			5 container header
+				6 container
+					7 link Description: 네이버, Value: naver.com/
+					8 link Description: 네이버플러스 스토어 홈, Value: shopping.naver.com/ns/home?
+				9 content list
+					10 link Description: 관심 스토어, Value: shopping.naver.com/my/keep-stores
+					11 link Description: 마이페이지 펼치기, Value: smartstore.naver.com/seelo#
+					12 link Description: 장바구니, Value: shopping.naver.com/cart?channelNo=1100280682
+				87 container gnb
+					88 text 사용자 링크
+					89 content list gnb_lst
+						90 link Description: 태욱 내정보 보기, Value: javascript:;, ID: gnb_my
+						91 link Description: 서비스 더보기, Value: javascript:;
+				13 container
+					14 link Description: 매일의 식탁에 더하는 곡물과 달콤함, seelo, Value: smartstore.naver.com/seelo/profile
+					15 button 관심고객수 0, ID: tooltip_text_:R2j5ah:
+						16 text 관심고객수  0
+					17 pop up button (collapsed) 도움말, Secondary Actions: Expand
+						18 image
+						19 text 도움말
+					20 button 검색어를 입력해주세요
+						21 text 검색어를 입력해주세요
+						22 image
+			23 container
+				24 container
+					25 checkbox 알림받기, Value: 0
+						26 image
+						27 text 알림받기
+				28 heading seelo, Value: 1
+					29 link Description: seelo, Value: smartstore.naver.com/seelo
+				30 container
+					31 container
+						32 text 오늘  2 전체  16
+				33 container
+					34 content list
+						35 link Description: 식품 하위 메뉴 있음, Value: smartstore.naver.com/seelo/category/50000006?cp=1
+						36 link Description: 전체상품, Value: smartstore.naver.com/seelo/category/ALL?cp=1
+						37 link Description: 신상품, Value: smartstore.naver.com/seelo/new-products?cp=1
+						38 link Description: FOR YOU, Value: smartstore.naver.com/seelo/for-you?cp=1
+					39 content list
+						40 link Description: 공지사항, Value: smartstore.naver.com/seelo/notice?cp=1
+						41 link Description: 쇼핑스토리, Value: smartstore.naver.com/seelo/shoppingstory/list?cp=1
+						42 link Description: 리뷰이벤트, Value: smartstore.naver.com/seelo/review-event/list?cp=1
+						43 link Description: 묻고 답하기, Value: smartstore.naver.com/seelo/qna?cp=1
+						44 link Description: 판매자 정보, Value: smartstore.naver.com/seelo/profile?cp=1
+			45 container container
+				46 container content
+					47 container pc-wholeProductWidget
+						48 text 전체상품
+						49 tab group
+							50 tab (selected, settable, boolean) 인기도순, Value: 1
+인기도순
+							51 tab (selectable, settable, boolean) 최신 등록순, Value: 0
+							52 tab (selectable, settable, boolean) 낮은 가격순, Value: 0
+							53 tab (selectable, settable, boolean) 높은 가격순, Value: 0
+							54 tab (selectable, settable, boolean) 할인율순, Value: 0
+							55 tab (selectable, settable, boolean) 누적 판매순, Value: 0
+							56 tab (selectable, settable, boolean) 리뷰 많은순, Value: 0
+							57 tab (selectable, settable, boolean) 평점 높은순, Value: 0
+						58 content list
+							59 container
+								60 link Description: seelo 볶은 서리태분말 300g 25,800원 23,220원 최대할인가 할인정보 상세보기, Value: smartstore.naver.com/seelo/products/13890968875
+								61 container
+									62 link Description: seelo 볶은 서리태분말 300g 25,800원 23,220원 최대할인가 할인정보 상세보기, Value: smartstore.naver.com/seelo/products/13890968875
+									63 text seelo 볶은 서리태분말 300g
+									64 checkbox 찜하기, Value: 0
+										65 image
+										66 text 찜하기
+									92 container unit-item-price-:R37aah:
+										93 container
+											94 text 25,800 원
+										95 text 23,220 원 최대할인가
+										96 button 할인정보 상세보기
+							69 container
+								70 link Description: seelo 볶은 귀리분말 300g 19,800원, Value: smartstore.naver.com/seelo/products/13890968867
+								71 container
+									72 link Description: seelo 볶은 귀리분말 300g 19,800원, Value: smartstore.naver.com/seelo/products/13890968867
+									73 text seelo 볶은 귀리분말 300g
+									74 checkbox 찜하기, Value: 0
+										75 image
+										76 text 찜하기
+									77 container
+										78 text 19,800 원
+							79 container
+								80 link Description: seelo 아카시아 벌꿀 500g 29,800원 26,820원 최대할인가 할인정보 상세보기, Value: smartstore.naver.com/seelo/products/13883527217
+								81 container
+									82 link Description: seelo 아카시아 벌꿀 500g 29,800원 26,820원 최대할인가 할인정보 상세보기, Value: smartstore.naver.com/seelo/products/13883527217
+									83 text seelo 아카시아 벌꿀 500g
+									84 checkbox 찜하기, Value: 0
+										85 image
+										86 text 찜하기
+									97 container unit-item-price-:R77aah:
+										98 container
+											99 text 29,800 원
+										100 text 26,820 원 최대할인가
+										101 button 할인정보 상세보기
+				102 heading 하위영역, Value: 2
+					103 text 하위영역
+				104 container
+					105 link Description: 네이버 이용약관, Value: naver.com/rules/service.html
+					106 link Description: 네이버페이 이용약관, Value: new-m.pay.naver.com/member/terms-policy/npay-usage
+					107 link Description: 개인정보처리방침, Value: naver.com/rules/privacy.html
+					108 link Description: 법적고지 및 주의사항, Value: shopping.naver.com/help/legal-basis
+					109 link Description: 입점안내, Value: join.shopping.naver.com/index.nhn
+					110 link Description: 쇼핑윈도 노출안내, Value: sell.smartstore.naver.com/#/home/about?tipModal=WINDOW_EXPOSURE&tap=smartstore
+					111 link Description: 쇼핑파트너센터, Value: center.shopping.naver.com/
+					112 link Description: 스마트스토어센터, Value: sell.storefarm.naver.com/#/home/about
+					113 link Description: 안전거래센터, Value: safety.shopping.naver.com/
+					114 link Description: 전자금융거래약관, Value: new-m.pay.naver.com/member/terms-policy/finance
+					115 link Description: 쇼핑&페이 고객센터, Value: help.pay.naver.com/
+				116 text 네이버㈜는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다.
+				117 container
+					118 text 사업자등록번호 : 220-81-62517
+					119 text 통신판매업신고번호 : 제2006-경기성남-0692호
+					120 text 대표이사 : 최수연
+					121 link Description: 사업자등록정보확인, Value: ftc.go.kr/bizCommPop.do?wrkr_no=2208162517
+					122 text 이메일 :
+					123 link Description: helpcustomer@naver.com, Value: mailto:helpcustomer@naver.com
+				124 container
+					125 text 주소 : 경기도 성남시 분당구 정자일로 95,  NAVER  1784, 13561
+					126 link Description: 1:1 문의 바로가기, Value: help.pay.naver.com/mail/form.help
+					127 text 호스팅 서비스 제공 :  NAVER Cloud
+				128 container
+					129 text 쇼핑&페이 구매자 고객센터 1588-3819
+					130 text 네이버 대표전화 1588-3820
+					131 text 네이버플러스 멤버십 전용 고객센터 1599-1399
+				132 container
+					133 link Description: NAVER, Value: naver.com/
+					134 text Copyright © 
+					135 link Description: NAVER Corp., Value: navercorp.com/ko/index.nhn
+					136 text   All Rights Reserved.
+				137 container
+					138 button 공유하기
+					139 button 맨위로
+						140 image 맨위로
+
+The focused UI element is 1 AXWebArea seelo, URL: smartstore.naver.com/seelo

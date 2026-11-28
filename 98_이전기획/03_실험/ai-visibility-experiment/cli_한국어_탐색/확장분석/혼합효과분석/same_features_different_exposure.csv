@@ -1,0 +1,22 @@
+﻿entity_id,name_ko,area,own_website,menu_family_external,sum,count,mean,feature_signature
+MD-R02,하동관,myeongdong,1,soups_stews,20,20,1.0,myeongdong|1|soups_stews
+MD-R03,왕비집 명동본점,myeongdong,1,barbecue,6,20,0.3,myeongdong|1|barbecue
+MD-R06,미성옥,myeongdong,0,soups_stews,9,20,0.45,myeongdong|0|soups_stews
+MD-R08,하수오곰탕 명동점,myeongdong,1,soups_stews,0,20,0.0,myeongdong|1|soups_stews
+MD-R09,고시레 명동본점,myeongdong,1,barbecue,0,20,0.0,myeongdong|1|barbecue
+MD-R10,성원전주콩나물국밥,myeongdong,0,soups_stews,0,20,0.0,myeongdong|0|soups_stews
+MW-R01,우이락 망원본점,mangwon,0,market_snacks,20,20,1.0,mangwon|0|market_snacks
+MW-R02,큐스닭강정,mangwon,0,market_snacks,2,20,0.1,mangwon|0|market_snacks
+MW-R03,황인호 크로켓,mangwon,0,market_snacks,0,20,0.0,mangwon|0|market_snacks
+MW-R04,흥흥호떡,mangwon,0,market_snacks,0,20,0.0,mangwon|0|market_snacks
+MW-R06,청어람 망원점,mangwon,0,soups_stews,0,20,0.0,mangwon|0|soups_stews
+MW-R07,홍두깨손칼국수,mangwon,0,noodles_dumplings,17,20,0.85,mangwon|0|noodles_dumplings
+MW-R08,일등식당,mangwon,0,soups_stews,9,20,0.45,mangwon|0|soups_stews
+MW-R09,진성만두 망원시장점,mangwon,0,noodles_dumplings,0,20,0.0,mangwon|0|noodles_dumplings
+MW-R10,망원동즉석우동 본점,mangwon,0,noodles_dumplings,13,20,0.65,mangwon|0|noodles_dumplings
+SS-R01,소문난성수감자탕,seongsu,0,soups_stews,20,20,1.0,seongsu|0|soups_stews
+SS-R03,성수다락,seongsu,0,western_dining,17,20,0.85,seongsu|0|western_dining
+SS-R05,퀴버 서울숲점,seongsu,0,western_dining,0,20,0.0,seongsu|0|western_dining
+SS-R08,할머니의 레시피,seongsu,0,set_meals,0,20,0.0,seongsu|0|set_meals
+SS-R09,선채 성수,seongsu,0,set_meals,0,20,0.0,seongsu|0|set_meals
+SS-R10,돼지곰탕 하우 성수본점,seongsu,0,soups_stews,0,20,0.0,seongsu|0|soups_stews

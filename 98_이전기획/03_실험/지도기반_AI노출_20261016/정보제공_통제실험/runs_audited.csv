@@ -1,0 +1,49 @@
+﻿run_id,backend,area_id,repeat,rotation,status,analysis_eligible,evidence_exact_match,elapsed_seconds,reported_models,raw_path
+CP-MD-R1-L0-AGY,agy,MD,1,0,completed,True,True,8.0,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R1-L0-AGY.jsonl
+CP-MD-R1-L0-CODEX,codex,MD,1,0,completed,True,True,12.8,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R1-L0-CODEX.jsonl
+CP-MD-R1-L1-AGY,agy,MD,1,1,completed,True,True,7.7,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R1-L1-AGY.jsonl
+CP-MD-R1-L1-CODEX,codex,MD,1,1,completed,True,True,12.3,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R1-L1-CODEX.jsonl
+CP-MD-R1-L2-AGY,agy,MD,1,2,completed,True,True,7.5,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R1-L2-AGY.jsonl
+CP-MD-R1-L2-CODEX,codex,MD,1,2,completed,True,True,9.3,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R1-L2-CODEX.jsonl
+CP-MD-R1-L3-AGY,agy,MD,1,3,completed,True,True,7.4,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R1-L3-AGY.jsonl
+CP-MD-R1-L3-CODEX,codex,MD,1,3,completed,True,True,9.8,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R1-L3-CODEX.jsonl
+CP-MD-R2-L0-AGY,agy,MD,2,0,completed,True,True,11.0,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R2-L0-AGY.jsonl
+CP-MD-R2-L0-CODEX,codex,MD,2,0,completed,True,True,9.0,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R2-L0-CODEX.jsonl
+CP-MD-R2-L1-AGY,agy,MD,2,1,completed,True,True,9.2,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R2-L1-AGY.jsonl
+CP-MD-R2-L1-CODEX,codex,MD,2,1,completed,True,True,9.1,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R2-L1-CODEX.jsonl
+CP-MD-R2-L2-AGY,agy,MD,2,2,completed,True,True,7.8,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R2-L2-AGY.jsonl
+CP-MD-R2-L2-CODEX,codex,MD,2,2,completed,True,True,11.7,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R2-L2-CODEX.jsonl
+CP-MD-R2-L3-AGY,agy,MD,2,3,completed,True,True,10.9,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MD-R2-L3-AGY.jsonl
+CP-MD-R2-L3-CODEX,codex,MD,2,3,completed,True,True,9.5,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MD-R2-L3-CODEX.jsonl
+CP-MW-R1-L0-AGY,agy,MW,1,0,completed,True,True,8.5,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R1-L0-AGY.jsonl
+CP-MW-R1-L0-CODEX,codex,MW,1,0,completed,True,True,9.9,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R1-L0-CODEX.jsonl
+CP-MW-R1-L1-AGY,agy,MW,1,1,completed,True,True,8.5,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R1-L1-AGY.jsonl
+CP-MW-R1-L1-CODEX,codex,MW,1,1,completed,True,True,9.7,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R1-L1-CODEX.jsonl
+CP-MW-R1-L2-AGY,agy,MW,1,2,completed,True,True,7.6,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R1-L2-AGY.jsonl
+CP-MW-R1-L2-CODEX,codex,MW,1,2,completed,True,True,9.5,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R1-L2-CODEX.jsonl
+CP-MW-R1-L3-AGY,agy,MW,1,3,completed,True,True,8.1,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R1-L3-AGY.jsonl
+CP-MW-R1-L3-CODEX,codex,MW,1,3,completed,True,True,12.5,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R1-L3-CODEX.jsonl
+CP-MW-R2-L0-AGY,agy,MW,2,0,completed,True,True,13.9,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R2-L0-AGY.jsonl
+CP-MW-R2-L0-CODEX,codex,MW,2,0,completed,True,True,6.8,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R2-L0-CODEX.jsonl
+CP-MW-R2-L1-AGY,agy,MW,2,1,completed,True,True,9.2,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R2-L1-AGY.jsonl
+CP-MW-R2-L1-CODEX,codex,MW,2,1,completed,True,True,8.8,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R2-L1-CODEX.jsonl
+CP-MW-R2-L2-AGY,agy,MW,2,2,completed,True,True,15.5,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R2-L2-AGY.jsonl
+CP-MW-R2-L2-CODEX,codex,MW,2,2,completed,True,True,12.5,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R2-L2-CODEX.jsonl
+CP-MW-R2-L3-AGY,agy,MW,2,3,completed,True,True,11.4,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-MW-R2-L3-AGY.jsonl
+CP-MW-R2-L3-CODEX,codex,MW,2,3,completed,True,True,10.8,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-MW-R2-L3-CODEX.jsonl
+CP-SS-R1-L0-AGY,agy,SS,1,0,completed,True,True,7.6,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R1-L0-AGY.jsonl
+CP-SS-R1-L0-CODEX,codex,SS,1,0,completed,True,True,9.4,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R1-L0-CODEX.jsonl
+CP-SS-R1-L1-AGY,agy,SS,1,1,completed,True,True,8.5,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R1-L1-AGY.jsonl
+CP-SS-R1-L1-CODEX,codex,SS,1,1,completed,True,True,10.1,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R1-L1-CODEX.jsonl
+CP-SS-R1-L2-AGY,agy,SS,1,2,completed,True,True,9.4,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R1-L2-AGY.jsonl
+CP-SS-R1-L2-CODEX,codex,SS,1,2,completed,True,True,10.5,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R1-L2-CODEX.jsonl
+CP-SS-R1-L3-AGY,agy,SS,1,3,completed,True,True,8.0,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R1-L3-AGY.jsonl
+CP-SS-R1-L3-CODEX,codex,SS,1,3,completed,True,True,15.9,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R1-L3-CODEX.jsonl
+CP-SS-R2-L0-AGY,agy,SS,2,0,completed,True,True,8.6,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R2-L0-AGY.jsonl
+CP-SS-R2-L0-CODEX,codex,SS,2,0,completed,True,True,8.6,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R2-L0-CODEX.jsonl
+CP-SS-R2-L1-AGY,agy,SS,2,1,completed,True,True,14.1,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R2-L1-AGY.jsonl
+CP-SS-R2-L1-CODEX,codex,SS,2,1,completed,True,True,8.9,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R2-L1-CODEX.jsonl
+CP-SS-R2-L2-AGY,agy,SS,2,2,completed,True,True,8.3,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R2-L2-AGY.jsonl
+CP-SS-R2-L2-CODEX,codex,SS,2,2,completed,True,True,7.2,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R2-L2-CODEX.jsonl
+CP-SS-R2-L3-AGY,agy,SS,2,3,completed,True,True,13.1,Gemini 3.8 Flash (Low),C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\agy\CP-SS-R2-L3-AGY.jsonl
+CP-SS-R2-L3-CODEX,codex,SS,2,3,completed,True,True,12.4,,C:\Users\xodnr\Desktop\26-2-Creative-Project-main\03_실험\지도기반_AI노출_20261016\정보제공_통제실험\raw\codex\CP-SS-R2-L3-CODEX.jsonl

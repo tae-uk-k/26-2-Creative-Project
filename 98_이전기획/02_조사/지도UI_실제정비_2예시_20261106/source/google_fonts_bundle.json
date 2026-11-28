@@ -1,0 +1,60 @@
+{
+  "kind": "google_fonts_bundle",
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "",
+        "id": "7642a30185cf2a08",
+        "kind": "stylesheet",
+        "name": "css",
+        "path": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/31c6823e-d145-4a60-b63d-5b4c0ffe5aaf/7642a30185cf2a08",
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700"
+      }
+    ],
+    "directoryPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/31c6823e-d145-4a60-b63d-5b4c0ffe5aaf",
+    "failures": [
+      {
+        "contentType": null,
+        "id": "af4fee1da8aaa47c",
+        "name": "font",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://fonts.gstatic.com/l/font?kit=HhyNU5Ak9u-oMExPeInvcuEmPpEMzdMF7QEycpoqBoG4Qqfwylgt9xTaGFYNDpUNwijnCnv-cQNGMKZG3Up4MIZJuAwoI25MYsuaEuM8arBPTXDoWfev3sV-Si3A4frpzzh5Ni2UY2N5cRGjTz8TI75vrORnoQ-0wKEbKQ-CX1in-vzrAtz12yRph4Cv-_QylRIv-oQeKdHzMSY64xeVgJV89o7dQqt1BA5dLKrYHcb0_7y7X7cNrw6jjJOJpD3imtFXEibFUOOad2LZ6VqppV6_RcXjJ9fpjSloAeIWeky9BLTfmb5Q7-fUtEZ-CX8GTkJXE3FvHBDydFQVsHoLJJkQIkQuacT5Gu_WUjvbicjf4ZDh9KGxM2Tm8ypxZTPfb6rK&skey=f8ec4d50247dc1c1&v=v469"
+      },
+      {
+        "contentType": null,
+        "id": "b90b3c84ed7d2307",
+        "name": "KFOmCnqEu92Fr1Mu4mxK.woff2",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+      },
+      {
+        "contentType": null,
+        "id": "792243cfbcec7809",
+        "name": "4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://fonts.gstatic.com/s/googlesans/v29/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"
+      },
+      {
+        "contentType": null,
+        "id": "8c9e9991dd946d53",
+        "name": "4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://fonts.gstatic.com/s/googlesans/v29/4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2"
+      },
+      {
+        "contentType": null,
+        "id": "4089dc5b5b01519b",
+        "name": "KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+        "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at _oe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+      }
+    ],
+    "manifestPath": "C:\\Users\\xodnr\\AppData\\Local\\Temp/browser-use/assets/31c6823e-d145-4a60-b63d-5b4c0ffe5aaf/manifest.json",
+    "summary": {
+      "downloadedCount": 1,
+      "elapsedMs": 302.52740000002086,
+      "failedCount": 5,
+      "requestedCount": 6
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "baseline": {
+    "yellow": "c23b6fe0",
+    "gray": "8c487ded",
+    "original": "853dee36"
+  },
+  "sections": [
+    {
+      "id": "613:53",
+      "name": "seelo · A · FFC54F 브랜드 컬러 · 9장",
+      "nodes": 874
+    },
+    {
+      "id": "613:926",
+      "name": "seelo · B · 회색 카드 미세조정 · 9장",
+      "nodes": 873
+    },
+    {
+      "id": "562:189",
+      "name": "seelo · Toss · 1–9페이지 · 20261103",
+      "nodes": 873
+    }
+  ],
+  "mismatch": [],
+  "blueTextSamples": [
+    {
+      "id": "613:964",
+      "text": "서비스 소개",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1921568661928177,
+            "g": 0.5098039507865906,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:181"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "613:988",
+      "text": "문제 정의",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10588235408067703,
+            "g": 0.3921568691730499,
+            "b": 0.8549019694328308
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:211:17"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "613:994",
+      "text": "01",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1921568661928177,
+            "g": 0.5098039507865906,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:181"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "613:996",
+      "text": "53%",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1921568661928177,
+            "g": 0.5098039507865906,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:181"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "613:1000",
+      "text": "02",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1921568661928177,
+            "g": 0.5098039507865906,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:181"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "grayBox": [
+    {
+      "type": "GRADIENT_LINEAR",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "gradientStops": [
+        {
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9803921580314636,
+            "b": 0.9882352948188782,
+            "a": 1
+          },
+          "position": 0,
+          "boundVariables": {}
+        },
+        {
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.95686274766922,
+            "b": 0.9686274528503418,
+            "a": 1
+          },
+          "position": 1,
+          "boundVariables": {}
+        }
+      ],
+      "gradientTransform": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ]
+    }
+  ]
+}

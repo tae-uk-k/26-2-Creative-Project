@@ -1,0 +1,127 @@
+{
+  "originalHash": "b60f5a62",
+  "originalPreserved": true,
+  "outsideShop": {
+    "original": "de5dbada",
+    "clone": "de5dbada",
+    "preserved": true
+  },
+  "originalSlideCount": 9,
+  "copy": {
+    "id": "796:12",
+    "name": "01 · 서비스 소개 · 글라스 개선",
+    "w": 1920,
+    "h": 1080,
+    "parent": "796:11"
+  },
+  "shop": {
+    "id": "796:70",
+    "glassEffects": 9,
+    "editableTypeCounts": {
+      "ELLIPSE": 3,
+      "VECTOR": 10,
+      "RECTANGLE": 18,
+      "TEXT": 1
+    },
+    "imageNodes": [],
+    "autoLayout": []
+  },
+  "fonts": [
+    {
+      "id": "796:14",
+      "family": "Pacifico",
+      "missing": false
+    },
+    {
+      "id": "796:15",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:17",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:19",
+      "family": "Plus Jakarta Sans",
+      "missing": false
+    },
+    {
+      "id": "796:22",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:23",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:41",
+      "family": "Pacifico",
+      "missing": false
+    },
+    {
+      "id": "796:93",
+      "family": "Pacifico",
+      "missing": false
+    },
+    {
+      "id": "796:49",
+      "family": "Pacifico",
+      "missing": false
+    },
+    {
+      "id": "796:51",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:54",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:56",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:58",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:60",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:62",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:64",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:66",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:68",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    },
+    {
+      "id": "796:69",
+      "family": "IBM Plex Sans KR",
+      "missing": false
+    }
+  ],
+  "reactions": 0
+}

@@ -1,0 +1,54 @@
+{
+  "google": {
+    "menu_items": 3,
+    "photos": 4,
+    "required_conditions_present": true
+  },
+  "kakao": {
+    "menu_items": 3,
+    "photos": 4,
+    "required_conditions_present": true
+  },
+  "kakao_photos.png": {
+    "size": [
+      1536,
+      1024
+    ],
+    "format": "PNG"
+  },
+  "google_photos.png": {
+    "size": [
+      1536,
+      1024
+    ],
+    "format": "PNG"
+  },
+  "comparison-final.jpg": {
+    "size": [
+      1265,
+      1905
+    ],
+    "source": "unmodified_browser_screenshot"
+  },
+  "google-page-final.jpg": {
+    "size": [
+      1265,
+      1575
+    ],
+    "source": "unmodified_browser_screenshot"
+  },
+  "kakao-page-final.jpg": {
+    "size": [
+      1265,
+      1661
+    ],
+    "source": "unmodified_browser_screenshot"
+  },
+  "browser_checks": [
+    "both pages displayed",
+    "both standalone photo dialogs opened and closed",
+    "kakao menu navigation"
+  ],
+  "kakao_intro_chars": 27,
+  "live_map_edits": false
+}

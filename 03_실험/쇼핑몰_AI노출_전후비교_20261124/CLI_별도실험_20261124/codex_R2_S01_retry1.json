@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_S01_retry1",
+  "timestamp_utc": "2026-11-24T01:58:25.917257+00:00",
+  "query_id": "S01",
+  "repeat": 2,
+  "prompt": "사차인치를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "사차인치를 원료로 쓰고 제품 내용량이 **300g**으로 표시된 단백질 분말 3개를 찾았습니다. 한국 배송 가능 여부는 확인하지 못했습니다.\n\n| 제품명 | 판매처 | 선택 이유 | 근거 |\n|---|---|---|---|\n| **Harina Proteica de Sacha Inchi 300g** | Sacha Inchi Online | 기름을 짜낸 사차인치 씨앗으로 만든 단백질 분말입니다. 300g 파우치이며, 판매 페이지에서 장바구니에 담을 수 있습니다. | [상품 상세 페이지](https://www.sachainchionline.com/productos/harina-proteica-de-sacha-inchi-bolsa-doypack-x-300-grs-pijqt/) |\n| **Proteína vegetal de sacha inchi 300g** | Distribución Sacha Inchi San Carlos | 사차인치 씨앗에서 얻은 식물성 단백질 분말입니다. 300g 병 제품이며, 가격과 배송은 WhatsApp으로 확인하는 방식입니다. | [판매처 상품 목록](https://sachainchisancarlos.webprodesignercr.com/productos) |\n| **Proteína Hidrolizada de Sacha Inchi 300g** | Gala Export | 사차인치 가수분해 단백질을 사용한 300g 제품입니다. 초콜릿·딸기·바닐라 맛이 표시되어 있습니다. 소매 주문 가능 여부는 미확인입니다. | [업체 제품 카탈로그](https://www.galaexportec.com/) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:58:26.444169Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:58:50.946837+00:00",
+  "retry_of": "codex_R2_S01",
+  "errors": [],
+  "timeout": false
+}

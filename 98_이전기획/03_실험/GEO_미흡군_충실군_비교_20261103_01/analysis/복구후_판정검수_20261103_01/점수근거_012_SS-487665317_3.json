@@ -1,0 +1,35 @@
+{
+  "store_id": "SS-487665317",
+  "item": 3,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "동일 지점 연락처·주간시간 대조. 네이버0507은 실제 스마트콜 연결 설명을 확인하여 다른 지점 전화라고 오판하지 않음.",
+  "sources": [
+    {
+      "quote": "02-461-0089",
+      "source_url": "https://place.map.kakao.com/487665317",
+      "observed_at": "2026-11-02T19:48:42.930Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\168_SS-487665317_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "02-461-0089",
+      "source_url": "https://www.google.com/maps/place/%EB%AF%B8%ED%85%8C%EC%9D%B4%EB%B8%94+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca49bfffe981b:0xf6209f42bccf84c3!16s%2Fg%2F11c5hj58mj!19sChIJG5j-_5ukfDURw4TPvEKfIPY!20s8Q99G2WW%2BJ45",
+      "observed_at": "2026-11-02T19:47:45.683Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\163_SS-487665317_google_overview_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "스마트콜 번호입니다.",
+      "source_url": "https://pcmap.place.naver.com/restaurant/38590315/home?from=map&fromPanelNum=1&locale=ko&svcName=map_pcv5",
+      "observed_at": "2026-11-03T01:48:11.047Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\185_SS-487665317_official_linked_phone_explanation.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

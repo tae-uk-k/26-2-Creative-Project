@@ -1,0 +1,28 @@
+{
+  "store_id": "MD-27244728",
+  "item": 1,
+  "score": 1,
+  "status": "reviewed_provisional",
+  "reason": "주메뉴6개 전체 가격은 메뉴판과 일치하지만 인분·중량·개수 판매 단위가 없음. 사용자 확정에 따라 1점.",
+  "sources": [
+    {
+      "quote": "남산왕돈까스\n\n13,500원",
+      "source_url": "https://place.map.kakao.com/27244728#menuInfo",
+      "observed_at": "2026-11-03T02:07:40.701Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\221_MD-27244728_kakao_menu.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "돈까스 13,500",
+      "source_url": "https://img1.kakaocdn.net/cthumb/local/R2034x0.q100/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjEwMjlfODkg%2FMDAxNzkzMjUyNDQ5MTk1.ybgjbdJb2EuPB33ODmMsRgeCqD-tMwxeOBIIgJT2Mqkg.E0onh6v25FcNoBX4o45vv7wU2oqm2MWeq6wkEETCf9Eg.JPEG%2Foutput%25EF%25BC%25BF3946282701.jpg%3Ftype%3Dw466",
+      "observed_at": "2026-11-03",
+      "evidence_file": "analysis\\상세검수_20261103_05\\menu_photos\\MD-27244728_ac12beb8949d0ad6.jpg",
+      "evidence_type": "manual_transcription_of_visually_read_photo",
+      "author_status": "uploader_not_assumed_owner",
+      "observed_date_note": "판독일; 사진 촬영일 아님"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

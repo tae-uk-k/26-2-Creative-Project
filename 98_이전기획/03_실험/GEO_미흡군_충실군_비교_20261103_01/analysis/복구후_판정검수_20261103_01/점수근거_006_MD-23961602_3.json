@@ -1,0 +1,27 @@
+{
+  "store_id": "MD-23961602",
+  "item": 3,
+  "score": 2,
+  "status": "reviewed_provisional",
+  "reason": "카카오·Google 동일 도로명 주소, 전화, 매일11~22 일치. 웹사이트 미등록 자체는 감점하지 않음.",
+  "sources": [
+    {
+      "quote": "070-8847-8685",
+      "source_url": "https://place.map.kakao.com/23961602",
+      "observed_at": "2026-11-02T19:26:30.898Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\105_MD-23961602_kakao_home_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    },
+    {
+      "quote": "070-8847-8685",
+      "source_url": "https://www.google.com/maps/place/%EC%9B%90%EC%A1%B0%EB%82%A8%EC%82%B0%EC%99%95%EB%8F%88%EA%B9%8C%EC%8A%A4+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2ee2b660ea7:0xf995a84313ac1eea!16s%2Fg%2F1w1103ty!20s8Q98HX7M%2BVCH?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "observed_at": "2026-11-03T02:05:47.894Z",
+      "evidence_file": "analysis\\상세검수_20261103_05\\detail_records\\212_MD-23961602_google_overview_hours.json",
+      "evidence_type": "actual_detail_text",
+      "author_status": "not_inferred"
+    }
+  ],
+  "outcome_seen": false,
+  "frozen": false
+}

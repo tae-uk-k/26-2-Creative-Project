@@ -1,0 +1,3254 @@
+{
+  "nodes": [
+    {
+      "id": "562:189",
+      "name": "seelo · Toss · 4페이지 · 20261103",
+      "x": 17560,
+      "y": 1410,
+      "w": 8280,
+      "h": 1280,
+      "children": [
+        {
+          "id": "562:195",
+          "name": "01 · 서비스 소개",
+          "type": "FRAME",
+          "x": 80,
+          "y": 120,
+          "w": 1920,
+          "h": 1080,
+          "visible": true
+        },
+        {
+          "id": "562:218",
+          "name": "02 · 문제 정의",
+          "type": "FRAME",
+          "x": 2120,
+          "y": 120,
+          "w": 1920,
+          "h": 1080,
+          "visible": true
+        },
+        {
+          "id": "562:271",
+          "name": "03 · UX 인사이트 · 가치제안",
+          "type": "FRAME",
+          "x": 4160,
+          "y": 120,
+          "w": 1920,
+          "h": 1080,
+          "visible": true
+        },
+        {
+          "id": "575:63",
+          "name": "04 · 자동정비",
+          "type": "FRAME",
+          "x": 6200,
+          "y": 120,
+          "w": 1920,
+          "h": 1080,
+          "visible": true
+        }
+      ],
+      "texts": []
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "x": 2120,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "562:219",
+          "name": "seelo / Toss / Header",
+          "type": "INSTANCE",
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:222",
+          "name": "seelo / Toss / Footer",
+          "type": "INSTANCE",
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44,
+          "visible": false
+        },
+        {
+          "id": "562:224",
+          "name": "02 / 03",
+          "type": "TEXT",
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:225",
+          "name": "문제 정의",
+          "type": "TEXT",
+          "x": 96,
+          "y": 156,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "562:226",
+          "name": "문제 1 · AI 탐색",
+          "type": "FRAME",
+          "x": 96,
+          "y": 294,
+          "w": 528,
+          "h": 620,
+          "visible": true
+        },
+        {
+          "id": "562:231",
+          "name": "문제 2 · 채널 관리",
+          "type": "FRAME",
+          "x": 656,
+          "y": 294,
+          "w": 1168,
+          "h": 272,
+          "visible": true
+        },
+        {
+          "id": "562:256",
+          "name": "문제 3 · GEO 차이",
+          "type": "FRAME",
+          "x": 656,
+          "y": 598,
+          "w": 1168,
+          "h": 316,
+          "visible": true
+        },
+        {
+          "id": "562:270",
+          "name": "Adobe 2025.09.03 · 미국 소비자 5천여 명 조사 중 AI 여행계획 이용자 기준",
+          "type": "TEXT",
+          "x": 96,
+          "y": 946,
+          "w": 1728,
+          "h": 40,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "I562:219;562:191",
+          "text": "seelo",
+          "size": 44,
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 66
+          },
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true,
+          "parent": "562:219"
+        },
+        {
+          "id": "562:224",
+          "text": "02 / 04",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true,
+          "parent": "562:218"
+        },
+        {
+          "id": "562:225",
+          "text": "문제 정의",
+          "size": 72,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 90
+          },
+          "x": 96,
+          "y": 156,
+          "w": 1728,
+          "h": 90,
+          "visible": true,
+          "parent": "562:218"
+        },
+        {
+          "id": "562:227",
+          "text": "01",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 0,
+          "y": 0,
+          "w": 44,
+          "h": 45,
+          "visible": true,
+          "parent": "575:49"
+        },
+        {
+          "id": "562:228",
+          "text": "가게 탐색의\n새 경로가 된 AI",
+          "size": 38,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 54
+          },
+          "x": 60,
+          "y": 0,
+          "w": 396,
+          "h": 108,
+          "visible": true,
+          "parent": "575:49"
+        },
+        {
+          "id": "562:229",
+          "text": "53%",
+          "size": 96,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 120
+          },
+          "x": 0,
+          "y": 64,
+          "w": 456,
+          "h": 120,
+          "visible": true,
+          "parent": "575:50"
+        },
+        {
+          "id": "562:230",
+          "text": "미국 AI 여행계획 이용자\n장소·방문 시기 탐색에 활용",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 36,
+          "y": 454,
+          "w": 456,
+          "h": 90,
+          "visible": true,
+          "parent": "562:226"
+        },
+        {
+          "id": "562:233",
+          "text": "02",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 0,
+          "y": 0,
+          "w": 650,
+          "h": 45,
+          "visible": true,
+          "parent": "562:232"
+        },
+        {
+          "id": "562:234",
+          "text": "여러 채널 정보를\n직접 점검·수정하기 어렵다.",
+          "size": 38,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 57
+          },
+          "x": 0,
+          "y": 65,
+          "w": 650,
+          "h": 114,
+          "visible": true,
+          "parent": "562:232"
+        },
+        {
+          "id": "562:258",
+          "text": "03",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 0,
+          "y": 0,
+          "w": 564,
+          "h": 45,
+          "visible": true,
+          "parent": "562:257"
+        },
+        {
+          "id": "562:259",
+          "text": "검색 노출이 비슷해도\nGEO 정보 상태에 따라\nAI 추천 수는 다르다.",
+          "size": 36,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 54
+          },
+          "x": 0,
+          "y": 61,
+          "w": 564,
+          "h": 162,
+          "visible": true,
+          "parent": "562:257"
+        },
+        {
+          "id": "562:261",
+          "text": "정보 상태별 AI 추천 등장률",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 42,
+          "visible": true,
+          "parent": "562:260"
+        },
+        {
+          "id": "562:264",
+          "text": "GEO 정보\n미흡군",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 36
+          },
+          "x": 14,
+          "y": 14,
+          "w": 180,
+          "h": 72,
+          "visible": true,
+          "parent": "562:263"
+        },
+        {
+          "id": "562:265",
+          "text": "___%",
+          "size": 60,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 72
+          },
+          "x": 14,
+          "y": 94,
+          "w": 180,
+          "h": 72,
+          "visible": true,
+          "parent": "562:263"
+        },
+        {
+          "id": "562:266",
+          "text": "VS",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 224,
+          "y": 70,
+          "w": 48,
+          "h": 42,
+          "visible": true,
+          "parent": "562:262"
+        },
+        {
+          "id": "562:268",
+          "text": "GEO 정보\n충실군",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 36
+          },
+          "x": 14,
+          "y": 14,
+          "w": 180,
+          "h": 72,
+          "visible": true,
+          "parent": "562:267"
+        },
+        {
+          "id": "562:269",
+          "text": "___%",
+          "size": 60,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 72
+          },
+          "x": 14,
+          "y": 94,
+          "w": 180,
+          "h": 72,
+          "visible": true,
+          "parent": "562:267"
+        },
+        {
+          "id": "562:270",
+          "text": "Adobe 2025.09.03 · 미국 소비자 5천여 명 조사 중 AI 여행계획 이용자 기준",
+          "size": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 40
+          },
+          "x": 96,
+          "y": 946,
+          "w": 1728,
+          "h": 40,
+          "visible": true,
+          "parent": "562:218"
+        }
+      ]
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "x": 4160,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "562:272",
+          "name": "seelo / Toss / Header",
+          "type": "INSTANCE",
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "562:275",
+          "name": "seelo / Toss / Footer",
+          "type": "INSTANCE",
+          "x": 96,
+          "y": 996,
+          "w": 1728,
+          "h": 44,
+          "visible": false
+        },
+        {
+          "id": "562:277",
+          "name": "03 / 03",
+          "type": "TEXT",
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "562:278",
+          "name": "UX 인사이트 · 가치제안",
+          "type": "TEXT",
+          "x": 96,
+          "y": 156,
+          "w": 1728,
+          "h": 90,
+          "visible": true
+        },
+        {
+          "id": "562:279",
+          "name": "UX 인사이트",
+          "type": "FRAME",
+          "x": 96,
+          "y": 294,
+          "w": 624,
+          "h": 624,
+          "visible": true
+        },
+        {
+          "id": "562:282",
+          "name": "가치제안",
+          "type": "FRAME",
+          "x": 752,
+          "y": 294,
+          "w": 1072,
+          "h": 624,
+          "visible": true
+        },
+        {
+          "id": "575:53",
+          "name": "도식 / arrow",
+          "type": "FRAME",
+          "x": 723,
+          "y": 559,
+          "w": 28,
+          "h": 28,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "I562:272;562:191",
+          "text": "seelo",
+          "size": 44,
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 66
+          },
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true,
+          "parent": "562:272"
+        },
+        {
+          "id": "562:277",
+          "text": "03 / 04",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true,
+          "parent": "562:271"
+        },
+        {
+          "id": "562:278",
+          "text": "UX 인사이트 · 가치제안",
+          "size": 72,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 90
+          },
+          "x": 96,
+          "y": 156,
+          "w": 1728,
+          "h": 90,
+          "visible": true,
+          "parent": "562:271"
+        },
+        {
+          "id": "562:280",
+          "text": "UX 인사이트",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 40,
+          "y": 40,
+          "w": 544,
+          "h": 45,
+          "visible": true,
+          "parent": "562:279"
+        },
+        {
+          "id": "562:281",
+          "text": "사장님은 영업에 집중하면서도\nAI로 가게를 찾는 관광객에게\n발견되고 싶으며,\n복잡한 노출 관리는 맡기고\n결과만 쉽게 확인하고 싶다.",
+          "lh": {
+            "unit": "PIXELS",
+            "value": 64
+          },
+          "x": 40,
+          "y": 115,
+          "w": 544,
+          "h": 322,
+          "visible": true,
+          "parent": "562:279"
+        },
+        {
+          "id": "562:283",
+          "text": "가치제안",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 40,
+          "y": 40,
+          "w": 992,
+          "h": 45,
+          "visible": true,
+          "parent": "562:282"
+        },
+        {
+          "id": "562:284",
+          "text": "seelo는 AI가 우리 가게를 잘 찾고 소개할 수 있도록,\n구글·카카오의 메뉴·가격·영업시간 등을\n대신 고쳐주고\nAI 추천의 변화까지 확인해주는 서비스다.",
+          "lh": {
+            "unit": "PIXELS",
+            "value": 64
+          },
+          "x": 40,
+          "y": 115,
+          "w": 992,
+          "h": 252,
+          "visible": true,
+          "parent": "562:282"
+        },
+        {
+          "id": "562:290",
+          "text": "진단",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 24,
+          "y": 80,
+          "w": 266.6666564941406,
+          "h": 45,
+          "visible": true,
+          "parent": "562:286"
+        },
+        {
+          "id": "562:295",
+          "text": "정보 정비",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 24,
+          "y": 80,
+          "w": 266.6666564941406,
+          "h": 45,
+          "visible": true,
+          "parent": "562:291"
+        },
+        {
+          "id": "562:299",
+          "text": "전후 비교",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 24,
+          "y": 80,
+          "w": 266.6666564941406,
+          "h": 45,
+          "visible": true,
+          "parent": "562:296"
+        }
+      ]
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 자동정비",
+      "x": 6200,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "575:64",
+          "name": "seelo / Toss / Header",
+          "type": "INSTANCE",
+          "x": 96,
+          "y": 36,
+          "w": 1728,
+          "h": 72,
+          "visible": true
+        },
+        {
+          "id": "575:67",
+          "name": "04 / 04",
+          "type": "TEXT",
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "575:68",
+          "name": "자동정비",
+          "type": "TEXT",
+          "x": 96,
+          "y": 144,
+          "w": 1728,
+          "h": 96,
+          "visible": true
+        },
+        {
+          "id": "575:69",
+          "name": "승인한 항목 반영 · 반영 확인 · 변경 이력 기록",
+          "type": "TEXT",
+          "x": 96,
+          "y": 250,
+          "w": 1728,
+          "h": 51,
+          "visible": true
+        },
+        {
+          "id": "575:70",
+          "name": "정비안 확인·승인",
+          "type": "FRAME",
+          "x": 96,
+          "y": 330,
+          "w": 840,
+          "h": 376,
+          "visible": true
+        },
+        {
+          "id": "575:88",
+          "name": "정비 진행·반영 결과",
+          "type": "FRAME",
+          "x": 984,
+          "y": 330,
+          "w": 840,
+          "h": 376,
+          "visible": true
+        },
+        {
+          "id": "575:106",
+          "name": "도식 / arrow",
+          "type": "FRAME",
+          "x": 949,
+          "y": 502,
+          "w": 30,
+          "h": 30,
+          "visible": true
+        },
+        {
+          "id": "575:108",
+          "name": "사용 흐름",
+          "type": "TEXT",
+          "x": 96,
+          "y": 730,
+          "w": 1728,
+          "h": 45,
+          "visible": true
+        },
+        {
+          "id": "575:109",
+          "name": "가게 등록부터 결과 확인까지",
+          "type": "FRAME",
+          "x": 96,
+          "y": 786,
+          "w": 1728,
+          "h": 156,
+          "visible": true
+        },
+        {
+          "id": "575:137",
+          "name": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "type": "TEXT",
+          "x": 96,
+          "y": 966,
+          "w": 1510,
+          "h": 42,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "I575:64;562:191",
+          "text": "seelo",
+          "size": 44,
+          "font": {
+            "family": "Pacifico",
+            "style": "Regular"
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 66
+          },
+          "x": 0,
+          "y": 3,
+          "w": 210,
+          "h": 66,
+          "visible": true,
+          "parent": "575:64"
+        },
+        {
+          "id": "575:67",
+          "text": "04 / 04",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 1624,
+          "y": 1000,
+          "w": 200,
+          "h": 45,
+          "visible": true,
+          "parent": "575:63"
+        },
+        {
+          "id": "575:68",
+          "text": "자동정비",
+          "size": 76,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 96
+          },
+          "x": 96,
+          "y": 144,
+          "w": 1728,
+          "h": 96,
+          "visible": true,
+          "parent": "575:63"
+        },
+        {
+          "id": "575:69",
+          "text": "승인한 항목 반영 · 반영 확인 · 변경 이력 기록",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 51
+          },
+          "x": 96,
+          "y": 250,
+          "w": 1728,
+          "h": 51,
+          "visible": true,
+          "parent": "575:63"
+        },
+        {
+          "id": "575:71",
+          "text": "정비안 확인·승인",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 51
+          },
+          "x": 32,
+          "y": 22,
+          "w": 776,
+          "h": 51,
+          "visible": true,
+          "parent": "575:70"
+        },
+        {
+          "id": "I575:73;575:58",
+          "text": "영문 메뉴·가격",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:73"
+        },
+        {
+          "id": "I575:73;575:59",
+          "text": "확인·승인",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:73"
+        },
+        {
+          "id": "I575:78;575:58",
+          "text": "실제 영업시간",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:78"
+        },
+        {
+          "id": "I575:78;575:59",
+          "text": "확인·승인",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:78"
+        },
+        {
+          "id": "I575:83;575:58",
+          "text": "영문 가게 소개",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:83"
+        },
+        {
+          "id": "I575:83;575:59",
+          "text": "확인·승인",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:83"
+        },
+        {
+          "id": "575:89",
+          "text": "정비 진행·반영 결과",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 51
+          },
+          "x": 32,
+          "y": 22,
+          "w": 776,
+          "h": 51,
+          "visible": true,
+          "parent": "575:88"
+        },
+        {
+          "id": "I575:91;575:58",
+          "text": "Google · 영문 소개",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:91"
+        },
+        {
+          "id": "I575:91;575:59",
+          "text": "완료",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:91"
+        },
+        {
+          "id": "I575:96;575:58",
+          "text": "Google · 영문 메뉴",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:96"
+        },
+        {
+          "id": "I575:96;575:59",
+          "text": "완료",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:96"
+        },
+        {
+          "id": "I575:101;575:58",
+          "text": "카카오 · 영업시간",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 62,
+          "y": 9.5,
+          "w": 490,
+          "h": 45,
+          "visible": true,
+          "parent": "575:101"
+        },
+        {
+          "id": "I575:101;575:59",
+          "text": "완료",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 584,
+          "y": 11,
+          "w": 160,
+          "h": 42,
+          "visible": true,
+          "parent": "575:101"
+        },
+        {
+          "id": "575:108",
+          "text": "사용 흐름",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 96,
+          "y": 730,
+          "w": 1728,
+          "h": 45,
+          "visible": true,
+          "parent": "575:63"
+        },
+        {
+          "id": "I575:110;575:61",
+          "text": "가게 등록",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true,
+          "parent": "575:110"
+        },
+        {
+          "id": "I575:110;575:62",
+          "text": "이름·지도 링크",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "575:110"
+        },
+        {
+          "id": "I575:116;575:61",
+          "text": "AI 추천 현황 확인",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true,
+          "parent": "575:116"
+        },
+        {
+          "id": "I575:116;575:62",
+          "text": "결과 확인·정비 신청",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "575:116"
+        },
+        {
+          "id": "I575:122;575:61",
+          "text": "연결·정비안 승인",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true,
+          "parent": "575:122"
+        },
+        {
+          "id": "I575:122;575:62",
+          "text": "사장님 확인",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "575:122"
+        },
+        {
+          "id": "I575:128;575:61",
+          "text": "자동정비",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true,
+          "parent": "575:128"
+        },
+        {
+          "id": "I575:128;575:62",
+          "text": "Google·카카오 반영",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "575:128"
+        },
+        {
+          "id": "I575:134;575:61",
+          "text": "결과 확인",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 45
+          },
+          "x": 20,
+          "y": 20,
+          "w": 280,
+          "h": 45,
+          "visible": true,
+          "parent": "575:134"
+        },
+        {
+          "id": "I575:134;575:62",
+          "text": "반영 이력·전후 비교",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 20,
+          "y": 73,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "575:134"
+        },
+        {
+          "id": "575:137",
+          "text": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "x": 96,
+          "y": 966,
+          "w": 1510,
+          "h": 42,
+          "visible": true,
+          "parent": "575:63"
+        }
+      ]
+    },
+    {
+      "id": "468:42",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "x": 2080,
+      "y": 1300,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "473:10",
+          "name": "페이지 제목",
+          "type": "FRAME",
+          "x": 80,
+          "y": 64,
+          "w": 1760,
+          "h": 80,
+          "visible": true
+        },
+        {
+          "id": "473:12",
+          "name": "페이지 구성",
+          "type": "FRAME",
+          "x": 80,
+          "y": 164,
+          "w": 1760,
+          "h": 800,
+          "visible": true
+        },
+        {
+          "id": "473:13",
+          "name": "보조 정보",
+          "type": "FRAME",
+          "x": 80,
+          "y": 984,
+          "w": 1760,
+          "h": 36,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "473:11",
+          "text": "04  서비스 개념과 핵심 기능",
+          "size": 52,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 70,
+          "visible": true,
+          "parent": "473:10"
+        },
+        {
+          "id": "524:31",
+          "text": "핵심 기능",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 22.5,
+          "w": 180,
+          "h": 35,
+          "visible": true,
+          "parent": "524:30"
+        },
+        {
+          "id": "524:32",
+          "text": "자동정비",
+          "size": 52,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 204,
+          "y": 5,
+          "w": 300,
+          "h": 70,
+          "visible": true,
+          "parent": "524:30"
+        },
+        {
+          "id": "524:33",
+          "text": "승인한 항목 반영 · 반영 확인 · 변경 이력 기록",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 528,
+          "y": 22.5,
+          "w": 1184,
+          "h": 35,
+          "visible": true,
+          "parent": "524:30"
+        },
+        {
+          "id": "524:36",
+          "text": "정비안 확인·승인",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 840,
+          "h": 38,
+          "visible": true,
+          "parent": "524:35"
+        },
+        {
+          "id": "524:40",
+          "text": "정비 진행·반영 결과",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 840,
+          "h": 38,
+          "visible": true,
+          "parent": "524:39"
+        },
+        {
+          "id": "524:44",
+          "text": "사용 흐름",
+          "size": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 32,
+          "visible": true,
+          "parent": "524:43"
+        },
+        {
+          "id": "524:47",
+          "text": "가게 등록",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 23.5,
+          "w": 284,
+          "h": 35,
+          "visible": true,
+          "parent": "524:46"
+        },
+        {
+          "id": "524:48",
+          "text": "이름·지도 링크",
+          "size": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 66.5,
+          "w": 284,
+          "h": 30,
+          "visible": true,
+          "parent": "524:46"
+        },
+        {
+          "id": "524:50",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 39.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "524:49"
+        },
+        {
+          "id": "524:52",
+          "text": "AI 추천 현황 확인",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 23.5,
+          "w": 284,
+          "h": 35,
+          "visible": true,
+          "parent": "524:51"
+        },
+        {
+          "id": "524:53",
+          "text": "결과 확인·정비 신청",
+          "size": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 66.5,
+          "w": 284,
+          "h": 30,
+          "visible": true,
+          "parent": "524:51"
+        },
+        {
+          "id": "524:55",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 39.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "524:54"
+        },
+        {
+          "id": "524:57",
+          "text": "연결·정비안 승인",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 23.5,
+          "w": 284,
+          "h": 35,
+          "visible": true,
+          "parent": "524:56"
+        },
+        {
+          "id": "524:58",
+          "text": "사장님 확인",
+          "size": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 66.5,
+          "w": 284,
+          "h": 30,
+          "visible": true,
+          "parent": "524:56"
+        },
+        {
+          "id": "524:60",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 39.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "524:59"
+        },
+        {
+          "id": "524:62",
+          "text": "자동정비",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 23.5,
+          "w": 284,
+          "h": 35,
+          "visible": true,
+          "parent": "524:61"
+        },
+        {
+          "id": "524:63",
+          "text": "Google·카카오 반영",
+          "size": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 66.5,
+          "w": 284,
+          "h": 30,
+          "visible": true,
+          "parent": "524:61"
+        },
+        {
+          "id": "524:65",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 39.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "524:64"
+        },
+        {
+          "id": "524:67",
+          "text": "결과 확인",
+          "size": 26,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 23.5,
+          "w": 284,
+          "h": 35,
+          "visible": true,
+          "parent": "524:66"
+        },
+        {
+          "id": "524:68",
+          "text": "반영 이력·전후 비교",
+          "size": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 66.5,
+          "w": 284,
+          "h": 30,
+          "visible": true,
+          "parent": "524:66"
+        },
+        {
+          "id": "524:69",
+          "text": "사장님: 실제 정보 확인·승인  /  서비스: 정비안 작성·지도 반영·결과 기록",
+          "size": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 27,
+          "visible": true,
+          "parent": "473:13"
+        }
+      ]
+    },
+    {
+      "id": "468:100",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "x": 80,
+      "y": 2520,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "473:22",
+          "name": "페이지 제목",
+          "type": "FRAME",
+          "x": 80,
+          "y": 64,
+          "w": 1760,
+          "h": 80,
+          "visible": true
+        },
+        {
+          "id": "473:24",
+          "name": "페이지 구성",
+          "type": "FRAME",
+          "x": 80,
+          "y": 164,
+          "w": 1760,
+          "h": 800,
+          "visible": true
+        },
+        {
+          "id": "473:25",
+          "name": "보조 정보",
+          "type": "FRAME",
+          "x": 80,
+          "y": 984,
+          "w": 1760,
+          "h": 36,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "473:23",
+          "text": "05  개발 범위 · 후속 개발",
+          "size": 52,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 70,
+          "visible": true,
+          "parent": "473:22"
+        },
+        {
+          "id": "482:46",
+          "text": "AI 추천 현황 분석",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 46,
+          "visible": true,
+          "parent": "482:45"
+        },
+        {
+          "id": "482:47",
+          "text": "AI별 등장률·등장 순서\n참고 출처\n주변 가게 비교\n수정 필요 항목",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 95,
+          "w": 504,
+          "h": 152,
+          "visible": true,
+          "parent": "482:45"
+        },
+        {
+          "id": "482:49",
+          "text": "매장 정보 자동정비",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 46,
+          "visible": true,
+          "parent": "482:48"
+        },
+        {
+          "id": "482:50",
+          "text": "기존 정보와 출처 대조\n정비안 확인·승인\nGoogle·카카오 정보 수정\n반영 확인·변경 이력",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 95,
+          "w": 504,
+          "h": 152,
+          "visible": true,
+          "parent": "482:48"
+        },
+        {
+          "id": "482:52",
+          "text": "AI 추천 변화 비교",
+          "size": 34,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 46,
+          "visible": true,
+          "parent": "482:51"
+        },
+        {
+          "id": "482:53",
+          "text": "정비 후 2주 재측정\n동일 질문·반복 횟수\nAI별 전후 비교\n수정 항목 반영 상태",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 95,
+          "w": 504,
+          "h": 152,
+          "visible": true,
+          "parent": "482:51"
+        },
+        {
+          "id": "482:55",
+          "text": "베타 범위",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 156,
+          "y": 20.5,
+          "w": 220,
+          "h": 39,
+          "visible": true,
+          "parent": "482:54"
+        },
+        {
+          "id": "482:56",
+          "text": "계정당 가게 1곳 / ChatGPT·Gemini / Google·카카오 정비",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 404,
+          "y": 21,
+          "w": 1200,
+          "h": 38,
+          "visible": true,
+          "parent": "482:54"
+        },
+        {
+          "id": "482:57",
+          "text": "후속 개발안",
+          "size": 32,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 510,
+          "w": 1760,
+          "h": 43,
+          "visible": true,
+          "parent": "473:24"
+        },
+        {
+          "id": "482:60",
+          "text": "간편한 Google 연결",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 41,
+          "visible": true,
+          "parent": "482:59"
+        },
+        {
+          "id": "482:61",
+          "text": "Google 계정으로 권한 승인\n공식 API로 지원 항목 수정",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 90,
+          "w": 504,
+          "h": 76,
+          "visible": true,
+          "parent": "482:59"
+        },
+        {
+          "id": "482:63",
+          "text": "정기 분석·변화 알림",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 41,
+          "visible": true,
+          "parent": "482:62"
+        },
+        {
+          "id": "482:64",
+          "text": "추천 추이 자동 확인\n변화 발생 시 알림",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 90,
+          "w": 504,
+          "h": 76,
+          "visible": true,
+          "parent": "482:62"
+        },
+        {
+          "id": "482:66",
+          "text": "여러 가게 통합 관리",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 29,
+          "w": 504,
+          "h": 41,
+          "visible": true,
+          "parent": "482:65"
+        },
+        {
+          "id": "482:67",
+          "text": "지점별 상태 한눈에 확인\n가게 전환·비교",
+          "size": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 29,
+          "y": 90,
+          "w": 504,
+          "h": 76,
+          "visible": true,
+          "parent": "482:65"
+        },
+        {
+          "id": "482:68",
+          "text": "Google 공식 수정 API 연동: 프로젝트 접근 승인·업주 권한 동의 후",
+          "size": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 24,
+          "visible": true,
+          "parent": "473:25"
+        }
+      ]
+    },
+    {
+      "id": "468:127",
+      "name": "07 · 시스템 아키텍처 · 데이터 흐름",
+      "x": 80,
+      "y": 3740,
+      "w": 1920,
+      "h": 1080,
+      "children": [
+        {
+          "id": "473:26",
+          "name": "페이지 제목",
+          "type": "FRAME",
+          "x": 80,
+          "y": 64,
+          "w": 1760,
+          "h": 80,
+          "visible": true
+        },
+        {
+          "id": "473:28",
+          "name": "페이지 구성",
+          "type": "FRAME",
+          "x": 80,
+          "y": 164,
+          "w": 1760,
+          "h": 800,
+          "visible": true
+        },
+        {
+          "id": "473:29",
+          "name": "보조 정보",
+          "type": "FRAME",
+          "x": 80,
+          "y": 984,
+          "w": 1760,
+          "h": 36,
+          "visible": true
+        }
+      ],
+      "texts": [
+        {
+          "id": "473:27",
+          "text": "07  시스템 아키텍처 · 데이터 흐름",
+          "size": 52,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 70,
+          "visible": true,
+          "parent": "473:26"
+        },
+        {
+          "id": "479:84",
+          "text": "Frontend",
+          "size": 31,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 19,
+          "w": 260,
+          "h": 42,
+          "visible": true,
+          "parent": "479:83"
+        },
+        {
+          "id": "479:85",
+          "text": "React · TypeScript",
+          "size": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 69,
+          "w": 260,
+          "h": 32,
+          "visible": true,
+          "parent": "479:83"
+        },
+        {
+          "id": "479:87",
+          "text": "Backend",
+          "size": 31,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 19,
+          "w": 280,
+          "h": 42,
+          "visible": true,
+          "parent": "479:86"
+        },
+        {
+          "id": "479:88",
+          "text": "FastAPI / 인증·API",
+          "size": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 69,
+          "w": 280,
+          "h": 32,
+          "visible": true,
+          "parent": "479:86"
+        },
+        {
+          "id": "479:90",
+          "text": "PostgreSQL",
+          "size": 31,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 19,
+          "w": 600,
+          "h": 42,
+          "visible": true,
+          "parent": "479:89"
+        },
+        {
+          "id": "479:91",
+          "text": "서비스 데이터 / 작업 큐",
+          "size": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 69,
+          "w": 600,
+          "h": 32,
+          "visible": true,
+          "parent": "479:89"
+        },
+        {
+          "id": "479:93",
+          "text": "Worker",
+          "size": 31,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 29,
+          "w": 380,
+          "h": 42,
+          "visible": true,
+          "parent": "479:92"
+        },
+        {
+          "id": "479:94",
+          "text": "Procrastinate",
+          "size": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 21,
+          "y": 79,
+          "w": 380,
+          "h": 32,
+          "visible": true,
+          "parent": "479:92"
+        },
+        {
+          "id": "479:96",
+          "text": "외부 연동",
+          "size": 31,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 25,
+          "y": 25,
+          "w": 592,
+          "h": 42,
+          "visible": true,
+          "parent": "479:95"
+        },
+        {
+          "id": "479:97",
+          "text": "지도 API / OpenAI · Gemini\nGoogle·카카오 관리 화면\n이메일 서비스",
+          "size": 27,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 25,
+          "y": 83,
+          "w": 592,
+          "h": 108,
+          "visible": true,
+          "parent": "479:95"
+        },
+        {
+          "id": "479:98",
+          "text": "요청 · 결과",
+          "size": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 310,
+          "y": 42,
+          "w": 170,
+          "h": 28,
+          "visible": true,
+          "parent": "479:77"
+        },
+        {
+          "id": "479:99",
+          "text": "저장 · 조회",
+          "size": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 830,
+          "y": 42,
+          "w": 250,
+          "h": 28,
+          "visible": true,
+          "parent": "479:77"
+        },
+        {
+          "id": "479:100",
+          "text": "작업 · 처리 결과",
+          "size": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 1060,
+          "y": 150,
+          "w": 320,
+          "h": 28,
+          "visible": true,
+          "parent": "479:77"
+        },
+        {
+          "id": "479:103",
+          "text": "가게 등록",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 50.5,
+          "w": 284,
+          "h": 39,
+          "visible": true,
+          "parent": "479:102"
+        },
+        {
+          "id": "479:105",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 49.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "479:104"
+        },
+        {
+          "id": "479:107",
+          "text": "정보 수집",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 50.5,
+          "w": 284,
+          "h": 39,
+          "visible": true,
+          "parent": "479:106"
+        },
+        {
+          "id": "479:109",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 49.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "479:108"
+        },
+        {
+          "id": "479:111",
+          "text": "질문·AI 측정",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 50.5,
+          "w": 284,
+          "h": 39,
+          "visible": true,
+          "parent": "479:110"
+        },
+        {
+          "id": "479:113",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 49.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "479:112"
+        },
+        {
+          "id": "479:115",
+          "text": "추천 추출·지표",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 50.5,
+          "w": 284,
+          "h": 39,
+          "visible": true,
+          "parent": "479:114"
+        },
+        {
+          "id": "479:117",
+          "text": "→",
+          "size": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 49.5,
+          "w": 40,
+          "h": 41,
+          "visible": true,
+          "parent": "479:116"
+        },
+        {
+          "id": "479:119",
+          "text": "저장·화면 표시",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 19,
+          "y": 50.5,
+          "w": 284,
+          "h": 39,
+          "visible": true,
+          "parent": "479:118"
+        },
+        {
+          "id": "479:122",
+          "text": "질문 3개 × AI 2종 × 10회 = 60회",
+          "size": 29,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 25,
+          "y": 25,
+          "w": 812,
+          "h": 39,
+          "visible": true,
+          "parent": "479:121"
+        },
+        {
+          "id": "479:124",
+          "text": "3초마다 진행 조회 / 실패 호출 별도 기록",
+          "size": 27,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 25,
+          "y": 25,
+          "w": 812,
+          "h": 36,
+          "visible": true,
+          "parent": "479:123"
+        },
+        {
+          "id": "479:125",
+          "text": "POST /api/stores/identify    GET /api/runs/{runId}/progress    GET /api/diagnosis/{runId}",
+          "size": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lh": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "x": 0,
+          "y": 0,
+          "w": 1760,
+          "h": 24,
+          "visible": true,
+          "parent": "473:29"
+        }
+      ]
+    }
+  ],
+  "top": [
+    {
+      "id": "12:3",
+      "name": "Slide 16:9 - 1",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "12:4",
+      "name": "Slide 16:9 - 2",
+      "x": 1960,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "25:2",
+      "name": "Frame 1",
+      "x": 0,
+      "y": 1131,
+      "w": 673,
+      "h": 491
+    },
+    {
+      "id": "365:1552",
+      "name": "01 · 페르소나 — 최사장 요약",
+      "x": 0,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "365:1607",
+      "name": "02 · AI 노출 진단 — 진단 흐름",
+      "x": 2120,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "365:1647",
+      "name": "03 · AI 노출 진단 — 예외와 완료 기준",
+      "x": 4240,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "468:2",
+      "name": "seelo 중간점검 · 백지 발표 구성 · 20261102",
+      "x": 6400,
+      "y": 0,
+      "w": 4120,
+      "h": 6240
+    },
+    {
+      "id": "542:2",
+      "name": "작업초안 · 보류 · 피드백 후 이어서",
+      "x": 10920,
+      "y": 4400,
+      "w": 6240,
+      "h": 7620
+    },
+    {
+      "id": "545:2",
+      "name": "seelo 중간점검 · 3장 시안 · 발표형 수정3",
+      "x": 10920,
+      "y": 0,
+      "w": 6240,
+      "h": 1240
+    },
+    {
+      "id": "562:38",
+      "name": "seelo · 시안 공통 요소 · 20261103",
+      "x": 17560,
+      "y": 2850,
+      "w": 6240,
+      "h": 700
+    },
+    {
+      "id": "562:54",
+      "name": "seelo · Apple · 3페이지 · 20261103",
+      "x": 17560,
+      "y": 0,
+      "w": 6240,
+      "h": 1280
+    },
+    {
+      "id": "562:189",
+      "name": "seelo · Toss · 4페이지 · 20261103",
+      "x": 17560,
+      "y": 1410,
+      "w": 8280,
+      "h": 1280
+    },
+    {
+      "id": "575:138",
+      "name": "seelo · 표지 비교 · 유리 가게 / 솔리드 가게",
+      "x": 17560,
+      "y": 3800,
+      "w": 4200,
+      "h": 1280
+    }
+  ]
+}

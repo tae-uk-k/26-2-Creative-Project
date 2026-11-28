@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a143aa-5ec7-7231-8960-112b6d985b3d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"selected\":[{\"rank\":1,\"code\":\"가\",\"reason\":\"중식 식사 선택지로 훈둔면을 추천해. 표시 가격은 9,000원이야.\",\"evidence\":\"메뉴: 훈둔면 / 표시 가격: 9,000원\"},{\"rank\":2,\"code\":\"다\",\"reason\":\"첫 추천과 다른 종류의 식사로 돈카츠를 추천해. 체다크림치즈돈카츠와 매콤돈카츠가 각각 14,000원으로 표시돼 있어.\",\"evidence\":\"메뉴: 체다크림치즈돈카츠 / 표시 가격: 14,000원\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13434,"cached_input_tokens":12544,"cache_write_input_tokens":0,"output_tokens":145,"reasoning_output_tokens":0}}

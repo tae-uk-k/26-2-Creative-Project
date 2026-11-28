@@ -1,0 +1,1632 @@
+{
+  "source": {
+    "id": "562:189",
+    "name": "seelo · Toss · 1–9페이지 · 20261103",
+    "x": 17560,
+    "y": 7252,
+    "w": 8280,
+    "h": 3710,
+    "nodeCount": 873,
+    "signature": "853dee36"
+  },
+  "pageNodes": [
+    {
+      "id": "12:3",
+      "name": "Slide 16:9 - 1",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "12:4",
+      "name": "Slide 16:9 - 2",
+      "type": "FRAME",
+      "x": 1960,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "25:2",
+      "name": "Frame 1",
+      "type": "FRAME",
+      "x": 0,
+      "y": 1131,
+      "w": 673,
+      "h": 491
+    },
+    {
+      "id": "365:1552",
+      "name": "01 · 페르소나 — 최사장 요약",
+      "type": "FRAME",
+      "x": 0,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "365:1607",
+      "name": "02 · AI 노출 진단 — 진단 흐름",
+      "type": "FRAME",
+      "x": 2120,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "365:1647",
+      "name": "03 · AI 노출 진단 — 예외와 완료 기준",
+      "type": "FRAME",
+      "x": 4240,
+      "y": 1917,
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "468:2",
+      "name": "seelo 중간점검 · 백지 발표 구성 · 20261102",
+      "type": "SECTION",
+      "x": 6400,
+      "y": 0,
+      "w": 4120,
+      "h": 6240
+    },
+    {
+      "id": "542:2",
+      "name": "작업초안 · 보류 · 피드백 후 이어서",
+      "type": "SECTION",
+      "x": 10920,
+      "y": 4400,
+      "w": 6240,
+      "h": 8880
+    },
+    {
+      "id": "545:2",
+      "name": "seelo 중간점검 · 3장 시안 · 발표형 수정3",
+      "type": "SECTION",
+      "x": 10920,
+      "y": 0,
+      "w": 6240,
+      "h": 1240
+    },
+    {
+      "id": "562:38",
+      "name": "seelo · 시안 공통 요소 · 20261103",
+      "type": "SECTION",
+      "x": 17560,
+      "y": 4110,
+      "w": 6240,
+      "h": 700
+    },
+    {
+      "id": "562:54",
+      "name": "seelo · Apple · 3페이지 · 20261103",
+      "type": "SECTION",
+      "x": 17560,
+      "y": 0,
+      "w": 6240,
+      "h": 1280
+    },
+    {
+      "id": "575:138",
+      "name": "seelo · 표지 비교 · 유리 가게 / 솔리드 가게",
+      "type": "SECTION",
+      "x": 17560,
+      "y": 5030,
+      "w": 4200,
+      "h": 1280
+    },
+    {
+      "id": "562:189",
+      "name": "seelo · Toss · 1–9페이지 · 20261103",
+      "type": "SECTION",
+      "x": 17560,
+      "y": 7252,
+      "w": 8280,
+      "h": 3710
+    },
+    {
+      "id": "591:65",
+      "name": "seelo · 내비게이션바 비교 · 1장",
+      "type": "SECTION",
+      "x": 26080,
+      "y": 1410,
+      "w": 2080,
+      "h": 1280
+    }
+  ],
+  "slides": [
+    {
+      "id": "562:195",
+      "name": "01 · 서비스 소개",
+      "x": 80,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "602:55",
+          "name": "내비게이션 / 서비스 소개",
+          "w": 152,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "562:218",
+      "name": "02 · 문제 정의",
+      "x": 2120,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "562:226",
+          "name": "문제 1 · AI 탐색",
+          "w": 528,
+          "h": 620,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "562:231",
+          "name": "문제 2 · 채널 관리",
+          "w": 1168,
+          "h": 272,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.5899999737739563,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "562:256",
+          "name": "문제 3 · GEO 차이",
+          "w": 1168,
+          "h": 316,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6700000166893005,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "602:72",
+          "name": "내비게이션 / 문제 정의",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "562:271",
+      "name": "03 · UX 인사이트 · 가치제안",
+      "x": 4160,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "562:279",
+          "name": "UX 인사이트",
+          "w": 688,
+          "h": 624,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "562:282",
+          "name": "가치제안",
+          "w": 1008,
+          "h": 624,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "602:88",
+          "name": "내비게이션 / 인사이트",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "575:63",
+      "name": "04 · 서비스 개념과 핵심 기능",
+      "x": 6200,
+      "y": 120,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "585:156",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:562:182"
+                }
+              }
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:161",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:562:182"
+                }
+              }
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:166",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:562:182"
+                }
+              }
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:176",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:562:182"
+                }
+              }
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:139",
+          "name": "핵심 기능 · 지도 정보 대신 수정",
+          "w": 1728,
+          "h": 326,
+          "r": 32,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:179",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:182",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:185",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:188",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "585:191",
+          "name": "seelo / 서비스 흐름 단계",
+          "w": 320,
+          "h": 156,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "602:104",
+          "name": "내비게이션 / 핵심 기능",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "580:179",
+      "name": "05 · 개발 범위 · 후속 개발",
+      "x": 80,
+      "y": 1330,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "580:185",
+          "name": "베타 범위",
+          "w": 1728,
+          "h": 72,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:189",
+          "name": "범위 1",
+          "w": 552,
+          "h": 330,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:192",
+          "name": "범위 2",
+          "w": 552,
+          "h": 330,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:195",
+          "name": "범위 3",
+          "w": 552,
+          "h": 330,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "602:120",
+          "name": "내비게이션 / 개발 범위",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "580:210",
+      "name": "06 · 시스템 아키텍처 · 데이터 흐름",
+      "x": 2120,
+      "y": 1330,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "580:225",
+          "name": "모듈",
+          "w": 320,
+          "h": 140,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:228",
+          "name": "모듈",
+          "w": 360,
+          "h": 140,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:231",
+          "name": "모듈",
+          "w": 680,
+          "h": 140,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:234",
+          "name": "모듈",
+          "w": 360,
+          "h": 180,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:237",
+          "name": "모듈",
+          "w": 680,
+          "h": 208,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:244",
+          "name": "데이터 처리",
+          "w": 320,
+          "h": 90,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:249",
+          "name": "데이터 처리",
+          "w": 320,
+          "h": 90,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:254",
+          "name": "데이터 처리",
+          "w": 320,
+          "h": 90,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:259",
+          "name": "데이터 처리",
+          "w": 320,
+          "h": 90,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "580:264",
+          "name": "데이터 처리",
+          "w": 320,
+          "h": 90,
+          "r": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "602:136",
+          "name": "내비게이션 / 시스템 구조",
+          "w": 152,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "606:53",
+      "name": "07 · UI/UX 설계 · 프로토타입",
+      "x": 4160,
+      "y": 1330,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "606:476",
+          "name": "내비게이션 / 화면 설계",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:109",
+          "name": "화면 / 가게 등록",
+          "w": 552,
+          "h": 524,
+          "r": 18,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:110",
+          "name": "창 상단",
+          "w": 552,
+          "h": 34,
+          "r": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:145",
+          "name": "화면 / 정비안 승인",
+          "w": 552,
+          "h": 524,
+          "r": 18,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:146",
+          "name": "창 상단",
+          "w": 552,
+          "h": 34,
+          "r": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:230",
+          "name": "화면 / 전후 비교",
+          "w": 552,
+          "h": 524,
+          "r": 18,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:231",
+          "name": "창 상단",
+          "w": 552,
+          "h": 34,
+          "r": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "606:71",
+      "name": "08 · 데이터베이스 설계",
+      "x": 6200,
+      "y": 1330,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "606:484",
+          "name": "내비게이션 / 데이터 설계",
+          "w": 152,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:379",
+          "name": "ERD / stores",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:383",
+          "name": "ERD / question_sets",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:387",
+          "name": "ERD / measurement_runs",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:391",
+          "name": "ERD / comparison_reports",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:395",
+          "name": "ERD / fix_requests",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:399",
+          "name": "ERD / fix_plans",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:403",
+          "name": "ERD / fix_plan_items",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:407",
+          "name": "ERD / fix_logs",
+          "w": 384,
+          "h": 236,
+          "r": 22,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    },
+    {
+      "id": "606:89",
+      "name": "09 · 개발 계획 · 역할 분담",
+      "x": 80,
+      "y": 2540,
+      "w": 1920,
+      "h": 1080,
+      "panels": [
+        {
+          "id": "606:492",
+          "name": "내비게이션 / 개발 계획",
+          "w": 132,
+          "h": 64,
+          "r": 16,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:411",
+          "name": "역할 / 김태욱 · 개발·데이터",
+          "w": 848,
+          "h": 154,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:414",
+          "name": "역할 / 강가힐 · 기획·UI/UX",
+          "w": 848,
+          "h": 154,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:418",
+          "name": "구현 순서 / 01",
+          "w": 552,
+          "h": 178,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:422",
+          "name": "구현 순서 / 02",
+          "w": 552,
+          "h": 178,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:426",
+          "name": "구현 순서 / 03",
+          "w": 552,
+          "h": 178,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:431",
+          "name": "기술 대응 / AI 지연",
+          "w": 552,
+          "h": 92,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:434",
+          "name": "기술 대응 / 값 오류",
+          "w": 552,
+          "h": 92,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        },
+        {
+          "id": "606:437",
+          "name": "기술 대응 / 자동화 중단",
+          "w": 552,
+          "h": 92,
+          "r": 24,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.6000000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9490196108818054,
+                "g": 0.95686274766922,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "effects": [],
+          "strokes": []
+        }
+      ]
+    }
+  ]
+}

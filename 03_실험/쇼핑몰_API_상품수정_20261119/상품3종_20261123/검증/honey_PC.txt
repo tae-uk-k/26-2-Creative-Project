@@ -1,0 +1,391 @@
+Browser tab: 682043680, Title: "seelo 아카시아 벌꿀 500g : seelo", URL: "https://smartstore.naver.com/seelo/products/13883527217".
+1 AXWebArea seelo 아카시아 벌꿀 500g : seelo, URL: smartstore.naver.com/seelo/products/13883527217
+	2 container MAIN_CONTENT_ROOT_ID
+		3 link Description: 본문으로 바로가기, Value: smartstore.naver.com/seelo/products/13883527217#content
+		4 container wrap
+			5 container header
+				6 container
+					7 link Description: 네이버, Value: naver.com/
+					8 link Description: 네이버플러스 스토어 홈, Value: shopping.naver.com/ns/home?
+				9 content list
+					10 link Description: 관심 스토어, Value: shopping.naver.com/my/keep-stores
+					11 link Description: 마이페이지 펼치기, Value: smartstore.naver.com/seelo/products/13883527217#
+					12 link Description: 장바구니, Value: shopping.naver.com/cart?channelNo=1100280682
+				13 container gnb
+					14 text 사용자 링크
+					15 content list gnb_lst
+						16 link Description: 태욱 내정보 보기, Value: javascript:;, ID: gnb_my
+						17 link Description: 서비스 더보기, Value: javascript:;
+				18 container
+					19 link Description: 매일의 식탁에 더하는 곡물과 달콤함, seelo, Value: smartstore.naver.com/seelo/profile
+					20 button 관심고객수 0, ID: tooltip_text_:Raclah:
+						21 text 관심고객수  0
+					22 pop up button (collapsed) 도움말, Secondary Actions: Expand
+						23 image
+						24 text 도움말
+					25 button 검색어를 입력해주세요
+						26 text 검색어를 입력해주세요
+						27 image
+			28 container
+				29 container
+					30 checkbox 알림받기, Value: 0
+						31 image
+						32 text 알림받기
+				33 heading seelo, Value: 1
+					34 link Description: seelo, Value: smartstore.naver.com/seelo
+				35 container
+					36 container
+						37 text 오늘  2 전체  16
+				38 container
+					39 content list
+						40 link Description: 식품 하위 메뉴 있음, Value: smartstore.naver.com/seelo/category/50000006?cp=1
+						41 link Description: 전체상품, Value: smartstore.naver.com/seelo/category/ALL?cp=1
+						42 link Description: 신상품, Value: smartstore.naver.com/seelo/new-products?cp=1
+						43 link Description: FOR YOU, Value: smartstore.naver.com/seelo/for-you?cp=1
+					44 content list
+						45 link Description: 공지사항, Value: smartstore.naver.com/seelo/notice?cp=1
+						46 link Description: 쇼핑스토리, Value: smartstore.naver.com/seelo/shoppingstory/list?cp=1
+						47 link Description: 리뷰이벤트, Value: smartstore.naver.com/seelo/review-event/list?cp=1
+						48 link Description: 묻고 답하기, Value: smartstore.naver.com/seelo/qna?cp=1
+						49 link Description: 판매자 정보, Value: smartstore.naver.com/seelo/profile?cp=1
+			50 container container
+				51 container
+					52 button 네이버플러스 스토어 알림 받고 혜택 받아보세요! 알림받기
+						53 image
+						54 text 네이버플러스 스토어
+						55 text 알림 받고 혜택 받아보세요!
+						56 text 알림받기
+						57 image
+					58 container
+						59 container
+							60 container
+								61 text 2개 중 1번째
+								62 button 대표이미지 이미지 상세보기
+									63 image 대표이미지
+									64 text 이미지 상세보기
+								65 text 2개 중 2번째
+								66 button 대표이미지 이미지 상세보기
+									67 image 대표이미지
+									68 text 이미지 상세보기
+							69 button 이전
+								70 image
+								71 text 이전
+							72 button 다음
+								73 image
+								74 text 다음
+							75 container
+								76 text 현재 1 상품 이미지
+							77 container
+								78 text / 전체 2 상품 이미지
+						79 button 이전
+							80 image
+							81 text 이전
+						82 content list
+							83 button 추가이미지0
+								84 image 추가이미지0
+							85 button 추가이미지1
+								86 image 추가이미지1
+						87 button 다음
+							88 image
+							89 text 다음
+						90 heading seelo 아카시아 벌꿀 500g [원산지:확인 후 안내], Value: 3
+							91 text seelo 아카시아 벌꿀 500g [원산지:확인 후 안내]
+						92 container
+							93 image
+							94 text 평점
+							95 text 0.0
+							96 text 0건 리뷰
+						97 container
+							98 container
+								99 button 할인 전 가격 29,800원, ID: tooltip_text_:r5:
+									100 text 할인 전 가격 29,800 원
+								101 pop up button (collapsed) 도움말, Secondary Actions: Expand
+									102 image
+									103 text 도움말
+								104 text ( 100g당 2,980원 ) 상품 가격 26,820 원
+								105 pop up button (collapsed) 최대할인가 자세히 보기, Secondary Actions: Expand
+									106 text 최대할인가
+									107 text 자세히 보기
+								108 button 쿠폰 받기 오늘까지
+									109 image
+									110 text 쿠폰 받기
+									111 text 오늘까지
+								112 image
+								113 text 배송비 무료배송
+							114 text 적립
+							115 button 네이버플러스 멤버십 최대 적립 포인트 4,172원
+								116 image 네이버플러스 멤버십
+								117 text 최대 적립 
+								118 text 포인트
+								119 text 4,172
+								120 text 원
+								121 image
+							122 text 혜택
+							123 link Description: 네이버 현대카드 Ed3 결제 시 최대 2,682 포인트 적립, Value: smartstore.naver.com/seelo/products/13883527217#
+							124 link Description: 행사카드 결제 시 최대 3% 추가 할인, Value: smartstore.naver.com/seelo/products/13883527217#
+							125 text 배송 무료배송
+							126 button 자세히 보기
+								127 text 자세히 보기
+								128 image
+							129 container
+								130 text 수량 선택
+								131 button (disabled) 수량감소
+								132 stepper (settable, integer) Description: 수량, Value: 2
+								133 button 수량증가
+							134 container
+								135 text 총
+								136 text 2
+								137 text 개
+								138 container
+									139 button 총 금액 29,800원, ID: tooltip_text_:r1:
+										140 text 총 금액 29,800 원
+									141 pop up button (collapsed) 도움말, Secondary Actions: Expand
+										142 image
+										143 text 도움말
+							144 link Description: 네이버플러스스토어 앱 에서 최대 혜택으로 구매해보세요!, Value: smartstore.naver.com/seelo/products/13883527217#
+							145 button 구매하기
+								146 image
+								147 text 구매하기
+							148 checkbox 찜 하기, Value: 0
+								149 image
+								150 text 찜
+								151 text 하기
+							152 button 장바구니
+								153 image
+								154 text 장바구니
+					155 content list
+						156 link Description: 단골되면 +5% 추가 적립 멤버십은 살 때마다 재구매 혜택, Value: smartstore.naver.com/seelo/products/13883527217#
+					157 content list
+						158 button 상세정보
+						159 button 리뷰
+						160 button Q&A
+						161 button 판매자정보
+						162 button 추천
+					163 container
+						164 image
+						165 text 판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 결제/입력하지 마시고  즉시
+						166 link Description: 고객센터로 신고, Value: help.pay.naver.com/faq/content.help?faqId=14188
+						167 text 해주세요.
+						168 text 상품정보
+						169 content list
+							170 container
+								171 text 상품번호 13883527217
+								172 button 상품번호 복사
+									173 image
+									174 text 복사
+							175 container
+								176 text 품번 SEELO-HONEY-500
+							177 container
+								178 text 원산지 확인 후 안내
+							179 container
+								180 text 소비기한 또는 품질유지기한 확인 후 안내
+						181 container
+							182 button 신고하기
+							183 button 상품정보제공고시 보기
+						184 container
+							185 text seelo 한 스푼의 은은한 달콤함
+							186 heading 아카시아 벌꿀, Value: 2
+								187 text 아카시아 벌꿀
+							188 text 500g 차와 요거트, 토스트에 곁들이는 아카시아 벌꿀. 맑은 금빛의 달콤함을 식탁에 더해 보세요.
+							189 image seelo 아카시아 벌꿀 500g 패키지
+							190 text 식탁에서 즐기는 방법
+							191 heading 취향대로 곁들이는 한 스푼, Value: 2
+								192 text 취향대로 곁들이는 한 스푼
+							193 image 아카시아 벌꿀 활용 음식
+							194 text 01
+							195 heading 따뜻한 차에, Value: 3
+								196 text 따뜻한 차에
+							197 text 취향에 맞게 한 스푼씩 더해 단맛을 조절하세요. 02
+							198 heading 플레인 요거트에, Value: 3
+								199 text 플레인 요거트에
+							200 text 요거트 위에 가볍게 둘러 달콤하게 즐겨 보세요. 03
+							201 heading 바삭한 토스트에, Value: 3
+								202 text 바삭한 토스트에
+							203 text 빵 위에 얇게 펴 바르거나 곁들여 드세요.
+							204 heading 상품 구성, Value: 2
+								205 text 상품 구성
+							206 table
+								207 row
+									208 cell
+										209 text 내용량
+									210 cell
+										211 text 500g
+								212 row
+									213 cell
+										214 text 포장 구성
+									215 cell
+										216 text 유리병 1개
+								217 row
+									218 cell
+										219 text 원재료
+									220 cell
+										221 text 아카시아 벌꿀 100%
+							222 heading 보관 방법, Value: 2
+								223 text 보관 방법
+							224 text 직사광선을 피해 실온에 보관하세요. 물기가 없는 도구를 사용하고 사용 후에는 뚜껑을 닫아 주세요.
+							225 heading 섭취 전 확인, Value: 2
+								226 text 섭취 전 확인
+							227 text 12개월 미만 영아에게 먹이지 마세요. 원재료에 알레르기가 있는 분은 섭취 전 원재료를 확인하세요. seelo 식탁에 더하는 곡물과 달콤함
+						228 button (collapsed) 상세정보 펼쳐보기, Secondary Actions: Expand
+							229 text 상세정보 
+							230 text 펼쳐보기
+							231 image
+					232 text 같이 둘러볼 만한 다양한 스토어 상품
+					233 container
+						234 text 관련 숏클립
+					235 container REVIEW
+						236 text 리뷰
+					237 container qna
+						238 text Q&A
+						239 button Q&A 전체보기
+							240 text Q&A 전체보기
+							241 image
+					242 container SELLER
+						243 container
+							244 link smartstore.naver.com/seelo
+							245 link Description: seelo, Value: smartstore.naver.com/seelo
+							246 text 신규 오픈 스토어 NEW 매일의 식탁에 더하는 곡물과 달콤함, seelo
+						247 button 최대 혜택 적용 가능 쿠폰 1개 오늘까지 쿠폰 받기
+							248 image
+							249 text 최대 혜택 적용 가능 쿠폰
+							250 text 1개
+							251 text 오늘까지
+							252 text 쿠폰 받기
+							253 image
+						254 content list
+							255 checkbox 알림받기, Value: 0
+								256 image
+								257 text 알림받기
+							258 link Description: 스토어홈, Value: smartstore.naver.com/seelo
+					259 container RECOMMEND
+						260 text 함께 찾는 다양한 스토어 상품
+						261 text 꿀 인기상품
+						262 container
+							263 text seelo 인기상품
+							264 link Description: 전체보기, Value: smartstore.naver.com/seelo/category/ALL
+						265 container
+							266 text FOR YOU 당신이 좋아할 만한 상품
+							267 button AiTEMS, ID: tooltip_text_:r6:
+								268 image
+								269 text AiTEMS
+							270 pop up button (collapsed) 도움말, Secondary Actions: Expand
+								271 image
+								272 text 도움말
+					273 content list
+						274 button 구매 추가정보
+							275 text 구매 추가정보
+							276 image
+						277 button 상품정보 제공고시
+							278 text 상품정보 제공고시
+							279 image
+						280 button 반품/교환안내
+							281 text 반품/교환안내
+							282 image
+						283 button 판매자정보
+							284 text 판매자정보
+							285 image
+						286 button 주의사항
+							287 text 주의사항
+							288 image
+						289 link Description: 쇼핑 안전거래 TIP, Value: safety.smartstore.naver.com/main/rules/safety/tip
+						290 button 상품정보 신고
+							291 text 상품정보 신고
+							292 image
+					293 text 네이버파이낸셜
+					294 text 결제대금예치업 등록번호 : 02-006-00056
+					295 text 네이버파이낸셜㈜은 전자금융거래법에 따라 결제대금예치업을 운영할 수 있는 전자금융업자로 금융위원회로 등록되었으며, 본 판매자는 구매금액, 결제수단에 관계없이 모든 거래에 대해 자동적으로 네이버파이낸셜㈜이 제공하는 구매안전서비스를 적용하고 있습니다.
+					296 button 서비스 가입사실 확인, ID: tooltip_text_:r2:
+					297 pop up button (collapsed) 도움말, Secondary Actions: Expand
+						298 image
+						299 text 도움말
+					300 definition list
+						301 container
+							302 container 상호명
+								303 text 상호명
+							304 text 김태욱  (개인 판매자)
+						305 container
+							306 container 대표자
+								307 text 대표자
+							308 text 김태욱
+							309 button 판매자 상세정보 확인
+								310 text 판매자 상세정보 확인
+								311 image
+					312 container
+						313 button 공유하기
+						314 button 맨위로
+							315 image 맨위로
+					316 container
+						317 text 상품 구매 옵션
+						318 container
+							319 text 수량 선택
+							320 button (disabled) 수량감소
+							321 stepper (settable, integer) Description: 수량, Value: 2
+							322 button 수량증가
+						323 container
+							324 text 총
+							325 text 2
+							326 text 개
+							327 container
+								328 button 총 금액 29,800원, ID: tooltip_text_:r4:
+									329 text 총 금액 29,800 원
+								330 pop up button (collapsed) 도움말, Secondary Actions: Expand
+									331 image
+									332 text 도움말
+						333 text 구매정보 최소구매 2개  |  최대구매 2개(1회) / 2개(1인) 배송정보
+						334 text 택배
+						335 container
+							336 text 배송비 무료
+						337 button 지금 다운로드 시 2,980원 추가할인 쿠폰 받기
+							338 image
+							339 text 지금 다운로드 시 
+							340 text 2,980원
+							341 text  추가할인
+							342 text 쿠폰 받기
+							343 image
+					344 button 구매하기
+						345 image
+						346 text 구매하기
+					347 checkbox 찜 하기, Value: 0
+						348 image
+						349 text 찜
+						350 text 하기
+					351 button 장바구니
+						352 image
+						353 text 장바구니
+				354 heading 하위영역, Value: 2
+					355 text 하위영역
+				356 container
+					357 link Description: 네이버 이용약관, Value: naver.com/rules/service.html
+					358 link Description: 네이버페이 이용약관, Value: new-m.pay.naver.com/member/terms-policy/npay-usage
+					359 link Description: 개인정보처리방침, Value: naver.com/rules/privacy.html
+					360 link Description: 법적고지 및 주의사항, Value: shopping.naver.com/help/legal-basis
+					361 link Description: 입점안내, Value: join.shopping.naver.com/index.nhn
+					362 link Description: 쇼핑윈도 노출안내, Value: sell.smartstore.naver.com/#/home/about?tipModal=WINDOW_EXPOSURE&tap=smartstore
+					363 link Description: 쇼핑파트너센터, Value: center.shopping.naver.com/
+					364 link Description: 스마트스토어센터, Value: sell.storefarm.naver.com/#/home/about
+					365 link Description: 안전거래센터, Value: safety.shopping.naver.com/
+					366 link Description: 전자금융거래약관, Value: new-m.pay.naver.com/member/terms-policy/finance
+					367 link Description: 쇼핑&페이 고객센터, Value: help.pay.naver.com/
+				368 text 네이버㈜는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다.
+				369 container
+					370 text 사업자등록번호 : 220-81-62517
+					371 text 통신판매업신고번호 : 제2006-경기성남-0692호
+					372 text 대표이사 : 최수연
+					373 link Description: 사업자등록정보확인, Value: ftc.go.kr/bizCommPop.do?wrkr_no=2208162517
+					374 text 이메일 :
+					375 link Description: helpcustomer@naver.com, Value: mailto:helpcustomer@naver.com
+				376 container
+					377 text 주소 : 경기도 성남시 분당구 정자일로 95,  NAVER  1784, 13561
+					378 link Description: 1:1 문의 바로가기, Value: help.pay.naver.com/mail/form.help
+					379 text 호스팅 서비스 제공 :  NAVER Cloud
+				380 container
+					381 text 쇼핑&페이 구매자 고객센터 1588-3819
+					382 text 네이버 대표전화 1588-3820
+					383 text 네이버플러스 멤버십 전용 고객센터 1599-1399
+				384 container
+					385 link Description: NAVER, Value: naver.com/
+					386 text Copyright © 
+					387 link Description: NAVER Corp., Value: navercorp.com/ko/index.nhn
+					388 text   All Rights Reserved.
+
+The focused UI element is 1 AXWebArea seelo 아카시아 벌꿀 500g : seelo, URL: smartstore.naver.com/seelo/products/13883527217

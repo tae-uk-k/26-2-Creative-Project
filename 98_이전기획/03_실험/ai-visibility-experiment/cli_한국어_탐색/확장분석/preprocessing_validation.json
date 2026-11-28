@@ -1,0 +1,22 @@
+{
+  "run_count": 240,
+  "baseline_runs": 120,
+  "prospective_runs": 120,
+  "planned_run_count": 240,
+  "candidate_registry_count": 162,
+  "original_store_count": 30,
+  "discovery_candidate_count": 132,
+  "registry_area_counts": {
+    "myeongdong": 39,
+    "seongsu": 78,
+    "mangwon": 45
+  },
+  "trial_rows": 12960,
+  "recommended_slots": 1200,
+  "unmatched_slots": 54,
+  "model_table_rows": 324,
+  "stores_with_minimal_website_category": 30,
+  "raw_files_missing": 0,
+  "web_search_missing": 0,
+  "feature_learning_not_yet_run": true
+}

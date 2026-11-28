@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R3_G01_retry1",
+  "timestamp_utc": "2026-11-24T02:03:13.713834+00:00",
+  "query_id": "G01",
+  "repeat": 3,
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "국내 판매 페이지에서 **총 내용량 300g**을 확인한 식물성 단백질 분말 3개입니다.\n\n| 제품명 | 판매처 | 선택 이유 | 근거 링크 |\n|---|---|---|---|\n| 비옴 독일에서 온 완두콩 단백질 분말 300g | 건강한우리집 비옴 | 완두콩 단백질 분말을 찾는 경우에 적합합니다. 상품 페이지에 내용량 300g과 원산지 독일이 표시되어 있습니다. | [비옴 상품 페이지](https://m.viehome.co.kr/product/독일에서-온-완두콩-단백질-분말-300g/487/) |\n| 분리대두단백(ISP·중국산) 300g | 인투푸드 | 대두 기반 분말을 찾는 경우에 적합합니다. 상품 페이지에 원재료가 대두 100%로 표시되어 있습니다. | [인투푸드 상품 페이지](https://www.intofood.kr/shop/shopdetail.html?branduid=1017245) |\n| 모닝파파 식물성 단백질 쉐이크 300g | 쿠팡 | 소분 포장이 필요할 때 적합합니다. 30g씩 10포로 구성되며, 원재료에 완두콩단백과 쌀단백이 표시되어 있습니다. | [쿠팡 상품 페이지](https://www.coupang.com/vp/products/7670489139?itemId=20460602037&vendorItemId=91966229160) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T02:03:14.122949Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:03:39.325032+00:00",
+  "retry_of": "codex_R3_G01",
+  "errors": [],
+  "timeout": false
+}

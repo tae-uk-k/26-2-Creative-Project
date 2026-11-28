@@ -1,0 +1,12 @@
+{
+  "independent_stores": 20,
+  "areas_with_both_website_groups": [
+    "myeongdong",
+    "seongsu"
+  ],
+  "area_standardized_difference_pp": -13.720238095238098,
+  "permutations": 5000,
+  "p_two_sided_exploratory": 0.5050989802039592,
+  "causal": false,
+  "selection_warning": "original cohort is purposively selected, not representative"
+}

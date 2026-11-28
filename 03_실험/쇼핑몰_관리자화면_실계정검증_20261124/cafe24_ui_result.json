@@ -1,0 +1,12 @@
+{
+  "platform": "cafe24",
+  "product_no": "9",
+  "method": "cua_browser_ui",
+  "applied_readback": true,
+  "public_applied": true,
+  "restored_exact": false,
+  "restored_trim_equal": true,
+  "normalization": "저장 후 선행 줄바꿈 2개 추가",
+  "public_restored": true,
+  "protected_same": true
+}

@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-16",
+  "study_version": "map-requested-cli-v1",
+  "prompts_sha256": "b391e87a78a0d6842440f2268b0993e1d87e72236111a8f87a51d135b89d2142",
+  "pilot_cells": 18,
+  "candidate_names_given_to_model": false,
+  "old_experiment_results_combined": false,
+  "empty_working_directory": "C:\\Users\\xodnr\\.codex\\visualizations\\2026\\10\\13\\01a13369-866a-7893-9bf7-f6cc462134bc\\cli_map_empty_20261016",
+  "models_requested": {
+    "codex": "gpt-6.1-sol",
+    "agy": "Gemini 3.8 Flash (Low)"
+  },
+  "interpretation": "Map-requested is not proof of map-body access; self-report is unverified"
+}

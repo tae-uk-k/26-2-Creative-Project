@@ -1,0 +1,39 @@
+{
+  "raw_file": "20261102T181335866704Z-NEUTRAL-MAP-ACCESS-T1.jsonl",
+  "open_events": [
+    {
+      "url": "https://map.kakao.com/?q=서울특별시청",
+      "results": [
+        {
+          "type": "text_result",
+          "ref_id": "turn1view0",
+          "title": "Internal Error"
+        },
+        {
+          "type": "text_result",
+          "ref_id": "turn1view1",
+          "title": "Internal Error"
+        }
+      ],
+      "body_verified": false
+    },
+    {
+      "url": "https://www.google.com/maps/place/서울특별시청/",
+      "results": [
+        {
+          "type": "text_result",
+          "ref_id": "turn2view0",
+          "title": "Internal Error"
+        },
+        {
+          "type": "text_result",
+          "ref_id": "turn2view1",
+          "title": "Internal Error"
+        }
+      ],
+      "body_verified": false
+    }
+  ],
+  "verified_map_body_access": false,
+  "source": "실제 CLI web_search open_page 이벤트의 Internal Error"
+}

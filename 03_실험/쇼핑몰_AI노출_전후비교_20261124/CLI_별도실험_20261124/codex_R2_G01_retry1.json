@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R2_G01_retry1",
+  "timestamp_utc": "2026-11-24T01:56:10.618539+00:00",
+  "query_id": "G01",
+  "repeat": 2,
+  "prompt": "300g 안팎의 식물성 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "판매 페이지에서 **한 제품당 259~300g**으로 확인한 식물성 단백질 분말 3개입니다.\n\n| 제품명 | 용량 | 판매처 | 선택 이유 및 근거 |\n|---|---:|---|---|\n| 모닝파파 식물성 단백질 쉐이크 | 300g | 쿠팡 | 완두콩 단백질과 쌀 단백질을 사용합니다. 30g씩 10포로 나뉘어 휴대하기 편합니다. [상품 상세](https://www.coupang.com/vp/products/7670489139?itemId=20460602038&vendorItemId=79543962504) |\n| 바른 식물성 단백질 당 제로 초코맛 | 300g | 쿠팡 | 요청한 300g 용량에 맞는 초코맛 분말입니다. [상품 상세](https://www.coupang.com/vp/products/7101572851) |\n| 베가스포츠 식물성 단백질 파우더 바닐라맛 | 259g | 쿠팡 · 에이블바디 | 바닐라맛을 원할 때 고를 수 있습니다. 판매 페이지에 완두콩, 호박씨, 해바라기씨, 알팔파가 단백질 원료로 표시됩니다. [상품 상세](https://www.coupang.com/vp/products/7760971613?itemId=19452270495&vendorItemId=86562957087) |",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T01:56:11.146700Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T01:56:36.373884+00:00",
+  "retry_of": "codex_R2_G01",
+  "errors": [],
+  "timeout": false
+}

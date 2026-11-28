@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "rows": 600,
+  "independent_stores": 30,
+  "repeated_oof_rows": 3000,
+  "fixed_partitions": 5,
+  "folds_per_partition": 5,
+  "train_test_brand_overlap": 0,
+  "all_glmm_optimizer_success": true,
+  "optimizer_fits": 52,
+  "test_labels_used_in_imputation": false,
+  "legacy_folds_unchanged": true,
+  "feature_snapshot_after_outcomes": true,
+  "numeric_missing_value_policy": "training-store median; kept missing in source features",
+  "input_sha256": {
+    "analysis_data_general.csv": "15bc442564db8ad9c4857898d06dbe6e9df88738dc0547a4de9ebe564845e305",
+    "analysis_config.json": "65c09a9753dc574f71947ae2050371aef612a0a5c5415ce05287960c3c97c83f",
+    "robust_cv_store_folds.csv": "cb83a2ae6b25519f168624629b95cf95595d2e473ff664507cfa887a9c66ebf7",
+    "robust_oof_predictions.csv": "a9557774b173c265c5ea72e1d23f36c60828bd24cf94797545e3c58a24220dca"
+  },
+  "code_sha256": "e074914b369da8e8f47ddd6250b7039e200feeeb843afbd205e5f9169f002a9f",
+  "causal_validation": false
+}

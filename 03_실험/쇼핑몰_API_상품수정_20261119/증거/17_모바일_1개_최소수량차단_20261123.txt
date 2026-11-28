@@ -1,0 +1,7 @@
+Browser tab: 682043614, Title: "[실험용] seelo 아카시아 벌꿀 500g : seelo", URL: "https://smartstore.naver.com/seelo/products/13883527217".
+1 AXWebArea Description: [실험용] seelo 아카시아 벌꿀 500g : seelo, URL: smartstore.naver.com/seelo/products/13883527217
+	2 container smartstore.naver.com says
+		3 text 2개 이상부터 구매하실 수 있습니다.
+		4 button OK
+
+The focused UI element is 4 button OK

@@ -1,0 +1,28 @@
+{
+  "metadata": [
+    {
+      "name": "description",
+      "value": "[seelo] 미정"
+    },
+    {
+      "name": "og:title",
+      "value": "[실험용] seelo 아카시아 벌꿀 500g : seelo"
+    },
+    {
+      "name": "og:image",
+      "value": "https://shop-phinf.pstatic.net/20261119_24/1795039282751oUFvD_PNG/71526590854543968_1427145508.png?type=o1000"
+    },
+    {
+      "name": "og:description",
+      "value": "[seelo] 미정"
+    },
+    {
+      "name": "og:type",
+      "value": "article"
+    }
+  ],
+  "structuredData": [
+    "{\"name\":\"[실험용] seelo 아카시아 벌꿀 500g : seelo\",\"description\":\"[seelo] 미정\",\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"image\":\"https://shop-phinf.pstatic.net/20261119_24/1795039282751oUFvD_PNG/71526590854543968_1427145508.png?type=o1000\",\"sku\":1100275249,\"mpn\":\"13883527217\",\"productID\":\"13883527217\",\"category\":\"식품>건강식품>꿀\",\"offers\":{\"@type\":\"Offer\",\"price\":14900,\"priceCurrency\":\"KRW\",\"availability\":\"http://schema.org/InStock\",\"url\":\"https://smartstore.naver.com/main/products/13883527217\"}}"
+  ],
+  "title": "[실험용] seelo 아카시아 벌꿀 500g : seelo"
+}

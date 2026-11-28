@@ -1,0 +1,21 @@
+﻿table,column,meaning
+exposure_trials.csv,run_id,Successful independent CLI question; technical failures excluded
+exposure_trials.csv,entity_id,"Frozen candidate brand entity within area, not guaranteed exact branch"
+exposure_trials.csv,appeared_brand,1 mentioned; 0 absent from completed response
+exposure_trials.csv,appeared_original_address,1 same legacy address; 0 other/absent; blank address unknown; not real-world verification
+exposure_trials.csv,eligible_for_feature_analysis,Discovery candidates baseline rows excluded
+exposure_trials.csv,condition_eligibility,Only general queries avoid budget/cuisine/solo suitability confounding
+restaurant_features.csv,own_website_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,menu_price_public_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,signature_price_krw_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,solo_seating_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,tourism_individual_page_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,guide_individual_page_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,established_year_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,log1p_google_review_count,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,google_star_rating,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,log1p_naver_review_count,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,log1p_photo_count,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,recent_review_age_days,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,channel_address_consistent,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."
+restaurant_features.csv,schema_restaurant_external,"Externally supported feature; blank=not collected. Response-derived prices, reasons, citations not allowed predictors."

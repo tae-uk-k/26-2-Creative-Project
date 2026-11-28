@@ -1,0 +1,74 @@
+.top {
+  border-bottom: 1px solid var(--s-grey200);
+  background: var(--s-paper);
+}
+.topInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(48rem, calc(100% - 2 * var(--s-edge)));
+  height: var(--s-header);
+  margin: 0 auto;
+}
+.topInner img {
+  width: 4.25rem;
+  height: auto;
+}
+.doc {
+  padding: var(--s-8);
+  border-radius: var(--s-r-2xl);
+  background: var(--s-paper);
+}
+.doc h2 {
+  margin: var(--s-8) 0 var(--s-3);
+  font-size: var(--s-t4);
+  font-weight: 700;
+}
+.doc h2:first-of-type {
+  margin-top: 0;
+}
+.doc p,
+.doc li {
+  color: var(--s-grey800);
+  font-size: var(--s-t6);
+  line-height: 1.75;
+}
+.doc ol,
+.doc ul {
+  display: grid;
+  gap: var(--s-1);
+  padding-left: 1.25rem;
+  list-style: decimal;
+}
+.doc ul {
+  list-style: disc;
+}
+.doc table {
+  width: 100%;
+  margin: var(--s-2) 0;
+  border-collapse: collapse;
+  font-size: var(--s-t7);
+}
+.doc th,
+.doc td {
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--s-grey200);
+  text-align: left;
+  vertical-align: top;
+}
+.doc th {
+  background: var(--s-grey50);
+  font-weight: 600;
+}
+.todo {
+  padding: 0 0.25rem;
+  border-radius: 0.2rem;
+  color: #8a4b00;
+  background: var(--s-orange50);
+  font-weight: 600;
+}
+@media (max-width: 38rem) {
+  .doc {
+    padding: var(--s-5) var(--s-4);
+  }
+}

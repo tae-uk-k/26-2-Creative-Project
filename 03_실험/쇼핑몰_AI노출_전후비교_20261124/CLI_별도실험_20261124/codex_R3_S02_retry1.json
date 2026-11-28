@@ -1,0 +1,19 @@
+{
+  "run_id": "codex_R3_S02_retry1",
+  "timestamp_utc": "2026-11-24T02:06:14.884230+00:00",
+  "query_id": "S02",
+  "repeat": 3,
+  "prompt": "사차인치 탈지 단백질 분말을 찾아서 원재료와 중량을 비교해줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.",
+  "surface": "Codex CLI; 웹 검색 활성화; 별도 실험군",
+  "model": "gpt-6.2-sol",
+  "session": "각 실행 별도 프로세스; ephemeral; user config 미적용",
+  "exit_code": 0,
+  "completed": true,
+  "search_used": true,
+  "answer": "사차인치 씨앗에서 기름을 짜낸 뒤 만든 단백질 분말 3개를 찾았습니다. **한 봉지로 구매하려면 ZEGO Foods**, **가장 적은 양으로 시험하려면 GUTINS의 50 g 옵션**이 맞습니다.\n\n| 제품명 | 판매처 | 원재료 | 표시 중량 | 선택 이유 및 근거 |\n|---|---|---|---|---|\n| Organic Plant Based Protein Powder | ZEGO Foods | 유기농 사차인치 씨앗 100% | 15 oz 1봉(약 425 g) | 단일 원재료와 냉압착 탈지 공정을 공개합니다. 1봉 판매 페이지에 재고가 표시됩니다. [1봉 판매 페이지](https://zegofoods.com/shop/protein-powder/organic-plant-based-protein-powder/), [탈지 공정 설명](https://zegofoods.com/shop/protein-powder/pure-plant-protein-5-bag-bundle/) |\n| Sacha Inchi Protein – 70% Concentrate | GUTINS | 냉압착으로 기름을 짜낸 사차인치 씨앗에서 얻은 단백질. 전체 배합과 첨가물 여부는 미확인 | 50 g, 225 g, 1 kg, 5 kg | 판매처가 탈지 원료 사용을 명시합니다. 비교 제품 중 가장 작은 50 g 옵션이 있습니다. [판매 페이지](https://gutins.com/products/sacha-inchi-protein-70-percent-concentrate) |\n| Organic Sacha Inchi Protein Powder | Superfoodies | 유기농 사차인치 단일 원재료 | 250 g, 500 g, 1 kg, 5 kg | 공급사가 냉압착으로 기름을 짜낸 뒤 분말로 가공한다고 설명합니다. 판매처는 뉴질랜드와 호주 고객에게만 판매한다고 안내합니다. [판매 페이지](https://superfoodies.co.nz/products/organic-sacha-inchi-protein-powder), [공정 설명](https://www.sfisuperfoods.com/superfood-ingredients-products/superfood-ingredients-sacha-inchi.html), [판매 지역](https://superfoodies.co.nz/pages/faq) |\n\nZEGO Foods와 GUTINS의 한국 배송 가능 여부는 확인하지 못했습니다.",
+  "stderr": "Reading additional input from stdin...\n2026-11-24T02:06:15.230674Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+  "finished_at_utc": "2026-11-24T02:07:10.033815+00:00",
+  "retry_of": "codex_R3_S02",
+  "errors": [],
+  "timeout": false
+}

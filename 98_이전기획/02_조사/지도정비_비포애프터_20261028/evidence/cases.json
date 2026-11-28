@@ -1,0 +1,1264 @@
+{
+  "stores": [
+    {
+      "id": "hiss",
+      "name": "힛사츠와자",
+      "area": "망원",
+      "food": "일본식 라면",
+      "address": "서울 마포구 포은로 97-1 1층",
+      "image": "hiss-kakao-menuboard.jpg",
+      "sources": {
+        "google": "https://www.google.co.kr/maps/place/%ED%9E%9B%EC%82%AC%EC%B8%A0%EC%99%80%EC%9E%90(Hissatsuwaza)/data=!3m1!4b1!4m4!3m3!1s0x357c990006a61961:0x93b46c4afa816b00!16s%2Fg%2F11xsrqylhh!20s8Q98HW43%2B8W7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "kakao": "https://place.map.kakao.com/1582808897#menuInfo"
+      }
+    },
+    {
+      "id": "yuk",
+      "name": "육통령 명동본점",
+      "area": "명동",
+      "food": "고기구이",
+      "address": "서울 중구 명동8나길 37-2 1층",
+      "image": "yuk-kakao-menu.jpg",
+      "sources": {
+        "kakao": "https://place.map.kakao.com/21748255",
+        "google": "https://www.google.co.kr/maps/place/%EC%9C%A1%ED%86%B5%EB%A0%B9+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f13d626cc5:0x7b842b6071e6ad06!16s%2Fg%2F11c6ts4sr0!20s8Q98HX6M%2BF48?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    {
+      "id": "oreno",
+      "name": "오레노카츠 성수본점",
+      "area": "성수",
+      "food": "돈카츠",
+      "address": "서울 성동구 성수일로 47 1층 102호",
+      "image": "oreno-kakao-home.jpg",
+      "sources": {
+        "kakao": "https://place.map.kakao.com/2125770186",
+        "google": "https://www.google.co.kr/maps/place/%EC%98%A4%EB%A0%88%EB%85%B8%EC%B9%B4%EC%B8%A0+%EC%84%B1%EC%88%98%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca55eff3146bd:0xce498ffba233d690!16s%2Fg%2F11fll7h0qr!20s8Q99G2VX%2BVQQ?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    {
+      "id": "jung",
+      "name": "정각 서울망원본점",
+      "area": "망원",
+      "food": "숙성 돼지고기",
+      "address": "서울 마포구 망원로6길 57 2층",
+      "image": "jung-kakao-brand.jpg",
+      "sources": {
+        "kakao": "https://place.map.kakao.com/889810020",
+        "google": "https://www.google.co.kr/maps/place/%EC%A0%95%EA%B0%81+%EB%A7%9D%EC%9B%90%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99b205f3f7c5:0x16a93c36a090f0a3!16s%2Fg%2F11vc7jg6r3!20s8Q98HW33%2BQJR?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    {
+      "id": "pizza",
+      "name": "명동피자 명동본점",
+      "area": "명동",
+      "food": "피자·파스타",
+      "address": "서울 중구 명동10길 41 4층",
+      "image": "pizza-kakao-menu.jpg",
+      "sources": {
+        "kakao": "https://place.map.kakao.com/19409195",
+        "google": "https://www.google.co.kr/maps/place/%EB%AA%85%EB%8F%99%ED%94%BC%EC%9E%90+%EB%AA%85%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca2f0fea87c87:0xb4e431567bb0fd3!16s%2Fg%2F1yg6nr1lq!20s8Q98HX6P%2BR89?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    {
+      "id": "plant",
+      "name": "플랜트 연남점",
+      "area": "연남",
+      "food": "비건 레스토랑",
+      "address": "서울 마포구 월드컵북로4길 87 1층",
+      "image": "plant-official-menu.jpg",
+      "sources": {
+        "kakao": "https://place.map.kakao.com/1684571578",
+        "google": "https://www.google.co.kr/maps/place/%ED%94%8C%EB%9E%9C%ED%8A%B8+%EC%97%B0%EB%82%A8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357c99191a9f8ddd:0x5b462cfdac369895!16s%2Fg%2F11q4m1l0g6!20s8Q98HW5F%2BV7J?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "official": "https://plantcafeseoul.com/plant-yeonnam/",
+        "official-menu": "https://plantcafeseoul.com/plant-yeonnam-menu/"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "01",
+      "store": "plant",
+      "category": "기본정보",
+      "status": "정정안",
+      "title": "다른 지점의 대표번호가 연결돼 있다면",
+      "lead": "전화번호 한 칸을 연남 지점 번호로 정정한다. 상호·주소·리뷰는 건드리지 않는다.",
+      "target": "Google · 전화번호",
+      "amount": "전화번호 1칸",
+      "before": {
+        "rows": [
+          {
+            "label": "Google 공개 번호",
+            "value": "02-749-1981",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "카카오 공개 번호",
+            "value": "02-337-1982",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "공식 연남 지점",
+            "value": "02 337 1982",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "Google의 번호는 공식 사이트 하단 이태원 대표번호와 같다.",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "Google 전화번호",
+            "value": "02-337-1982",
+            "note": "공식 연남 지점 안내와 일치",
+            "state": "changed"
+          },
+          {
+            "label": "주소",
+            "value": "월드컵북로4길 87",
+            "note": "기존 지점 주소 유지",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "교차 확인한 정정안. 실제 변경은 소유자 승인·관리 권한 확인 후.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "Google 전화번호만 정정",
+      "keep": "주소·가게 이름·예약 링크·메뉴·리뷰",
+      "check": "지점에서 현재 사용하는 대표번호인지 최종 확인",
+      "reason": "같은 브랜드의 사이트 하단 회사 연락처를 해당 지점 연락처로 사용하면 잘못 연결될 수 있다.",
+      "evidence": [
+        "plant-google-home.jpg",
+        "plant-kakao-home.jpg",
+        "plant-official-branch.jpg"
+      ],
+      "facts": [
+        "두 지도 주소는 월드컵북로4길 87로 일치한다.",
+        "공식 연남 지점 본문은 02 337 1982, 사이트 하단 이태원 회사 안내는 02-749-1981이다."
+      ],
+      "sources": [
+        "google",
+        "kakao",
+        "official"
+      ]
+    },
+    {
+      "id": "02",
+      "store": "hiss",
+      "category": "기본정보",
+      "status": "확인대기",
+      "title": "시간·전화가 비어 있을 때는 소개를 늘리지 않는다",
+      "lead": "카카오에 공개된 시간·전화는 후보 근거다. 최신 운영 여부를 확인해 Google 전용 칸에 넣는다.",
+      "target": "Google · 영업시간·전화",
+      "amount": "최대 2칸 후보",
+      "before": {
+        "rows": [
+          {
+            "label": "Google 전화",
+            "value": "장소의 전화번호 추가",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "Google 시간",
+            "value": "영업시간 추가",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "카카오 관측",
+            "value": "11:30–19:30 / 휴게 14:30–17:00",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "전화번호 후보",
+            "value": "02-332-2115",
+            "note": "현행 대표번호 확인 필요",
+            "state": "pending"
+          },
+          {
+            "label": "영업시간 후보",
+            "value": "화–일 11:30–14:30 / 17:00–19:30",
+            "note": "카카오 10/28–11/3 주간 표시 기준",
+            "state": "pending"
+          },
+          {
+            "label": "휴무 후보",
+            "value": "월요일 휴무",
+            "note": "임시 일정인지 정기 일정인지 확인",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "소개에 시간표·전화번호를 붙이지 않고 각각의 입력 칸을 사용한다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "시간·전화의 빈 칸만 보완",
+      "keep": "상호·기존 메뉴 설명·사진·리뷰",
+      "check": "정규 영업·임시 영업·라스트오더와 번호의 최신성",
+      "reason": "공개 화면의 누락은 확인했지만 다른 지도 값의 현재성을 자동 보증할 수는 없다.",
+      "evidence": [
+        "hiss-google-overview.jpg",
+        "hiss-kakao-hours.jpg"
+      ],
+      "facts": [
+        "Google 개요에 전화·영업시간 추가 안내가 노출됐다.",
+        "카카오의 해당 주간에는 월 휴무, 나머지 요일 11:30–19:30와 휴게시간이 표시됐다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "03",
+      "store": "hiss",
+      "category": "메뉴·가격",
+      "status": "확인대기",
+      "title": "사진에서 읽은 가격은 텍스트 메뉴의 후보로",
+      "lead": "사진은 보존한다. 판독한 가격과 현재 판매를 확인한 뒤, 기존 메뉴의 가격 보완과 새 항목 추가를 구분한다.",
+      "target": "카카오 · 메뉴별 가격",
+      "amount": "가격 후보 3개",
+      "before": {
+        "rows": [
+          {
+            "label": "공개 텍스트",
+            "value": "매운츠케멘 · 츠케멘",
+            "note": "확인한 텍스트 항목에는 가격이 보이지 않았다.",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "블로그에서 제공된 메뉴판 사진. 업주 원본·가격 적용일은 확인하지 않았다.",
+        "image": "hiss-kakao-menuboard.jpg",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "매운츠케멘",
+            "value": "13,000원",
+            "note": "사진에서 판독 / 최신성 확인 전",
+            "state": "pending"
+          },
+          {
+            "label": "차슈멘",
+            "value": "15,500원",
+            "note": "기존 등록 중복 여부 확인",
+            "state": "pending"
+          },
+          {
+            "label": "매운 차슈멘",
+            "value": "16,500원",
+            "note": "기존 등록 중복 여부 확인",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "새 항목을 무조건 3개 만들지 않는다. 이미 있는 메뉴는 가격만 채운다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "확정한 메뉴의 누락 가격·미등록 항목만 보완",
+      "keep": "기존 메뉴명·사진 원본·정상 항목",
+      "check": "사장님 최신 메뉴판, 단위·조건, 동일 메뉴 중복, OCR 처리 가능 범위",
+      "reason": "사진은 검색·번역에 사용할 텍스트와 역할이 다르다. 사진 업로드 시점만으로 현재 가격을 확정하지 않는다.",
+      "evidence": [
+        "hiss-kakao-menuboard.jpg",
+        "hiss-kakao-menu.jpg"
+      ],
+      "facts": [
+        "메뉴 탭에서 가격 없는 텍스트 메뉴와 메뉴판 사진을 함께 확인했다.",
+        "열람한 사진에는 13,000·15,500·16,500원 금액이 보인다. 현행 판매가격으로 독립 확인하지 않았다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "04",
+      "store": "hiss",
+      "category": "메뉴·가격",
+      "status": "표현정리",
+      "title": "긴 한·영 옵션 설명은 사실을 지우지 않고 나눈다",
+      "lead": "계란·기본 토핑·면 중량·무료 요청사항을 짧은 줄로 정리한다. 판매 조건과 영어는 보존한다.",
+      "target": "Google · 차슈멘 메뉴 설명",
+      "amount": "설명 1칸",
+      "before": {
+        "rows": [],
+        "text": "계란기본제공 x … 기본제공 … 면중량 [선택] … 요청사항 [선택] …",
+        "note": "같은 옵션이 한국어와 영어로 한 문단에 길게 이어진다. 원본 화면에서 전체 문구 확인 가능.",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "기본 구성",
+            "value": "계란 미포함 · 차슈 2장 · 멘마 2개 · 김 1장",
+            "note": "No egg. Chashu ×2, menma ×2, nori ×1.",
+            "state": "changed"
+          },
+          {
+            "label": "면 중량",
+            "value": "150g·200g 추가금 없음 / 300g +1,000원",
+            "note": "Noodles: 150/200 g included; 300 g +KRW 1,000.",
+            "state": "changed"
+          },
+          {
+            "label": "무료 요청",
+            "value": "초생강 / 멘마 제외 / 적양파 많이",
+            "note": "Free requests: pickled ginger; no menma; extra red onion.",
+            "state": "changed"
+          }
+        ],
+        "text": "",
+        "note": "실제 입력은 메뉴 설명 한 칸 안의 줄바꿈이다. 별도 옵션 칸이 있다고 가정하지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "설명 한 칸의 줄·순서·번역 표현만 정리",
+      "keep": "계란 미포함·추가금·토핑 수량·요청 옵션 전부",
+      "check": "기존 옵션의 현행성 및 해당 편집 칸의 줄바꿈 지원",
+      "reason": "짧게 만드는 과정에서도 무료 옵션과 유료 중량을 합치거나 누락하면 안 된다.",
+      "evidence": [
+        "hiss-google-menu.jpg"
+      ],
+      "facts": [
+        "Google 메뉴의 차슈멘 카테고리에서 수량·면 중량·요청 옵션의 한·영 문구를 확인했다.",
+        "새 가격·재료를 추가한 사례가 아니라 기존 사실의 표현 정리안이다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "05",
+      "store": "yuk",
+      "category": "메뉴·가격",
+      "status": "표현정리",
+      "title": "같은 원화 가격이어도 단위가 다르다",
+      "lead": "280g 고기와 공깃밥 별도 찌개를 같은 한 끼 가격으로 요약하지 않는다.",
+      "target": "카카오 · 메뉴 설명",
+      "amount": "가격 0칸 / 설명 2칸",
+      "before": {
+        "rows": [
+          {
+            "label": "소 양념왕갈비 (280g)",
+            "value": "48,000원",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "숙성김치찌개(공기밥별도)",
+            "value": "8,000원",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "소 양념왕갈비 (280g)",
+            "value": "48,000원 / 280g",
+            "note": "Marinated beef short rib, 280 g.",
+            "state": "changed"
+          },
+          {
+            "label": "숙성김치찌개(공기밥별도)",
+            "value": "8,000원 / 공깃밥 별도",
+            "note": "Kimchi stew. Rice is charged separately.",
+            "state": "changed"
+          }
+        ],
+        "text": "",
+        "note": "최소 주문량·밥 가격은 확인하지 않았으므로 추가하지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "필요한 메뉴 설명에서 단위·별도 비용을 명확히 표시",
+      "keep": "현재 메뉴명·가격·다른 메뉴·사진",
+      "check": "최소 주문량 및 공깃밥 가격은 별도 확인",
+      "reason": "8,000원을 1인 식사 총액으로 바꾸거나 280g을 임의의 인원 수로 나누지 않는다.",
+      "evidence": [
+        "yuk-kakao-menu.jpg"
+      ],
+      "facts": [
+        "카카오 메뉴에 280g, 공기밥별도 문구가 실제 포함돼 있다.",
+        "현재 금액은 유지하고 필요한 영문 설명만 제안한다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "06",
+      "store": "yuk",
+      "category": "메뉴·가격",
+      "status": "확인대기",
+      "title": "고가 메뉴 두 개만으로 가게를 대표하지 않는다",
+      "lead": "구이와 식사 메뉴를 함께 검토해 추천 표시 후보를 고른다. 정상 메뉴 전체는 유지한다.",
+      "target": "카카오 · 추천 상품 표시",
+      "amount": "추천 표시 최대 2개 검토",
+      "before": {
+        "rows": [
+          {
+            "label": "먼저 보인 메뉴",
+            "value": "소 양념왕갈비 48,000원 / 한우육회 38,000원",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "이어 보인 식사",
+            "value": "장기름육회 비빔밥 15,000원 / 숙성김치찌개 8,000원",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "대표 후보 ①",
+            "value": "소 양념왕갈비 (280g) · 48,000원",
+            "note": "구이 대표성은 사장님 확인",
+            "state": "pending"
+          },
+          {
+            "label": "대표 후보 ②",
+            "value": "장기름육회 비빔밥 · 15,000원",
+            "note": "식사 대표성은 사장님 확인",
+            "state": "pending"
+          },
+          {
+            "label": "다른 메뉴",
+            "value": "모두 유지",
+            "note": "추천 지정은 전체 메뉴 삭제·노출 순서 보장이 아니다.",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "changes": "사장님이 고른 항목의 추천 표시만 검토",
+      "keep": "기존 메뉴·가격·주문 단위·정상 사진 전부",
+      "check": "실제 대표성·판매 가능 시간·현 계정의 추천 기능",
+      "reason": "공개 메뉴의 첫 순서나 가장 낮은 가격만으로 대표 메뉴를 정하면 가게의 실제 선택지가 왜곡된다.",
+      "evidence": [
+        "yuk-kakao-menu.jpg",
+        "yuk-kakao-home.jpg"
+      ],
+      "facts": [
+        "동일 화면에서 고가 구이와 상대적으로 낮은 식사 항목을 함께 확인했다.",
+        "추천 두 항목은 확정된 판매 순위가 아니라 승인 전 선택 후보이다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "07",
+      "store": "jung",
+      "category": "소개·브랜드",
+      "status": "유지",
+      "title": "이미 정한 브랜드 문구는 그대로 둔다",
+      "lead": "정보형 소개로 통째 바꾸지 않는다. 필요한 사실은 메뉴·시간 칸에서 보완한다.",
+      "target": "카카오 · 현재 등록 소개",
+      "amount": "소개 변경 0칸",
+      "before": {
+        "rows": [],
+        "text": "‘정각’ 正刻 (바를정, 새길각)\n숙성돼지고기 X 우리 술 의 만남",
+        "note": "공개 매장정보 영역에서 관측한 문구. 작성자 본인의 확인을 받은 것은 아니다.",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [],
+        "text": "‘정각’ 正刻 (바를정, 새길각)\n숙성돼지고기 X 우리 술 의 만남",
+        "note": "브랜드 표현·한자·말투 보존. 2문장 규칙을 기존 문구에 소급하지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "소개는 수정하지 않음",
+      "keep": "기존 표현·브랜드 의도·사장님 추천 메뉴",
+      "check": "사장님이 문구 변경·번역을 원하는 경우에만 선택안",
+      "reason": "좋은 정비에는 바꾸지 않는 결정도 포함된다. 감성적인 문구는 사실 오류와 다르다.",
+      "evidence": [
+        "jung-kakao-brand.jpg",
+        "jung-google-home.jpg"
+      ],
+      "facts": [
+        "카카오의 매장정보 아래에 해당 브랜드 문구가 노출돼 있었다.",
+        "상호·층·예약 연결 정보를 통해 Google의 정각 망원본점과 대응을 확인했다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "08",
+      "store": "jung",
+      "category": "소개·브랜드",
+      "status": "확인대기",
+      "title": "비슷한 태그가 많아도 마음대로 지우지 않는다",
+      "lead": "현재 공개 태그와 관리자가 입력하는 태그를 구분한 뒤, 의미가 겹치지 않는 선택안을 제시한다.",
+      "target": "카카오 · 관리 가능한 태그",
+      "amount": "선택 정리안 / 확정 전 0칸",
+      "before": {
+        "rows": [],
+        "text": "",
+        "note": "공개 화면에서 관측한 태그. 입력 주체·관리 화면의 수정 가능 범위는 미확인.",
+        "image": "",
+        "tags": [
+          "데이트",
+          "망원동데이트",
+          "망원맛집",
+          "모임",
+          "회식",
+          "데이트코스",
+          "드라이에이징"
+        ]
+      },
+      "after": {
+        "rows": [],
+        "text": "",
+        "note": "현재 등록 문구에서 뽑은 선택안. 사장님 선택과 관리 가능 범위를 확인한 뒤만 반영.",
+        "image": "",
+        "tags": [
+          "숙성돼지고기",
+          "우리술",
+          "모임"
+        ]
+      },
+      "changes": "사장님이 관리하는 태그에 한해 중복 표현 정리 제안",
+      "keep": "브랜드 소개·기존 정상 정보·플랫폼 자동 표시",
+      "check": "공개 태그의 작성 주체·현 계정의 태그 입력 한도·사업자 선호",
+      "reason": "공개 화면에 7개가 보인다는 사실과 관리 화면의 입력 규칙은 다를 수 있다. 전체 7개를 직접 수정 가능하다고 가정하지 않는다.",
+      "evidence": [
+        "jung-kakao-brand.jpg"
+      ],
+      "facts": [
+        "공개 태그에 데이트·망원동데이트·데이트코스 등 유사 표현이 함께 표시됐다.",
+        "3개 태그는 최적 노출 공식이 아니라 선택적 편집안이다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "09",
+      "store": "oreno",
+      "category": "리뷰·판단",
+      "status": "유지",
+      "title": "친절한 외국인 응대 리뷰가 영어 응대 보장은 아니다",
+      "lead": "한 고객의 경험과 매장이 지속적으로 제공하는 서비스를 구분한다.",
+      "target": "리뷰 → 편의·언어 속성 판단",
+      "amount": "자동 변경 0칸",
+      "before": {
+        "rows": [
+          {
+            "label": "관측한 리뷰",
+            "value": "외국인 손님에게 친절하게 응대한 경험",
+            "note": "카카오 2025.02.09 후기의 취지 요약",
+            "state": ""
+          },
+          {
+            "label": "Google 편의 정보",
+            "value": "영어 응대 가능 여부는 이번 화면에서 확인 못 함",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "리뷰·평점",
+            "value": "그대로 유지",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "영어 응대 가능",
+            "value": "추가하지 않음",
+            "note": "직원·지원 시간 확인 전",
+            "state": "unchanged"
+          },
+          {
+            "label": "영문 메뉴",
+            "value": "필요한 메뉴만 별도 번역 검토",
+            "note": "응대 언어와 별개",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "changes": "리뷰를 바탕으로 확인 질문만 생성",
+      "keep": "리뷰 원문·별점·기존 서비스 값",
+      "check": "지원 언어·직원·가능 시간과 영어 메뉴 필요 여부",
+      "reason": "과거의 친절한 경험 하나로 상시 영어 서비스나 모든 외국 카드 결제를 보장하지 않는다.",
+      "evidence": [
+        "oreno-kakao-home.jpg",
+        "oreno-google-info.jpg"
+      ],
+      "facts": [
+        "카카오 공개 후기에서 외국인 응대 경험을 확인했다.",
+        "Google 정보에는 카드·NFC 등이 보였지만 영어 응대라는 확인 값은 관측하지 못했다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "10",
+      "store": "oreno",
+      "category": "이용조건",
+      "status": "확인대기",
+      "title": "AI가 요약한 무료 주차는 업주 확인값과 다르다",
+      "lead": "AI 요약을 지우거나 편의 항목에 복제하지 않는다. 실제 주차 조건부터 확인한다.",
+      "target": "카카오 요약 / Google 주차 정보",
+      "amount": "사실 확인 전 변경 0칸",
+      "before": {
+        "rows": [
+          {
+            "label": "카카오 공개 안내",
+            "value": "무료 주차",
+            "note": "‘kanana 활용’ 표시",
+            "state": ""
+          },
+          {
+            "label": "Google 정보",
+            "value": "일반 주차 조건은 이번 화면에서 확인 못 함",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "플랫폼 요약",
+            "value": "현재 표시 유지",
+            "note": "이 영역을 업주 편집 칸으로 취급하지 않음",
+            "state": ""
+          },
+          {
+            "label": "공식 주차 조건",
+            "value": "사장님 확인 대기",
+            "note": "전용/제휴/인근·요금·시간·차량 조건",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "휠체어 이용 가능 주차장과 일반 주차 가능 여부도 같은 항목이 아니다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "확인 후 실제 지원되는 주차 속성만 정비",
+      "keep": "AI 요약·리뷰·확인된 기존 속성",
+      "check": "무료 여부·주차장 종류·이용 시간·지원 속성",
+      "reason": "플랫폼 요약의 출처 표시와 관리자가 직접 확인한 시설 정보를 분리해야 잘못된 무료 주차 안내를 줄일 수 있다.",
+      "evidence": [
+        "oreno-kakao-home.jpg",
+        "oreno-google-info.jpg"
+      ],
+      "facts": [
+        "카카오 매장정보의 무료 주차 문구에 kanana 활용 표시가 있었다.",
+        "일반 주차 조건을 업주에게 독립 확인하지 않았다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "11",
+      "store": "oreno",
+      "category": "기본정보",
+      "status": "확인대기",
+      "title": "050 번호와 일반 번호가 다르면 무조건 오류일까",
+      "lead": "연결번호와 대표번호일 수 있다. 동작을 확인하지 않고 어느 하나로 통일하지 않는다.",
+      "target": "Google·카카오 · 전화번호 비교",
+      "amount": "확인 전 변경 0칸",
+      "before": {
+        "rows": [
+          {
+            "label": "Google",
+            "value": "050-71318-9976",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "카카오",
+            "value": "02-499-0323",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "Google",
+            "value": "050-71318-9976",
+            "note": "기존 값 유지",
+            "state": ""
+          },
+          {
+            "label": "카카오",
+            "value": "02-499-0323",
+            "note": "기존 값 유지",
+            "state": ""
+          },
+          {
+            "label": "확인할 점",
+            "value": "동일 지점으로 연결되는 번호인가",
+            "note": "사장님 확인 대기",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "changes": "전화번호 차이를 확인 항목으로만 분류",
+      "keep": "확인 전 두 지도 번호 모두",
+      "check": "안심·연결 번호인지, 실제 지점 번호인지, 현재 수신 여부",
+      "reason": "숫자가 다르다는 것만으로는 오류가 확정되지 않는다. 플랜트의 지점 번호 정정 사례와 다른 판단이다.",
+      "evidence": [
+        "oreno-google-home.jpg",
+        "oreno-kakao-home.jpg"
+      ],
+      "facts": [
+        "주소는 성수일로 47 102호로 대응하고 공개 전화번호는 달랐다.",
+        "이번 조사에서 전화를 걸거나 연결 상태를 확인하지 않았다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "12",
+      "store": "pizza",
+      "category": "이용조건",
+      "status": "표현정리",
+      "title": "런치 가격은 주문 시간과 한 묶음으로",
+      "lead": "긴 문장의 뒤에 있는 평일·14시 제한을 메뉴 설명 맨 앞으로 옮긴다.",
+      "target": "카카오 · 런치스페셜 설명",
+      "amount": "설명 1칸 / 가격 유지",
+      "before": {
+        "rows": [
+          {
+            "label": "런치스페셜",
+            "value": "14,900원",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "현재 설명",
+            "value": "파스타 3종 중 택1 + 탄산 택1. 평일 오후 2시까지 주문 가능.",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "런치스페셜",
+            "value": "14,900원",
+            "note": "가격 유지",
+            "state": ""
+          },
+          {
+            "label": "정리한 설명",
+            "value": "평일 14:00까지 주문 가능. 파스타 3종 중 1개 + 탄산 1개.",
+            "note": "Weekdays, order by 2 pm. Pasta + one soft drink.",
+            "state": "changed"
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "changes": "메뉴 설명의 조건 순서·영어 표현만 정리",
+      "keep": "메뉴명·14,900원·파스타 선택·음료 포함",
+      "check": "현재 런치 운영과 번역 문구 최종 승인",
+      "reason": "가격만 먼저 읽으면 상시 주문 가능한 메뉴처럼 오해할 수 있다. 이용 제한을 메뉴 옆에서 먼저 읽게 한다.",
+      "evidence": [
+        "pizza-kakao-menu.jpg"
+      ],
+      "facts": [
+        "카카오 메뉴에 평일 오후 2시까지 주문 조건이 실제 들어 있다.",
+        "새 제한을 만든 것이 아니라 기존 조건을 앞으로 옮긴 제안이다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "13",
+      "store": "pizza",
+      "category": "메뉴·가격",
+      "status": "표현정리",
+      "title": "2인 세트 가격을 1인 가격으로 바꾸지 않는다",
+      "lead": "기존 세트명을 유지하고 인원·구성을 영어로 간단히 이해하게 한다.",
+      "target": "카카오 · 2인 세트 설명",
+      "amount": "설명 1칸 / 가격 유지",
+      "before": {
+        "rows": [
+          {
+            "label": "결정장애세트(2인)",
+            "value": "39,900원",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "구성",
+            "value": "반반피자(페퍼로니+고르곤졸라) + 명동 파스타 + 탄산 2개",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "결정장애세트(2인)",
+            "value": "39,900원 / 세트",
+            "note": "Set for two",
+            "state": "changed"
+          },
+          {
+            "label": "구성 안내",
+            "value": "반반피자 + 명동 파스타 + 탄산 2개",
+            "note": "Half-and-half pizza, Myeongdong pasta and two soft drinks.",
+            "state": "changed"
+          }
+        ],
+        "text": "",
+        "note": "19,950원/인처럼 계산한 금액을 판매 가격 칸에 넣지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "기존 메뉴 설명 1칸에서 인원·구성 번역",
+      "keep": "세트명·39,900원·피자 맛 선택·구성",
+      "check": "추가 선택·변경 옵션이 있다면 가격과 함께 확인",
+      "reason": "판매 단위는 세트다. 사람이 나눠 계산한 금액과 실제 주문 금액을 구분한다.",
+      "evidence": [
+        "pizza-kakao-menu.jpg"
+      ],
+      "facts": [
+        "카카오 전체 메뉴에서 2인 세트와 39,900원, 구성을 확인했다.",
+        "3인·4인 세트 등 나머지 정상 메뉴는 유지한다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "14",
+      "store": "pizza",
+      "category": "리뷰·판단",
+      "status": "확인대기",
+      "title": "맵기 리뷰와 업체 답변이 다를 때",
+      "lead": "소비자의 인지 문제인지 실제 표시 누락인지 먼저 확인한다. 리뷰 한쪽을 정답으로 택하지 않는다.",
+      "target": "카카오 · 게딱지 밥 설명 후보",
+      "amount": "설명 1칸 후보 / 확정 전 0칸",
+      "before": {
+        "rows": [
+          {
+            "label": "현재 카카오 메뉴",
+            "value": "게딱지 밥 · 16,500원",
+            "note": "이번 메뉴 화면에는 별도 맵기 설명이 보이지 않았다.",
+            "state": ""
+          },
+          {
+            "label": "Google 리뷰와 답변",
+            "value": "맵기를 몰랐다는 후기 / 이미 표시돼 있다는 업체 답변",
+            "note": "서로 다른 주장으로 기록",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "메뉴명·가격",
+            "value": "게딱지 밥 · 16,500원",
+            "note": "그대로 유지",
+            "state": ""
+          },
+          {
+            "label": "설명 보완",
+            "value": "실제 맵기·주재료 확인 후 명시",
+            "note": "확인되지 않은 단계·재료는 입력하지 않음",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "아이에게 안전·순한맛·게 내장 포함 같은 새로운 주장은 만들지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "현재 메뉴 표시를 확인한 후 필요한 설명만 보완",
+      "keep": "기존 리뷰·업체 답변·평점·확인된 가격",
+      "check": "메뉴판의 현행 맵기 표시, 조리 내용, 사용자가 보는 칸",
+      "reason": "리뷰는 개선할 질문의 근거다. 표현을 명확히 할 수 있지만 맛에 대한 평가를 바꾸거나 불만을 삭제할 수는 없다.",
+      "evidence": [
+        "pizza-google-review-detail.jpg",
+        "pizza-kakao-menu.jpg"
+      ],
+      "facts": [
+        "Google에 맵기 인지에 관한 후기와 업체 대표의 다른 설명이 같이 있었다.",
+        "카카오 메뉴에서는 게딱지 밥 16,500원 이름·가격을 확인했다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    },
+    {
+      "id": "15",
+      "store": "plant",
+      "category": "메뉴·가격",
+      "status": "확인대기",
+      "title": "배달 메뉴 링크와 매장 직접 메뉴를 구분한다",
+      "lead": "직접 메뉴에 사이드 하나만 보인다고 식사 메뉴가 없다고 결론내리지 않는다.",
+      "target": "카카오 · 매장용 메뉴 보완",
+      "amount": "식사 메뉴 후보 3개",
+      "before": {
+        "rows": [
+          {
+            "label": "직접 메뉴에서 관측",
+            "value": "Sour cream / 사워 크림 · 3,000원",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "별도 경로",
+            "value": "배달 메뉴 보기 링크도 있음",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "사워크림은 현재 등록된 항목으로 유지한다.",
+        "image": "plant-kakao-menu.jpg",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "식사 후보 ①",
+            "value": "HUMMUS TEMPEH BOWL · 후무스 템페 보울",
+            "note": "공식 사진 표기 15.0 / 금액 단위·최신성 확인",
+            "state": "pending"
+          },
+          {
+            "label": "식사 후보 ②",
+            "value": "TOFU CAESAR WRAP · 두부 시저 랩",
+            "note": "공식 사진 표기 15.0 / 금액 단위·최신성 확인",
+            "state": "pending"
+          },
+          {
+            "label": "식사 후보 ③",
+            "value": "LENTIL VEGGIE BOWL · 렌틸 베지 보울",
+            "note": "중복·매장 판매 조건 확인",
+            "state": "pending"
+          }
+        ],
+        "text": "",
+        "note": "15.0 표기를 추측해서 원화 가격으로 확정하지 않는다. 확인한 항목만 추가한다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "외부 메뉴와 매장 직접 메뉴를 대조한 뒤 누락분만 보완",
+      "keep": "사워크림 3,000원·배달 링크·기존 정상 항목",
+      "check": "매장/배달 판매 조건·가격 단위·원본 사용·현재 판매·중복",
+      "reason": "이 페이지의 단일 저가 사이드가 식당 전체의 식사 메뉴·예산을 대표하지 않는다.",
+      "evidence": [
+        "plant-kakao-menu.jpg",
+        "plant-official-menu.jpg"
+      ],
+      "facts": [
+        "카카오 직접 메뉴 탭에는 사워크림 3,000원이 보였고 별도 배달 메뉴 링크가 있었다.",
+        "공식 연남 메뉴 이미지에서 식사 메뉴 세 가지를 확인했다. 가격 적용 여부는 미확인이다."
+      ],
+      "sources": [
+        "google",
+        "kakao",
+        "official-menu"
+      ]
+    },
+    {
+      "id": "16",
+      "store": "plant",
+      "category": "리뷰·판단",
+      "status": "유지",
+      "title": "비건 정보는 유지하고 보장을 확대하지 않는다",
+      "lead": "이미 있는 비건·채식 속성을 다시 채우지 않는다. 알레르기·할랄은 별도 사실이다.",
+      "target": "Google · 식단 관련 속성",
+      "amount": "속성 변경 0칸",
+      "before": {
+        "rows": [
+          {
+            "label": "Google 현재 속성",
+            "value": "비건 메뉴 · 채식 메뉴",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "공식 안내",
+            "value": "100% vegan",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "공식 메뉴판",
+            "value": "메뉴마다 GF·NF·SF 등의 개별 표기",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "비건·채식 속성",
+            "value": "유지",
+            "note": "이미 확인된 정보",
+            "state": ""
+          },
+          {
+            "label": "알레르기·할랄 보장",
+            "value": "추가하지 않음",
+            "note": "인증·조리·교차 접촉 등 별도 확인이 필요",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "일부 메뉴의 식단 표시를 모든 메뉴와 주방 전체의 보장으로 확대하지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "새 식단 속성을 추가하지 않음",
+      "keep": "기존 비건·채식 속성·공식 링크·현재 메뉴",
+      "check": "고객의 구체적 식단 문의가 있으면 매장에 별도 확인",
+      "reason": "맞는 정보를 유지하는 것이 정비다. 문구를 더 많이 붙이는 것이 항상 더 정확한 정보는 아니다.",
+      "evidence": [
+        "plant-google-info.jpg",
+        "plant-official-menu.jpg"
+      ],
+      "facts": [
+        "Google 정보에서 비건 메뉴·채식 메뉴 속성을 확인했다.",
+        "공식 메뉴판에는 전체 비건 안내와 메뉴별 식단 표시가 병존한다."
+      ],
+      "sources": [
+        "google",
+        "kakao",
+        "official-menu"
+      ]
+    },
+    {
+      "id": "17",
+      "store": "plant",
+      "category": "이용조건",
+      "status": "정정안",
+      "title": "예약 링크는 유지하면서 예외 조건만 보완한다",
+      "lead": "예약 버튼이 있다고 모든 요일에 예약 가능한 것은 아니다. 공식 지점의 제한을 짧게 안내한다.",
+      "target": "Google · 소개 또는 지원되는 예약 안내",
+      "amount": "조건 안내 1문장 후보",
+      "before": {
+        "rows": [
+          {
+            "label": "Google 개요",
+            "value": "예약하기 링크 제공",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "공식 연남 안내",
+            "value": "주말·공휴일 예약을 받지 않음",
+            "note": "",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "예약 링크",
+            "value": "현재 링크 유지",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "안내 문장 후보",
+            "value": "주말·공휴일에는 예약을 받지 않습니다.",
+            "note": "No reservations on weekends or national holidays.",
+            "state": "changed"
+          }
+        ],
+        "text": "",
+        "note": "예약 조건 전용 칸이 없다면 기존 소개를 보존한 채 필요한 1문장만 제안한다. 새 칸이 있다고 가정하지 않는다.",
+        "image": "",
+        "tags": []
+      },
+      "changes": "해당 지점 예약 조건 1문장만 보완",
+      "keep": "예약 버튼·가게 소개의 기존 표현·영업시간",
+      "check": "현재 예약 정책·지원 입력 칸·기존 소개와의 배치",
+      "reason": "예약 가능 자체를 끄기보다 예외 조건을 알려야 평일 예약 기능을 잃지 않는다.",
+      "evidence": [
+        "plant-google-home.jpg",
+        "plant-official-branch.jpg"
+      ],
+      "facts": [
+        "Google 개요에 예약 링크가 있었다.",
+        "공식 연남 지점 안내에 주말·공휴일 예약 불가 조건이 명시돼 있다."
+      ],
+      "sources": [
+        "google",
+        "kakao",
+        "official"
+      ]
+    },
+    {
+      "id": "18",
+      "store": "hiss",
+      "category": "리뷰·판단",
+      "status": "유지",
+      "title": "사진의 SOLD OUT은 판매 종료 증거가 아니다",
+      "lead": "특정 촬영 시점의 품절 표시를 근거로 현재 메뉴를 삭제하지 않는다.",
+      "target": "메뉴판 사진 → 판매 상태 판단",
+      "amount": "삭제·변경 0칸",
+      "before": {
+        "rows": [],
+        "text": "메뉴판 사진에 SOLD OUT 표시가 보임",
+        "note": "사진 촬영 시점과 현재 재고·판매 정책은 미확인.",
+        "image": "hiss-kakao-menuboard.jpg",
+        "tags": []
+      },
+      "after": {
+        "rows": [
+          {
+            "label": "기존 메뉴 목록",
+            "value": "유지",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "사진 원본",
+            "value": "유지",
+            "note": "",
+            "state": ""
+          },
+          {
+            "label": "현재 판매 상태",
+            "value": "사장님 확인 전 판단 보류",
+            "note": "일시 품절·계절 판매·영구 종료를 구분",
+            "state": ""
+          }
+        ],
+        "text": "",
+        "note": "",
+        "image": "",
+        "tags": []
+      },
+      "changes": "현재 메뉴를 지우지 않음",
+      "keep": "기존 항목·사진·가격 정보",
+      "check": "현재 판매 여부와 플랫폼의 품절/판매 종료 표시 지원",
+      "reason": "일시적 상황을 영구 사실로 바꾸면 판매 가능한 메뉴를 오히려 숨길 수 있다.",
+      "evidence": [
+        "hiss-kakao-menuboard.jpg"
+      ],
+      "facts": [
+        "열람한 메뉴판 사진에 품절 배지가 있었다.",
+        "현재 품절·영구 종료·사진의 최신성은 확인하지 않았다."
+      ],
+      "sources": [
+        "google",
+        "kakao"
+      ]
+    }
+  ],
+  "observedDate": "2026-10-28",
+  "mapCount": 12,
+  "note": "공개 화면을 읽어 만든 정비 시안. 실제 지도는 수정하지 않았으며 업주 승인·관리 화면 지원 확인 전이다."
+}

@@ -1,0 +1,541 @@
+﻿restaurant_id,map_id,snapshot_at_utc,source_url,field,value,author_type,field_status,collection_method,full_page_archive_available
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,name,반포식스 서울시청점,platform,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,address,서울 중구 무교로 13 3층 301호,unknown,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,rating,4.6,platform,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,review_count,224,platform,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,photo_count_display,872+,platform,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,store_information_paragraph,쌀국수가 생각날땐 '반포식스 서울시청점',unknown,observed,browser_rendered_dom,False
+MN26-MD-01,kakao,2026-10-16T07:53:11.332Z,https://place.map.kakao.com/1402508894,text_menu_prices,"[[""쉬림프 팟타이"", ""14,000원""], [""후라이드비프누들"", ""15,000원""], [""타이칠리두들"", ""14,000원""], [""치킨팟타이"", ""14,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,name,장인닭갈비 명동점,platform,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,address,서울 중구 명동9길 15 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,rating,4.3,platform,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,review_count,315,platform,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-02,kakao,2026-10-16T07:53:12.484Z,https://place.map.kakao.com/1903143175,text_menu_prices,"[[""치즈닭갈비"", ""15,000원""], [""장인볶음밥(김치+날치알)"", ""3,000원""], [""닭갈비점심세트 A(2인)"", ""26,000원""], [""닭갈비점심세트 B(3인)"", ""39,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,name,명동피자 명동본점,platform,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,address,서울 중구 명동10길 41 챔피언빌딩 4층,unknown,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,rating,3.2,platform,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,review_count,123,platform,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-03,kakao,2026-10-16T07:53:13.908Z,https://place.map.kakao.com/19409195,text_menu_prices,"[[""파이브치즈 피자"", ""23,000원""], [""명동 파스타"", ""19,500원""], [""[프리미엄]치폴레전드 피자"", ""24,000원""], [""런치스페셜"", ""14,900원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,name,육통령 명동본점,platform,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,address,서울 중구 명동8나길 37-2 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,rating,3.6,platform,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,review_count,87,platform,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-04,kakao,2026-10-16T07:53:14.854Z,https://place.map.kakao.com/21748255,text_menu_prices,"[[""소 양념왕갈비 (280g)"", ""48,000원""], [""한우육회 150g"", ""38,000원""], [""장기름육회 비빔밥"", ""15,000원""], [""숙성김치찌개(공기밥별도)"", ""8,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,name,명동교자 명동역점 신관 본점,platform,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,address,서울 중구 퇴계로 129 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,rating,2.6,platform,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,review_count,347,platform,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-05,kakao,2026-10-16T07:53:16.676Z,https://place.map.kakao.com/1479300828,text_menu_prices,"[[""칼국수"", ""12,000원""], [""만두"", ""13,000원""], [""비빔국수"", ""12,000원""], [""콩국수(4~10월)"", ""13,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,name,순남시래기 명동직영점,platform,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,address,서울 중구 명동10길 35-20 지하1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,rating,4.0,platform,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,review_count,94,platform,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,photo_count_display,749+,platform,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,store_information_paragraph,건강한 자연밥상 순남시래기 명동직영점입니다 :),unknown,observed,browser_rendered_dom,False
+MN26-MD-06,kakao,2026-10-16T07:53:17.753Z,https://place.map.kakao.com/26853115,text_menu_prices,"[[""도마수육정식"", ""13,000원""], [""소불고기정식"", ""14,000원""], [""3대시래기국"", ""11,000원""], [""얼큰시래기국"", ""11,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,name,하동관 명동본점,platform,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,address,서울 중구 명동9길 12 1-2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,rating,2.7,platform,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,review_count,434,platform,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-07,kakao,2026-10-16T07:53:18.913Z,https://place.map.kakao.com/1822111964,text_menu_prices,"[[""곰탕"", ""18,000원""], [""곰탕 (25공)"", ""25,000원""], [""곰탕 (30공)"", ""30,000원""], [""수육 (소)"", ""40,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,name,쯔루하시후게츠 명동점,platform,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,address,서울 중구 명동8길 21-5 2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,rating,4.0,platform,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,review_count,292,platform,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-08,kakao,2026-10-16T07:53:20.107Z,https://place.map.kakao.com/21396812,text_menu_prices,"[[""야끼소바(특대)"", ""18,000원""], [""후게츠 오코노미야끼"", ""17,000원""], [""후게츠세트 (2인)"", ""41,500원""], [""오사카세트 (2인)"", ""39,500원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,name,철철복집,platform,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,address,서울 중구 을지로3길 29 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,rating,3.9,platform,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,review_count,68,platform,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-09,kakao,2026-10-16T07:53:21.383Z,https://place.map.kakao.com/16268305,text_menu_prices,"[[""복소금구이 (1인분)"", ""43,000원""], [""복불고기 (1인분)"", ""43,000원""], [""복고니구이 (1인분)"", ""43,000원""], [""복매운탕 (1인분)"", ""28,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,name,일품향,platform,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,address,서울 중구 남대문로 52-13 2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,rating,3.6,platform,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,review_count,92,platform,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-10,kakao,2026-10-16T07:53:22.395Z,https://place.map.kakao.com/9410327,text_menu_prices,"[[""유니짜장면"", ""8,000원""], [""짬뽕"", ""9,000원""], [""잡채밥"", ""10,000원""], [""잡탕밥"", ""18,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,name,란주칼면,platform,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,address,서울 중구 소공로 64 동남빌딩 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,rating,3.7,platform,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,review_count,621,platform,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-11,kakao,2026-10-16T07:53:32.381Z,https://place.map.kakao.com/12793877,text_menu_prices,"[[""삼선해물볶음간자장도삭면"", ""10,000원""], [""삼선해물짬뽕도삭면"", ""11,000원""], [""사천탕수육(꿔바로우)"", ""29,000원""], [""수제탕수만두(점심메뉴)"", ""13,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,name,르메르디앙 서울명동 라팔레트파리,platform,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,address,서울 중구 명동8나길 38 4층,unknown,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,rating,4.8,platform,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,review_count,17,platform,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-12,kakao,2026-10-16T07:53:36.358Z,https://place.map.kakao.com/1599947396,text_menu_prices,[],unknown,not_observed_loading_or_no_menu_section,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,name,전주풍남회관,platform,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,address,서울 중구 세종대로21길 48 2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,rating,4.0,platform,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,review_count,33,platform,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-13,kakao,2026-10-16T07:53:37.212Z,https://place.map.kakao.com/16766423,text_menu_prices,"[[""계란탕"", ""10,000원""], [""제육볶음"", ""11,000원""], [""오징어볶음"", ""12,000원""], [""생삼겹살"", ""18,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,name,바오차이,platform,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,address,서울 중구 을지로 100 파인애비뉴빌딩 B동 지하1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,review_count,53,platform,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-14,kakao,2026-10-16T07:53:38.499Z,https://place.map.kakao.com/26404570,text_menu_prices,"[[""하교"", ""11,000원""], [""구채교"", ""11,000원""], [""소매"", ""11,000원""], [""런치코스"", ""30,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,name,용가회전훠궈 명동점,platform,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,address,서울 중구 명동3길 12 2-3층,unknown,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,rating,3.6,platform,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,review_count,117,platform,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-15,kakao,2026-10-16T07:53:39.773Z,https://place.map.kakao.com/551910508,text_menu_prices,"[[""평일 점심 (~15:00)"", ""19,900원""], [""평일 저녁 (15:00~)"", ""23,900원""], [""주말 및 공휴일"", ""23,900원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,name,개화,platform,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,address,서울 중구 남대문로 52-5 1-2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,rating,2.8,platform,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,review_count,122,platform,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-16,kakao,2026-10-16T07:53:40.855Z,https://place.map.kakao.com/10130879,text_menu_prices,"[[""간짜장면"", ""8,000원""], [""유니짜장면"", ""7,000원""], [""울면"", ""8,000원""], [""수소면"", ""11,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,name,초류향,platform,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,address,서울 중구 다동길 24-10 1층,unknown,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,review_count,341,platform,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,store_information_paragraph,"전통과 현대가 어우러진 정통 중식당, 깊고 깔끔한 맛의 초류향.",unknown,observed,browser_rendered_dom,False
+MN26-MD-17,kakao,2026-10-16T07:53:41.820Z,https://place.map.kakao.com/8577709,text_menu_prices,"[[""마파두부"", ""27,000원""], [""새우완자탕면"", ""12,000원""], [""대만식쇠고기탕면"", ""12,000원""], [""삼선간짜장"", ""11,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,name,곰국시집,platform,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,address,"서울 중구 무교로 24 2,3층",unknown,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,review_count,84,platform,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-18,kakao,2026-10-16T07:53:42.595Z,https://place.map.kakao.com/13288123,text_menu_prices,"[[""수육"", ""61,000원""], [""전골국수"", ""22,000원""], [""곰국수"", ""14,000원""], [""꽃등심(150g)"", ""51,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,name,남포면옥,platform,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,address,서울 중구 을지로3길 24 1-2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,rating,3.0,platform,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,review_count,410,platform,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-19,kakao,2026-10-16T07:53:43.394Z,https://place.map.kakao.com/21232315,text_menu_prices,"[[""접시만두"", ""12,000원""], [""냉면"", ""15,000원""], [""온면"", ""15,000원""], [""비빔냉면"", ""15,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,name,창고43 무교점,platform,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,address,서울 중구 무교로 21 더익스체인지 서울빌딩 2층,unknown,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,rating,3.7,platform,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,review_count,70,platform,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MD-20,kakao,2026-10-16T07:53:44.244Z,https://place.map.kakao.com/901404875,text_menu_prices,"[[""깻순이들깨갈비탕"", ""32,000원""], [""여름나물과차돌박이밀쌈"", ""38,000원""], [""창고43 스페셜"", ""54,000원""], [""육회"", ""35,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,name,오레노카츠 성수본점,platform,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,address,서울 성동구 성수일로 47 1층 102호,unknown,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,rating,3.7,platform,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,review_count,164,platform,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-01,kakao,2026-10-16T07:53:50.105Z,https://place.map.kakao.com/2125770186,text_menu_prices,"[[""체다크림치즈돈카츠"", ""14,000원""], [""매콤돈카츠"", ""14,000원""], [""수제 생돈카츠"", ""11,500원""], [""오레노 정식 A"", ""17,500원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,name,빠오즈푸 서울숲점,platform,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,address,서울 성동구 왕십리로6길 13 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,rating,3.8,platform,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,review_count,210,platform,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-02,kakao,2026-10-16T07:53:50.808Z,https://place.map.kakao.com/1483073499,text_menu_prices,"[[""고기빠오즈"", ""9,000원""], [""훈둔면"", ""9,000원""], [""새우지짐"", ""10,000원""], [""매운훈둔면"", ""9,500원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,name,차만다 성수,platform,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,address,서울 성동구 서울숲2길 28-12 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,rating,4.2,platform,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,review_count,138,platform,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-03,kakao,2026-10-16T07:53:51.515Z,https://place.map.kakao.com/1057053940,text_menu_prices,"[[""비프 웰링턴"", ""48,000원""], [""셰퍼드파이"", ""24,000원""], [""피쉬 앤 칩스"", ""32,000원""], [""하이드 파크 샐러드"", ""18,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,name,눈꽃돼지,platform,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,address,서울 성동구 왕십리로8길 17-4 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,rating,4.5,platform,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,review_count,73,platform,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-04,kakao,2026-10-16T07:53:52.245Z,https://place.map.kakao.com/1795368894,text_menu_prices,"[[""눈꽃 통삼겹 (180g)"", ""19,000원""], [""눈꽃 특목살 (180g)"", ""19,000원""], [""이베리코 갈비살 (180g)"", ""22,000원""], [""플루마골드 (150g)"", ""25,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,name,멘야포모 서울숲점,platform,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,address,서울 성동구 서울숲4길 28 2층,unknown,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,rating,4.6,platform,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,review_count,93,platform,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-05,kakao,2026-10-16T07:53:53.058Z,https://place.map.kakao.com/111033977,text_menu_prices,"[[""토마토라멘"", ""10,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,name,꾸아 서울숲역점,platform,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,address,서울 성동구 왕십리로 94-2 2층,unknown,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,rating,3.7,platform,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,review_count,29,platform,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-06,kakao,2026-10-16T07:53:53.896Z,https://place.map.kakao.com/2021790703,text_menu_prices,"[[""반세오"", ""28,000원""], [""분짜"", ""18,000원""], [""오리지널하노이직화쌀국수"", ""11,500원""], [""시그니처세트"", ""39,500원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,name,서울숲누룽지통닭구이,platform,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,address,서울 성동구 왕십리로5길 10 1-2층,unknown,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,review_count,127,platform,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-07,kakao,2026-10-16T07:53:54.762Z,https://place.map.kakao.com/27417406,text_menu_prices,"[[""누룽지 통닭"", ""24,000원""], [""누룽지 콘치즈"", ""28,000원""], [""누룽지 파닭"", ""26,000원""], [""누룽지 양파닭"", ""26,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,name,훼미리손칼국수보쌈,platform,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,address,서울 성동구 왕십리로 134 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,rating,3.4,platform,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,review_count,237,platform,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-08,kakao,2026-10-16T07:53:55.430Z,https://place.map.kakao.com/20746195,text_menu_prices,"[[""보쌈정식"", ""15,000원""], [""접시만두"", ""12,000원""], [""손칼국수"", ""10,000원""], [""보쌈 (대)"", ""48,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,name,도우또 성수,platform,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,address,서울 성동구 서울숲4길 18-8 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,review_count,188,platform,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,store_information_paragraph,< 2025년 블루리본 레드리본 선정 맛집! >도우또 성수점입니다:),unknown,observed,browser_rendered_dom,False
+MN26-SS-09,kakao,2026-10-16T07:53:56.227Z,https://place.map.kakao.com/1261546915,text_menu_prices,"[[""4cm 특!가츠동"", ""16,900원""], [""자이언트에비동"", ""16,900원""], [""사케동"", ""16,900원""], [""사바동(고등어덮밥)"", ""14,900원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,name,춘천닭갈비,platform,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,address,서울 성동구 왕십리로8길 8 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,rating,4.3,platform,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,review_count,32,platform,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,photo_count_display,421+,platform,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-10,kakao,2026-10-16T07:53:57.044Z,https://place.map.kakao.com/9517312,text_menu_prices,"[[""닭갈비 (1인분)"", ""13,000원""], [""야채곱창 (1인분)"", ""13,000원""], [""오징어볶음 (1인분)"", ""13,000원""], [""닭발 (1인분)"", ""13,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,name,소바마에,platform,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,address,서울 성동구 왕십리로4길 26-20 지하1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,review_count,106,platform,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-11,kakao,2026-10-16T07:54:05.380Z,https://place.map.kakao.com/395031954,text_menu_prices,"[[""낫또소바(냉)"", ""17,800원""], [""토로로소바,생마(냉/온)"", ""17,800원""], [""니싱소바,청어(냉/온)"", ""21,800원""], [""규동"", ""13,800원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,name,제스티살룬 성수,platform,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,address,서울 성동구 서울숲4길 13 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,rating,4.1,platform,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,review_count,576,platform,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,store_information_paragraph,[ 2026 코리아 버거 챔피언십 우승 ] 2026 월드 버거 챔피언십 한국 대표 출전!,unknown,observed,browser_rendered_dom,False
+MN26-SS-12,kakao,2026-10-16T07:54:06.084Z,https://place.map.kakao.com/1965582130,text_menu_prices,"[[""와사비 쉬림프"", ""11,300원""], [""할라피뇨 타르타르 쉬림프"", ""11,300원""], [""치즈 슬로 쉬림프"", ""11,800원""], [""레몬 바질 쉬림프"", ""11,800원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,name,메시,platform,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,address,서울 성동구 상원2길 3 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,rating,4.1,platform,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,review_count,174,platform,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-13,kakao,2026-10-16T07:54:06.852Z,https://place.map.kakao.com/611079689,text_menu_prices,"[[""연어 한마리 덮밥"", ""14,500원""], [""스키샤브"", ""14,500원""], [""명란크림우동"", ""11,500원""], [""수제야끼모찌"", ""7,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,name,갓잇 서울숲점,platform,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,address,서울 성동구 왕십리로10길 9-14 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,review_count,55,platform,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-14,kakao,2026-10-16T07:54:07.987Z,https://place.map.kakao.com/797092302,text_menu_prices,"[[""파히타&타코 세트 (2인 추천)"", ""42,000원""], [""엔칠라다&타코 세트 (2인 추천)"", ""43,000원""], [""보울&타코 세트 (2인 추천)"", ""39,000원""], [""패밀리 세트 (4인 세트)"", ""79,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,name,메이탄 성수서울숲점,platform,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,address,서울 성동구 왕십리로 50 메가박스스퀘어빌딩 2층,unknown,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,rating,3.4,platform,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,review_count,47,platform,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-15,kakao,2026-10-16T07:54:08.688Z,https://place.map.kakao.com/74382442,text_menu_prices,"[[""해물짬뽕"", ""10,000원""], [""메이탄짜장"", ""8,000원""], [""고추잡채밥"", ""15,000원""], [""유산슬밥"", ""16,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,name,아오내순대,platform,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,address,서울 성동구 서울숲길 51-1 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,review_count,52,platform,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-16,kakao,2026-10-16T07:54:09.465Z,https://place.map.kakao.com/75989539,text_menu_prices,"[[""아오내순댓국"", ""12,000원""], [""전통순댓국"", ""11,000원""], [""얼큰순댓국"", ""12,000원""], [""곱창전골"", ""34,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,name,대엽,platform,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,address,서울 성동구 왕십리로2길 36 1층 3호,unknown,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,rating,3.6,platform,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,review_count,102,platform,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-17,kakao,2026-10-16T07:54:10.290Z,https://place.map.kakao.com/1164346957,text_menu_prices,"[[""평양냉면"", ""13,000원""], [""만두지짐이(8pc)"", ""16,000원""], [""비빔냉면"", ""13,000원""], [""들기름냉면"", ""14,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,name,카모토,platform,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,address,서울 성동구 상원6길 6 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,rating,4.8,platform,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,review_count,63,platform,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,photo_count_display,856+,platform,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-18,kakao,2026-10-16T07:54:11.096Z,https://place.map.kakao.com/715100262,text_menu_prices,"[[""오리곰탕"", ""13,000원""], [""(펩시콤보/저녁한정) 오리 온면 + 펩시 제로 1캔"", ""15,000원""], [""잔술세트(오리곰탕+녹파주 한 잔)"", ""15,000원""], [""오리안심 냉채"", ""8,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,name,파르코 서울숲점,platform,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,address,서울 성동구 서울숲2길 44 1층,unknown,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,review_count,274,platform,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-19,kakao,2026-10-16T07:54:11.853Z,https://place.map.kakao.com/465733251,text_menu_prices,"[[""버섯치즈 리조또"", ""20,800원""], [""바질 크레마"", ""20,800원""], [""해산물 리조또"", ""20,800원""], [""풍기 샐러드"", ""20,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,name,도돗,platform,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,address,서울 성동구 왕십리로4길 15,unknown,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,rating,3.8,platform,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,review_count,38,platform,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-SS-20,kakao,2026-10-16T07:54:12.592Z,https://place.map.kakao.com/1459254086,text_menu_prices,[],unknown,not_observed_after_menu_tab,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,name,정각 서울망원본점,platform,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,address,서울 마포구 망원로6길 57 2층,unknown,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,rating,4.5,platform,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,review_count,122,platform,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-01,kakao,2026-10-16T07:54:18.630Z,https://place.map.kakao.com/889810020,text_menu_prices,"[[""직화소갈비된장찌개"", ""8,000원""], [""눈꽃육회"", ""19,000원""], [""숙성삼겹살"", ""18,000원""], [""꽃목살"", ""18,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,name,산이네회무침,platform,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,address,서울 마포구 동교로9길 97 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,rating,4.3,platform,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,review_count,56,platform,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-02,kakao,2026-10-16T07:54:19.481Z,https://place.map.kakao.com/13498159,text_menu_prices,"[[""광어회무침"", ""50,000원""], [""우럭회"", ""53,000원""], [""광어회"", ""50,000원""], [""물회"", ""43,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,name,퍼줄래대박집,platform,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,address,서울 마포구 월드컵로11길 8 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,rating,3.9,platform,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,review_count,60,platform,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-03,kakao,2026-10-16T07:54:20.251Z,https://place.map.kakao.com/1531690926,text_menu_prices,"[[""대패삼겹살(1인분)"", ""4,500원""], [""생삼겹살(1인분)"", ""13,000원""], [""삼겹살(1인분)"", ""8,900원""], [""목살(1인분)"", ""8,900원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,name,망원돈까스 본점,platform,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,address,서울 마포구 망원로8길 74 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,rating,4.2,platform,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,review_count,83,platform,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-04,kakao,2026-10-16T07:54:21.205Z,https://place.map.kakao.com/740043035,text_menu_prices,"[[""성북동돈까스"", ""13,500원""], [""돈까스 비빔모밀정식"", ""13,000원""], [""얼큰소우동정식"", ""13,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,name,청어람 망원점,platform,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,address,서울 마포구 망원로 97 창은빌딩 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,review_count,268,platform,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-05,kakao,2026-10-16T07:54:22.033Z,https://place.map.kakao.com/13292214,text_menu_prices,"[[""곱창전골(소)"", ""30,000원""], [""양깃머리(1인분)"", ""28,000원""], [""곱창(1인분)"", ""25,000원""], [""막창(1인분)"", ""25,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,name,고기도국수면,platform,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,address,서울 마포구 월드컵로29길 7 2층,unknown,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,rating,4.4,platform,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,review_count,61,platform,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,photo_count_display,907+,platform,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-06,kakao,2026-10-16T07:54:22.721Z,https://place.map.kakao.com/18208683,text_menu_prices,"[[""생삼겹갈비 (1인분)"", ""18,000원""], [""생삼겹살 (1인분)"", ""18,000원""], [""생목살 (1인분)"", ""18,000원""], [""김치말이 냉국수"", ""7,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,name,파동,platform,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,address,서울 마포구 월드컵로17길 47 지하1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,rating,3.8,platform,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,review_count,60,platform,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,store_information_paragraph,깔끔한 일식 덮밥및 소바 후토마끼를 제공하는 파동입니다🌊,unknown,observed,browser_rendered_dom,False
+MN26-MW-07,kakao,2026-10-16T07:54:23.496Z,https://place.map.kakao.com/524925693,text_menu_prices,"[[""후토마끼"", ""16,000원""], [""마제소바"", ""12,000원""], [""스테이크덮밥"", ""13,000원""], [""참치덮밥"", ""15,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,name,일등식당,platform,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,address,서울 마포구 방울내로 82 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,rating,4.1,platform,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,review_count,230,platform,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,photo_count_display,998+,platform,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-08,kakao,2026-10-16T07:54:24.196Z,https://place.map.kakao.com/16050121,text_menu_prices,"[[""해장국"", ""8,000원""], [""(특)해장국"", ""11,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,name,힛사츠와자,platform,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,address,서울 마포구 포은로 97-1 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,rating,4.2,platform,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,review_count,72,platform,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-09,kakao,2026-10-16T07:54:25.250Z,https://place.map.kakao.com/1582808897,text_menu_prices,[],unknown,names_observed_price_not_observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,name,오복식당,platform,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,address,서울 마포구 희우정로10길 35 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,rating,4.0,platform,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,review_count,34,platform,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,photo_count_display,652+,platform,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-10,kakao,2026-10-16T07:54:26.626Z,https://place.map.kakao.com/12059460,text_menu_prices,"[[""제육볶음"", ""10,000원""], [""오징어볶음"", ""10,000원""], [""된장찌개"", ""8,000원""], [""김치찌개(2인이상)"", ""9,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,name,순대일번지,platform,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,address,서울 마포구 월드컵로 117 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,rating,3.1,platform,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,review_count,140,platform,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-11,kakao,2026-10-16T07:54:32.278Z,https://place.map.kakao.com/16931682,text_menu_prices,"[[""순대국 (특)"", ""11,000원""], [""곱창순대"", ""19,000원""], [""순대국"", ""10,000원""], [""술국"", ""19,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,name,천지양꼬치,platform,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,address,서울 마포구 포은로 74,unknown,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,review_count,59,platform,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,photo_count_display,652+,platform,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-12,kakao,2026-10-16T07:54:33.205Z,https://place.map.kakao.com/17703669,text_menu_prices,"[[""양꼬치(1인)"", ""15,000원""], [""꿔바로우(탕수육)"", ""18,000원""], [""양갈비살(1인)"", ""17,000원""], [""양등갈비(1인)"", ""18,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,name,소문난순대국왕족발,platform,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,address,서울 마포구 망원로7길 36 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,rating,3.5,platform,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,review_count,43,platform,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,photo_count_display,405+,platform,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-13,kakao,2026-10-16T07:54:34.127Z,https://place.map.kakao.com/19011122,text_menu_prices,"[[""순대국밥"", ""10,000원""], [""편육"", ""13,000원""], [""따로순대국밥"", ""11,000원""], [""술국"", ""13,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,name,만복기사식당,platform,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,address,서울 마포구 희우정로 121 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,rating,2.8,platform,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,review_count,119,platform,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-14,kakao,2026-10-16T07:54:34.942Z,https://place.map.kakao.com/11969069,text_menu_prices,"[[""고추장불백(200g)"", ""11,000원""], [""고등어조림"", ""10,000원""], [""삼겹살(200g)"", ""13,000원""], [""간장불백(200g)"", ""11,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,name,엑소김밥,platform,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,address,서울 마포구 방울내로9안길 71 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,rating,4.6,platform,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,review_count,31,platform,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,photo_count_display,754+,platform,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-15,kakao,2026-10-16T07:54:35.817Z,https://place.map.kakao.com/597272081,text_menu_prices,"[[""와사비참치 김밥"", ""4,600원""], [""치즈프랑크 김밥"", ""5,200원""], [""마요햄치즈 김밥"", ""4,700원""], [""야채 김밥"", ""3,400원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,name,이치젠,platform,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,address,서울 마포구 포은로 109 1층 101호,unknown,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,rating,3.6,platform,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,review_count,283,platform,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,business_verification_label,false,platform,label_not_observed,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-16,kakao,2026-10-16T07:54:36.611Z,https://place.map.kakao.com/132500108,text_menu_prices,"[[""이치젠텐동"", ""12,000원""], [""스페셜텐동"", ""17,000원""], [""에비텐동"", ""13,000원""], [""아와비텐동"", ""15,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,name,소금집델리 망원,platform,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,address,서울 마포구 월드컵로19길 14 2층,unknown,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,rating,4.0,platform,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,review_count,379,platform,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,photo_count_display,999+,platform,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-17,kakao,2026-10-16T07:54:37.416Z,https://place.map.kakao.com/256064588,text_menu_prices,"[[""잠봉뵈르"", ""10,800원""], [""잠봉 선드라이드 토마토"", ""12,800원""], [""루벤"", ""13,800원""], [""잠봉 프로마쥬"", ""11,800원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,name,고향집감자탕 마포구청역점,platform,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,address,서울 마포구 방울내로 75 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,rating,4.5,platform,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,review_count,53,platform,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,photo_count_display,301+,platform,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-18,kakao,2026-10-16T07:54:38.230Z,https://place.map.kakao.com/19478261,text_menu_prices,"[[""감자탕(소)"", ""33,000원""], [""해물감자탕(소)"", ""37,000원""], [""낙지전골(2인)"", ""40,000원""], [""등뼈찜(중)"", ""43,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,name,고타이,platform,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,address,서울 마포구 포은로 86-1 1층,unknown,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,rating,4.7,platform,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,review_count,105,platform,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,photo_count_display,851+,platform,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-19,kakao,2026-10-16T07:54:39.058Z,https://place.map.kakao.com/1363548461,text_menu_prices,"[[""텃만꿍"", ""6,000원""], [""팟타이꿍"", ""12,000원""], [""팟카파오무쌉"", ""10,000원""], [""뿌님팟퐁가리"", ""23,000원""]]",unknown,observed_text_prices,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,name,10평파스타,platform,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,address,서울 마포구 망원로 88 삼성화원아파트 상가동 104호,unknown,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,rating,4.3,platform,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,review_count,26,platform,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,photo_count_display,328+,platform,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,platform_place_summary_present,true,platform_ai,observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,business_verification_label,true,platform,label_observed,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,store_information_paragraph,null,unknown,not_observed_in_home,browser_rendered_dom,False
+MN26-MW-20,kakao,2026-10-16T07:54:39.760Z,https://place.map.kakao.com/1181461605,text_menu_prices,"[[""마르게리따 피자"", ""15,500원""], [""빼쉐"", ""14,000원""], [""알리오 올리오"", ""11,900원""], [""까르보나라"", ""11,900원""]]",unknown,observed_text_prices,browser_rendered_dom,False

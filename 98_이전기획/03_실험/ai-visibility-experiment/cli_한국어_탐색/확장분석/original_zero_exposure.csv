@@ -1,0 +1,10 @@
+﻿entity_id,name_ko,area,cohort,phase,appearance_count,runs,appearance_rate,codex_rate,gemini_rate,general_count,general_runs,general_rate,general_wilson_low,general_wilson_high,top3_rate,mrr,original_address_matches
+MW-R03,황인호 크로켓,mangwon,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+MD-R09,고시레 명동본점,myeongdong,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+MD-R07,세븐티포 명동성당본점,myeongdong,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+MD-R08,하수오곰탕 명동점,myeongdong,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+SS-R10,돼지곰탕 하우 성수본점,seongsu,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+SS-R07,유어네이키드치즈,seongsu,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+SS-R06,잠수교집 성수 직영점,seongsu,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+SS-R04,칙피스 성수점,seongsu,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0
+SS-R05,퀴버 서울숲점,seongsu,original30_preselected,all,0,80,0.0,0.0,0.0,0,20,0.0,1.3877787807814457e-17,0.1611251580528119,0,0.0,0

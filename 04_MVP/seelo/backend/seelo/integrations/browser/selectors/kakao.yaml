@@ -1,0 +1,21 @@
+# 카카오 파트너센터(매장 > 매장정보) 셀렉터(09 8.4). 모든 값은 [PoC]:
+# 지인 가게에서 scripts/capture_admin_html.py로 실제 화면을 저장한 뒤 채운다(17 3.1).
+# 비어 있으면 자동 정비는 화면을 열지 않고 수동 처리로 넘긴다(AutomationBlocked selectors_missing).
+version: 1
+login:
+  url: "https://accounts.kakao.com/"
+  logged_in: ""
+pages:
+  store_list: { url: "https://business.kakao.com/", ready: "" }
+  info: { url_template: "", ready: "", not_found: "" }
+store_search:
+  row: ""
+  name: ""
+  link: ""
+  external_ref: ""
+attention:
+  no_owner_authority: ""   # 정보 수정 권한 없음 표시
+# 한 줄 소개(intro)만 입력 칸 하나다. 영업시간·가격 정보·링크·서비스·태그는 실제 화면을 본 뒤
+# kakao_partner.py에 칸별 함수로 더한다. 그 전에는 수동 처리.
+fields:
+  intro: { read: "", open_editor: "", input: "", save: "", saved_ready: "", review_badge: "" }

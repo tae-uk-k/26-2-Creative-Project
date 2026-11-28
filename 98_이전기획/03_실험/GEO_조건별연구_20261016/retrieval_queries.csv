@@ -1,0 +1,288 @@
+﻿prompt_id,area_id,intent,run_id,backend,repeat,requested_model,query_order,query,query_source
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R2,codex,2,gpt-6.1-sol,1,성수 서울숲 비건 식당 포리스트키친 발우공양 마히나 비건 지도,tool_trace
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R2,codex,2,gpt-6.1-sol,2,성수 비건 식당 몽크스부처 서울숲 플랜튜드 현재 영업,tool_trace
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R2,codex,2,gpt-6.1-sol,3,서울숲 성수 비건 식당 지도 카무플라주 레이지파머스,tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 망원동 망원시장 맛집 식당,tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R1,agy,1,Gemini 3.8 Flash (Low),2,"""망원동 즉석우동"" ""일등식당"" ""홍두깨손칼국수"" ""청어람"" 망원동 주소 영업시간",tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R1,agy,1,Gemini 3.8 Flash (Low),3,"""소바식당"" 망원동 주소 영업시간 메밀국수",tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 맛집 식당 추천 미쉐린 칼국수 돈까스,tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R1,agy,1,Gemini 3.8 Flash (Low),2,서울 명동 미쉐린 가이드 빕구르망 식당,tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R1,agy,1,Gemini 3.8 Flash (Low),3,명동 하동관 본점 주소 영업시간,tool_trace
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 비건 식당 플랜튜드 포리스트키친 네이버 지도,tool_trace
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R1,codex,1,gpt-6.1-sol,2,성수 서울숲 비건 식당 푸드더즈매터 몽크스부처,tool_trace
+SS-vegan,SS,vegan,GEO26-codex-SS-vegan-R1,codex,1,gpt-6.1-sol,3,Seongsu vegan restaurant happycow Seoul Forest vegan,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 1만원 이하 맛집 혼밥,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R1,agy,1,Gemini 3.8 Flash (Low),2,성수동 서울숲 뚝섬 김밥 칼국수 국밥 10000원 이하,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R1,agy,1,Gemini 3.8 Flash (Low),3,"""이오김밥"" ""서울숲"" 가격 네이버 지도",tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R1,agy,1,Gemini 3.8 Flash (Low),1,성수동 서울숲 맛집 식당 추천 2026 2025,tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R1,agy,1,Gemini 3.8 Flash (Low),2,"""할머니의 레시피"" 성수 주소 영업시간 네이버 지도",tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R1,agy,1,Gemini 3.8 Flash (Low),3,"""제스티살룬 성수"" ""온량"" 성수 주소 영업시간 네이버 지도",tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R2,codex,2,gpt-6.1-sol,1,망원동 식당 예약 캐치테이블 네이버 지도,tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R2,codex,2,gpt-6.1-sol,2,망원시장 식당 예약 테이블링 예약 가능,tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R2,codex,2,gpt-6.1-sol,3,"""타코닷"" ""예약"" ""map.naver.com""",tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R1,codex,1,gpt-6.1-sol,1,명동교자 본점 구글 지도 영업시간 주소,tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R1,codex,1,gpt-6.1-sol,2,명동 하동관 미성옥 카카오맵 영업시간,tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R1,codex,1,gpt-6.1-sol,3,명동교자 하동관 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps,tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 혼밥 1인 바 좌석 라멘 네이버 지도,tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R1,codex,1,gpt-6.1-sol,2,성수 서울숲 혼밥 1인 주문 쵸리상경 면공방,tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R1,codex,1,gpt-6.1-sol,3,서울숲 혼밥 라멘 멘야코노하 영업시간 주소,tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R1,codex,1,gpt-6.1-sol,1,명동 비건 식당 비건키친 지도,tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R1,codex,1,gpt-6.1-sol,2,Myeongdong vegan restaurant Osegyehyang Google Maps vegan,tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R1,codex,1,gpt-6.1-sol,3,명동 남산 비건 레스토랑 몽크스부처 플랜튜드,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R2,codex,2,gpt-6.1-sol,1,망원 비건 식당 지도 어라운드그린 비건키친,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R2,codex,2,gpt-6.1-sol,2,Mangwon vegan restaurant Google Maps restaurant,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R2,codex,2,gpt-6.1-sol,3,망원동 비건 식당 순수한둠 운영,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R2,codex,2,gpt-6.1-sol,1,명동 식당 전용 주차 무료 주차 세종호텔 왕비집 일품향 주차,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R2,codex,2,gpt-6.1-sol,2,명동 남산동 목멱산방 주차 남산돈까스 전용주차 네이버 지도,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R2,codex,2,gpt-6.1-sol,3,명동 라연 도림 롯데호텔서울 주차 레스토랑 공식,tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R2,agy,2,Gemini 3.8 Flash (Low),1,성수 서울숲 맛집 식당 추천 2026,tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R2,agy,2,Gemini 3.8 Flash (Low),2,"""난포"" ""할머니의 레시피"" ""제스티살룬"" 성수 영업 서울숲",tool_trace
+SS-general,SS,general,GEO26-agy-SS-general-R2,agy,2,Gemini 3.8 Flash (Low),3,"""팩피"" 성수동 서울숲 파스타 영업 주소",tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R1,agy,1,Gemini 3.8 Flash (Low),1,망원동 망원시장 식당 예약 캐치테이블 네이버예약,tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R1,agy,1,Gemini 3.8 Flash (Low),2,망원동 캐치테이블 예약 식당 파스타 와인바,tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R1,agy,1,Gemini 3.8 Flash (Low),3,망원동 식당 네이버 예약 한식 일식 양식,tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R1,codex,1,gpt-6.1-sol,1,망원동 혼밥 1인 바 좌석 헤키,tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R1,codex,1,gpt-6.1-sol,2,망원시장 혼밥 1인 식사 우이락,tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R1,codex,1,gpt-6.1-sol,3,망원동 혼밥 식당 바석 네이버 지도,tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R2,codex,2,gpt-6.1-sol,1,명동 혼밥 명동교자 미성옥 이남장 1인 바 좌석 영업시간,tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R2,codex,2,gpt-6.1-sol,2,명동 혼밥 혼자 바 좌석 1인 식사 구글 지도,tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R2,codex,2,gpt-6.1-sol,3,"""혼고집 명동"" (site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps)",tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 혼밥 식당 1인 2026,tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R1,agy,1,Gemini 3.8 Flash (Low),2,"""혼고집"" 명동 1인 불판 혼밥 네이버 플레이스",tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R1,agy,1,Gemini 3.8 Flash (Low),3,"""명동돈가스"" 주소 다찌 1인석",tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 1만원 이하 맛집 식당 혼밥 2026 OR 2025,tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R1,agy,1,Gemini 3.8 Flash (Low),2,명동 을지로입구 국밥 칼국수 백반 10000원 이하 혼밥,tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R1,agy,1,Gemini 3.8 Flash (Low),3,"명동 충무로 가성비 밥집 ""10,000원"" 이하 혼밥 식당",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R2,codex,2,gpt-6.1-sol,1,"성수 서울숲 식당 ""6인"" ""테이블""",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R2,codex,2,gpt-6.1-sol,2,"성수 서울숲 식당 ""6명"" ""네이버"" 예약",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R2,codex,2,gpt-6.1-sol,3,어부가 성수 르베지왕 성수공간 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com,tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R1,agy,1,Gemini 3.8 Flash (Low),1,망원시장 망원동 1만원 이하 식당 맛집 칼국수 국밥,tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R1,agy,1,Gemini 3.8 Flash (Low),2,망원 홍두깨손칼국수 고향집 네이버지도 카카오맵 메뉴 영업시간,tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R1,agy,1,Gemini 3.8 Flash (Low),3,망원시장 고향집 칼국수 주소 영업시간 네이버지도,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R2,codex,2,gpt-6.1-sol,1,명동 식당 예약 네이버지도 캐치테이블 명동교자 모도우 한우 다이닝,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R2,codex,2,gpt-6.1-sol,2,Myeongdong restaurant reservations official Wangbijib La Yeon reservation,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R2,codex,2,gpt-6.1-sol,3,"""왕비집 명동중앙점"" (""map.naver.com"" OR ""place.map.kakao.com"" OR ""google.com/maps"")",tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 식당 예약 캐치테이블 네이버예약,tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R1,agy,1,Gemini 3.8 Flash (Low),2,site:catchtable.co.kr 명동 맛집 예약,tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R1,agy,1,Gemini 3.8 Flash (Low),3,"""하이디라오 명동"" 예약 OR ""룸식당"" ""명동"" 네이버예약",tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R1,codex,1,gpt-6.1-sol,1,망원동 망원시장 아이랑 식당 우동 돈까스 네이버 지도,tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R1,codex,1,gpt-6.1-sol,2,망원동 헤키 우이락 아이 아기의자 영업시간,tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R1,codex,1,gpt-6.1-sol,3,망원동 망원시장 만두 칼국수 아이 식당 영업시간,tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R2,codex,2,gpt-6.1-sol,1,성수 서울숲 10000원 이하 혼밥 식당 국밥 김밥 2026 가격 네이버 지도,tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R2,codex,2,gpt-6.1-sol,2,성수 서울숲 행복한식당 홍보석 2026 메뉴 가격 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com,tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R2,codex,2,gpt-6.1-sol,3,성수 행복한식당 홍보석 2026 메뉴 가격 영업시간 혼밥,tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R2,agy,2,Gemini 3.8 Flash (Low),1,명동 가성비 맛집 1만원 이하 식당,tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R2,agy,2,Gemini 3.8 Flash (Low),2,명동 틈새라면 본점 가격 1인 식사,tool_trace
+MD-budget,MD,budget,GEO26-agy-MD-budget-R2,agy,2,Gemini 3.8 Flash (Low),3,명동 야마야 가쓰돈 또는 가성비 국밥 10000원 이하,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R2,agy,2,Gemini 3.8 Flash (Low),1,성수동 서울숲 혼밥 1만원 이하 식당,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R2,agy,2,Gemini 3.8 Flash (Low),2,성수 서울숲 백반 국밥 분식 1만원 이하 식당,tool_trace
+SS-budget,SS,budget,GEO26-agy-SS-budget-R2,agy,2,Gemini 3.8 Flash (Low),3,비사벌전주콩나물국밥 성수 가격 메뉴,tool_trace
+MW-solo,MW,solo,GEO26-agy-MW-solo-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 망원동 망원시장 혼밥 1인 식당 추천 바 테이블 카운터석,tool_trace
+MW-solo,MW,solo,GEO26-agy-MW-solo-R1,agy,1,Gemini 3.8 Flash (Low),2,"""망원시장"" 혼밥 식당 네이버 지도 카카오맵",tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R1,codex,1,gpt-6.1-sol,1,망원동 식당 주차 가능 전용 주차 망원시장,tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R1,codex,1,gpt-6.1-sol,2,"망원동 식당 ""주차"" ""제휴"" ",tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R1,codex,1,gpt-6.1-sol,3,"망원동 식당 ""주차장"" ""전용""",tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R1,agy,1,Gemini 3.8 Flash (Low),1,"""망원동"" OR ""망원시장"" 식당 ""주차 가능"" OR ""전용 주차"" OR ""무료 주차"" 맛집",tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R1,agy,1,Gemini 3.8 Flash (Low),2,"site:blog.naver.com 망원동 식당 ""주차 가능"" OR ""가게 앞 주차"" OR ""발렛""",tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R1,agy,1,Gemini 3.8 Flash (Low),3,"망원동 맛집 ""전용주차장"" OR ""무료주차"" 식당",tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R1,agy,1,Gemini 3.8 Flash (Low),1,명동 비건 식당 채식 비건옵션,tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R1,agy,1,Gemini 3.8 Flash (Low),2,"""명동"" ""비건키친"" 주소 메뉴 영업",tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R1,agy,1,Gemini 3.8 Flash (Low),3,"""명동"" ""채식"" OR ""비건"" 식당 네이버 플레이스 카카오맵",tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 혼밥 10000원 2026 뚝도농원 소문난성수감자탕 성수동 분식 가격,tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R1,codex,1,gpt-6.1-sol,2,서울숲 성수 식당 8000원 9000원 혼밥 메뉴 가격 2026 네이버 지도,tool_trace
+SS-budget,SS,budget,GEO26-codex-SS-budget-R1,codex,1,gpt-6.1-sol,3,"""성수옥"" ""서울숲"" ""네이버"" 지도",tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 식당 전용 주차 제휴 주차 네이버 지도,tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R1,codex,1,gpt-6.1-sol,2,서울숲 한우 주차 발렛 성수 식당 주차 가능,tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R1,codex,1,gpt-6.1-sol,3,성수동 식당 전용주차 소문난성수감자탕 대성갈비 누메로도스,tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R2,codex,2,gpt-6.1-sol,1,서울숲 성수 가족 아이 동반 소바식당 온량 델리쎄 네이버 지도 메뉴,tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R2,codex,2,gpt-6.1-sol,2,서울숲 온량 유아의자 아이 동반 돈까스 네이버 지도,tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R2,codex,2,gpt-6.1-sol,3,"성수 서울숲 식당 ""유아의자"" ""map.naver.com""",tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R2,codex,2,gpt-6.1-sol,1,망원시장 식당 혼밥 10000원 홍두깨손칼국수 고향집 메뉴 가격 지도,tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R2,codex,2,gpt-6.1-sol,2,망원동 망원시장 식당 1인 식사 메뉴 가격 2026 네이버 지도 카카오맵,tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R2,codex,2,gpt-6.1-sol,3,"""망원"" ""홍두깨손칼국수"" 가격 영업시간",tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 식당 네이버 지도 카카오맵 난포 쵸리상경,tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R1,codex,1,gpt-6.1-sol,2,성수 서울숲 식당 현재 영업 서울앵무새 소문난성수감자탕,tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R1,codex,1,gpt-6.1-sol,3,서울숲 식당 난포 쵸리상경 서울숲정원 영업시간 주소,tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R1,codex,1,gpt-6.1-sol,1,명동 혼밥 10000원 미만 이삭토스트 명동성당점 김밥천국 명동역점 가격 영업,tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R1,codex,1,gpt-6.1-sol,2,명동 충무김밥 2026 가격 10000,tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R1,codex,1,gpt-6.1-sol,3,명동 할머니국수 2026 메뉴 가격 영업,tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R2,agy,2,Gemini 3.8 Flash (Low),1,명동 아이랑 식당 아이 동반 맛집 안매운 메뉴,tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R2,agy,2,Gemini 3.8 Flash (Low),2,"""딘타이펑 명동점"" ""아기의자"" OR ""아이"" 서울 중구 명동",tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R2,agy,2,Gemini 3.8 Flash (Low),3,"""하동관 명동본점"" 주소 영업시간 아이 곰탕",tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R1,agy,1,Gemini 3.8 Flash (Low),1,망원동 망원시장 맛집 6인 테이블 식당 단체석,tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R1,agy,1,Gemini 3.8 Flash (Low),2,"망원동 ""청어람"" 망원본점 6인 단체석 테이블 네이버 지도",tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R1,agy,1,Gemini 3.8 Flash (Low),3,"망원동 식당 ""6인"" ""한 테이블"" OR ""6인석"" 망원시장 네이버 플레이스",tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 식당 캐치테이블 예약 네이버예약,tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R2,agy,2,Gemini 3.8 Flash (Low),2,"망원동 망원시장 ""네이버 예약"" 식당 맛집",tool_trace
+MW-reservation,MW,reservation,GEO26-agy-MW-reservation-R2,agy,2,Gemini 3.8 Flash (Low),3,"망원동 ""레이키친"" 네이버 지도",tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 망원동 망원시장 비건 식당 채식,tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R2,agy,2,Gemini 3.8 Flash (Low),2,망원동 어라운드그린 다이너재키 영업 여부 2025 2026,tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R2,agy,2,Gemini 3.8 Flash (Low),3,망원동 비건 식당 네이버 지도 카카오맵 2025 2026,tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 성수 서울숲 식당 예약 캐치테이블 네이버예약,tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R2,agy,2,Gemini 3.8 Flash (Low),2,호호식당 성수 네이버 지도 네이버플레이스 서울 성동구 서울숲,tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R2,agy,2,Gemini 3.8 Flash (Low),3,"""오레노카츠 성수본점"" 네이버예약 서울 성동구 성수동",tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R2,codex,2,gpt-6.1-sol,1,명동 식당 2026 10000원 혼밥 김밥 라면 네이버지도 이삭토스트 명동교자,tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R2,codex,2,gpt-6.1-sol,2,명동 충무김밥 가격 네이버 지도 식사,tool_trace
+MD-budget,MD,budget,GEO26-codex-MD-budget-R2,codex,2,gpt-6.1-sol,3,명동 할머니국수 가격 영업시간 지도,tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R2,agy,2,Gemini 3.8 Flash (Low),1,"성수 서울숲 맛집 식당 ""전용 주차"" OR ""무료 주차"" OR ""발렛"" OR ""주차 지원""",tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R2,agy,2,Gemini 3.8 Flash (Low),2,"""고집132 성수본점"" 주차",tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R2,agy,2,Gemini 3.8 Flash (Low),3,"""살롱드호우섬"" 디타워 주차 서울숲",tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 망원시장 망원동 가성비 맛집 혼밥 1만원 이하 식당 메뉴 가격,tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R2,agy,2,Gemini 3.8 Flash (Low),2,망원시장 망원식당 고향집 홍두깨손칼국수 네이버 플레이스 메뉴 가격,tool_trace
+MW-budget,MW,budget,GEO26-agy-MW-budget-R2,agy,2,Gemini 3.8 Flash (Low),3,망원시장 망원식당 주소 메뉴 가격,tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 6명 한 테이블 식당 단체석 네이버 지도,tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R1,agy,1,Gemini 3.8 Flash (Low),2,"성수동 서울숲 ""6인"" ""한 테이블"" OR ""6명"" 식당 단체석 예약 네이버 플레이스",tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R1,agy,1,Gemini 3.8 Flash (Low),3,"""스케줄 성수"" ""심퍼티쿠시 성수"" 단체석 6인 네이버 지도",tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R1,codex,1,gpt-6.1-sol,1,망원동 망원시장 식당 예약 네이버지도 캐치테이블 예약,tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R1,codex,1,gpt-6.1-sol,2,망원 아벡재이 타코닷 예약 site:map.naver.com OR site:place.naver.com OR site:place.map.kakao.com OR site:google.com/maps,tool_trace
+MW-reservation,MW,reservation,GEO26-codex-MW-reservation-R1,codex,1,gpt-6.1-sol,3,"""아벡재이"" ""예약"" ""2026""",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R1,codex,1,gpt-6.1-sol,1,"성수 서울숲 식당 ""6인"" ""예약"" 네이버",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R1,codex,1,gpt-6.1-sol,2,"성수 서울숲 식당 ""6명"" ""테이블""",tool_trace
+SS-group,SS,group,GEO26-codex-SS-group-R1,codex,1,gpt-6.1-sol,3,"""호호식당 성수"" ""map.naver.com"" OR ""place.map.kakao.com"" OR ""영업시간"" ""룸""",tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R2,codex,2,gpt-6.1-sol,1,명동 비건 식당 비건키친 플랜튜드 남산 해방촌 지도 영업,tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R2,codex,2,gpt-6.1-sol,2,"Myeongdong vegan restaurant ""Vegan Kitchen"" google maps",tool_trace
+MD-vegan,MD,vegan,GEO26-codex-MD-vegan-R2,codex,2,gpt-6.1-sol,3,명동 비건 키친 비건 인사동 오세계향 네이버 지도 영업시간,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R1,codex,1,gpt-6.1-sol,1,망원 비건 식당 비건식당 지도 우부래도 어라운드그린,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R1,codex,1,gpt-6.1-sol,2,망원 어라운드그린 띵크비건 가원 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com,tool_trace
+MW-vegan,MW,vegan,GEO26-codex-MW-vegan-R1,codex,1,gpt-6.1-sol,3,망원 띵크비건 어라운드그린 2026 영업 비건,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R1,codex,1,gpt-6.1-sol,1,명동 식당 주차 가능 전용주차 네이버 지도 일품향 동보성 세종호텔,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R1,codex,1,gpt-6.1-sol,2,명동 주차 식당 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps,tool_trace
+MD-parking,MD,parking,GEO26-codex-MD-parking-R1,codex,1,gpt-6.1-sol,3,명동 롯데호텔 도림 라세느 주차 3시간 레스토랑,tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R1,agy,1,Gemini 3.8 Flash (Low),1,"성수 서울숲 맛집 식당 ""전용 주차"" OR ""무료 주차"" OR ""제휴 주차"" OR ""주차 지원"" -카페",tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R1,agy,1,Gemini 3.8 Flash (Low),2,"""디타워 서울숲"" OR ""디타워 서울포레스트"" 맛집 식당 주차 지원 ""보일링랍스터"" OR ""살롱드호우섬"" OR ""중화가정"" OR ""정돈성수""",tool_trace
+SS-parking,SS,parking,GEO26-agy-SS-parking-R1,agy,1,Gemini 3.8 Flash (Low),3,"성수 식당 ""전용 주차장"" OR ""발렛파킹"" OR ""발렛"" ""소문난성수감자탕"" OR ""대성갈비"" OR ""할머니의레시피"" OR ""난포""",tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 맛집 식당 2026,tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R2,agy,2,Gemini 3.8 Flash (Low),2,네이버 지도 명동교자 본점 서울 중구 명동10길 29,tool_trace
+MD-general,MD,general,GEO26-agy-MD-general-R2,agy,2,Gemini 3.8 Flash (Low),3,하동관 명동본점 서울 중구 명동9길 12 미성옥 서울 중구 명동길 25-11,tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 성수 서울숲 비건 식당 채식,tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R2,agy,2,Gemini 3.8 Flash (Low),2,성수 서울숲 비건 옵션 식당 칙피스 카나비,tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R2,agy,2,Gemini 3.8 Flash (Low),3,칙피스 성수점 네이버 지도 영업,tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R2,agy,2,Gemini 3.8 Flash (Low),1,성수 서울숲 6인 단체 식당 한 테이블,tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R2,agy,2,Gemini 3.8 Flash (Low),2,스케줄 성수 네이버 지도 6인 테이블 예약,tool_trace
+SS-group,SS,group,GEO26-agy-SS-group-R2,agy,2,Gemini 3.8 Flash (Low),3,서우 서울숲 중식 네이버 지도 단체 룸,tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 비건 식당 채식 비건옵션,tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R2,agy,2,Gemini 3.8 Flash (Low),2,"명동 비건 식당 ""비건키친"" OR ""Korea Vegan Kitchen""",tool_trace
+MD-vegan,MD,vegan,GEO26-agy-MD-vegan-R2,agy,2,Gemini 3.8 Flash (Low),3,"서울 중구 종로 비건 식당 ""오세계향"" OR ""산촌"" OR ""마지"" 채식",tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R2,codex,2,gpt-6.1-sol,1,망원 혼밥 식당 1인 바 좌석 헤키,tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R2,codex,2,gpt-6.1-sol,2,망원시장 혼밥 우이락 만두란 1인 식사,tool_trace
+MW-solo,MW,solo,GEO26-codex-MW-solo-R2,codex,2,gpt-6.1-sol,3,망원동 혼밥 헤키 소금집 델리 카카오맵 영업,tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 맛집 식당 네이버 예약 캐치테이블 예약,tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R1,agy,1,Gemini 3.8 Flash (Low),2,"성수 ""호호식당"" 네이버 예약 서울 성동구 서울숲",tool_trace
+SS-reservation,SS,reservation,GEO26-agy-SS-reservation-R1,agy,1,Gemini 3.8 Flash (Low),3,"성수 ""미테이블"" 네이버 예약 성동구 서울숲",tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R1,codex,1,gpt-6.1-sol,1,망원시장 식당 홍두깨손칼국수 만원 가격 네이버 지도,tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R1,codex,1,gpt-6.1-sol,2,망원동 망원시장 혼밥 10000원 우이락 망원동즉석우동 가격,tool_trace
+MW-budget,MW,budget,GEO26-codex-MW-budget-R1,codex,1,gpt-6.1-sol,3,망원시장 망원동 맛집 한끼 가격 2026 2025 칼국수 국밥,tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 망원시장 맛집 6명 단체 테이블 한테이블 식당,tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R2,agy,2,Gemini 3.8 Flash (Low),2,망원동 망원시장 6인 한 테이블 식당 네이버 지도 단체석,tool_trace
+MW-group,MW,group,GEO26-agy-MW-group-R2,agy,2,Gemini 3.8 Flash (Low),3,site:map.naver.com 망원동 식당 6인 단체 이용 가능,tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 맛집 식당 전용 주차 무료주차 발렛 제휴 주차,tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R1,agy,1,Gemini 3.8 Flash (Low),2,명동정 주차 네이버 플레이스 카카오맵,tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R1,agy,1,Gemini 3.8 Flash (Low),3,"""주차 가능"" 식당 명동 ""무료주차"" OR ""주차 지원"" -카페",tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 아이랑 식당 아기의자 안매운 메뉴,tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R1,agy,1,Gemini 3.8 Flash (Low),2,서울로인 서울숲점 네이버지도 위치 메뉴 운영,tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R1,agy,1,Gemini 3.8 Flash (Low),3,소녀방앗간 서울숲 정돈 성수점 주소 운영 메뉴,tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R2,codex,2,gpt-6.1-sol,1,서울숲 성수 레스토랑 예약 네이버지도 캐치테이블,tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R2,codex,2,gpt-6.1-sol,2,성수 서울숲 식당 예약 카카오맵 구글맵 목금 세스크멘슬 란주쿠,tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R2,codex,2,gpt-6.1-sol,3,미테이블 성수 site:map.naver.com OR site:place.map.kakao.com OR site:maps.google.com,tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 맛집 식당 무료 주차 전용주차 제휴주차,tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R2,agy,2,Gemini 3.8 Flash (Low),2,"""명동정"" 주차 서울 중구 삼일대로",tool_trace
+MD-parking,MD,parking,GEO26-agy-MD-parking-R2,agy,2,Gemini 3.8 Flash (Low),3,"""딘타이펑 명동점"" 주차 증빙 지원",tool_trace
+MW-solo,MW,solo,GEO26-agy-MW-solo-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 망원시장 혼밥 1인 식당,tool_trace
+MW-solo,MW,solo,GEO26-agy-MW-solo-R2,agy,2,Gemini 3.8 Flash (Low),2,망원동 이치젠 텐동 망원시장 혼밥,tool_trace
+MW-solo,MW,solo,GEO26-agy-MW-solo-R2,agy,2,Gemini 3.8 Flash (Low),3,망원시장 고향집 칼국수 혼밥,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R1,agy,1,Gemini 3.8 Flash (Low),1,망원동 망원시장 맛집 아이랑 식당 아이 메뉴,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R1,agy,1,Gemini 3.8 Flash (Low),2,망원동 아이랑 식당 돈까스 파스타 한식 망원시장,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R1,agy,1,Gemini 3.8 Flash (Low),3,망원동 즉석우동 홍두깨손칼국수 네이버 지도 주소 영업시간,tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 혼밥 1인 식당 추천,tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R2,agy,2,Gemini 3.8 Flash (Low),2,명동 혼고집 명동교자 명동돈가스 혼밥 카카오맵 네이버 지도,tool_trace
+MD-solo,MD,solo,GEO26-agy-MD-solo-R2,agy,2,Gemini 3.8 Flash (Low),3,하동관 명동본점 혼밥 카카오맵 네이버 지도,tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R2,codex,2,gpt-6.1-sol,1,성수 서울숲 식당 네이버지도 카카오맵 난포 쵸리상경,tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R2,codex,2,gpt-6.1-sol,2,성수 서울숲 맛집 운영시간 주소 2026,tool_trace
+SS-general,SS,general,GEO26-codex-SS-general-R2,codex,2,gpt-6.1-sol,3,"""소문난성수감자탕"" ""map.naver.com"" ""place.map.kakao.com"" 영업시간",tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 식당 예약 네이버 지도 캐치테이블,tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R1,codex,1,gpt-6.1-sol,2,성수 서울숲 식당 예약 카카오맵 구글 지도,tool_trace
+SS-reservation,SS,reservation,GEO26-codex-SS-reservation-R1,codex,1,gpt-6.1-sol,3,스케줄 성수 서울숲 예약 영업시간 주소 캐치테이블,tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 혼밥 식당 1인석,tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R1,agy,1,Gemini 3.8 Flash (Low),2,성수 멘야하나비 죠죠 카린지 혼밥 1인석,tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R1,agy,1,Gemini 3.8 Flash (Low),3,"""성수고등어"" 서울 성동구 혼밥",tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R2,agy,2,Gemini 3.8 Flash (Low),1,성수 서울숲 혼밥 식당 바테이블 1인,tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R2,agy,2,Gemini 3.8 Flash (Low),2,"""도가 성수본점"" 혼밥 바테이블 위치",tool_trace
+SS-solo,SS,solo,GEO26-agy-SS-solo-R2,agy,2,Gemini 3.8 Flash (Low),3,"""멘야코노하 성수"" OR ""윤경양식당"" 성수 서울숲 혼밥 바테이블",tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R2,codex,2,gpt-6.1-sol,1,명동교자 명동본점 구글 지도 영업시간,tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R2,codex,2,gpt-6.1-sol,2,명동 하동관 미성옥 네이버 지도 영업시간,tool_trace
+MD-general,MD,general,GEO26-codex-MD-general-R2,codex,2,gpt-6.1-sol,3,명동 왕비집 본점 목멱산방 영업시간 공식,tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R1,agy,1,Gemini 3.8 Flash (Low),1,서울 명동 아이랑 식당 불고기 칼국수 곰탕 덜 매운,tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R1,agy,1,Gemini 3.8 Flash (Low),2,하동관 본점 명동 영업시간 주소 메뉴,tool_trace
+MD-child,MD,child,GEO26-agy-MD-child-R1,agy,1,Gemini 3.8 Flash (Low),3,명동교자 본점 서울 중구 명동10길 29 영업시간 칼국수 만두,tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R2,codex,2,gpt-6.1-sol,1,성수 서울숲 식당 전용 주차 제휴 주차 네이버 지도,tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R2,codex,2,gpt-6.1-sol,2,성수동 서울숲 식당 주차 가능 발렛 전용주차,tool_trace
+SS-parking,SS,parking,GEO26-codex-SS-parking-R2,codex,2,gpt-6.1-sol,3,서울숲 갤러리아포레 식당 주차 매드포갈릭 메종파이프,tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 식당 네이버 예약 캐치테이블 예약,tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R2,agy,2,Gemini 3.8 Flash (Low),2,"명동 맛집 ""네이버 예약"" site:map.naver.com OR site:catchtable.co.kr",tool_trace
+MD-reservation,MD,reservation,GEO26-agy-MD-reservation-R2,agy,2,Gemini 3.8 Flash (Low),3,"""강남면옥 명동점"" ""명동정"" ""왕비집 명동본점"" 주소 네이버 예약",tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R1,codex,1,gpt-6.1-sol,1,명동 혼밥 1인석 이치란 라멘 명동교자 네이버 지도,tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R1,codex,1,gpt-6.1-sol,2,명동 혼밥 혼자 좌석 1인 주문 미성옥 하동관,tool_trace
+MD-solo,MD,solo,GEO26-codex-MD-solo-R1,codex,1,gpt-6.1-sol,3,명동교자 본점 영업시간 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps,tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R1,codex,1,gpt-6.1-sol,1,망원동 망원시장 맛집 식당 네이버지도 카카오맵 영업시간 소금집 델리 헤키 청어람,tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R1,codex,1,gpt-6.1-sol,2,"site.place.naver.com restaurant 망원 ""소금집""",tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R1,codex,1,gpt-6.1-sol,3,site:place.map.kakao.com 망원 식당 타코닷 헤키 청어람,tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 망원시장 맛집 식당 추천,tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R2,agy,2,Gemini 3.8 Flash (Low),2,"망원동 ""일등식당"" ""홍두깨손칼국수"" ""우이락"" 네이버 지도",tool_trace
+MW-general,MW,general,GEO26-agy-MW-general-R2,agy,2,Gemini 3.8 Flash (Low),3,"망원동 식당 ""헤이로지"" OR ""진진"" OR ""태양식당"" OR ""망원동즉석우동"" 지도 주소",tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R1,agy,1,Gemini 3.8 Flash (Low),1,성수 서울숲 비건 식당 식사,tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R1,agy,1,Gemini 3.8 Flash (Low),2,성수동 비건 칡넝쿨식당 도토리묵,tool_trace
+SS-vegan,SS,vegan,GEO26-agy-SS-vegan-R1,agy,1,Gemini 3.8 Flash (Low),3,"""코스모스상점"" 성수 비건 버거",tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R2,codex,2,gpt-6.1-sol,1,성수 서울숲 혼밥 라멘 바 좌석 1인 네이버 지도,tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R2,codex,2,gpt-6.1-sol,2,서울숲 혼밥 쵸리상경 1인 메뉴 영업,tool_trace
+SS-solo,SS,solo,GEO26-codex-SS-solo-R2,codex,2,gpt-6.1-sol,3,성수 혼밥 멘야코노하 혼자 카운터 영업,tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R2,agy,2,Gemini 3.8 Flash (Low),1,서울숲 성수 아이랑 식당 아기랑 덜매운 어린이 메뉴,tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R2,agy,2,Gemini 3.8 Flash (Low),2,"""서울로인 서울숲점"" ""호호식당 성수"" 주소 지도",tool_trace
+SS-child,SS,child,GEO26-agy-SS-child-R2,agy,2,Gemini 3.8 Flash (Low),3,"""소녀방앗간 서울숲"" 주소 메뉴",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R1,codex,1,gpt-6.1-sol,1,"명동 식당 ""6인"" ""테이블"" 명동교자 왕비집",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R1,codex,1,gpt-6.1-sol,2,"명동 ""6명"" ""한 테이블"" 식당 네이버",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R1,codex,1,gpt-6.1-sol,3,명동 왕비집 6인 테이블 영업시간 구글 지도,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R1,codex,1,gpt-6.1-sol,1,명동 가족 아이 명동교자 하동관 미성옥 구글 지도 메뉴 영업시간,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R1,codex,1,gpt-6.1-sol,2,명동 식당 유아의자 아기 돈까스 네이버 지도,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R1,codex,1,gpt-6.1-sol,3,명동교자 본점 site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R1,codex,1,gpt-6.1-sol,1,명동 식당 예약 네이버 지도 캐치테이블 한식 명동교자 모담,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R1,codex,1,gpt-6.1-sol,2,site.lottehotel.com 서울 무궁화 도림 라세느 예약 명동,tool_trace
+MD-reservation,MD,reservation,GEO26-codex-MD-reservation-R1,codex,1,gpt-6.1-sol,3,명동 예약 식당 site.map.naver.com OR site.place.map.kakao.com OR site.google.com,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 망원시장 아이랑 식당 아기랑 맛집,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R2,agy,2,Gemini 3.8 Flash (Low),2,망원동 헤키 망원동즉석우동 주소 영업시간,tool_trace
+MW-child,MW,child,GEO26-agy-MW-child-R2,agy,2,Gemini 3.8 Flash (Low),3,망원동 소바식당 성미골 주소 메뉴,tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R2,codex,2,gpt-6.1-sol,1,망원동 식당 전용주차 주차 가능 망원시장,tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R2,codex,2,gpt-6.1-sol,2,망원동 식당 제휴주차 주차장 네이버 지도,tool_trace
+MW-parking,MW,parking,GEO26-codex-MW-parking-R2,codex,2,gpt-6.1-sol,3,"망원동 맛집 ""주차"" ""전용"" 식당 -site:reddit.com -부동산",tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R2,codex,2,gpt-6.1-sol,1,"망원동 망원시장 식당 ""6인"" ""테이블"" 네이버",tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R2,codex,2,gpt-6.1-sol,2,"망원동 식당 ""6명"" ""한 테이블""",tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R2,codex,2,gpt-6.1-sol,3,헤키 망원 영업시간 네이버 지도 카카오맵 6인,tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R2,codex,2,gpt-6.1-sol,1,망원동 망원시장 아이 동반 식당 우동 돈까스 네이버 지도,tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R2,codex,2,gpt-6.1-sol,2,"""망원돈까스"" ""유아"" 네이버",tool_trace
+MW-child,MW,child,GEO26-codex-MW-child-R2,codex,2,gpt-6.1-sol,3,"""망원동즉석우동"" ""place.naver.com""",tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R1,codex,1,gpt-6.1-sol,1,성수 서울숲 식당 어린이 동반 가능 아기의자 돈까스 파스타 네이버 지도,tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R1,codex,1,gpt-6.1-sol,2,서울숲 온량 어린이 동반 메뉴 영업시간,tool_trace
+SS-child,SS,child,GEO26-codex-SS-child-R1,codex,1,gpt-6.1-sol,3,성수동 소년식당 어린이 동반 메뉴 영업시간,tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R2,codex,2,gpt-6.1-sol,1,망원동 망원시장 식당 네이버지도 카카오맵 소금집 델리 헤키 정돈,tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R2,codex,2,gpt-6.1-sol,2,"""망원"" ""식당"" site:place.map.kakao.com",tool_trace
+MW-general,MW,general,GEO26-codex-MW-general-R2,codex,2,gpt-6.1-sol,3,"""망원"" ""소금집"" ""헤키"" 영업시간",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R2,codex,2,gpt-6.1-sol,1,"명동 식당 ""6인"" ""테이블"" 명동교자 왕비집",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R2,codex,2,gpt-6.1-sol,2,"명동 회현 식당 ""6명"" ""테이블"" 예약",tool_trace
+MD-group,MD,group,GEO26-codex-MD-group-R2,codex,2,gpt-6.1-sol,3,명동 왕비집 명동본점 영업시간 주소 네이버 지도,tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R1,agy,1,Gemini 3.8 Flash (Low),1,명동 맛집 6인 테이블 식당 룸 식사,tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R1,agy,1,Gemini 3.8 Flash (Low),2,명동정 네이버 지도 매장 정보 단체석 룸,tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R1,agy,1,Gemini 3.8 Flash (Low),3,사유의서재 남산 단체석 6인 테이블 예약 네이버 지도,tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R1,codex,1,gpt-6.1-sol,1,"망원동 망원시장 식당 ""6인"" ""테이블""",tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R1,codex,1,gpt-6.1-sol,2,"망원동 식당 ""단체"" ""네이버"" 6명",tool_trace
+MW-group,MW,group,GEO26-codex-MW-group-R1,codex,1,gpt-6.1-sol,3,"망원 식당 ""6인"" ""테이블"" (site:map.naver.com OR site:place.map.kakao.com OR site:google.com/maps OR ""고기"" OR ""식당"")",tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R2,agy,2,Gemini 3.8 Flash (Low),1,망원동 망원시장 맛집 전용주차 제휴주차 주차 가능 식당,tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R2,agy,2,Gemini 3.8 Flash (Low),2,"망원동 식당 ""전용 주차장"" OR ""주차 지원"" OR ""무료 주차""",tool_trace
+MW-parking,MW,parking,GEO26-agy-MW-parking-R2,agy,2,Gemini 3.8 Flash (Low),3,"site:map.naver.com 망원동 식당 ""주차 가능"" OR ""무료주차"" OR ""전용주차""",tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R2,agy,2,Gemini 3.8 Flash (Low),1,서울 명동 식당 6인 단체 테이블 네이버 지도,tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R2,agy,2,Gemini 3.8 Flash (Low),2,청기와타운 을지로점 네이버 플레이스 단체석 6인,tool_trace
+MD-group,MD,group,GEO26-agy-MD-group-R2,agy,2,Gemini 3.8 Flash (Low),3,왕비집 명동본점 단체석 6인 네이버 지도,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R2,codex,2,gpt-6.1-sol,1,명동 가족 아이 식당 명동교자 하동관 미성옥 구글 지도 메뉴 영업시간,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R2,codex,2,gpt-6.1-sol,2,명동 아이 동반 식당 돈까스 명동돈가스 네이버 지도 영업시간,tool_trace
+MD-child,MD,child,GEO26-codex-MD-child-R2,codex,2,gpt-6.1-sol,3,명동교자 하동관 미성옥 어린이 동반 맵 영업시간 메뉴,tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R1,agy,1,Gemini 3.8 Flash (Low),1,망원동 망원시장 비건 식당 채식,tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R1,agy,1,Gemini 3.8 Flash (Low),2,망원동 어라운드그린 샐러마리 다이너재키 영업 여부 2024 2025,tool_trace
+MW-vegan,MW,vegan,GEO26-agy-MW-vegan-R1,agy,1,Gemini 3.8 Flash (Low),3,망원동 대안부엌 풀 카카오맵 네이버 플레이스 위치 메뉴 비건,tool_trace

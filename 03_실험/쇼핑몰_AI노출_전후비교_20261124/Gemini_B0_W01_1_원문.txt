@@ -1,0 +1,177 @@
+B0 / Gemini / W01 / 반복 1
+시각(UTC): 2026-11-23T18:10:33.393Z
+환경: 비로그인, 새 대화, 자동 모드, 웹 검색 표시 확인, 세부 모델명 미표시
+
+- main:
+  - link "새 채팅":
+    - /url: /
+    - generic: Gemini
+  - text: side_nav_expand
+  - navigation "측면 탐색 메뉴":
+    - button "사이드바 닫기" [expanded]:
+      - img: side_nav
+    - navigation "기본 작업 메뉴":
+      - link "새 채팅":
+        - /url: /app
+        - img: gemini_chat
+        - generic: 새 채팅
+    - navigation "추가 작업 메뉴":
+      - link "이미지":
+        - /url: /images
+        - img: image_create
+        - generic: 이미지
+    - img: info
+    - text: 활동을 저장하려면
+    - link "로그인":
+      - /url: "#"
+    - text: 하세요.
+    - button "설정":
+      - img: settings
+      - generic: 설정
+    - button "로그인":
+      - generic: 로그인
+    - button "앱 다운로드":
+      - img: download
+      - generic: 앱 다운로드
+  - heading "Gemini와의 대화" [level=1]
+  - heading "말씀하신 내용 수박씨를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마." [level=5]
+  - paragraph: 수박씨를 원료로 한 300g 단백질 분말을 찾아줘. 웹에서 제품을 찾아 3개까지 소개해줘. 제품명, 판매처, 근거 링크와 선택 이유를 알려줘. 확인되지 않은 정보는 추정하지 마.
+  - button "프롬프트 복사":
+    - img: copy
+  - button "수정":
+    - img: edit
+  - heading "Gemini의 응답" [level=6]
+  - paragraph:
+    - text: 웹 검색 결과,
+    - generic: 100% 수박씨 단일 원료만으로 구성된 300g 소매 완제품
+    - text: "은 B2B 대량 벌크(1kg~25kg)나 다른 용량(예: 12oz/약 340g, 16oz/454g, 2lb/910g 등) 위주로 유통되어 300g 단일 원료 제품은 확인되지 않았습니다."
+    - superscript
+    - button "Beton Nutrition의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Beton Nutrition
+  - paragraph:
+    - text: 대신
+    - generic: 수박씨 단백질(Watermelon Seed Protein)이 핵심 원료로 배합되어 있으며, 실제 온라인에서 300g 용량으로 판매가 확인된 식물성 단백질 분말 완제품 3가지
+    - text: 를 정리했습니다.
+    - superscript
+    - button "Ubuy Hong Kong의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Ubuy Hong Kong
+  - heading "1. USN BlueLab® 100% Plant Protein (300g)" [level=3]
+  - list:
+    - paragraph: "판매처: USN 공식 온라인 스토어 (남아프리카공화국 스토어 등)"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "USN Global 제품 페이지":
+        - /url: https://za.usn.global/products/bluelab-100-plant-protein-300-g-750-g-900-g
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph: 제품 옵션 중 300g 규격이 공식적으로 확인됩니다.
+      - paragraph:
+        - text: 완두콩 단백질 농축물과 함께
+        - generic: 수박씨 단백질(Watermelon seed protein)
+        - text: 및 호박씨 단백질(Smooth Protein™)이 배합되어 1회 제공량당 단백질 20g, BCAA 4g을 함유하고 있습니다.
+        - superscript
+        - button "USN - USN Global의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: USN - USN Global
+      - paragraph:
+        - text: 설탕, 유제품, 글루텐, 대두(콩), 인공 향료 및 색소가 첨가되지 않은 비건 제품입니다.
+        - superscript
+        - button "USN - USN Global의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: USN - USN Global
+  - heading "2. White Wolf Nutrition - Vegan Plant Protein Blend (300g) Australian Vitamins의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요." [level=3]:
+    - text: 2. White Wolf Nutrition - Vegan Plant Protein Blend (300g)
+    - superscript
+    - button "Australian Vitamins의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Australian Vitamins
+  - list:
+    - paragraph:
+      - text: "판매처:"
+      - text: Australian Vitamins (호주 온라인 건강기능식품 스토어)
+      - superscript
+      - button "Australian Vitamins의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+        - generic: Australian Vitamins
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Australian Vitamins 제품 페이지":
+        - /url: https://www.australianvitamins.com/product/white-wolf-nutrition-white-wolf-vegan-plant-protein-blend-french-vanilla
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph:
+        - text: 300g 파우더 규격
+        - superscript
+        - text: 으로 판매되고 있는 것이 확인됩니다.
+        - button "Supps247의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: Supps247
+      - paragraph:
+        - text: 유기농 분리 완두콩 단백질, 호박씨 단백질과 더불어 수박씨 단백질(Watermelon Seed Protein)을 주요 단백질 원료로 사용한 식물성 블렌드 제품입니다.
+        - superscript
+        - button "USN - USN Global의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: USN - USN Global
+  - heading "3. Switch Nutrition - Protein Switch (300g / 10회분)" [level=3]
+  - list:
+    - paragraph: "판매처: Health Nuts Australia (호주 온라인 건강식품 스토어)"
+    - paragraph:
+      - text: "근거 링크:"
+      - link "Health Nuts Australia 제품 페이지":
+        - /url: https://healthnutsaustralia.com.au/products/switch-nutrition-protein-switch-300g-10-serves-vanilla-bean-flavour
+    - paragraph: "선택 이유:"
+    - list:
+      - paragraph: URL 및 상품 규격 정보상 300g(10 serves) 용량 제품 라인업이 확인됩니다.
+      - paragraph:
+        - text: 발아 수박씨 단백질(Sprouted Watermelon Protein, Smooth Protein™), 발아 호박씨 단백질, 발아 대마씨(햄프씨드) 단백질, 발효 유기농 완두콩 단백질을 배합하고 소화효소(DigeZyme™)를 추가한 식물성 단백질 파우더입니다.
+        - superscript
+        - button "Health Nuts Australia의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+          - generic: Health Nuts Australia
+  - paragraph: "참고 안내 (단일 원료 제품 관련):"
+  - list:
+    - paragraph:
+      - text: 다른 단백질원 없이
+      - generic: 수박씨 100% 단일 원료
+      - text: 로만 만든 제품을 찾으시는 경우, 현재 시중 소매 완제품으로는
+      - generic: Smash Melon
+      - text: (1회분 31.19g / 4개입 세트 또는 910g 대용량)이나 eBay 등 해외 마켓의
+      - generic: 12oz(약 340g) 벌크형 수박씨 단백질 분말
+      - text: 등 300g 외의 용량으로만 유통되는 점 참고하시기 바랍니다.
+      - superscript
+    - button "Ubuy Burundi의 인용에 대한 출처 세부정보를 봅니다. 소스 대화상자를 열려면 Enter 키를 누르세요.":
+      - generic: Ubuy Burundi
+  - button "다시 실행":
+    - img: refresh
+  - button "복사":
+    - img: copy
+  - button "옵션 더보기":
+    - img: more_horiz
+  - status
+  - button:
+    - img: arrow_downward
+  - generic: 로그인하여 Google 앱에 연결하고 이미지를 만드는 등 다양한 기능을 이용하세요
+  - button "로그인":
+    - generic: 로그인
+  - button "업로드 및 도구":
+    - img: plus
+  - textbox "Gemini 프롬프트 입력" [active]:
+    - text: Gemini에게 물어보기
+    - paragraph
+  - button "모드 선택 도구 열기, 현재 자동 모드 모드 사용 중":
+    - generic: 자동 모드
+    - img: keyboard_arrow_down
+  - button "음성기록 (^⇧D)":
+    - img: mic
+  - paragraph:
+    - text: Gemini는 AI이며 인물 등에 관한 정보 제공 시 실수를 할 수 있습니다.
+    - link "개인 정보 보호 및 Gemini 새 창에서 열기":
+      - /url: https://support.google.com/gemini/answer/13594961#signed_out&zippy=%2Chow-does-google-handle-my-data-when-i-use-gemini-apps-while-signed-out
+      - text: 개인 정보 보호 및 Gemini
+      - generic: 새 창에서 열기
+  - generic: play_arrow
+  - link "Gemini 정보 링크":
+    - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - generic: Gemini 정보
+  - link "구독 링크":
+    - /url: https://one.google.com/ai
+    - generic: 구독
+  - link "비즈니스용 링크":
+    - /url: http://g.co/cloud/gemini-for-business
+    - generic: 비즈니스용
+  - button "로그인":
+    - generic: 로그인
+- generic: 웹 검색 중

@@ -1,0 +1,20 @@
+{
+  "store_id": "SS-465733251",
+  "item": 1,
+  "score": 1,
+  "status": "confirmed",
+  "reason": "확인한 주메뉴의 명칭·가격은 연결되어 있으나 기본 인분·중량이 명시되지 않음. 메뉴판의 일부 음료 용량으로 주메뉴 전반을 2점 처리하지 않음.",
+  "sources": [
+    {
+      "quote": "버섯치즈 리조또\n\n20,800원",
+      "source_url": "https://place.map.kakao.com/465733251#menuInfo",
+      "observed_at": "2026-11-02T19:46:22.104Z",
+      "evidence_file": "analysis\\확정표본_20261103_01\\sources\\156_SS-465733251_kakao_menu.json",
+      "sha256": "920811a9f553418fc60ddce47acef612a5ba33dd889e3aae52e0d1f45aad60ac",
+      "evidence_type": "actual_detail_text",
+      "writer_status": "not_inferred"
+    }
+  ],
+  "adjudicated_at_utc": "2026-11-03T06:07:46.547202+00:00",
+  "recommendation_outputs_seen": false
+}

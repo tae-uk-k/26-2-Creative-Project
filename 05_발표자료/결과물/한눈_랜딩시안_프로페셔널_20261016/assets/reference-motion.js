@@ -53,7 +53,7 @@
       [...scenes,...narratives,...originalWindows].forEach(el=>{show(el,1);el.style.transform='none';});
       kineticParts.forEach(part=>[...part.types,part.report,...part.shapes,...part.sheets,...part.backdrop,part.symbol,...part.numbers,part.arrow].forEach(el=>{if(el)el.style.transform='none';}));
       [art,artModel,artCircle,...artTags].forEach(el=>{if(el)el.style.transform='none';});
-      focusCards.forEach(el=>show(el,0));
+      focusCards.forEach(el=>show(el,0));if(stage)stage.style.transform='none';
       window.dispatchEvent(new CustomEvent('seelo-scene',{detail:{progress:p,phase:0,paused:true,reduced:true,time}}));return;
     }
     const phase=weights.reduce((best,v,i)=>v>weights[best]?i:best,0);
@@ -90,6 +90,7 @@
       artTags.forEach((tag,j)=>move(tag,`translate3d(${(j%2?1:-1)*heroMove*26}px,${heroMove*(j-1)*28}px,0) rotate(${[-5,4,-3][j]+heroMove*(j%2?7:-6)}deg)`));
     }else{
       const overview=1-ease(.42,.88,x),focus=ease(.42,.98,x);
+      stage.style.transform=`translate3d(0,${innerHeight*.31*(1-focus)}px,0) scale(${1+(mobile.matches ? .14 : .16)*(1-focus)})`;
       show(intro,overview,false);intro.style.transform=`translate3d(0,${-18*(1-overview)}px,0)`;show(context,focus,false);
       originalWindows.forEach((el,i)=>{
         const visible=Number(el.dataset.window)===6?0:overview;show(el,visible,false);
