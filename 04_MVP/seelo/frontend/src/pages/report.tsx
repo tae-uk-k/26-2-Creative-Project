@@ -18,8 +18,8 @@ import { Button } from "../ui/Button";
 import { EmptyState, Facts, Notice, Panel } from "../ui/Display";
 import { DiffView } from "../ui/DiffView";
 import { Page, PageHeader, Stack } from "../ui/Layout";
-import { MetricCompare } from "../ui/Metric";
-import { day, providerLabels } from "../ui/labels";
+import { MetricCompare, MetricRows } from "../ui/Metric";
+import { day, percent, providerLabels } from "../ui/labels";
 import { InvalidPath, QueryState } from "./common";
 import { productPath, useIds } from "./product";
 import styles from "./report.module.css";
@@ -55,7 +55,7 @@ export function ReportPage() {
     <Page width="medium" className={styles.report}>
       <PageHeader
         back={{
-          to: productPath(ids.storeId, ids.productId),
+          to: `${productPath(ids.storeId, ids.productId)}?tab=exposure`,
           label: workspace.data?.product.name ?? "상품",
         }}
         eyebrow="AI 노출 전후 보고서"
@@ -98,6 +98,7 @@ export function ReportPage() {
       )}
       {workspace.data && pairs.length > 0 && (
         <Stack>
+          <ReportSummary pairs={pairs} />
           {pairs.map((pair) => (
             <ProviderSection
               key={pair.key}
@@ -110,6 +111,49 @@ export function ReportPage() {
         </Stack>
       )}
     </Page>
+  );
+}
+// 보고서 첫 줄. 공급자별 상품 발견 비율의 전후를 한 문장으로 말한다.
+function ReportSummary({
+  pairs,
+}: {
+  pairs: { key: string; before: MeasureRun; after: MeasureRun }[];
+}) {
+  const lines = pairs.map((pair) => {
+    const before = pair.before.summary.totals.rates.identified;
+    const after = pair.after.summary.totals.rates.identified;
+    const name = providerLabels[pair.after.condition.provider];
+    const verb =
+      before === null || after === null
+        ? "비교할 수 없어요"
+        : after > before
+          ? "로 늘었어요"
+          : after < before
+            ? "로 줄었어요"
+            : "로 같아요";
+    return before === null || after === null
+      ? `${name}: 정상 응답이 부족해 ${verb}`
+      : `${name} ${percent(before)} → ${percent(after)}${verb}`;
+  });
+  const up = pairs.some((pair) => {
+    const before = pair.before.summary.totals.rates.identified;
+    const after = pair.after.summary.totals.rates.identified;
+    return before !== null && after !== null && after > before;
+  });
+  return (
+    <div className={styles.summary} role="status">
+      <strong>
+        {up
+          ? "정비 후 AI 답변에 내 상품이 더 자주 나와요"
+          : "정비 전후 차이가 아직 크지 않아요"}
+      </strong>
+      <ul>
+        {lines.map((line) => (
+          <li key={line}>{line}</li>
+        ))}
+      </ul>
+      <span>상품 발견: 같은 질문에 대한 답변에 내 상품이 나온 비율</span>
+    </div>
   );
 }
 function ProviderSection({
@@ -138,33 +182,44 @@ function ProviderSection({
               두 회차 사이에 상품 원본이 바뀌었습니다.
             </Notice>
           )}
+          {/* 핵심 지표(상품 발견)만 크게, 나머지는 한 줄씩. 상품 화면의 AI 노출 탭과 같은 짜임이다. */}
           <div className={styles.metrics}>
             <MetricCompare
               label="상품 발견"
               before={compare.data.totals.before.rates.identified}
               after={compare.data.totals.after.rates.identified}
-              caption={`정상 응답 ${compare.data.totals.before.valid} → ${compare.data.totals.after.valid}`}
+              caption={`답변에 내 상품이 나온 비율 · 정상 응답 ${compare.data.totals.before.valid} → ${compare.data.totals.after.valid}`}
             />
-            <MetricCompare
-              label="추천(상위 3)"
-              before={compare.data.totals.before.rates.recommended}
-              after={compare.data.totals.after.rates.recommended}
-            />
-            <MetricCompare
-              label="상품 링크 인용"
-              before={compare.data.totals.before.rates.cited}
-              after={compare.data.totals.after.rates.cited}
+            <MetricRows
+              rows={[
+                {
+                  key: "recommended",
+                  label: "추천(상위 3)",
+                  caption: "추천한 상위 3개에 든 비율",
+                  before: compare.data.totals.before.rates.recommended,
+                  value: compare.data.totals.after.rates.recommended,
+                },
+                {
+                  key: "cited",
+                  label: "상품 링크 인용",
+                  caption: "내 상품 주소를 출처로 단 비율",
+                  before: compare.data.totals.before.rates.cited,
+                  value: compare.data.totals.after.rates.cited,
+                },
+              ]}
             />
           </div>
+          {/* 질문마다 답변에 내 상품이 나온 횟수. 열은 정비 전·후 둘만 둔다. */}
           <div className={styles.tableWrap}>
             <table className={styles.table} aria-label="전후 비교">
+              <caption>
+                질문별로 내 상품이 나온 횟수 (나온 횟수/정상 응답)
+              </caption>
               <thead>
                 <tr>
                   <th scope="col">질문</th>
-                  <th scope="col">전: 발견/정상</th>
-                  <th scope="col">후: 발견/정상</th>
-                  <th scope="col">전: 추천</th>
-                  <th scope="col">후: 추천</th>
+                  <th scope="col">정비 전</th>
+                  <th scope="col">정비 후</th>
                 </tr>
               </thead>
               <tbody>
@@ -175,8 +230,7 @@ function ProviderSection({
                   return (
                     <tr key={row.queryId}>
                       <th scope="row">
-                        <span className={styles.qid}>{row.queryId}</span>
-                        {question?.question}
+                        {question?.question ?? row.queryId}
                         {!row.comparable && (
                           <small className={styles.hold}>
                             정상 응답 부족·비교 보류
@@ -186,11 +240,9 @@ function ProviderSection({
                       <td>
                         {row.before.identified}/{row.before.valid}
                       </td>
-                      <td>
+                      <td className={styles.afterCell}>
                         {row.after.identified}/{row.after.valid}
                       </td>
-                      <td>{row.before.recommended}</td>
-                      <td>{row.after.recommended}</td>
                     </tr>
                   );
                 })}

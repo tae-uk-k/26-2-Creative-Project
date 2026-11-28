@@ -5,6 +5,7 @@ import dark from "./landing-dark.css?inline";
 import extra from "./landing-app.css?inline";
 
 // 랜딩 시안(05_발표자료/결과물/seelo_쇼핑몰_랜딩_새시안_20261125/dark.html)을 그대로 옮긴다.
+// 히어로의 `무료 진단받기`도 시안처럼 준비 중 안내만 띄운다.
 // 시안 스타일은 전역 선택자를 쓰므로 이 화면이 열려 있을 때만 붙인다.
 function useLandingStyle() {
   useLayoutEffect(() => {
@@ -92,9 +93,27 @@ export function LandingPage({ signedIn }: { signedIn: boolean }) {
               <p className="lead">
                 스마트스토어·카페24 상품 정보를 AI가 읽기 쉽게 정리합니다.
               </p>
-              <a className="button" href="#workflow">
-                이용 과정 보기
-              </a>
+              <div className="hero-actions">
+                <a className="button hero-action-secondary" href="#workflow">
+                  이용 과정 보기
+                </a>
+                {/* 시안과 같다. 진단 기능이 생기기 전까지는 준비 중 안내만 띄운다. */}
+                <button
+                  className="button hero-action-primary"
+                  type="button"
+                  popoverTarget="diagnosis-notice"
+                >
+                  무료 진단받기
+                </button>
+              </div>
+              <p
+                className="diagnosis-notice"
+                id="diagnosis-notice"
+                popover="auto"
+                role="status"
+              >
+                무료 진단은 준비 중이에요.
+              </p>
             </div>
             <img
               className="dark-hero-art"

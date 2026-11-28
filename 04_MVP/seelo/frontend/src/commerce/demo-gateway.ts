@@ -1,4 +1,5 @@
 import { ApiError } from "../api/client";
+import type { User } from "../api/auth";
 import { conditionKey } from "./report";
 import { approvedChanges, latestPlan, validateCommand } from "./rules";
 import {
@@ -42,7 +43,10 @@ const fingerprint = (value: string) => {
   return result.toString(16).padStart(64, "0");
 };
 // 명시적 시연 모드에서만 생성한다. 외부 요청·상품 수정·AI 호출은 없다.
-export function createDemoGateway(): CommerceGateway {
+// viewer는 지금 시연 화면을 보는 계정이다. 사장님·운영자 화면을 나눠 보여 줄 때 쓴다.
+export function createDemoGateway(
+  viewer: () => User | null | undefined = () => undefined,
+): CommerceGateway {
   let sequence = 10;
   const shops: Store[] = [
     {
@@ -512,8 +516,17 @@ export function createDemoGateway(): CommerceGateway {
     );
   }
   const gateway: CommerceGateway = {
-    stores: async () => copy(shops),
-    store: async (id) => copy(shop(id)),
+    // 실제 서버처럼 스토어 목록은 내 스토어만 준다. 운영자는 운영 관리에서 고객 스토어를 연다.
+    stores: async () => {
+      const user = viewer();
+      return copy(user ? shops.filter((s) => s.ownerId === user.id) : shops);
+    },
+    store: async (id) => {
+      const user = viewer();
+      const value = shop(id);
+      if (user && user.role !== "admin" && value.ownerId !== user.id) missing();
+      return copy(value);
+    },
     addStore: async (input) => {
       const parsed = storeInputSchema.parse(input);
       // 시연 모드는 기본 도메인만 판별한다. 실제 판별 규칙은 서버가 적용한다.
@@ -565,7 +578,7 @@ export function createDemoGateway(): CommerceGateway {
         shopNo: value.shopNo,
         name: value.name ?? value.externalId,
         id: ++sequence,
-        ownerId: 0,
+        ownerId: viewer()?.id ?? 0,
         managerStatus: "not_requested",
         apiStatus: "not_connected",
         readVerifiedAt: null,

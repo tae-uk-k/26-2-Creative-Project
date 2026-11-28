@@ -1,11 +1,10 @@
 import { useState, type FormEvent, type ReactNode } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   ArrowRight,
   FileText,
   Link2,
   MessageSquareText,
-  RefreshCw,
   Sparkles,
 } from "lucide-react";
 import {
@@ -44,21 +43,21 @@ import { Button, ButtonLink, TextButton } from "../ui/Button";
 import { Badge, Chip, Notice, Panel } from "../ui/Display";
 import { readableText } from "../ui/DiffView";
 import { Checkbox, Select, TextArea, TextField } from "../ui/Field";
-import { Page, PageHeader, Split } from "../ui/Layout";
+import { Page, PageHeader, Split, Stack } from "../ui/Layout";
 import { List, ListRow } from "../ui/List";
-import { MetricValue } from "../ui/Metric";
-import { ConfirmDialog } from "../ui/Overlay";
+import { ConfirmDialog, Tabs } from "../ui/Overlay";
 import { Stepper, Timeline } from "../ui/Steps";
 import { PlatformMark } from "../ui/AppShell";
 import {
   methodLabels,
   planLabels,
   planTones,
-  providerLabels,
   sourceLabels,
+  day,
   when,
 } from "../ui/labels";
 import { ErrorMessage, InvalidPath, QueryState, formValues } from "./common";
+import { ProductExposure } from "./exposure";
 import styles from "./product.module.css";
 
 const countWord = (value: number) =>
@@ -97,8 +96,6 @@ export function ProductPage() {
         <ProductView
           key={`${latestPlan(workspace.data)?.id ?? "none"}/${workspace.data.product.snapshotHash}`}
           workspace={workspace.data}
-          refresh={() => void workspace.refetch()}
-          refreshing={workspace.isFetching}
         />
       )}
     </Page>
@@ -113,19 +110,14 @@ function useViewer(workspace: Workspace): Viewer {
     admin: session.data?.role === "admin",
   };
 }
-function ProductView({
-  workspace,
-  refresh,
-  refreshing,
-}: {
-  workspace: Workspace;
-  refresh: () => void;
-  refreshing: boolean;
-}) {
+function ProductView({ workspace }: { workspace: Workspace }) {
   const { store, product } = workspace;
   const phase = workspacePhase(workspace);
   const viewer = useViewer(workspace);
   const command = useCommand(store.id, product.id);
+  // 정비 진행·AI 노출·기록을 탭으로 나눈다. 탭은 주소에 남겨 다른 화면에서 바로 연다.
+  const [params, setParams] = useSearchParams();
+  const tab = productTab(params.get("tab"));
   const [error, setError] = useState<unknown>(null);
   const run = async (value: Command): Promise<boolean> => {
     setError(null);
@@ -156,17 +148,6 @@ function ProductView({
           </>
         }
         title={product.name}
-        actions={
-          <Button
-            variant="secondary"
-            size="sm"
-            icon={<RefreshCw aria-hidden="true" />}
-            loading={refreshing}
-            onClick={refresh}
-          >
-            최신 상태
-          </Button>
-        }
       >
         <Stepper
           label="상품 정비 단계"
@@ -175,31 +156,61 @@ function ProductView({
           error={phaseIsError(phase)}
         />
       </PageHeader>
-      <Split
-        main={
-          <>
-            <ErrorMessage error={error} />
-            <PhaseCard phase={phase} ctx={ctx} />
-            {ctx.plan &&
-              ctx.plan.changes.length > 0 &&
-              !["questions", "review"].includes(phase) && (
-                <PlanSummary ctx={ctx} plan={ctx.plan} />
-              )}
-          </>
-        }
-        aside={
-          <>
-            <FactsPanel workspace={workspace} />
-            <ExposurePanel workspace={workspace} viewer={viewer} />
-            <HistoryPanel workspace={workspace} />
-            {viewer.owner && <AdvancedPanel ctx={ctx} />}
-            <SourcePanel workspace={workspace} />
-          </>
-        }
-      />
+      <Stack>
+        <Tabs
+          label="상품 보기"
+          value={tab}
+          onChange={(key) =>
+            setParams(key === "work" ? {} : { tab: key }, { replace: true })
+          }
+          items={[
+            { key: "work", label: "정비" },
+            { key: "exposure", label: "AI 노출" },
+          ]}
+        />
+        {tab === "exposure" ? (
+          <ProductExposure workspace={workspace} admin={viewer.admin} />
+        ) : (
+          <Split
+            main={
+              <>
+                <ErrorMessage error={error} />
+                <PhaseCard phase={phase} ctx={ctx} />
+                {ctx.plan &&
+                  ctx.plan.changes.length > 0 &&
+                  !["questions", "review"].includes(phase) && (
+                    <PlanSummary ctx={ctx} plan={ctx.plan} />
+                  )}
+                <HistoryPanel workspace={workspace} admin={viewer.admin} />
+              </>
+            }
+            aside={
+              <>
+                <FactsPanel workspace={workspace} />
+                {/* 정비안을 새로 만들 수 있는 단계에서만 연다. 진행 중에는 쓸 수 없는 칸이다. */}
+                {viewer.owner && editablePhases.includes(phase) && (
+                  <AdvancedPanel ctx={ctx} />
+                )}
+                <SourcePanel workspace={workspace} />
+              </>
+            }
+          />
+        )}
+      </Stack>
     </>
   );
 }
+const editablePhases: ProductPhase[] = [
+  "start",
+  "prepare_failed",
+  "questions",
+  "review",
+  "nothing",
+  "rolled_back",
+];
+type ProductTab = "work" | "exposure";
+const productTab = (value: string | null): ProductTab =>
+  value === "exposure" ? value : "work";
 type StepContext = {
   workspace: Workspace;
   plan: Plan | undefined;
@@ -314,7 +325,7 @@ function PhaseCard({ phase, ctx }: { phase: ProductPhase; ctx: StepContext }) {
           title="정비안이 준비됐어요"
           text={`${plan!.changes.length}개 항목을 바꿔요. 바뀌는 내용을 확인하고 승인해 주세요.`}
         >
-          <ChangeChips plan={plan!} />
+          <ChangeChips plan={plan!} admin={viewer.admin} />
           <div className={styles.actions}>
             {viewer.owner ? (
               <ButtonLink
@@ -493,15 +504,18 @@ function StartForm({
     </form>
   );
 }
-function ChangeChips({ plan }: { plan: Plan }) {
+// 반영 방식(자동·직접 수정)은 운영자에게만 의미가 있어 판매자에게는 항목 이름만 보여 준다.
+function ChangeChips({ plan, admin }: { plan: Plan; admin: boolean }) {
   return (
     <ul className={styles.changeList} aria-label="바뀌는 항목">
       {plan.changes.map((change) => (
         <li key={change.field} className={styles.changeItem}>
           {fieldNames[change.field]}
-          <Badge tone={change.method === "manual" ? "orange" : "blue"}>
-            {methodLabels[change.method]}
-          </Badge>
+          {admin && (
+            <Badge tone={change.method === "manual" ? "orange" : "blue"}>
+              {methodLabels[change.method]}
+            </Badge>
+          )}
         </li>
       ))}
     </ul>
@@ -627,6 +641,7 @@ function PublishedCard({ ctx, plan }: { ctx: StepContext; plan: Plan }) {
     </Hero>
   );
 }
+// 바뀌는 항목 이름만 보여 준다. 진행 상태는 위 카드가 이미 말한다.
 function PlanSummary({ ctx, plan }: { ctx: StepContext; plan: Plan }) {
   const base = productPath(ctx.workspace.store.id, ctx.workspace.product.id);
   const fields =
@@ -651,9 +666,6 @@ function PlanSummary({ ctx, plan }: { ctx: StepContext; plan: Plan }) {
           .map((change) => (
             <li key={change.field} className={styles.changeItem}>
               {fieldNames[change.field]}
-              <Badge tone={planTones[plan.status]}>
-                {planLabels[plan.status]}
-              </Badge>
             </li>
           ))}
       </ul>
@@ -796,7 +808,7 @@ export function RollbackAction({
     return null;
   return (
     <>
-      <div className={styles.actions}>
+      <div className={styles.subtle}>
         <TextButton onClick={() => setOpen(true)}>
           수정 전으로 되돌리기
         </TextButton>
@@ -822,11 +834,13 @@ export function RollbackAction({
     </>
   );
 }
+// AI가 확인한 정보. 아직 없으면 빈 칸을 보여 주지 않는다. 시작 카드가 할 일을 말한다.
 function FactsPanel({ workspace }: { workspace: Workspace }) {
   const facts = workspace.product.facts;
+  if (facts.length === 0) return null;
   return (
     <Panel title="확인한 정보" small aria-label="확인한 정보">
-      {facts.length ? (
+      {
         <ul className={styles.factList}>
           {facts.map((fact) => (
             <li key={fact.key} className={styles.fact}>
@@ -853,91 +867,44 @@ function FactsPanel({ workspace }: { workspace: Workspace }) {
             </li>
           ))}
         </ul>
-      ) : (
-        <p className={styles.muted}>AI가 조사하면 여기에 쌓여요.</p>
-      )}
+      }
     </Panel>
   );
 }
-function ExposurePanel({
+// 지난 정비안. 이번 정비안은 위 카드에서 보므로 이전 것이 있을 때만 보여 준다.
+function HistoryPanel({
   workspace,
-  viewer,
+  admin,
 }: {
   workspace: Workspace;
-  viewer: Viewer;
+  admin: boolean;
 }) {
-  const runs = useMeasureRuns(workspace.product.id);
-  const base = productPath(workspace.store.id, workspace.product.id);
-  const pairs = reportPairs(runs.data ?? []);
-  const latest = ["openai", "gemini"]
-    .map((provider) =>
-      runs.data?.find(
-        (run) =>
-          run.condition.provider === provider &&
-          ["completed", "partial"].includes(run.status),
-      ),
-    )
-    .filter((run) => run !== undefined);
-  const measuring = runs.data?.some((run) =>
-    ["queued", "running"].includes(run.status),
-  );
-  return (
-    <Panel
-      title="AI 노출"
-      small
-      action={
-        viewer.admin ? (
-          <ButtonLink to={`${base}/measure`} variant="secondary" size="sm">
-            측정 관리
-          </ButtonLink>
-        ) : undefined
-      }
-    >
-      <div className={styles.metrics}>
-        {measuring && (
-          <Notice tone="progress">ChatGPT·Gemini에 묻는 중이에요</Notice>
-        )}
-        {latest.map((run) => (
-          <MetricValue
-            key={run.id}
-            label={`${providerLabels[run.condition.provider]} · 상품 발견`}
-            value={run.summary.totals.rates.identified}
-            caption={`${run.planId ? "정비 후" : "정비 전"} · ${when(run.finishedAt)}`}
-          />
-        ))}
-        {!latest.length && !measuring && (
-          <p className={styles.muted}>
-            seelo가 정비 전 측정을 준비하고 있어요.
-          </p>
-        )}
-        {pairs.length > 0 && (
-          <ButtonLink
-            to={`${base}/report`}
-            block
-            icon={<FileText aria-hidden="true" />}
-          >
-            전후 보고서
-          </ButtonLink>
-        )}
-      </div>
-    </Panel>
-  );
-}
-function HistoryPanel({ workspace }: { workspace: Workspace }) {
-  if (workspace.plans.length === 0) return null;
-  const base = productPath(workspace.store.id, workspace.product.id);
   const latestId = latestPlan(workspace)?.id;
+  // 판매자에게는 승인한 적 있는 정비안만 보여 준다. 답변 전에 만든 초안은 다시 볼 일이 없다.
+  const past = workspace.plans.filter(
+    (plan) => plan.id !== latestId && (admin || plan.approvedAt),
+  );
+  if (past.length === 0) return null;
+  const base = productPath(workspace.store.id, workspace.product.id);
   return (
-    <Panel title="정비안 기록" small>
+    <Panel title="지난 정비안" small>
       <List label="정비안 이력">
-        {workspace.plans.map((plan) => (
+        {past.map((plan) => (
           <ListRow
             key={plan.id}
             to={`${base}/plans/${plan.id}`}
-            title={`정비안 #${plan.id}`}
-            sub={`${plan.changes.length}개 항목`}
+            title={
+              plan.appliedAt
+                ? `${day(plan.appliedAt)} 반영`
+                : plan.approvedAt
+                  ? `${day(plan.approvedAt)} 승인`
+                  : "승인하지 않은 정비안"
+            }
+            sub={plan.changes
+              .map((change) => fieldNames[change.field])
+              .join(", ")}
             meta={
-              plan.status === "draft" && plan.id !== latestId ? (
+              plan.status === "draft" ? (
                 <Badge>지난 초안</Badge>
               ) : (
                 <Badge tone={planTones[plan.status]}>
@@ -952,6 +919,7 @@ function HistoryPanel({ workspace }: { workspace: Workspace }) {
   );
 }
 // 기본 흐름은 AI가 정한다. 근거를 직접 넣거나 정비 범위를 고르는 일은 접어 둔다.
+// 자료 주소만 더하는 일은 시작 카드에서 한다.
 function AdvancedPanel({ ctx }: { ctx: StepContext }) {
   const { workspace, busy, run } = ctx;
   const support = workspace.product.fieldSupport;
@@ -964,28 +932,8 @@ function AdvancedPanel({ ctx }: { ctx: StepContext }) {
   return (
     <Panel small flat>
       <details className={styles.more}>
-        <summary>직접 보완·범위 지정</summary>
+        <summary>정보를 직접 넣을게요</summary>
         <div className={styles.moreBody}>
-          <form
-            className={styles.form}
-            onSubmit={(event) => {
-              event.preventDefault();
-              void run({
-                action: "research",
-                sourceUrls: sourceUrls(
-                  formValues(event.currentTarget).sourceUrls,
-                ),
-              });
-            }}
-          >
-            <TextArea
-              label="조사할 공식 자료 주소 (한 줄에 하나·최대 3개)"
-              name="sourceUrls"
-            />
-            <Button type="submit" variant="secondary" disabled={busy}>
-              자료 조사만 다시 실행
-            </Button>
-          </form>
           <form
             className={styles.form}
             onSubmit={(event) => {
@@ -1039,7 +987,7 @@ function AdvancedPanel({ ctx }: { ctx: StepContext }) {
                 const input = generateSchema.parse({
                   fields: data.getAll("fields"),
                   requiredFacts: data.getAll("requiredFacts"),
-                  useAi: data.get("useAi") === "on",
+                  useAi: true,
                   allowEditorConversion:
                     data.get("allowEditorConversion") === "on",
                 });
@@ -1065,7 +1013,7 @@ function AdvancedPanel({ ctx }: { ctx: StepContext }) {
                   key={field}
                   name="fields"
                   value={field}
-                  label={`${fieldNames[field]} (운영자 직접 수정)`}
+                  label={`${fieldNames[field]} (seelo가 직접 수정)`}
                 />
               ))}
               {support.unavailable.map((item) => (
@@ -1087,12 +1035,6 @@ function AdvancedPanel({ ctx }: { ctx: StepContext }) {
                 />
               ))}
             </fieldset>
-            <Checkbox
-              name="useAi"
-              defaultChecked
-              disabled={busy || active}
-              label="AI로 확인한 사실의 순서 정렬"
-            />
             {support.conditions.description ===
               "editor_conversion_approval" && (
               <Checkbox

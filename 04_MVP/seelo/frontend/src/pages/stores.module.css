@@ -154,6 +154,61 @@
   gap: var(--s-3);
   margin-bottom: var(--s-3);
 }
+.products {
+  display: grid;
+  gap: var(--s-3);
+}
+.listHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+}
+.addButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--s-blue600);
+  font-size: var(--s-t6);
+  font-weight: 700;
+}
+.addButton svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.listTitle {
+  font-size: var(--s-t4);
+  font-weight: 700;
+}
+.listTitle span {
+  margin-left: 0.4rem;
+  color: var(--s-grey500);
+}
+.pick {
+  justify-self: start;
+  font-size: var(--s-t6);
+}
+/* 상품 추가 버튼은 입력칸 제목 높이만큼 내려 입력칸과 줄을 맞춘다. */
+.importAction {
+  align-self: start;
+  padding-top: 1.85rem;
+}
+@media (max-width: 480px) {
+  /* 좁은 화면에서는 입력칸을 한 줄 전체로 쓰고 버튼을 아래에 둔다. */
+  .importForm > div {
+    flex-wrap: wrap;
+  }
+  .importForm > div > :first-child {
+    flex-basis: 100%;
+  }
+  .importAction {
+    flex: 1;
+    padding-top: 0;
+  }
+  .importAction > * {
+    width: 100%;
+  }
+}
 .pager {
   display: flex;
   align-items: center;
@@ -186,4 +241,7 @@
     justify-items: center;
     text-align: center;
   }
+}
+.products > .toolbar {
+  margin-bottom: 0;
 }

@@ -169,9 +169,12 @@ export function ActionBar({
   children: ReactNode;
 }) {
   return (
-    <div className={styles.actionBar}>
-      {summary && <div className={styles.actionSummary}>{summary}</div>}
-      {children}
-    </div>
+    <>
+      <div className={styles.actionSpacer} aria-hidden="true" />
+      <div className={styles.actionBar}>
+        {summary && <div className={styles.actionSummary}>{summary}</div>}
+        {children}
+      </div>
+    </>
   );
 }

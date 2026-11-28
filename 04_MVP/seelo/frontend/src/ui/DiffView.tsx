@@ -47,11 +47,14 @@ export function DiffView({
   after,
   beforeLabel = "지금",
   afterLabel = "바뀔 내용",
+  showRaw = false,
 }: {
   before: string;
   after: string;
   beforeLabel?: string;
   afterLabel?: string;
+  // HTML 원문 보기. 쇼핑몰에 저장하는 사람(운영자)에게만 연다.
+  showRaw?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const [raw, setRaw] = useState(false);
@@ -96,17 +99,21 @@ export function DiffView({
           </div>
         </div>
       </div>
-      <div className={styles.foot}>
-        {long && (
-          <TextButton onClick={() => setOpen((value) => !value)}>
-            {open ? "접기" : "전체 보기"}
-          </TextButton>
-        )}
-        <TextButton onClick={() => setRaw((value) => !value)}>
-          {raw ? "HTML 닫기" : "HTML 보기"}
-        </TextButton>
-      </div>
-      {raw && (
+      {(long || showRaw) && (
+        <div className={styles.foot}>
+          {long && (
+            <TextButton onClick={() => setOpen((value) => !value)}>
+              {open ? "접기" : "전체 보기"}
+            </TextButton>
+          )}
+          {showRaw && (
+            <TextButton onClick={() => setRaw((value) => !value)}>
+              {raw ? "HTML 닫기" : "HTML 보기"}
+            </TextButton>
+          )}
+        </div>
+      )}
+      {showRaw && raw && (
         <pre className={styles.raw} aria-label="바뀔 HTML">
           {after}
         </pre>

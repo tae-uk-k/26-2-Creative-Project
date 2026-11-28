@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQueries, useQuery } from "@tanstack/react-query";
 import { ApiError } from "../api/client";
 import { isRunning, validateCommand } from "../commerce/rules";
 import {
@@ -8,6 +8,7 @@ import {
   type ImportResult,
   type Job,
   type ManualSnapshot,
+  type MeasureRun,
   type OperatorShopSearch,
   type ProductSearch,
   type ProductTarget,
@@ -110,11 +111,12 @@ export function useShopAction(id: number) {
   });
   return {
     ...mutation,
+    // 카페24 인증 주소처럼 결과가 있으면 돌려준다.
     run: async (input: Parameters<typeof mutation.mutateAsync>[0]) => {
       if (lock.current) return;
       lock.current = true;
       try {
-        await mutation.mutateAsync(input);
+        return await mutation.mutateAsync(input);
       } finally {
         lock.current = false;
       }
@@ -227,6 +229,23 @@ export function useMeasureRuns(productId: number) {
       )
         ? 5000
         : false,
+  });
+}
+// 여러 상품의 측정 회차를 한 번에 조회한다. AI 노출 현황 목록에서 쓴다.
+export function useMeasureRunsMany(productIds: number[]) {
+  const { gateway } = useRuntime();
+  return useQueries({
+    queries: productIds.map((productId) => ({
+      queryKey: measureKeys.runs(productId),
+      queryFn: ({ signal }: { signal: AbortSignal }) =>
+        gateway.measureRuns(productId, signal),
+      refetchInterval: (query: { state: { data?: MeasureRun[] } }) =>
+        query.state.data?.some((run) =>
+          ["queued", "running"].includes(run.status),
+        )
+          ? 5000
+          : false,
+    })),
   });
 }
 export function useCompare(pair: { before: number; after: number } | null) {

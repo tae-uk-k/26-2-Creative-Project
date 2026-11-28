@@ -80,7 +80,7 @@ export function OperatorPage() {
   return (
     <Page>
       <PageHeader
-        title="운영자 고객 업무"
+        title="운영 관리"
         description="고객이 승인한 범위만 실행합니다."
       />
       <Stack>

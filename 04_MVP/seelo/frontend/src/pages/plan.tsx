@@ -75,6 +75,7 @@ function PlanReview({ workspace, plan }: { workspace: Workspace; plan: Plan }) {
   const navigate = useNavigate();
   const command = useCommand(workspace.store.id, workspace.product.id);
   const owner = !session.data || session.data.id === workspace.store.ownerId;
+  const admin = session.data?.role === "admin";
   const latest = latestPlan(workspace)?.id === plan.id;
   const editable = latest && plan.status === "draft" && owner;
   const [selected, setSelected] = useState<Field[]>(
@@ -118,14 +119,14 @@ function PlanReview({ workspace, plan }: { workspace: Workspace; plan: Plan }) {
         back={{ to: back, label: workspace.product.name }}
         eyebrow={
           <>
-            <span>정비안 #{plan.id}</span>
+            {admin && <span>정비안 #{plan.id}</span>}
             <Badge tone={planTones[plan.status]} dot>
               {planLabels[plan.status]}
             </Badge>
             {!latest && <Badge>이전 정비안</Badge>}
           </>
         }
-        title={editable ? "바뀌는 내용을 확인해 주세요" : "정비안"}
+        title={editable ? "바뀌는 내용을 확인해 주세요" : "바뀌는 내용"}
         description={
           editable ? "반영하지 않을 항목은 선택을 풀어 주세요." : undefined
         }
@@ -162,9 +163,13 @@ function PlanReview({ workspace, plan }: { workspace: Workspace; plan: Plan }) {
                   }}
                 >
                   {fieldNames[change.field]}
-                  <Badge tone={change.method === "manual" ? "orange" : "blue"}>
-                    {methodLabels[change.method]}
-                  </Badge>
+                  {admin && (
+                    <Badge
+                      tone={change.method === "manual" ? "orange" : "blue"}
+                    >
+                      {methodLabels[change.method]}
+                    </Badge>
+                  )}
                 </span>
               }
               action={
@@ -192,7 +197,11 @@ function PlanReview({ workspace, plan }: { workspace: Workspace; plan: Plan }) {
                   opacity: editable && !checked ? 0.45 : 1,
                 }}
               >
-                <DiffView before={change.before} after={change.proposed} />
+                <DiffView
+                  before={change.before}
+                  after={change.proposed}
+                  showRaw={admin}
+                />
                 <div
                   style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}
                 >
@@ -249,7 +258,7 @@ function PlanReview({ workspace, plan }: { workspace: Workspace; plan: Plan }) {
         {plan.status !== "draft" && (
           <WriteHistory plan={plan} workspace={workspace} />
         )}
-        {session.data?.role === "admin" && (
+        {admin && (
           <RollbackAction
             ctx={{
               workspace,

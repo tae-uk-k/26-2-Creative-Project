@@ -53,8 +53,11 @@ export function MeasurePage() {
   return (
     <Page>
       <PageHeader
-        back={{ to: back, label: workspace.data?.product.name ?? "상품" }}
-        eyebrow="운영자"
+        back={{
+          to: `${back}?tab=exposure`,
+          label: workspace.data?.product.name ?? "상품",
+        }}
+        eyebrow="운영 관리"
         title="AI 노출 측정"
       />
       {session.data && session.data.role !== "admin" ? (

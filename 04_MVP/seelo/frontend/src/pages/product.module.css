@@ -44,6 +44,16 @@
   flex-wrap: wrap;
   gap: var(--s-2);
 }
+/* 되돌리기처럼 드물게 쓰는 행동. 주요 버튼과 달리 늘리지 않는다. */
+.subtle {
+  display: flex;
+}
+@media (max-width: 38rem) {
+  /* 카드의 주요 버튼은 엄지로 누르기 쉽게 한 줄 가득 채운다. */
+  .actions > * {
+    flex: 1 1 100%;
+  }
+}
 .questions {
   display: grid;
   gap: var(--s-4);
@@ -84,7 +94,8 @@
 }
 .fact {
   display: grid;
-  gap: var(--s-2);
+  justify-items: start;
+  gap: var(--s-1);
   padding: var(--s-3) 0;
   border-top: 1px solid var(--s-grey100);
 }
