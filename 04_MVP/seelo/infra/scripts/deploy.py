@@ -22,6 +22,25 @@ BROWSER_WORKER = "worker-fix"
 
 def browser_worker_enabled(content: bytes) -> bool:
     return re.search(rb"(?m)^SEELO_BROWSER_WORKER=true\r?$", content) is not None
+
+
+# 화면에 공개하는 seelo 담당자 정보만 웹 이미지 빌드 인자로 넘긴다(비밀값이 아니다).
+# 다른 env 값은 넘기지 않는다.
+WEB_BUILD_ARGS = ("VITE_SEELO_MANAGER_NAME", "VITE_SEELO_MANAGER_PHONE")
+
+
+def web_build_args(content: bytes) -> list[str]:
+    args = []
+    for name in WEB_BUILD_ARGS:
+        match = re.search(rb"(?m)^" + name.encode() + rb"=([^\r\n]*)\r?$", content)
+        value = match.group(1).decode("utf-8").strip() if match else ""
+        if len(value) > 100 or any(ord(char) < 32 for char in value):
+            raise ValueError("invalid_web_build_arg")
+        if value:
+            args += ["--build-arg", name + "=" + value]
+    return args
+
+
 HOST = "https://seelo.site"
 
 
@@ -255,6 +274,7 @@ def main() -> None:
                 "build",
                 "--label",
                 "org.opencontainers.image.revision=" + args.commit,
+                *web_build_args(environment.read_bytes()),
                 "-t",
                 "seelo-web:" + tag,
                 str(release / "frontend"),

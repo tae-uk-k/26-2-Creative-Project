@@ -250,7 +250,12 @@ describe("화면 통합", () => {
     await screen.findByLabelText("상품번호 또는 카페24 상품 주소");
     change("상품번호 또는 카페24 상품 주소", "1001");
     fireEvent.click(screen.getByRole("button", { name: "불러오기" }));
-    await screen.findByRole("heading", { name: product.name });
+    // 작업 조회 → 상품 화면 이동까지 두 번 렌더링한다. 느린 실행 환경을 위해 기다림을 늘린다.
+    await screen.findByRole(
+      "heading",
+      { name: product.name },
+      { timeout: 4000 },
+    );
     expect(runtime.gateway.job).toHaveBeenCalledWith(77, expect.anything());
   });
   it("스토어 화면은 상품 목록을 먼저 보여 주고 상품 추가는 눌러서 연다", async () => {
@@ -390,8 +395,9 @@ describe("화면 통합", () => {
     expect(table.textContent).toContain("판정 불가");
     expect(table.textContent).not.toContain("0%");
     fireEvent.click(screen.getByRole("button", { name: "측정 시작" }));
-    fireEvent.click(await screen.findByRole("button", { name: "전후 비교" }));
-    fireEvent.click(await screen.findByRole("link", { name: "보고서로 보기" }));
+    fireEvent.click(
+      await screen.findByRole("button", { name: "보고서로 비교" }),
+    );
     const compare = await screen.findByRole("table", { name: "전후 비교" });
     expect(compare.textContent).toContain("정상 응답 부족·비교 보류");
   });

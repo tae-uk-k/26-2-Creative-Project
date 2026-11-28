@@ -1,4 +1,5 @@
-import { useState, type FormEvent } from "react";
+import { type FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
 import { FileText, Play, Plus } from "lucide-react";
 import {
@@ -9,7 +10,7 @@ import {
 } from "../app/commerce";
 import { useRuntime, useSession } from "../app/runtime";
 import type { MeasureRun, MeasureSet } from "../commerce/schemas";
-import { Button, ButtonLink } from "../ui/Button";
+import { Button } from "../ui/Button";
 import { Badge, Chip, EmptyState, Notice, Panel } from "../ui/Display";
 import { Select, TextArea, TextField } from "../ui/Field";
 import { Page, PageHeader, Stack } from "../ui/Layout";
@@ -213,10 +214,16 @@ function SetPanel({
         }}
       >
         <TextField
+          // 회차 목록이 바뀌면 다음 이름을 다시 채운다.
+          key={nextLabel(runs, set.id)}
           label="회차 이름"
           name="label"
           required
           maxLength={20}
+          // 서버 규칙과 같다(MeasureRunCreate.label). 제출 전에 브라우저가 막는다.
+          pattern="[A-Za-z0-9_\-]+"
+          title="영문·숫자·-·_만 쓸 수 있어요"
+          hint="영문·숫자 (예: B0 정비 전, P1 정비 후)"
           defaultValue={nextLabel(runs, set.id)}
         />
         <Select label="AI" name="provider" defaultValue="openai">
@@ -251,7 +258,7 @@ function RunsTable({
   runs: ReturnType<typeof useMeasureRuns>;
   back: string;
 }) {
-  const [pair, setPair] = useState<{ before: string; after: string }>();
+  const navigate = useNavigate();
   const data = runs.data ?? [];
   return (
     <Panel title="측정 회차" small>
@@ -324,11 +331,11 @@ function RunsTable({
           className={styles.runForm}
           onSubmit={(event) => {
             event.preventDefault();
+            // 고른 두 회차를 판매자에게 보이는 보고서 화면에서 바로 비교한다.
             const values = formValues(event.currentTarget);
-            setPair({
-              before: String(values.before),
-              after: String(values.after),
-            });
+            navigate(
+              `${back}/report?before=${String(values.before)}&after=${String(values.after)}`,
+            );
           }}
         >
           <Select
@@ -349,18 +356,15 @@ function RunsTable({
               </option>
             ))}
           </Select>
-          <Button type="submit" variant="secondary" size="lg">
-            전후 비교
+          <Button
+            type="submit"
+            variant="secondary"
+            size="lg"
+            icon={<FileText aria-hidden="true" />}
+          >
+            보고서로 비교
           </Button>
         </form>
-      )}
-      {pair && (
-        <ButtonLink
-          to={`${back}/report?before=${pair.before}&after=${pair.after}`}
-          icon={<FileText aria-hidden="true" />}
-        >
-          보고서로 보기
-        </ButtonLink>
       )}
     </Panel>
   );

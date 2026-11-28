@@ -109,6 +109,20 @@ def test_browser_worker_is_opt_in_by_exact_setting():
     assert not deployment.browser_worker_enabled(b"SEELO_BROWSER_WORKER=truex\n")
 
 
+def test_web_build_args_pass_only_public_manager_values():
+    env = "SECRET_KEY=s\nVITE_SEELO_MANAGER_NAME=seelo 담당\r\nVITE_SEELO_MANAGER_PHONE=010-1234-5678\n"
+    assert deployment.web_build_args(env.encode()) == [
+        "--build-arg",
+        "VITE_SEELO_MANAGER_NAME=seelo 담당",
+        "--build-arg",
+        "VITE_SEELO_MANAGER_PHONE=010-1234-5678",
+    ]
+    # 비어 있거나 주석이면 넘기지 않는다. 화면은 복사 버튼을 숨긴다.
+    assert deployment.web_build_args(b"VITE_SEELO_MANAGER_NAME=\n# VITE_SEELO_MANAGER_PHONE=1\n") == []
+    with pytest.raises(ValueError):
+        deployment.web_build_args(b"VITE_SEELO_MANAGER_NAME=" + b"x" * 101 + b"\n")
+
+
 @pytest.mark.skipif(os.name == "nt", reason="실제 운영 Linux symlink 동작은 CI에서 검증")
 def test_failed_activation_stops_browser_worker_of_new_release(tmp_path):
     releases = tmp_path / "releases"

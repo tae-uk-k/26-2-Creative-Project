@@ -376,6 +376,78 @@ describe("현재 쇼핑몰 서버 계약", () => {
       gateway.importProduct(1, { externalId: "9" }),
     ).rejects.toMatchObject({ code: "CONTRACT_MISMATCH" });
   });
+  it("측정 시작 202 응답의 measure 작업을 읽는다", async () => {
+    // 로컬 서버(2026-11-28)의 실제 응답 형태다.
+    const run = {
+      id: 1,
+      setId: 1,
+      productId: 1,
+      label: "B0",
+      status: "queued",
+      condition: {
+        model: "fake-measure",
+        repeats: 3,
+        provider: "openai",
+        suffixHash: "958b761d4f9d075e",
+        toolOptions:
+          "openai:web_search/medium/no-location;gemini:google_search",
+      },
+      snapshotHash: "a".repeat(64),
+      planId: null,
+      createdAt: "2026-11-27T19:44:03.426337Z",
+      startedAt: null,
+      finishedAt: null,
+      job: {
+        id: 6,
+        shopId: 1,
+        productId: 1,
+        planId: null,
+        kind: "measure",
+        status: "queued",
+        errorCode: null,
+        result: {},
+        stale: false,
+        createdAt: "2026-11-27T19:44:03.426337Z",
+        startedAt: null,
+        finishedAt: null,
+      },
+      summary: {
+        queries: [
+          {
+            queryId: "G01",
+            family: "general",
+            planned: 3,
+            valid: 0,
+            missing: 3,
+            failedAttempts: 0,
+            identified: 0,
+            recommended: 0,
+            cited: 0,
+          },
+        ],
+        totals: {
+          planned: 3,
+          valid: 0,
+          missing: 3,
+          identified: 0,
+          recommended: 0,
+          cited: 0,
+          rates: { identified: null, recommended: null, cited: null },
+        },
+      },
+    };
+    const fetcher = vi.fn<typeof fetch>().mockResolvedValueOnce(json(run, 202));
+    const gateway = createHttpGateway(
+      new ApiClient({ fetch: fetcher, cookie: () => "seelo_csrf=token" }),
+    );
+    const result = await gateway.runMeasure(1, {
+      label: "B0",
+      provider: "openai",
+      repeats: 3,
+    });
+    expect(result.job?.kind).toBe("measure");
+    expect(fetcher.mock.calls[0][0]).toBe("/api/commerce/measure-sets/1/runs");
+  });
   it("스토어 고유값 기록과 플랫폼 상품 목록 작업 경로를 사용한다", async () => {
     const store = (await createDemoGateway().stores())[0];
     const fetcher = vi

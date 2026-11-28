@@ -6,6 +6,7 @@
 """
 
 import asyncio
+import json
 import re
 from collections.abc import Callable
 from dataclasses import dataclass, field
@@ -259,12 +260,37 @@ def demo_plan_texts(prompt: str) -> PlanTextsOut:
     )
 
 
+def demo_fact_needs(prompt: str) -> BaseModel:
+    """쇼핑몰 필요한 사실 판단. 시연은 소재·크기 두 가지를 고른다. 값은 만들지 않는다."""
+    from seelo.schemas.commerce import FactNeeds
+
+    return FactNeeds(required=["material", "size"])
+
+
+def demo_fact_extraction(prompt: str) -> BaseModel:
+    """쇼핑몰 자료 사실 추출. 원문 인용문을 만들 수 없어 찾은 사실이 없다고 답한다. 판매자 질문으로 간다."""
+    from seelo.schemas.commerce import FactExtraction
+
+    return FactExtraction(facts=[])
+
+
+def demo_fact_order(prompt: str) -> BaseModel:
+    """쇼핑몰 사실 정렬. 프롬프트 마지막 줄 JSON의 사실 키를 받은 순서대로 돌려준다."""
+    from seelo.schemas.commerce import FactOrder
+
+    facts = json.loads(prompt.rsplit("\n", 1)[-1]).get("facts", [])
+    return FactOrder(fact_keys=list(dict.fromkeys(fact["key"] for fact in facts)) or ["material"])
+
+
 DEFAULT_STRUCTURED: dict[str, Callable[[str], BaseModel]] = {
     "WebsiteExtractOut": lambda prompt: demo_website_extract(),
     "GeneratedQuestionsOut": demo_questions,
     "ExtractionOut": demo_extraction,
     "WebEvidenceExtractOut": demo_web_evidence,
     "PlanTextsOut": demo_plan_texts,
+    "FactNeeds": demo_fact_needs,
+    "FactExtraction": demo_fact_extraction,
+    "FactOrder": demo_fact_order,
 }
 
 # 가짜 웹 검색 답변(17 1장): 질문마다 정해진 답변을 돌려 쓴다. 10번 중 3번은 데모식당이 2위

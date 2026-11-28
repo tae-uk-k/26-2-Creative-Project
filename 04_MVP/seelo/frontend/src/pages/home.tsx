@@ -1,6 +1,11 @@
 import { useQueries } from "@tanstack/react-query";
 import { BriefcaseBusiness } from "lucide-react";
-import { keys, useOperatorTasks, useStores } from "../app/commerce";
+import {
+  keys,
+  useOperatorShops,
+  useOperatorTasks,
+  useStores,
+} from "../app/commerce";
 import { useRuntime, useSession } from "../app/runtime";
 import { storeReady, summaryState } from "../commerce/progress";
 import type { Product, Store } from "../commerce/schemas";
@@ -212,8 +217,14 @@ export function HomePage() {
 }
 function OperatorShortcut() {
   const tasks = useOperatorTasks(true);
+  // 작업함과 같은 기준이다. 권한 확인 대기 스토어도 운영자가 할 일이다.
+  const invited = useOperatorShops(
+    { page: 1, query: "", managerStatus: "invited" },
+    true,
+  );
   const count =
-    tasks.data?.filter((task) => task.next !== "customer_approval").length ?? 0;
+    (tasks.data?.filter((task) => task.next !== "customer_approval").length ??
+      0) + (invited.data?.total ?? 0);
   return (
     <div style={{ marginBottom: "1rem" }}>
       <Panel tight flat>
