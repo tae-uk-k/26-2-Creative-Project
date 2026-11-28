@@ -20,6 +20,8 @@ async page => {
       ['핵심 기술', '키워드, 백링크', '구조화 데이터, Schema'],
     ],
     comparisonSummary: "GEO는 AI가 선택한 '단 하나의 정답'이 되는 것입니다.",
+    makeoverTitle: '사람은 사진을 보고, AI는 글을 읽습니다.',
+    makeoverPoints: '빠진 정보 채우기|읽기 쉬운 순서|정보마다 출처|기존 화면은 그대로',
   };
   const failures = [];
   const widths = [1440, 1024, 768, 390, 320];
@@ -77,6 +79,18 @@ async page => {
       const comparisonText = [...comparison.rows].map(row => [...row.cells].map(text));
       expect(JSON.stringify(comparisonText) === JSON.stringify(expected.comparisonRows), 'SEO·GEO 표의 문구나 셀 순서가 첨부 이미지와 다릅니다.');
       expect([...comparison.querySelectorAll('th, td')].every(cell => cell.scrollWidth <= cell.clientWidth + 1), 'SEO·GEO 표의 셀 안에서 글이 넘칩니다.');
+      const makeover = document.querySelector('#makeover');
+      expect(document.querySelector('#workflow + #makeover + #channels'), '정비 전후 구간은 이용 과정과 지원 쇼핑몰 사이에 있어야 합니다.');
+      expect(text(makeover?.querySelector('#makeover-title')) === expected.makeoverTitle, '정비 전후 구간의 제목이 다릅니다.');
+      expect([...makeover.querySelectorAll('.makeover-points h3')].map(text).join('|') === expected.makeoverPoints, '정비 방식 네 항목이 다릅니다.');
+      const basis = makeover.querySelector('.makeover-basis');
+      expect(basis && parseFloat(getComputedStyle(basis).fontSize) <= 14 && basis.querySelectorAll('a').length === 4 &&
+        basis.compareDocumentPosition(makeover.querySelector('.makeover-points')) === Node.DOCUMENT_POSITION_PRECEDING,
+      '근거 문구는 항목 아래에 작은 글씨와 출처 링크 네 개로 있어야 합니다.');
+      const cards = [...makeover.querySelectorAll('.makeover-card')].map(card => card.getBoundingClientRect());
+      expect(cards.length === 2 && (width >= 1024
+        ? cards[1].left > cards[0].right && Math.abs(cards[1].top - cards[0].top) < 2
+        : cards[1].top > cards[0].bottom), '정비 전후 카드는 데스크톱에서 나란히, 좁은 화면에서 위아래로 있어야 합니다.');
       expect(text(document.querySelector('#channels-title')) === expected.platforms, '지원 범위와 추가 예정 문구가 다릅니다.');
       const platforms = [...document.querySelectorAll('#channels .channel-brand')];
       expect(platforms.map(element => text(element.querySelector('.channel-name'))).join('|') ===
