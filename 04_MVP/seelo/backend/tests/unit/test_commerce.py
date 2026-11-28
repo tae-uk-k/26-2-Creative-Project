@@ -242,6 +242,104 @@ def test_quantities_need_units_and_matching_source():
     assert error.value.details["reason"] == "quantity_not_in_quote"
 
 
+def _tags(value: str) -> set[str]:
+    import re
+
+    return set(re.findall(r"<([a-z0-9]+)", value))
+
+
+FOOD = [
+    fact("ingredients", "수박씨 100%", quote="원재료: 수박씨 100%", source="fetched_page"),
+    fact("weight", "300g", quote="내용량 300g", source="browser", source_url="https://admin.example.com/p"),
+    fact("storage", "서늘한 곳", quote="서늘한 곳", source="owner_answer", source_url=None),
+]
+
+
+def test_cafe24_section_has_summary_spec_use_faq_and_folded_quotes():
+    changes, *_ = draft(
+        "cafe24", {"description": "<p>원본</p>"}, FOOD, ["description"], [], [], [], editor_conversion=False
+    )
+    value = changes[0]["proposed"]
+    assert value.startswith("<p>원본</p>")
+    # 요약 문단은 상품명과 앞쪽 사실을 잇는다. 새 문구를 만들지 않는다.
+    assert "<p>티셔츠 A / 검정 M. 원재료 수박씨 100% · 무게 300g · 보관 방법 서늘한 곳</p>" in value
+    assert (
+        "<h3>상품 사양</h3><dl><dt>원재료</dt><dd>수박씨 100% (출처: <cite>maker.example.com</cite>)</dd>"
+        in value
+    )
+    # 기존 본문에서 읽은 사실은 관리 화면 주소를 공개 출처로 쓰지 않는다.
+    assert "admin.example.com" not in value and "판매자 상품 정보" in value
+    assert "<h3>사용·보관·주의</h3>" in value
+    assert "<p>Q. 보관 방법은 어떻게 되나요?</p><p>A. 서늘한 곳</p>" in value
+    # 외부 자료의 인용문만 접힘 영역에 넣는다.
+    assert value.count("<details>") == 1 and "“원재료: 수박씨 100%”" in value and "“내용량 300g”" not in value
+    assert "<script" not in value  # 보조 JSON-LD는 설정으로 켠 경우에만 넣는다.
+    again = draft(
+        "cafe24", {"description": value}, FOOD, ["description"], [], [], [], editor_conversion=False
+    )
+    assert again[0] == []
+
+
+def test_smartstore_section_uses_only_verified_tags():
+    changes, *_ = draft("smartstore", {}, FOOD, ["description"], [], [], [], editor_conversion=True)
+    value = changes[0]["proposed"]
+    # 스마트스토어 실계정 저장으로 확인한 태그(div·p·h2·h3·img)와 기존 영역 표시만 쓴다.
+    assert _tags(value) <= {"section", "h2", "h3", "p"}
+    assert "<p>원재료: 수박씨 100% (출처: maker.example.com)</p>" in value
+    assert "<p>A. 서늘한 곳</p>" in value
+
+
+def test_json_ld_matches_visible_facts_and_cannot_close_script():
+    import json
+    import re
+
+    facts = [fact("material", '면 </script><img src=x onerror="alert(1)"> & 폴리')]
+    changes, *_ = draft(
+        "cafe24", {}, facts, ["description"], [], [], [], editor_conversion=False, json_ld=True
+    )
+    value = changes[0]["proposed"]
+    scripts = re.findall(r'<script type="application/ld\+json">(.*?)</script>', value, re.S)
+    assert len(scripts) == 1 and "<" not in scripts[0] and "&" not in scripts[0]
+    data = json.loads(scripts[0])
+    assert data["name"] == "티셔츠 A / 검정 M"
+    assert data["additionalProperty"] == [
+        {"@type": "PropertyValue", "name": "소재", "value": facts[0]["value"]}
+    ]
+    naver, *_ = draft(
+        "smartstore", {}, facts, ["description"], [], [], [], editor_conversion=True, json_ld=True
+    )
+    assert "<script" not in naver[0]["proposed"]
+
+
+def test_short_fields_follow_length_rules_and_keep_existing_values():
+    fields = ["seo.meta_title", "seo.meta_description", "seo.meta_keywords", "simple_description"]
+    changes, *_ = draft(
+        "cafe24", {}, FOOD, fields, [], [], [], editor_conversion=False, product_name="수박씨 분말 300g"
+    )
+    by_field = {c["field"]: c["proposed"] for c in changes}
+    assert by_field["seo.meta_title"] == "수박씨 분말 300g | 수박씨 100% | 300g | 서늘한 곳"
+    assert len(by_field["seo.meta_title"]) <= 60
+    assert by_field["seo.meta_description"].startswith("수박씨 분말 300g. 원재료 수박씨 100%")
+    assert len(by_field["seo.meta_description"]) <= 155
+    assert by_field["seo.meta_keywords"] == "수박씨 분말 300g,수박씨 100%,300g,서늘한 곳"
+    assert by_field["simple_description"] == by_field["seo.meta_description"]
+    kept, *_ = draft(
+        "cafe24",
+        {"seo.meta_title": "기존 제목"},
+        FOOD,
+        ["seo.meta_title"],
+        [],
+        [],
+        [],
+        editor_conversion=False,
+    )
+    assert kept == []
+    # 상품명을 받지 못하면 identity의 `상품명 | 모델명`에서 상품명만 쓴다.
+    model_facts = [{**f, "identity": "보온병 | B750"} for f in FOOD]
+    titled, *_ = draft("cafe24", {}, model_facts, ["seo.meta_title"], [], [], [], editor_conversion=False)
+    assert titled[0]["proposed"].startswith("보온병 | 수박씨 100%")
+
+
 def test_default_scope_and_existing_source_links():
     from seelo.domain.commerce import description_links, recommended_fields
 

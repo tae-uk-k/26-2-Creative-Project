@@ -12,8 +12,12 @@ export function readableText(value: string): string {
     .forEach((node) => node.remove());
   doc.querySelectorAll("br").forEach((node) => node.replaceWith("\n"));
   doc.querySelectorAll("li").forEach((node) => node.prepend("• "));
+  // 정비안의 사양 목록(dt 이름·dd 값)과 접힘 영역 제목을 한 줄씩 읽히게 한다.
+  doc.querySelectorAll("dt").forEach((node) => node.append(": "));
   doc
-    .querySelectorAll("p, div, li, h1, h2, h3, h4, h5, h6, section, tr, ul, ol")
+    .querySelectorAll(
+      "p, div, li, h1, h2, h3, h4, h5, h6, section, tr, ul, ol, dl, dd, summary, details",
+    )
     .forEach((node) => node.append("\n"));
   return (doc.body.textContent ?? "")
     .replace(/[ \t ]+\n/g, "\n")

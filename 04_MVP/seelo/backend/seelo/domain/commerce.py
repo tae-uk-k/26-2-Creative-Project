@@ -279,6 +279,141 @@ def source_text(value: str) -> str:
     ]
 
 
+# 사용·보관·주의 소제목에 모으는 사실. 나머지는 상품 사양에 둔다.
+USE_KEYS = {"serving", "care", "storage", "allergens"}
+# 상품 자체 원본(기존 본문)에서 읽은 사실. 관리 화면·API 주소는 공개 출처로 표시하지 않는다.
+OWN_SOURCES = {"api", "browser"}
+QUOTE_LIMIT = 300
+# 실계정 저장·재조회로 확인한 태그만 쓰는 플랫폼. 스마트스토어는 div·p·h2·h3·img만 확인했다.
+PLAIN_PLATFORMS = {"smartstore"}
+
+
+def _josa(word: str, pair: tuple[str, str] = ("은", "는")) -> str:
+    """마지막 글자에 받침이 있으면 앞 조사, 없으면 뒤 조사."""
+    last = word.rstrip()[-1:] if word.strip() else ""
+    if "가" <= last <= "힣":
+        return pair[0] if (ord(last) - 0xAC00) % 28 else pair[1]
+    return pair[0]
+
+
+def _source_label(fact: dict) -> str:
+    if fact.get("source") == "owner_answer":
+        return "판매자 확인"
+    if fact.get("source") in OWN_SOURCES or not fact.get("source_url"):
+        return "판매자 상품 정보"
+    try:
+        public_url(fact["source_url"])
+    except AppError:
+        return "판매자 상품 정보"
+    return (urlsplit(fact["source_url"]).hostname or "").removeprefix("www.")
+
+
+def _clip(value: str, limit: int) -> str:
+    value = " ".join(value.split())
+    return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
+
+
+def summary_line(identity: str, keys: list[str], by_key: dict) -> str:
+    """요약 문단. 새 문구를 만들지 않고 상품명과 구매 판단 순서 앞쪽 사실 3개를 잇는다."""
+    head = " · ".join(f"{LABELS[k]} {by_key[k]['value']}" for k in keys[:3])
+    return ". ".join(part for part in (identity.strip(), head) if part)
+
+
+def facts_section(platform: str, identity: str, keys: list[str], by_key: dict, *, json_ld: bool) -> str:
+    """상세 설명 끝에 붙이는 seelo 영역. 화면에 보이는 사실과 같은 값만 기계용 형식으로 넣는다."""
+    plain = platform in PLAIN_PLATFORMS
+    e = html.escape
+    spec = [k for k in keys if k not in USE_KEYS]
+    use = [k for k in keys if k in USE_KEYS]
+
+    def rows(group: list[str]) -> str:
+        if plain:
+            return "".join(
+                f"<p>{e(LABELS[k])}: {e(by_key[k]['value'])} (출처: {e(_source_label(by_key[k]))})</p>"
+                for k in group
+            )
+        items = "".join(
+            f"<dt>{e(LABELS[k])}</dt><dd>{e(by_key[k]['value'])} "
+            f"(출처: <cite>{e(_source_label(by_key[k]))}</cite>)</dd>"
+            for k in group
+        )
+        return f"<dl>{items}</dl>"
+
+    out = ['<section data-seelo="product-facts"><h2>상품 정보</h2>']
+    out.append(f"<p>{e(summary_line(identity, keys, by_key))}</p>")
+    if spec:
+        out.append(f"<h3>상품 사양</h3>{rows(spec)}")
+    if use:
+        out.append(f"<h3>사용·보관·주의</h3>{rows(use)}")
+    answered = [k for k in keys if by_key[k].get("source") == "owner_answer"]
+    if answered:
+        out.append("<h3>자주 묻는 질문</h3>")
+        for k in answered:
+            label = LABELS[k]
+            out.append(f"<p>Q. {e(label)}{_josa(label)} 어떻게 되나요?</p><p>A. {e(by_key[k]['value'])}</p>")
+    if not plain:
+        # 외부 자료의 원문 인용만 접어 둔다. 기존 본문에서 읽은 문장은 이미 화면에 있으므로 넣지 않는다.
+        quotes = []
+        for k in keys:
+            fact = by_key[k]
+            if fact.get("source") in OWN_SOURCES | {"owner_answer"}:
+                continue
+            item = (_source_label(fact), _clip(fact.get("quote") or "", QUOTE_LIMIT))
+            if item[1] and item not in quotes:
+                quotes.append(item)
+        if quotes:
+            body = "".join(f"<p><cite>{e(src)}</cite>: “{e(text)}”</p>" for src, text in quotes)
+            out.append(f"<details><summary>자료 원문 보기</summary>{body}</details>")
+        if json_ld:
+            data = {
+                "@context": "https://schema.org",
+                "@type": "Product",
+                "name": identity.strip(),
+                "additionalProperty": [
+                    {"@type": "PropertyValue", "name": LABELS[k], "value": by_key[k]["value"]} for k in keys
+                ],
+            }
+            # 판매자 값이 스크립트 경계를 닫지 못하게 <, >, &를 유니코드 이스케이프로 바꾼다.
+            text = json.dumps(data, ensure_ascii=False)
+            text = text.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+            out.append(f'<script type="application/ld+json">{text}</script>')
+    out.append("</section>")
+    return "".join(out)
+
+
+def short_value(field: str, identity: str, keys: list[str], by_key: dict) -> str:
+    """짧은 칸의 값. 사실 값만 쓰고 칸마다 길이 한도를 지킨다."""
+    lines = [f"{LABELS[k]}: {by_key[k]['value']}" for k in keys]
+    if field == "seo.meta_title":
+        # 상품명 | 핵심 사양 값. 60자를 넘는 값은 건너뛰고 다음 값을 본다.
+        limit = 60
+        parts = [identity.strip()[:limit]] if identity.strip() else []
+        for k in keys:
+            if len(" | ".join([*parts, by_key[k]["value"].strip()])) <= limit:
+                parts.append(by_key[k]["value"].strip())
+        return " | ".join(parts)
+    if field in {"seo.meta_description", "simple_description"}:
+        limit = 155 if field == "seo.meta_description" else 255
+        return _clip(summary_line(identity, keys, by_key), limit)
+    if field == "seo.meta_keywords":
+        words = [identity.strip()] if identity.strip() else []
+        for k in keys:
+            value = by_key[k]["value"].strip()
+            if len(value) <= 30 and value not in words:
+                words.append(value)
+        selected: list[str] = []
+        for word in words:
+            if len(",".join([*selected, word])) <= 255:
+                selected.append(word)
+        return ",".join(selected)
+    limit = 50 if field == "summary_description" else 255
+    selected = []
+    for line in lines:
+        if len(" · ".join([*selected, line])) <= limit:
+            selected.append(line)
+    return " · ".join(selected)
+
+
 def draft(
     platform: str,
     current: dict[str, str],
@@ -290,11 +425,16 @@ def draft(
     *,
     editor_conversion: bool,
     question_limit: int | None = None,
+    product_name: str | None = None,
+    json_ld: bool = False,
 ) -> tuple[list[dict], list[dict], list[str], list[str]]:
     check_fields(platform, fields)
     by_key = {f["key"]: f for f in facts}
-    keys = list(dict.fromkeys([*order, *by_key]))
-    lines = [f"{LABELS[k]}: {by_key[k]['value']}" for k in keys if k in by_key]
+    keys = [k for k in dict.fromkeys([*order, *by_key]) if k in by_key]
+    # 화면·검색 문구에는 상품명을 쓴다. identity의 `상품명 | 모델명` 중 모델명은 사양 칸에서 다룬다.
+    fallback = next((f["identity"] for f in facts if f.get("identity")), "")
+    name = (product_name or fallback.split(" | ")[0]).strip()
+    lines = [f"{LABELS[k]}: {by_key[k]['value']}" for k in keys]
     evidence = [by_key[k] for k in keys if k in by_key]
     missing = list(dict.fromkeys(k for k in required if k not in by_key))
     # 한 번에 미해결 사실 최대 두 개만 묻는다. 누적 상한은 별도 운영 결정으로만 설정한다.
@@ -315,8 +455,7 @@ def draft(
             deferred.append(field)
             continue
         if field in {"description", "mobile_description"}:
-            section = '<section data-seelo="product-facts"><h2>상품 정보</h2><ul>'
-            section += "".join(f"<li>{html.escape(line)}</li>" for line in lines) + "</ul></section>"
+            section = facts_section(platform, name, keys, by_key, json_ld=json_ld)
             # 기존 이미지·링크·편집기 HTML을 지우거나 재구성하지 않는다.
             pattern = r'<section data-seelo="product-facts">.*?</section>'
             proposed = (
@@ -327,13 +466,8 @@ def draft(
         elif field == "attributes":
             proposed = json.dumps({k: by_key[k]["value"] for k in keys if k in by_key}, ensure_ascii=False)
         else:
-            limit = 50 if field == "summary_description" else 255
-            selected = []
-            for line in lines:
-                if len(" · ".join([*selected, line])) <= limit:
-                    selected.append(line)
             # 원래 있는 요약·SEO를 짧은 새 문장으로 덮어쓰지 않는다.
-            proposed = before or " · ".join(selected)
+            proposed = before or short_value(field, name, keys, by_key)
         if not proposed or proposed == before:
             continue
         manual = field == "attributes" or (platform == "smartstore" and not editor_conversion)

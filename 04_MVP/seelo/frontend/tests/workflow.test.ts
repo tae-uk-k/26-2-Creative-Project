@@ -495,3 +495,17 @@ describe("저장·공개 확인·복구", () => {
     ).not.toThrow();
   });
 });
+
+describe("정비안 글 보기", () => {
+  it("사양 목록과 접힘 영역을 한 줄씩 읽는다", async () => {
+    const { readableText } = await import("../src/ui/DiffView");
+    const html =
+      '<section data-seelo="product-facts"><h2>상품 정보</h2><dl><dt>원재료</dt><dd>수박씨 100% (출처: <cite>maker.example.com</cite>)</dd><dt>무게</dt><dd>300g</dd></dl><details><summary>자료 원문 보기</summary><p>“원재료: 수박씨 100%”</p></details><script type="application/ld+json">{"name":"x"}</script></section>';
+    const text = readableText(html);
+    expect(text).toContain(
+      "원재료: 수박씨 100% (출처: maker.example.com)\n무게: 300g",
+    );
+    expect(text).toContain("자료 원문 보기\n“원재료: 수박씨 100%”");
+    expect(text).not.toContain('"name"');
+  });
+});

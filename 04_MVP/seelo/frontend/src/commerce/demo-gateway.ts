@@ -173,9 +173,63 @@ export function createDemoGateway(): CommerceGateway {
         source: "owner_answer",
       },
     ];
-    const lines = product.facts
-      .map((item) => `<li>${factNames[item.key]}: ${item.value}</li>`)
-      .join("");
+    // 서버 commerce.facts_section의 카페24 구성과 같은 모양: 요약 → 사양 → 사용·보관 → 질문 → 원문.
+    const useKeys = new Set<FactKey>([
+      "serving",
+      "care",
+      "storage",
+      "allergens",
+    ]);
+    const sourceLabel = (item: Fact) =>
+      item.source === "owner_answer"
+        ? "판매자 확인"
+        : new URL(item.source_url ?? source).hostname.replace(/^www\./, "");
+    const josa = (word: string) => {
+      const code = word.charCodeAt(word.length - 1) - 0xac00;
+      return code >= 0 && code <= 11171 && code % 28 ? "은" : "는";
+    };
+    const rows = (items: Fact[]) =>
+      items
+        .map(
+          (item) =>
+            `<dt>${factNames[item.key]}</dt><dd>${item.value} (출처: <cite>${sourceLabel(item)}</cite>)</dd>`,
+        )
+        .join("");
+    const spec = product.facts.filter((item) => !useKeys.has(item.key));
+    const use = product.facts.filter((item) => useKeys.has(item.key));
+    const answered = product.facts.filter(
+      (item) => item.source === "owner_answer",
+    );
+    const quoted = product.facts.filter(
+      (item) => item.source !== "owner_answer",
+    );
+    const summary = product.facts
+      .slice(0, 3)
+      .map((item) => `${factNames[item.key]} ${item.value}`)
+      .join(" · ");
+    const section = [
+      `<section data-seelo="product-facts"><h2>상품 정보</h2>`,
+      `<p>${product.name}. ${summary}</p>`,
+      spec.length ? `<h3>상품 사양</h3><dl>${rows(spec)}</dl>` : "",
+      use.length ? `<h3>사용·보관·주의</h3><dl>${rows(use)}</dl>` : "",
+      answered.length
+        ? `<h3>자주 묻는 질문</h3>${answered
+            .map(
+              (item) =>
+                `<p>Q. ${factNames[item.key]}${josa(factNames[item.key])} 어떻게 되나요?</p><p>A. ${item.value}</p>`,
+            )
+            .join("")}`
+        : "",
+      quoted.length
+        ? `<details><summary>자료 원문 보기</summary>${quoted
+            .map(
+              (item) =>
+                `<p><cite>${sourceLabel(item)}</cite>: “${item.quote}”</p>`,
+            )
+            .join("")}</details>`
+        : "",
+      `</section>`,
+    ].join("");
     const plan: Plan = {
       id: ++sequence,
       productId: product.id,
@@ -185,7 +239,7 @@ export function createDemoGateway(): CommerceGateway {
         {
           field: "description",
           before: product.fields.description,
-          proposed: `${product.fields.description}\n<section data-seelo="product-facts"><h2>상품 정보</h2><ul>${lines}</ul></section>`,
+          proposed: `${product.fields.description}\n${section}`,
           evidence: copy(product.facts),
           method: "api",
           reason: null,

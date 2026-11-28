@@ -36,6 +36,9 @@ class Settings(BaseSettings):
     commerce_web_discovery: bool = False
     # 쇼핑몰의 누적 질문 상한은 미확정이다. 지도 베타의 3문항 정책을 이식하지 않는다.
     commerce_question_limit: int | None = None
+    # 카페24 상세 설명 끝에 화면 사실과 같은 값의 보조 JSON-LD를 넣는다. 편집기가 script를 지우면
+    # 재조회가 불일치하므로 첫 실제 저장에서 유지를 확인한 뒤 켠다. 스마트스토어는 script가 필터링된다.
+    commerce_json_ld: bool = False
     cafe24_client_id: str = ""
     cafe24_client_secret: SecretStr = SecretStr("")
     cafe24_api_version: str = "2026-09-01"

@@ -752,6 +752,8 @@ async def generate(db: AsyncSession, user: User, product_id: int, body: schema.P
         order,
         editor_conversion=body.allow_editor_conversion,
         question_limit=get_settings().commerce_question_limit,
+        product_name=product.name,
+        json_ld=shop.platform == "cafe24" and get_settings().commerce_json_ld,
     )
     if product.snapshot_source == "browser":
         # 브라우저 모드에는 API 편집기 전환 조건이 없다. 화면 설정에 입력 칸이 있는 필드만 자동 저장한다.
