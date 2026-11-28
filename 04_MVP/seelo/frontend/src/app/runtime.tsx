@@ -47,7 +47,12 @@ export function createRuntime(mode: "api" | "demo") {
     queryClient,
     auth: createAuthApi(client),
     account: mode === "demo" ? demoAccountApi() : createAccountApi(client),
-    gateway: mode === "demo" ? createDemoGateway() : createHttpGateway(client),
+    gateway:
+      mode === "demo"
+        ? createDemoGateway(() =>
+            queryClient.getQueryData<User | null>(sessionKey),
+          )
+        : createHttpGateway(client),
     clearCommerce,
   };
 }
@@ -94,13 +99,49 @@ export function useRuntime(): Runtime {
   if (!runtime) throw new Error("실행 환경이 필요합니다.");
   return runtime;
 }
-const demoUser: User = {
-  id: 0,
-  email: "demo@example.com",
-  role: "admin",
-  provider: "email",
-  hasStore: false,
-};
+// 시연 계정은 둘이다. 사장님은 시연 스토어를 모두 가진 판매자, 운영자는 스토어가 없는 seelo 직원이다.
+// 실제 서비스처럼 두 화면을 나눠 보여 주려고 한 계정에 두 역할을 겹치지 않는다.
+export const demoUsers = {
+  seller: {
+    id: 0,
+    email: "demo@example.com",
+    role: "owner",
+    provider: "email",
+    hasStore: true,
+  },
+  operator: {
+    id: 900,
+    email: "operator@example.com",
+    role: "admin",
+    provider: "email",
+    hasStore: false,
+  },
+} satisfies Record<string, User>;
+export type DemoPersona = keyof typeof demoUsers;
+// 시연 중 주소를 직접 열어도 고른 화면을 유지한다. 저장소를 못 쓰면 사장님 화면으로 시작한다.
+const personaKey = "seelo-demo-persona";
+function storedPersona(): DemoPersona {
+  try {
+    return sessionStorage.getItem(personaKey) === "operator"
+      ? "operator"
+      : "seller";
+  } catch {
+    return "seller";
+  }
+}
+function storePersona(persona: DemoPersona | null) {
+  try {
+    if (persona) sessionStorage.setItem(personaKey, persona);
+    else sessionStorage.removeItem(personaKey);
+  } catch {
+    // 저장하지 못해도 지금 화면은 바뀐다.
+  }
+}
+// 시연 자료와 화면 선택을 모두 처음 상태로 돌린다.
+export function restartDemo() {
+  storePersona(null);
+  window.location.assign("/home");
+}
 export function useSession() {
   const runtime = useRuntime();
   return useQuery({
@@ -114,7 +155,8 @@ export function useSession() {
       }
     },
     enabled: runtime.mode === "api",
-    initialData: runtime.mode === "demo" ? demoUser : undefined,
+    initialData:
+      runtime.mode === "demo" ? demoUsers[storedPersona()] : undefined,
     staleTime: 30_000,
   });
 }
@@ -140,10 +182,20 @@ export function useLogout() {
       runtime.queryClient.clear();
       runtime.queryClient.setQueryData(
         sessionKey,
-        runtime.mode === "demo" ? demoUser : null,
+        runtime.mode === "demo" ? demoUsers[storedPersona()] : null,
       );
     },
   });
+}
+// 시연에서 사장님·운영자 화면을 바꾼다. 시연 자료는 그대로 두고 조회 결과만 새로 받는다.
+// 같은 화면에 머물러도 동작하도록 조회 결과를 지우지 않고 다시 받는다.
+export async function switchDemoPersona(
+  runtime: Runtime,
+  persona: DemoPersona,
+) {
+  storePersona(persona);
+  runtime.queryClient.setQueryData(sessionKey, demoUsers[persona]);
+  await runtime.queryClient.invalidateQueries({ predicate: isCommerce });
 }
 export async function acceptSession(runtime: Runtime, user: User) {
   await runtime.queryClient.cancelQueries({ queryKey: sessionKey });

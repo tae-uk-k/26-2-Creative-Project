@@ -1,13 +1,13 @@
 import { useQueries } from "@tanstack/react-query";
-import { ArrowRight, BriefcaseBusiness, Plus } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
 import { keys, useOperatorTasks, useStores } from "../app/commerce";
 import { useRuntime, useSession } from "../app/runtime";
 import { storeReady, summaryState } from "../commerce/progress";
 import type { Product, Store } from "../commerce/schemas";
 import { ButtonLink } from "../ui/Button";
 import { Badge, EmptyState, Panel } from "../ui/Display";
-import { CardGrid, Page, PageHeader, SectionTitle, Stack } from "../ui/Layout";
-import { Card, CardTop, List, ListRow } from "../ui/List";
+import { Page, PageHeader, SectionTitle, Stack } from "../ui/Layout";
+import { List, ListRow } from "../ui/List";
 import { PlatformMark } from "../ui/AppShell";
 import { QueryState } from "./common";
 import styles from "./home.module.css";
@@ -115,19 +115,15 @@ export function HomePage() {
   );
   const loading = stores.isPending || products.some((query) => query.isPending);
   return (
-    <Page>
+    <Page width="medium">
       <PageHeader
         title="오늘 할 일"
-        actions={
-          stores.data?.length ? (
-            <ButtonLink
-              to="/stores/new"
-              variant="secondary"
-              icon={<Plus aria-hidden="true" />}
-            >
-              스토어 연결
-            </ButtonLink>
-          ) : undefined
+        description={
+          !loading && stores.data?.length
+            ? todos.length
+              ? `직접 해 주셔야 하는 일이 ${todos.length}개 있어요.`
+              : "지금은 직접 해 주실 일이 없어요."
+            : undefined
         }
       />
       <QueryState
@@ -154,25 +150,23 @@ export function HomePage() {
       )}
       {!loading && !!stores.data?.length && (
         <Stack>
+          {/* 할 일 하나가 한 줄이다. 줄 전체를 누르면 그 일을 하는 화면으로 간다. */}
           {todos.length ? (
-            <CardGrid label="지금 할 일">
+            <List label="지금 할 일">
               {todos.map((todo) => (
-                <Card key={todo.key} to={todo.to}>
-                  <CardTop>
+                <ListRow
+                  key={todo.key}
+                  to={todo.to}
+                  media={
                     <span className={styles.emoji} aria-hidden="true">
                       {todo.emoji}
                     </span>
-                    <span className={styles.todoText}>
-                      <strong>{todo.title}</strong>
-                      <span>{todo.sub}</span>
-                    </span>
-                  </CardTop>
-                  <span className={styles.go}>
-                    바로 하기 <ArrowRight size={16} aria-hidden="true" />
-                  </span>
-                </Card>
+                  }
+                  title={todo.title}
+                  sub={todo.sub}
+                />
               ))}
-            </CardGrid>
+            </List>
           ) : (
             <Panel>
               <EmptyState emoji="☕" title="지금 할 일은 없어요">
@@ -192,12 +186,7 @@ export function HomePage() {
                       <PlatformMark platform={store.platform} size="2.5rem" />
                     }
                     title={store.name}
-                    sub="권한 확인"
-                    meta={
-                      <Badge tone="blue" dot>
-                        확인 중
-                      </Badge>
-                    }
+                    sub="seelo가 권한을 확인하고 있어요"
                   />
                 ))}
                 {progress.map(({ product, label, tone }) => (

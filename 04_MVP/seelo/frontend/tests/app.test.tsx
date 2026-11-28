@@ -7,18 +7,33 @@ import {
   within,
 } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { act } from "react";
 import { MemoryRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { AppRoutes } from "../src/app/router";
 import {
   createRuntime,
+  demoUsers,
   RuntimeProvider,
   sessionKey,
+  switchDemoPersona,
   type Runtime,
 } from "../src/app/runtime";
 import { keys } from "../src/app/commerce";
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  // 시연 화면 선택은 세션 저장소에 남는다. 테스트마다 사장님 화면에서 시작한다.
+  sessionStorage.clear();
+});
+// 운영자 화면으로 시작하는 시연 실행 환경.
+function operatorRuntime() {
+  const runtime = createRuntime("demo");
+  runtime.queryClient.setQueryData(sessionKey, demoUsers.operator);
+  return runtime;
+}
+const asOperator = (runtime: Runtime) =>
+  act(() => switchDemoPersona(runtime, "operator"));
 function mount(path: string, runtime: Runtime = createRuntime("demo")) {
   render(
     <RuntimeProvider runtime={runtime}>
@@ -35,7 +50,7 @@ const mainNav = () =>
   within(screen.getByRole("navigation", { name: "주요 메뉴" }));
 // 근거를 직접 넣고 정비안을 만든 뒤 정비안 검토 화면에서 승인한다.
 async function draftAndApprove() {
-  fireEvent.click(await screen.findByText("직접 보완·범위 지정"));
+  fireEvent.click(await screen.findByText("정보를 직접 넣을게요"));
   change("확인한 값", "일상용");
   change("근거 주소", "https://example.com/source");
   change("값이 포함된 인용문", "일상용 텀블러입니다.");
@@ -66,6 +81,12 @@ describe("화면 통합", () => {
       ),
     ).toBeDefined();
     expect(screen.getByRole("link", { name: "로그인" })).toBeDefined();
+    // 시안의 히어로처럼 무료 진단 버튼이 준비 중 안내를 연다.
+    const diagnosis = screen.getByRole("button", { name: "무료 진단받기" });
+    expect(diagnosis.getAttribute("popovertarget")).toBe("diagnosis-notice");
+    expect(document.getElementById("diagnosis-notice")?.textContent).toBe(
+      "무료 진단은 준비 중이에요.",
+    );
   });
   it("홈은 스토어 위임·보고서 같은 할 일을 카드로 모은다", async () => {
     mount("/home");
@@ -107,6 +128,12 @@ describe("화면 통합", () => {
   it("근거 저장 → 생성 → 승인 → 운영자 반영 → 복구를 실행한다", async () => {
     const runtime = mount("/stores/1/products/11");
     await draftAndApprove();
+    // 판매자 화면에는 반영 버튼이 없다. 운영자 화면에서 반영한다.
+    await screen.findByText("seelo가 확인하고 반영할게요");
+    expect(
+      screen.queryByRole("button", { name: "승인한 변경 적용" }),
+    ).toBeNull();
+    await asOperator(runtime);
     fireEvent.click(
       await screen.findByRole("button", { name: "승인한 변경 적용" }),
     );
@@ -135,17 +162,21 @@ describe("화면 통합", () => {
     );
     fireEvent.click(confirm);
     await screen.findByRole("heading", { name: "API 연결" });
-    expect(screen.queryByRole("button", { name: /API로 불러오기/ })).toBeNull();
+    expect(screen.queryByRole("button", { name: "상품 추가" })).toBeNull();
+    expect(screen.queryByRole("button", { name: "불러오기" })).toBeNull();
   });
-  it("이전 정비안을 골라 쓰기 이력을 본다", async () => {
-    mount("/stores/1/products/11");
+  it("반영한 정비안의 쓰기 이력을 본다", async () => {
+    const runtime = mount("/stores/1/products/11");
     await draftAndApprove();
+    await screen.findByText("seelo가 확인하고 반영할게요");
+    await asOperator(runtime);
     fireEvent.click(
       await screen.findByRole("button", { name: "승인한 변경 적용" }),
     );
     await screen.findByText("쇼핑몰에 반영했어요");
-    const history = screen.getByRole("list", { name: "정비안 이력" });
-    fireEvent.click(within(history).getAllByRole("link")[0]);
+    // 정비안이 하나뿐이면 지난 정비안 목록 없이 이번 정비안에서 연다.
+    expect(screen.queryByRole("list", { name: "정비안 이력" })).toBeNull();
+    fireEvent.click(screen.getByRole("link", { name: "자세히" }));
     await screen.findByRole("list", { name: /의 쓰기 이력$/ });
     expect(await screen.findByText("쇼핑몰 반영")).toBeDefined();
     expect(screen.queryByRole("button", { name: /승인하기/ })).toBeNull();
@@ -170,18 +201,17 @@ describe("화면 통합", () => {
     );
     fireEvent.click(screen.getByRole("button", { name: "답변 저장" }));
     await screen.findByText("정비안이 준비됐어요");
-    fireEvent.click(mainNav().getByRole("link", { name: "운영자" }));
+    // 사장님 화면에는 운영 관리 메뉴가 없다. 시연 띠에서 운영자 화면으로 바꾼다.
+    expect(mainNav().queryByRole("link", { name: "운영 관리" })).toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: "운영자 화면" }));
+    await screen.findByRole("heading", { name: "운영 관리" });
+    expect(mainNav().queryByRole("link", { name: "홈" })).toBeNull();
     fireEvent.click(await screen.findByRole("tab", { name: /고객 승인 대기/ }));
     const list = await screen.findByRole("list", { name: "작업 대기 목록" });
     expect(list.textContent).toContain("고객 승인 대기");
     expect(list.textContent).toContain("demo@example.com");
-    // 다른 운영자 계정으로 보면 승인 버튼 대신 고객 승인 대기를 표시한다.
-    runtime.queryClient.setQueryData(sessionKey, {
-      id: 99,
-      email: "operator@example.com",
+    expect(runtime.queryClient.getQueryData(sessionKey)).toMatchObject({
       role: "admin",
-      provider: "email",
-      hasStore: false,
     });
     fireEvent.click(within(list).getAllByRole("link")[0]);
     await screen.findByText("판매자 승인을 기다려요.");
@@ -216,11 +246,89 @@ describe("화면 통합", () => {
       result: { productId: product.id },
     });
     mount("/stores/1", runtime);
+    fireEvent.click(await screen.findByRole("button", { name: "상품 추가" }));
     await screen.findByLabelText("상품번호 또는 카페24 상품 주소");
     change("상품번호 또는 카페24 상품 주소", "1001");
-    fireEvent.click(screen.getByRole("button", { name: /API로 불러오기/ }));
+    fireEvent.click(screen.getByRole("button", { name: "불러오기" }));
     await screen.findByRole("heading", { name: product.name });
     expect(runtime.gateway.job).toHaveBeenCalledWith(77, expect.anything());
+  });
+  it("스토어 화면은 상품 목록을 먼저 보여 주고 상품 추가는 눌러서 연다", async () => {
+    mount("/stores/1");
+    const list = await screen.findByRole("list", { name: "불러온 상품 목록" });
+    await waitFor(() =>
+      expect(list.textContent).toContain("시연용 보온병 750mL"),
+    );
+    // 연결을 마친 스토어에는 연결 단계와 상품 추가 입력칸을 처음부터 펼치지 않는다.
+    expect(
+      screen.queryByRole("group", { name: "스토어 연결 단계" }),
+    ).toBeNull();
+    expect(
+      screen.queryByLabelText("상품번호 또는 카페24 상품 주소"),
+    ).toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: "상품 추가" }));
+    await screen.findByLabelText("상품번호 또는 카페24 상품 주소");
+    fireEvent.click(screen.getByRole("button", { name: "닫기" }));
+    await waitFor(() =>
+      expect(
+        screen.queryByLabelText("상품번호 또는 카페24 상품 주소"),
+      ).toBeNull(),
+    );
+    // 스토어 화면에는 상품 목록 하나만 둔다. AI 노출은 메뉴에서 본다.
+    expect(screen.queryByRole("tablist")).toBeNull();
+  });
+  it("AI 노출 메뉴는 상품마다 숫자만 보여 주고 상품을 누르면 자세히 연다", async () => {
+    mount("/home");
+    fireEvent.click(
+      await within(
+        await screen.findByRole("navigation", { name: "주요 메뉴" }),
+      ).findByRole("link", { name: "AI 노출" }),
+    );
+    await screen.findByText("1개 상품이 AI 답변에 더 자주 나와요");
+    const list = await screen.findByRole("list", {
+      name: "카페24 시연 스토어 상품별 노출",
+    });
+    const rows = within(list).getAllByRole("link");
+    const bottle = rows.find((row) =>
+      row.textContent?.includes("시연용 보온병 750mL"),
+    )!;
+    expect(bottle.textContent).toContain("56%");
+    expect(bottle.textContent).toContain("+44%p");
+    const tumbler = rows.find((row) =>
+      row.textContent?.includes("시연용 텀블러 500mL"),
+    )!;
+    // 측정 전 상품은 한 번만 말한다. 빈 값(-)을 칸마다 늘어놓지 않는다.
+    expect(tumbler.textContent?.match(/측정 전/g)).toHaveLength(1);
+    expect(tumbler.textContent).not.toContain("-");
+    // 줄 안에는 상태 배지·보고서·측정 버튼을 두지 않는다.
+    expect(within(list).queryByRole("button")).toBeNull();
+    expect(within(list).queryByText("전후 비교 가능")).toBeNull();
+    fireEvent.click(bottle);
+    const chatgpt = await screen.findByRole("region", { name: "ChatGPT 노출" });
+    expect(chatgpt.textContent).toContain("+44%p");
+  });
+  it("상품 화면은 정비와 AI 노출을 탭으로 나누고 측정 관리는 운영자에게만 보인다", async () => {
+    mount("/stores/1/products/13?tab=exposure");
+    const chatgpt = await screen.findByRole("region", { name: "ChatGPT 노출" });
+    expect(chatgpt.textContent).toContain("상품 발견");
+    expect(chatgpt.textContent).toContain("+44%p");
+    expect(
+      screen.getByRole("link", { name: "전후 보고서 보기" }),
+    ).toBeDefined();
+    expect(screen.queryByRole("link", { name: "측정 관리" })).toBeNull();
+    // 정비 탭의 확인한 정보는 AI 노출 탭에서 보이지 않는다.
+    expect(screen.queryByRole("region", { name: "확인한 정보" })).toBeNull();
+    fireEvent.click(screen.getByRole("tab", { name: "정비" }));
+    await screen.findByRole("region", { name: "확인한 정보" });
+    // 판매자 화면에는 되돌리기·측정 같은 운영자 행동이 없다.
+    expect(
+      screen.queryByRole("button", { name: "수정 전으로 되돌리기" }),
+    ).toBeNull();
+    cleanup();
+    mount("/stores/1/products/13?tab=exposure", operatorRuntime());
+    expect(
+      await screen.findByRole("link", { name: "측정 관리" }),
+    ).toBeDefined();
   });
   it("쇼핑몰 상품 목록을 불러온 상품과 구분하고 골라 가져온다", async () => {
     const runtime = createRuntime("demo");
@@ -231,7 +339,7 @@ describe("화면 통합", () => {
     mount("/stores/1?view=catalog", runtime);
     fireEvent.click(
       await screen.findByRole("button", {
-        name: "관리 화면에서 상품 목록 조회",
+        name: "쇼핑몰 상품 목록 가져오기",
       }),
     );
     const list = await screen.findByRole("list", { name: "플랫폼 상품" });
@@ -267,7 +375,7 @@ describe("화면 통합", () => {
     ).toBeDefined();
   });
   it("측정 실패는 무효로 표시하고 같은 세트 회차를 보고서로 비교한다", async () => {
-    mount("/stores/1/products/11/measure");
+    mount("/stores/1/products/11/measure", operatorRuntime());
     change("세트 이름", "기본");
     change(
       '고정 질문 (한 줄에 "ID | 질문" 또는 "ID | 질문군 | 질문")',
@@ -339,22 +447,61 @@ describe("화면 통합", () => {
       </StrictMode>,
     );
     await screen.findByText(
-      "스마트스토어 API는 공식 판매자 연결 후 관리자가 별도로 인증합니다.",
+      /스마트스토어 API는 seelo가 공식 절차로 따로 인증해요/,
     );
     expect(sessionStorage.getItem("seelo-oauth-return")).toBeNull();
   });
   it("로그아웃 성공 때 사용자별 조회 캐시를 비운다", async () => {
-    const runtime = createRuntime("demo");
+    const runtime = createRuntime("api");
+    runtime.queryClient.setQueryData(sessionKey, demoUsers.seller);
     runtime.queryClient.setQueryData(["mail-status", "private-ticket"], {
       status: "sent",
     });
-    mount("/stores", runtime);
-    await screen.findByText("카페24 시연 스토어");
-    fireEvent.click(screen.getByRole("button", { name: "조회 캐시 초기화" }));
+    runtime.gateway.stores = vi.fn().mockResolvedValue([]);
+    runtime.account.get = vi.fn().mockResolvedValue({
+      email: "demo@example.com",
+      provider: "email",
+      createdAt: "2026-11-01T00:00:00+00:00",
+      canChangePassword: true,
+    });
+    runtime.auth.logout = vi.fn().mockResolvedValue(undefined);
+    mount("/account", runtime);
+    fireEvent.click(await screen.findByRole("button", { name: "로그아웃" }));
     await waitFor(() =>
       expect(
         runtime.queryClient.getQueryData(["mail-status", "private-ticket"]),
       ).toBeUndefined(),
     );
+  });
+  it("시연에서 사장님 화면과 운영자 화면은 메뉴부터 나뉜다", async () => {
+    mount("/home");
+    await screen.findByRole("heading", { name: "오늘 할 일" });
+    expect(
+      mainNav()
+        .getAllByRole("link")
+        .map((link) => link.textContent),
+    ).toEqual(["홈", "스토어", "AI 노출"]);
+    // 시연 계정에는 로그아웃할 계정이 없어 계정 화면에 로그아웃 버튼을 두지 않는다.
+    fireEvent.click(screen.getByRole("button", { name: "운영자 화면" }));
+    await screen.findByRole("heading", { name: "운영 관리" });
+    expect(
+      mainNav()
+        .getAllByRole("link")
+        .map((link) => link.textContent),
+    ).toEqual(["운영 관리"]);
+    fireEvent.click(screen.getByRole("button", { name: "사장님 화면" }));
+    await screen.findByRole("heading", { name: "오늘 할 일" });
+  });
+  it("운영자가 고객 스토어를 열면 판매자 안내 대신 권한 확인 칸을 본다", async () => {
+    mount("/stores/4", operatorRuntime());
+    await screen.findByText("판매자가 권한을 줬다고 알려 왔어요");
+    expect(screen.getByRole("link", { name: /고객 스토어/ })).toBeDefined();
+    expect(
+      screen.getByRole("button", { name: "권한 확인 완료" }),
+    ).toBeDefined();
+    expect(screen.queryByRole("button", { name: "안내 다시 보기" })).toBeNull();
+    expect(
+      screen.queryByRole("button", { name: "부운영자를 만들었어요" }),
+    ).toBeNull();
   });
 });

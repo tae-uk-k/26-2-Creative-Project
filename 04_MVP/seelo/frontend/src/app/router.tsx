@@ -7,11 +7,18 @@ import {
   Route,
   Routes,
   useLocation,
+  useNavigate,
   useParams,
   useSearchParams,
 } from "react-router-dom";
 import { consumeOAuthReturn, safeReturnTo } from "../api/auth";
-import { useLogout, useRuntime, useSession } from "./runtime";
+import { useStores } from "./commerce";
+import {
+  restartDemo,
+  switchDemoPersona,
+  useRuntime,
+  useSession,
+} from "./runtime";
 import {
   LoginPage,
   PasswordPage,
@@ -21,6 +28,7 @@ import {
   VerifyPage,
 } from "../pages/auth";
 import { AccountPage } from "../pages/account";
+import { ExposurePage } from "../pages/exposure";
 import { HomePage } from "../pages/home";
 import { LandingPage } from "../pages/landing/Landing";
 import { PrivacyPage, TermsPage } from "../pages/legal";
@@ -36,7 +44,7 @@ import {
   StoresPage,
 } from "../pages/stores";
 import { NotFoundPage, QueryState } from "../pages/common";
-import { AppShell } from "../ui/AppShell";
+import { AppShell, type ShellRole } from "../ui/AppShell";
 import { Page } from "../ui/Layout";
 
 export function SessionGuard() {
@@ -61,17 +69,34 @@ export function SessionGuard() {
     );
   return <Outlet />;
 }
-function ShellLayout() {
-  const { mode } = useRuntime();
+// 운영자에게 내 스토어가 없으면 판매자 메뉴를 숨긴다. 판매자에게는 운영 관리를 보이지 않는다.
+function useShellRole(): ShellRole {
   const session = useSession();
-  const logout = useLogout();
+  const stores = useStores();
+  if (session.data?.role !== "admin") return "seller";
+  return stores.data?.length ? "both" : "operator";
+}
+function ShellLayout() {
+  const runtime = useRuntime();
+  const session = useSession();
+  const navigate = useNavigate();
+  const role = useShellRole();
   return (
     <AppShell
       email={session.data?.email}
-      admin={session.data?.role === "admin"}
-      demo={mode === "demo"}
-      resetting={logout.isPending}
-      onReset={() => logout.mutate()}
+      role={role}
+      demo={
+        runtime.mode === "demo"
+          ? {
+              persona: session.data?.role === "admin" ? "operator" : "seller",
+              onPersona: (persona) =>
+                void switchDemoPersona(runtime, persona).then(() =>
+                  navigate(persona === "operator" ? "/operator" : "/home"),
+                ),
+              onRestart: restartDemo,
+            }
+          : undefined
+      }
     />
   );
 }
@@ -116,7 +141,13 @@ function HomeRoute() {
     if (stored !== null) consumeOAuthReturn();
   }, [stored]);
   const target = stored !== null ? safeReturnTo(stored) : "/home";
-  return target !== "/home" ? <Navigate to={target} replace /> : <HomePage />;
+  const session = useSession();
+  const stores = useStores();
+  if (target !== "/home") return <Navigate to={target} replace />;
+  // 내 스토어가 없는 운영자의 첫 화면은 운영 관리다.
+  if (session.data?.role === "admin" && stores.data?.length === 0)
+    return <Navigate to="/operator" replace />;
+  return <HomePage />;
 }
 function LegacyProducts() {
   const { storeId = "" } = useParams();
@@ -173,6 +204,7 @@ export function AppRoutes() {
             path="stores/:storeId/products/:productId/measure"
             element={<MeasurePage />}
           />
+          <Route path="exposure" element={<ExposurePage />} />
           <Route path="operator" element={<OperatorPage />} />
           <Route path="account" element={<AccountPage />} />
           <Route path="*" element={<NotFoundPage />} />

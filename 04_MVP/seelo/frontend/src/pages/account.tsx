@@ -4,13 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { LogOut } from "lucide-react";
 import { deleteConfirmText } from "../api/account";
 import { useLogout, useRuntime } from "../app/runtime";
-import { Button } from "../ui/Button";
+import { Button, TextButton } from "../ui/Button";
 import { Facts, Notice, Panel } from "../ui/Display";
 import { TextField } from "../ui/Field";
 import { Page, PageHeader, Stack } from "../ui/Layout";
 import { ConfirmDialog } from "../ui/Overlay";
 import { day } from "../ui/labels";
 import { ErrorMessage, QueryState, formValues } from "./common";
+import styles from "./account.module.css";
 
 const providers = { email: "이메일", google: "Google", kakao: "카카오" };
 export function AccountPage() {
@@ -23,6 +24,7 @@ export function AccountPage() {
   });
   const change = useMutation({ mutationFn: runtime.account.changePassword });
   const [leaving, setLeaving] = useState(false);
+  const [editing, setEditing] = useState(false);
   const [typed, setTyped] = useState("");
   const remove = useMutation({
     mutationFn: () => runtime.account.remove(typed),
@@ -54,8 +56,27 @@ export function AccountPage() {
             />
           </Panel>
           {account.data.canChangePassword && (
-            <Panel title="비밀번호 변경" small>
-              {change.isSuccess ? (
+            <Panel
+              title="비밀번호 변경"
+              small
+              action={
+                !editing && !change.isSuccess ? (
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    onClick={() => setEditing(true)}
+                  >
+                    변경하기
+                  </Button>
+                ) : undefined
+              }
+            >
+              {/* 자주 쓰지 않는 칸이라 접어 둔다. 누르면 입력칸을 연다. */}
+              {!editing && !change.isSuccess ? (
+                <p className={styles.hint}>
+                  로그인할 때 쓰는 비밀번호를 바꿔요.
+                </p>
+              ) : change.isSuccess ? (
                 <Notice tone="success" title="비밀번호를 바꿨어요">
                   다른 기기의 로그인은 끝났습니다.
                 </Notice>
@@ -99,35 +120,25 @@ export function AccountPage() {
               )}
             </Panel>
           )}
-          <Panel tight flat>
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "0.5rem",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
+          {/* 로그아웃은 보조 버튼, 탈퇴는 맨 아래 흐린 글자 버튼. 자주 누르지 않는 일을 앞에 두지 않는다. */}
+          {runtime.mode === "api" && (
+            <Button
+              variant="secondary"
+              block
+              icon={<LogOut aria-hidden="true" />}
+              loading={logout.isPending}
+              onClick={() =>
+                logout.mutate(undefined, {
+                  onSuccess: () => navigate("/", { replace: true }),
+                })
+              }
             >
-              <Button
-                variant="secondary"
-                icon={<LogOut aria-hidden="true" />}
-                loading={logout.isPending}
-                onClick={() =>
-                  logout.mutate(undefined, {
-                    onSuccess: () =>
-                      runtime.mode === "api" &&
-                      navigate("/", { replace: true }),
-                  })
-                }
-              >
-                {runtime.mode === "demo" ? "조회 캐시 초기화" : "로그아웃"}
-              </Button>
-              <Button variant="ghost" onClick={() => setLeaving(true)}>
-                탈퇴
-              </Button>
-            </div>
-          </Panel>
+              로그아웃
+            </Button>
+          )}
+          <TextButton className={styles.leave} onClick={() => setLeaving(true)}>
+            탈퇴
+          </TextButton>
         </Stack>
       )}
       <ConfirmDialog

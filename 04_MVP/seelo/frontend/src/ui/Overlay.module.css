@@ -62,8 +62,11 @@
 }
 
 /* 탭 */
+/* 넓은 화면에서는 내용 너비만큼만, 좁은 화면에서는 한 줄 가득 채운다. */
 .tabs {
   display: flex;
+  width: fit-content;
+  max-width: 100%;
   gap: var(--s-1);
   overflow-x: auto;
   padding: var(--s-1);
@@ -77,6 +80,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--s-2);
+  min-width: 6.5rem;
   min-height: 2.5rem;
   padding: 0 var(--s-4);
   border: 0;
@@ -136,12 +140,39 @@
 .actionSummary b {
   color: var(--s-grey900);
 }
+.actionSpacer {
+  display: none;
+}
+/* 하단 메뉴가 있는 화면: 결정 버튼을 하단 메뉴 바로 위에 고정한다. 내용이 짧아도 떠 보이지 않는다. */
+@media (max-width: 48rem) {
+  .actionBar {
+    position: fixed;
+    right: 0;
+    bottom: calc(4rem + env(safe-area-inset-bottom));
+    left: 0;
+    z-index: 25;
+    margin: 0;
+    padding: var(--s-3) var(--s-edge);
+    border-radius: var(--s-r-xl) var(--s-r-xl) 0 0;
+  }
+  .actionSpacer {
+    display: block;
+    height: 7rem;
+  }
+}
 @media (max-width: 38rem) {
+  .tabs {
+    width: auto;
+  }
   .actionBar {
     flex-direction: column;
     align-items: stretch;
-    margin-inline: calc(var(--s-edge) * -1);
-    border-radius: var(--s-r-xl) var(--s-r-xl) 0 0;
-    padding-bottom: calc(var(--s-4) + env(safe-area-inset-bottom));
+    gap: var(--s-2);
+  }
+}
+@media print {
+  .actionBar,
+  .actionSpacer {
+    display: none;
   }
 }

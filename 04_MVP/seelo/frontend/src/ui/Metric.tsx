@@ -97,3 +97,48 @@ export function MetricValue({
     </div>
   );
 }
+
+// 보조 지표. 큰 숫자 하나 아래에 한 줄씩 둔다. before가 있으면 전후 변화를 함께 쓴다.
+export type MetricRow = {
+  key: string;
+  label: ReactNode;
+  caption?: ReactNode;
+  value: number | null;
+  before?: number | null;
+};
+export function MetricRows({ rows }: { rows: MetricRow[] }) {
+  return (
+    <dl className={styles.rows}>
+      {rows.map((row) => {
+        const change =
+          row.before !== undefined && row.before !== null && row.value !== null
+            ? Math.round((row.value - row.before) * 100)
+            : null;
+        return (
+          <div key={row.key}>
+            <dt>
+              {row.label}
+              {row.caption && <small>{row.caption}</small>}
+            </dt>
+            <dd>
+              {row.before !== undefined && (
+                <span className={styles.rowFrom}>{percent(row.before)} → </span>
+              )}
+              {percent(row.value)}
+              {change !== null && change !== 0 && (
+                <span
+                  className={[
+                    styles.rowDelta,
+                    change > 0 ? styles.up : styles.down,
+                  ].join(" ")}
+                >
+                  {change > 0 ? ` +${change}%p` : ` ${change}%p`}
+                </span>
+              )}
+            </dd>
+          </div>
+        );
+      })}
+    </dl>
+  );
+}

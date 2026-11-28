@@ -44,12 +44,12 @@ import {
   type ProductTarget,
   type Store,
 } from "../commerce/schemas";
-import { Button, ButtonLink, ExternalButton } from "../ui/Button";
+import { Button, ButtonLink, ExternalButton, TextButton } from "../ui/Button";
 import { Badge, EmptyState, Notice, Panel } from "../ui/Display";
 import { Checkbox, InlineForm, Select, TextArea, TextField } from "../ui/Field";
 import { CardGrid, Page, PageHeader, Stack } from "../ui/Layout";
 import { Card, CardTop, List, ListRow } from "../ui/List";
-import { ConfirmDialog, Tabs } from "../ui/Overlay";
+import { ConfirmDialog } from "../ui/Overlay";
 import { Stepper, Timeline, type StepState } from "../ui/Steps";
 import { PlatformMark } from "../ui/AppShell";
 import { apiLabels, managerLabels, managerTones, when } from "../ui/labels";
@@ -130,12 +130,15 @@ export function StoresPage() {
                   <PlatformMark platform={store.platform} />
                   <StoreTitle store={store} />
                 </CardTop>
-                <Stepper
-                  label={`${store.name} 연결 단계`}
-                  steps={steps}
-                  current={storeStage(store)}
-                  error={store.managerStatus === "revoked"}
-                />
+                {/* 연결을 마친 스토어에는 다 찬 단계 표시가 필요 없다. */}
+                {!storeReady(store) && (
+                  <Stepper
+                    label={`${store.name} 연결 단계`}
+                    steps={steps}
+                    current={storeStage(store)}
+                    error={store.managerStatus === "revoked"}
+                  />
+                )}
                 <div className={styles.cardFoot}>
                   <ConnectionBadge store={store} />
                   <ChevronRight size={18} aria-hidden="true" />
@@ -260,6 +263,14 @@ export function StoreNewPage() {
     </Page>
   );
 }
+// 이 스토어의 주인(판매자)인지, seelo 운영자인지. 두 화면에 보이는 행동을 가른다.
+function useStoreViewer(store: Store) {
+  const session = useSession();
+  return {
+    owner: !session.data || session.data.id === store.ownerId,
+    admin: session.data?.role === "admin",
+  };
+}
 function useStoreId() {
   const { storeId = "" } = useParams();
   const id = Number(storeId);
@@ -270,7 +281,7 @@ export function StoreHomePage() {
   const store = useStore(id ?? 0);
   if (id === null) return <InvalidPath />;
   return (
-    <Page>
+    <Page width="medium">
       <QueryState
         pending={store.isPending}
         error={store.error}
@@ -280,13 +291,19 @@ export function StoreHomePage() {
     </Page>
   );
 }
+// 연결을 마친 스토어는 상품 목록을 먼저 보여 준다. 연결 단계는 연결 전에만 보여 준다.
 function StoreHome({ store }: { store: Store }) {
   const browser = store.editingMode === "browser";
   const ready = storeReady(store);
+  const viewer = useStoreViewer(store);
   return (
     <>
       <PageHeader
-        back={{ to: "/stores", label: "스토어" }}
+        back={
+          viewer.owner
+            ? { to: "/stores", label: "스토어" }
+            : { to: "/operator?tab=shops", label: "고객 스토어" }
+        }
         eyebrow={
           <>
             <PlatformMark platform={store.platform} size="1.75rem" />
@@ -297,7 +314,7 @@ function StoreHome({ store }: { store: Store }) {
         actions={
           <ButtonLink
             to={`/stores/${store.id}/settings`}
-            variant="secondary"
+            variant="ghost"
             size="sm"
             icon={<Settings aria-hidden="true" />}
           >
@@ -305,15 +322,19 @@ function StoreHome({ store }: { store: Store }) {
           </ButtonLink>
         }
       >
-        <Stepper
-          label="스토어 연결 단계"
-          steps={browser ? storeSteps : apiStoreSteps}
-          current={storeStage(store)}
-          error={store.managerStatus === "revoked"}
-        />
+        {!ready && (
+          <Stepper
+            label="스토어 연결 단계"
+            steps={browser ? storeSteps : apiStoreSteps}
+            current={storeStage(store)}
+            error={store.managerStatus === "revoked"}
+          />
+        )}
       </PageHeader>
       <Stack>
-        {browser &&
+        {/* seelo 담당자 브라우저 상태다. 판매자가 할 수 있는 일이 없어 운영자에게만 보인다. */}
+        {viewer.admin &&
+          browser &&
           store.browserSession &&
           store.browserSession.status !== "ok" && (
             <Notice tone="warning" title="담당자 로그인이 필요해요">
@@ -456,15 +477,34 @@ const guides: Record<
 };
 function Delegation({ store }: { store: Store }) {
   const action = useShopAction(store.id);
-  const session = useSession();
   const runtime = useRuntime();
   const [reopen, setReopen] = useState(false);
-  const admin = session.data?.role === "admin";
-  const owner = session.data?.id === store.ownerId;
+  const { owner, admin } = useStoreViewer(store);
   const guide = guides[store.platform];
   const invited = store.managerStatus === "invited";
   const invoke = (value: Parameters<typeof action.run>[0]) =>
     void action.run(value).catch(() => undefined);
+  // 운영자는 판매자용 안내 대신 지금 상태와 권한 확인 칸만 본다.
+  if (!owner)
+    return (
+      <>
+        <Notice
+          tone={invited ? "info" : "warning"}
+          title={
+            invited
+              ? "판매자가 권한을 줬다고 알려 왔어요"
+              : store.managerStatus === "revoked"
+                ? "권한이 해제됐어요"
+                : "판매자가 아직 권한을 주지 않았어요"
+          }
+        >
+          {invited
+            ? `${platformNames[store.platform]} 관리 화면에서 위임을 확인하고 아래에 기록해 주세요.`
+            : "판매자가 권한을 주면 이 화면에서 확인할 수 있어요."}
+        </Notice>
+        {admin && <OperatorVerify store={store} />}
+      </>
+    );
   return (
     <>
       {store.managerStatus === "revoked" && (
@@ -498,13 +538,11 @@ function Delegation({ store }: { store: Store }) {
               ]}
             />
           </div>
-          {owner && (
-            <div className={styles.guideActions}>
-              <Button variant="secondary" onClick={() => setReopen(true)}>
-                안내 다시 보기
-              </Button>
-            </div>
-          )}
+          <div className={styles.guideActions}>
+            <Button variant="secondary" onClick={() => setReopen(true)}>
+              안내 다시 보기
+            </Button>
+          </div>
         </Panel>
       ) : (
         <Panel title={`${platformNames[store.platform]}에서 권한 주기`}>
@@ -528,21 +566,20 @@ function Delegation({ store }: { store: Store }) {
             >
               {guide.adminLabel}
             </ExternalButton>
-            {(owner || admin) && (
-              <Button
-                loading={action.isPending}
-                onClick={() => {
-                  setReopen(false);
-                  invoke({ action: "manager", status: "invited" });
-                }}
-              >
-                {guide.done}
-              </Button>
-            )}
+            <Button
+              loading={action.isPending}
+              onClick={() => {
+                setReopen(false);
+                invoke({ action: "manager", status: "invited" });
+              }}
+            >
+              {guide.done}
+            </Button>
           </div>
         </Panel>
       )}
       <ErrorMessage error={action.error} />
+      {/* 판매자이면서 관리자인 계정만 여기서 바로 확인한다. */}
       {admin && <OperatorVerify store={store} />}
     </>
   );
@@ -594,34 +631,42 @@ function OperatorVerify({ store }: { store: Store }) {
 function ApiConnect({ store }: { store: Store }) {
   const action = useShopAction(store.id);
   const runtime = useRuntime();
+  const { owner } = useStoreViewer(store);
+  // 버튼 하나로 카페24 인증 화면까지 간다. 인증 주소를 받은 뒤 다시 누르게 하지 않는다.
+  const authorize = () =>
+    void action
+      .run({ action: "authorize" })
+      .then((url) => {
+        if (url) window.location.assign(url);
+      })
+      .catch(() => undefined);
   return (
     <Panel title="API 연결">
       {store.platform === "cafe24" ? (
-        <Stack>
-          <p style={{ color: "var(--s-grey600)" }}>
-            카페24 인증 화면에서 상품 권한을 허용하면 연결됩니다.
-          </p>
-          <Button
-            loading={action.isPending}
-            onClick={() =>
-              void action.run({ action: "authorize" }).catch(() => undefined)
-            }
-          >
-            {runtime.mode === "demo" ? "시연 API 인증 완료" : "카페24 API 연결"}
-          </Button>
-          {action.data && (
-            <ExternalButton
-              href={action.data}
-              variant="secondary"
+        owner ? (
+          <Stack>
+            <p style={{ color: "var(--s-grey600)" }}>
+              카페24 인증 화면에서 상품 권한을 허용하면 연결돼요.
+            </p>
+            <Button
+              loading={action.isPending}
               icon={<ExternalLink aria-hidden="true" />}
+              onClick={authorize}
             >
-              카페24 인증창 열기
-            </ExternalButton>
-          )}
-        </Stack>
+              {runtime.mode === "demo"
+                ? "시연 API 인증 완료"
+                : "카페24에서 허용하기"}
+            </Button>
+          </Stack>
+        ) : (
+          <Notice title="판매자의 API 허용을 기다려요">
+            판매자가 카페24 인증 화면에서 상품 권한을 허용하면 연결돼요.
+          </Notice>
+        )
       ) : (
-        <Notice title="운영자가 연결해요">
-          스마트스토어 API는 공식 판매자 연결 후 관리자가 별도로 인증합니다.
+        <Notice title="seelo가 연결해요">
+          스마트스토어 API는 seelo가 공식 절차로 따로 인증해요. 연결이 끝나면 이
+          화면에서 상품을 불러올 수 있어요.
         </Notice>
       )}
       <ErrorMessage error={action.error} />
@@ -635,14 +680,17 @@ function productTarget(value: string): ProductTarget {
     ? { externalId: productNoSchema.parse(text) }
     : { productUrl: text };
 }
+// 스토어 화면 본문. 상품 목록 하나만 둔다. 상품을 더하는 방법(번호·쇼핑몰 목록·직접 입력)은
+// 모두 `상품 추가` 안에 모은다.
 function ProductsSection({ store }: { store: Store }) {
   const [params, setParams] = useSearchParams();
   const navigate = useNavigate();
   const runtime = useRuntime();
+  const browser = store.editingMode === "browser";
   const candidate = Number(params.get("page"));
   const page = Number.isSafeInteger(candidate) && candidate > 0 ? candidate : 1;
   const query = (params.get("query") ?? "").slice(0, 200);
-  const tab = params.get("view") === "catalog" ? "catalog" : "imported";
+  const catalog = browser && params.get("view") === "catalog";
   const products = useProducts(store.id, { page, query });
   const importer = useImportProduct(store.id);
   const rawJob = Number(params.get("job"));
@@ -682,107 +730,136 @@ function ProductsSection({ store }: { store: Store }) {
     }
   };
   const collecting = job.data && job.data.shopId === store.id ? job.data : null;
+  // 상품이 없거나 불러오는 중이면 추가 칸을 닫지 않는다.
+  const empty = products.data?.total === 0 && !query;
+  const requested = params.get("add") === "1" || catalog;
+  const adding = requested || jobId !== undefined || empty;
+  const closeAdd = () => {
+    const next = Object.fromEntries(params);
+    delete next.add;
+    delete next.view;
+    setParams(next);
+  };
+  const toggleCatalog = () => {
+    const next = Object.fromEntries(params);
+    if (catalog) delete next.view;
+    else next.view = "catalog";
+    setParams({ ...next, add: "1" });
+  };
   return (
     <>
-      <Panel title="상품 추가">
-        <form onSubmit={(event) => void importProduct(event)}>
-          <InlineForm>
-            <TextField
-              label={
-                store.platform === "cafe24"
-                  ? "상품번호 또는 카페24 상품 주소"
-                  : "원상품번호"
-              }
-              name="externalId"
-              required
-              maxLength={2048}
-              hint={
-                store.platform === "smartstore"
-                  ? "판매자센터 상품 목록의 원상품번호예요. 공개 주소의 번호와 달라요."
-                  : undefined
-              }
-            />
-            <div style={{ alignSelf: "start", paddingTop: "1.85rem" }}>
-              <Button
-                type="submit"
-                size="lg"
-                loading={
-                  importer.isPending ||
-                  Boolean(collecting && activeJob(collecting))
+      {adding && (
+        <Panel
+          title="상품 추가"
+          action={
+            requested && !empty && !jobId ? (
+              <TextButton onClick={closeAdd}>닫기</TextButton>
+            ) : undefined
+          }
+        >
+          <form
+            className={styles.importForm}
+            onSubmit={(event) => void importProduct(event)}
+          >
+            <InlineForm>
+              <TextField
+                label={
+                  store.platform === "cafe24"
+                    ? "상품번호 또는 카페24 상품 주소"
+                    : "원상품번호"
                 }
-                icon={<PackagePlus aria-hidden="true" />}
-              >
-                {store.editingMode === "browser"
-                  ? "관리자 화면에서 불러오기"
-                  : "API로 불러오기"}
-              </Button>
-            </div>
-          </InlineForm>
-        </form>
-        <div style={{ display: "grid", gap: "0.75rem", marginTop: "1rem" }}>
-          {collecting && (
-            <Notice
-              tone={
-                collecting.status === "failed"
-                  ? "error"
-                  : collecting.stale
-                    ? "warning"
-                    : collecting.status === "succeeded"
-                      ? "success"
-                      : "progress"
-              }
-            >
-              {collecting.status === "failed"
-                ? `불러오지 못했어요 · ${jobMessage(collecting.errorCode)}`
-                : collecting.stale
-                  ? "불러오기가 오래 멈췄어요. 다시 불러올 수 있어요."
-                  : collecting.status === "succeeded"
-                    ? "불러왔어요"
-                    : "관리자 화면에서 상품을 불러오는 중이에요"}
-            </Notice>
-          )}
-          <ErrorMessage error={error ?? job.error} />
-          <ManualSnapshot store={store} />
-        </div>
-      </Panel>
-      {store.editingMode === "browser" && (
-        <Tabs
-          label="상품 보기"
-          value={tab}
-          onChange={(key) =>
-            setParams(key === "catalog" ? { view: "catalog" } : {})
-          }
-          items={[
-            { key: "imported", label: "불러온 상품" },
-            { key: "catalog", label: "쇼핑몰 상품 목록" },
-          ]}
-        />
-      )}
-      {tab === "catalog" && store.editingMode === "browser" ? (
-        <CatalogPanel
-          store={store}
-          busy={importer.isPending}
-          onImport={(productNo) =>
-            void importer
-              .mutateAsync({ externalId: productNo })
-              .then(afterImport)
-              .catch(setError)
-          }
-        />
-      ) : (
-        <section aria-label="불러온 상품">
-          <div className={styles.toolbar}>
-            <h2 style={{ fontSize: "var(--s-t4)", fontWeight: 700 }}>
-              불러온 상품
-              {products.data ? (
-                <span
-                  style={{ color: "var(--s-grey500)", marginLeft: "0.4rem" }}
+                name="externalId"
+                required
+                maxLength={2048}
+                hint={
+                  store.platform === "smartstore"
+                    ? "판매자센터 상품 목록의 원상품번호예요. 공개 주소의 번호와 달라요."
+                    : undefined
+                }
+              />
+              <div className={styles.importAction}>
+                <Button
+                  type="submit"
+                  size="lg"
+                  loading={
+                    importer.isPending ||
+                    Boolean(collecting && activeJob(collecting))
+                  }
+                  icon={<PackagePlus aria-hidden="true" />}
                 >
-                  {products.data.total}
-                </span>
-              ) : null}
+                  불러오기
+                </Button>
+              </div>
+            </InlineForm>
+          </form>
+          <div style={{ display: "grid", gap: "0.75rem", marginTop: "1rem" }}>
+            {collecting && (
+              <Notice
+                tone={
+                  collecting.status === "failed"
+                    ? "error"
+                    : collecting.stale
+                      ? "warning"
+                      : collecting.status === "succeeded"
+                        ? "success"
+                        : "progress"
+                }
+              >
+                {collecting.status === "failed"
+                  ? `불러오지 못했어요 · ${jobMessage(collecting.errorCode)}`
+                  : collecting.stale
+                    ? "불러오기가 오래 멈췄어요. 다시 불러올 수 있어요."
+                    : collecting.status === "succeeded"
+                      ? "불러왔어요"
+                      : "상품을 불러오는 중이에요"}
+              </Notice>
+            )}
+            <ErrorMessage error={error ?? job.error} />
+            {browser && (
+              <TextButton className={styles.pick} onClick={toggleCatalog}>
+                {catalog
+                  ? "쇼핑몰 상품 목록 닫기"
+                  : "쇼핑몰 상품 목록에서 고를게요"}
+              </TextButton>
+            )}
+            {catalog && (
+              <CatalogPanel
+                store={store}
+                busy={importer.isPending}
+                onImport={(productNo) =>
+                  void importer
+                    .mutateAsync({ externalId: productNo })
+                    .then(afterImport)
+                    .catch(setError)
+                }
+              />
+            )}
+            <ManualSnapshot store={store} />
+          </div>
+        </Panel>
+      )}
+      {
+        <section aria-label="불러온 상품" className={styles.products}>
+          {/* 목록 머리: 왼쪽 제목과 개수, 오른쪽 추가. 토스 ListHeader와 같은 배치다. */}
+          <div className={styles.listHead}>
+            <h2 className={styles.listTitle}>
+              상품
+              {products.data ? <span>{products.data.total}</span> : null}
             </h2>
-            {(products.data?.total ?? 0) > 5 || query ? (
+            {!adding && (
+              <TextButton
+                className={styles.addButton}
+                onClick={() =>
+                  setParams({ ...Object.fromEntries(params), add: "1" })
+                }
+              >
+                <Plus aria-hidden="true" />
+                상품 추가
+              </TextButton>
+            )}
+          </div>
+          {(products.data?.total ?? 0) > 5 || query ? (
+            <div className={styles.toolbar}>
               <form
                 role="search"
                 onSubmit={(event) => {
@@ -814,8 +891,8 @@ function ProductsSection({ store }: { store: Store }) {
                   </Button>
                 </InlineForm>
               </form>
-            ) : null}
-          </div>
+            </div>
+          ) : null}
           <QueryState
             pending={products.isPending}
             error={products.error}
@@ -878,7 +955,7 @@ function ProductsSection({ store }: { store: Store }) {
             </div>
           )}
         </section>
-      )}
+      }
     </>
   );
 }
@@ -994,14 +1071,14 @@ function CatalogPanel({
         <span style={{ color: "var(--s-grey600)", fontSize: "var(--s-t6)" }}>
           {catalog.data?.collectedAt
             ? `${when(catalog.data.collectedAt)} 기준 · ${catalog.data.items.length}개${catalog.data.truncated ? "(일부)" : ""}`
-            : "관리자 화면에서 상품번호와 이름만 읽어요."}
+            : "쇼핑몰에서 상품번호와 이름만 읽어 와요."}
         </span>
         <Button
           variant="secondary"
           loading={loading}
           onClick={() => void request()}
         >
-          관리 화면에서 상품 목록 조회
+          쇼핑몰 상품 목록 가져오기
         </Button>
       </div>
       {job.data?.status === "failed" && (
@@ -1085,29 +1162,34 @@ function StoreSettings({ store }: { store: Store }) {
       />
       <Stack>
         <Panel title="상태" small>
+          {/* 판매자에게는 연결 여부와 방식만, 운영자에게는 실행에 필요한 상태를 모두 보여 준다. */}
           <div className={styles.statusGrid} aria-label="연결 상태">
             <div className={styles.status}>
-              <span>관리자 권한</span>
+              <span>연결 상태</span>
               <ConnectionBadge store={store} />
             </div>
             <div className={styles.status}>
-              <span>수정 방식</span>
+              <span>연결 방식</span>
               <strong>
-                {store.editingMode === "browser" ? "관리자 화면 자동화" : "API"}
+                {store.editingMode === "browser" ? "관리자 권한 위임" : "API"}
               </strong>
             </div>
-            {store.editingMode !== "browser" && (
+            {admin && store.editingMode !== "browser" && (
               <div className={styles.status}>
                 <span>API 인증</span>
                 <strong>{apiLabels[store.apiStatus]}</strong>
               </div>
             )}
-            <div className={styles.status}>
-              <span>자동 수정</span>
-              <strong>{store.automaticWritesEnabled ? "켜짐" : "꺼짐"}</strong>
-            </div>
+            {admin && (
+              <div className={styles.status}>
+                <span>자동 수정</span>
+                <strong>
+                  {store.automaticWritesEnabled ? "켜짐" : "꺼짐"}
+                </strong>
+              </div>
+            )}
           </div>
-          {store.delegatedIdentity?.storeName && (
+          {admin && store.delegatedIdentity?.storeName && (
             <p
               style={{
                 marginTop: "1rem",
